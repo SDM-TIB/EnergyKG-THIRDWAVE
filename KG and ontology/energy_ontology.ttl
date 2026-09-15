@@ -1,0 +1,3007 @@
+@prefix :     <https://w3id.org/thirdwave/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+
+
+<https://w3id.org/thirdwave/ontology> a owl:Ontology ;
+    dct:title "Renewable Energy Research Ontology"@en ;
+    owl:versionInfo "14" ;
+    dct:description "An ontology for representing renewable energy research studies: resources, systems, components, datasets, variables, models and their applications, analyses, locations, evaluation results, economic and performance metrics, and the documentary evidence supporting each reported fact."@en .
+
+
+:Analysis a owl:Class ;
+    rdfs:label "Analysis"@en .
+
+:AtmosphericDerivedVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Atmospheric derived variable"@en .
+
+:Barrier a owl:Class ;
+    rdfs:subClassOf :InfluencingFactor ;
+    rdfs:label "Barrier"@en .
+
+:BiomassComponent a owl:Class ;
+    rdfs:subClassOf :EnergySystemComponent ;
+    rdfs:label "Biomass component"@en .
+
+:BiomassDesignCharacteristics a owl:Class ;
+    rdfs:subClassOf :DesignCharacteristics ;
+    rdfs:label "Biomass design characteristics"@en .
+
+:BiomassEnergy a owl:Class ;
+    rdfs:subClassOf :RenewableEnergyResource ;
+    rdfs:label "Biomass energy"@en .
+
+:BiomassEnergySystem a owl:Class ;
+    rdfs:subClassOf :EnergySystem ;
+    rdfs:label "Biomass energy system"@en .
+
+:CaseStudy a owl:Class ;
+    rdfs:subClassOf :Study ;
+    rdfs:label "Case study"@en .
+
+:Climate a owl:Class ;
+    rdfs:label "Climate"@en .
+
+:Coal a owl:Class ;
+    rdfs:subClassOf :NonRenewableEnergyResource ;
+    rdfs:label "Coal"@en .
+
+:ComparativeStudy a owl:Class ;
+    rdfs:subClassOf :Study ;
+    rdfs:label "Comparative study"@en .
+
+:CorrelationMetric a owl:Class ;
+    rdfs:subClassOf :EvaluationMetric ;
+    rdfs:label "Correlation metric"@en .
+
+:CostMetric a owl:Class ;
+    rdfs:subClassOf :EconomicMetric ;
+    rdfs:label "Cost metric"@en .
+
+:DataAssimilation a owl:Class ;
+    rdfs:subClassOf :Analysis ;
+    rdfs:label "Data assimilation"@en .
+
+:DataDrivenModel a owl:Class ;
+    rdfs:subClassOf :Model ;
+    rdfs:label "Data driven model"@en .
+
+:Dataset a owl:Class ;
+    rdfs:label "Dataset"@en .
+
+:DecisionCriterion a owl:Class ;
+    rdfs:label "Decision criterion"@en .
+
+:DescriptiveApplication a owl:Class ;
+    rdfs:subClassOf :ModelApplication ;
+    rdfs:label "Descriptive application"@en .
+
+:DesignCharacteristics a owl:Class ;
+    rdfs:label "Design characteristics"@en .
+
+
+:DistributionMetric a owl:Class ;
+    rdfs:subClassOf :EvaluationMetric ;
+    rdfs:label "Distribution metric"@en .
+
+:Driver a owl:Class ;
+    rdfs:subClassOf :InfluencingFactor ;
+    rdfs:label "Driver"@en .
+
+:EconomicMetric a owl:Class ;
+    rdfs:subClassOf :Metric ;
+    rdfs:label "Economic metric"@en .
+
+:EmpiricalModel a owl:Class ;
+    rdfs:subClassOf :SymbolicModel ;
+    rdfs:label "Empirical model"@en .
+
+:EnergyCarrier a owl:Class ;
+    rdfs:label "Energy carrier"@en .
+
+:EnergyResource a owl:Class ;
+    rdfs:label "Energy resource"@en .
+
+:EnergySystem a owl:Class ;
+    rdfs:label "Energy system"@en .
+
+:EnergySystemComponent a owl:Class ;
+    rdfs:label "Energy system component"@en .
+
+:ErrorMetric a owl:Class ;
+    rdfs:subClassOf :EvaluationMetric ;
+    rdfs:label "Error metric"@en .
+
+:EvaluationMetric a owl:Class ;
+    rdfs:subClassOf :Metric ;
+    rdfs:label "Evaluation metric"@en .
+
+:EvaluationResult a owl:Class ;
+    rdfs:label "Evaluation result"@en .
+
+:Evidence a owl:Class ;
+    rdfs:label "Evidence"@en .
+
+
+
+:GeothermalComponent a owl:Class ;
+    rdfs:subClassOf :EnergySystemComponent ;
+    rdfs:label "Geothermal component"@en .
+
+:GeothermalDesignCharacteristics a owl:Class ;
+    rdfs:subClassOf :DesignCharacteristics ;
+    rdfs:label "Geothermal design characteristics"@en .
+
+:GeothermalEnergy a owl:Class ;
+    rdfs:subClassOf :RenewableEnergyResource ;
+    rdfs:label "Geothermal energy"@en .
+
+:GeothermalEnergySystem a owl:Class ;
+    rdfs:subClassOf :EnergySystem ;
+    rdfs:label "Geothermal energy system"@en .
+
+:HybridEnergySystem a owl:Class ;
+    rdfs:subClassOf :EnergySystem ;
+    rdfs:label "Hybrid energy system"@en .
+
+:HybridModel a owl:Class ;
+    rdfs:subClassOf :Model ;
+    rdfs:label "Hybrid model"@en .
+
+:HydroComponent a owl:Class ;
+    rdfs:subClassOf :EnergySystemComponent ;
+    rdfs:label "Hydro component"@en .
+
+:HydroDesignCharacteristics a owl:Class ;
+    rdfs:subClassOf :DesignCharacteristics ;
+    rdfs:label "Hydro design characteristics"@en .
+
+:HydroEnergy a owl:Class ;
+    rdfs:subClassOf :RenewableEnergyResource ;
+    rdfs:label "Hydro energy"@en .
+
+:HydrogenComponent a owl:Class ;
+    rdfs:subClassOf :EnergySystemComponent ;
+    rdfs:label "Hydrogen component"@en .
+
+:HydrogenEnergySystem a owl:Class ;
+    rdfs:subClassOf :EnergySystem ;
+    rdfs:label "Hydrogen energy system"@en .
+
+:HydrogenFuel a owl:Class ;
+    rdfs:subClassOf :EnergyCarrier ;
+    rdfs:label "Hydrogen fuel"@en .
+
+:HydrogenPlantDesignCharacteristics a owl:Class ;
+    rdfs:subClassOf :DesignCharacteristics ;
+    rdfs:label "Hydrogen plant design characteristics"@en .
+
+:HydrologicalVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Hydrological variable"@en .
+
+:HydropowerEnergySystem a owl:Class ;
+    rdfs:subClassOf :EnergySystem ;
+    rdfs:label "Hydropower energy system"@en .
+
+:Impact a owl:Class ;
+    rdfs:label "Impact"@en .
+
+:InSituInstrument a owl:Class ;
+    rdfs:subClassOf :MeasuringInstrument ;
+    rdfs:label "In situ instrument"@en .
+
+:InfluencingFactor a owl:Class ;
+    rdfs:label "Influencing factor"@en .
+
+:LandSurfaceVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Land surface variable"@en .
+
+:Location a owl:Class ;
+    rdfs:label "Location"@en .
+
+:MachineLearningModel a owl:Class ;
+    rdfs:subClassOf :DataDrivenModel ;
+    rdfs:label "Machine learning model"@en .
+
+:MeasuringInstrument a owl:Class ;
+    rdfs:label "Measuring instrument"@en .
+
+:MeteorologicalVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Meteorological variable"@en .
+
+:MethodologicalStudy a owl:Class ;
+    rdfs:subClassOf :Study ;
+    rdfs:label "Methodological study"@en .
+
+:MixtureComponent a owl:Class ;
+    rdfs:label "Mixture component"@en .
+
+:MixtureDistributionModel a owl:Class ;
+    rdfs:subClassOf :ProbabilityDistributionModel ;
+    rdfs:label "Mixture distribution model"@en .
+
+:Model a owl:Class ;
+    rdfs:label "Model"@en .
+
+:ModelApplication a owl:Class ;
+    rdfs:label "Model application"@en .
+
+
+:NaturalGas a owl:Class ;
+    rdfs:subClassOf :NonRenewableEnergyResource ;
+    rdfs:label "Natural gas"@en .
+
+:NonParametricDistributionModel a owl:Class ;
+    rdfs:subClassOf :ProbabilityDistributionModel ;
+    rdfs:label "Non parametric distribution model"@en .
+
+:NonRenewableEnergyResource a owl:Class ;
+    rdfs:subClassOf :EnergyResource ;
+    rdfs:label "Non renewable energy resource"@en .
+
+:NuclearComponent a owl:Class ;
+    rdfs:subClassOf :EnergySystemComponent ;
+    rdfs:label "Nuclear component"@en .
+
+:NuclearDesignCharacteristics a owl:Class ;
+    rdfs:subClassOf :DesignCharacteristics ;
+    rdfs:label "Nuclear design characteristics"@en .
+
+:NuclearEnergy a owl:Class ;
+    rdfs:subClassOf :NonRenewableEnergyResource ;
+    rdfs:label "Nuclear energy"@en .
+
+:NuclearEnergySystem a owl:Class ;
+    rdfs:subClassOf :EnergySystem ;
+    rdfs:label "Nuclear energy system"@en .
+
+:Observation a owl:Class ;
+    rdfs:label "Observation"@en .
+
+:OceanComponent a owl:Class ;
+    rdfs:subClassOf :EnergySystemComponent ;
+    rdfs:label "Ocean component"@en .
+
+:OceanEnergy a owl:Class ;
+    rdfs:subClassOf :RenewableEnergyResource ;
+    rdfs:label "Ocean energy"@en .
+
+:OceanEnergySystem a owl:Class ;
+    rdfs:subClassOf :EnergySystem ;
+    rdfs:label "Ocean energy system"@en .
+
+:OceanPlantDesignCharacteristics a owl:Class ;
+    rdfs:subClassOf :DesignCharacteristics ;
+    rdfs:label "Ocean plant design characteristics"@en .
+
+:Opportunity a owl:Class ;
+    rdfs:subClassOf :SWOTFactor ;
+    rdfs:label "Opportunity"@en .
+
+:OptimizationAlgorithm a owl:Class ;
+    rdfs:label "Optimization algorithm"@en .
+
+:Paper a owl:Class ;
+    rdfs:label "Paper"@en .
+
+:ParameterEstimationMethod a owl:Class ;
+    rdfs:label "Parameter estimation method"@en .
+
+:ParameterValue a owl:Class ;
+    rdfs:label "Parameter value"@en .
+
+:ParametricDistributionModel a owl:Class ;
+    rdfs:subClassOf :ProbabilityDistributionModel ;
+    rdfs:label "Parametric distribution model"@en .
+
+
+:PerformanceMetric a owl:Class ;
+    rdfs:label "Performance metric"@en .
+
+:Petroleum a owl:Class ;
+    rdfs:subClassOf :NonRenewableEnergyResource ;
+    rdfs:label "Petroleum"@en .
+
+:PhysicalModel a owl:Class ;
+    rdfs:subClassOf :SymbolicModel ;
+    rdfs:label "Physical model"@en .
+
+:Policy a owl:Class ;
+    rdfs:label "Policy"@en .
+
+:PolicyTarget a owl:Class ;
+    rdfs:label "Policy target"@en .
+
+:PredictiveApplication a owl:Class ;
+    rdfs:subClassOf :ModelApplication ;
+    rdfs:label "Predictive application"@en .
+
+:ProbabilityDistributionModel a owl:Class ;
+    rdfs:subClassOf :StatisticalModel ;
+    rdfs:label "Probability distribution model"@en .
+
+:ProfitabilityMetric a owl:Class ;
+    rdfs:subClassOf :EconomicMetric ;
+    rdfs:label "Profitability metric"@en .
+
+:RemoteSensingInstrument a owl:Class ;
+    rdfs:subClassOf :MeasuringInstrument ;
+    rdfs:label "Remote sensing instrument"@en .
+
+:RenewableEnergyResource a owl:Class ;
+    rdfs:subClassOf :EnergyResource ;
+    rdfs:label "Renewable energy resource"@en .
+
+:ResearchProblem a owl:Class ;
+    rdfs:label "Research problem"@en .
+
+
+:ResourceCharacterization a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Resource characterization"@en .
+
+
+:ResourceIndicator a owl:Class ;
+    rdfs:subClassOf :PerformanceMetric ;
+    rdfs:label "Resource indicator"@en .
+
+:ReviewStudy a owl:Class ;
+    rdfs:subClassOf :Study ;
+    rdfs:label "Review study"@en .
+
+:SWOTAnalysis a owl:Class ;
+    rdfs:subClassOf :Analysis ;
+    rdfs:label "SWOT analysis"@en .
+
+:SWOTFactor a owl:Class ;
+    rdfs:label "SWOT factor"@en .
+
+:Scenario a owl:Class ;
+    rdfs:label "Scenario"@en .
+
+:SiteSetting a owl:Class ;
+    rdfs:label "Site setting"@en .
+
+:SoftwareTool a owl:Class ;
+    rdfs:label "Software tool"@en .
+
+:SolarComponent a owl:Class ;
+    rdfs:subClassOf :EnergySystemComponent ;
+    rdfs:label "Solar component"@en .
+
+:SolarDesignCharacteristics a owl:Class ;
+    rdfs:subClassOf :DesignCharacteristics ;
+    rdfs:label "Solar design characteristics"@en .
+
+:SolarEnergy a owl:Class ;
+    rdfs:subClassOf :RenewableEnergyResource ;
+    rdfs:label "Solar energy"@en .
+
+:SolarEnergySystem a owl:Class ;
+    rdfs:subClassOf :EnergySystem ;
+    rdfs:label "Solar energy system"@en .
+
+:StatisticalModel a owl:Class ;
+    rdfs:subClassOf :DataDrivenModel ;
+    rdfs:label "Statistical model"@en .
+
+:StorageComponent a owl:Class ;
+    rdfs:subClassOf :EnergySystemComponent ;
+    rdfs:label "Storage component"@en .
+
+:StorageDesignCharacteristics a owl:Class ;
+    rdfs:subClassOf :DesignCharacteristics ;
+    rdfs:label "Storage design characteristics"@en .
+
+:Strength a owl:Class ;
+    rdfs:subClassOf :SWOTFactor ;
+    rdfs:label "Strength"@en .
+
+:Study a owl:Class ;
+    rdfs:label "Study"@en .
+
+:StudyObjective a owl:Class ;
+    rdfs:label "Study objective"@en .
+
+:SymbolicModel a owl:Class ;
+    rdfs:subClassOf :Model ;
+    rdfs:label "Symbolic model"@en .
+
+:SystemIndicator a owl:Class ;
+    rdfs:subClassOf :PerformanceMetric ;
+    rdfs:label "System indicator"@en .
+
+:TechnoEconomicAssessment a owl:Class ;
+    rdfs:subClassOf :Analysis, :StudyObjective ;
+    rdfs:label "Techno economic assessment"@en .
+
+:Terrain a owl:Class ;
+    rdfs:label "Terrain"@en .
+
+:TerrainVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Terrain variable"@en .
+
+:Threat a owl:Class ;
+    rdfs:subClassOf :SWOTFactor ;
+    rdfs:label "Threat"@en .
+
+:TidalEnergy a owl:Class ;
+    rdfs:subClassOf :OceanEnergy ;
+    rdfs:label "Tidal energy"@en .
+
+:TimeSeriesModel a owl:Class ;
+    rdfs:subClassOf :DataDrivenModel ;
+    rdfs:label "Time series model"@en .
+
+:UncertaintyAnalysis a owl:Class ;
+    rdfs:subClassOf :Analysis ;
+    rdfs:label "Uncertainty analysis"@en .
+
+:UncertaintyComponent a owl:Class ;
+    rdfs:label "Uncertainty component"@en .
+
+:Variable a owl:Class ;
+    rdfs:label "Variable"@en .
+
+:WaveEnergy a owl:Class ;
+    rdfs:subClassOf :OceanEnergy ;
+    rdfs:label "Wave energy"@en .
+
+:Weakness a owl:Class ;
+    rdfs:subClassOf :SWOTFactor ;
+    rdfs:label "Weakness"@en .
+
+:WindComponent a owl:Class ;
+    rdfs:subClassOf :EnergySystemComponent ;
+    rdfs:label "Wind component"@en .
+
+:WindDesignCharacteristics a owl:Class ;
+    rdfs:subClassOf :DesignCharacteristics ;
+    rdfs:label "Wind design characteristics"@en .
+
+:WindEnergy a owl:Class ;
+    rdfs:subClassOf :RenewableEnergyResource ;
+    rdfs:label "Wind energy"@en .
+
+:WindEnergySystem a owl:Class ;
+    rdfs:subClassOf :EnergySystem ;
+    rdfs:label "Wind energy system"@en .
+
+:WindPowerClass a owl:Class ;
+    rdfs:label "Wind power class"@en .
+
+
+:PredictiveApplication owl:disjointWith :DescriptiveApplication .
+
+:addressesFactor a owl:ObjectProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range :InfluencingFactor ;
+    rdfs:label "Addresses factor"@en .
+
+:affectsEnergyResource a owl:ObjectProperty ;
+    rdfs:domain :InfluencingFactor ;
+    rdfs:range :EnergyResource ;
+    rdfs:label "Affects energy resource"@en .
+
+:affectsEnergySystem a owl:ObjectProperty ;
+    rdfs:domain :InfluencingFactor ;
+    rdfs:range :EnergySystem ;
+    rdfs:label "Affects energy system"@en .
+
+:affectsLocation a owl:ObjectProperty ;
+    rdfs:domain :InfluencingFactor ;
+    rdfs:range :Location ;
+    rdfs:label "Affects location"@en .
+
+:analysisConsidersScenario a owl:ObjectProperty ;
+    rdfs:domain :Analysis ;
+    rdfs:range :Scenario ;
+    rdfs:label "Analysis considers scenario"@en .
+
+:analysisUsesCriterion a owl:ObjectProperty ;
+    rdfs:domain :Analysis ;
+    rdfs:range :DecisionCriterion ;
+    rdfs:label "Analysis uses criterion"@en .
+
+:analysisUsesVariable a owl:ObjectProperty ;
+    rdfs:domain :Analysis ;
+    rdfs:range :Variable ;
+    rdfs:label "Analysis uses variable"@en .
+
+:analyzesEnergyResource a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :SWOTAnalysis :Study ) ] ;
+    rdfs:range :EnergyResource ;
+    rdfs:label "Analyzes energy resource"@en .
+
+:applicationUsesScenario a owl:ObjectProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range :Scenario ;
+    rdfs:label "Application uses scenario"@en .
+
+:appliedAtLocation a owl:ObjectProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range :Location ;
+    rdfs:label "Applied at location"@en .
+
+:appliedToVariable a owl:ObjectProperty ;
+    rdfs:domain :DescriptiveApplication ;
+    rdfs:range :Variable ;
+    rdfs:label "Applied to variable"@en .
+
+:appliesModel a owl:ObjectProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range :Model ;
+    rdfs:label "Applies model"@en .
+
+:appliesToLocation a owl:ObjectProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range :Location ;
+    rdfs:label "Applies to location"@en .
+
+:assessedInStudy a owl:ObjectProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range :Study ;
+    rdfs:label "Assessed in study"@en .
+
+:assessesEnergySystem a owl:ObjectProperty ;
+    rdfs:domain :Study ;
+    rdfs:range :EnergySystem ;
+    rdfs:label "Assesses energy system"@en .
+
+:assimilatesModel a owl:ObjectProperty ;
+    rdfs:domain :DataAssimilation ;
+    rdfs:range :Model ;
+    rdfs:label "Assimilates model"@en .
+
+:characterizesEnergyResource a owl:ObjectProperty ;
+    rdfs:domain :Variable ;
+    rdfs:range :EnergyResource ;
+    rdfs:label "Characterizes energy resource"@en .
+
+:characterizesLocation a owl:ObjectProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range :Location ;
+    rdfs:label "Characterizes location"@en .
+
+:characterizesVariable a owl:ObjectProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range :Variable ;
+    rdfs:label "Characterizes variable"@en .
+
+:collectedAt a owl:ObjectProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range :Location ;
+    rdfs:label "Collected at"@en .
+
+:collectedWithInstrument a owl:ObjectProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range :MeasuringInstrument ;
+    rdfs:label "Collected with instrument"@en .
+
+:combinesModel a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :HybridModel :Model ) ] ;
+    rdfs:range :Model ;
+    rdfs:label "Combines model"@en .
+
+:combinesSystem a owl:ObjectProperty ;
+    rdfs:domain :HybridEnergySystem ;
+    rdfs:range :EnergySystem ;
+    rdfs:label "Combines system"@en .
+
+:componentModelType a owl:ObjectProperty ;
+    rdfs:domain :MixtureComponent ;
+    rdfs:range :Model ;
+    rdfs:label "Component model type"@en .
+
+:concernsEnergyResource a owl:ObjectProperty ;
+    rdfs:domain :SWOTFactor ;
+    rdfs:range :EnergyResource ;
+    rdfs:label "Concerns energy resource"@en .
+
+:conductedAt a owl:ObjectProperty ;
+    rdfs:domain :Study ;
+    rdfs:range :Location ;
+    rdfs:label "Conducted at"@en .
+
+:consumesEnergyCarrier a owl:ObjectProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range :EnergyCarrier ;
+    rdfs:label "Consumes energy carrier"@en .
+
+:criterionEvaluatesVariable a owl:ObjectProperty ;
+    rdfs:domain :DecisionCriterion ;
+    rdfs:range :Variable ;
+    rdfs:label "Criterion evaluates variable"@en .
+
+:datasetContainsObservation a owl:ObjectProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range :Observation ;
+    rdfs:label "Dataset contains observation"@en .
+
+:derivedFromDataset a owl:ObjectProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range :Dataset ;
+    rdfs:label "Derived from dataset"@en .
+
+:derivedFromModel a owl:ObjectProperty ;
+    rdfs:domain :Model ;
+    rdfs:range :Model ;
+    rdfs:label "Derived from model"@en .
+
+:derivedFromVariable a owl:ObjectProperty ;
+    rdfs:domain :Variable ;
+    rdfs:range :Variable ;
+    rdfs:label "Derived from variable"@en .
+
+:employsAnalysis a owl:ObjectProperty ;
+    rdfs:domain :Study ;
+    rdfs:range :Analysis ;
+    rdfs:label "Employs analysis"@en .
+
+:employsModel a owl:ObjectProperty ;
+    rdfs:domain :Study ;
+    rdfs:range :Model ;
+    rdfs:comment "Materialised by a SPARQL CONSTRUCT after RDFization. Never extracted from a paper."@en ;
+    rdfs:label "Employs model"@en .
+
+:evaluatedAt a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :EconomicMetric :PerformanceMetric ) ] ;
+    rdfs:range :Location ;
+    rdfs:label "Evaluated at"@en .
+
+:evaluatedAtLocation a owl:ObjectProperty ;
+    rdfs:domain :Analysis ;
+    rdfs:range :Location ;
+    rdfs:label "Evaluated at location"@en .
+
+:evaluationResultForCriterion a owl:ObjectProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range :DecisionCriterion ;
+    rdfs:label "Evaluation result for criterion"@en .
+
+:evaluationResultForScenario a owl:ObjectProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range :Scenario ;
+    rdfs:label "Evaluation result for scenario"@en .
+
+:hasClimate a owl:ObjectProperty ;
+    rdfs:domain :Location ;
+    rdfs:range :Climate ;
+    rdfs:label "Has climate"@en .
+
+:hasComponent a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :BiomassEnergySystem :EnergySystem :GeothermalEnergySystem :HydrogenEnergySystem :HydropowerEnergySystem :NuclearEnergySystem :OceanEnergySystem :SolarEnergySystem :WindEnergySystem ) ] ;
+    rdfs:range [ a owl:Class ; owl:unionOf ( :BiomassComponent :EnergySystemComponent :GeothermalComponent :HydroComponent :HydrogenComponent :NuclearComponent :OceanComponent :SolarComponent :WindComponent ) ] ;
+    rdfs:label "Has component"@en .
+
+:hasDesignCharacteristics a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :BiomassComponent :EnergySystemComponent :GeothermalComponent :HydroComponent :HydrogenComponent :NuclearComponent :OceanComponent :SolarComponent :StorageComponent :WindComponent ) ] ;
+    rdfs:range [ a owl:Class ; owl:unionOf ( :BiomassDesignCharacteristics :DesignCharacteristics :GeothermalDesignCharacteristics :HydroDesignCharacteristics :HydrogenPlantDesignCharacteristics :NuclearDesignCharacteristics :OceanPlantDesignCharacteristics :SolarDesignCharacteristics :StorageDesignCharacteristics :WindDesignCharacteristics ) ] ;
+    rdfs:label "Has design characteristics"@en .
+
+:hasEconomicMetric a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :EnergyResource :EnergySystem ) ] ;
+    rdfs:range :EconomicMetric ;
+    rdfs:label "Has economic metric"@en .
+
+:hasEvaluationResult a owl:ObjectProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range :EvaluationResult ;
+    rdfs:label "Has evaluation result"@en .
+
+:hasEvidence a owl:ObjectProperty ;
+    rdfs:range :Evidence ;
+    rdfs:comment "Deliberately left without rdfs:domain: it applies to any class carrying a fact that can be sourced."@en ;
+    rdfs:label "Has evidence"@en .
+
+:hasInputVariable a owl:ObjectProperty ;
+    rdfs:domain :PredictiveApplication ;
+    rdfs:range :Variable ;
+    rdfs:label "Has input variable"@en .
+
+:hasMixtureComponent a owl:ObjectProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range :MixtureComponent ;
+    rdfs:label "Has mixture component"@en .
+
+:hasObjective a owl:ObjectProperty ;
+    rdfs:domain :Study ;
+    rdfs:range :StudyObjective ;
+    rdfs:label "Has objective"@en .
+
+:hasOutputVariable a owl:ObjectProperty ;
+    rdfs:domain :PredictiveApplication ;
+    rdfs:range :Variable ;
+    rdfs:label "Has output variable"@en .
+
+:hasParameterValue a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :MixtureComponent :ModelApplication ) ] ;
+    rdfs:range :ParameterValue ;
+    rdfs:label "Has parameter value"@en .
+
+:hasPerformanceMetric a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :EnergySystem :EnergySystemComponent ) ] ;
+    rdfs:range :PerformanceMetric ;
+    rdfs:label "Has performance metric"@en .
+
+:hasSiteSetting a owl:ObjectProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range :SiteSetting ;
+    rdfs:label "Has site setting"@en .
+
+:hasTerrain a owl:ObjectProperty ;
+    rdfs:domain :Location ;
+    rdfs:range :Terrain ;
+    rdfs:label "Has terrain"@en .
+
+:hasVariable a owl:ObjectProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range :Variable ;
+    rdfs:label "Has variable"@en .
+
+:hasWindPowerClass a owl:ObjectProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range :WindPowerClass ;
+    rdfs:label "Has wind power class"@en .
+
+:identifiedInStudy a owl:ObjectProperty ;
+    rdfs:domain :InfluencingFactor ;
+    rdfs:range :Study ;
+    rdfs:label "Identified in study"@en .
+
+:identifiesFactor a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :SWOTAnalysis :Study ) ] ;
+    rdfs:range [ a owl:Class ; owl:unionOf ( :InfluencingFactor :SWOTFactor ) ] ;
+    rdfs:label "Identifies factor"@en .
+
+:impactOfEnergySystem a owl:ObjectProperty ;
+    rdfs:domain :Impact ;
+    rdfs:range :EnergySystem ;
+    rdfs:label "Impact of energy system"@en .
+
+:impactOnEnergyResource a owl:ObjectProperty ;
+    rdfs:domain :Impact ;
+    rdfs:range :EnergyResource ;
+    rdfs:label "Impact on energy resource"@en .
+
+:impactOnLocation a owl:ObjectProperty ;
+    rdfs:domain :Impact ;
+    rdfs:range :Location ;
+    rdfs:label "Impact on location"@en .
+
+:installedAt a owl:ObjectProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range :Location ;
+    rdfs:label "Installed at"@en .
+
+:investigatesResearchProblem a owl:ObjectProperty ;
+    rdfs:domain :Study ;
+    rdfs:range :ResearchProblem ;
+    rdfs:label "Investigates research problem"@en .
+
+:measuresVariable a owl:ObjectProperty ;
+    rdfs:domain :MeasuringInstrument ;
+    rdfs:range :Variable ;
+    rdfs:label "Measures variable"@en .
+
+:observationAtLocation a owl:ObjectProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range :Location ;
+    rdfs:label "Observation at location"@en .
+
+:observationOfVariable a owl:ObjectProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range :Variable ;
+    rdfs:label "Observation of variable"@en .
+
+:performanceMetricUsesVariable a owl:ObjectProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range :Variable ;
+    rdfs:label "Performance metric uses variable"@en .
+
+:policyTargetLocation a owl:ObjectProperty ;
+    rdfs:domain :PolicyTarget ;
+    rdfs:range :Location ;
+    rdfs:label "Policy target location"@en .
+
+:policyTargetResource a owl:ObjectProperty ;
+    rdfs:domain :PolicyTarget ;
+    rdfs:range :EnergyResource ;
+    rdfs:label "Policy target resource"@en .
+
+:producesEnergyCarrier a owl:ObjectProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range :EnergyCarrier ;
+    rdfs:label "Produces energy carrier"@en .
+
+:producesImpact a owl:ObjectProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range :Impact ;
+    rdfs:label "Produces impact"@en .
+
+:reportedInStudy a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :Analysis :Impact :ModelApplication ) ] ;
+    rdfs:range :Study ;
+    rdfs:label "Reported in study"@en .
+
+:reports a owl:ObjectProperty ;
+    rdfs:domain :Paper ;
+    rdfs:range :Study ;
+    rdfs:label "Reports"@en .
+
+:reportsCharacterization a owl:ObjectProperty ;
+    rdfs:domain :Study ;
+    rdfs:range :ResourceCharacterization ;
+    rdfs:label "Reports characterization"@en .
+
+:representsFactor a owl:ObjectProperty ;
+    rdfs:domain :SWOTFactor ;
+    rdfs:range :InfluencingFactor ;
+    rdfs:label "Represents factor"@en .
+
+:resultOfMetric a owl:ObjectProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range :EvaluationMetric ;
+    rdfs:label "Result of metric"@en .
+
+:setsPolicyTarget a owl:ObjectProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range :PolicyTarget ;
+    rdfs:label "Sets policy target"@en .
+
+:sourceDocument a owl:ObjectProperty ;
+    rdfs:domain :Evidence ;
+    rdfs:range :Paper ;
+    rdfs:label "Source document"@en .
+
+:supportsProperty a owl:ObjectProperty ;
+    rdfs:domain :Evidence ;
+    rdfs:range rdf:Property ;
+    rdfs:label "Supports property"@en .
+
+:targetsEnergyResource a owl:ObjectProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range :EnergyResource ;
+    rdfs:label "Targets energy resource"@en .
+
+:uncertaintyAnalysisHasComponent a owl:ObjectProperty ;
+    rdfs:domain :UncertaintyAnalysis ;
+    rdfs:range :UncertaintyComponent ;
+    rdfs:label "Uncertainty analysis has component"@en .
+
+:uncertaintyComponentForApplication a owl:ObjectProperty ;
+    rdfs:domain :UncertaintyComponent ;
+    rdfs:range :ModelApplication ;
+    rdfs:label "Uncertainty component for application"@en .
+
+:uncertaintyComponentForVariable a owl:ObjectProperty ;
+    rdfs:domain :UncertaintyComponent ;
+    rdfs:range :Variable ;
+    rdfs:label "Uncertainty component for variable"@en .
+
+:updatesStateVariable a owl:ObjectProperty ;
+    rdfs:domain :DataAssimilation ;
+    rdfs:range :Variable ;
+    rdfs:label "Updates state variable"@en .
+
+:usesDataset a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :Analysis :DataAssimilation :ModelApplication :Study ) ] ;
+    rdfs:range :Dataset ;
+    rdfs:label "Uses dataset"@en .
+
+:usesEnergyResource a owl:ObjectProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range :EnergyResource ;
+    rdfs:label "Uses energy resource"@en .
+
+:usesEstimationMethod a owl:ObjectProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range :ParameterEstimationMethod ;
+    rdfs:label "Uses estimation method"@en .
+
+:usesEvaluationMetric a owl:ObjectProperty ;
+    rdfs:domain :Study ;
+    rdfs:range :EvaluationMetric ;
+    rdfs:label "Uses evaluation metric"@en .
+
+:usesOptimizationAlgorithm a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :ModelApplication :ParameterEstimationMethod ) ] ;
+    rdfs:range :OptimizationAlgorithm ;
+    rdfs:label "Uses optimization algorithm"@en .
+
+:usesTool a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( :Analysis :ModelApplication ) ] ;
+    rdfs:range :SoftwareTool ;
+    rdfs:label "Uses tool"@en .
+
+:usesVariable a owl:ObjectProperty ;
+    rdfs:domain :ParameterEstimationMethod ;
+    rdfs:range :Variable ;
+    rdfs:label "Uses variable"@en .
+
+
+:analysisCategory a owl:DatatypeProperty ;
+    rdfs:domain :Analysis ;
+    rdfs:range xsd:string ;
+    rdfs:label "Analysis category"@en .
+
+:analysisKeyOutcome a owl:DatatypeProperty ;
+    rdfs:domain :Analysis ;
+    rdfs:range xsd:string ;
+    rdfs:label "Analysis key outcome"@en .
+
+:analysisMethodDescription a owl:DatatypeProperty ;
+    rdfs:domain :Analysis ;
+    rdfs:range xsd:string ;
+    rdfs:label "Analysis method description"@en .
+
+:analysisName a owl:DatatypeProperty ;
+    rdfs:domain :Analysis ;
+    rdfs:range xsd:string ;
+    rdfs:label "Analysis name"@en .
+
+:analysisPurpose a owl:DatatypeProperty ;
+    rdfs:domain :Analysis ;
+    rdfs:range xsd:string ;
+    rdfs:label "Analysis purpose"@en .
+
+:analysisTechnique a owl:DatatypeProperty ;
+    rdfs:domain :Analysis ;
+    rdfs:range xsd:string ;
+    rdfs:label "Analysis technique"@en .
+
+:applicationArchitecture a owl:DatatypeProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range xsd:string ;
+    rdfs:label "Application architecture"@en .
+
+:applicationForecastHorizon a owl:DatatypeProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range xsd:string ;
+    rdfs:label "Application forecast horizon"@en .
+
+:applicationFormulaAsReported a owl:DatatypeProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range xsd:string ;
+    rdfs:label "Application formula as reported"@en .
+
+:applicationHyperparameters a owl:DatatypeProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range xsd:string ;
+    rdfs:label "Application hyperparameters"@en .
+
+:applicationPurpose a owl:DatatypeProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range xsd:string ;
+    rdfs:label "Application purpose"@en .
+
+:applicationTemporalScope a owl:DatatypeProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range xsd:string ;
+    rdfs:label "Application temporal scope"@en .
+
+:assimilationPurpose a owl:DatatypeProperty ;
+    rdfs:domain :DataAssimilation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Assimilation purpose"@en .
+
+:assimilationTechniqueUsed a owl:DatatypeProperty ;
+    rdfs:domain :DataAssimilation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Assimilation technique used"@en .
+
+:assimilationWindow a owl:DatatypeProperty ;
+    rdfs:domain :DataAssimilation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Assimilation window"@en .
+
+:azimuthAngle a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Azimuth angle"@en .
+
+:calorificValue a owl:DatatypeProperty ;
+    rdfs:domain :BiomassDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Calorific value"@en .
+
+:calorificValueUnit a owl:DatatypeProperty ;
+    rdfs:domain :BiomassDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Calorific value unit"@en .
+
+:cellTechnology a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Cell technology"@en .
+
+:characterizationExceedanceProbability a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Characterization exceedance probability"@en .
+
+:characterizationExceedanceProbabilityUnit a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:string ;
+    rdfs:label "Characterization exceedance probability unit"@en .
+
+:characterizationKurtosis a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Characterization kurtosis"@en .
+
+:characterizationMaximumValue a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Characterization maximum value"@en .
+
+:characterizationMeanValue a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Characterization mean value"@en .
+
+:characterizationMeasurementHeight a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Characterization measurement height"@en .
+
+:characterizationMeasurementHeightUnit a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:string ;
+    rdfs:label "Characterization measurement height unit"@en .
+
+:characterizationMinimumValue a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Characterization minimum value"@en .
+
+:characterizationPeriodEnd a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "Characterization period end"@en .
+
+:characterizationPeriodStart a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "Characterization period start"@en .
+
+:characterizationReferencePlane a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:string ;
+    rdfs:label "Characterization reference plane"@en .
+
+:characterizationSkewness a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Characterization skewness"@en .
+
+:characterizationStandardDeviation a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Characterization standard deviation"@en .
+
+:characterizationTemporalResolution a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:string ;
+    rdfs:label "Characterization temporal resolution"@en .
+
+:characterizationUnit a owl:DatatypeProperty ;
+    rdfs:domain :ResourceCharacterization ;
+    rdfs:range xsd:string ;
+    rdfs:label "Characterization unit"@en .
+
+:climateDescription a owl:DatatypeProperty ;
+    rdfs:domain :Climate ;
+    rdfs:range xsd:string ;
+    rdfs:label "Climate description"@en .
+
+:climateName a owl:DatatypeProperty ;
+    rdfs:domain :Climate ;
+    rdfs:range xsd:string ;
+    rdfs:label "Climate name"@en .
+
+:componentCategory a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystemComponent ;
+    rdfs:range xsd:string ;
+    rdfs:label "Component category"@en .
+
+:componentDescription a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystemComponent ;
+    rdfs:range xsd:string ;
+    rdfs:label "Component description"@en .
+
+:componentIndex a owl:DatatypeProperty ;
+    rdfs:domain :MixtureComponent ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Component index"@en .
+
+:componentManufacturer a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystemComponent ;
+    rdfs:range xsd:string ;
+    rdfs:label "Component manufacturer"@en .
+
+:componentName a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystemComponent ;
+    rdfs:range xsd:string ;
+    rdfs:label "Component name"@en .
+
+:componentQuantity a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystemComponent ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Component quantity"@en .
+
+:componentWeight a owl:DatatypeProperty ;
+    rdfs:domain :MixtureComponent ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Component weight"@en .
+
+:conversionTechnology a owl:DatatypeProperty ;
+    rdfs:domain :BiomassDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Conversion technology"@en .
+
+:coolantType a owl:DatatypeProperty ;
+    rdfs:domain :NuclearDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Coolant type"@en .
+
+:criterionDirection a owl:DatatypeProperty ;
+    rdfs:domain :DecisionCriterion ;
+    rdfs:range xsd:string ;
+    rdfs:label "Criterion direction"@en .
+
+:criterionName a owl:DatatypeProperty ;
+    rdfs:domain :DecisionCriterion ;
+    rdfs:range xsd:string ;
+    rdfs:label "Criterion name"@en .
+
+:criterionRationale a owl:DatatypeProperty ;
+    rdfs:domain :DecisionCriterion ;
+    rdfs:range xsd:string ;
+    rdfs:label "Criterion rationale"@en .
+
+:criterionThreshold a owl:DatatypeProperty ;
+    rdfs:domain :DecisionCriterion ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Criterion threshold"@en .
+
+:criterionThresholdUnit a owl:DatatypeProperty ;
+    rdfs:domain :DecisionCriterion ;
+    rdfs:range xsd:string ;
+    rdfs:label "Criterion threshold unit"@en .
+
+:criterionWeight a owl:DatatypeProperty ;
+    rdfs:domain :DecisionCriterion ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Criterion weight"@en .
+
+:criterionWeightUnit a owl:DatatypeProperty ;
+    rdfs:domain :DecisionCriterion ;
+    rdfs:range xsd:string ;
+    rdfs:label "Criterion weight unit"@en .
+
+:cutInWindSpeed a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Cut in wind speed"@en .
+
+:cutOutWindSpeed a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Cut out wind speed"@en .
+
+:datasetDescription a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:string ;
+    rdfs:label "Dataset description"@en .
+
+:datasetDuration a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:string ;
+    rdfs:label "Dataset duration"@en .
+
+:datasetMeasurementHeight a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Dataset measurement height"@en .
+
+:datasetMeasurementHeightUnit a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:string ;
+    rdfs:label "Dataset measurement height unit"@en .
+
+:datasetName a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:string ;
+    rdfs:label "Dataset name"@en .
+
+:datasetNumberOfTimeSeries a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Dataset number of time series"@en .
+
+:datasetPeriodEnd a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "Dataset period end"@en .
+
+:datasetPeriodStart a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "Dataset period start"@en .
+
+:datasetSource a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:string ;
+    rdfs:label "Dataset source"@en .
+
+:datasetSpatialResolution a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:string ;
+    rdfs:label "Dataset spatial resolution"@en .
+
+:datasetTemporalResolution a owl:DatatypeProperty ;
+    rdfs:domain :Dataset ;
+    rdfs:range xsd:string ;
+    rdfs:label "Dataset temporal resolution"@en .
+
+:decisionRuleAsReported a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range xsd:string ;
+    rdfs:label "Decision rule as reported"@en .
+
+:depthOfDischargeUnit a owl:DatatypeProperty ;
+    rdfs:domain :StorageDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Depth of discharge unit"@en .
+
+:depthOfDischargeValue a owl:DatatypeProperty ;
+    rdfs:domain :StorageDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Depth of discharge value"@en .
+
+:designFlow a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Design flow"@en .
+
+:designFlowUnit a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Design flow unit"@en .
+
+:designRatedPower a owl:DatatypeProperty ;
+    rdfs:domain :DesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Design rated power"@en .
+
+:designRatedPowerUnit a owl:DatatypeProperty ;
+    rdfs:domain :DesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Design rated power unit"@en .
+
+:distributionFormula a owl:DatatypeProperty ;
+    rdfs:domain :ProbabilityDistributionModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Distribution formula"@en .
+
+:distributionNumberOfParameters a owl:DatatypeProperty ;
+    rdfs:domain :ProbabilityDistributionModel ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Distribution number of parameters"@en .
+
+:distributionParameters a owl:DatatypeProperty ;
+    rdfs:domain :ProbabilityDistributionModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Distribution parameters"@en .
+
+:economicMetricCostAssumption a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric cost assumption"@en .
+
+:economicMetricCurrency a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric currency"@en .
+
+:economicMetricDescription a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric description"@en .
+
+:economicMetricEvaluationPeriod a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric evaluation period"@en .
+
+:economicMetricFormula a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric formula"@en .
+
+:economicMetricMaximumValue a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Economic metric maximum value"@en .
+
+:economicMetricMinimumValue a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Economic metric minimum value"@en .
+
+:economicMetricName a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric name"@en .
+
+:economicMetricParameters a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric parameters"@en .
+
+:economicMetricPriceAssumption a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric price assumption"@en .
+
+:economicMetricResultSummary a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric result summary"@en .
+
+:economicMetricType a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric type"@en .
+
+:economicMetricUnit a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Economic metric unit"@en .
+
+:economicMetricValue a owl:DatatypeProperty ;
+    rdfs:domain :EconomicMetric ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Economic metric value"@en .
+
+:electrolyserEfficiencyUnit a owl:DatatypeProperty ;
+    rdfs:domain :HydrogenPlantDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Electrolyser efficiency unit"@en .
+
+:electrolyserEfficiencyValue a owl:DatatypeProperty ;
+    rdfs:domain :HydrogenPlantDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Electrolyser efficiency value"@en .
+
+:electrolyserType a owl:DatatypeProperty ;
+    rdfs:domain :HydrogenPlantDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Electrolyser type"@en .
+
+:empiricalModelApplicabilityConditions a owl:DatatypeProperty ;
+    rdfs:domain :EmpiricalModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Empirical model applicability conditions"@en .
+
+:empiricalModelFormula a owl:DatatypeProperty ;
+    rdfs:domain :EmpiricalModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Empirical model formula"@en .
+
+:empiricalModelParameters a owl:DatatypeProperty ;
+    rdfs:domain :EmpiricalModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Empirical model parameters"@en .
+
+:energySystemCategory a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range xsd:string ;
+    rdfs:label "Energy system category"@en .
+
+:energySystemConfiguration a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range xsd:string ;
+    rdfs:label "Energy system configuration"@en .
+
+:energySystemDescription a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range xsd:string ;
+    rdfs:label "Energy system description"@en .
+
+:energySystemInstalledCapacity a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Energy system installed capacity"@en .
+
+:energySystemInstalledCapacityUnit a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range xsd:string ;
+    rdfs:label "Energy system installed capacity unit"@en .
+
+:energySystemName a owl:DatatypeProperty ;
+    rdfs:domain :EnergySystem ;
+    rdfs:range xsd:string ;
+    rdfs:label "Energy system name"@en .
+
+:estimationMethodCategory a owl:DatatypeProperty ;
+    rdfs:domain :ParameterEstimationMethod ;
+    rdfs:range xsd:string ;
+    rdfs:label "Estimation method category"@en .
+
+:estimationMethodDescription a owl:DatatypeProperty ;
+    rdfs:domain :ParameterEstimationMethod ;
+    rdfs:range xsd:string ;
+    rdfs:label "Estimation method description"@en .
+
+:estimationMethodFormula a owl:DatatypeProperty ;
+    rdfs:domain :ParameterEstimationMethod ;
+    rdfs:range xsd:string ;
+    rdfs:label "Estimation method formula"@en .
+
+:estimationMethodName a owl:DatatypeProperty ;
+    rdfs:domain :ParameterEstimationMethod ;
+    rdfs:range xsd:string ;
+    rdfs:label "Estimation method name"@en .
+
+:estimationMethodParameters a owl:DatatypeProperty ;
+    rdfs:domain :ParameterEstimationMethod ;
+    rdfs:range xsd:string ;
+    rdfs:label "Estimation method parameters"@en .
+
+:evaluationMetricDescription a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evaluation metric description"@en .
+
+:evaluationMetricFormula a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evaluation metric formula"@en .
+
+:evaluationMetricInterpretation a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evaluation metric interpretation"@en .
+
+:evaluationMetricName a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evaluation metric name"@en .
+
+:evaluationMetricParameters a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evaluation metric parameters"@en .
+
+:evaluationMetricType a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evaluation metric type"@en .
+
+:evaluationResultBoundType a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evaluation result bound type"@en .
+
+:evaluationResultConfidenceLevel a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Evaluation result confidence level"@en .
+
+:evaluationResultConfidenceLevelUnit a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evaluation result confidence level unit"@en .
+
+:evaluationResultQuantile a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Evaluation result quantile"@en .
+
+:evaluationResultQuantileUnit a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evaluation result quantile unit"@en .
+
+:evaluationResultUnit a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evaluation result unit"@en .
+
+:evaluationResultValue a owl:DatatypeProperty ;
+    rdfs:domain :EvaluationResult ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Evaluation result value"@en .
+
+:evidenceConfidence a owl:DatatypeProperty ;
+    rdfs:domain :Evidence ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Evidence confidence"@en .
+
+:evidenceExtractionMethod a owl:DatatypeProperty ;
+    rdfs:domain :Evidence ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evidence extraction method"@en .
+
+:evidencePage a owl:DatatypeProperty ;
+    rdfs:domain :Evidence ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Evidence page"@en .
+
+:evidenceQuote a owl:DatatypeProperty ;
+    rdfs:domain :Evidence ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evidence quote"@en .
+
+:evidenceSection a owl:DatatypeProperty ;
+    rdfs:domain :Evidence ;
+    rdfs:range xsd:string ;
+    rdfs:label "Evidence section"@en .
+
+:factorCategory a owl:DatatypeProperty ;
+    rdfs:domain :InfluencingFactor ;
+    rdfs:range xsd:string ;
+    rdfs:label "Factor category"@en .
+
+:factorCause a owl:DatatypeProperty ;
+    rdfs:domain :InfluencingFactor ;
+    rdfs:range xsd:string ;
+    rdfs:label "Factor cause"@en .
+
+:factorScope a owl:DatatypeProperty ;
+    rdfs:domain :InfluencingFactor ;
+    rdfs:range xsd:string ;
+    rdfs:label "Factor scope"@en .
+
+:factorSolution a owl:DatatypeProperty ;
+    rdfs:domain :InfluencingFactor ;
+    rdfs:range xsd:string ;
+    rdfs:label "Factor solution"@en .
+
+:factorStatement a owl:DatatypeProperty ;
+    rdfs:domain :InfluencingFactor ;
+    rdfs:range xsd:string ;
+    rdfs:label "Factor statement"@en .
+
+:feedstockType a owl:DatatypeProperty ;
+    rdfs:domain :BiomassDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Feedstock type"@en .
+
+:geothermalPlantType a owl:DatatypeProperty ;
+    rdfs:domain :GeothermalDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Geothermal plant type"@en .
+
+:grossHead a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Gross head"@en .
+
+:grossHeadUnit a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Gross head unit"@en .
+
+:hubHeight a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Hub height"@en .
+
+:hubHeightUnit a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Hub height unit"@en .
+
+:hydrogenProductionRate a owl:DatatypeProperty ;
+    rdfs:domain :HydrogenPlantDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Hydrogen production rate"@en .
+
+:hydrogenProductionRateUnit a owl:DatatypeProperty ;
+    rdfs:domain :HydrogenPlantDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Hydrogen production rate unit"@en .
+
+:impactCategory a owl:DatatypeProperty ;
+    rdfs:domain :Impact ;
+    rdfs:range xsd:string ;
+    rdfs:label "Impact category"@en .
+
+:impactDirection a owl:DatatypeProperty ;
+    rdfs:domain :Impact ;
+    rdfs:range xsd:string ;
+    rdfs:label "Impact direction"@en .
+
+:impactStatement a owl:DatatypeProperty ;
+    rdfs:domain :Impact ;
+    rdfs:range xsd:string ;
+    rdfs:label "Impact statement"@en .
+
+:impactTimeHorizon a owl:DatatypeProperty ;
+    rdfs:domain :Impact ;
+    rdfs:range xsd:string ;
+    rdfs:label "Impact time horizon"@en .
+
+:impactUnit a owl:DatatypeProperty ;
+    rdfs:domain :Impact ;
+    rdfs:range xsd:string ;
+    rdfs:label "Impact unit"@en .
+
+:impactValue a owl:DatatypeProperty ;
+    rdfs:domain :Impact ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Impact value"@en .
+
+:instrumentCategory a owl:DatatypeProperty ;
+    rdfs:domain :MeasuringInstrument ;
+    rdfs:range xsd:string ;
+    rdfs:label "Instrument category"@en .
+
+:instrumentName a owl:DatatypeProperty ;
+    rdfs:domain :MeasuringInstrument ;
+    rdfs:range xsd:string ;
+    rdfs:label "Instrument name"@en .
+
+:learningParadigm a owl:DatatypeProperty ;
+    rdfs:domain :MachineLearningModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Learning paradigm"@en .
+
+:learningTask a owl:DatatypeProperty ;
+    rdfs:domain :MachineLearningModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Learning task"@en .
+
+:locationAltitude a owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Location altitude"@en .
+
+:locationAltitudeUnit a owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:string ;
+    rdfs:label "Location altitude unit"@en .
+
+:locationCountry a owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:string ;
+    rdfs:label "Location country"@en .
+
+:locationDescription a owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:string ;
+    rdfs:label "Location description"@en .
+
+:locationFeatureType a owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:string ;
+    rdfs:label "Location feature type"@en .
+
+:locationGranularity a owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:string ;
+    rdfs:label "Location granularity"@en .
+
+:locationLatitude a owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Location latitude"@en .
+
+:locationLongitude a owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Location longitude"@en .
+
+:locationName a owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:string ;
+    rdfs:label "Location name"@en .
+
+:locationSettlementType a owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:string ;
+    rdfs:label "Location settlement type"@en .
+
+:modelAssumptions a owl:DatatypeProperty ;
+    rdfs:domain :Model ;
+    rdfs:range xsd:string ;
+    rdfs:label "Model assumptions"@en .
+
+:modelDescription a owl:DatatypeProperty ;
+    rdfs:domain :Model ;
+    rdfs:range xsd:string ;
+    rdfs:label "Model description"@en .
+
+:modelName a owl:DatatypeProperty ;
+    rdfs:domain :Model ;
+    rdfs:range xsd:string ;
+    rdfs:label "Model name"@en .
+
+:modelPurpose a owl:DatatypeProperty ;
+    rdfs:domain :Model ;
+    rdfs:range xsd:string ;
+    rdfs:label "Model purpose"@en .
+
+:modelType a owl:DatatypeProperty ;
+    rdfs:domain :Model ;
+    rdfs:range xsd:string ;
+    rdfs:label "Model type"@en .
+
+:moduleArea a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Module area"@en .
+
+:moduleAreaUnit a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Module area unit"@en .
+
+:moduleEfficiencyUnit a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Module efficiency unit"@en .
+
+:moduleEfficiencyValue a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Module efficiency value"@en .
+
+:moduleNominalPower a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Module nominal power"@en .
+
+:moduleNominalPowerUnit a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Module nominal power unit"@en .
+
+:netHead a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Net head"@en .
+
+:netHeadUnit a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Net head unit"@en .
+
+:numberOfBlades a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Number of blades"@en .
+
+:observationAggregationPeriod a owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Observation aggregation period"@en .
+
+:observationMeasurementHeight a owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Observation measurement height"@en .
+
+:observationMeasurementHeightUnit a owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Observation measurement height unit"@en .
+
+:observationQualityFlag a owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Observation quality flag"@en .
+
+:observationReferencePlane a owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Observation reference plane"@en .
+
+:observationTimestamp a owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:dateTime ;
+    rdfs:label "Observation timestamp"@en .
+
+:observationUnit a owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Observation unit"@en .
+
+:observationValue a owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Observation value"@en .
+
+:oceanDeviceType a owl:DatatypeProperty ;
+    rdfs:domain :OceanPlantDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Ocean device type"@en .
+
+:optimizationAlgorithmCategory a owl:DatatypeProperty ;
+    rdfs:domain :OptimizationAlgorithm ;
+    rdfs:range xsd:string ;
+    rdfs:label "Optimization algorithm category"@en .
+
+:optimizationAlgorithmName a owl:DatatypeProperty ;
+    rdfs:domain :OptimizationAlgorithm ;
+    rdfs:range xsd:string ;
+    rdfs:label "Optimization algorithm name"@en .
+
+:paperAuthor a owl:DatatypeProperty ;
+    rdfs:domain :Paper ;
+    rdfs:range xsd:string ;
+    rdfs:label "Paper author"@en .
+
+:paperDoi a owl:DatatypeProperty ;
+    rdfs:domain :Paper ;
+    rdfs:range xsd:string ;
+    rdfs:label "Paper doi"@en .
+
+:paperTitle a owl:DatatypeProperty ;
+    rdfs:domain :Paper ;
+    rdfs:range xsd:string ;
+    rdfs:label "Paper title"@en .
+
+:parameterKind a owl:DatatypeProperty ;
+    rdfs:domain :ParameterValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Parameter kind"@en .
+
+:parameterSymbol a owl:DatatypeProperty ;
+    rdfs:domain :ParameterValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Parameter symbol"@en .
+
+:parameterUnit a owl:DatatypeProperty ;
+    rdfs:domain :ParameterValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Parameter unit"@en .
+
+:parameterValue a owl:DatatypeProperty ;
+    rdfs:domain :ParameterValue ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Parameter value"@en .
+
+:performanceMetricBestPerformer a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric best performer"@en .
+
+:performanceMetricConclusion a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric conclusion"@en .
+
+:performanceMetricDescription a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric description"@en .
+
+:performanceMetricFormula a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric formula"@en .
+
+:performanceMetricHeight a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Performance metric height"@en .
+
+:performanceMetricHeightUnit a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric height unit"@en .
+
+:performanceMetricMaximumValue a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Performance metric maximum value"@en .
+
+:performanceMetricMeanValue a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Performance metric mean value"@en .
+
+:performanceMetricMinimumValue a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Performance metric minimum value"@en .
+
+:performanceMetricName a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric name"@en .
+
+:performanceMetricParameters a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric parameters"@en .
+
+:performanceMetricReferenceYear a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "Performance metric reference year"@en .
+
+:performanceMetricResultSummary a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric result summary"@en .
+
+:performanceMetricTemporalScope a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric temporal scope"@en .
+
+:performanceMetricType a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric type"@en .
+
+:performanceMetricUnit a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:string ;
+    rdfs:label "Performance metric unit"@en .
+
+:performanceMetricValue a owl:DatatypeProperty ;
+    rdfs:domain :PerformanceMetric ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Performance metric value"@en .
+
+:physicalModelFormula a owl:DatatypeProperty ;
+    rdfs:domain :PhysicalModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Physical model formula"@en .
+
+:physicalModelGoverningPrinciple a owl:DatatypeProperty ;
+    rdfs:domain :PhysicalModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Physical model governing principle"@en .
+
+:physicalModelParameters a owl:DatatypeProperty ;
+    rdfs:domain :PhysicalModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Physical model parameters"@en .
+
+:plantType a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Plant type"@en .
+
+:policyBindingness a owl:DatatypeProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy bindingness"@en .
+
+:policyDescription a owl:DatatypeProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy description"@en .
+
+:policyEndYear a owl:DatatypeProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "Policy end year"@en .
+
+:policyImplementationStage a owl:DatatypeProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy implementation stage"@en .
+
+:policyInstrumentType a owl:DatatypeProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy instrument type"@en .
+
+:policyJurisdiction a owl:DatatypeProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy jurisdiction"@en .
+
+:policyName a owl:DatatypeProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy name"@en .
+
+:policyStartYear a owl:DatatypeProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "Policy start year"@en .
+
+:policyStatus a owl:DatatypeProperty ;
+    rdfs:domain :Policy ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy status"@en .
+
+:policyTargetBasis a owl:DatatypeProperty ;
+    rdfs:domain :PolicyTarget ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy target basis"@en .
+
+:policyTargetName a owl:DatatypeProperty ;
+    rdfs:domain :PolicyTarget ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy target name"@en .
+
+:policyTargetStatus a owl:DatatypeProperty ;
+    rdfs:domain :PolicyTarget ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy target status"@en .
+
+:policyTargetUnit a owl:DatatypeProperty ;
+    rdfs:domain :PolicyTarget ;
+    rdfs:range xsd:string ;
+    rdfs:label "Policy target unit"@en .
+
+:policyTargetValue a owl:DatatypeProperty ;
+    rdfs:domain :PolicyTarget ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Policy target value"@en .
+
+:policyTargetYear a owl:DatatypeProperty ;
+    rdfs:domain :PolicyTarget ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "Policy target year"@en .
+
+:powerCurveDescription a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Power curve description"@en .
+
+:publicationType a owl:DatatypeProperty ;
+    rdfs:domain :Paper ;
+    rdfs:range xsd:string ;
+    rdfs:label "Publication type"@en .
+
+:ratedWindSpeed a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Rated wind speed"@en .
+
+:reactorType a owl:DatatypeProperty ;
+    rdfs:domain :NuclearDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Reactor type"@en .
+
+:reportedModelName a owl:DatatypeProperty ;
+    rdfs:domain :ModelApplication ;
+    rdfs:range xsd:string ;
+    rdfs:label "Reported model name"@en .
+
+:researchProblemStatement a owl:DatatypeProperty ;
+    rdfs:domain :ResearchProblem ;
+    rdfs:range xsd:string ;
+    rdfs:label "Research problem statement"@en .
+
+:reservoirCapacity a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Reservoir capacity"@en .
+
+:reservoirCapacityUnit a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Reservoir capacity unit"@en .
+
+:reservoirTemperature a owl:DatatypeProperty ;
+    rdfs:domain :GeothermalDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Reservoir temperature"@en .
+
+:reservoirTemperatureUnit a owl:DatatypeProperty ;
+    rdfs:domain :GeothermalDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Reservoir temperature unit"@en .
+
+:rotorDiameter a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Rotor diameter"@en .
+
+:rotorDiameterUnit a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Rotor diameter unit"@en .
+
+:roundTripEfficiencyUnit a owl:DatatypeProperty ;
+    rdfs:domain :StorageDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Round trip efficiency unit"@en .
+
+:roundTripEfficiencyValue a owl:DatatypeProperty ;
+    rdfs:domain :StorageDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Round trip efficiency value"@en .
+
+:runnerDiameter a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Runner diameter"@en .
+
+:runnerDiameterUnit a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Runner diameter unit"@en .
+
+:scenarioDescription a owl:DatatypeProperty ;
+    rdfs:domain :Scenario ;
+    rdfs:range xsd:string ;
+    rdfs:label "Scenario description"@en .
+
+:scenarioEndYear a owl:DatatypeProperty ;
+    rdfs:domain :Scenario ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "Scenario end year"@en .
+
+:scenarioName a owl:DatatypeProperty ;
+    rdfs:domain :Scenario ;
+    rdfs:range xsd:string ;
+    rdfs:label "Scenario name"@en .
+
+:scenarioProbability a owl:DatatypeProperty ;
+    rdfs:domain :Scenario ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Scenario probability"@en .
+
+:scenarioProbabilityUnit a owl:DatatypeProperty ;
+    rdfs:domain :Scenario ;
+    rdfs:range xsd:string ;
+    rdfs:label "Scenario probability unit"@en .
+
+:scenarioStartYear a owl:DatatypeProperty ;
+    rdfs:domain :Scenario ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "Scenario start year"@en .
+
+:siteSettingName a owl:DatatypeProperty ;
+    rdfs:domain :SiteSetting ;
+    rdfs:range xsd:string ;
+    rdfs:label "Site setting name"@en .
+
+:storageCapacity a owl:DatatypeProperty ;
+    rdfs:domain :StorageDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Storage capacity"@en .
+
+:storageCapacityUnit a owl:DatatypeProperty ;
+    rdfs:domain :StorageDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Storage capacity unit"@en .
+
+:storageTechnology a owl:DatatypeProperty ;
+    rdfs:domain :StorageDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Storage technology"@en .
+
+:studyDomain a owl:DatatypeProperty ;
+    rdfs:domain :Study ;
+    rdfs:range xsd:string ;
+    rdfs:label "Study domain"@en .
+
+:studyFutureWorks a owl:DatatypeProperty ;
+    rdfs:domain :Study ;
+    rdfs:range xsd:string ;
+    rdfs:label "Study future works"@en .
+
+:studyKeyFindings a owl:DatatypeProperty ;
+    rdfs:domain :Study ;
+    rdfs:range xsd:string ;
+    rdfs:label "Study key findings"@en .
+
+:studyLimits a owl:DatatypeProperty ;
+    rdfs:domain :Study ;
+    rdfs:range xsd:string ;
+    rdfs:label "Study limits"@en .
+
+:studyMethodsSummary a owl:DatatypeProperty ;
+    rdfs:domain :Study ;
+    rdfs:range xsd:string ;
+    rdfs:label "Study methods summary"@en .
+
+:studyResearchGapAddressed a owl:DatatypeProperty ;
+    rdfs:domain :Study ;
+    rdfs:range xsd:string ;
+    rdfs:label "Study research gap addressed"@en .
+
+:studyResearchGapIdentified a owl:DatatypeProperty ;
+    rdfs:domain :Study ;
+    rdfs:range xsd:string ;
+    rdfs:label "Study research gap identified"@en .
+
+:sweptArea a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Swept area"@en .
+
+:sweptAreaUnit a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Swept area unit"@en .
+
+:swotFactorStatement a owl:DatatypeProperty ;
+    rdfs:domain :SWOTFactor ;
+    rdfs:range xsd:string ;
+    rdfs:label "Swot factor statement"@en .
+
+:temperatureCoefficientUnit a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Temperature coefficient unit"@en .
+
+:temperatureCoefficientValue a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Temperature coefficient value"@en .
+
+:terrainName a owl:DatatypeProperty ;
+    rdfs:domain :Terrain ;
+    rdfs:range xsd:string ;
+    rdfs:label "Terrain name"@en .
+
+:thermalPower a owl:DatatypeProperty ;
+    rdfs:domain :NuclearDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Thermal power"@en .
+
+:thermalPowerUnit a owl:DatatypeProperty ;
+    rdfs:domain :NuclearDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Thermal power unit"@en .
+
+:tidalRange a owl:DatatypeProperty ;
+    rdfs:domain :OceanPlantDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Tidal range"@en .
+
+:tidalRangeUnit a owl:DatatypeProperty ;
+    rdfs:domain :OceanPlantDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Tidal range unit"@en .
+
+:tiltAngle a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Tilt angle"@en .
+
+:timeSeriesModelFormula a owl:DatatypeProperty ;
+    rdfs:domain :TimeSeriesModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Time series model formula"@en .
+
+:timeSeriesModelParameters a owl:DatatypeProperty ;
+    rdfs:domain :TimeSeriesModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Time series model parameters"@en .
+
+:toolCategory a owl:DatatypeProperty ;
+    rdfs:domain :SoftwareTool ;
+    rdfs:range xsd:string ;
+    rdfs:label "Tool category"@en .
+
+:toolName a owl:DatatypeProperty ;
+    rdfs:domain :SoftwareTool ;
+    rdfs:range xsd:string ;
+    rdfs:label "Tool name"@en .
+
+:toolVersion a owl:DatatypeProperty ;
+    rdfs:domain :SoftwareTool ;
+    rdfs:range xsd:string ;
+    rdfs:label "Tool version"@en .
+
+:trackingType a owl:DatatypeProperty ;
+    rdfs:domain :SolarDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Tracking type"@en .
+
+:turbineAxisType a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Turbine axis type"@en .
+
+:turbineEfficiencyUnit a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Turbine efficiency unit"@en .
+
+:turbineEfficiencyValue a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Turbine efficiency value"@en .
+
+:turbineType a owl:DatatypeProperty ;
+    rdfs:domain :HydroDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Turbine type"@en .
+
+:uncertaintyComponentDescription a owl:DatatypeProperty ;
+    rdfs:domain :UncertaintyComponent ;
+    rdfs:range xsd:string ;
+    rdfs:label "Uncertainty component description"@en .
+
+:uncertaintyComponentDistribution a owl:DatatypeProperty ;
+    rdfs:domain :UncertaintyComponent ;
+    rdfs:range xsd:string ;
+    rdfs:label "Uncertainty component distribution"@en .
+
+:uncertaintyComponentName a owl:DatatypeProperty ;
+    rdfs:domain :UncertaintyComponent ;
+    rdfs:range xsd:string ;
+    rdfs:label "Uncertainty component name"@en .
+
+:uncertaintyComponentUnit a owl:DatatypeProperty ;
+    rdfs:domain :UncertaintyComponent ;
+    rdfs:range xsd:string ;
+    rdfs:label "Uncertainty component unit"@en .
+
+:uncertaintyComponentValue a owl:DatatypeProperty ;
+    rdfs:domain :UncertaintyComponent ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Uncertainty component value"@en .
+
+:variableDescription a owl:DatatypeProperty ;
+    rdfs:domain :Variable ;
+    rdfs:range xsd:string ;
+    rdfs:label "Variable description"@en .
+
+:variableName a owl:DatatypeProperty ;
+    rdfs:domain :Variable ;
+    rdfs:range xsd:string ;
+    rdfs:label "Variable name"@en .
+
+:variableSymbol a owl:DatatypeProperty ;
+    rdfs:domain :Variable ;
+    rdfs:range xsd:string ;
+    rdfs:label "Variable symbol"@en .
+
+:variableUnit a owl:DatatypeProperty ;
+    rdfs:domain :Variable ;
+    rdfs:range xsd:string ;
+    rdfs:label "Variable unit"@en .
+
+:waveHeight a owl:DatatypeProperty ;
+    rdfs:domain :OceanPlantDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Wave height"@en .
+
+:waveHeightUnit a owl:DatatypeProperty ;
+    rdfs:domain :OceanPlantDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Wave height unit"@en .
+
+:wellDepth a owl:DatatypeProperty ;
+    rdfs:domain :GeothermalDesignCharacteristics ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Well depth"@en .
+
+:wellDepthUnit a owl:DatatypeProperty ;
+    rdfs:domain :GeothermalDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Well depth unit"@en .
+
+:windPowerClassLabel a owl:DatatypeProperty ;
+    rdfs:domain :WindPowerClass ;
+    rdfs:range xsd:string ;
+    rdfs:label "Wind power class label"@en .
+
+:windPowerClassNumber a owl:DatatypeProperty ;
+    rdfs:domain :WindPowerClass ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Wind power class number"@en .
+
+:windSpeedUnit a owl:DatatypeProperty ;
+    rdfs:domain :WindDesignCharacteristics ;
+    rdfs:range xsd:string ;
+    rdfs:label "Wind speed unit"@en .
+
+
+:Condition a owl:Class ;
+    rdfs:label "Condition"@en .
+
+:ConditionalFinding a owl:Class ;
+    rdfs:label "Conditional finding"@en .
+
+:DesignParameterValue a owl:Class ;
+    rdfs:label "Design parameter value"@en .
+
+
+:underCondition a owl:ObjectProperty ;
+    rdfs:domain :ConditionalFinding ;
+    rdfs:range :Condition ;
+    rdfs:label "Under condition"@en .
+
+:aboutApplication a owl:ObjectProperty ;
+    rdfs:domain :ConditionalFinding ;
+    rdfs:range :ModelApplication ;
+    rdfs:label "About application"@en .
+
+:belongsToDesignCharacteristics a owl:ObjectProperty ;
+    rdfs:domain :DesignParameterValue ;
+    rdfs:range :DesignCharacteristics ;
+    rdfs:label "Belongs to design characteristics"@en .
+
+:conditionType a owl:DatatypeProperty ;
+    rdfs:domain :Condition ;
+    rdfs:range xsd:string ;
+    rdfs:label "Condition type"@en .
+
+:conditionStatement a owl:DatatypeProperty ;
+    rdfs:domain :Condition ;
+    rdfs:range xsd:string ;
+    rdfs:label "Condition statement"@en .
+
+:conditionVariable a owl:DatatypeProperty ;
+    rdfs:domain :Condition ;
+    rdfs:range xsd:string ;
+    rdfs:label "Condition variable"@en .
+
+:conditionOperator a owl:DatatypeProperty ;
+    rdfs:domain :Condition ;
+    rdfs:range xsd:string ;
+    rdfs:label "Condition operator"@en .
+
+:conditionValue a owl:DatatypeProperty ;
+    rdfs:domain :Condition ;
+    rdfs:range xsd:string ;
+    rdfs:label "Condition value"@en .
+
+:conditionScope a owl:DatatypeProperty ;
+    rdfs:domain :Condition ;
+    rdfs:range xsd:string ;
+    rdfs:label "Condition scope"@en .
+
+:findingStatement a owl:DatatypeProperty ;
+    rdfs:domain :ConditionalFinding ;
+    rdfs:range xsd:string ;
+    rdfs:label "Finding statement"@en .
+
+:findingOutcome a owl:DatatypeProperty ;
+    rdfs:domain :ConditionalFinding ;
+    rdfs:range xsd:string ;
+    rdfs:label "Finding outcome"@en .
+
+:findingScope a owl:DatatypeProperty ;
+    rdfs:domain :ConditionalFinding ;
+    rdfs:range xsd:string ;
+    rdfs:label "Finding scope"@en .
+
+
+:designParameterName a owl:DatatypeProperty ;
+    rdfs:domain :DesignParameterValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Design parameter name"@en .
+
+:designParameterValue a owl:DatatypeProperty ;
+    rdfs:domain :DesignParameterValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Design parameter value"@en .
+
+:designParameterUnit a owl:DatatypeProperty ;
+    rdfs:domain :DesignParameterValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Design parameter unit"@en .
+
+:designParameterTemporalScope a owl:DatatypeProperty ;
+    rdfs:domain :DesignParameterValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Design parameter temporal scope"@en .
+
+:OptimizationModel a owl:Class ;
+    rdfs:subClassOf :Model ;
+    rdfs:label "Optimization model"@en .
+
+:EconomicAssessmentObjective a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Economic assessment objective"@en .
+
+:TechnoEconomicAssessmentObjective a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Techno-economic assessment objective"@en .
+
+
+:DerivedValue a owl:Class ;
+    rdfs:label "Derived value"@en .
+
+:ofVariable a owl:ObjectProperty ;
+    rdfs:domain :DerivedValue ;
+    rdfs:range :Variable ;
+    rdfs:label "Of variable"@en .
+
+:producedByApplication a owl:ObjectProperty ;
+    rdfs:domain :DerivedValue ;
+    rdfs:range :ModelApplication ;
+    rdfs:label "Produced by application"@en .
+
+:derivedFromDataset a owl:ObjectProperty ;
+    rdfs:domain :DerivedValue ;
+    rdfs:range :Dataset ;
+    rdfs:label "Derived from dataset"@en .
+
+:atLocation a owl:ObjectProperty ;
+    rdfs:domain :DerivedValue ;
+    rdfs:range :Location ;
+    rdfs:label "At location"@en .
+
+:derivedValueMagnitude a owl:DatatypeProperty ;
+    rdfs:domain :DerivedValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Derived value magnitude"@en .
+
+:derivedValueUnit a owl:DatatypeProperty ;
+    rdfs:domain :DerivedValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Derived value unit"@en .
+
+:derivedValueType a owl:DatatypeProperty ;
+    rdfs:domain :DerivedValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Derived value type"@en .
+
+:derivedValueTemporalScope a owl:DatatypeProperty ;
+    rdfs:domain :DerivedValue ;
+    rdfs:range xsd:string ;
+    rdfs:label "Derived value temporal scope"@en .
+
+:objectiveStatement a owl:DatatypeProperty ;
+    rdfs:domain :StudyObjective ;
+    rdfs:range xsd:string ;
+    rdfs:label "Objective statement"@en .
+
+
+:Metric a owl:Class ;
+    rdfs:label "Metric"@en .
+
+:ProcessBasedModel a owl:Class ;
+    rdfs:subClassOf :Model ;
+    rdfs:label "Process-based model"@en .
+
+
+:RegressionModel a owl:Class ;
+    rdfs:subClassOf :StatisticalModel ;
+    rdfs:label "Regression model"@en .
+
+:ContinuousProbabilityDistribution a owl:Class ;
+    rdfs:subClassOf :ProbabilityDistributionModel ;
+    rdfs:label "Continuous probability distribution"@en .
+
+:UnivariateDistribution a owl:Class ;
+    rdfs:subClassOf :ContinuousProbabilityDistribution ;
+    rdfs:label "Univariate distribution"@en .
+
+:MultivariateDistribution a owl:Class ;
+    rdfs:subClassOf :ContinuousProbabilityDistribution ;
+    rdfs:label "Multivariate distribution"@en .
+
+:BivariateDistribution a owl:Class ;
+    rdfs:subClassOf :MultivariateDistribution ;
+    rdfs:label "Bivariate distribution"@en .
+
+:AngularLinearJointDistribution a owl:Class ;
+    rdfs:subClassOf :BivariateDistribution ;
+    rdfs:label "Angular-linear joint distribution"@en .
+
+:CopulaModel a owl:Class ;
+    rdfs:subClassOf :BivariateDistribution ;
+    rdfs:label "Copula model"@en .
+
+:FGMCopulaModel a owl:Class ;
+    rdfs:subClassOf :CopulaModel ;
+    rdfs:label "FGM copula model"@en .
+
+:InfiniteGaussianMixtureModel a owl:Class ;
+    rdfs:subClassOf :UnivariateDistribution ;
+    rdfs:label "Infinite Gaussian mixture model"@en .
+
+:TreeBasedModel a owl:Class ;
+    rdfs:subClassOf :MachineLearningModel ;
+    rdfs:label "Tree-based model"@en .
+
+:EnsembleTreeModel a owl:Class ;
+    rdfs:subClassOf :TreeBasedModel ;
+    rdfs:label "Ensemble tree model"@en .
+
+:DecisionTreeModel a owl:Class ;
+    rdfs:subClassOf :TreeBasedModel ;
+    rdfs:label "Decision tree model"@en .
+
+:BaggingModel a owl:Class ;
+    rdfs:subClassOf :EnsembleTreeModel ;
+    rdfs:label "Bagging model"@en .
+
+:BoostingModel a owl:Class ;
+    rdfs:subClassOf :EnsembleTreeModel ;
+    rdfs:label "Boosting model"@en .
+
+:NeuralNetworkModel a owl:Class ;
+    rdfs:subClassOf :MachineLearningModel ;
+    rdfs:label "Neural network model"@en .
+
+:FeedforwardNeuralNetwork a owl:Class ;
+    rdfs:subClassOf :NeuralNetworkModel ;
+    rdfs:label "Feedforward neural network"@en .
+
+:ConvolutionalNeuralNetwork a owl:Class ;
+    rdfs:subClassOf :NeuralNetworkModel ;
+    rdfs:label "Convolutional neural network"@en .
+
+:RecurrentNeuralNetwork a owl:Class ;
+    rdfs:subClassOf :NeuralNetworkModel ;
+    rdfs:label "Recurrent neural network"@en .
+
+:TransformerNetwork a owl:Class ;
+    rdfs:subClassOf :NeuralNetworkModel ;
+    rdfs:label "Transformer network"@en .
+
+:KernelBasedModel a owl:Class ;
+    rdfs:subClassOf :MachineLearningModel ;
+    rdfs:label "Kernel-based model"@en .
+
+:SupportVectorMachine a owl:Class ;
+    rdfs:subClassOf :KernelBasedModel ;
+    rdfs:label "Support vector machine"@en .
+
+:InstanceBasedModel a owl:Class ;
+    rdfs:subClassOf :MachineLearningModel ;
+    rdfs:label "Instance-based model"@en .
+
+:BayesianModel a owl:Class ;
+    rdfs:subClassOf :MachineLearningModel ;
+    rdfs:label "Bayesian model"@en .
+
+:NeuroFuzzyModel a owl:Class ;
+    rdfs:subClassOf :MachineLearningModel ;
+    rdfs:label "Neuro-fuzzy model"@en .
+
+:ClimateModel a owl:Class ;
+    rdfs:subClassOf :ProcessBasedModel ;
+    rdfs:label "Climate model"@en .
+
+:HydrologicalModel a owl:Class ;
+    rdfs:subClassOf :ProcessBasedModel ;
+    rdfs:label "Hydrological model"@en .
+
+:HydrodynamicModel a owl:Class ;
+    rdfs:subClassOf :ProcessBasedModel ;
+    rdfs:label "Hydrodynamic model"@en .
+
+:WindVariable a owl:Class ;
+    rdfs:subClassOf :MeteorologicalVariable ;
+    rdfs:label "Wind variable"@en .
+
+:ThermodynamicVariable a owl:Class ;
+    rdfs:subClassOf :MeteorologicalVariable ;
+    rdfs:label "Thermodynamic variable"@en .
+
+:RadiativeVariable a owl:Class ;
+    rdfs:subClassOf :MeteorologicalVariable ;
+    rdfs:label "Radiative variable"@en .
+
+:BoundaryLayerVariable a owl:Class ;
+    rdfs:subClassOf :MeteorologicalVariable ;
+    rdfs:label "Boundary layer variable"@en .
+
+:EnergyResourceVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Energy resource variable"@en .
+
+:EnergyProductionVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Energy production variable"@en .
+
+:StatisticalVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Statistical variable"@en .
+
+:EconomicVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Economic variable"@en .
+
+:DemandVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Demand variable"@en .
+
+:InfrastructureVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Infrastructure variable"@en .
+
+:GeospatialVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Geospatial variable"@en .
+
+:TemporalVariable a owl:Class ;
+    rdfs:subClassOf :Variable ;
+    rdfs:label "Temporal variable"@en .
+
+
+:SolarEnergySoftware a owl:Class ;
+    rdfs:subClassOf :SoftwareTool ;
+    rdfs:label "Solar energy software"@en .
+
+:HydroSoftware a owl:Class ;
+    rdfs:subClassOf :SoftwareTool ;
+    rdfs:label "Hydro software"@en .
+
+:WindEnergySoftware a owl:Class ;
+    rdfs:subClassOf :SoftwareTool ;
+    rdfs:label "Wind energy software"@en .
+
+:RenewableEnergySoftware a owl:Class ;
+    rdfs:subClassOf :SoftwareTool ;
+    rdfs:label "Renewable energy software"@en .
+
+:GISSoftware a owl:Class ;
+    rdfs:subClassOf :SoftwareTool ;
+    rdfs:label "GIS software"@en .
+
+:StatisticalSoftware a owl:Class ;
+    rdfs:subClassOf :SoftwareTool ;
+    rdfs:label "Statistical software"@en .
+
+:ProgrammingLanguage a owl:Class ;
+    rdfs:subClassOf :SoftwareTool ;
+    rdfs:label "Programming language"@en .
+
+:SoftwareLibrary a owl:Class ;
+    rdfs:subClassOf :SoftwareTool ;
+    rdfs:label "Software library"@en .
+
+:SpreadsheetSoftware a owl:Class ;
+    rdfs:subClassOf :SoftwareTool ;
+    rdfs:label "Spreadsheet software"@en .
+
+:MeteorologicalSoftware a owl:Class ;
+    rdfs:subClassOf :SoftwareTool ;
+    rdfs:label "Meteorological software"@en .
+
+:DataProcessingLibrary a owl:Class ;
+    rdfs:subClassOf :SoftwareLibrary ;
+    rdfs:label "Data processing library"@en .
+
+:StatisticalLibrary a owl:Class ;
+    rdfs:subClassOf :SoftwareLibrary ;
+    rdfs:label "Statistical library"@en .
+
+:VisualizationLibrary a owl:Class ;
+    rdfs:subClassOf :SoftwareLibrary ;
+    rdfs:label "Visualization library"@en .
+
+:GoodnessOfFitMetric a owl:Class ;
+    rdfs:subClassOf :EvaluationMetric ;
+    rdfs:label "Goodness of fit metric"@en .
+
+:EfficiencyMetric a owl:Class ;
+    rdfs:subClassOf :EvaluationMetric ;
+    rdfs:label "Efficiency metric"@en .
+
+:InformationCriterion a owl:Class ;
+    rdfs:subClassOf :EvaluationMetric ;
+    rdfs:label "Information criterion"@en .
+
+:ClassificationMetric a owl:Class ;
+    rdfs:subClassOf :EvaluationMetric ;
+    rdfs:label "Classification metric"@en .
+
+:RankingMetric a owl:Class ;
+    rdfs:subClassOf :EvaluationMetric ;
+    rdfs:label "Ranking metric"@en .
+
+:StatisticalTestMetric a owl:Class ;
+    rdfs:subClassOf :EvaluationMetric ;
+    rdfs:label "Statistical test metric"@en .
+
+
+:DataScarcity a owl:Class ;
+    rdfs:subClassOf :ResearchProblem ;
+    rdfs:label "Data scarcity"@en .
+
+:ModelAccuracyGap a owl:Class ;
+    rdfs:subClassOf :ResearchProblem ;
+    rdfs:label "Model accuracy gap"@en .
+
+:ModelValidationGap a owl:Class ;
+    rdfs:subClassOf :ResearchProblem ;
+    rdfs:label "Model validation gap"@en .
+
+:ResourceUnderexploration a owl:Class ;
+    rdfs:subClassOf :ResearchProblem ;
+    rdfs:label "Resource underexploration"@en .
+
+:MethodSelectionUncertainty a owl:Class ;
+    rdfs:subClassOf :ResearchProblem ;
+    rdfs:label "Method selection uncertainty"@en .
+
+:IntegrationChallenge a owl:Class ;
+    rdfs:subClassOf :ResearchProblem ;
+    rdfs:label "Integration challenge"@en .
+
+:PolicyBarrier a owl:Class ;
+    rdfs:subClassOf :ResearchProblem ;
+    rdfs:label "Policy barrier"@en .
+
+:EnvironmentalConcern a owl:Class ;
+    rdfs:subClassOf :ResearchProblem ;
+    rdfs:label "Environmental concern"@en .
+
+:UncertaintyProblem a owl:Class ;
+    rdfs:subClassOf :ResearchProblem ;
+    rdfs:label "Uncertainty problem"@en .
+
+:DemandIntegration a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Demand integration"@en .
+
+:EnvironmentalImpactAssessment a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Environmental impact assessment"@en .
+
+:Estimation a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Estimation"@en .
+
+:Forecasting a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Forecasting"@en .
+
+:MethodComparison a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Method comparison"@en .
+
+:MethodDevelopment a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Method development"@en .
+
+:ModelCalibration a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Model calibration"@en .
+
+:ModelComparison a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Model comparison"@en .
+
+:ModelDevelopment a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Model development"@en .
+
+:ModelOptimization a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Model optimization"@en .
+
+:ModelSelection a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Model selection"@en .
+
+:ModelValidation a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Model validation"@en .
+
+:OperationOptimization a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Operation optimization"@en .
+
+:OperationScheduling a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Operation scheduling"@en .
+
+:PolicyAssessment a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Policy assessment"@en .
+
+:PotentialAssessment a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Potential assessment"@en .
+
+:Prediction a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Prediction"@en .
+
+:ResourceMapping a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Resource mapping"@en .
+
+:ResourceZoning a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Resource zoning"@en .
+
+:SensitivityAnalysis a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Sensitivity analysis"@en .
+
+:SiteSelection a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Site selection"@en .
+
+:SustainabilityAssessment a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Sustainability assessment"@en .
+
+:TechnologySelection a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Technology selection"@en .
+
+:UncertaintyQuantification a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Uncertainty quantification"@en .
+
+:VerticalExtrapolation a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Vertical extrapolation"@en .
+
+
+:ResourceAssessment a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Resource assessment"@en .
+
+:PerformanceAssessment a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Performance assessment"@en .
+
+:DistributionFitting a owl:Class ;
+    rdfs:subClassOf :StudyObjective ;
+    rdfs:label "Distribution fitting"@en .
+
+
+:appliesToResource a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:label "Applies to resource"@en .
+
+:isParametric a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "Is parametric"@en .
+
+:isMixture a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "Is mixture"@en .
+
+:isCircular a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "Is circular"@en .
+
+:isDeepLearning a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "Is deep learning"@en .
+
+:isStatistic a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "Is statistic"@en .
+
+:mixtureComponents a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:label "Mixture components"@en .
+
+:numberOfComponents a owl:DatatypeProperty ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Number of components"@en .
+
+:inputVariable a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:label "Input variable"@en .
+
+:outputVariable a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:label "Output variable"@en .
+
+:derivedFrom a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:label "Derived from"@en .
+
+:applicationContext a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:label "Application context"@en .
+
+:location a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:label "Location"@en .
+
+:SurveyInstrument a owl:Class ;
+    rdfs:subClassOf :MeasuringInstrument ;
+    rdfs:label "Survey instrument"@en .
