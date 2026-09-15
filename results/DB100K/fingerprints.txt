@@ -1,0 +1,6 @@
+dataset: DB100K
+eligible_pool: 2307
+train_val_test: 1846 230 231
+policy: brink_proportional_80%_10%_10%_of_full_grounding_pool
+pool_sha256: 35e1a371adbe2697867245bbd240e0f85d9f9c28b7d92066051477fa1b5ae259
+split_sha256: 247023a18116024cc28770d051d5ac2fdb5fd5451d18da6588fa444d8e0951c0

@@ -1,0 +1,16 @@
+{
+  "status": "READY_FOR_GITHUB_REVIEW",
+  "compileall": "PASS",
+  "pytest_passed": 19,
+  "secret_scan": "PASS",
+  "brink_metrics": "centralized_official_style",
+  "copca_yago_footer_handling": "fixed",
+  "empty_dataframe_audits": "hardened",
+  "question_ids": "stable_split_position",
+  "split_policy": "documented_80_10_10_plus_100_test_floor",
+  "shacl_source": "authoritative_copca_ttl",
+  "question_generation": "explicit_brink_style_adaptation",
+  "runtime_state_names": "backend_neutral",
+  "data_layout": "canonical_data_KG_Constraints_Rules",
+  "legacy_data_paths": "removed"
+}

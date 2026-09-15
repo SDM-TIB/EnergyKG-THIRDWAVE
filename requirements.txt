@@ -1,0 +1,24 @@
+pandas
+numpy
+tqdm
+matplotlib
+rdflib==7.6.0
+pyshacl==0.40.1
+transformers
+accelerate
+bitsandbytes
+sentencepiece
+requests
+kagglehub
+psutil
+torch
+pytest
+
+# Known issue: pyshacl 0.40.1's SPARQLConstraintComponent evaluation (used by
+# FrenchRoyalty's shape) fails under Python 3.12 with
+# "Cannot use AS to re-bind potentially pre-bound variables such as this",
+# causing every candidate to resolve as SHACL-unresolved rather than
+# valid/invalid. Confirmed working under Python 3.10.12; not yet resolved
+# under Python 3.12.13 (observed on a default Kaggle kernel). Pinning the
+# exact rdflib/pyshacl versions above does not by itself fix this -- it is a
+# Python-version-specific issue. See docs/KNOWN_LIMITATIONS.md.

@@ -1,0 +1,4 @@
+dataset: YAGO3-10
+test_questions: 100
+pool_sha256: df6f67c4...  # full hash to be reconfirmed and completed from the latest full-precision notebook printout before publication
+split_sha256: 537532a9...  # full hash to be reconfirmed and completed from the latest full-precision notebook printout before publication

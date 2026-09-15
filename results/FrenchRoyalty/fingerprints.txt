@@ -1,0 +1,6 @@
+dataset: FrenchRoyalty
+eligible_pool: 143
+train_val_test: 38 5 100
+policy: brink_811_with_test_floor_100_train_val_share_remainder_8to1
+pool_sha256: 4589e3d21f6f9c11bbfa02dd689abe5b76160f6a7b0d8222e96329748d79f636
+split_sha256: 5967fd7b4e6cc454a22a2fb96da2192f9a4557af7ccd9efafcecc1a27b597e7d
