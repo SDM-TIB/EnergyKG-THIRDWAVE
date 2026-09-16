@@ -1,0 +1,38 @@
+Node order: ['<http://FrenchRoyalty.org/shapes/FatherWithChildConstraint>']
+
+
+>>>>>
+Retrieving (next) targets ...
+Evaluating target query for <http://FrenchRoyalty.org/shapes/FatherWithChildConstraint>:
+
+SELECT ?x WHERE { ?x a <http://FrenchRoyalty.org/Person> }
+elapsed: 65.01123046875 ms
+
+Number of targets retrieved: 2222
+
+Evaluating query for http://FrenchRoyalty.org/shapes/FatherWithChildConstraint_d1_c1:
+
+     SELECT ($this AS ?this)
+            WHERE {
+                $this <http://FrenchRoyalty.org/child> ?child .
+                ?child <http://FrenchRoyalty.org/mother> ?mother .
+                FILTER EXISTS {
+                    $this <http://FrenchRoyalty.org/spouse> ?mother .
+                }
+            }
+
+elapsed: 13208.142822265625 ms
+
+Number of solution mappings: 243
+
+
+>>>>> Starting validation of shape: <http://FrenchRoyalty.org/shapes/FatherWithChildConstraint>
+Starting saturation ...
+saturation ...
+elapsed: 0.0 ms
+Remaining targets: 0
+
+Maximal number or rules in memory: 0
+Total number of rules: 0
+Valid targets: 1979
+Invalid targets: 243

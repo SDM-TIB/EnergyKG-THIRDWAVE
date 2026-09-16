@@ -1,0 +1,191 @@
+Node order: ['<http://dbpedia.org/shapes/MusicianBandShape>', '<http://dbpedia.org/shapes/BirthPlaceCountryShape>', '<http://dbpedia.org/shapes/MusicGenreShape>', '<http://dbpedia.org/shapes/TeamLeagueShape>', '<http://dbpedia.org/shapes/LocationTimeZoneShape>', '<http://dbpedia.org/shapes/LanguageRegionShape>']
+
+
+>>>>>
+Retrieving (next) targets ...
+Evaluating target query for <http://dbpedia.org/shapes/MusicianBandShape>:
+
+SELECT ?x WHERE { ?x a <http://db100k.org/Resource> }
+elapsed: 1767.51806640625 ms
+
+Number of targets retrieved: 90475
+
+Evaluating query for http://dbpedia.org/shapes/MusicianBandShape_d1_c1:
+
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/associatedBand> ?band .
+                FILTER NOT EXISTS {
+                    ?band <http://db100k.org/associatedMusicalArtist> $this .
+                }
+            }
+        
+elapsed: 1024710.2456054688 ms
+
+Number of solution mappings: 11344
+
+
+>>>>> Starting validation of shape: <http://dbpedia.org/shapes/MusicianBandShape>
+Starting saturation ...
+saturation ...
+elapsed: 3.001220703125 ms
+Remaining targets: 0
+
+>>>>>
+Retrieving (next) targets ...
+Evaluating target query for <http://dbpedia.org/shapes/BirthPlaceCountryShape>:
+
+SELECT ?x WHERE { ?x a <http://db100k.org/Resource> }
+elapsed: 4318.149169921875 ms
+
+Number of targets retrieved: 90475
+
+Evaluating query for http://dbpedia.org/shapes/BirthPlaceCountryShape_d1_c1:
+
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/birthPlace> ?city .
+                ?city <http://db100k.org/country> ?country .
+                FILTER NOT EXISTS {
+                    $this <http://db100k.org/nationality> ?country .
+                }
+            }
+        
+elapsed: 1182002.0588378906 ms
+
+Number of solution mappings: 17207
+
+
+>>>>> Starting validation of shape: <http://dbpedia.org/shapes/BirthPlaceCountryShape>
+Starting saturation ...
+saturation ...
+elapsed: 3.0 ms
+Remaining targets: 0
+
+>>>>>
+Retrieving (next) targets ...
+Evaluating target query for <http://dbpedia.org/shapes/MusicGenreShape>:
+
+SELECT ?x WHERE { ?x a <http://db100k.org/Resource> }
+elapsed: 7039.88916015625 ms
+
+Number of targets retrieved: 90475
+
+Evaluating query for http://dbpedia.org/shapes/MusicGenreShape_d1_c1:
+
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/genre> ?genre .
+                $this <http://db100k.org/associatedBand> ?band .
+                FILTER NOT EXISTS {
+                    ?band <http://db100k.org/genre> ?genre .
+                }
+            }
+        
+elapsed: 734772.1398925781 ms
+
+Number of solution mappings: 11261
+
+
+>>>>> Starting validation of shape: <http://dbpedia.org/shapes/MusicGenreShape>
+Starting saturation ...
+saturation ...
+elapsed: 2.004150390625 ms
+Remaining targets: 0
+
+>>>>>
+Retrieving (next) targets ...
+Evaluating target query for <http://dbpedia.org/shapes/TeamLeagueShape>:
+
+SELECT ?x WHERE { ?x a <http://db100k.org/SportsTeam> }
+elapsed: 3.02294921875 ms
+
+Number of targets retrieved: 0
+
+Evaluating query for http://dbpedia.org/shapes/TeamLeagueShape_d1_c1:
+
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/league> ?league .
+                FILTER NOT EXISTS {
+                    ?league <http://db100k.org/team> $this .
+                }
+            }
+        
+elapsed: 0.0 ms
+
+Number of solution mappings: 0
+
+
+>>>>> Starting validation of shape: <http://dbpedia.org/shapes/TeamLeagueShape>
+Starting saturation ...
+saturation ...
+elapsed: 0.0 ms
+Remaining targets: 0
+
+>>>>>
+Retrieving (next) targets ...
+Evaluating target query for <http://dbpedia.org/shapes/LocationTimeZoneShape>:
+
+SELECT ?x WHERE { ?x a <http://db100k.org/Resource> }
+elapsed: 2381.021728515625 ms
+
+Number of targets retrieved: 90475
+
+Evaluating query for http://dbpedia.org/shapes/LocationTimeZoneShape_d1_c1:
+
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/timeZone> ?timezone .
+                ?country <http://db100k.org/timeZone> ?timezone .
+                FILTER EXISTS {
+                    ?this <http://db100k.org/country> ?country .
+                    
+                }
+            }
+        
+elapsed: 1355937.365234375 ms
+
+Number of solution mappings: 5893
+
+
+>>>>> Starting validation of shape: <http://dbpedia.org/shapes/LocationTimeZoneShape>
+Starting saturation ...
+saturation ...
+elapsed: 1.0 ms
+Remaining targets: 0
+
+>>>>>
+Retrieving (next) targets ...
+Evaluating target query for <http://dbpedia.org/shapes/LanguageRegionShape>:
+
+SELECT ?x WHERE { ?x a <http://db100k.org/Resource> }
+elapsed: 2058.9931640625 ms
+
+Number of targets retrieved: 90475
+
+Evaluating query for http://dbpedia.org/shapes/LanguageRegionShape_d1_c1:
+
+            SELECT ($this AS ?this)
+            WHERE {
+                $this <http://db100k.org/spokenIn> ?region .
+                FILTER NOT EXISTS {
+                    ?region <http://db100k.org/language> $this .
+                }
+            }
+        
+elapsed: 327005.0422363281 ms
+
+Number of solution mappings: 137
+
+
+>>>>> Starting validation of shape: <http://dbpedia.org/shapes/LanguageRegionShape>
+Starting saturation ...
+saturation ...
+elapsed: 0.99951171875 ms
+Remaining targets: 0
+
+Maximal number or rules in memory: 0
+Total number of rules: 0
+Valid targets: 406533
+Invalid targets: 45842
