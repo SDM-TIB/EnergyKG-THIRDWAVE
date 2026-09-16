@@ -1,0 +1,30 @@
+all targets:
+451924
+valid targets:
+407480
+invalid targets:
+44444
+max number of solution mappings for a query:
+42499
+total number of solution mappings:
+44444
+max number of rules in memory:
+0
+total number of rules:
+0
+number of queries:
+8
+max exec time for a query:
+946308.4753417969
+total query exec time:
+3255376.5751953125
+max interleaving (+ query exec) time for a query:
+0
+total interleaving (+ query exec) time:
+0
+max (deferred) saturation time:
+2.991943359375
+total (deferred) saturation time:
+9.000244140625
+total time:
+2406872
