@@ -17,7 +17,7 @@ data/
 ├── Constraints/
 │   ├── DB100K/
 │   │   ├── db100k.ttl
-│   │   ├── db100k.ttl.backup_avant_fix_shacl
+│   │   ├── db100k.ttl.backup_before_fix_shacl
 │   │   └── result_DB100K/
 │   │       ├── stats.txt
 │   │       ├── targets_valid.log
@@ -26,7 +26,7 @@ data/
 │   │       └── validationReport.ttl
 │   ├── FrenchRoyalty/
 │   │   ├── FrenchRoyalty.ttl
-│   │   ├── FrenchRoyalty.ttl.backup_avant_fix_shacl
+│   │   ├── FrenchRoyalty.ttl.backup_before_fix_shacl
 │   │   └── result_FrenchRoyalty/
 │   │       ├── stats.txt
 │   │       ├── targets_valid.log
@@ -36,7 +36,7 @@ data/
 │   │       └── validationReport.ttl
 │   └── YAGO3-10/
 │       ├── YAGO3-10.ttl
-│       ├── YAGO3-10.ttl.backup_avant_fix_shacl
+│       ├── YAGO3-10.ttl.backup_before_fix_shacl
 │       └── result_YAGO3-10/
 │           ├── stats.txt
 │           ├── targets_valid.log
@@ -66,9 +66,18 @@ its canonical Turtle file.
 ## Data availability
 
 The repository code expects the authoritative data above but does not invent
-or substitute missing source files. If licensing/distribution terms prevent
-committing the source data, keep the same directory layout locally and add the
-large/raw files outside Git as documented by the project.
+or substitute missing source files. The large **DB100K** and **YAGO3-10**
+knowledge graphs are distributed through the project's Figshare archive:
+
+**Figshare dataset archive:**
+https://figshare.com/s/ebb3a0b4a2fe8e8adf31
+
+Download the required source files from that archive and place them under the
+canonical `data/KG/DB100K/` and `data/KG/YAGO3-10/` directories shown above.
+Do not rename the files expected by the loader. The repository does not vendor
+these large source graphs in Git. If other authoritative source files are kept
+outside Git, keep the same directory layout locally and use the
+`DATA_ROOT_OVERRIDE` mechanism below.
 
 For a non-default location, set:
 

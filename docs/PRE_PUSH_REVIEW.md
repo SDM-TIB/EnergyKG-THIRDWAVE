@@ -2,6 +2,8 @@
 
 ## Status
 Pre-push review completed. The repository compiles and the automated test suite passes.
+Repository identity and dataset-distribution references have also been normalized
+to the canonical THIRDWAVE repository and project Figshare archive.
 
 **Verification:** `python -m compileall -q src tests scripts` → PASS; `pytest -q` → **19 passed**.
 Static secret scan found no embedded API-key patterns. A third-party lint run was not possible in the offline review environment, so CI remains the final lint/quality gate.
@@ -14,6 +16,8 @@ Static secret scan found no embedded API-key patterns. A third-party lint run wa
 - Question IDs are derived from frozen split position, so re-runs do not renumber later questions after a dropped row.
 - The small-pool 100-item test floor remains part of the frozen project protocol and is documented as such.
 - Authoritative inputs resolve from the canonical `data/KG`, `data/Constraints`, and `data/Rules` tree; legacy CoPCA package paths are no longer required.
+- The canonical repository is `SDM-TIB/EnergyKG-THIRDWAVE`, branch `constraint-gated-kg-rag`.
+- DB100K and YAGO3-10 are distributed through the project Figshare archive rather than vendored as large Git files.
 
 ## Engineering contract
 - Successful checkpoints are the only scientific answer records.

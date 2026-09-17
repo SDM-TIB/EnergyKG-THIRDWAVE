@@ -12,5 +12,9 @@
   "question_generation": "explicit_brink_style_adaptation",
   "runtime_state_names": "backend_neutral",
   "data_layout": "canonical_data_KG_Constraints_Rules",
-  "legacy_data_paths": "removed"
+  "legacy_data_paths": "removed",
+  "canonical_repository": "https://github.com/SDM-TIB/EnergyKG-THIRDWAVE",
+  "active_branch": "constraint-gated-kg-rag",
+  "dataset_archive": "https://figshare.com/s/ebb3a0b4a2fe8e8adf31",
+  "repository_references": "normalized"
 }

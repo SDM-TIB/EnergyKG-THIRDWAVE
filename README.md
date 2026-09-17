@@ -2,6 +2,10 @@
 
 # Constraint-Gated Neuro-Symbolic KG-RAG: Evidence Admission Under Deliberate Knowledge Incompleteness
 
+**Canonical repository:** https://github.com/SDM-TIB/EnergyKG-THIRDWAVE  
+**Active implementation branch:** `constraint-gated-kg-rag`
+
+
 Welcome to the official repository for this project, which harmonizes three
 prior lines of work — **BRINK**'s incomplete-knowledge benchmark protocol,
 **CoPCA**'s constraint-aware symbolic learning, and **DIGIMON**'s
@@ -123,9 +127,16 @@ Following BRINK's metric definitions exactly:
 
 ### 1. Clone the Repository
 
+This project is maintained in the **THIRDWAVE** repository. The experimental
+implementation is on the `constraint-gated-kg-rag` branch.
+
+Repository:
+https://github.com/SDM-TIB/EnergyKG-THIRDWAVE
+
 ```bash
-git clone https://github.com/admhamza/constraint-gated-neurosymbolic-kg-rag.git
-cd constraint-gated-neurosymbolic-kg-rag
+git clone --branch constraint-gated-kg-rag \
+    https://github.com/SDM-TIB/EnergyKG-THIRDWAVE.git
+cd EnergyKG-THIRDWAVE
 ```
 
 ### 2. Create a Virtual Environment and Install Dependencies
@@ -139,9 +150,21 @@ pip install -r requirements.txt
 ### 3. Obtain the Authoritative Data Sources
 
 The pipeline resolves authoritative inputs from the canonical `data/` tree. See
-[`data/README.md`](data/README.md) for the exact filenames and layout. If the
-source package is kept outside Git for licensing or size reasons, mirror the
-same tree locally and set `DATA_ROOT_OVERRIDE`.
+[`data/README.md`](data/README.md) for the exact filenames and layout.
+
+The **DB100K** and **YAGO3-10** knowledge graphs are available from the
+project's Figshare dataset archive:
+
+**Dataset archive:**
+https://figshare.com/s/ebb3a0b4a2fe8e8adf31
+
+These large knowledge-graph source files are intentionally distributed
+separately from GitHub. After downloading them, place the files in the
+repository's canonical `data/KG/` layout described in [`data/README.md`](data/README.md).
+The repository contains the code, benchmark protocol, frozen split
+fingerprints, rules, constraints, and metadata needed to reproduce the
+experiments. If the source data is kept outside the repository, set
+`DATA_ROOT_OVERRIDE` to the root containing `KG/`, `Constraints/`, and `Rules/`.
 
 ### On Kaggle: match the VM's Python version
 
@@ -255,10 +278,13 @@ python3 src/main.py --dataset FrenchRoyalty --max-questions 2  # end-to-end smok
 - **DB100K** — large, general-domain knowledge graph
 - **YAGO3-10** — medium, Wikipedia-derived general knowledge graph
 
-Authoritative source files for all three are distributed by the CoPCA
-project (see [`data/README.md`](data/README.md)); this repository computes
-and freezes its own benchmark split, question set, and symbolic-inference
-artifacts from those sources.
+The repository expects the authoritative source tree described in
+[`data/README.md`](data/README.md). The DB100K and YAGO3-10 source graphs are
+distributed through the project's [Figshare dataset archive](https://figshare.com/s/ebb3a0b4a2fe8e8adf31);
+FrenchRoyalty and the CoPCA-derived rules/constraint artifacts follow the
+canonical project data layout. The repository computes and freezes its own
+benchmark split, question set, and symbolic-inference artifacts from those
+sources.
 
 ---
 
