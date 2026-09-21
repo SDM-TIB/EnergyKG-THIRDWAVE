@@ -1,0 +1,41 @@
+{
+  "campaigns": {
+    "A": {
+      "description": "Original campaign, primary machine",
+      "datasets": ["FrenchRoyalty", "DB100K", "YAGO3-10"],
+      "retrievers": ["OneHop", "ToG", "PoG", "StructGPT"],
+      "models": ["Qwen2.5-3B", "Llama-3.1-8B"],
+      "conditions": ["E0", "E1", "E2", "E3", "E4", "E5", "E6", "E7"],
+      "questions_per_cell": 100,
+      "total_cells": 192,
+      "cells_complete": 192,
+      "status": "complete",
+      "results_file": "results/CAMPAIGN_A_MASTER_RESULTS.csv"
+    },
+    "B": {
+      "description": "Independent reproduction campaign, second machine",
+      "datasets": ["FrenchRoyalty", "DB100K", "YAGO3-10"],
+      "retrievers": ["OneHop", "ToG", "PoG", "StructGPT"],
+      "models": ["Qwen2.5-3B", "Llama-3.1-8B"],
+      "conditions": ["E0", "E1", "E2", "E3", "E4", "E5", "E6", "E7"],
+      "questions_per_cell": 100,
+      "total_cells": 192,
+      "cells_complete": 192,
+      "status": "complete",
+      "results_file": "results/CAMPAIGN_B_MASTER_RESULTS.csv",
+      "known_discrepancy": "Llama-specific positive shift on E0/E5/E6 (+0.07 to +0.10 mean Hits@Hard) relative to Campaign A; Qwen deltas below 0.02 with no consistent direction on the same conditions. Root cause not yet isolated. See docs/KNOWN_LIMITATIONS.md item 12 and results/CAMPAIGN_A_vs_B_COMPARISON.csv."
+    }
+  },
+  "seed": 42,
+  "temperature": 0,
+  "context_budget_facts": 12,
+  "shacl_mode": "differential",
+  "shacl_rejection_rate_by_kg": {
+    "FrenchRoyalty": 0.0183,
+    "DB100K": 0.0,
+    "YAGO3-10": 0.1486
+  },
+  "shacl_rejection_rate_identical_across_campaigns": true,
+  "primary_reference_campaign": "A",
+  "last_updated": "2026-09-21"
+}

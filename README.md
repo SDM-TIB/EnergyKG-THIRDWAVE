@@ -2,10 +2,6 @@
 
 # Constraint-Gated Neuro-Symbolic KG-RAG: Evidence Admission Under Deliberate Knowledge Incompleteness
 
-**Canonical repository:** https://github.com/SDM-TIB/EnergyKG-THIRDWAVE  
-**Active implementation branch:** `constraint-gated-kg-rag`
-
-
 Welcome to the official repository for this project, which harmonizes three
 prior lines of work — **BRINK**'s incomplete-knowledge benchmark protocol,
 **CoPCA**'s constraint-aware symbolic learning, and **DIGIMON**'s
@@ -61,13 +57,24 @@ The **pipeline** follows these major steps:
 │   └── README.md               # canonical data layout and acquisition notes
 │
 ├── results/
-│   ├── FrenchRoyalty/          # frozen fingerprints + per-condition metrics
+│   ├── FrenchRoyalty/                       # frozen fingerprints (SHA-256)
 │   ├── DB100K/
-│   └── YAGO3-10/
+│   ├── YAGO3-10/
+│   ├── CAMPAIGN_MANIFEST.json               # machine-readable definition of Campaign A and B
+│   ├── CAMPAIGN_A_MASTER_RESULTS.csv        # 192 cells, primary machine
+│   ├── CAMPAIGN_B_MASTER_RESULTS.csv        # 192 cells, independent second-machine reproduction
+│   ├── CAMPAIGN_A_vs_B_COMPARISON.csv       # per-cell delta, both models
+│   └── SHACL_REJECTION_DIAGNOSTIC.csv       # real rejection rate per KG (identical across A and B)
+│
+├── figures/                                 # PNG figures used in the presentation
+│
+├── presentation/
 │
 ├── docs/
 │   ├── METHODOLOGY.md          # full algorithmic detail, every deliberate BRINK/CoPCA deviation
-│   └── KNOWN_LIMITATIONS.md    # documented, not hidden
+│   ├── KNOWN_LIMITATIONS.md    # documented, not hidden
+│   ├── SCIENTIFIC_STATUS.md    # current, dated snapshot of established findings
+│   └── REPRODUCIBILITY.md      # full protocol, fixed parameters, verification checklist
 │
 ├── scripts/
 │   └── launch.sh               # unattended, resumable launch for a persistent VM
@@ -81,6 +88,28 @@ The **pipeline** follows these major steps:
 The files under `src/` share global state across stages (like a notebook's
 cells), so they run in a fixed order through `src/main.py`, not as
 independently importable modules.
+
+---
+
+## Results and Reproducibility
+
+Two full, independent 192-cell campaigns (3 KGs $\times$ 4 retrievers $\times$
+2 LLM backbones $\times$ 8 conditions, 100 questions per cell) have been run
+on two separate machines. See `docs/SCIENTIFIC_STATUS.md` for the
+established findings and `results/CAMPAIGN_MANIFEST.json` for the exact
+definition of each campaign.
+
+- **Campaign A** (`results/CAMPAIGN_A_MASTER_RESULTS.csv`): the primary,
+  fully analyzed campaign.
+- **Campaign B** (`results/CAMPAIGN_B_MASTER_RESULTS.csv`): an independent
+  reproduction on a second machine. Every structural finding (the
+  incompleteness effect, symbolic recovery, the retriever tier structure,
+  the SHACL rejection profile) replicates. One open discrepancy remains,
+  specific to the Llama-3.1-8B backbone on three conditions -- see
+  `docs/KNOWN_LIMITATIONS.md` item 12 and
+  `results/CAMPAIGN_A_vs_B_COMPARISON.csv` for the full per-cell detail.
+
+The `presentation/` folder contains the results deck actually presented, matching these CSVs exactly.
 
 ---
 
@@ -127,16 +156,9 @@ Following BRINK's metric definitions exactly:
 
 ### 1. Clone the Repository
 
-This project is maintained in the **THIRDWAVE** repository. The experimental
-implementation is on the `constraint-gated-kg-rag` branch.
-
-Repository:
-https://github.com/SDM-TIB/EnergyKG-THIRDWAVE
-
 ```bash
-git clone --branch constraint-gated-kg-rag \
-    https://github.com/SDM-TIB/EnergyKG-THIRDWAVE.git
-cd EnergyKG-THIRDWAVE
+git clone https://github.com/admhamza/constraint-gated-neurosymbolic-kg-rag.git
+cd constraint-gated-neurosymbolic-kg-rag
 ```
 
 ### 2. Create a Virtual Environment and Install Dependencies
@@ -150,21 +172,9 @@ pip install -r requirements.txt
 ### 3. Obtain the Authoritative Data Sources
 
 The pipeline resolves authoritative inputs from the canonical `data/` tree. See
-[`data/README.md`](data/README.md) for the exact filenames and layout.
-
-The **DB100K** and **YAGO3-10** knowledge graphs are available from the
-project's Figshare dataset archive:
-
-**Dataset archive:**
-https://figshare.com/s/ebb3a0b4a2fe8e8adf31
-
-These large knowledge-graph source files are intentionally distributed
-separately from GitHub. After downloading them, place the files in the
-repository's canonical `data/KG/` layout described in [`data/README.md`](data/README.md).
-The repository contains the code, benchmark protocol, frozen split
-fingerprints, rules, constraints, and metadata needed to reproduce the
-experiments. If the source data is kept outside the repository, set
-`DATA_ROOT_OVERRIDE` to the root containing `KG/`, `Constraints/`, and `Rules/`.
+[`data/README.md`](data/README.md) for the exact filenames and layout. If the
+source package is kept outside Git for licensing or size reasons, mirror the
+same tree locally and set `DATA_ROOT_OVERRIDE`.
 
 ### On Kaggle: match the VM's Python version
 
@@ -278,13 +288,10 @@ python3 src/main.py --dataset FrenchRoyalty --max-questions 2  # end-to-end smok
 - **DB100K** — large, general-domain knowledge graph
 - **YAGO3-10** — medium, Wikipedia-derived general knowledge graph
 
-The repository expects the authoritative source tree described in
-[`data/README.md`](data/README.md). The DB100K and YAGO3-10 source graphs are
-distributed through the project's [Figshare dataset archive](https://figshare.com/s/ebb3a0b4a2fe8e8adf31);
-FrenchRoyalty and the CoPCA-derived rules/constraint artifacts follow the
-canonical project data layout. The repository computes and freezes its own
-benchmark split, question set, and symbolic-inference artifacts from those
-sources.
+Authoritative source files for all three are distributed by the CoPCA
+project (see [`data/README.md`](data/README.md)); this repository computes
+and freezes its own benchmark split, question set, and symbolic-inference
+artifacts from those sources.
 
 ---
 

@@ -17,7 +17,7 @@ Documented explicitly, not hidden.
    corroborated** on FrenchRoyalty's full 4-retriever × 2-model campaign: the
    real SHACL rejection rate is identical (4/218 candidates, 1.83%) across
    every retriever and both models (see
-   `results/FrenchRoyalty/shacl_rejection_by_retriever.csv`), while the
+   `results/SHACL_REJECTION_DIAGNOSTIC.csv`), while the
    observed E7-minus-E2 deltas vary from -0.04 to +0.06 on Hits@Hard —
    filtering alone cannot explain variation it does not have. Any claim
    about "the effect of SHACL gating" should be read as the effect of gating
@@ -86,3 +86,23 @@ Documented explicitly, not hidden.
     check, and no scope violation was ever found there either -- but the
     "verified" claim for $\Delta$SHACL specifically should be treated as
     newly established by this fix, not as re-confirmed from earlier runs.
+
+12. **An independent cross-machine reproduction of the Llama-3.1-8B
+    campaign (96 cells: 3 KGs x 4 retrievers x 8 conditions) shows a
+    localized, unexplained discrepancy, not full determinism.** SHACL
+    candidate/rejection counts matched exactly across both runs (confirming
+    an identical frozen benchmark and rule/constraint pool), but Hits@Hard
+    differs systematically on the three conditions that expose the
+    complete graph or the oracle fact (E0, E5, E6: mean delta +0.08 to
+    +0.11), while the five incomplete-graph conditions (E1-E4, E7) show
+    approximately zero difference (mean delta -0.004 to 0.000). This
+    pattern rules out general data corruption (the SHACL counts are
+    identical) and points to something specific to declared-fact
+    retrieval or context construction when the complete graph is used,
+    but the root cause has not been isolated -- no direct access to the
+    second machine's exact code/hardware state was available for this
+    investigation. Qwen2.5-3B ran on the same second machine but its
+    results have not yet been extracted for comparison. Until resolved,
+    treat E0/E5/E6 values as machine-dependent to within roughly +/-0.10
+    on Hits@Hard, and E1-E4/E7 values as stable across the two
+    environments tested.

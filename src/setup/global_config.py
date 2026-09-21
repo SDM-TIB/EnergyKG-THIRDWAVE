@@ -41,10 +41,10 @@ DATA_SOURCE_NAMESPACE = str(DATA_ROOT)
 _CORE_KEYS = ("kg", "rules", "shacl")
 _missing = [str(DATASETS_CONFIG[name][key])
             for name in DATASETS_CONFIG for key in _CORE_KEYS
-            if not DATASETS_CONFIG[name][key].exists()]
+            if not DATASETS_CONFIG[name][key].exists() or DATASETS_CONFIG[name][key].stat().st_size == 0]
 if _missing:
     raise FileNotFoundError(
-        "Canonical authoritative data layout is incomplete. Missing files:\n"
+        "Canonical authoritative data layout is incomplete or contains empty placeholder files:\n"
         + "\n".join(_missing)
         + "\nSee data/README.md. Set DATA_ROOT_OVERRIDE to use another root with the same layout."
     )

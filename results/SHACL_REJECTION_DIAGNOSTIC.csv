@@ -1,0 +1,4 @@
+dataset,ns_candidates_total,shacl_valid,shacl_invalid,shacl_unresolved,rejection_rate
+FrenchRoyalty,218,214,4,0,0.0183
+DB100K,164,164,0,0,0.0000
+YAGO3-10,74,63,11,0,0.1486

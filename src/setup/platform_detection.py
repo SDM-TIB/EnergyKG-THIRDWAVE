@@ -61,12 +61,9 @@ PERSIST_LABEL = ("this repository (self-contained)" if not IN_KAGGLE and not os.
                   else "Kaggle session (/kaggle/working)" if IN_KAGGLE
                   else "custom root (COPCA_BRINK_ROOT)")
 
-# Canonical repository data layout.  All authoritative inputs live under
-# <repo>/data/{KG,Constraints,Rules}; no CoPCA package layout is required.
-DATA_ROOT = REPO_ROOT / "data"
-DATA_SEARCH_ROOTS = [DATA_ROOT]
-if IN_KAGGLE:
-    DATA_SEARCH_ROOTS.append(_Path("/kaggle/input"))
+# Canonical repository data layout: <repo>/data/{KG,Constraints,Rules}.
+# global_config.py resolves the authoritative DATA_ROOT (respecting
+# DATA_ROOT_OVERRIDE/COPCA_BRINK_ROOT); nothing here is read downstream.
 
 print(f"Platform: Kaggle={IN_KAGGLE} Colab={IN_COLAB} GCE={IN_GCE}")
 if IN_COLAB and not os.path.exists("/content/drive/MyDrive"):
@@ -77,7 +74,7 @@ if IN_COLAB and not os.path.exists("/content/drive/MyDrive"):
 print("PERSIST_ROOT:", PERSIST_ROOT, "(runtime state: checkpoints/artifacts/cache)")
 if CAMPAIGN_NAME:
     print("CAMPAIGN_NAME:", CAMPAIGN_NAME)
-print(f"\nAuthoritative source data must be under {DATA_ROOT}/")
+print(f"\nAuthoritative source data resolved relative to persistent root; see data/README.md.")
 if os.environ.get("COPCA_BRINK_ROOT"):
     print("COPCA_BRINK_ROOT is set; external runtime state is preserved, but data resolution remains canonical unless overridden below.")
 print("Expected layout: data/KG, data/Constraints, data/Rules (see data/README.md).")

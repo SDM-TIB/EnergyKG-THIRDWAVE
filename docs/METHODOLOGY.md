@@ -169,7 +169,7 @@ treat E7 results computed elsewhere as unreliable. See
 On FrenchRoyalty's active 100-question set, the exact same 4/218 candidates
 (1.83%) are rejected regardless of retriever (OneHop, ToG, PoG, StructGPT) or
 answering model (Qwen2.5-3B, Llama-3.1-8B); see
-`results/FrenchRoyalty/shacl_rejection_by_retriever.csv`. This is expected by
+`results/SHACL_REJECTION_DIAGNOSTIC.csv`. This is expected by
 construction: $\Delta$SHACL validates E2's symbolic candidates, which come
 from backward-chaining over the KG and do not depend on the retriever or the
 answering model. The observed E7-minus-E2 deltas per retriever/model (from
@@ -241,3 +241,79 @@ Metrics (Hits@Any, Hits@Hard, HHR, Precision, Recall, F1) follow the BRINK evalu
   VM, after several hours of continuous SHACL validation) led to resizing
   the VM and adding a periodic, scoped garbage-collection call in the
   SHACL-dependent condition's driver loop.
+
+## 8. Positioning relative to the literature
+
+This work sits at the intersection of four research lines: KG-RAG under
+incompleteness, symbolic reasoning over knowledge graphs, semantic
+constraints, and evidence traceability. The comparison below is
+metric-compatible with BRINK (same Hits@Any/Hits@Hard/HHR/F1 definitions)
+but not directly score-comparable to any single prior system: datasets,
+backbones, retrievers, and experimental conditions all differ. Comparing
+raw scores across these systems ("our F1 is X, therefore we outperform
+BRINK") would be methodologically fragile; the comparison below is
+architectural, not score-based.
+
+| Criterion | KG-RAG literature | BRINK | CoPCA / NS-KG | This work |
+|---|---|---|---|---|
+| Complete KG | ✓ | ✓ | ✓ | ✓ |
+| Deliberate incompleteness | -- | ✓ | ✓ | ✓ |
+| Hard-answer evaluation | -- | ✓ | -- | ✓ |
+| Hits@Any / Hits@Hard / HHR | rare | ✓ | -- | ✓ |
+| Precision / Recall / F1 | variable | ✓ | -- | ✓ |
+| Rule mining | variable | AMIE3 | ✓ | ✓ |
+| Symbolic candidate generation | variable | indirect | ✓ | ✓ |
+| Explicit candidate proof | variable | benchmark construction | ✓ | ✓ |
+| SHACL constraints | generally -- | -- | ✓ | ✓ |
+| Differential (pre/post) validation | -- | -- | -- | ✓ |
+| Candidate-level admission | -- | -- | not central | ✓ |
+| Random-distractor control | rare | -- | -- | ✓ (E4) |
+| Oracle-target control | rare | complete/incomplete KG | -- | ✓ (E6) |
+| Grounding attribution | rare | answer-level | KG-level | ✓ (GRR) |
+| KG × retriever × LLM analysis | variable | ✓ | not central | ✓ |
+| Cross-environment (A/B) reproducibility check | rarely reported | not central | not central | ✓ |
+
+### The distinction that matters: reasoning vs.\ evidence admission
+
+BRINK asks: *can KG-RAG reason when direct evidence is missing?* This work
+asks a narrower, downstream question: *given a symbolically generated
+candidate under missing evidence, should that candidate be admitted as
+evidence to the LLM?* CoPCA's SHACL validation targets KG completion
+(Hits@1/3/5/10, MRR for embedding models); here SHACL is repurposed as a
+candidate-level evidence-admission policy, not a KG-cleaning step. AMIE3 is
+an infrastructural component (rule mining), not the contribution itself --
+the contribution begins where a mined rule's grounding becomes a
+constraint-checked evidence candidate.
+
+### Final positioning statement
+
+> Unlike prior KG-RAG studies that primarily evaluate retrieval and answer
+> generation under incomplete knowledge, this work introduces an explicit
+> candidate-level evidence-admission layer between symbolic inference and
+> LLM generation. The layer uses differential SHACL validation to
+> distinguish pre-existing graph violations from violations introduced by a
+> newly inferred candidate.
+>
+> The experiments show that symbolic augmentation can recover part of the
+> performance lost under deliberate incompleteness, while the current
+> binary constraint gate does not consistently improve downstream answer
+> quality. This negative result is itself informative: it indicates that
+> constraint validity and answer utility are distinct properties.
+>
+> The resulting framework treats neuro-symbolic KG-RAG as a staged evidence
+> pipeline -- generation, proof, admission, exposure, and answer
+> attribution -- rather than as a single retrieval-to-generation operation.
+
+A fully instrumented version of this pipeline would report $N_{pool}$
+(candidates generated), $N_{proven}$ (candidates with a backward-chained
+proof), $N_{admitted}$ (candidates passing $\Delta$SHACL), and $N_{shown}$
+(candidates actually surviving the context budget) as four distinct,
+per-question counts. The current codebase already logs all four per
+question: `inferred_count` ($N_{proven}$), `shacl_valid_count`
+($N_{admitted}$), and `context_count` ($N_{shown}$, computed from the
+actual fused context after truncation, not the pre-truncation pool -- see
+`driver.py`'s `_context_label_counts`); the raw candidate-pool size
+($N_{pool}$) is likewise available from the checkpointed candidate lists
+before proof-filtering. This decomposition is proposed here as the
+natural next diagnostic layer to report explicitly and jointly, not as
+a set of previously-unavailable measurements.
