@@ -1,0 +1,670 @@
+derived_value_id,derivedValueMagnitude,derivedValueType,derivedValueTemporalScope
+R1378024__derivedvalue_001,-0.019,regional ensemble-mean linear trend,1979–2019
+R689596__derivedvalue_001,1.10465–3.87741,calculated wind power density range,2005–2014
+R689596__derivedvalue_002,47.82131–85.29432,calculated wind power density range,2005–2014
+R689596__derivedvalue_003,173.98128–273.66696,calculated wind power density range,2005–2014
+R702336__derivedvalue_001,180,most probable wind direction,1995–2005
+R702341__derivedvalue_001,approximately 730,estimated monthly mean wind power density,March 2007
+R702341__derivedvalue_002,approximately 180,estimated monthly mean wind power density,June 2007
+R703000__derivedvalue_001,4.13,five-year mean wind speed extrapolated by Power Law,2003–2007
+R703000__derivedvalue_002,4.47,five-year mean wind speed extrapolated by Power Law,2003–2007
+R703000__derivedvalue_003,5.14,five-year mean wind speed extrapolated by Power Law,2003–2007
+R703000__derivedvalue_004,5.52,five-year mean wind speed extrapolated by Power Law,2003–2007
+R703000__derivedvalue_005,3.56,five-year mean wind speed extrapolated by Power Law,2003–2007
+R703000__derivedvalue_006,3.87,five-year mean wind speed extrapolated by Power Law,2003–2007
+R703000__derivedvalue_007,3.73,five-year mean wind speed extrapolated by Power Law,2003–2007
+R703000__derivedvalue_008,4.04,five-year mean wind speed extrapolated by Power Law,2003–2007
+R703000__derivedvalue_009,2.52,five-year mean wind speed extrapolated by Power Law,2003–2007
+R703000__derivedvalue_010,2.76,five-year mean wind speed extrapolated by Power Law,2003–2007
+R703000__derivedvalue_011,31.83,equivalent surface roughness length,2007
+R703003__derivedvalue_001,3.81,extrapolated annual mean wind speed,average across 2003–2007
+R703003__derivedvalue_002,4.22,extrapolated annual mean wind speed,average across 2003–2007
+R703003__derivedvalue_003,89.184,annual mean wind power density,average across 2003–2007
+R703003__derivedvalue_004,781.252,annual average wind energy density,average across 2003–2007
+R703003__derivedvalue_005,106.525,annual wind power density,2003
+R703003__derivedvalue_006,933.159,annual wind energy density,2003
+R703003__derivedvalue_007,72.777,annual wind power density,2006
+R703003__derivedvalue_008,637.527,annual wind energy density,2006
+R703009__derivedvalue_001,5.47,most probable wind speed,annual
+R703009__derivedvalue_002,6.48,wind speed carrying maximum energy,annual
+R703009__derivedvalue_003,96.98,mean wind power density,annual
+R703009__derivedvalue_004,717.619,mean energy density,annual
+R703009__derivedvalue_005,3.5,most probable wind speed,annual
+R703009__derivedvalue_006,3.9,wind speed carrying maximum energy,annual
+R703009__derivedvalue_007,23.23,mean wind power density,annual
+R703009__derivedvalue_008,203.53,mean energy density,annual
+R703009__derivedvalue_009,3.72,most probable wind speed,annual
+R703009__derivedvalue_010,4.33,wind speed carrying maximum energy,annual
+R703009__derivedvalue_011,28.34,mean wind power density,annual
+R703009__derivedvalue_012,248.252,mean energy density,annual
+R703013__derivedvalue_001,4.74,annual most probable wind speed,whole period from 2005 to 2010
+R703013__derivedvalue_002,3.78,annual most probable wind speed,whole period from 2005 to 2010
+R703013__derivedvalue_003,4.67,annual most probable wind speed,whole period from 2005 to 2010
+R703013__derivedvalue_004,9.93,annual wind speed carrying maximum energy,whole period from 2005 to 2010
+R703013__derivedvalue_005,7.57,annual wind speed carrying maximum energy,whole period from 2005 to 2010
+R703013__derivedvalue_006,8.68,annual wind speed carrying maximum energy,whole period from 2005 to 2010
+R703029__derivedvalue_001,280,annual mean wind power density,annual
+R703029__derivedvalue_002,775,annual mean wind power density,annual
+R703029__derivedvalue_003,100,annual mean wind power density,annual
+R703029__derivedvalue_004,300,annual mean wind power density,annual
+R703032__derivedvalue_001,4.751,annual wind speed carrying maximum energy,annual
+R703032__derivedvalue_002,3.565,annual most probable wind speed,annual
+R703032__derivedvalue_003,3.495,annual wind speed carrying maximum energy,annual
+R703032__derivedvalue_004,2.77,annual most probable wind speed,annual
+R703032__derivedvalue_005,5.797,annual wind speed carrying maximum energy,annual
+R703032__derivedvalue_006,4.313,annual most probable wind speed,annual
+R703032__derivedvalue_007,4.08,annual wind speed carrying maximum energy,annual
+R703032__derivedvalue_008,3.154,annual most probable wind speed,annual
+R703032__derivedvalue_009,5.789,annual wind speed carrying maximum energy,annual
+R703032__derivedvalue_010,4.618,annual most probable wind speed,annual
+R703032__derivedvalue_011,6.797,annual wind speed carrying maximum energy,annual
+R703032__derivedvalue_012,3.458,annual most probable wind speed,annual
+R703035__derivedvalue_001,996.1,annual wind energy density,2007
+R703035__derivedvalue_002,1788.7,annual wind energy density,2007
+R703035__derivedvalue_003,2132.88,annual wind energy density,2007
+R703046__derivedvalue_001,1714,simulated electric-power output,all-year model
+R703049__derivedvalue_001,2.76,most probable wind speed,August; study-period monthly analysis
+R703049__derivedvalue_002,4.81,most probable wind speed,August; study-period monthly analysis
+R703049__derivedvalue_003,2.72,most probable wind speed,August; study-period monthly analysis
+R703049__derivedvalue_004,3.38,most probable wind speed,August; study-period monthly analysis
+R703052__derivedvalue_001,4.76,monthly mean wind speed,February 2006
+R703052__derivedvalue_002,1.93,monthly mean wind speed,August 2008
+R703052__derivedvalue_003,2.44,most probable wind speed,2007
+R703052__derivedvalue_004,6.02,wind speed carrying maximum energy,2007
+R703052__derivedvalue_005,190,most probable wind direction blowing from,2006–2008
+R703052__derivedvalue_006,269,most probable wind direction blowing from,2006–2008
+R703055__derivedvalue_001,287.48,annual mean wind power density calculated from measured wind speed data,yearly; May 2007 to April 2010
+R703055__derivedvalue_002,745.06,Weibull wind power density,May; Maximum Likelihood Method
+R703055__derivedvalue_003,493.0,Weibull wind power density,"season 3, June to September; Maximum Likelihood Method"
+R703058__derivedvalue_001,2.34,annual mean wind speed extrapolated to 50 m,2008 annual mean
+R703061__derivedvalue_001,2.66,lowest average wind speed estimated from wind analysis,
+R703061__derivedvalue_002,5.56,highest average wind speed estimated from wind analysis,
+R703061__derivedvalue_003,664.2,average yearly energy consumption of 1300 irrigation pumps,
+R703072__derivedvalue_001,about 265,annual mean wind power density,2011
+R703081__derivedvalue_001,162.1,forecasted wind power density,annual
+R703081__derivedvalue_002,159.7,forecasted wind power density,annual
+R703081__derivedvalue_003,155.7,forecasted wind power density,annual
+R703081__derivedvalue_004,167.5,forecasted wind power density,annual
+R703084__derivedvalue_001,1.86,annual most probable wind speed,all ten years under study
+R703084__derivedvalue_002,6.48,annual wind speed carrying maximum energy,all ten years under study
+R703084__derivedvalue_003,55.96,annual minimum wind power density,2006 and 2014
+R703084__derivedvalue_004,77.37,annual maximum wind power density,2011
+R703084__derivedvalue_005,490,annual minimum wind energy density,2005–2014
+R703084__derivedvalue_006,677,annual maximum wind energy density,2005–2014
+R703087__derivedvalue_001,0.3386,wind speed probability density,
+R703102__derivedvalue_001,92,wind power density,year 2000
+R703102__derivedvalue_002,422,wind power density,year 2000
+R703102__derivedvalue_003,55,wind power density,year 2000
+R703102__derivedvalue_004,379,wind power density,year 2000
+R703102__derivedvalue_005,180,wind power density,year 2000
+R703102__derivedvalue_006,615,wind power density,year 2000
+R703102__derivedvalue_007,523,wind power density,year 2000
+R703102__derivedvalue_008,231,wind power density,year 2000
+R703102__derivedvalue_009,376,wind power density,year 2000
+R703102__derivedvalue_010,89,wind power density,year 2000
+R703102__derivedvalue_011,118,wind power density,year 2000
+R703102__derivedvalue_012,531,wind power density,year 2000
+R703102__derivedvalue_013,147,wind power density,year 2000
+R703102__derivedvalue_014,297,wind power density,year 2000
+R703102__derivedvalue_015,295,wind power density,year 2000
+R703102__derivedvalue_016,355,wind power density,year 2000
+R703102__derivedvalue_017,266,wind power density,year 2000
+R703102__derivedvalue_018,200,wind power density,year 2000
+R703102__derivedvalue_019,125,wind power density,year 2000
+R703102__derivedvalue_020,178,wind power density,year 2000
+R703102__derivedvalue_021,220,wind power density,year 2000
+R703102__derivedvalue_022,336,wind power density,year 2000
+R703102__derivedvalue_023,336,wind power density,year 2000
+R703102__derivedvalue_024,840,wind power density,year 2000
+R703102__derivedvalue_025,834,wind power density,year 2000
+R703102__derivedvalue_026,507,energy density based on modified combined Weibull distribution,year 2000
+R703105__derivedvalue_001,5.02,Weibull-modelled mean wind speed extrapolated to 110 m,"December, overall 11-year monthly model"
+R703105__derivedvalue_002,7.02,Weibull-modelled mean wind speed extrapolated to 110 m,"July, overall 11-year monthly model"
+R704994__derivedvalue_001,54.96667,mean wind power density,2004-2015
+R704994__derivedvalue_002,82.22761,mean wind power density,2009-2015 as reported in Table 2
+R704994__derivedvalue_003,63.35978,mean wind power density,2009-2012 as reported in Table 2
+R705081__derivedvalue_001,12.01,wind speed carrying maximum energy,year 2018
+R705081__derivedvalue_002,13.71,wind speed carrying maximum energy,winter 2018
+R705081__derivedvalue_003,8.07,most probable wind speed,winter 2018
+R705081__derivedvalue_004,520.71,mean power density,year 2018
+R705081__derivedvalue_005,998.33,mean power density,January 2018
+R705081__derivedvalue_006,244.74,mean power density,June 2018
+R705188__derivedvalue_001,49.55,annual wind power density calculated using measured data,"annual, 2016"
+R705188__derivedvalue_002,49.3,annual wind power density estimated using Weibull PDF fitted by MLM,"annual, 2016"
+R705188__derivedvalue_003,47.29,annual wind power density estimated using Weibull PDF fitted by EMJ,"annual, 2016"
+R705236__derivedvalue_001,2.109,most probable wind speed,"Whole Year, 2002–2012"
+R705236__derivedvalue_002,6.619,wind speed carrying maximum energy,"Whole Year, 2002–2012"
+R705236__derivedvalue_003,67.57,metrological wind power density,"Whole Year, 2002–2012"
+R705236__derivedvalue_004,743.26,metrological wind energy density,"Whole Year, 2002–2012"
+R705236__derivedvalue_005,69.46,Weibull wind power density,"Whole Year, 2002–2012"
+R705236__derivedvalue_006,762.54,Weibull wind energy density,"Whole Year, 2002–2012"
+R705236__derivedvalue_007,83.78,metrological wind power density,2006
+R705236__derivedvalue_008,921.58,metrological wind energy density,2006
+R705236__derivedvalue_009,42.86,metrological wind power density,2010
+R705236__derivedvalue_010,471.46,metrological wind energy density,2010
+R705236__derivedvalue_011,315,"most probable wind direction, reported as SE winds",2002–2012
+R705236__derivedvalue_012,337.5,"most probable wind direction, reported as ESE",2002–2012
+R705566__derivedvalue_001,322.702,theoretical mean of the cube of wind speed from WW-pdf,annual wind speed distribution
+R705566__derivedvalue_002,323.969,theoretical mean of the cube of wind speed from WW-pdf,annual wind speed distribution
+R705566__derivedvalue_003,115.975,theoretical mean of the cube of wind speed from WW-pdf,annual wind speed distribution
+R705566__derivedvalue_004,548.296,theoretical mean of the cube of wind speed from WW-pdf,annual wind speed distribution
+R705566__derivedvalue_005,543.925,theoretical mean of the cube of wind speed from WW-pdf,annual wind speed distribution
+R705566__derivedvalue_006,220.741,theoretical mean of the cube of wind speed from WW-pdf,annual wind speed distribution
+R705566__derivedvalue_007,241.664,theoretical mean of the cube of wind speed from WW-pdf,annual wind speed distribution
+R705566__derivedvalue_008,299.451,theoretical mean of the cube of wind speed from WW-pdf,annual wind speed distribution
+R705566__derivedvalue_009,236.037,theoretical mean of the cube of wind speed from WW-pdf,annual wind speed distribution
+R705566__derivedvalue_010,322.702,theoretical mean of the cube of wind speed from W-pdf,annual wind speed distribution
+R705566__derivedvalue_011,335.328,theoretical mean of the cube of wind speed from W-pdf,annual wind speed distribution
+R705566__derivedvalue_012,115.975,theoretical mean of the cube of wind speed from W-pdf,annual wind speed distribution
+R705566__derivedvalue_013,551.19,theoretical mean of the cube of wind speed from W-pdf,annual wind speed distribution
+R705566__derivedvalue_014,567.37,theoretical mean of the cube of wind speed from W-pdf,annual wind speed distribution
+R705566__derivedvalue_015,227.468,theoretical mean of the cube of wind speed from W-pdf,annual wind speed distribution
+R705566__derivedvalue_016,242.049,theoretical mean of the cube of wind speed from W-pdf,annual wind speed distribution
+R705566__derivedvalue_017,299.451,theoretical mean of the cube of wind speed from W-pdf,annual wind speed distribution
+R705566__derivedvalue_018,237.722,theoretical mean of the cube of wind speed from W-pdf,annual wind speed distribution
+R707161__derivedvalue_001,3.094 – 26.492,wind power density,
+R707161__derivedvalue_002,6.233 – 46.275,wind power density,
+R707161__derivedvalue_003,9.388 – 64.129,wind power density,
+R707456__derivedvalue_001,271.08,prevailing wind direction,
+R707456__derivedvalue_002,263.93,prevailing wind direction,
+R707456__derivedvalue_003,308.48,prevailing wind direction,
+R707456__derivedvalue_004,219.11,prevailing wind direction,
+R707568__derivedvalue_001,5.58 to 12.24,estimated monthly wind-speed range,monthly values during the study data period
+R707568__derivedvalue_002,7.72,estimated annual mean wind speed,annual mean
+R707568__derivedvalue_003,5.42 to 12.07,estimated monthly wind-speed range,monthly values during the study data period
+R707568__derivedvalue_004,7.38,estimated annual mean wind speed,annual mean
+R707568__derivedvalue_005,44.262,50-year extreme wind speed,50-year return period
+R707587__derivedvalue_001,25.79,mean wind power density calculated from observed wind-speed data,station record period
+R707587__derivedvalue_002,93.41,mean wind power density calculated from observed wind-speed data,station record period
+R707587__derivedvalue_003,67.77,mean wind power density calculated from observed wind-speed data,station record period
+R707587__derivedvalue_004,99.0,mean wind power density calculated from observed wind-speed data,station record period
+R707587__derivedvalue_005,95.44,mean wind power density calculated from observed wind-speed data,station record period
+R707587__derivedvalue_006,45.89,mean wind power density calculated from observed wind-speed data,station record period
+R707587__derivedvalue_007,70.36,mean wind power density calculated from observed wind-speed data,station record period
+R707661__derivedvalue_001,16.66,annual mean wind power density,annual mean
+R707661__derivedvalue_002,61.58,annual mean wind power density,annual mean
+R707661__derivedvalue_003,148.65,annual mean wind power density,annual mean
+R707661__derivedvalue_004,40.3,annual mean wind power density,annual mean
+R707661__derivedvalue_005,444.69,annual mean wind power density,annual mean
+R707661__derivedvalue_006,103.69,annual mean wind power density,annual mean
+R708252__derivedvalue_001,32.18,estimated extreme wind speed,10-year return period; monthly maxima
+R708252__derivedvalue_002,41.82,estimated extreme wind speed,500-year return period; monthly maxima
+R708252__derivedvalue_003,34.60,estimated extreme wind speed,10-year return period; quarterly maxima
+R708252__derivedvalue_004,43.67,estimated extreme wind speed,500-year return period; quarterly maxima
+R708252__derivedvalue_005,32.29,estimated extreme wind speed,10-year return period; monthly maxima
+R708252__derivedvalue_006,37.15,estimated extreme wind speed,500-year return period; monthly maxima
+R708252__derivedvalue_007,34.27,estimated extreme wind speed,10-year return period; quarterly maxima
+R708252__derivedvalue_008,39.28,estimated extreme wind speed,500-year return period; quarterly maxima
+R708252__derivedvalue_009,32.84,estimated extreme wind speed,10-year return period; monthly maxima
+R708252__derivedvalue_010,42.72,estimated extreme wind speed,500-year return period; monthly maxima
+R708252__derivedvalue_011,35.23,estimated extreme wind speed,10-year return period; quarterly maxima
+R708252__derivedvalue_012,43.50,estimated extreme wind speed,500-year return period; quarterly maxima
+R708252__derivedvalue_013,31.66,estimated extreme wind speed,10-year return period; monthly maxima
+R708252__derivedvalue_014,39.09,estimated extreme wind speed,500-year return period; monthly maxima
+R708252__derivedvalue_015,33.50,estimated extreme wind speed,10-year return period; quarterly maxima
+R708252__derivedvalue_016,39.32,estimated extreme wind speed,500-year return period; quarterly maxima
+R709006__derivedvalue_001,63.0415,power density calculated from measured data,
+R709006__derivedvalue_002,27.9573,power density calculated from measured data,
+R709006__derivedvalue_003,44.1170,power density calculated from measured data,
+R709006__derivedvalue_004,37.4861,power density calculated from measured data,
+R709096__derivedvalue_001,272.0884,wind power density,
+R709096__derivedvalue_002,246.8748,wind power density,
+R709096__derivedvalue_003,628.7930,wind power density,
+R709096__derivedvalue_004,701.7651,wind power density,
+R710647__derivedvalue_001,95.669,wind power density,Annual average extrapolated from the 1985–2013 dataset
+R710647__derivedvalue_002,155.897,wind power density,Annual average extrapolated from the 1985–2013 dataset
+R710647__derivedvalue_003,210.832,wind power density,Annual average extrapolated from the 1985–2013 dataset
+R710647__derivedvalue_004,309.89,wind power density,Annual average extrapolated from the 1985–2013 dataset
+R710647__derivedvalue_005,367.624,wind power density,Annual average extrapolated from the 1985–2013 dataset
+R710647__derivedvalue_006,423.165,wind power density,Annual average extrapolated from the 1985–2013 dataset
+R710647__derivedvalue_007,476.935,wind power density,Annual average extrapolated from the 1985–2013 dataset
+R711159__derivedvalue_001,2.2209,wind power density,2012
+R711159__derivedvalue_002,10.8522,wind power density,2013
+R711159__derivedvalue_003,13.8848,wind power density,2014
+R711159__derivedvalue_004,19.1881,annual wind energy density,2012
+R711159__derivedvalue_005,93.7628,annual wind energy density,2013
+R711159__derivedvalue_006,93.7828,yearly potential of wind energy,2013
+R711159__derivedvalue_007,119.9988,annual wind energy density,2014
+R711419__derivedvalue_001,2.61,seasonal mean wind velocity,"dry season, November to March, over the 29-year study period"
+R711419__derivedvalue_002,3.22,seasonal maximum wind velocity,"dry season, November to March, over the 29-year study period"
+R711419__derivedvalue_003,3.36,seasonal mean wind velocity,"wet season, May to September, over the 29-year study period"
+R711419__derivedvalue_004,4.17,seasonal maximum wind velocity,"wet season, May to September, over the 29-year study period"
+R711460__derivedvalue_001,< 1 to about 6.20,monthly mean wind-speed range at 50 m above ground level,Monthly averages across 2000–2017
+R711460__derivedvalue_002,< 1 to about 5.1,annual/interannual mean wind-speed range at 50 m above ground level,Annual/interannual averages across 2000–2017
+R711507__derivedvalue_001,19.8,Weibull wind power density,March 2008
+R711507__derivedvalue_002,4.0,Weibull wind power density,August 2011
+R711568__derivedvalue_001,33.4806,wind power density,1982–2019
+R711568__derivedvalue_002,15.9357,wind power density,1982–2019
+R711568__derivedvalue_003,13.6575,wind power density,1982–2019
+R711568__derivedvalue_004,6.6096,wind power density,1982–2019
+R711568__derivedvalue_005,4.7652,wind power density,1982–2019
+R711568__derivedvalue_006,3.0886,wind power density,1982–2019
+R711568__derivedvalue_007,2.9162,wind power density,1982–2019
+R711568__derivedvalue_008,1.6613,wind power density,1982–2019
+R711568__derivedvalue_009,0.9294,wind power density,1982–2019
+R711568__derivedvalue_010,0.1126,wind power density,1982–2019
+R712261__derivedvalue_001,29.74,annual wind power density at 10 m above ground level,annual
+R712261__derivedvalue_002,17.45,annual wind power density at 10 m above ground level,annual
+R712261__derivedvalue_003,33.64,annual wind power density at 10 m above ground level,annual
+R712261__derivedvalue_004,17.94,annual wind power density at 10 m above ground level,annual
+R712261__derivedvalue_005,22.28,annual wind power density at 10 m above ground level,annual
+R712261__derivedvalue_006,11.99,annual wind power density at 10 m above ground level,annual
+R712261__derivedvalue_007,16.46,annual wind power density at 10 m above ground level,annual
+R712261__derivedvalue_008,15.98,annual wind power density at 10 m above ground level,annual
+R712261__derivedvalue_009,0.71,annual energy density at 10 m above ground level,annual
+R712261__derivedvalue_010,0.42,annual energy density at 10 m above ground level,annual
+R712261__derivedvalue_011,0.81,annual energy density at 10 m above ground level,annual
+R712261__derivedvalue_012,0.43,annual energy density at 10 m above ground level,annual
+R712261__derivedvalue_013,0.53,annual energy density at 10 m above ground level,annual
+R712261__derivedvalue_014,0.29,annual energy density at 10 m above ground level,annual
+R712261__derivedvalue_015,0.40,annual energy density at 10 m above ground level,annual
+R712261__derivedvalue_016,0.38,annual energy density at 10 m above ground level,annual
+R712261__derivedvalue_017,8.43-28.89,reported range of average annual power densities at 10 m above ground level,annual
+R712532__derivedvalue_001,10.72,monthly mean wind speed,April 2007
+R712532__derivedvalue_002,11.50,monthly mean wind speed,April 2007
+R712532__derivedvalue_003,12.50,monthly mean wind speed,April 2007
+R712532__derivedvalue_004,694.05,wind power density,April 2007
+R712532__derivedvalue_005,855.84,wind power density,April 2007
+R712532__derivedvalue_006,1096.56,wind power density,April 2007
+R712532__derivedvalue_007,499.72,wind energy density,April 2007
+R712532__derivedvalue_008,616.20,wind energy density,April 2007
+R712532__derivedvalue_009,789.525,wind energy density,April 2007
+R712532__derivedvalue_010,1818.7,average yearly energy density,2007
+R712532__derivedvalue_011,2581.3,average yearly energy density,2007
+R712532__derivedvalue_012,3173.8,average yearly energy density,2007
+R712532__derivedvalue_013,673.247,maximum monthly wind energy density,April 2007
+R712549__derivedvalue_001,6.34,Rayleigh MLE estimated annual mean wind speed,annual mean results
+R712549__derivedvalue_002,3.31,Rayleigh MLE estimated annual standard deviation of wind speed,annual mean results
+R712549__derivedvalue_003,322,Rayleigh MLE estimated annual wind power density,annual mean results
+R712549__derivedvalue_004,Northeast (NE),annual dominant wind direction,annual
+R712549__derivedvalue_005,1407,annual blowing duration in the Northeast direction,annual
+R712552__derivedvalue_001,13.90,extrapolated annual mean wind speed,annual; study period 2000–2006
+R712552__derivedvalue_002,13.72,extrapolated annual mean wind speed,annual; study period 2000–2006
+R712552__derivedvalue_003,9.75,extrapolated annual mean wind speed,annual; study period 2000–2006
+R712552__derivedvalue_004,12.13,extrapolated annual mean wind speed,annual; study period 2000–2006
+R712552__derivedvalue_005,10.90,extrapolated annual mean wind speed,annual; study period 2000–2006
+R712552__derivedvalue_006,12.84,extrapolated annual mean wind speed,annual; study period 2000–2006
+R712552__derivedvalue_007,65,annual mean specific wind power density,annual; study period 2000–2006
+R712552__derivedvalue_008,42,annual mean specific wind power density,annual; study period 2000–2006
+R712555__derivedvalue_001,1.188,power density,June average across 2014–2018
+R712555__derivedvalue_002,0.855,energy density,June average across 2014–2018
+R712555__derivedvalue_003,7.738,power density,February average across 2014–2018
+R712555__derivedvalue_004,7.7738,power density,February average across 2014–2018
+R712555__derivedvalue_005,5.200,energy density,February average across 2014–2018
+R712555__derivedvalue_006,2,energy density,February average across 2014–2018
+R712626__derivedvalue_001,3.4193,mean wind speed,January
+R712626__derivedvalue_002,24.4868,mean power density,January
+R712626__derivedvalue_003,3.8984,mean wind speed,February
+R712626__derivedvalue_004,36.2880,mean power density,February
+R712626__derivedvalue_005,4.2444,mean wind speed,March
+R712626__derivedvalue_006,46.8335,mean power density,March
+R712626__derivedvalue_007,4.4385,mean wind speed,April
+R712626__derivedvalue_008,53.5575,mean power density,April
+R712626__derivedvalue_009,5.8818,mean wind speed,May
+R712626__derivedvalue_010,124.6322,mean power density,May
+R712626__derivedvalue_011,9.9641,mean wind speed,June
+R712626__derivedvalue_012,605.9212,mean power density,June
+R712626__derivedvalue_013,9.3411,mean wind speed,July
+R712626__derivedvalue_014,499.2246,mean power density,July
+R712626__derivedvalue_015,9.3239,mean wind speed,August
+R712626__derivedvalue_016,496.4834,mean power density,August
+R712626__derivedvalue_017,9.4649,mean wind speed,September
+R712626__derivedvalue_018,519.3495,mean power density,September
+R712626__derivedvalue_019,8.8551,mean wind speed,October
+R712626__derivedvalue_020,425.2943,mean power density,October
+R712626__derivedvalue_021,5.7445,mean wind speed,November
+R712626__derivedvalue_022,116.1111,mean power density,November
+R712626__derivedvalue_023,3.3759,mean wind speed,December
+R712626__derivedvalue_024,23.5655,mean power density,December
+R712626__derivedvalue_025,3.0331,mean wind speed,January
+R712626__derivedvalue_026,17.0908,mean power density,January
+R712626__derivedvalue_027,3.5130,mean wind speed,February
+R712626__derivedvalue_028,26.5556,mean power density,February
+R712626__derivedvalue_029,3.7068,mean wind speed,March
+R712626__derivedvalue_030,31.1954,mean power density,March
+R712626__derivedvalue_031,4.1166,mean wind speed,April
+R712626__derivedvalue_032,42.7276,mean power density,April
+R712626__derivedvalue_033,4.0208,mean wind speed,May
+R712626__derivedvalue_034,39.8159,mean power density,May
+R712626__derivedvalue_035,4.1356,mean wind speed,June
+R712626__derivedvalue_036,43.3242,mean power density,June
+R712626__derivedvalue_037,3.8791,mean wind speed,July
+R712626__derivedvalue_038,35.7525,mean power density,July
+R712626__derivedvalue_039,3.6421,mean wind speed,August
+R712626__derivedvalue_040,29.5921,mean power density,August
+R712626__derivedvalue_041,3.3446,mean wind speed,September
+R712626__derivedvalue_042,22.9162,mean power density,September
+R712626__derivedvalue_043,3.0323,mean wind speed,October
+R712626__derivedvalue_044,17.0777,mean power density,October
+R712626__derivedvalue_045,2.8940,mean wind speed,November
+R712626__derivedvalue_046,14.8455,mean power density,November
+R712626__derivedvalue_047,2.8132,mean wind speed,December
+R712626__derivedvalue_048,13.6364,mean power density,December
+R712633__derivedvalue_001,3.4,mean wind speed extrapolated to hub height,1981–2000
+R712633__derivedvalue_002,2.2–4.5,wind-speed range extrapolated to hub height,1981–2000
+R712637__derivedvalue_001,1.578156,mean wind speed at 10 m,12-month data collection period
+R712637__derivedvalue_002,7.593257,mean energy density at 10 m,12-month data collection period
+R712637__derivedvalue_003,3.767907,energy pattern factor,12-month data collection period
+R712637__derivedvalue_004,3.618266,mean wind speed at 100 m,12-month data collection period
+R712637__derivedvalue_005,1226.3,annual energy production,12-month data collection period
+R712641__derivedvalue_001,7.7,monthly wind speed,January
+R712641__derivedvalue_002,~4.5,monthly wind speed,August
+R712644__derivedvalue_001,58.86,annual mean wind power density,2016-2018
+R712644__derivedvalue_002,54.04,annual mean wind power density,2016-2018
+R712644__derivedvalue_003,355,annual mean wind power density,2014-2018
+R712644__derivedvalue_004,153,annual average wind power density at Dakar,2014-2018
+R712648__derivedvalue_001,735.925,maximum monthly mean wind power density,June; average across 2000–2014
+R712648__derivedvalue_002,529.866,maximum monthly wind energy density,June; average across 2000–2014
+R712648__derivedvalue_003,505.15,average monthly wind power density,average across 2000–2014
+R712648__derivedvalue_004,369.113,average monthly wind energy density,average across 2000–2014
+R712648__derivedvalue_005,73.0,average energy efficiency index,monthly results averaged across 2000–2014
+R713394__derivedvalue_001,157.5603,wind power density,"September, 2006"
+R713394__derivedvalue_002,4.5002,wind power density,"October, 2007"
+R713394__derivedvalue_003,3.7810–5.4314,monthly maximum energy carrying wind speed range,monthly values during the studied period
+R713394__derivedvalue_004,3.6925–5.4533,monthly most probable wind speed range,monthly values during the studied period
+R713398__derivedvalue_001,158,annual extractable wind energy,annual
+R713401__derivedvalue_001,5.151,extrapolated wind speed,
+R713401__derivedvalue_002,4.990,extrapolated wind speed,
+R713401__derivedvalue_003,6.063,extrapolated wind speed,
+R713405__derivedvalue_001,9.73,most probable wind speed,2002–2012
+R713405__derivedvalue_002,10.92,wind speed carrying maximum energy,2002–2012
+R713405__derivedvalue_003,593.91,wind power density,2002–2012
+R713405__derivedvalue_004,5.68,most probable wind speed,2002–2012
+R713405__derivedvalue_005,6.56,wind speed carrying maximum energy,2002–2012
+R713405__derivedvalue_006,123.98,wind power density,2002–2012
+R713405__derivedvalue_007,11.9,most probable wind speed,2002–2012
+R713405__derivedvalue_008,12.59,wind speed carrying maximum energy,2002–2012
+R713405__derivedvalue_009,1000.06,wind power density,2002–2012
+R713405__derivedvalue_010,4.88,most probable wind speed,2002–2012
+R713405__derivedvalue_011,5.28,wind speed carrying maximum energy,2002–2012
+R713405__derivedvalue_012,70.78,wind power density,2002–2012
+R713405__derivedvalue_013,3.4,most probable wind speed,2002–2012
+R713405__derivedvalue_014,4.58,wind speed carrying maximum energy,2002–2012
+R713405__derivedvalue_015,36.45,wind power density,2002–2012
+R713411__derivedvalue_001,139.79,wind power density,April monthly estimate from 1984–2013 wind-speed data
+R713411__derivedvalue_002,145.48,wind power density,August monthly estimate from 1984–2013 wind-speed data
+R713411__derivedvalue_003,81.94,wind power density,November monthly estimate from 1984–2013 wind-speed data
+R713411__derivedvalue_004,81.95,wind power density,November monthly estimate from 1984–2013 wind-speed data
+R713411__derivedvalue_005,-0.044,wind speed trend,1984–2013
+R713416__derivedvalue_001,171.47,annual mean wind power density (Actual column),"annual, 2002–2011"
+R713416__derivedvalue_002,240.43,annual mean wind power density (Actual column),"annual, 2002–2011"
+R713416__derivedvalue_003,237.60,annual mean wind power density (Actual column),"annual, 2002–2011"
+R713416__derivedvalue_004,7.43,annual wind speed carrying maximum energy,"annual, 2002–2011"
+R713416__derivedvalue_005,8.37,annual wind speed carrying maximum energy,"annual, 2002–2011"
+R713416__derivedvalue_006,8.96,annual wind speed carrying maximum energy,"annual, 2002–2011"
+R713424__derivedvalue_001,8.46,wind speed carrying maximum energy,annual
+R713424__derivedvalue_002,7.18,wind speed carrying maximum energy,annual
+R713424__derivedvalue_003,6.81,wind speed carrying maximum energy,annual
+R713424__derivedvalue_004,6.82,wind speed carrying maximum energy,annual
+R713424__derivedvalue_005,5.79,wind speed carrying maximum energy,annual
+R713424__derivedvalue_006,6.54,wind speed carrying maximum energy,annual
+R713424__derivedvalue_007,174.86,annual mean wind power density,annual
+R713424__derivedvalue_008,107.19,annual mean wind power density,annual
+R713424__derivedvalue_009,105.19,annual mean wind power density,annual
+R713424__derivedvalue_010,98.04,annual mean wind power density,annual
+R713424__derivedvalue_011,61.10,annual mean wind power density,annual
+R713424__derivedvalue_012,78.46,annual mean wind power density,annual
+R713430__derivedvalue_001,8.79,wind speed scaled to turbine hub height,
+R713430__derivedvalue_002,21824,actual average output,when the turbine is placed at the shore
+R713430__derivedvalue_003,191.2,actual annual energy generation,per year
+R713430__derivedvalue_004,200,annual energy production,per year
+R713430__derivedvalue_005,391.2,combined annual offshore wind-energy generation,per year
+R713440__derivedvalue_001,1.005,calculated air density,"whole year, 2005–2009"
+R713440__derivedvalue_002,62.72,wind power density,2005–2009; 60-month duration
+R713440__derivedvalue_003,2748.50,wind energy density,2005–2009; 60-month duration
+R713440__derivedvalue_004,3.57,most frequent wind speed,2005–2009
+R713440__derivedvalue_005,6.28,wind speed carrying maximum energy,2005–2009
+R713445__derivedvalue_001,79.53,mean wind power density,entire duration of observation
+R713445__derivedvalue_002,1062.46,mean wind power density,entire duration of observation
+R713445__derivedvalue_003,592.20,mean wind power density,entire duration of observation
+R713445__derivedvalue_004,5.71,mean wind power density,entire duration of observation
+R713445__derivedvalue_005,35.51,mean wind power density,entire duration of observation
+R713445__derivedvalue_006,28.51,mean wind power density,entire duration of observation
+R713445__derivedvalue_007,165.75,mean wind power density,entire duration of observation
+R713445__derivedvalue_008,207.20,mean wind power density,entire duration of observation
+R713445__derivedvalue_009,139.26,mean wind power density,entire duration of observation
+R713445__derivedvalue_010,46.00,mean wind power density,entire duration of observation
+R713445__derivedvalue_011,68.86,mean wind power density,entire duration of observation
+R713445__derivedvalue_012,36.96,mean wind power density,entire duration of observation
+R713445__derivedvalue_013,42.18,mean wind power density,entire duration of observation
+R713445__derivedvalue_014,18.51,mean wind power density,entire duration of observation
+R713445__derivedvalue_015,123.07,mean wind power density,entire duration of observation
+R713448__derivedvalue_001,129.1–197.3,wind power density range,
+R713448__derivedvalue_002,409.5–575.9,wind power density range,
+R713448__derivedvalue_003,621.4–850.4,wind power density range,
+R713448__derivedvalue_004,769.6–1039,wind power density range,
+R713448__derivedvalue_005,924.3–1233.5,wind power density range,
+R713448__derivedvalue_006,Class 5,NREL wind resource class,
+R713448__derivedvalue_007,Class 6,NREL wind resource class,
+R713448__derivedvalue_008,Class 7,NREL wind resource class,
+R713451__derivedvalue_001,5.28,annual mean wind speed,
+R713451__derivedvalue_002,3.1,annual mean wind speed,
+R713451__derivedvalue_003,120.01,annual power density,
+R713451__derivedvalue_004,30.05,annual power density,
+R717717__derivedvalue_001,289,wind power density,Winter
+R717717__derivedvalue_002,372,wind power density,Spring
+R717717__derivedvalue_003,186,wind power density,Summer
+R717717__derivedvalue_004,188,wind power density,Autumn
+R717717__derivedvalue_005,248,wind power density,Winter
+R717717__derivedvalue_006,271,wind power density,Spring
+R717717__derivedvalue_007,155,wind power density,Summer
+R717717__derivedvalue_008,158,wind power density,Autumn
+R717717__derivedvalue_009,176,wind power density,Winter
+R717717__derivedvalue_010,183,wind power density,Spring
+R717717__derivedvalue_011,113,wind power density,Summer
+R717717__derivedvalue_012,111,wind power density,Autumn
+R717721__derivedvalue_001,4.64,annual mean power density,2013-2017
+R717721__derivedvalue_002,7.06,annual mean power density,2013-2017
+R717721__derivedvalue_003,3.08,annual mean power density,2013-2017
+R717721__derivedvalue_004,3.24,annual mean energy density,2013-2017
+R717721__derivedvalue_005,4.93,annual mean energy density,2013-2017
+R717721__derivedvalue_006,2.14,annual mean energy density,2013-2017
+R718237__derivedvalue_001,642.981,monthly wind power density,July during the 2015–2018 study period
+R718237__derivedvalue_002,634.699,monthly wind power density,July during the 2015–2018 study period
+R718237__derivedvalue_003,132.563,monthly wind power density,October during the 2015–2018 study period
+R719358__derivedvalue_001,130.92,available wind power density,annual
+R719358__derivedvalue_002,77.24,recoverable wind power density,annual
+R719358__derivedvalue_003,87.49,available wind power density,annual
+R719358__derivedvalue_004,51.62,recoverable wind power density,annual
+R719358__derivedvalue_005,46.18,available wind power density,annual
+R719358__derivedvalue_006,27.25,recoverable wind power density,annual
+R719358__derivedvalue_007,72.37,available wind power density,annual
+R719358__derivedvalue_008,42.70,recoverable wind power density,annual
+R719358__derivedvalue_009,28.20,available wind power density,annual
+R719358__derivedvalue_010,16.64,recoverable wind power density,annual
+R719358__derivedvalue_011,233.92,available wind power density,annual
+R719358__derivedvalue_012,138.01,recoverable wind power density,annual
+R719358__derivedvalue_013,64.92,available wind power density,annual
+R719358__derivedvalue_014,38.30,recoverable wind power density,annual
+R719358__derivedvalue_015,3.2 to 5.5,estimated wind speed,
+R719358__derivedvalue_016,3.27,annual wind recoverable potential,annual
+R719366__derivedvalue_001,100,simulated wind energy generation,00:00
+R719366__derivedvalue_002,150,simulated wind energy generation,06:00
+R719366__derivedvalue_003,100,simulated wind energy generation,12:00
+R719366__derivedvalue_004,200,simulated wind energy generation,18:00
+R719366__derivedvalue_005,90,simulated wind energy generation,24:00
+R719366__derivedvalue_006,0,simulated solar energy generation,00:00
+R719366__derivedvalue_007,210,simulated solar energy generation,06:00
+R719366__derivedvalue_008,550,simulated solar energy generation,12:00
+R719366__derivedvalue_009,300,simulated solar energy generation,18:00
+R719366__derivedvalue_010,0,simulated solar energy generation,24:00
+R719520__derivedvalue_001,1.202,average annual air density,averaged yearly value
+R719520__derivedvalue_002,61.864,monthly wind power density,November; average across 2008-2016
+R719520__derivedvalue_003,184.792,monthly wind power density,December; average across 2008-2016
+R719520__derivedvalue_004,50.9,annual wind power density,annual; reported in abstract
+R720066__derivedvalue_001,74.7158,wind power density,2017
+R720066__derivedvalue_002,72.2078,wind power density,2018
+R720066__derivedvalue_003,79.4618,wind power density,2019
+R720348__derivedvalue_001,61.864,wind power density,November; monthly value over the 2008-2016 study data
+R720348__derivedvalue_002,184.792,wind power density,December; monthly value over the 2008-2016 study data
+R720348__derivedvalue_003,50.90,annual wind power density,annual; study period not further specified in the abstract
+R720348__derivedvalue_004,1.202,averaged air density,averaged monthly values
+R720760__derivedvalue_001,2.7843,mean wind speed at 10 m,
+R720760__derivedvalue_002,56.9494,mean energy density,
+R722053__derivedvalue_001,6.42,monthly mean wind speed,June (Winter season)
+R722053__derivedvalue_002,2.15,monthly mean wind speed,September
+R722053__derivedvalue_003,4.3,modelled average wind speed,"October, 2014 to February, 2017"
+R723171__derivedvalue_001,9.60,most probable wind speed,2002-2012
+R723171__derivedvalue_002,11.59,wind speed carrying maximum energy,2002-2012
+R723171__derivedvalue_003,11.97,most probable wind speed,2002-2012
+R723171__derivedvalue_004,14.14,wind speed carrying maximum energy,2002-2012
+R723318__derivedvalue_001,3.68,estimated average wind speed,
+R723318__derivedvalue_002,6.11,realizable power density,
+R723373__derivedvalue_001,800,wind power density,2000-2010
+R723373__derivedvalue_002,200,wind power density,2000-2010
+R723373__derivedvalue_003,1957,wind power density,2000-2010
+R723373__derivedvalue_004,1084,wind power density,2000-2010
+R724501__derivedvalue_001,815.50,mean of the cube of wind speed,six year period (1997–2002)
+R724501__derivedvalue_002,12.5,mode of the power density distribution,six year period (1997–2002)
+R724501__derivedvalue_003,1.804,energy pattern factor,six year period (1997–2002)
+R725875__derivedvalue_001,0.365,probability density function at wind speed of 5.2 m/s,2017
+R725875__derivedvalue_002,58,cumulative density function at wind speed of 5.2 m/s,2017
+R725875__derivedvalue_003,0.009,probability density function at wind speed of 7.2 m/s,2017
+R725875__derivedvalue_004,0.02,cumulative density function at wind speed of 7.2 m/s,2017
+R725875__derivedvalue_005,0.045,probability density function at wind speed of 7.2 m/s,2017
+R725875__derivedvalue_006,74,cumulative density function at wind speed of 7.2 m/s,2017
+R725875__derivedvalue_007,0.348,probability density function at wind speed of 5.2 m/s,2018
+R725875__derivedvalue_008,57,cumulative density function at wind speed of 5.2 m/s,2018
+R725875__derivedvalue_009,0.000007,probability density function at wind speed of 7.2 m/s,2018
+R725875__derivedvalue_010,4,cumulative density function at wind speed of 7.2 m/s,2018
+R725875__derivedvalue_011,0.046,probability density function at wind speed of 7.2 m/s,2018
+R725875__derivedvalue_012,77.5,cumulative density function at wind speed of 7.2 m/s,2018
+R725875__derivedvalue_013,0.345,probability density function at wind speed of 5.2 m/s,2019
+R725875__derivedvalue_014,51,cumulative density function at wind speed of 5.2 m/s,2019
+R725875__derivedvalue_015,0.09,probability density function at wind speed of 7.2 m/s,2019
+R725875__derivedvalue_016,3,cumulative density function at wind speed of 7.2 m/s,2019
+R725875__derivedvalue_017,0.048,probability density function at wind speed of 7.2 m/s,2019
+R725875__derivedvalue_018,73.0,cumulative density function at wind speed of 7.2 m/s,2019
+R727032__derivedvalue_001,4.49,monthly mean wind speed,whole measurement period
+R727032__derivedvalue_002,109.89,mean wind power density,whole measurement period
+R727032__derivedvalue_003,3.57,monthly mean wind speed,whole measurement period
+R727032__derivedvalue_004,40.0,mean wind power density,whole measurement period
+R727032__derivedvalue_005,3.52,monthly mean wind speed,whole measurement period
+R727032__derivedvalue_006,44.65,mean wind power density,whole measurement period
+R727032__derivedvalue_007,1.65,monthly mean wind speed,whole measurement period
+R727032__derivedvalue_008,11.42,mean wind power density,whole measurement period
+R727542__derivedvalue_001,44.52,final annual energy production,annual
+R727542__derivedvalue_002,2387.08,final annual energy production,annual
+R727542__derivedvalue_003,15.42,final annual energy production,annual
+R727542__derivedvalue_004,2321.54,final annual energy production,annual
+R727542__derivedvalue_005,2889,annual energy production estimate from validation iteration using Elsner input parameters,
+R727542__derivedvalue_006,2.974,array density before losses,
+R727542__derivedvalue_007,2.397,array density after losses,
+R727583__derivedvalue_001,7.5873,mean reference wind power density (Pref),September 2017 to September 2018
+R727583__derivedvalue_002,7.1058,mean reference wind power density (Pref),September 2017 to September 2018
+R727583__derivedvalue_003,4.0798,mean reference wind power density (Pref),September 2017 to September 2018
+R727583__derivedvalue_004,5.0686,mean reference wind power density (Pref),September 2017 to September 2018
+R727583__derivedvalue_005,6.9376,mean reference wind power density (Pref),September 2017 to September 2018
+R727583__derivedvalue_006,8.0632,mean reference wind power density (Pref),September 2017 to September 2018
+R727587__derivedvalue_001,1.12,average annual air density,study period
+R727587__derivedvalue_002,7.42,mean wind speed extrapolated to hub height,one-year study period
+R727587__derivedvalue_003,370,mean wind power density extrapolated to hub height,one-year study period
+R727592__derivedvalue_001,6.09,highest monthly average wind speed,"January, average across 2017–2019, at 10 m"
+R727592__derivedvalue_002,4.65,lowest monthly average wind speed,"November, average across 2017–2019, at 10 m"
+R727592__derivedvalue_003,5.47,highest monthly average wind speed,"January, average across 2017–2019, at 10 m"
+R727592__derivedvalue_004,3.92,lowest monthly average wind speed,"November, average across 2017–2019, at 10 m"
+R727592__derivedvalue_005,9.18,highest monthly average wind speed,"January, average across 2017–2019, at 70 m"
+R727592__derivedvalue_006,7.34,lowest monthly average wind speed,"November, average across 2017–2019, at 70 m"
+R727592__derivedvalue_007,8.41,highest monthly average wind speed,"January, average across 2017–2019, at 70 m"
+R727592__derivedvalue_008,6.37,lowest monthly average wind speed,"November, average across 2017–2019, at 70 m"
+R727661__derivedvalue_001,6.95,average wind speed in the low-wind-potential blue zone,annual
+R727661__derivedvalue_002,15,average wind speed in the low-wind-potential blue zone,annual
+R727661__derivedvalue_003,7.12,wind speed in the high-wind-potential red zone in the North-East direction,annual
+R727661__derivedvalue_004,16.4,wind speed in the high-wind-potential red zone in the North-North-East direction,annual
+R727676__derivedvalue_001,2125.18,annual energy production,annual
+R727676__derivedvalue_002,683.54,annual energy production,annual
+R727676__derivedvalue_003,1758.22,annual energy production,annual
+R727676__derivedvalue_004,2160.69,annual energy production,annual
+R727676__derivedvalue_005,1758.22,annual energy production,annual
+R727676__derivedvalue_006,1482.19,annual energy production,annual
+R727676__derivedvalue_007,1487.79,annual energy production,annual
+R727676__derivedvalue_008,1132.49,annual energy production,annual
+R727676__derivedvalue_009,683.54,annual energy production,annual
+R727676__derivedvalue_010,1681.56,annual energy production,annual
+R727676__derivedvalue_011,683.54,annual energy production,annual
+R727676__derivedvalue_012,916.47,annual energy production,annual
+R727676__derivedvalue_013,3316.36,annual energy production,annual
+R727676__derivedvalue_014,239.85,annual energy production,annual
+R727676__derivedvalue_015,2268.66,annual energy production,annual
+R727676__derivedvalue_016,3432.52,annual energy production,annual
+R727676__derivedvalue_017,2268.66,annual energy production,annual
+R727676__derivedvalue_018,1557.35,annual energy production,annual
+R727676__derivedvalue_019,2358.36,annual energy production,annual
+R727676__derivedvalue_020,847.18,annual energy production,annual
+R727676__derivedvalue_021,239.85,annual energy production,annual
+R727676__derivedvalue_022,2056.58,annual energy production,annual
+R727676__derivedvalue_023,239.85,annual energy production,annual
+R727676__derivedvalue_024,504.05,annual energy production,annual
+R727676__derivedvalue_025,638.54,annual energy production,annual
+R727676__derivedvalue_026,638.54,annual energy production,annual
+R727676__derivedvalue_027,638.54,annual energy production,annual
+R727714__derivedvalue_001,4.641,most probable wind speed,whole year
+R727714__derivedvalue_002,5.431,wind speed carrying maximum energy,whole year
+R727714__derivedvalue_003,67.736,wind power density,whole year
+R727714__derivedvalue_004,4.936,most probable wind speed,whole year
+R727714__derivedvalue_005,5.700,wind speed carrying maximum energy,whole year
+R727714__derivedvalue_006,79.517,wind power density,whole year
+R727714__derivedvalue_007,3.704,most probable wind speed,whole year
+R727714__derivedvalue_008,4.815,wind speed carrying maximum energy,whole year
+R727714__derivedvalue_009,40.874,wind power density,whole year
+R727714__derivedvalue_010,5.559,most probable wind speed,whole year
+R727714__derivedvalue_011,6.238,wind speed carrying maximum energy,whole year
+R727714__derivedvalue_012,107.485,wind power density,whole year
+R727714__derivedvalue_013,1097.4,wind power density,whole year
+R727799__derivedvalue_001,8.03 E05,annual natural-gas equivalent,annual
+R727799__derivedvalue_002,7.48E05,annual natural-gas equivalent,annual
+R727799__derivedvalue_003,4.27E05,annual natural-gas equivalent,annual
+R727799__derivedvalue_004,4.69 E05,annual natural-gas equivalent,annual
+R727799__derivedvalue_005,0.71,annual gasoil equivalent,annual
+R727799__derivedvalue_006,0.66,annual gasoil equivalent,annual
+R727799__derivedvalue_007,0.38,annual gasoil equivalent,annual
+R727799__derivedvalue_008,0.42,annual gasoil equivalent,annual
+R727799__derivedvalue_009,0.69,annual gasoline equivalent,annual
+R727799__derivedvalue_010,0.64,annual gasoline equivalent,annual
+R727799__derivedvalue_011,0.36,annual gasoline equivalent,annual
+R727799__derivedvalue_012,0.40,annual gasoline equivalent,annual
+R727821__derivedvalue_001,4.44,estimated hub-height wind speed,1981–2018
+R727821__derivedvalue_002,10.69,estimated hub-height wind speed,1981–2018
+R727821__derivedvalue_003,392,network average wind power density,"spring, average across 1981–2018"
+R727821__derivedvalue_004,210,network average wind power density,"summer, average across 1981–2018"
+R727821__derivedvalue_005,347,network average wind power density,"autumn, average across 1981–2018"
+R727821__derivedvalue_006,639,network average wind power density,"winter, average across 1981–2018"
+R732443__derivedvalue_001,6.65,wind speed carrying maximum energy,
+R732443__derivedvalue_002,68.80,wind power density,
+R732443__derivedvalue_003,602.72,wind energy density,
+R732443__derivedvalue_004,4.11,wind speed carrying maximum energy,
+R732443__derivedvalue_005,8.04,wind power density,
+R732443__derivedvalue_006,70.39,wind energy density,
+R732443__derivedvalue_007,4.26,wind speed carrying maximum energy,
+R732443__derivedvalue_008,10.06,wind power density,
+R732443__derivedvalue_009,88.09,wind energy density,
+R732443__derivedvalue_010,4.42,wind speed carrying maximum energy,
+R732443__derivedvalue_011,12.21,wind power density,
+R732443__derivedvalue_012,106.97,wind energy density,
+R732443__derivedvalue_013,4.02,wind speed carrying maximum energy,
+R732443__derivedvalue_014,6.73,wind power density,
+R732443__derivedvalue_015,58.95,wind energy density,
+R732443__derivedvalue_016,5.20,wind speed carrying maximum energy,
+R732443__derivedvalue_017,26.03,wind power density,
+R732443__derivedvalue_018,228.0,wind energy density,
+R732443__derivedvalue_019,5.95,wind speed carrying maximum energy,
+R732443__derivedvalue_020,45.29,wind power density,
+R732443__derivedvalue_021,396.72,wind energy density,
+R732443__derivedvalue_022,5.11,wind speed carrying maximum energy,
+R732443__derivedvalue_023,24.07,wind power density,
+R732443__derivedvalue_024,210.85,wind energy density,
+R732443__derivedvalue_025,6.11,wind speed carrying maximum energy,
+R732443__derivedvalue_026,50.54,wind power density,
+R732443__derivedvalue_027,442.77,wind energy density,
+R732443__derivedvalue_028,5.41,wind speed carrying maximum energy,
+R732443__derivedvalue_029,31.41,wind power density,
+R732443__derivedvalue_030,275.17,wind energy density,
+R732443__derivedvalue_031,6.54,wind speed carrying maximum energy,
+R732443__derivedvalue_032,64.63,wind power density,
+R732443__derivedvalue_033,566.18,wind energy density,
+R732443__derivedvalue_034,6.26,wind speed carrying maximum energy,
+R732443__derivedvalue_035,54.80,wind power density,
+R732443__derivedvalue_036,480.01,wind energy density,
+R732443__derivedvalue_037,4.70,wind speed carrying maximum energy,
+R732443__derivedvalue_038,16.58,wind power density,
+R732443__derivedvalue_039,145.24,wind energy density,

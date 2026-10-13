@@ -1,0 +1,268 @@
+condition_id,conditionType,conditionStatement,conditionScope,conditionVariable,conditionOperator,conditionValue
+R1378024__condition_001,geographical context,The accuracy of Random Forest and XGBoost decreases near the coastline.,European test-grid cells during 2004–2005,distance from coastline,near,coastline
+R1378024__condition_002,local site context,Surface wind observations deviate from the reanalysis because of adjacent vegetation and buildings.,site-level mast applications,surface wind observations,deviate from,ERA5 reanalysis at the closest grid cell
+R1378028__condition_001,evaluation metric,"Performance is evaluated using MBE rather than RMSE, MAPE, or R2.",comparison of PSO-LSTM with FFNN across extrapolation heights,evaluation metric,equals,MBE
+R1378028__condition_002,extrapolation height,The extrapolation height increases farther above the measured 10–40 m range.,wind-speed estimation from 50 to 120 m,extrapolation height,increases,
+R689577__condition_001,low monthly average wind speed,Coxim had monthly average wind speeds between 0.59 and 1.05 m/s.,Coxim station,R689577__variable_001,between,0.59–1.05
+R689577__condition_002,low monthly average wind speed,Miranda had monthly average wind speeds between 0.84 and 1.20 m/s.,Miranda station,R689577__variable_001,between,0.84–1.20
+R689577__condition_003,station and temporal condition,The analysis concerns Coxim during the months from September to February.,Coxim station,R689577__variable_001,during,September to February
+R689596__condition_001,site wind-speed level,"The study sites represent slightly windy, moderately windy, and very windy conditions.","Site 1, Site 2, and Site 3 respectively",R689596__variable_001,categorized as,"slightly, moderately, and very windy"
+R689605__condition_001,evaluation metric,"Performance is evaluated in terms of MAE, RMSE, and R2.",comparison of the six Weibull parameter estimation methods,goodness-of-fit measure,in,"MAE, RMSE, R2"
+R689605__condition_002,evaluation metric,Performance is evaluated in terms of NMAE and Chi-square error.,comparison of the six Weibull parameter estimation methods,goodness-of-fit measure,in,"NMAE, χ2"
+R689605__condition_003,dataset characteristic,The 2010 dataset has significant fluctuations in wind speed.,2010 dataset,wind-speed pattern,has,significant fluctuations
+R702336__condition_001,application scale and technology condition,"Under the current wind-turbine technique and considering the cost factor, the area may not be suitable for year-round large-scale electricity generation.",Tehran study site under current wind-turbine technology,application scale,equals,"large-scale, year-round electricity generation"
+R702336__condition_002,application scale,The wind resource was considered for small-scale and non-grid-connected applications.,Tehran study site,application scale,equals,small-scale or non-grid-connected
+R703003__condition_001,hub height,Wind-turbine performance was tested at a hub height of 20 m.,Performance assessment of the four selected wind turbines in Zahedan.,hub height,equals,20
+R703003__condition_002,hub height,Wind-turbine performance was tested at a hub height of 30 m.,Performance assessment of the four selected wind turbines in Zahedan.,hub height,equals,30
+R703003__condition_003,hub-height change,Hub height increases from 20 m to 30 m.,Cost estimation for all selected wind turbines.,hub height,increases from-to,20–30
+R703006__condition_001,distribution characteristic,Wind-speed distribution is unimodal.,station A,R703006__variable_001,equals,unimodal
+R703006__condition_002,distribution characteristic,Wind regimes exhibit two significant humps and have bimodal distributions.,stations B and C,R703006__variable_001,equals,bimodal
+R703006__condition_003,wind-speed range,High speed ranges.,wind-power-density analysis,R703006__variable_001,equals,high speed ranges
+R703009__condition_001,capacity-factor threshold,"For an investment in wind power to be cost effective, it is suggested that the capacity factor should be greater than 0.25.",Wind-power investment cost-effectiveness suggestion.,R703009__variable_005,greater_than,0.25
+R703009__condition_002,redesigned turbine configuration,POLARIS 62-1000 is operated at a hub height of 70 m and rated wind speed of 10 m/s.,POLARIS 62-1000 redesign scenario.,R703009__variable_001,configured as,hub height 70 m; rated wind speed 10 m/s
+R703013__condition_001,wind-turbine hub-height assumption,"The standard wind turbine hub height is taken as 80 m above MSL in this study, unless other hub heights are mentioned.","This study, unless other hub heights are mentioned.",hub height,equals,80
+R703026__condition_001,averaging period,The number of years used for annual-energy-production averaging increases.,Expected annual energy production in the Kwangyang Bay case study,number of years,increases,
+R703029__condition_001,wind turbine operating specification,Typical wind machine with cut-in speed of 3 m/s and rated speed of 13 m/s.,Preliminary assessment based on observed wind-speed frequency.,wind speed,between,3 to 13
+R703032__condition_001,economic-analysis assumptions,"Economic analysis was based on a 20-year turbine lifetime, 16% interest rate, 4% inflation rate, 0% to 5% inflation escalation rate, operating and maintenance cost of 25% of annual turbine cost, 0% to 10% operating-and-maintenance escalation rate, other initial costs equal to 30% of turbine cost, and equal annual energy output throughout turbine useful lifetime.",LCOE analysis of selected Polaris wind-turbine models,,,
+R703032__condition_002,subsidy,A government subsidy of about N6.00 or $0.0400 per kWh is provided to encourage investment in wind-energy development.,Economic viability assessment,,,0.0400
+R703035__condition_001,hub-height change,When the hub height is increased from 10 m to 30 m.,"Zwara, Libya, during 2007",hub height,increases from-to,10 to 30
+R703035__condition_002,hub-height change,When the hub height is increased from 30 m to 50 m.,"Zwara, Libya, during 2007",hub height,increases from-to,30 to 50
+R703043__condition_001,air-density condition,"For standard conditions (sea level, ISOC) the density of air is 1.225 kg/m3.","standard conditions at sea level, ISOC",air density,equals,1.225
+R703046__condition_001,turbine hub height,Turbine hub height h = 50 m at Katsina.,Katsina all-year wind-turbine simulation,turbine hub height,equals,50
+R703046__condition_002,turbine hub height,Turbine hub height h = 110 m.,Wind-turbine simulations at the study sites,turbine hub height,equals,110
+R703049__condition_001,reference height,"The standard wind turbine hub height Z is taken as 80 m above the ground level in this study, unless other hub heights are mentioned.",Wind-speed transformation and analysis in this study.,hub height,equals,80
+R703049__condition_002,wind-turbine operating threshold,Cut-in wind speed is 3 m/s and cut-out wind speed is 25 m/s.,Operating-probability case reported for Tai Mo Shan.,cut-in and cut-out wind speed,equals,3 and 25
+R703049__condition_003,wind-turbine operating threshold,Cut-in wind speed is 5 m/s and cut-out wind speed is 25 m/s.,Operating-probability case reported for Hong Kong Observatory.,cut-in and cut-out wind speed,equals,5 and 25
+R703052__condition_001,wind-speed range,Wind speed is less than 2 m/s.,Observed and Weibull wind-speed frequency comparison for 2008 at Kudat and Labuan,R703052__variable_001,less_than,2
+R703052__condition_002,wind-speed range,Wind speed is more than 2 m/s.,Observed and Weibull wind-speed frequency comparison for 2008 at Kudat and Labuan,R703052__variable_001,greater_than,2
+R703055__condition_001,seasonal period,Season 3 corresponds to June to September.,Jhampir-FFC wind-energy assessment,season,equals,Season 3
+R703061__condition_001,wind-farm curtailment rate,Load shedding rate equal to 0.8%.,Wind-farm curtailment scenarios,wind-farm curtailment rate,equals,0.8
+R703061__condition_002,wind-farm curtailment rate,Load shedding rate equal to 4.3%.,Wind-farm curtailment scenarios,wind-farm curtailment rate,equals,4.3
+R703061__condition_003,data availability,Data loss was significant for May and June 2009.,GS wind-mast dataset,,,
+R703068__condition_001,wind-speed distribution fit,Wind speed distribution matches well with the Weibull function.,four selected locations,R703068__variable_001,matches well with,Weibull function
+R703068__condition_002,wind-speed distribution fit,Wind speed distribution does not match well with the Weibull function.,four selected locations,R703068__variable_001,does not match well with,Weibull function
+R703075__condition_001,atmospheric stability,"For neutral stability, α is taken as 1/7.",,α,equals,1/7
+R703075__condition_002,economic viability criterion,"For a cost effective investment in wind power, it is recommended that the capacity factor should be more than 25%.",,capacity factor,greater_than,25
+R703078__condition_001,season,Wet season usually runs from April to September.,Cameroon coastal study locations,,,April to September
+R703078__condition_002,season,Dry season usually runs from October to March.,Cameroon coastal study locations,,,October to March
+R703081__condition_001,wind-speed distribution characteristic,High percentage of null winds in August.,August,R703081__variable_001,equals,high percentage of null winds
+R703084__condition_001,season,Dry season from November to July.,N’Djamena,season,equals,dry
+R703084__condition_002,season,Wet season from August to October.,N’Djamena,season,equals,wet
+R703095__condition_001,economic assumption,The lifetime of the WGT (n) was assumed to be 20 years.,Cost evaluation for WGT 850 at Ain Salah,WGT lifetime,equals,20
+R703095__condition_002,economic assumption,The discount rate (r) was taken as 8%.,Cost evaluation for WGT 850 at Ain Salah,discount rate,equals,8
+R703095__condition_003,economic assumption,The escalation ratio of operation and maintenance (em) was assumed to 6%.,Cost evaluation for WGT 850 at Ain Salah,operation and maintenance escalation ratio,equals,6
+R703095__condition_004,economic assumption,The operation and maintenance cost for the first year (Com) was considered to be 25%.,Cost evaluation for WGT 850 at Ain Salah,first-year operation and maintenance cost,equals,25
+R703095__condition_005,economic assumption,It is assumed that the WGT produces equal amount of energy output in each year during its useful lifetime.,Cost evaluation for WGT 850 at Ain Salah,annual energy output,equals,
+R703102__condition_001,wind-speed and time-of-day characteristic,"Night periods showing a mean speed below 3 m/s; for data inspection, the night periods are considered to last 10 h starting at 11 a.m.",Gizgiza data for the year 2000,wind speed,less_than,3
+R703102__condition_002,terrain complexity,Less complex terrains like coastal regions.,Use of the Global Wind Atlas to find good wind sites in north eastern Africa,,,
+R704973__condition_001,distribution fitting condition,Weibull distribution was well fitted with observed wind speed data.,Condition used in the study conclusion.,R704973__variable_001,was well fitted with,observed wind speed data
+R704973__condition_002,distribution fitting condition,Weibull distribution was not matched well to observed wind speed data.,Condition used in the study conclusion.,R704973__variable_001,does not match well with,observed wind speed data
+R704994__condition_001,temporal analysis scope,Monthly analysis grouped each entire dataset into 12 study periods: January through December.,"Lomé, Accra, and Cotonou",,,
+R704994__condition_002,temporal analysis scope,For all the twelve months on the Cotonou site.,Cotonou,,,
+R705081__condition_001,wind-speed range,at low wind speed,annual and winter Weibull-distribution comparisons for the site,R705081__variable_001,equals,low
+R705198__condition_001,standard air-density condition,Air density is accepted as constant at 1.225 kg/m3 under standard conditions of sea level and 15 °C.,Power-density calculations in this study,air density,equals,1.225
+R705211__condition_001,data arrangement,Wind data is arranged in bins form.,Modified Maximum Likelihood Method,wind data,is arranged in,bins form
+R705221__condition_001,location,For Guwahati station.,Guwahati station,location,equals,Guwahati
+R705221__condition_002,location,For Kolkata station.,Kolkata station,location,equals,Kolkata
+R705221__condition_003,location,For Shillong station.,Shillong station,location,equals,Shillong
+R705221__condition_004,location,For Imphal station.,Imphal station,location,equals,Imphal
+R705236__condition_001,wind-speed range,Average wind velocity is lower and ranges from 2.866 m/sec to 3.875 m/sec.,Jeddah annual values reported for 2002–2012,R705236__variable_001,ranges from,2.866–3.875
+R705566__condition_001,null wind-speed frequency,The selected wind regimes present nearly zero percentages of null wind speeds.,Nine selected offshore buoy sites in the Ionian and Aegean Sea.,null wind-speed percentage,equals,nearly zero
+R705566__condition_002,wind-speed distribution modality,"The frequency histograms showed unimodal wind-speed distributions for all stations except Lesvos and Mykonos, where the distributions were bimodal.",Lesvos and Mykonos were bimodal; the remaining stations were unimodal.,wind-speed frequency distribution,equals,unimodal or bimodal
+R705585__condition_001,season,Wind-speed data measured in winter in Bursa.,Bursa station,season,equals,Winter
+R705585__condition_002,season,Wind-speed data measured in autumn in Bursa.,Bursa station,season,equals,Autumn
+R705585__condition_003,season,Wind-speed data measured in spring in Bursa.,Bursa station,season,equals,Spring
+R705585__condition_004,season,Wind-speed data measured in summer in Bursa.,Bursa station,season,equals,Summer
+R705585__condition_005,location and seasonal scope,Wind-speed data measured in Sakarya for all seasons.,"Sakarya station, all seasons",,,
+R705610__condition_001,distribution characteristic,Chabahar and Khaf stations with low skewness.,Chabahar and Khaf stations,skewness,equals,low
+R705610__condition_002,distribution characteristic,The other stations with higher skewness.,"Lutak, Rafsanjan and Zabol stations",skewness,equals,higher
+R706049__condition_001,height range,Exposed ridge-tops in the range of 100-300 m AGL.,Selected hilltops and exposed ridge-tops around Kousseri and Maroua.,height above ground level,in range,100-300
+R706049__condition_002,season,The dry season in the Far North Region.,Hilltops around Kousseri and Maroua.,,,
+R706049__condition_003,community scale,For small communities or wind farms.,Selection of P-15-50 wind turbine.,,,
+R707161__condition_001,Kolmogorov-Smirnov test significance level,The chosen significance level for KOL was defined as 10%.,Kolmogorov-Smirnov goodness-of-fit test,KOL significance level,equals,10
+R707402__condition_001,truncation point selection,The truncation point T is taken to be the largest sample observation.,TWD parameter estimation in this study,T,equals,largest sample observation
+R707402__condition_002,wind-speed distribution characteristic,Wind-speed data have a noticeably high positive skewness and kurtosis.,considered wind-speed cases,skewness and kurtosis,equals,noticeably high positive
+R707412__condition_001,season,summer months,Wind-speed PDF goodness-of-fit comparison,,,
+R707435__condition_001,wind-component distribution characteristic,Wind components are close to Gaussian shape and without too much anisotropy.,most stations in north-western France,wind components,equals,close to Gaussian shape and without too much anisotropy
+R707435__condition_002,terrain and wind-field characteristic,"In complex regions close to mountains, the wind field can present anisotropy and/or departure from Gaussian shape.",southern and eastern France,wind field,can present,anisotropy and/or departure from Gaussian shape
+R707435__condition_003,persistent wind-regime occurrence,Persistent strong winds have a higher probability during winter over France.,France,persistent strong winds,higher probability during,winter
+R707435__condition_004,channelled-flow regime,Channelled flows create shouldered wind-speed distributions.,"southern valleys, including Orange in the Rhône valley",channelled flows,create,shouldered wind-speed distributions
+R707478__condition_001,parameter constraint,"For the Inverse Gamma distribution, parameter p needs to be larger than 3 for the mean wind-power expression based on the third raw moment.",Mean wind power derived from the Inverse Gamma wind-speed distribution,Inverse Gamma parameter p,greater_than,3
+R707507__condition_001,model assumption,"Because this study does not involve real wind turbines, the value of the airstream area for wind turbines is assumed to be equal to 1 m2, A = 1.",Computed wind power per unit area for all study stations.,A,equals,1
+R707507__condition_002,model assumption,The value of constant air density is ρk = 1.16 kg m−3.,Computed wind power per unit area for all study stations.,ρk,equals,1.16
+R707542__condition_001,goodness-of-fit test significance level,"For simplicity, both β and δ are set to 0.05 in this paper.",Chi-square and Kolmogorov–Smirnov goodness-of-fit tests,β and δ,equals,0.05
+R707558__condition_001,wind turbine power-curve operating range,"Wind speeds between the cut-in and cut-out values of the power curve were 4 m/s and 25 m/s, respectively.",Vestas V47-666 KW turbine power curve,R707558__variable_001,between,4–25
+R707578__condition_001,distribution characteristic,The wind speed regime is bimodal.,"Al Aradh, Masdar City, and Sir Bani Yas Island",R707578__variable_001,equals,bimodal
+R707578__condition_002,distribution characteristic,The wind speed regime is strongly unimodal.,Al Mirfa,R707578__variable_001,equals,strong unimodal
+R707578__condition_003,measurement height and distribution characteristic,"At the Masdar Wind Station, bimodal shapes are observed at lower heights and become unimodal at higher heights.",Masdar Wind Station,R707578__variable_001,,
+R707587__condition_001,data preprocessing condition,Any null values are removed from the hourly data series of this study because pdfs having a null probability of observing null wind speed would make parameter estimation impossible with some methods.,Hourly wind-speed series used in this study.,R707587__variable_001,removed,null values
+R707587__condition_002,distribution characteristic,The wind-speed histogram at station 1 presents a bimodal behavior.,Al Aradh station.,R707587__variable_001,equals,bimodal
+R707596__condition_001,wind-speed distribution behavior,A bimodal behavior was observed in about 5 stations.,About 5 of the 10 stations selected to illustrate the study results,R707596__variable_001,equals,bimodal
+R707661__condition_001,distribution characteristic,The Airport-site histogram has a bimodal shape with secondary maxima in medium intensity wind speeds.,Airport site,R707661__variable_001,equals,bimodal
+R707661__condition_002,site topography,"Elevated sites at Malaxa, Airport, and especially Pedio Volis have low frequencies for wind speeds less than 2 m/s and longer tails in their wind speed distributions.","Malaxa, Airport, and especially Pedio Volis",R707661__variable_001,at,elevated sites
+R707672__condition_001,distribution characteristic,The wind-speed histograms at the Qingdao and Dalian sites have two peaks.,Qingdao and Dalian sites,R707672__variable_001,equals,bimodal
+R707682__condition_001,data-selection condition,monthly hourly mean wind speed v̄ ≥ 2 m s−1,Periods of the year selected for each observatory.,R707682__variable_001,greater_than_or_equal_to,2
+R707682__condition_002,wind-turbine operating-speed assumption,3 m s−1 and 25 m s−1 are used as the cut-in and cut-out speeds for wind turbines.,Operating-possibility calculation for the four observatories.,R707682__variable_001,,
+R707692__condition_001,distribution characteristic,The wind speed regimes at Al Aradh and Sir Bani Yas Island stations present a skewed bimodal distributional characteristic.,Al Aradh and Sir Bani Yas Island stations,R707692__variable_001,equals,skewed bimodal
+R707692__condition_002,distribution characteristic,"The wind speed regimes at East of Jebel Haffet, Madinat Zayed, and Masdar Wind Station present a kurtotic unimodal shape.","East of Jebel Haffet, Madinat Zayed, and Masdar Wind Station",R707692__variable_001,equals,kurtotic unimodal
+R707692__condition_003,distribution characteristic,The wind speed regimes at Al Mirfa and Al Wagan stations present a skewed unimodal shape.,Al Mirfa and Al Wagan stations,R707692__variable_001,equals,skewed unimodal
+R707701__condition_001,air-density assumption,"For constant air density ρ = const., the wind power density relation is simplified to e(u,h;ρ) = 1/2 ρu^3fU,H(u,h).",Wind-power-density application,air density,equals,const.
+R707902__condition_001,terrain condition,Highly textured terrain within very small distances (<500 m).,Baden-Wuerttemberg study area,terrain,equals,highly textured
+R707902__condition_002,topographic exposure,Sites are exposed to the West and Southwest.,Baden-Wuerttemberg study area,topographic exposure,is exposed to,West and Southwest
+R708252__condition_001,study site,Study site C,observed annual wind-speed distribution fitting,study site,equals,C
+R708252__condition_002,study site and temporal aggregation,Quarterly offshore extreme wind speeds in study site D,site D,extreme wind-speed temporal aggregation,equals,quarterly
+R708270__condition_001,wind-turbine operating wind-speed range assumption,The cut-in and cut-out wind speeds of the wind turbine are respectively assumed to be 2.5 m/s and 25 m/s in this study.,Wind-energy indicator calculation in this study,wind speed,between,2.5 to 25
+R708270__condition_002,time period and site,"For site A during Oct.–Dec., GWO did not obtain the best result.","Site A, Oct.–Dec. aggregated wind-speed data",,,
+R708270__condition_003,time period and site,"For site C during Jul.–Sep., GWO was the worst method.","Site C, Jul.–Sep. aggregated wind-speed data",,,
+R708294__condition_001,wind-generator assumptions,"The cut-in wind speed of the wind generator is assumed to be 3 m/s, the cut-out wind speed is assumed to be 20 m/s, and air density is assumed to be 1.225 kg/m3.",Wind-resource assessment indices calculated from DKDM probability densities.,,,
+R708294__condition_002,probability-density boundary condition,W1 and MTNW have a large probability near zero.,Simulated parametric distribution models W1 and MTNW.,wind speed probability density,has,large probability near zero
+R708307__condition_001,air-density assumption,"In the univariate and bivariate WPD case studies, air density is set to a reference value of 1.2 kg/m3 at both stations.",Univariate and bivariate WPD estimation at Baker and Station 44013.,R708307__variable_004,equals,1.2
+R708307__condition_002,turbine operating condition,No power is generated by the GE-1.5-MW-XLE turbines when wind speed is above the cut-out speed.,GE-1.5-MW-XLE turbine at hub height.,R708307__variable_001,greater_than,20.0
+R708327__condition_001,distribution characteristic,"The Benedict wind-speed histogram has two peaks, with one around 0.5 m/s and another around 4.5 m/s.",Benedict,R708327__variable_001,has,multiple modes
+R708327__condition_002,distribution characteristic,"The wind-speed data from Alfred, Green River, Olga, and Ray/Wheelock possess one mode in their histograms.","Alfred, Green River, Olga, and Ray/Wheelock",R708327__variable_001,has,one mode
+R708887__condition_001,evaluation domain,Onshore grid cells excluding the grid cells of Antarctica.,Onshore goodness-of-fit evaluation,,,
+R708887__condition_002,evaluation domain,"Offshore grid cells located within exclusive economic zones, excluding the grid cells of Antarctica.",Offshore goodness-of-fit evaluation,,,
+R708887__condition_003,distribution characteristic,The empirical wind-speed probability density function at the Venezuela grid cell is bimodal.,Venezuela grid cell at latitude 8°N and longitude 67°W,R708887__variable_001,equals,bimodal
+R708911__condition_001,capacity-factor threshold,Power output estimation error was estimated where capacity factor cf >= 0.20.,1667 wind speed measuring stations,R708911__variable_005,greater_than_or_equal_to,0.20
+R709006__condition_001,wind-resource level,The mean wind speed does not exceed 3.7 m/s at the four studied sites.,the four studied sites,R709006__variable_001,less_than_or_equal_to,3.7
+R709022__condition_001,wind-speed data resolution,Actual wind-speed data measured by anemometers with one decimal place.,Five Kerman stations,R709022__variable_001,resolution,0.1
+R709022__condition_002,wind-speed data truncation,"Decimal parts of measured wind-speed data were removed by rounding wind speeds, reducing the resolution to 1 m/s.",Five Kerman stations,R709022__variable_001,resolution,1
+R709039__condition_001,season and station scope,Wind-speed data recorded in winter at all stations.,"Bilecik, Bursa, Eskisehir, and Sakarya",wind speed,,
+R709039__condition_002,season and station scope,Wind-speed data recorded in summer at Bilecik.,Bilecik,wind speed,,
+R709039__condition_003,season and station scope,Wind-speed data recorded in summer at Bursa.,Bursa,wind speed,,
+R709039__condition_004,evaluation criterion,Power density error criterion is considered.,Annual and seasonal wind-speed data at the four stations,power density error (PDE),,
+R709075__condition_001,site-comparison scope,Among the ten sites considered,WM01 to WM10,,,
+R709075__condition_002,season,Spring (September–October),All sites except WM03 and WM06,season,equals,Spring
+R709075__condition_003,season,Summer (November–March),WM03,season,equals,summer
+R709075__condition_004,season,Winter (June–August),WM06,season,equals,winter
+R709075__condition_005,time period,Daytime is the period from 07:00 to 19:00.,South Africa study sites,time,from-to,07:00 to 19:00
+R709075__condition_006,time period,Night is the period from 19:00 to 07:00.,South Africa study sites,time,from-to,19:00 to 07:00
+R709075__condition_007,electricity demand peak period,Evening electricity peak period is 18:00–20:00.,South Africa study sites,time,from-to,18:00–20:00
+R709086__condition_001,low-speed wind definition,Low-speed wind is defined as annual average wind speed between 5.0 m/s and 7.5 m/s at the height of 10 m.,annual average wind speed at 10 m,R709086__variable_001,between,5.0 to 7.5
+R709096__condition_001,distribution characteristic,Component MoG and component MoLN in HMMD are bimodal in Jilin and Gansu regions.,Jilin and Gansu regions,wind speed distribution component,equals,bimodal
+R709096__condition_002,distribution characteristic,"The bimodal components in HMMD are MoW and MoLN for Ningxia and Dongshan regions, respectively.",MoW in Ningxia; MoLN in Dongshan,wind speed distribution component,equals,bimodal
+R709107__condition_001,distribution characteristic,Wind-speed distribution is uni-modal.,Amberi (Maharashtra) and Ulindakonda (Andhra Pradesh),R709107__variable_001,equals,uni-modal
+R709107__condition_002,distribution characteristic,Wind-speed distribution is bi-modal with two prominent peaks.,Pushpathur (Tamil Nadu) and Mylampati (Tamil Nadu),R709107__variable_001,equals,bi-modal
+R709107__condition_003,distribution characteristic,Wind-speed distribution is multi-modal with more than two prominent peaks.,Aundhewadi (Maharashtra) and Warshamedi (Gujarat),R709107__variable_001,equals,multi-modal
+R709120__condition_001,terrain assumption,The calculation was carried out on flat terrain.,Mitsubishi Galant kinetic-energy-recovery calculation,terrain,equals,flat
+R709120__condition_002,calculation assumption,The calculations assumed that the weight of the driver and any cargo would be the same for all vehicles.,Comparison of automobile models in the kinetic energy recovery model,driver and cargo weight,equals,all vehicles
+R710647__condition_001,hilltop elevation,Hilltops and exposed ridge tops located at 100 m AGL in the surroundings of Maroua.,surroundings of Maroua,hilltop elevation,equals,100
+R710647__condition_002,hilltop elevation,Hilltops and exposed ridge tops situated at 150 m AGL in the surroundings of Maroua.,surroundings of Maroua,hilltop elevation,equals,150
+R710647__condition_003,hilltop elevation,Hilltops and exposed ridge tops above 200 m AGL in the surroundings of Maroua.,surroundings of Maroua,hilltop elevation,greater_than,200
+R711154__condition_001,water-pumping configuration,"For community water supply, a total pump head of 30 meters was utilized for a windmill at 20 meters height above ground level.",Community water supply using a hypothetical windmill at 20 m AGL in the north region of Cameroon.,total pump head,equals,30
+R711154__condition_002,water-pumping configuration,"For domestic water supply, a total pump head of 15 meters was utilized for a hypothetical windmill at 20 meters height above ground level.",Domestic water supply using a hypothetical windmill at 20 m AGL in the north region of Cameroon.,total pump head,equals,15
+R711154__condition_003,water-pumping configuration,"For farm irrigation, a total pump head of 10 meters was utilized for a windmill at 20 meters height above ground level.",Farm irrigation using a hypothetical windmill at 20 m AGL in the north region of Cameroon.,total pump head,equals,10
+R711419__condition_001,season,Wet season runs from May to September.,"Debuncha, Cameroon",season,equals,wet season
+R711419__condition_002,season,Dry season runs from November to March.,"Debuncha, Cameroon",season,equals,dry season
+R711419__condition_003,wind-speed data aggregation,Wind-speed data are monthly average wind speeds.,Debuncha wind-speed dataset,wind-speed data aggregation,equals,monthly average
+R711460__condition_001,season,Dry season from November to March.,Cameroon,season,equals,November to March
+R711460__condition_002,season,Rainy season from April to October.,Cameroon,season,equals,April to October
+R711507__condition_001,time of day,Wind-speed measurement at 6am local time.,Bafoussam Airport wind measurements,wind-speed measurement time,equals,6am
+R711507__condition_002,time of day,Wind-speed measurement at 3pm local time.,Bafoussam Airport wind measurements,wind-speed measurement time,equals,3pm
+R711568__condition_001,data-bin availability,Only two wind speed bins were observed from data of the site of Ebolowa.,Ebolowa,number of observed wind speed bins,equals,2
+R712261__condition_001,pumping-head assumption,"For the purpose of this work, a total dynamic head of 25 m was adopted as the average in the North Region.",Water-pumping calculations for the North Region of Cameroon.,total dynamic head,equals,25
+R712532__condition_001,month,November,Alasaba monthly cumulative density function comparison in 2007,month,equals,November
+R712549__condition_001,evaluation height,All calculations were conducted for 100 meters height.,case-study calculations,height,equals,100
+R712559__condition_001,data availability,Approximately 21 days data between October and November 2015 are missing for Ghoubet.,"Ghoubet, October to November 2015",wind-speed data,missing during,approximately 21 days
+R712559__condition_002,season,Cold season at Bada Wein.,Bada Wein station,season,equals,cold season
+R712633__condition_001,terrain context,Low land terrain of the Eastern Province bordering Malawi.,Eastern Province bordering Malawi,terrain,equals,low land terrain
+R712637__condition_001,surface roughness,The site has a moderate relief and is tree covered; the roughness length was estimated as Z0 = 1.0 m.,study site,roughness length,equals,1.0
+R712637__condition_002,atmospheric stability,The stability class of the site was determined as B (unstable) using Pasquill dispersion classes.,study site,stability class,equals,B (unstable)
+R712641__condition_001,time of day,Night-time interval from 7 p.m. to 7 a.m.,Taïba Ndiaye wind-farm production comparison,time of day,between,7 p.m. and 7 a.m.
+R712641__condition_002,season,"Winter and spring, when wind speeds exceed 7 m/s.",Seasonal production at Taïba Ndiaye,wind speed,greater_than,7
+R712648__condition_001,season,Rainy season is May–October.,Kano,season,equals,May–Oct
+R712648__condition_002,season,Dry season is November–April.,Kano,season,equals,Nov–Apr
+R713394__condition_001,wind power density threshold,Mean power density values greater than 100 Wm−2.,"July 2010, 2011, 2012; August 2007, 2009, 2010, 2011, 2012, 2013, 2015; and September 2005, 2006, 2009, 2011, 2015.",R713394__variable_002,greater_than,100
+R713398__condition_001,measurement height,Mboro wind data at 30 m height.,Mboro annual Weibull parameters,wind speed measurement height,equals,30
+R713398__condition_002,measurement height,Mboro wind data at 15 m height.,Mboro annual Weibull parameters,wind speed measurement height,equals,15
+R713398__condition_003,measurement height,Makhana wind data at 30 m height.,Makhana annual Weibull parameters,wind speed measurement height,equals,30
+R713398__condition_004,measurement height,Makhana wind data at 15 m height.,Makhana annual Weibull parameters,wind speed measurement height,equals,15
+R713398__condition_005,measurement height,Ndiandekhou wind data at 10 m height.,Ndiandekhou annual Weibull parameters,wind speed measurement height,equals,10
+R713398__condition_006,measurement height,Pékesse wind data at 10 m height.,Pékesse annual Weibull parameters,wind speed measurement height,equals,10
+R713401__condition_001,site,Abeche and Mongo sites,Enercon-82 wind-turbine applicability conclusion,,,
+R713405__condition_001,wind power density threshold,The wind power density at a hub height of 10 m is greater than 400 W/m2.,Kano and Jos,wind power density,greater_than,400
+R713405__condition_002,wind power density threshold,The wind power density is greater than 100 W/m2.,Maiduguri,wind power density,greater_than,100
+R713405__condition_003,wind power density threshold,The wind power density is less than 100 W/m2.,Abuja and Akure,wind power density,less_than,100
+R713416__condition_001,season,"Rainy season, April–October.","Lagos (VI), Rivers (Abonemma) and Warri (Koko)",season,equals,rainy season
+R713416__condition_002,season,"Dry season, November–March.","Lagos (VI), Rivers (Abonemma) and Warri (Koko)",season,equals,dry season
+R713420__condition_001,annual wind power density group,"Group A, including Algiers, Skikda, Tébessa, Chlef, Tlemcen, Djelfa and Tamanrasset, with an annual wind power ranging in 40.61 ≤ P10 ≤ 100.22 W/m2.","Algiers, Skikda, Tébessa, Chlef, Tlemcen, Djelfa and Tamanrasset",R713420__variable_004,range,40.61 ≤ P10 ≤ 100.22
+R713420__condition_002,annual wind power density group,"Group B, including Oran, El Bayadh, In Amenas and Tindouf, with an annual wind power between 123.32 ≤ P10 ≤ 159.78 W/m2.","Oran, El Bayadh, In Amenas and Tindouf",R713420__variable_004,range,123.32 ≤ P10 ≤ 159.78
+R713420__condition_003,annual wind power density group,"Group C, including Tiaret, In Salah, Adrar, Béchar and Ghardaïa, has annual mean specific wind power: 167.89 ≤ P10 ≤ 283.12 W/m2.","Tiaret, In Salah, Adrar, Béchar and Ghardaïa",R713420__variable_004,range,167.89 ≤ P10 ≤ 283.12
+R713424__condition_001,wind-turbine power-output model validity,"The power-output and capacity-factor expressions are valid when electrical power is proportional to wind speed between cut-in and rated wind speed, and constant between rated and cut-out wind speed.",Assessment of selected wind turbines,,,
+R713430__condition_001,water depth,Waters with depth less than 50 m.,Offshore waters considered for the Lagos wind-farm assessment.,R713430__variable_002,less_than,50
+R713430__condition_002,water depth,Depths beyond 50 m.,Deep offshore waters considered for the Lagos wind-farm assessment.,R713430__variable_002,greater_than,50
+R713440__condition_001,wind-speed condition,The monthly minimum wind speeds are greater than 3 m/s.,"Johannesburg, 2005–2009",R713440__variable_001,greater_than,3
+R713445__condition_001,capacity-factor threshold,Any wind turbine with capacity factor less than 0.25 is not suitable for grid integration of wind power.,Wind-turbine selection for grid integration in this study.,capacity factor,less_than,0.25
+R713448__condition_001,foundation water-depth constraint,The potential is economically exploitable for sea depths up to 60 m for fixed foundation types.,Fixed foundation type for offshore wind turbines in Benin's EEZ,sea depth,less_than_or_equal_to,60
+R716871__condition_001,measurement height,Wind data were analyzed for a height of 20 m.,All four study sites,wind-speed measurement height,equals,20
+R716871__condition_002,measurement height,Wind data were analyzed for a height of 60 m.,All four study sites,wind-speed measurement height,equals,60
+R717690__condition_001,data independence,if the sample data are independent,maximum-likelihood estimator selection,sample data,equals,independent
+R717690__condition_002,wind-speed distribution characteristic,unimodal stations (stations 1 and 2),weather stations 1 and 2,wind speed distribution,equals,unimodal
+R717690__condition_003,wind-speed distribution characteristic,the bimodal station (station 4),weather station 4,wind speed distribution,equals,bimodal
+R717690__condition_004,wind-speed distribution characteristic,the bitangential station (station 3),weather station 3,wind speed distribution,equals,bitangential
+R718237__condition_001,site context,"Laayoune, Boujdour, Al Hoceima, and Essaouira",Weibull-parameter estimation comparison,study site,in,Laayoune; Boujdour; Al Hoceima; Essaouira
+R718237__condition_002,site context,Tantan region,Weibull-parameter estimation comparison,study site,equals,Tantan
+R719349__condition_001,season,Wet season (April to September),all study stations,season,equals,wet season
+R719349__condition_002,season,Dry season (October to March),all study stations,season,equals,dry season
+R719349__condition_003,site category,Sites outside Lagos and Oyo States and outside mountainous regions,study sites,site category,is outside,Lagos and Oyo States and mountainous regions
+R719358__condition_001,air temperature and pressure condition,The density of air is equal to 1.25 kg/m3 at temperature T = 20 °C and pressure P = 1 atm.,Wind-power calculation,air temperature and pressure,at,T = 20 °C and P = 1 atm
+R719366__condition_001,solar resource condition,Periods of reduced solar insolation,Naama,R719366__variable_003,equals,reduced
+R719366__condition_002,season,Summer months from June to August,Naama,,,June to August
+R719366__condition_003,time of day,Early morning from midnight to 06:00 and late afternoon to evening from 17:00 to 23:00,Wind-power simulation at Naama,,,
+R719520__condition_001,economic assumption,"The interest rate and inflation rate were taken to be 8% and 6%, respectively.",PVC economic analysis,interest rate and inflation rate,equals,8% and 6%
+R719520__condition_002,economic assumption,Machine life is 20 years.,PVC economic analysis,machine life,equals,20
+R719520__condition_003,economic assumption,Operation and maintenance cost is assumed 7% of the initial capital cost of the wind turbine installation system.,PVC economic analysis,operation and maintenance cost,equals,7
+R719520__condition_004,economic assumption,Scrap value was assumed 10% of the turbine price and civil work.,PVC economic analysis,scrap value,equals,10
+R720167__condition_001,wind-speed context,High wind speed obtained in Ghoubet and Bada Wein stations.,Ghoubet and Bada Wein rural stations,R720167__variable_001,equals,high wind speed
+R720167__condition_002,season,Cold season from October to April.,Djibouti; applied in the seasonal analysis,,,cold season
+R720773__condition_001,comparison scope,within the region of overlap,Comparison of predicted and measured probability-density distributions for the studied locations.,,,
+R722053__condition_001,data inclusion condition,This study was restricted to flow of wind for normal days.,study data analysis,,,
+R722053__condition_002,data filtering condition,Spurious and missing data as well as wind gusts and cyclonic winds (wind exceeding 20 m/s) were eliminated.,dataset preprocessing,wind speed,greater_than,20
+R723171__condition_001,hub height,Hub heights from 10 to 50 m were considered in the sensitivity analysis.,"Sensitivity analysis for Kano, Maiduguri, Jos, Abuja and Akure.",hub height,from-to,10 to 50
+R723300__condition_001,terrain,The power law exponent was 0.3 in the forested area.,Wind-speed extrapolation,terrain,equals,forested area
+R723300__condition_002,terrain,The power law exponent was 0.22 in the Guinea savannah area.,Wind-speed extrapolation,terrain,equals,Guinea savannah area
+R723300__condition_003,terrain,The power law exponent was 0.2 in the Sudan savannah area.,Wind-speed extrapolation,terrain,equals,Sudan savannah area
+R723300__condition_004,wind-turbine operating condition,The adjusted wind speed at the hub height of 25 m is less than or equal to 3 m/s.,"Ikeja, Ibadan, and Makurdi",adjusted wind speed at hub height,less_than_or_equal_to,3
+R723318__condition_001,surface roughness assumption,The shear exponent was taken as 0.3 for small towns with trees and shrubs and adopted for the Airport in Yola.,Yola Airport wind-speed extrapolation,shear exponent,equals,0.3
+R723373__condition_001,surface roughness coefficient assumption,"Due to insufficient data to estimate the surface roughness coefficient, it was usually assumed to be 0.143.",Wind-speed extrapolation to hub height,surface roughness coefficient,equals,0.143
+R723373__condition_002,hub height,"For Jos, the optimum hub height for favourable electricity-generation cost was 50 m.",Jos,hub height,equals,50
+R724501__condition_001,data dependence,The hourly wind-speed data measured at Amagro station are autocorrelated.,"Hourly mean wind-speed data at Amagro station, 1997–2002",R724501__variable_001,equals,autocorrelated
+R724501__condition_002,sampling interval,Wind-speed data sampled every 174 h indicate independence at a significance level of 0.05.,Amagro weather station; proposed sampling-interval selection procedure,R724501__variable_001,equals,174
+R724505__condition_001,month,January in Campo Grande,Campo Grande,month,equals,January
+R725713__condition_001,time-window duration,Shorter time scales of 10 min.,FINO-1 wind-speed dataset,time-window size,equals,10
+R725713__condition_002,time-window duration,Large time frames of 1 month.,FINO-1 wind-speed dataset,time-window size,equals,1
+R725713__condition_003,time-window duration,Windows of 1 day or less.,Histogram-fit comparison,time-window size,less_than_or_equal_to,1
+R725713__condition_004,time-window range,For all window sizes T considered in the study.,Energy-prediction comparison,time-window size,within,10 min to 1 month
+R725713__condition_005,data-quality exclusion,Time windows with more than 40% of NaNs were discarded.,All analyzed time windows,fraction of NaNs in time window,greater_than,40
+R725713__condition_006,distribution characteristic,Empirical distributions with two local maxima were discarded.,Histogram fitting and square-velocity prediction; less than 2% of total time windows.,number of local maxima,equals,2
+R725713__condition_007,computational exclusion,"For inverse-Gamma fits, windows producing infinite values when likelihood was lower than computational resolution were discarded.",Inverse-Gamma model; 0.1% of total time windows.,inverse-Gamma likelihood,less_than,computational resolution
+R725792__condition_001,calm wind frequency,At sites where the frequency of calm winds is relatively high (> 15% of the total number of wind observations).,sites with relatively high calm-wind frequency,frequency of calm winds,greater_than,15
+R725964__condition_001,distribution characteristic,The wind-speed distribution at Cuddalore is negatively skewed.,Cuddalore station,R725964__variable_001,equals,negatively skewed
+R725964__condition_002,distribution characteristic,Wind-speed distributions are slightly positively skewed.,Stations for which Nakagami PDF provided best fit,R725964__variable_001,equals,slightly positively skewed
+R726086__condition_001,data distribution characteristic,Wind-speed datasets with high positive skewness and kurtosis.,wind-speed datasets,R726086__variable_001,has,high positive skewness and kurtosis
+R726086__condition_002,temporal subset,For February and March wind-speed data.,monthly wind-speed data at Poprad,R726086__variable_001,equals,February and March
+R726125__condition_001,wind speed regime,Bilecik has a low wind speed regime compared with Gökçeada and Bozcaada.,Bilecik,R726125__variable_001,equals,low wind speed regime
+R727032__condition_001,seasonal and geographic context,"In most parts of the country, the rainy season occurs from October to December and January to April.",Most parts of Rwanda,,,
+R727032__condition_002,seasonal and geographic context,"In the western part of the country, the dry season occurs from July to September.",Western Rwanda,,,
+R727428__condition_001,site setting,"Because the mast is situated in a city, Z0 was estimated to be 0.9.",Wind-speed extrapolation calculation,Z0,equals,0.9
+R727542__condition_001,minimum wind-speed quality constraint,Areas with annual average wind speed below 7 m/s at 100 m ASL were excluded.,All developmental scenarios,R727542__variable_001,less_than,7
+R727542__condition_002,protected-area exclusion,Marine protected areas were excluded from scenario development regions.,All developmental scenarios,,,
+R727542__condition_003,coastal-buffer exclusion,Scenarios 1a and 2a excluded areas less than 10 km from shore.,Scenarios 1a and 2a,,less_than,10
+R727542__condition_004,water-depth development constraint,"Scenario water-depth definitions are conflicting_values in the supplied source: Table 2 displays '> 50 m' for Scenario 1 and '> 1000 m' for Scenario 2, while the abstract and conclusions report resources at depths less than 50 m and less than 1 000 m respectively.",Scenarios 1 and 2,,,
+R727583__condition_001,simulation sample size,Sample sizes n = 300 and 500.,Monte-Carlo simulation of IKum parameter estimators,sample size,equals,300 and 500
+R727583__condition_002,simulation sample size,Sample size increases.,Monte-Carlo simulation of IKum parameter estimators,sample size,increases,
+R727587__condition_001,study scope,"For the studied case, the wind farm is located in a desert and hot area.","Kaberten wind farm, Adrar, Algeria",,,
+R727587__condition_002,ambient temperature,"When the ambient temperature is higher than 46°C, about 90% of the recorded wind speeds are lower than 3.5 m/s.",WT06 turbine records,R727587__variable_003,greater_than,46
+R727673__condition_001,wind-turbine operating case,The wind turbine is inactive due to wind speed v < 4 m/s or v > 28 m/s and temperature T < -20 ℃ or T > 45 ℃.,Case 1,wind speed and temperature,,
+R727673__condition_002,wind-turbine operating case,The wind turbine is inactive due to wind speed v < 4 m/s or v > 28 m/s and temperature -20 < T < 45 ℃.,Case 2,wind speed and temperature,,
+R727673__condition_003,wind-turbine operating case,The wind turbine is inactive due to wind speed 4 m/s ≤ v ≤ 28 m/s and temperature T < -20 ℃ or T > 45 ℃.,Case 3,wind speed and temperature,,
+R727673__condition_004,wind-turbine operating case,The wind turbine is active due to wind speed 4 m/s ≤ v < 14 m/s and temperature -20 < T < 45 ℃.,Case 4,wind speed and temperature,,
+R727673__condition_005,wind-turbine operating case,The wind turbine is active at rated power due to wind speed 14 m/s ≤ v ≤ 28 m/s and temperature -20 < T < 45 ℃.,Case 5,wind speed and temperature,,
+R727676__condition_001,wind-speed characteristic,Sites with low wind speed characteristics and the least annual energy outputs,"Oudtshoorn, Bethlehem, Potchefstroom, Nelspruit, and Polokwane",R727676__variable_001,has,low wind speed characteristics
+R727714__condition_001,economic viability condition,"For an economic viability of wind turbine grid application, the capacity factor must be ≥ 0.25.",,capacity factor,greater_than_or_equal_to,0.25
+R727821__condition_001,season,winter months,UK observation network,season,equals,winter
+R727821__condition_002,season,summer months,UK observation network,season,equals,summer
+R728960__condition_001,wind regime,unimodal wind regime,different stations in Puerto Rico,wind speed distribution,equals,unimodal
+R728960__condition_002,wind regime,multimodal wind regime,different stations in Puerto Rico,wind speed distribution,equals,multimodal
+R732443__condition_001,weather condition,Weather condition is generally dry from November to May.,all thirteen sites under investigation,weather condition,equals,generally dry
+R732443__condition_002,weather condition,Weather condition is wet from June to October.,all thirteen sites under investigation,weather condition,equals,wet

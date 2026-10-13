@@ -1,0 +1,150 @@
+instrument_id,instrumentName,instrumentCategory
+R1378020__instrument_001,cup anemometer,anemometer
+R1378028__instrument_001,LiDAR system,remote wind sensor
+R702336__instrument_001,anemometer,wind speed sensor
+R702336__instrument_002,weathercock label,wind vane
+R702341__instrument_001,cup anemometer,anemometer
+R702341__instrument_002,wind vane,wind vane
+R702341__instrument_003,thermometer,temperature sensor
+R702341__instrument_004,hygrometer,humidity sensor
+R702341__instrument_005,data logger,data logger
+R703000__instrument_001,40 m meteorological mast,meteorological mast
+R703000__instrument_002,datalogger,data logger
+R703000__instrument_003,velocity sensor,wind speed sensor
+R703000__instrument_004,direction sensor,wind vane
+R703009__instrument_001,cup-generator anemometer,anemometer
+R703013__instrument_001,anemometer,anemometer
+R703013__instrument_002,anemometer,anemometer
+R703013__instrument_003,anemometer,anemometer
+R703026__instrument_001,anemometer,wind speed sensor
+R703032__instrument_001,cup-generator anemometer,anemometer
+R703043__instrument_001,meteorological mast,meteorological mast
+R703043__instrument_002,data logger with three velocity sensors and two direction sensors,data logger
+R703046__instrument_001,cup-generator anemometer,anemometer
+R703046__instrument_002,cup-generator anemometer,anemometer
+R703046__instrument_003,cup-generator anemometer,anemometer
+R703049__instrument_001,anemometer,anemometer
+R703052__instrument_001,rotating cup type anemometer,anemometer
+R703052__instrument_002,wind vane,wind vane
+R703052__instrument_003,thermometer,temperature sensor
+R703052__instrument_004,hygrometer,humidity sensor
+R703055__instrument_001,combined speed-direction anemometer,anemometer
+R703058__instrument_001,Vaisala cup anemometer,anemometer
+R703058__instrument_002,Vaisala wind vane,wind vane
+R703061__instrument_001,20 m steel tubular meteorological mast,meteorological mast
+R703061__instrument_002,anemometers,anemometer
+R703061__instrument_003,vanes,wind vane
+R703061__instrument_004,data logger,data logger
+R703068__instrument_001,Belford three cup type anemometer,anemometer
+R703075__instrument_001,Anemometer,anemometer
+R703081__instrument_001,wind anemoscope,wind vane
+R703102__instrument_001,RM Young model 05103 wind monitor,wind speed and direction sensor
+R703105__instrument_001,cup-generator anemometer,anemometer
+R705081__instrument_001,LSI LASTEM DNA2002,anemometer
+R705188__instrument_001,Doppler Weather Surveillance Radar (DWSR-92 C),weather radar
+R705198__instrument_001,cup generator anemometer,anemometer
+R705198__instrument_002,cup generator anemometer,anemometer
+R705221__instrument_001,Anemometer,anemometer
+R705221__instrument_002,Anemometer,anemometer
+R705221__instrument_003,Anemometer,anemometer
+R705221__instrument_004,Anemometer,anemometer
+R705566__instrument_001,Young Wind Monitor-JR 04106 anemometer,anemometer
+R706033__instrument_001,anemometer,anemometer
+R707161__instrument_001,cup-generator anemometer,anemometer
+R707412__instrument_001,Cup anemometer,anemometer
+R707456__instrument_001,anemometers,anemometer
+R707456__instrument_002,wind direction sensors,wind vane
+R707507__instrument_001,010C Wind Speed Sensor,anemometer
+R707531__instrument_001,anemometer,anemometer
+R707558__instrument_001,Buoy anemometer,anemometer
+R707568__instrument_001,Data logger,data logger
+R707568__instrument_002,Directional sensor,
+R707578__instrument_001,anemometer,anemometer
+R707587__instrument_001,anemometer,anemometer
+R707661__instrument_001,Cup anemometer,anemometer
+R707661__instrument_002,Wind vane,wind vane
+R707682__instrument_001,windmill type anemometer,anemometer
+R707701__instrument_001,POSEIDON oceanographic buoy,oceanographic buoy
+R707701__instrument_002,Spanish Port Authority oceanographic buoy,oceanographic buoy
+R707701__instrument_003,CRES onshore meteorological mast,meteorological mast
+R707709__instrument_001,POSEIDON marine monitoring network buoy,oceanographic buoy
+R707709__instrument_002,Operational Marine Climate Monitoring and Forecasting System buoy,oceanographic buoy
+R708307__instrument_001,Anemometer,anemometer
+R708307__instrument_002,Anemometer,anemometer
+R708327__instrument_001,anemometers,anemometer
+R709022__instrument_001,Cup anemometer manufactured by Theodor Friedrichs & Co.,anemometer
+R709075__instrument_001,P2546A cup anemometer,anemometer
+R709096__instrument_001,anemometers,anemometer
+R709107__instrument_001,Wind resource data logging system,data logger
+R710647__instrument_001,cup-generator anemometer,anemometer
+R711159__instrument_001,anemometer,wind speed sensor
+R711159__instrument_002,weather vane,wind vane
+R711159__instrument_003,sensor station and data recovery console,data logger
+R712261__instrument_001,cup-generator anemometer,anemometer
+R712275__instrument_001,anemometer,anemometer
+R712288__instrument_001,Anemometer,anemometer
+R712532__instrument_001,EKO 21B data logger,data logger
+R712552__instrument_001,cup anemometer,anemometer
+R712555__instrument_001,cup-anemometer,anemometer
+R712633__instrument_001,cup counter anemometer,anemometer
+R712648__instrument_001,cup generator anemometer,anemometer
+R713398__instrument_001,Anemometer coupled to an electronic data-logger,anemometer
+R713411__instrument_001,cup-generator anemometer,anemometer
+R713416__instrument_001,cup anemometer attached to a buoy system,anemometer
+R713440__instrument_001,anemometer,anemometer
+R713445__instrument_001,anemometer,anemometer
+R713448__instrument_001,satellite observation,satellite remote sensing
+R713451__instrument_001,Data acquisition system,data logger
+R717690__instrument_001,anemometer,anemometer
+R717690__instrument_002,anemometer,anemometer
+R717690__instrument_003,anemometer,anemometer
+R717690__instrument_004,anemometer,anemometer
+R717721__instrument_001,cup generator anemometer,anemometer
+R718237__instrument_001,Anemometer,anemometer
+R719349__instrument_001,three-cup anemometer generator,anemometer
+R719366__instrument_001,Cup anemometer,anemometer
+R719366__instrument_002,Wind vane,wind vane
+R719520__instrument_001,cup anemometer,anemometer
+R720348__instrument_001,cup anemometer,anemometer
+R720760__instrument_001,Anemometer,wind speed sensor
+R722053__instrument_001,anemometer,anemometer
+R723171__instrument_001,anemometer cup-generator,anemometer
+R723318__instrument_001,Anemometer,anemometer
+R723373__instrument_001,cue generator anemometer,anemometer
+R724371__instrument_001,anemometer,anemometer
+R724501__instrument_001,rotating cup type anemometer,anemometer
+R725713__instrument_001,anemometer,anemometer
+R725792__instrument_001,cup anemometer,anemometer
+R726086__instrument_001,Vaisala automatic instruments,
+R726086__instrument_002,GILL ultrasonic instruments,anemometer
+R726086__instrument_003,wind vane,wind vane
+R727032__instrument_001,anemometer,wind speed sensor
+R727587__instrument_002,SCADA system,monitoring network
+R727592__instrument_001,anemometer,wind speed sensor
+R727714__instrument_001,anemometer,anemometer
+R727821__instrument_001,cup anemometer,anemometer
+R727821__instrument_002,traditional wind vane,wind vane
+R728960__instrument_001,anemometer,anemometer
+R1563995__instrument_002,energy meter,electricity meter
+R1563995__instrument_003,pyranometer,solar radiation sensor
+R1563998__instrument_001,Delta-T SPN1 pyranometer,solar radiation sensor
+R1563998__instrument_002,SERIS monitoring stations,monitoring network
+R1564008__instrument_001,Santa Barbara Instrument Group all-sky camera,all-sky camera
+R1564008__instrument_002,Delta OHMLP RYRA 03,solar radiation sensor
+R1564076__instrument_001,CMP-22 pyranometer,solar radiation sensor
+R1564084__instrument_001,Campbell-Stokes sunshine recorder,solar radiation sensor
+R1564084__instrument_002,maximum-minimum thermometer,temperature sensor
+R1567813__instrument_001,GPS 12 Garmin,positioning instrument
+R1567813__instrument_002,improvised float,flow velocity meter
+R1567813__instrument_003,stopwatch,positioning instrument
+R1567813__instrument_004,steel tape,water depth instrument
+R1567813__instrument_005,graduated staff gauge,water depth instrument
+R1567855__instrument_001,weighted wooden float,flow velocity meter
+R1567855__instrument_002,measuring tape and collapsible measuring rod,water depth instrument
+R1567855__instrument_003,stopwatch,flow velocity meter
+R1563316__instrument_001,Kipp and Zonen CM11 pyranometer,solar radiation sensor
+R1563340__instrument_001,SUNNY SENSOR BOX,solar radiation sensor
+R1563340__instrument_002,temperature sensor,temperature sensor
+R1563346__instrument_001,solar radiation measurement instrument,solar radiation sensor
+R1563346__instrument_002,RNRG 40 anemometer,anemometer
+R1563346__instrument_003,RNRG 200P wind vane,wind vane

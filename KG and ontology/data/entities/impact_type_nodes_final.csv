@@ -1,0 +1,11 @@
+impact_id,label,definition,comment
+impact__ghg_emission_reduction,greenhouse gas emission reduction,"A reduction in emissions of greenhouse gases, such as carbon dioxide, compared with a reference.",Renewable generation avoids the emissions of the fossil generation it replaces; the reduction is usually given in tonnes of CO2 equivalent per year.
+impact__visual_impact,visual impact,A change in the appearance of a landscape caused by an installation.,"Visual impact is a common objection to wind turbines and is considered in spatial planning, for example through buffer zones from the coast."
+impact__electricity_access,electricity access,The provision of electricity to people or households that lack it.,Off-grid and mini-grid renewable systems are a main route to rural electrification in sub-Saharan Africa.
+impact__water_access,water access,"The provision of drinking or irrigation water to people, made possible by an energy system.","For example, wind-powered pumps can supply water to a given number of inhabitants."
+impact__socioeconomic_well_being,socioeconomic well-being,An improvement in the living conditions and welfare of a community.,"It covers combined benefits such as better access to water, sanitation, health services and income opportunities."
+impact__cost_saving,cost saving,A reduction in the cost of energy or services compared with existing options.,"For example, a low-wind-speed turbine may offer cheaper energy than diesel generation."
+impact__energy_generation,energy generation,The amount of energy that an energy system or resource can produce.,It may be electrical or mechanical energy and is often reported as a potential for a site or a region.
+impact__demand_coverage,demand coverage,The share of an energy demand that can be met by an energy system or resource.,"For example, an offshore wind scenario could cover a given percentage of national electricity demand."
+impact__energy_substitution,energy substitution,The replacement of one energy source by another.,"For example, wind power may replace part of the electricity produced from fossil fuels."
+impact__energy_independence,energy independence,A reduction in dependence on imported or external energy sources.,Local renewable resources can reduce reliance on imported fuels and support energy security.

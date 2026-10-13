@@ -1,0 +1,6 @@
+id,energyResourceType
+energy_resource__wind_energy,WindEnergy
+energy_resource__solar_energy,SolarEnergy
+energy_resource__hydro_energy,HydroEnergy
+energy_resource__renewable_energy,RenewableEnergyResource
+energy_resource__non_renewable_energy,NonRenewableEnergyResource

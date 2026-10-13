@@ -1,0 +1,16 @@
+node_id,external_iri
+evaluation_metric__anderson_darling_statistic,http://purl.obolibrary.org/obo/STATO_0000042
+evaluation_metric__kolmogorov_smirnov_statistic,http://purl.obolibrary.org/obo/STATO_0000083
+model__classification_and_regression_tree,http://purl.obolibrary.org/obo/OBI_0000749
+model__multiple_linear_regression,http://purl.obolibrary.org/obo/OBI_0200103
+model__self_organizing_map,http://purl.obolibrary.org/obo/OBI_0000701
+model__support_vector_machine,http://purl.obolibrary.org/obo/OBI_0000700
+terrain__mountainous_region,http://purl.obolibrary.org/obo/ENVO_00000081
+terrain__mountainous_terrain,http://purl.obolibrary.org/obo/ENVO_00000081
+variable__diffuse_solar_radiation,https://openenergyplatform.org/ontology/oeo/OEO_00010393
+variable__direct_solar_radiation,https://openenergyplatform.org/ontology/oeo/OEO_00010392
+variable__evapotranspiration,http://purl.obolibrary.org/obo/ENVO_02500033
+variable__runoff,http://purl.obolibrary.org/obo/ENVO_06105211
+variable__solar_radiation,https://openenergyplatform.org/ontology/oeo/OEO_00020038
+variable__sunshine_duration,http://purl.obolibrary.org/obo/ENVO_09200037
+variable__surface_runoff,http://purl.obolibrary.org/obo/ENVO_06105211

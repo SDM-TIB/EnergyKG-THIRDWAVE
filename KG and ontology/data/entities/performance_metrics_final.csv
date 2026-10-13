@@ -1,0 +1,1223 @@
+performance_metric_id,performanceMetricName,performanceMetricType,performanceMetricValue,performanceMetricTemporalScope,performanceMetricResultSummary,performanceMetricHeight,performanceMetricBestPerformer,performanceMetricConclusion,performanceMetricMaximumValue,performanceMetricMinimumValue,performanceMetricMeanValue,performanceMetricReferenceYear,performanceMetricFormula,performanceMetricParameters,performanceMetricDescription
+R1378024__performance_001,Load Factor trend,linear change rate,-0.02,1979–2019,The load-factor decrease was consistent with the decrease in hub-height wind speed.,100,,"In the next 100 years, the decreasing trend will weaken slightly.",,,,,,,
+R1378024__performance_002,RMSE reduction relative to the traditional method,relative accuracy improvement,64.1,regional test evaluation,"The regional mean Random Forest RMSE was 0.525, a 64.1% reduction compared with the traditional method.",100,Random Forest,Random Forest had the highest simulation accuracy among the three machine-learning algorithms.,,,,,,,
+R689596__performance_001,Wind power density,relative error,,,EPFM produced the lowest reported wind-power-density relative errors at all three sites.,,Energy Pattern Factor Method,Wind power density was estimated quite accurately with EPFM but not accurately with WVM and MoroM.,,,,,,,
+R689596__performance_002,Standard deviation estimation accuracy,relative error,,,The Moment Method had the lowest relative error in estimating standard deviation at all study sites.,,Moment Method,,,,,,,,
+R689605__performance_001,Wind power density,wind power density,400.31,annual,Annual average power density at Catalca.,30,,The authors conclude that the selected site is suitable for wind power generation.,,,,2008,,,
+R689605__performance_002,Wind power density,wind power density,540.08,annual,Annual average power density at Catalca.,60,,The authors conclude that the selected site is suitable for wind power generation.,,,,2008,,,
+R689605__performance_003,Wind power density,wind power density,611.02,annual,Annual average power density at Catalca.,80,,The authors conclude that the selected site is suitable for wind power generation.,,,,2008,,,
+R689605__performance_004,Wind power density,wind power density,463.41,annual,Annual average power density at Catalca.,30,,The authors conclude that the selected site is suitable for wind power generation.,,,,2009,,,
+R689605__performance_005,Wind power density,wind power density,546.84,annual,Annual average power density at Catalca.,60,,The authors conclude that the selected site is suitable for wind power generation.,,,,2009,,,
+R689605__performance_006,Wind power density,wind power density,622.42,annual,Annual average power density at Catalca.,80,,The authors conclude that the selected site is suitable for wind power generation.,,,,2009,,,
+R689605__performance_007,Wind power density,wind power density,590.16,annual,Annual average power density at Catalca.,30,,The authors conclude that the selected site is suitable for wind power generation.,,,,2010,,,
+R689605__performance_008,Wind power density,wind power density,806.18,annual,Annual average power density at Catalca.,60,,The authors conclude that the selected site is suitable for wind power generation.,,,,2010,,,
+R689605__performance_009,Wind power density,wind power density,917.61,annual,Annual average power density at Catalca.,80,,The authors conclude that the selected site is suitable for wind power generation.,,,,2010,,,
+R702336__performance_001,Wind power density,wind power density,106.49,"April, average across 1995–2005",April had the maximum monthly wind power density.,10,April,The maximum monthly wind power density was 106.49 W/m2 in April.,,,,,,,
+R702336__performance_002,Wind power density,wind power density,31.53,"August, average across 1995–2005",August had the minimum monthly wind power density.,10,,The minimum monthly wind power density was 31.53 W/m2 in August.,,,,,,,
+R702336__performance_003,Wind power density,wind power density,,yearly values during 1995–2005,Yearly average wind power density ranged from 74.00 to 122.48 W/m2.,10,,"This power-density level may be adequate for non-grid-connected electrical, mechanical, and agricultural applications.",122.48,74.00,,,,,
+R703000__performance_001,Wind power density,wind power density,,annual,Reported power-density range at Moalleman.,10,,Part of the evidence used to classify Moalleman as a class 3 wind-power site.,177,172,,2007,,,
+R703000__performance_002,Wind power density,wind power density,,annual,Reported power-density range at Moalleman.,30,,Part of the wind-resource assessment.,277,257,,2007,,,
+R703000__performance_003,Wind power density,wind power density,,annual,Reported power-density range at Moalleman.,40,,Part of the wind-resource assessment.,329,303,,2007,,,
+R703000__performance_004,Annual energy production (AEP),annual energy production,,year 2007,The larger turbine among the five evaluated models could produce more than 2000 MWh during 2007.,,larger one,The reported quantity was considered acceptable for wind energy.,,,,2007,,,
+R703003__performance_001,Capacity factor,capacity factor,0.261,annual,Capacity factor of the Proven 2.5 kW turbine at a 20 m hub height.,20,,,,,,,,,
+R703003__performance_002,Capacity factor,capacity factor,0.298,annual,Capacity factor of the Proven 2.5 kW turbine at a 30 m hub height; the paper identifies Proven 2.5 as having the best performance in terms of capacity factor.,30,Proven 2.5 kW wind turbine,,,,,,,,
+R703003__performance_003,Energy production,electricity generation,9676,annual,Bergey Excel-R annual energy output at a 20 m hub height.,20,Bergey Excel-R wind turbine,,,,,,,,
+R703003__performance_004,Energy production,electricity generation,,annual,Bergey Excel-R annual energy output at a 30 m hub height. The paper identifies Bergey Excel-R as the best option in terms of electricity production.,30,Bergey Excel-R wind turbine,,,,,,,,
+R703009__performance_001,Energy production,energy output,,annual,"At Enugu, annual energy output ranged from about 113 MWh/year using POLARIS 19-100 to 2,444 MWh/year using WWD-1-60.",,WWD-1-60,,2444,113,,,,,
+R703009__performance_002,Energy production,energy output,2431,annual,"POLARIS 62-1000 produced 2,431 MWh/year at Enugu.",,,,,,,,,,
+R703009__performance_003,Energy production,energy output,849,annual,"BONUS 1000-54 produced the least annual energy output among the 1,000-kW turbines at Enugu.",,,,,,,,,,
+R703009__performance_004,Energy production,energy output,,annual,"At Owerri, the minimum annual energy output was 6.05 MWh/year using P19-100 and the maximum was 178.58 MWh/year using WWD-1-60.",,WWD-1-60,,178.58,6.05,,,,,
+R703009__performance_005,Energy production,energy output,,annual,"At Onitsha, the minimum annual energy output was 18.83 MWh/year using P19-100 and the maximum was 461.32 MWh/year using WWD-1-60.",,WWD-1-60,,461.32,18.83,,,,,
+R703009__performance_006,Capacity factor,capacity factor,27.9,annual,,,WWD-1-60,,,,,,,,
+R703009__performance_007,Capacity factor,capacity factor,2.04,annual,,,WWD-1-60,,,,,,,,
+R703009__performance_008,Capacity factor,capacity factor,5.27,annual,,,WWD-1-60,,,,,,,,
+R703009__performance_009,Capacity factor,capacity factor,28.3,annual,Capacity factor for POLARIS 15-50 at Enugu.,,,,,,,,,,
+R703009__performance_010,Capacity factor,capacity factor,27.75,annual,Capacity factor for POLARIS 62-1000 at Enugu.,,,,,,,,,,
+R703009__performance_011,Pumped water volume,water-pumping output,3442,average monthly,,,,,,,,,,,
+R703009__performance_012,Pumped water volume,water-pumping output,2530,average monthly,,,,,,,,,,,
+R703009__performance_013,Pumped water volume,water-pumping output,2730,average monthly,,,,,,,,,,,
+R703013__performance_001,Wind power density,wind resource power density,275.29,whole period from 2005 to 2010,,,,,,,,,,,
+R703013__performance_002,Wind power density,wind resource power density,124.68,whole period from 2005 to 2010,,,,,,,,,,,
+R703013__performance_003,Wind power density,wind resource power density,195.76,whole period from 2005 to 2010,,,,,,,,,,,
+R703013__performance_004,Availability factor,operating probability,81.93,whole period from 2005 to 2010; cut-in speed 3 m/s and cut-out speed 25 m/s,This was the highest reported operating probability among the three sites for the cut-in speed of 3 m/s and cut-out speed of 25 m/s.,,,,,,,,,,
+R703013__performance_005,total annual wind power,potential offshore wind-farm wind power,96225.7,Potential offshore wind-farm calculation using annual power density and corresponding potential wind-farm area.,Estimated near Waglan Island.,,,,,,,,,,
+R703013__performance_006,total annual wind power,potential offshore wind-farm wind power,2102.14,Potential offshore wind-farm calculation using annual power density and corresponding potential wind-farm area.,Estimated near Cheung Chau Island using Cheung Chau wind data in lieu of Lamma Island wind data.,,,,,,,,,,
+R703013__performance_007,total annual wind power,potential offshore wind-farm wind power,1613.09,Potential offshore wind-farm calculation using annual power density and corresponding potential wind-farm area.,Estimated near Sha Chau.,,,,,,,,,,
+R703026__performance_001,Annual energy production (AEP),annual energy production,4.713,Annual value from the conventional assessment approach,Estimated annual production of wind energy from the conventional approach.,,,,,,,,,,
+R703026__performance_002,Annual energy production (AEP),annual energy production,4.550,Long-term AEP from the present Monte-Carlo based approach,The present value is 96.5% of the conventional value.,,,,,,,,,,
+R703026__performance_003,Annual energy production (AEP),uncertainty,11,Generated AEP normalized by its average value,Standard deviation of the generated AEP normalized by their average value.,,,,,,,,,,
+R703029__performance_001,Energy production,electricity generation,4002.3,annual,Annual energy output of Vergnet GEV HP1MW at Adrar.,,,,,,,,,,
+R703029__performance_002,Energy production,electricity generation,9429.8,annual,"Maximum annual energy output reported in the study, for the Fuhrlander FL 2500/90 at Adrar.",,Adrar,,,,,,,,
+R703029__performance_003,Energy production,electricity generation,6370.5,annual,Annual energy output of Suzlon S82/1.5MW at Adrar.,,,,,,,,,,
+R703029__performance_004,Energy production,electricity generation,2347.2,annual,Annual energy output of Fuhrlander FL 2500/90 at Tamanrasset.,,,,,,,,,,
+R703029__performance_005,Capacity factor,capacity factor,,annual; sites considered in this study,"The Suzlon S82/1.5MW model had the highest capacity factor, with values between 13% and 48% according to site.",,,"Among the considered turbine models, Suzlon S82/1.5MW had the highest capacity factor.",48,13,,,,,
+R703029__performance_006,Capacity factor,capacity factor,48,annual,Highest capacity factor reported in the study.,,Suzlon S82/1.5MW at Adrar,,,,,,,,
+R703029__performance_007,Capacity factor,capacity factor,10.7,annual,"Lowest capacity factor reported in Table 5, for Fuhrlander FL 2500/90 at Tamanrasset.",,,,,,,,,,
+R703032__performance_001,Annual energy production (AEP),annual energy output,7.53,annual,P10-20 annual energy output in Bida.,,,,,,,,,,
+R703032__performance_002,Annual energy production (AEP),annual energy output,61.50,annual,P10-20 annual energy output in Minna.,,,,,,,,,,
+R703032__performance_003,Annual energy production (AEP),annual energy output,205,annual,P50-500 annual energy output in Bida.,,,,,,,,,,
+R703032__performance_004,Annual energy production (AEP),annual energy output,1581.19,annual,P50-500 annual energy output in Minna.,,P50-500,,,,,,,,
+R703032__performance_005,Capacity factor,capacity factor,14.78,annual,,,,,,,,,,,
+R703032__performance_006,Capacity factor,capacity factor,4.70,annual,,,,,,,,,,,
+R703032__performance_007,Capacity factor,capacity factor,26.34,annual,,,,,,,,,,,
+R703032__performance_008,Capacity factor,capacity factor,8.60,annual,,,,,,,,,,,
+R703032__performance_009,Capacity factor,capacity factor,2.86,annual,"The minimum capacity factor reported in the study, for the P17-50 model in Bida.",,,,,,,,,,
+R703032__performance_010,Capacity factor,capacity factor,24.73,annual,,,,,,,,,,,
+R703032__performance_011,Capacity factor,capacity factor,36.10,annual,"The maximum capacity factor reported in the study, for the P50-500 model in Minna.",,P50-500,,,,,,,,
+R703035__performance_001,Annual energy production (AEP),annual net energy output,969.12,"per year, simulated for 2007",The E-33 330 kW turbine produced a simulated annual energy output of 969.12 MWh.,,,,,,,,,,
+R703035__performance_002,Annual energy production (AEP),annual net energy output,1549.29,"per year, simulated for 2007",The E-53 800 kW turbine produced a simulated annual energy output of 1549.29 MWh.,,,,,,,,,,
+R703035__performance_003,Annual energy production (AEP),annual net energy output,3486.57,"per year, simulated for 2007",The LTW80 1000 kW turbine produced a simulated annual energy output of 3486.57 MWh.,,,,,,,,,,
+R703035__performance_004,Annual energy production (AEP),annual net energy output,5155.7,"per year, simulated for 2007",The LTW80 1500 kW turbine produced a simulated annual energy output of 5155.70 MWh.,,,,,,,,,,
+R703035__performance_005,Capacity factor,capacity factor,33.02,"annual, simulated for 2007",The E-33 330 kW turbine had a simulated capacity factor of 33.02%.,,,,,,,,,,
+R703035__performance_006,Capacity factor,capacity factor,21.83,"annual, simulated for 2007",The E-53 800 kW turbine had a simulated capacity factor of 21.83%.,,,,,,,,,,
+R703035__performance_007,Capacity factor,capacity factor,39.8,"annual, simulated for 2007",The LTW80 1000 kW turbine had a simulated capacity factor of 39.80%.,,,,,,,,,,
+R703035__performance_008,Capacity factor,capacity factor,39.24,"annual, simulated for 2007",The LTW80 1500 kW turbine had a simulated capacity factor of 39.24%.,,,,,,,,,,
+R703049__performance_001,Wind power density,wind energy potential indicator,915.53,Average value; study-period analysis,Tai Mo Shan has the highest wind power density with an average value of 915.53 W/m2.,80,Tai Mo Shan weather station,The Conclusion instead reports 915.23 W/m2 for the maximum wind power density at Tai Mo Shan.,,,915.53,,,,
+R703049__performance_002,Wind power density,wind energy potential indicator,915.23,Average value; stated in Conclusion,"The Conclusion states that the maximum wind power density was observed at Tai Mo Shan, with an average value of 915.23 W/m2.",80,Tai Mo Shan weather station,This value conflicts with the 915.53 W/m2 value reported in the Results section.,,,915.23,,,,
+R703049__performance_003,Wind power density,wind energy potential indicator,24.20,Average value; study-period analysis,The lowest wind power density was obtained at Hong Kong Observatory with a mean value of 24.20 W/m2.,80,,,,,24.20,,,,
+R703049__performance_004,Availability factor,operability probability,90.19,Annual Weibull-parameter operating-probability calculation,The maximum operation probability was found at Tai Mo Shan with a cut-in speed of 3 m/s and a cut-out speed of 25 m/s.,80,Tai Mo Shan weather station,,,,,,,,
+R703049__performance_005,Availability factor,operability probability,7.97,Annual Weibull-parameter operating-probability calculation,"Hong Kong Observatory demonstrated the minimum operation probability with a value of 7.97%, for the 5 m/s cut-in and 25 m/s cut-out case.",80,,,,,,,,,
+R703052__performance_001,Wind power density,wind resource density,67.40,2008,Highest wind power density reported in the study.,,,,,,,,,,
+R703052__performance_002,Wind power density,wind resource density,590.40,2008,Highest wind energy density reported in the study.,,,,,,,,,,
+R703052__performance_003,Wind power density,wind resource density,50.81,2007,Maximum wind power density reported for Labuan.,,,,,,,,,,
+R703052__performance_004,Wind power density,wind resource density,445.12,2007,Maximum wind energy density reported for Labuan.,,,,,,,,,,
+R703055__performance_001,Energy production,seasonal energy yield,1691.0,"season 1, December to February",,,,,,,,,,,
+R703055__performance_002,Energy production,seasonal energy yield,2851.36,"season 2, March to May",,,,,,,,,,,
+R703055__performance_003,Energy production,seasonal energy yield,4571.55,"season 3, June to September",,,season 3,,,,,,,,
+R703055__performance_004,Energy production,seasonal energy yield,915.86,"season 4, October to November",,,,,,,,,,,
+R703055__performance_005,Annual energy production (AEP),annual energy yield,10054.27,yearly,Actual wind energy extracted based on the entire data set.,,,,,,,,,,
+R703055__performance_006,Availability factor,availability,98.06,yearly,,,,,,,,,,,
+R703055__performance_007,Efficiency,efficiency,40.32,yearly,,,,,,,,,,,
+R703055__performance_008,Capacity factor,capacity factor,45.91,yearly,,,,,,,,,,,
+R703058__performance_001,Wind power density,wind energy density,17.98,annual mean,The mean annual WED was estimated to be about 17.98 kWh m−2 month−1.,,,,,,,2008,,,
+R703058__performance_002,Wind power density,wind energy density,216,annual total,The total annual WED was 216 kWh m−2 year−1.,,,,,,,2008,,,
+R703061__performance_001,Capacity factor,ExCF,17.39,annual,,,,,,,,,,,
+R703061__performance_002,Capacity factor,ACF,17.53,annual; 0.8% curtailment case,,,,,,,,,,,
+R703061__performance_003,Capacity factor,ACF,17.97,annual; 4.3% curtailment case,,,,,,,,,,,
+R703061__performance_004,Capacity factor,ExCF,18.13,annual,,,,,,,,,,,
+R703061__performance_005,Capacity factor,ACF,18.28,annual; 0.8% curtailment case,,,,,,,,,,,
+R703061__performance_006,Capacity factor,ACF,18.91,annual; 4.3% curtailment case,,,,,,,,,,,
+R703064__performance_001,Wind power density,wind power density,,2000–2006,Ankara has a wind power density in the range of 11 to 40 W/m2.,,,,40,11,,,,,
+R703064__performance_002,Wind power density,wind power density,,2000–2006,Polatlı has a wind power density between 7 and 30 W/m2.,,,,30,7,,,,,
+R703064__performance_003,Wind power density,wind power density,41,summer season,The wind power density in Polatlı has the highest value in the summer seasons at 41 W/m2.,,,,,,,,,,
+R703064__performance_004,Capacity factor,capacity factor,45,January,The highest capacity factor of 45% was obtained in January for the V82-1.65 MW machine at Ankara.,,V82-1.65 MW machine,,,,,,,,
+R703064__performance_005,Capacity factor,capacity factor,37,February,The highest capacity factor in Polatlı was 37% in February for the V82-1.65 MW machine.,,V82-1.65 MW machine,,,,,,,,
+R703064__performance_006,Annual energy production (AEP),annual energy output,5.9,per year,The 3.0 MW wind turbine for Ankara was found to produce an energy output per year of 5.9 MW.,,,,,,,,,,
+R703064__performance_007,Annual energy production (AEP),annual energy output,1.8,per year,The 3.0 MW wind turbine for Polatlı was found to produce an energy output per year of 1.8 MW.,,,,,,,,,,
+R703064__performance_008,Annual energy production (AEP),annual energy output,4.97,February,The maximum energy output from the V90-3.0 MW machine at Polatlı was found in February as 4.97 MWh/year.,,V90-3.0 MW machine,,,,,,,,
+R703072__performance_001,Capacity factor,capacity factor,30.82,annual,,30,,,,,,,,,
+R703072__performance_002,Capacity factor,capacity factor,32.92,annual,,40,,,,,,,,,
+R703072__performance_003,Capacity factor,capacity factor,35.81,annual,,30,,,,,,,,,
+R703072__performance_004,Capacity factor,capacity factor,41.32,annual,The Proven 15 kW wind turbine had the highest capacity factor among the considered turbines.,40,Proven 15 kW,,,,,,,,
+R703072__performance_005,Capacity factor,capacity factor,22.04,annual,,30,,,,,,,,,
+R703072__performance_006,Capacity factor,capacity factor,24.61,annual,,40,,,,,,,,,
+R703072__performance_007,Capacity factor,capacity factor,30.60,annual,,30,,,,,,,,,
+R703072__performance_008,Capacity factor,capacity factor,33.83,annual,,40,,,,,,,,,
+R703072__performance_009,Annual energy production (AEP),annual energy output,,annual,"At Bordkhun station at 40 m, Northern Power 100-24 produces about 210 MWh.",40,Northern Power 100-24,,,,,,,,
+R703072__performance_010,Annual energy production (AEP),annual energy output,,annual,"At Bordkhun station at 40 m, Proven 15 only generated about 54 MWh.",40,,,,,,,,,
+R703075__performance_001,Wind power density,wind power density,355,"annual, 2011–2015",,50,,,,,,,,,
+R703075__performance_002,Wind power density,wind power density,317,"annual, 2011–2015",,50,,,,,,,,,
+R703075__performance_003,Wind power density,wind power density,196,"annual, 2011–2015",,50,,,,,,,,,
+R703075__performance_004,Wind power density,wind power density,180,"annual, 2011–2015",,50,,,,,,,,,
+R703075__performance_005,Wind power density,wind power density,129,"annual, 2011–2015",,50,,,,,,,,,
+R703075__performance_006,Wind power density,wind power density,54.8,"annual, 2011–2015",,50,,,,,,,,,
+R703075__performance_007,Wind power density,wind power density,532,"July, average across 2011–2015",,50,,,,,,,,,
+R703075__performance_008,Wind power density,wind power density,494,"July, average across 2011–2015",,50,,,,,,,,,
+R703075__performance_009,Capacity factor,capacity factor,43.3,"annual, 2011–2015",EWT DW52-500 was the best turbine model at Laayoune among the 50 m hub-height turbines.,50,,,,,,,,,
+R703075__performance_010,Capacity factor,capacity factor,50.7,"annual, 2011–2015",EWT DW54-500 was the best turbine model at Laayoune among the 75 m hub-height turbines.,75,,,,,,,,,
+R703075__performance_011,Annual energy production (AEP),annual energy output,14.7,"annual, 2011–2015",,75,,,,,,,,,
+R703075__performance_012,Annual energy production (AEP),annual energy output,13.05,"annual, 2011–2015",,75,,,,,,,,,
+R703078__performance_001,Wind power density,mean power density,33.7,,,,,,,,,,,,
+R703078__performance_002,Wind power density,mean power density,8.0,,,,,,,,,,,,
+R703078__performance_003,Wind power density,mean power density,25.42,,,,,,,,,,,,
+R703078__performance_004,Wind power density,maximum power density,160,,,,,,,,,,,,
+R703078__performance_005,Wind power density,maximum power density,30,,,,,,,,,,,,
+R703078__performance_006,Wind power density,maximum power density,60,,,,,,,,,,,,
+R703078__performance_007,Most probable wind speed,most probable wind speed,2.426,,,,,,,,,,,,
+R703078__performance_008,Most probable wind speed,most probable wind speed,1.67,,,,,,,,,,,,
+R703078__performance_009,Most probable wind speed,most probable wind speed,2.27,,,,,,,,,,,,
+R703078__performance_010,Wind speed carrying maximum energy,maximum energy carrying wind speed,3.35,,,,,,,,,,,,
+R703078__performance_011,Wind speed carrying maximum energy,maximum energy carrying wind speed,2.0,,,,,,,,,,,,
+R703078__performance_012,Wind speed carrying maximum energy,maximum energy carrying wind speed,3.03,,,,,,,,,,,,
+R703081__performance_001,Turbulence intensity,turbulence intensity,6.69,annual,,,,,,,,,,,
+R703081__performance_002,Wind power density,wind power density,180.5,annual,,,,,,,,,,,
+R703091__performance_001,Capacity factor,capacity factor,25.46,1990–2019 wind-data evaluation,The Vergnet GEV MP 275/32 gives values of around 25.46% at Amdjarass.,,,,,,,,,,
+R703091__performance_002,Capacity factor,capacity factor,26.33,1990–2019 wind-data evaluation,The Vergnet GEV MP 275/32 gives values of around 26.33% at Fada.,,,,,,,,,,
+R703091__performance_003,Mean power output,wind turbine power,8.05,,,,,,,,,,,,
+R703091__performance_004,Mean power output,wind turbine power,22.80,,,,,,,,,,,,
+R703091__performance_005,Mean power output,wind turbine power,22.62,,,,,,,,,,,,
+R703091__performance_006,Mean power output,wind turbine power,30.63,,,,,,,,,,,,
+R703091__performance_007,Mean power output,wind turbine power,8.77,,,,,,,,,,,,
+R703091__performance_008,Mean power output,wind turbine power,25.03,,,,,,,,,,,,
+R703091__performance_009,Mean power output,wind turbine power,23.39,,,,,,,,,,,,
+R703091__performance_010,Mean power output,wind turbine power,24.56,,,,,,,,,,,,
+R703095__performance_001,Mean power output,average power,204.12,annual,Reported for one WGT 850 kW turbine at Ain Salah.,,,,,,,,,,
+R703095__performance_002,Capacity factor,capacity factor,24.01,annual,Reported for one WGT 850 kW turbine at Ain Salah.,,,,,,,,,,
+R703095__performance_003,Energy production,energy production,1.79,annual,Reported for one WGT 850 kW turbine at Ain Salah.,,,,,,,,,,
+R703095__performance_004,Mean power output,average power,2327.02,annual,Reported for the wind farm.,,,,,,,,,,
+R703095__performance_005,Capacity factor,capacity factor,23.27,annual,Reported for the wind farm.,,,,,,,,,,
+R703095__performance_006,Energy production,energy production,20.38,annual,Reported for the wind farm.,,,,,,,,,,
+R703105__performance_001,Mean power output,simulated average power output,34.39,"All-years, 1999–2009",Weibull-model all-years average power output at 10 m hub height.,10,,,,,,,,,
+R703105__performance_002,Capacity factor,simulated capacity factor,2.29,"All-years, 1999–2009",Weibull-model all-years capacity factor at 10 m hub height.,10,,,,,,,,,
+R703105__performance_003,Mean power output,simulated average power output,169.9,"All-years, 1999–2009",Weibull-model all-years average power output at 110 m hub height.,110,,,,,,,,,
+R703105__performance_004,Capacity factor,simulated capacity factor,11.33,"All-years, 1999–2009",Weibull-model all-years capacity factor at 110 m hub height.,110,,,,,,,,,
+R703105__performance_005,Mean power output,simulated average power output,35.8,"All-years, 1999–2009",Rayleigh-model all-years average power output at 10 m hub height.,10,,,,,,,,,
+R703105__performance_006,Capacity factor,simulated capacity factor,2.39,"All-years, 1999–2009",Rayleigh-model all-years capacity factor at 10 m hub height.,10,,,,,,,,,
+R703105__performance_007,Mean power output,simulated average power output,226.23,"All-years, 1999–2009",Rayleigh-model all-years average power output at 110 m hub height.,110,,,,,,,,,
+R703105__performance_008,Capacity factor,simulated capacity factor,15.08,"All-years, 1999–2009",Rayleigh-model all-years capacity factor at 110 m hub height.,110,,,,,,,,,
+R704994__performance_001,RMSE,RMSE,,,The ideal RMSE value is zero.,,,,,,,,,,
+R704994__performance_002,R2,R2,,,The correlation coefficient has an ideal value of one.,,,,,,,,,,
+R704994__performance_003,relative percent error,RelativePercentError,,,Relative percent error is considered acceptable if its absolute value is less than or equal to 10%.,,,,,,,,,,
+R705081__performance_001,Energy production,estimated energy,3354.2651,annual,Enercon E-48 estimated energy production at 76 m hub height.,,,,,,,,,,
+R705081__performance_002,Capacity factor,capacity factor,0.48,annual,,,,,,,,,,,
+R705081__performance_003,Energy production,estimated energy,10099.0844,annual,,,Enercon E-82 E2,,,,,,,,
+R705081__performance_004,Capacity factor,capacity factor,0.58,annual,,,Enercon E-82 E2,,,,,,,,
+R705081__performance_005,Energy production,estimated energy,9292.1687,annual,,,,,,,,,,,
+R705081__performance_006,Capacity factor,capacity factor,0.46,annual,,,,,,,,,,,
+R705081__performance_007,Energy production,estimated energy,10829.4783,annual,,,,,,,,,,,
+R705081__performance_008,Capacity factor,capacity factor,0.41,annual,,,,,,,,,,,
+R705081__performance_009,Energy production,estimated energy,14316.9374,annual,,,,,,,,,,,
+R705081__performance_010,Capacity factor,capacity factor,0.47,annual,,,,,,,,,,,
+R705081__performance_011,Energy production,estimated energy,20519.9378,annual,,,Enercon E-126 EP4,,,,,,,,
+R705081__performance_012,Capacity factor,capacity factor,0.56,annual,,,,,,,,,,,
+R705198__performance_001,Energy production,error,6,16 considered Cide time periods,PWMBP exhibits better performance for 6 time periods than the other methods out of 16 considered Cide time periods according to EPE.,,PWMBP,,,,,,,,
+R705198__performance_002,Energy production,error,5,considered Keban time periods,PWMBP yields the best performance in terms of energy-production estimation for 5 time periods of Keban's wind-speed data.,,PWMBP,,,,,,,,
+R705198__performance_003,Energy production,energy output,47520.9,July 2006,The most actual energy output is yielded by using PWMM in July.,,PWMM,,,,,,,,
+R705211__performance_001,Wind Energy Error (WEE),,,,"WEE was used as an evaluation criterion to compare MLM, MMLM, and WEIM.",,,,,,,,,,
+R705211__performance_002,RMSE,RMSE,,,Smaller RMSE values imply that the investigated method is comparatively more accurate.,,,,,,,,,,
+R705211__performance_003,Coefficient of determination (R2),R2,,,Higher R2 values indicate that the investigated method is more accurate.,,,,,,,,,,
+R705221__performance_001,Range of annual mean wind speed,wind speed,,2012-2016 annual mean wind-speed range,The range of annual mean wind speed was highest in Kolkata station.,,Kolkata station,Kolkata station had the highest reported annual mean wind-speed range among the stations considered.,3.60,1.30,,,,,
+R705221__performance_002,Range of annual mean wind speed,wind speed,,2012-2016 annual mean wind-speed range,The range of annual mean wind speed was lowest in Shillong station.,,,Shillong station had the lowest reported annual mean wind-speed range among the stations considered.,2.31,0.94,,,,,
+R705221__performance_003,Wind power density,wind power density,,Irrespective of stations,"The reported minimum and maximum mean wind power density values were 7.99 W/m2 and 17.45 W/m2, respectively, and were stated to be not suitable for large power generation.",,,The reported mean wind power density values were not suitable for large power generation.,17.45,7.99,,,,,
+R705221__performance_004,Wind power density,wind power density,,Increasing height from 20 m to 100 m,More than 120% increase in wind power density can be obtained by increasing height from 20 m to 100 m.,,,The extrapolated wind power density was stated to be appreciable when height was increased from 20 m to 100 m.,,,,,,,
+R706049__performance_001,Capacity factor,capacity factor,,,"Among the explored wind turbines, YDF-1500-87 showed the highest capacity factor. P-15-50 and Enercon E820 also showed high capacity factors, while Enercon E33 and E53 showed the lowest capacity factors.",,YDF-1500-87,,,,,,,,
+R707507__performance_001,Wind power density,wind power density mean,,Study period across the six stations,The mean power per unit area is in the range of 2–24 W/m2.,,,Mersing and Kudat have greater mean power per unit area than the other stations.,,,,,,,
+R707507__performance_002,Standard deviation of power per unit area,standard deviation,,Study period across the six stations,The standard deviation for all stations ranges between 4 and 45 W/m2.,,,Mersing and Kudat have greater standard deviation than the other stations.,,,,,,,
+R707507__performance_003,Maximum power per unit area,maximum,,Study period,The maximum power per unit area for Mersing is more than 800 W/m2.,,,,,,,,,,
+R707507__performance_004,Maximum power per unit area,maximum,,Study period,The maximum power per unit area for Kudat is more than 600 W/m2.,,,,,,,,,,
+R707507__performance_005,Wind power density,skewness,,Study period across the six stations,All density plots are skewed to the right with coefficients of skewness g1 > 4.,,,The reported skewness indicates a lack of symmetric properties for power density.,,,,,,,
+R707507__performance_006,Wind power density,kurtosis,,Study period across the six stations,The value of the kurtosis coefficient is greater than 35 for all stations.,,,A higher kurtosis value indicates a sharper peak in the density function.,,,,,,,
+R707531__performance_001,MTTND coefficient of determination for PDF goodness of fit,R2,,Across the six locations considered,The MTTND ensured PDF R2 values not less than 0.980.,,,,,0.98,,,,,
+R707531__performance_002,MTTND root mean square error for PDF goodness of fit,RMSE,,Across the six locations considered,The MTTND ensured PDF RMSE values not greater than 0.011.,,,,0.011,,,,,,
+R707531__performance_003,MTTND coefficient of determination for CDF goodness of fit,R2,,Across the six locations considered,The MTTND ensured CDF R2 values not less than 0.996.,,,,,0.996,,,,,
+R707531__performance_004,MTTND root mean square error for CDF goodness of fit,RMSE,,Across the six locations considered,The MTTND ensured CDF RMSE values not greater than 0.050.,,,,0.05,,,,,,
+R707531__performance_005,MTTND analytical mean wind speed relative error,RelativePercentError,,Across the six locations considered,"For mean wind speed, the analytical MTTND procedure had an average relative error of 8%, and the relative error was always less than 11%.",,,,11,,8,,,,
+R707531__performance_006,MTTND numerical mean wind speed relative error,RelativePercentError,,Across the six locations considered,"Using the numerical procedure, the MTTND had an average relative error of 3% for mean wind speed and relative errors always less than 6%.",,,,6,,3,,,,
+R707542__performance_001,Chi-square test statistic,ChiSquareStatistic,,,A smaller test statistic implies a better goodness-of-fit between the tested statistical model and the observations.,,,,,,,,,,
+R707542__performance_002,Kolmogorov–Smirnov test statistic,KolmogorovSmirnovStatistic,,,A smaller test statistic implies a better goodness-of-fit between the tested statistical model and the observations.,,,,,,,,,,
+R707568__performance_001,Turbulence intensity,turbulence intensity,0.2,annual value through the whole year,,10,,,,,,,,,
+R707568__performance_002,Turbulence intensity,turbulence intensity,0.18,annual value through the whole year,,30,,,,,,,,,
+R707568__performance_003,Turbulence intensity,turbulence intensity,0.18,annual value through the whole year,,40,,,,,,,,,
+R707568__performance_004,Turbulence intensity,turbulence intensity,0.34,direction sector of 202.5 degrees,,40,,,,,,,,,
+R707682__performance_001,Availability factor,operating possibility,74,2920 h/year,,,,,,,,,,,
+R707682__performance_002,Availability factor,operating possibility,65,2555 h/year,,,,,,,,,,,
+R707682__performance_003,Availability factor,operating possibility,58,1694 h/year,,,,,,,,,,,
+R707682__performance_004,Availability factor,operating possibility,35,1477 h/year,,,,,,,,,,,
+R707709__performance_001,Wind power density,wind energy characteristic,,,Fitted wind-speed probability density functions were evaluated by comparing estimated mean wind power density with the value obtained directly from observed wind-speed time series.,,,,,,,,,,
+R707709__performance_002,Mean power output,wind energy characteristic,,,Fitted wind-speed probability density functions were evaluated by comparing estimated average turbine power output with the value obtained directly from observed wind-speed time series using the Vestas V47–660 KW turbine power curve.,,,,,,,,,,
+R707902__performance_001,Annual energy production (AEP),annual wind energy yield,3.4,Study-area mean modeled annual wind energy yield.,,,,,,,,,,,
+R707902__performance_002,Annual energy production (AEP),annual wind energy yield,13.6,Study-area modeled annual wind energy yield.,,,,,,,,,,,
+R707902__performance_003,Annual energy production (AEP),area share,3,Baden-Wuerttemberg study area.,,,,,,,,,,,
+R707902__performance_004,Annual energy production (AEP),area share,31,Baden-Wuerttemberg study area.,,,,,,,,,,,
+R708252__performance_001,Efficiency,turbine efficiency,,,"The smallest and largest turbine efficiency values calculated for the evaluated turbines and sites were 0.4360 and 0.7508, respectively.",,,,0.7508,0.4360,,,,,
+R708252__performance_002,Capacity factor,capacity factor,,,"All annual capacity-factor values of the different turbines and sites were close to or larger than 0.7, theoretically; V 164-8.0 had the largest values and HQ 5500/140 had the smallest values for all study sites.",,,,,,,,,,
+R708260__performance_001,Capacity factor,average capacity factor,0.642,,JW1500 had the highest average capacity factor at site 1.,,JW1500 (H5),,,,,,,,
+R708260__performance_002,Capacity factor,modified average capacity factor,0.504,,JW1500 had the highest modified average capacity factor at site 1.,,JW1500 (H5),,,,,,,,
+R708260__performance_003,Capacity factor,average capacity factor,0.645,,JW1500 had the highest average capacity factor at site 2.,,JW1500 (H5),,,,,,,,
+R708260__performance_004,Capacity factor,modified average capacity factor,0.506,,JW1500 had the highest modified average capacity factor at site 2.,,JW1500 (H5),,,,,,,,
+R708260__performance_005,Capacity factor,average capacity factor,0.709,,JW1500 had the highest average capacity factor at site 3.,,JW1500 (H5),,,,,,,,
+R708260__performance_006,Capacity factor,modified average capacity factor,0.569,,JW1500 had the highest modified average capacity factor at site 3.,,JW1500 (H5),,,,,,,,
+R708260__performance_007,Capacity factor,average capacity factor,0.746,,JW1500 had the highest average capacity factor at site 4.,,JW1500 (H5),,,,,,,,
+R708260__performance_008,Capacity factor,modified average capacity factor,0.605,,JW1500 had the highest modified average capacity factor at site 4.,,JW1500 (H5),,,,,,,,
+R708270__performance_001,Wind power density,wind power density,,2010–2014 annual results,"At site A, the maximum average wind power density was 352.8 in 2013 and the minimum was 350.3 in 2012.",,,,352.8,350.3,,,,,
+R708270__performance_002,Wind power density,effective wind power density,,2010–2014 annual results,"At site A, the effective wind power density values were larger than 917.21.",,,,,,,,,,
+R708270__performance_003,Availability factor,availability factor,,2010–2014 annual results,"At site A, all availability factors were larger than 0.96.",,,,,,,,,,
+R708270__performance_004,Wind power density,wind power density,,2010–2014 annual results,"At site B, the maximum average wind power density was 353.1 in 2011 and the minimum was 350.5 in 2013.",,,,353.1,350.5,,,,,
+R708270__performance_005,Wind power density,effective wind power density,,2010–2014 annual results,"At site B, the effective wind power density values were larger than 919.85.",,,,,,,,,,
+R708270__performance_006,Availability factor,availability factor,,2010–2014 annual results,"At site B, all availability factors were larger than 0.96.",,,,,,,,,,
+R708270__performance_007,Wind power density,wind power density,,2010–2014 annual results,"At site C, the maximum average wind power density was 352.5 in 2012 and the minimum was 350.3 in 2013.",,,,352.5,350.3,,,,,
+R708270__performance_008,Wind power density,effective wind power density,,2010–2014 annual results,"At site C, the effective wind power density values were larger than 918.53.",,,,,,,,,,
+R708270__performance_009,Availability factor,availability factor,,2010–2014 annual results,"At site C, all availability factors were larger than 0.96.",,,,,,,,,,
+R708294__performance_001,CDF of wind speed between cut-in and cut-out wind speed,wind-resource assessment index,0.80,Ganhekou dataset period,,,,,,,,,,,
+R708294__performance_002,Wind power density,wind-resource assessment index,598.21,Ganhekou dataset period,,,,,,,,,,,
+R708294__performance_003,Wind power density,wind-resource assessment index,551.54,Ganhekou dataset period,,,,,,,,,,,
+R708294__performance_004,Wind power density,wind-resource assessment index,13.07,Ganhekou dataset period,,,,,,,,,,,
+R708294__performance_005,CDF of wind speed between cut-in and cut-out wind speed,wind-resource assessment index,0.91,Changma dataset period,,,,,,,,,,,
+R708294__performance_006,Wind power density,wind-resource assessment index,579.32,Changma dataset period,,,,,,,,,,,
+R708294__performance_007,Wind power density,wind-resource assessment index,550.49,Changma dataset period,,,,,,,,,,,
+R708294__performance_008,Wind power density,wind-resource assessment index,12.73,Changma dataset period,,,,,,,,,,,
+R708294__performance_009,CDF of wind speed between cut-in and cut-out wind speed,wind-resource assessment index,0.72,Deelen dataset period,,,,,,,,,,,
+R708294__performance_010,Wind power density,wind-resource assessment index,75.40,Deelen dataset period,,,,,,,,,,,
+R708294__performance_011,Wind power density,wind-resource assessment index,70.09,Deelen dataset period,,,,,,,,,,,
+R708294__performance_012,Wind power density,wind-resource assessment index,5.97,Deelen dataset period,,,,,,,,,,,
+R708294__performance_013,CDF of wind speed between cut-in and cut-out wind speed,wind-resource assessment index,0.97,Huibertgat dataset period,,,,,,,,,,,
+R708294__performance_014,Wind power density,wind-resource assessment index,382.61,Huibertgat dataset period,,,,,,,,,,,
+R708294__performance_015,Wind power density,wind-resource assessment index,382.22,Huibertgat dataset period,,,,,,,,,,,
+R708294__performance_016,Wind power density,wind-resource assessment index,9.82,Huibertgat dataset period,,,,,,,,,,,
+R708294__performance_017,CDF of wind speed between cut-in and cut-out wind speed,wind-resource assessment index,0.72,Abilene dataset period,,,,,,,,,,,
+R708294__performance_018,Wind power density,wind-resource assessment index,127.13,Abilene dataset period,,,,,,,,,,,
+R708294__performance_019,Wind power density,wind-resource assessment index,125.24,Abilene dataset period,,,,,,,,,,,
+R708294__performance_020,Wind power density,wind-resource assessment index,9.11,Abilene dataset period,,,,,,,,,,,
+R708294__performance_021,CDF of wind speed between cut-in and cut-out wind speed,wind-resource assessment index,0.30,Bakersfield dataset period,,,,,,,,,,,
+R708294__performance_022,Wind power density,wind-resource assessment index,23.00,Bakersfield dataset period,,,,,,,,,,,
+R708294__performance_023,Wind power density,wind-resource assessment index,19.99,Bakersfield dataset period,,,,,,,,,,,
+R708294__performance_024,Wind power density,wind-resource assessment index,4.93,Bakersfield dataset period,,,,,,,,,,,
+R708307__performance_001,Wind power density,wind power density,87.83,2000–2009,WPD estimated from the univariate wind-speed pdf with air density set to 1.2 kg/m3.,3,,,,,,,,,
+R708307__performance_002,Wind power density,wind power density,211.52,2000–2009,WPD estimated from the univariate wind-speed pdf with air density set to 1.2 kg/m3.,5,,,,,,,,,
+R708307__performance_003,Wind power density,wind power density,84.60,2000–2009,"Trivariate MMWD estimate using wind speed, wind direction, and air density.",,,,,,,,,,
+R708307__performance_004,Wind power density,wind power density,225.88,2000–2009,"Trivariate MMWD estimate using wind speed, wind direction, and air density.",,,,,,,,,,
+R708307__performance_005,Energy production,power generation,7.41e6,Annual averaged power generation based on 2000–2009 wind data.,Power generation estimated using the MMWD model.,,,,,,,,,,
+R708307__performance_006,Energy production,power generation,7.78e6,Annual averaged power generation based on 2000–2009 wind data.,Power generation estimated using the Weibull distribution.,,,,,,,,,,
+R708307__performance_007,Wind power density,wind power density,86.15,2000–2009,WPD estimated using the Weibull distribution for the Baker comparison.,,,,,,,,,,
+R708887__performance_001,Kolmogorov-Smirnov statistic,KolmogorovSmirnovStatistic,,,Probability-probability-plot goodness-of-fit metric defined as the maximum absolute difference between empirical and estimated cumulative distribution functions.,,,,,,,,,,
+R708887__performance_002,R2 PP,R2,,,Coefficient of determination calculated for probability-probability plots.,,,,,,,,,,
+R708887__performance_003,MAEPP,MAE,,,Mean absolute error calculated between grid-cell empirical cumulative distribution functions and fitted cumulative distribution functions.,,,,,,,,,,
+R708887__performance_004,RMSEPP,RMSE,,,Root mean square error calculated between grid-cell empirical cumulative distribution functions and fitted cumulative distribution functions.,,,,,,,,,,
+R708887__performance_005,R2 QQ,R2,,,Coefficient of determination calculated for quantile-quantile plots.,,,,,,,,,,
+R708887__performance_006,MAEQQ,MAE,,,Mean absolute error calculated for quantile-quantile plots.,,,,,,,,,,
+R708887__performance_007,RMSEQQ,RMSE,,,Root mean square error calculated for quantile-quantile plots.,,,,,,,,,,
+R708887__performance_008,x3 error,goodness-of-fit metric,,,Goodness-of-fit metric evaluated as the absolute difference between the mean observed wind-speed cube and the wind-speed-cube integral estimated from the fitted probability density function.,,,,,,,,,,
+R708940__performance_001,RMSE,RMSE,,,The smallest RMSE value demonstrates that the considered distribution provides a better fit than the others.,,,,,,,,,,
+R708940__performance_002,Coefficient of determination,R2,,,The highest R2 value demonstrates that the considered distribution provides a better fit than the others.,,,,,,,,,,
+R708940__performance_003,Chi-square test value,ChiSquareStatistic,,,The smallest CHI value demonstrates that the considered distribution provides a better fit than the others.,,,,,,,,,,
+R708940__performance_004,Kolmogorov-Smirnov distance,KolmogorovSmirnovStatistic,,,The smallest KS value demonstrates that the considered distribution provides a better fit than the others.,,,,,,,,,,
+R708940__performance_005,Akaike information criterion,AIC,,,The smallest AIC value demonstrates that the considered distribution provides a better fit than the others.,,,,,,,,,,
+R708940__performance_006,Wind power density,PDE,,,PDE was used to determine the capability of a distribution in estimating wind power; the smallest PDE value indicates better performance.,,,,,,,,,,
+R709022__performance_001,MSE,goodness-of-fit index,,,Near-zero values correspond to the best fit.,,,,,,,,,,
+R709022__performance_002,NMSE,goodness-of-fit index,,,Near-zero values correspond to the best fit.,,,,,,,,,,
+R709022__performance_003,NRMSE,goodness-of-fit index,,,Near-zero values correspond to the best fit.,,,,,,,,,,
+R709022__performance_004,MAE,goodness-of-fit index,,,Near-zero values correspond to the best fit.,,,,,,,,,,
+R709022__performance_005,RMSE,goodness-of-fit index,,,A lower RMSE expresses a more proper fit.,,,,,,,,,,
+R709022__performance_006,MARE,goodness-of-fit index,,,Near-zero values correspond to the best fit.,,,,,,,,,,
+R709022__performance_007,R2,goodness-of-fit index,,,A value closer to 1 represents a better fit.,,,,,,,,,,
+R709022__performance_008,Coefficient of determination (D),goodness-of-fit index,,,A value near unity represents the best fit.,,,,,,,,,,
+R709022__performance_009,Coefficient of efficiency (E),goodness-of-fit index,,,A value near unity represents the best fit.,,,,,,,,,,
+R709075__performance_001,Capacity factor,capacity factor,26.34,annual,WM05 capacity factor with turbine F.,,,,,,,,,,
+R709075__performance_002,Capacity factor,capacity factor,45.45,annual,WM05 capacity factor with turbine R.,,Site WM05,,,,,,,,
+R709075__performance_003,Capacity factor,capacity factor,10.04,annual,WM02 capacity factor with turbine P.,,,,,,,,,,
+R709075__performance_004,Capacity factor,capacity factor,23.53,annual,WM02 capacity factor with turbine K.,,,,,,,,,,
+R709096__performance_001,Energy production,electricity production,16207009.4,annual,Annual electricity production of the WECS with Nordex N131/3000 Delta at 99 m in Jilin.,,,,,,,,,,
+R709096__performance_002,Capacity factor,capacity factor,0.6167,,,,true,The capacity factor is the largest among all WECSs in Jilin.,,,,,,,
+R709096__performance_003,aggregative indicator,resource matching and cost performance indicator,38.6121,,,,true,Largest aggregative indicator in Jilin.,,,,,,,
+R709096__performance_004,Energy production,electricity production,14208679.8,annual,Annual electricity production of the WECS with Nordex N131/3000 Delta at 99 m in Ningxia.,,,,,,,,,,
+R709096__performance_005,Capacity factor,capacity factor,0.5407,,,,true,The capacity factor is the largest among all WECSs in Ningxia.,,,,,,,
+R709096__performance_006,aggregative indicator,resource matching and cost performance indicator,29.6774,,,,true,Largest aggregative indicator in Ningxia.,,,,,,,
+R709096__performance_007,Energy production,electricity production,20648774.7,annual,Annual electricity production of the WECS with eno e.n.o. 126 at 117 m in Gansu.,,,,,,,,,,
+R709096__performance_008,Capacity factor,capacity factor,0.6735,,,,true,,,,,,,,
+R709096__performance_009,aggregative indicator,resource matching and cost performance indicator,46.0482,,,,true,Largest aggregative indicator in Gansu.,,,,,,,
+R709096__performance_010,Energy production,electricity production,17589194.0,annual,Annual electricity production of the WECS with eno e.n.o. 126 at 117 m in Dongshan.,,,,,,,,,,
+R709096__performance_011,Capacity factor,capacity factor,0.5737,,,,true,,,,,,,,
+R709096__performance_012,aggregative indicator,resource matching and cost performance indicator,33.4131,,,,true,Largest aggregative indicator in Dongshan.,,,,,,,
+R709120__performance_001,Average reduction in energy,energy reduction,35,Seven vehicles modelled for Edinburgh route 1,The average potential reduction in energy with the kinetic energy recovery system installed was reported as 35%.,,,This is the optimum potential reduction; driver brake-pedal and accelerator operation and driving style can affect overall performance.,,,,,,,
+R709120__performance_002,Reduction in energy,energy reduction,37.5,"Mitsubishi Galant, Edinburgh route 1",Calculated kinetic energy recovery model result for Mitsubishi Galant.,,,,,,,,,,
+R709120__performance_003,Reduction in energy,energy reduction,35.2,"Citroen C1, Edinburgh route 1",Calculated kinetic energy recovery model result for Citroen C1.,,,,,,,,,,
+R709120__performance_004,Reduction in energy,energy reduction,34.5,"Ford Focus, Edinburgh route 1",Calculated kinetic energy recovery model result for Ford Focus.,,,,,,,,,,
+R709120__performance_005,Reduction in energy,energy reduction,34.4,"Vauxhall Astra, Edinburgh route 1",Calculated kinetic energy recovery model result for Vauxhall Astra.,,,,,,,,,,
+R709120__performance_006,Reduction in energy,energy reduction,37.7,"Vauxhall Corsa, Edinburgh route 1",Calculated kinetic energy recovery model result for Vauxhall Corsa.,,Vauxhall Corsa,,,,,,,,
+R709120__performance_007,Reduction in energy,energy reduction,34.6,"Ford Mondeo, Edinburgh route 1",Calculated kinetic energy recovery model result for Ford Mondeo.,,,,,,,,,,
+R709120__performance_008,Reduction in energy,energy reduction,32.7,"Audi A4 Estate, Edinburgh route 1",Calculated kinetic energy recovery model result for Audi A4 Estate.,,,,,,,,,,
+R709120__performance_009,Recovered energy,energy recovery,37,Mitsubishi Galant on Edinburgh route 1,Up to 37% of energy could be recovered for the Mitsubishi Galant on the route considered.,,,The value decreased to 23% in the flat-terrain calculation.,,,,,,,
+R710637__performance_001,Wind power density,power density,5.3,1967-1969,,,,,,,,,,,
+R710637__performance_002,Wind power density,power density,5.4,1967-1969,,,,,,,,,,,
+R710637__performance_003,Wind power density,power density,7.7,1967-1969,,,,,,,,,,,
+R710647__performance_001,Capacity factor,capacity factor,38.05,annual,YDF-1500-87 capacity factor at the 150 m AGL hilltop.,,,,,,,,,,
+R710647__performance_002,Capacity factor,capacity factor,47.26,annual,YDF-1500-87 capacity factor at the 350 m AGL hilltop.,,,,,,,,,,
+R710647__performance_003,Capacity factor,capacity factor,39.29,annual,P-15-50 capacity factor at the 150 m AGL hilltop.,,,,,,,,,,
+R710647__performance_004,Capacity factor,capacity factor,48.85,annual,P-15-50 capacity factor at the 350 m AGL hilltop.,,,,,,,,,,
+R711159__performance_001,rank of performance of numerical methods,method ranking,,2012,,,,,,,,,,,
+R711159__performance_002,rank of performance of numerical methods,method ranking,,2013,,,,,,,,,,,
+R711159__performance_003,rank of performance of numerical methods,method ranking,,2014,,,,,,,,,,,
+R711159__performance_004,Weibull-estimation-method performance,comparative performance,,,"The empirical method had the best performance because it appeared between first, second, and third for the 3 years of analysis.",,,Parameters of shape k and scale C were better estimated by EM than by the other methods.,,,,,,,
+R711419__performance_001,Wind power density,wind power density,,monthly average values over the study dataset,Monthly average power density ranged from 5 W/m2 to 60 W/m2; the authors state that these values are generally not encouraging for installation of modern wind turbines.,,,,60,5,,,,,
+R712261__performance_001,Capacity factor,capacity factor,15.14,annual,"For Figuil, CF was 15.14% using WT1.",30,Figuil using WT1,WT1 had the highest capacity factor among the four turbines at Figuil.,,,,,,,
+R712261__performance_002,Capacity factor,capacity factor,11.15,annual,"For Figuil, CF was 11.15% using WT2.",30,,,,,,,,,
+R712261__performance_003,Capacity factor,capacity factor,7.11,annual,"For Figuil, CF was 7.11% using WT3.",30,,,,,,,,,
+R712261__performance_004,Capacity factor,capacity factor,5.82,annual,"For Figuil, CF was 5.82% using WT4.",30,,WT4 showed the worst performance among the four turbines at Figuil.,,,,,,,
+R712261__performance_005,Volumetric flow rate,water flow rate,985.38,annual average,"For Figuil, the reported corresponding flow-rate value using WT1 was 985.38 m³/day.",,Figuil using WT1,,,,,,,,
+R712261__performance_006,Volumetric flow rate,water flow rate,445.46,annual average,"For Figuil, the reported corresponding flow-rate value using WT2 was 445.46 m³/day.",,,,,,,,,,
+R712261__performance_007,Volumetric flow rate,water flow rate,142.68,annual average,"For Figuil, the reported corresponding flow-rate value using WT3 was 142.68 m³/day.",,,,,,,,,,
+R712261__performance_008,Volumetric flow rate,water flow rate,95.71,annual average,"For Figuil, the reported corresponding flow-rate value using WT4 was 95.71 m³/day.",,,WT4 showed the poorest performance in all cases.,,,,,,,
+R712275__performance_001,RMSE,RMSE,,,Lower RMSE was used as the criterion for a better Weibull parameter-estimation result.,,,,,,,,,,
+R712275__performance_002,R2,R2,,,Higher R² was used as the criterion for a better Weibull parameter-estimation result.,,,,,,,,,,
+R712275__performance_003,relative error,relative error,,,Relative error compared the wind-speed standard deviation predicted by each method with measured data.,,,,,,,,,,
+R712549__performance_001,Annual energy production (AEP),annual energy production,7.27,annual estimate,The GE 103 model was estimated to generate 7.270 GWh of electrical energy annually.,98.3,GE 103 model,,,,,,,,
+R712549__performance_002,Capacity factor,capacity factor,29.12,annual estimate,,98.3,GE 103 model,,,,,,,,
+R712552__performance_001,Annual energy production (AEP),annual energy output,4271280.0,annual,De Wind D8 annual energy output at Bingöl.,,,,,,,,,,
+R712552__performance_002,Capacity factor,capacity factor,24,annual,,,,,,,,,,,
+R712552__performance_003,Annual energy production (AEP),annual energy output,7454359.6,annual,De Wind D8 annual energy output at Elazıg˘.,,,,,,,,,,
+R712552__performance_004,Capacity factor,capacity factor,42,annual,,,,,,,,,,,
+R712552__performance_005,Annual energy production (AEP),annual energy output,7460806.6,annual,De Wind D8 annual energy output at Erzurum.,,,,,,,,,,
+R712552__performance_006,Capacity factor,capacity factor,43,annual,,,Erzurum,,,,,,,,
+R712552__performance_007,Annual energy production (AEP),annual energy output,5596627.8,annual,,,,,,,,,,,
+R712552__performance_008,Capacity factor,capacity factor,32,annual,,,,,,,,,,,
+R712552__performance_009,Annual energy production (AEP),annual energy output,6153327.3,annual,,,,,,,,,,,
+R712552__performance_010,Capacity factor,capacity factor,35,annual,,,,,,,,,,,
+R712552__performance_011,Annual energy production (AEP),annual energy output,6897354.5,annual,,,,,,,,,,,
+R712552__performance_012,Capacity factor,capacity factor,39,annual,,,,,,,,,,,
+R712555__performance_001,Capacity factor,capacity factor,9.629,August; monthly mean calculated using five-year data covering 2014–2018,The Polaris P12-25 turbine yielded the highest reported capacity factor among the five selected turbines.,,POLARIS P12-25,,,,,,,,
+R712555__performance_002,Annual energy production (AEP),annual energy output,,Reported as annual energy output in the performance-results section; reported as occurring in August in the conclusion.,The Polaris P12-25 turbine had the highest reported annual power energy output among the five selected turbines.,,POLARIS P12-25,,,,,,,,
+R712555__performance_003,Annual energy production (AEP),annual energy output,,"annual, based on five-year data covering 2014–2018",The lowest reported annual power energy output was given by turbine A.,,,,,,,,,,
+R712630__performance_001,Annual energy production (AEP),annual electricity production per wind generator,272.6,annual; from measurement,Annual production of one XANT M-21 100KW wind generator calculated by ALWIN from measurement.,,,,,,,,,,
+R712630__performance_002,Annual energy production (AEP),annual electricity production per wind generator,345.1,annual; from Rayleigh distribution,Annual production of one XANT M-21 100KW wind generator calculated by ALWIN from the Rayleigh distribution.,,,,,,,,,,
+R712630__performance_003,Annual energy production (AEP),annual electricity production per wind generator,279.3,annual; from Weibull distribution,Annual production of one XANT M-21 100KW wind generator calculated by ALWIN from the Weibull distribution.,,,,,,,,,,
+R712630__performance_004,Annual energy production (AEP),annual electricity production,136,annual; 500 XANT M-21 100KW turbines; from measurement,,,,,,,,,,,
+R712630__performance_005,Annual energy production (AEP),annual electricity production,172.550,annual; 500 XANT M-21 100KW turbines; Rayleigh distribution,,,,,,,,,,,
+R712630__performance_006,Annual energy production (AEP),annual electricity production,139.650,annual; 500 XANT M-21 100KW turbines; Weibull distribution,,,,,,,,,,,
+R712630__performance_007,Annual energy production (AEP),annual electricity production per wind generator,266.8,annual; from measurement; Northem Power NPS 21-100KW,,,,,,,,,,,
+R712630__performance_008,Annual energy production (AEP),annual electricity production per wind generator,303.6,annual; from Rayleigh distribution; Northem Power NPS 21-100KW,,,,,,,,,,,
+R712630__performance_009,Annual energy production (AEP),annual electricity production per wind generator,273.5,annual; from Weibull distribution; Northem Power NPS 21-100KW,,,,,,,,,,,
+R712630__performance_010,Annual energy production (AEP),annual electricity production,117.10,annual; 500 WES-18 100KW turbines; according to Weibull ALWIN results,,,,,,,,,,,
+R712630__performance_011,Annual energy production (AEP),annual electricity production,136.7,annual; 500 Northem Power NPS 21-100K turbines,,,,,,,,,,,
+R712633__performance_001,Wind power density,wind power density,46.6,Projected annual average,,100,,"Although wind speed is increasing, it is still generally too weak to support large-scale wind power generation.",,,,,,,
+R712633__performance_002,Wind power density,wind power density,80,Projected annual average,,100,Northern and central parts of Zambia,,,,,,,,
+R712633__performance_003,Wind power density,wind power density,63.2,2031–2050,,,,,,,,,,,
+R712633__performance_004,Wind power density,wind power density,56.3,2031–2050,,,,,,,,,,,
+R712637__performance_001,Annual energy production (AEP),annual energy production,,annual,"For the selected higher wind-resource zone, the hypothetical wind farm of four 1.65 MW turbines had an annual energy production of 5,985 MWh.",,,,,,,,,,
+R712641__performance_001,Energy production,electricity production,2040,January 2021,Peak production was recorded in January.,,,,,,,,,,
+R712641__performance_002,Energy production,electricity production,,September 2021,The lowest monthly value was recorded in September.,,,,,,,,,,
+R712641__performance_003,Energy production,seasonal electricity production share,40.4,"Winter (December-February), 2021",,,,,,,,,,,
+R712641__performance_004,Energy production,seasonal electricity production share,33,"Spring (March-May), 2021",,,,,,,,,,,
+R712641__performance_005,Energy production,seasonal electricity production share,,"Summer (June-August), 2021",,,,,,,,,,,
+R712641__performance_006,Energy production,seasonal electricity production share,,"Autumn (September-November), 2021",,,,,,,,,,,
+R712641__performance_007,Mean power output,average power production,65.11,"Every day, 2021","On average, the production of the farm is 65.11 MW per hour every day.",,,,,,,,,,
+R712641__performance_008,Night-time production relative to daytime production,relative production difference,43.1,"Night-time (7 p.m.-7 a.m.) compared with daytime (8 a.m.-6 p.m.), 2021","Overall, the wind farm's production is 43.1% higher at night than during the day.",,,,,,,,,,
+R712641__performance_009,Energy production,electricity production,75.50,Winter (December-February),The winter season records production peaks of 75.50 MWh.,,,,,,,,,,
+R712644__performance_001,Capacity factor,capacity factor,17.75,ERA5 data at the Ziguinchor site,ENERCON E-82 had a capacity factor of 17.75%.,100,ENERCON E-82,,,,,,,,
+R712644__performance_002,Capacity factor,capacity factor,15.14,ERA5 data at the Ziguinchor site,Nordex acciona N-100 had a capacity factor of 15.14%.,100,,,,,,,,,
+R712644__performance_003,Annual energy production (AEP),annual energy output,3.32,ERA5 data at the Ziguinchor site,"Nordex acciona N-100 produced significantly more energy than ENERCON E-82 and Nordex acciona N-90, with an equivalent output of 3.32 MWh/year.",100,,Nordex acciona N-100 was more suitable for the Ziguinchor site at 100 m because it had greater average power output and annual energy output than the other two turbines with the highest capacity factors.,,,,,,,
+R712644__performance_004,Capacity factor,capacity factor,22.53,ERA5 data at the Ziguinchor site,EolSénégal/500 W/24 V had a capacity factor of 22.53% with ERA5 data.,10,,,,,,,,,
+R712644__performance_005,Capacity factor,capacity factor,21.17,In situ station data at the Ziguinchor site,EolSénégal/500 W/24 V had a capacity factor of 21.17% with in situ station data.,10,,,,,,,,,
+R712644__performance_006,Annual energy production (AEP),annual energy output,987.5,ERA5 data at the Ziguinchor site,EolSénégal/500 W/24 V produced 987.5 KWh/year with ERA5 data.,10,,EolSénégal/500 W/24 V was reported as much better suited to the Ziguinchor site at 10 m.,,,,,,,
+R712644__performance_007,Annual energy production (AEP),annual energy output,928.05,In situ station data at the Ziguinchor site,EolSénégal/500 W/24 V produced 928.05 KWh/year with station data.,10,,,,,,,,,
+R713401__performance_001,Capacity factor,capacity factor,6.47,,Enercon-70 annual capacity factor at Abeche.,,,,,,,,,,
+R713401__performance_002,Capacity factor,capacity factor,13.50,,Enercon-82 annual capacity factor at Abeche.,,Enercon-82,,,,,,,,
+R713401__performance_003,Capacity factor,capacity factor,9.27,,Nordex N90 annual capacity factor at Abeche.,,,,,,,,,,
+R713401__performance_004,Capacity factor,capacity factor,9.87,,Nordex S77 annual capacity factor at Abeche.,,,,,,,,,,
+R713401__performance_005,Capacity factor,capacity factor,11.63,,Vestas V90-2 annual capacity factor at Abeche.,,,,,,,,,,
+R713401__performance_006,Capacity factor,capacity factor,4.68,,Enercon-70 annual capacity factor at Mongo.,,,,,,,,,,
+R713401__performance_007,Capacity factor,capacity factor,9.55,,Enercon-82 annual capacity factor at Mongo.,,Enercon-82,,,,,,,,
+R713401__performance_008,Capacity factor,capacity factor,5.91,,Nordex N90 annual capacity factor at Mongo.,,,,,,,,,,
+R713401__performance_009,Capacity factor,capacity factor,4.94,,Nordex S77 annual capacity factor at Mongo.,,,,,,,,,,
+R713401__performance_010,Capacity factor,capacity factor,8.17,,Vestas V90-2 annual capacity factor at Mongo.,,,,,,,,,,
+R713401__performance_011,Capacity factor,capacity factor,0.03,,Enercon-70 annual capacity factor at N'Djamena.,,,,,,,,,,
+R713401__performance_012,Capacity factor,capacity factor,0.09,,Enercon-82 annual capacity factor at N'Djamena.,,Enercon-82,,,,,,,,
+R713401__performance_013,Capacity factor,capacity factor,0.04,,Nordex N90 annual capacity factor at N'Djamena.,,,,,,,,,,
+R713401__performance_014,Capacity factor,capacity factor,0.03,,Nordex S77 annual capacity factor at N'Djamena.,,,,,,,,,,
+R713401__performance_015,Capacity factor,capacity factor,0.07,,Vestas V90-2 annual capacity factor at N'Djamena.,,,,,,,,,,
+R713401__performance_016,Wind power density,wind power density,87.786,winter,Highest reported seasonal wind power density.,,,,,,,,,,
+R713401__performance_017,Wind power density,wind power density,12.041,summer,Lowest reported seasonal wind power density.,,,,,,,,,,
+R713411__performance_001,Mean power output,power output,47,monthly average,,80,,,,,,,,,
+R713411__performance_002,Mean power output,power output,22,monthly average,,80,,,,,,,,,
+R713411__performance_003,Mean power output,power output,86,monthly average,AV 928 had the highest energy production among the turbines considered.,80,AV 928,,,,,,,,
+R713411__performance_004,Mean power output,power output,70,monthly average,,80,,,,,,,,,
+R713411__performance_005,Mean power output,power output,71,monthly average,SWT-3.6-107 had the second-highest energy output according to the conclusion.,80,,,,,,,,,
+R713411__performance_006,Mean power output,power output,26,monthly average,,80,,,,,,,,,
+R713411__performance_007,Capacity factor,capacity factor,,August,Capacity factor peaked in August and was lowest in March.,80,,,,,,,,,
+R713411__performance_008,Capacity factor,capacity factor,,August,,80,,,,,,,,,
+R713411__performance_009,Capacity factor,capacity factor,,August,,80,AV 928,,,,,,,,
+R713411__performance_010,Capacity factor,capacity factor,,August,,80,,,,,,,,,
+R713411__performance_011,Capacity factor,capacity factor,,August,,80,,,,,,,,,
+R713411__performance_012,Capacity factor,capacity factor,,August,,80,,,,,,,,,
+R713416__performance_001,Mean power output,average power output,4797,annual,,,,,,,,,,,
+R713416__performance_002,Capacity factor,capacity factor,62.1,annual,,,,,,,,,,,
+R713416__performance_003,Capacity factor,capacity factor,63.5,annual,,,Polaris P62-1000,,,,,,,,
+R713416__performance_004,Mean power output,average power output,6512,annual,,,DeWind D6,,,,,,,,
+R713416__performance_005,Turbine suitability conclusion,turbine recommendation,,,"Based on annual energy output and capacity factor, Polaris P62-1000 and DeWind D6 models, or wind turbines with similar design characteristics, appear appropriate for electricity generation in the three locations.",,,Polaris P62-1000 and DeWind D6 are recommended as suitable turbines for wind power generation in the three locations.,,,,,,,
+R713420__performance_001,Wind power density,wind power density,283.12,annual mean,Highest reported annual mean wind power density among the studied sites.,10,Adrar,,,,,,,,
+R713420__performance_002,Wind power density,wind power density,646.91,annual mean,Highest reported annual mean wind power density among the studied sites.,50,Adrar,,,,,,,,
+R713420__performance_003,Wind power density,wind power density,40.61,annual mean,Lowest reported annual mean wind power density among the studied sites.,10,,,,,,,,,
+R713420__performance_004,Wind power density,wind power density,115.51,annual mean,Lowest reported annual mean wind power density among the studied sites.,50,,,,,,,,,
+R713424__performance_001,Energy production,electricity generation,,annual,Annual energy output ranged from about 128 MWh in Oshiyie using the Polaris 15-50 model to 730 MWh in Adafoah using the WES30 model.,,,,730,128,,,,,
+R713424__performance_002,Capacity factor,capacity factor,50.6,annual,Polaris 15-50 capacity factor at Adafoah.,,,,,,,,,,
+R713424__performance_003,Capacity factor,capacity factor,41.8,annual,Polaris 15-50 capacity factor at Anloga.,,,,,,,,,,
+R713424__performance_004,Capacity factor,capacity factor,41.0,annual,Polaris 15-50 capacity factor at Aplaku.,,,,,,,,,,
+R713424__performance_005,Capacity factor,capacity factor,39.4,annual,Polaris 15-50 capacity factor at Mankoadze.,,,,,,,,,,
+R713424__performance_006,Capacity factor,capacity factor,29.2,annual,Polaris 15-50 capacity factor at Oshiyie.,,,,,,,,,,
+R713424__performance_007,Capacity factor,capacity factor,34.3,annual,Polaris 15-50 capacity factor at Warabeba.,,,,,,,,,,
+R713430__performance_001,Mean power output,wind-farm output power,21824,When the turbine is placed at the shore.,,,,,,,,,,,
+R713430__performance_002,Annual energy production (AEP),annual energy generation,191.2,Wind farm at the shore; per year.,,,,,,,,,,,
+R713430__performance_003,Annual energy production (AEP),annual energy generation,200,Offshore waters with depth less than 50 m; per year.,,,,,,,,,,,
+R713440__performance_001,Annual energy production (AEP),annual energy output,,,"Turbine H had the highest wind-energy output in all years, with a maximum value of 101,390 kWh/year in 2009.",,turbine H,,,,,2009,,,
+R713440__performance_002,Capacity factor,capacity factor,0.26,,"Turbine F had the highest capacity factor in all years, with a maximum value of 0.26 (26%) in 2009.",,turbine F,,,,,2009,,,
+R713445__performance_001,wind power class,wind-resource classification,7,entire duration of observation,,,,Viable for Grid Integration.,,,,,,,
+R713445__performance_002,wind power class,wind-resource classification,7,entire duration of observation,,,,Viable for Grid Integration.,,,,,,,
+R713445__performance_003,wind power class,wind-resource classification,5,entire duration of observation,,,,Viable for Grid Integration.,,,,,,,
+R713445__performance_004,wind power class,wind-resource classification,3,entire duration of observation,,,,Viable for standalone Application.,,,,,,,
+R713451__performance_001,Capacity factor,capacity factor,39,yearly,"Highest reported capacity factor, observed for Yellow-Sand at Sakhor.",,,,,,,,,,
+R713451__performance_002,Capacity factor,capacity factor,26,yearly,Ecotècnia 62 capacity factor at Sakhor.,,,,,,,,,,
+R713451__performance_003,Capacity factor,capacity factor,5,yearly,"Lowest reported capacity factor, observed for Ecotècnia 80 at Gandon.",,,,,,,,,,
+R713451__performance_004,Energy production,energy output,4517900,annual,"Highest reported output energy, for Repower at Sakhor.",,,Repower is suitable for electricity generation for grid connection because of the quantity of output energy that could be generated.,,,,,,,
+R713451__performance_005,Energy production,energy output,750360,annual,"Lowest reported large-wind-turbine output energy, for Ecotècnia 80 at Gandon.",,,,,,,,,,
+R713451__performance_006,Energy production,energy output,312,annual,"Lowest reported small-wind-turbine output energy, for Inclin 600 at Gandon.",,,,,,,,,,
+R713451__performance_007,Energy production,energy output,1470,annual,"Highest reported small-wind-turbine output energy, for Eol Senegal 500 at Sakhor.",,,,,,,,,,
+R716871__performance_001,Wind power density,wind power density,418.502,,,20,,The wind class was assessed as Class 4 and the category as good.,,,,,,,
+R716871__performance_002,Wind power density,wind power density,414.873,,,20,,The wind class was assessed as Class 4 and the category as good.,,,,,,,
+R716871__performance_003,Wind power density,wind power density,137.736,,,20,,The wind power density was below 200 W/m² and the wind class was assessed as Class 1 and the category as weak.,,,,,,,
+R716871__performance_004,Wind power density,wind power density,77.993,,,20,,The wind power density was below 200 W/m² and the wind class was assessed as Class 1 and the category as weak.,,,,,,,
+R716871__performance_005,Wind power density,wind power density,444.743,,,60,,The wind class was assessed as Class 4 and the category as good.,,,,,,,
+R716871__performance_006,Wind power density,wind power density,414.98,,,60,,The wind class was assessed as Class 4 and the category as good.,,,,,,,
+R716871__performance_007,Wind power density,wind power density,184.134,,,60,,The wind power density was below 200 W/m² and the wind class was assessed as Class 1 and the category as weak.,,,,,,,
+R716871__performance_008,Wind power density,wind power density,101.201,,,60,,The wind power density was below 200 W/m² and the wind class was assessed as Class 1 and the category as weak.,,,,,,,
+R717690__performance_001,R2,R2,,,"The higher R2 is, the greater the fit.",,,,,,,,,,
+R717690__performance_002,RMSE,RMSE,,,"The lower the RMSE, the greater the fit.",,,,,,,,,,
+R717710__performance_001,wind turbine selection,comparative turbine selection conclusion,,,The E-53 wind turbine was chosen as the most cost-effective wind turbine on both sites.,,E-53 wind turbine,,,,,,,,
+R717710__performance_002,wind turbine selection,comparative turbine selection conclusion,,,The E-53 wind turbine was chosen as the most cost-effective wind turbine on both sites.,,E-53 wind turbine,,,,,,,,
+R717717__performance_001,Energy production,comparative net energy production difference,3.57,annual,The simulation of the production of seven commercialized wind turbines shows about 3.57% of differences in the annual net energy production.,,,,,,,,,,
+R717717__performance_002,Energy production,seasonal net energy output,,spring,"The wind turbine AAER presents the highest production in spring with a value of 1 123 666 kW h/year, which represents the maximum seasonal net energy output for all studied wind turbines.",,AAER wind turbine,,,,,,,,
+R717717__performance_003,Energy production,net energy output,,,The Fuhrländer wind turbine seems to have the least performance in the site with the minimum energy production equal to 613 422 kW h/year.,,Fuhrländer wind turbine,,,,,,,,
+R717717__performance_004,Annual energy production (AEP),comparative wind-turbine performance,,annual,,,Vensys70 wind turbine,The Vensys70 wind turbine is the best type adapted to the site condition.,,,,,,,
+R718237__performance_001,Capacity factor,capacity factor,41.3,annual,Reported capacity factor for EWT DW52-500 at Laayoune.,50,EWT DW52-500,,,,,,,,
+R718237__performance_002,Capacity factor,capacity factor,46,annual,Reported capacity factor for EWT DW52-500 at Boujdour.,50,EWT DW52-500,,,,,,,,
+R718237__performance_003,Capacity factor,capacity factor,40.3,annual,Table 6 reports a capacity factor of 40.3% for EWT DW52-500 at Essaouira.,50,EWT DW52-500,This value conflicts with a narrative statement reporting 50.7% for the EWT DW52-500 at Essaouira.,,,,,,,
+R718237__performance_004,Capacity factor,capacity factor,50.7,annual,Narrative text reports a capacity factor of 50.7% for EWT DW52-500 at Essaouira.,50,EWT DW52-500,This value conflicts with the 40.3% value reported in Table 6 for the same turbine and location.,,,,,,,
+R718237__performance_005,Capacity factor,capacity factor,34.5,annual,Reported capacity factor for EWT DW52-500 at Tantan.,50,EWT DW52-500,,,,,,,,
+R718237__performance_006,Capacity factor,capacity factor,31.2,annual,Reported capacity factor for EWT DW52-500 at Al Hoceima.,50,EWT DW52-500,,,,,,,,
+R718237__performance_007,Energy production,energy output,2.566,annual,Reported highest output energy for Laayoune.,50,Mitsubishi MWT62/1.0,,,,,,,,
+R718237__performance_008,Energy production,energy output,2.914,annual,Reported highest output energy for Boujdour.,50,Mitsubishi MWT62/1.0,,,,,,,,
+R718237__performance_009,Energy production,energy output,2.673,annual,Reported highest output energy for Essaouira.,50,Mitsubishi MWT62/1.0,,,,,,,,
+R718237__performance_010,Energy production,energy output,2.099,annual,Reported highest output energy for Tantan.,50,Mitsubishi MWT62/1.0,,,,,,,,
+R718237__performance_011,Energy production,energy output,2.001,annual,Reported highest output energy for Al Hoceima.,50,Mitsubishi MWT62/1.0,,,,,,,,
+R719349__performance_001,Mean power output,average power output,,per annum across the stations,Bonus 2300/82.4 simulated average production range.,,,,,,,,,,
+R719349__performance_002,Mean power output,average power output,,per annum across the stations,Bonus 2000/76 simulated average production range.,,,,,,,,,,
+R719349__performance_003,Mean power output,average power output,,per annum across the stations,Bonus 300/33.4 simulated average production range.,,,,,,,,,,
+R719349__performance_004,Mean power output,average power output,,per annum across the stations,GE 1.5sle simulated average production range.,,,,,,,,,,
+R719349__performance_005,Mean power output,average power output,,per annum across the stations,GE 1.5xle simulated average production range.,,GE 1.5xle,Turbine machine model GE 1.5xle gave the best production of all the models.,,,,,,,
+R719358__performance_001,Mean power output,power output,,monthly,"Bergey Excel-S and Bergey XL1, identified as small turbines, delivered about 0.13 to 1.00 kW.",,,,1.00,0.13,,,,,
+R719358__performance_002,Mean power output,power output,,monthly,"Fuhrlander FL and Enercon E33, identified as big turbines, reached 23.86 kW per month.",,,,23.86,,,,,,
+R719358__performance_003,Pumped water volume,water pumping volume,,,Using the Bergey Excel-S for water pumping permits pumping about 15 × 103 m3 for a height of 50 m.,50,,,,,,,,,
+R719358__performance_004,Pumped water volume,water pumping volume,,,Using the Bergey XL1 for water pumping permits pumping about 1.05 × 103 m3 for a height of 50 m.,50,,,,,,,,,
+R719366__performance_001,Percentage gain of energy solar generation,PercentageGain,59,,The combined wind and solar system led to a cumulative gain in energy production augmented by an additional 59%.,,,,,,,,,,
+R719366__performance_002,Solar photovoltaic production peak time,PeakTime,,Daily simulated production profile,"The simulated solar electrical-power generation peak consistently occurred around midday, between 12:00 and 13:00 local time, with slight seasonal variations.",,,,,,,,,,
+R719520__performance_001,Annual energy production (AEP),annual energy production,13.96,annual,Total energy power reported for Bonus -33.,,,,,,,,,,
+R719520__performance_002,Capacity factor,capacity factor,12.75,annual,Annual capacity factor reported for Bonus -33.,,,,,,,,,,
+R719520__performance_003,Annual energy production (AEP),annual energy production,52.83,annual,Total energy power reported for Bonus -54.,,,,,,,,,,
+R719520__performance_004,Capacity factor,capacity factor,14.47,annual,Annual capacity factor reported for Bonus -54.,,,,,,,,,,
+R719520__performance_005,Annual energy production (AEP),annual energy production,96.48,annual,Total energy power reported for Vestas -80.,,,,,,,,,,
+R719520__performance_006,Capacity factor,capacity factor,13.22,annual,Annual capacity factor reported for Vestas -80.,,,,,,,,,,
+R719520__performance_007,Annual energy production (AEP),annual energy production,221.5,annual,YDF-1500-87 had the maximum total energy power among the models in Table 6.,,YDF-1500-87,,,,,,,,
+R719520__performance_008,Capacity factor,capacity factor,40.46,annual,Annual capacity factor reported for YDF-1500-87.,,,,,,,,,,
+R719520__performance_009,Annual energy production (AEP),annual energy production,77.11,annual,Total energy power reported for EWT DW52.,,,,,,,,,,
+R719520__performance_010,Capacity factor,capacity factor,42.25,annual,EWT DW52 had the maximum annual capacity factor among the models in Table 6.,,EWT DW52,,,,,,,,
+R719520__performance_011,Annual energy production (AEP),annual energy production,38.7,annual,Total energy power reported for Suzlon- S52.,,,,,,,,,,
+R719520__performance_012,Capacity factor,capacity factor,17.67,annual,Annual capacity factor reported for Suzlon- S52.,,,,,,,,,,
+R719520__performance_013,Annual energy production (AEP),annual energy production,32.55,annual,Total energy power reported for Vestas -V47.,,,,,,,,,,
+R719520__performance_014,Capacity factor,capacity factor,13.51,annual,Annual capacity factor reported for Vestas -V47.,,,,,,,,,,
+R720348__performance_001,Annual energy production (AEP),annual energy production,13.96,annual,Annual capacity factor was 12.75%.,,,,,,,,,,
+R720348__performance_002,Annual energy production (AEP),annual energy production,52.83,annual,Annual capacity factor was 14.47%.,,,,,,,,,,
+R720348__performance_003,Annual energy production (AEP),annual energy production,96.48,annual,Annual capacity factor was 13.22%.,,,,,,,,,,
+R720348__performance_004,Annual energy production (AEP),annual energy production,221.50,annual,Annual capacity factor was 40.46%.,,YDF-1500-87,The conclusions state that YDF-1500-87 had maximum energy power compared to the other models.,,,,,,,
+R720348__performance_005,Annual energy production (AEP),annual energy production,77.11,annual,Annual capacity factor was 42.25%.,,,,,,,,,,
+R720348__performance_006,Annual energy production (AEP),annual energy production,38.70,annual,Annual capacity factor was 17.67%.,,,,,,,,,,
+R720348__performance_007,Annual energy production (AEP),annual energy production,32.55,annual,Annual capacity factor was 13.51%.,,,,,,,,,,
+R720348__performance_008,Capacity factor,capacity factor,12.75,annual,,,,,,,,,,,
+R720348__performance_009,Capacity factor,capacity factor,40.46,annual,,,,,,,,,,,
+R720348__performance_010,Capacity factor,capacity factor,57.60,July; approximately,EWT DW52 had the maximum capacity factor compared to the other models.,,EWT DW52,,,,,,,,
+R720760__performance_001,Annual energy production (AEP),annual energy production,42.626,,The planned electricity generation of the hypothetical wind farm was reported as 42.626 GWh.,,,,,,,,,,
+R720760__performance_002,Wake loss,wake loss,0.57,,"Wake effects were reported as relatively low, about 0.57%.",,,,,,,,,,
+R723171__performance_001,Capacity factor,CFw,0.2393,,WT3 capacity factor in Kano.,10,WT3,WT3 had the highest capacity factor among the five turbines in Kano.,,,,,,,
+R723171__performance_002,Capacity factor,CFw,0.4471,,WT3 capacity factor in Jos.,10,WT3,WT3 had the highest capacity factor among the five turbines in Jos.,,,,,,,
+R723171__performance_003,Annual energy production (AEP),annual energy output,,annual,Annual energy delivered by wind power systems in Jos over studied hub heights.,,,Jos ranked first among the five locations in annual electricity generated or wind-energy potential.,168630,97893,,,,,
+R723171__performance_004,Wind power density,wind resource assessment,1182.12,2002-2012,Wind power density for Jos.,10,Jos,Jos had the largest reported wind power density among the five locations.,,,,,,,
+R723171__performance_005,Wind power density,wind resource assessment,636.84,2002-2012,Wind power density for Kano.,10,,Kano was concluded to be viable for grid integration.,,,,,,,
+R723171__performance_006,Capacity factor,CFw,,,Reported range of WT1 capacity factor across the five locations.,10,,,0.3705,0.0134,,,,,
+R723171__performance_007,Capacity factor,CFw,,,Reported range of WT2 capacity factor across the five locations.,10,,,0.2456,0.0083,,,,,
+R723171__performance_008,Capacity factor,CFw,,,Reported range of WT4 capacity factor across the five locations.,10,,,0.3017,0.0067,,,,,
+R723171__performance_009,Capacity factor,CFw,,,Reported range of WT5 capacity factor across the five locations.,10,,,0.1981,0.0034,,,,,
+R723300__performance_001,Wind power density,wind power density,79.96,2011–2016,,10,,,,,,,,,
+R723300__performance_002,Wind power density,wind power density,133,2011–2016,,10,Jos,,,,,,,,
+R723300__performance_003,Annual energy production (AEP),annual electric energy output,3884,annual,,25,,,,,,,,,
+R723300__performance_004,Annual energy production (AEP),annual electric energy output,4070,annual,,25,,,,,,,,,
+R723300__performance_005,Annual energy production (AEP),annual electric energy output,4296,annual,,25,,,,,,,,,
+R723300__performance_006,Annual energy production (AEP),annual electric energy output,8209,annual,,25,,,,,,,,,
+R723300__performance_007,Annual energy production (AEP),annual electric energy output,14276,annual,,25,,,,,,,,,
+R723300__performance_008,Annual energy production (AEP),annual electric energy output,20077,annual,,25,,,,,,,,,
+R723300__performance_009,Annual energy production (AEP),annual electric energy output,43042,annual,,25,Jos,,,,,,,,
+R723318__performance_001,Mean power output,electric power output,78.56,"Estimated for a turbine with rotor diameter 128 m, swept area 12,868 m2, and 20% efficiency.",,120,,,,,,,,,
+R723318__performance_002,Mean power output,electric power output,1.57,Estimated for twenty reported turbines in a mini-grid wind farm.,Twenty such turbines in a mini-grid wind farm can generate electricity amounting to 1.57 MW.,120,,,,,,,,,
+R723373__performance_001,Capacity factor,capacity factor,0.37,2000-2010,GE/900s capacity factor at Ikeja.,10,,,,,,,,,
+R723373__performance_002,Capacity factor,capacity factor,0.87,2000-2010,GE/900s capacity factor at Ikeja.,50,,,,,,,,,
+R723373__performance_003,Capacity factor,capacity factor,0.96,2000-2010,GE/900s capacity factor at Ikeja.,90,,,,,,,,,
+R723373__performance_004,Capacity factor,capacity factor,0.19,2000-2010,GE/900s capacity factor at P/H.,10,,,,,,,,,
+R723373__performance_005,Capacity factor,capacity factor,0.38,2000-2010,GE/900s capacity factor at P/H.,50,,,,,,,,,
+R723373__performance_006,Capacity factor,capacity factor,0.50,2000-2010,GE/900s capacity factor at P/H.,90,,,,,,,,,
+R723373__performance_007,Capacity factor,capacity factor,0.74,2000-2010,GE/900s capacity factor at Jos.,10,,,,,,,,,
+R723373__performance_008,Capacity factor,capacity factor,0.84,2000-2010,GE/900s capacity factor at Jos.,50,,,,,,,,,
+R723373__performance_009,Capacity factor,capacity factor,0.79,2000-2010,GE/900s capacity factor at Jos.,90,,,,,,,,,
+R723373__performance_010,Capacity factor,capacity factor,0.58,2000-2010,GE/900s capacity factor at Kano.,10,,,,,,,,,
+R723373__performance_011,Capacity factor,capacity factor,0.82,2000-2010,GE/900s capacity factor at Kano.,50,,,,,,,,,
+R723373__performance_012,Capacity factor,capacity factor,0.87,2000-2010,GE/900s capacity factor at Kano.,90,,,,,,,,,
+R723373__performance_013,Capacity factor,capacity factor,,Hub heights from 10 m to 90 m,,,GE/900s wind turbine,GE/900s wind turbine was reported as the most suitable turbine for all sites considered because of its high capacity-factor values throughout the considered hub heights.,,,,,,,
+R724371__performance_001,R2,R2,,,Goodness-of-fit indicator used to compare fitted and actual wind speed probabilities.,,,,,,,,,,
+R724371__performance_002,RMSE,RMSE,,,Goodness-of-fit indicator used to compare fitted and actual wind speed probabilities.,,,,,,,,,,
+R724371__performance_003,chi-square value,ChiSquareStatistic,,,Goodness-of-fit indicator used to compare fitted and actual wind speed probabilities.,,,,,,,,,,
+R724371__performance_004,sum of squared errors,SSE,,,Goodness-of-fit indicator used to compare fitted and actual wind speed probabilities.,,,,,,,,,,
+R724501__performance_001,RMSE,RMSE,0.029,Comparison of the two theoretical Weibull distributions with the experimental histogram constructed from the dependent sample,The root mean square error e was 0.029 and was the same for both distributions.,,,,,,,,,,
+R725713__performance_001,Next-Point-Probability,out-of-sample next-point wind-speed prediction metric,,,"The logarithm L = log(NPP) was used. A next-point probability close to one indicates high predictive power, whereas a probability close to zero indicates low predictive power.",,,,,,,,,,
+R725713__performance_002,Kullback–Leibler divergence,empirical histogram fit metric,,,Kullback–Leibler divergence was used to evaluate how well each distribution model fits the empirical histogram of measurements.,,,,,,,,,,
+R725713__performance_003,square velocity relative deviation,wind-energy prediction error metric,,,"The metric Δ evaluates prediction of the energy associated with wind speed, defined in the paper as the square of wind speed.",,,,,,,,,,
+R725713__performance_004,mean wind speed,wind-speed statistical summary,,,The mean wind speed was observed to be almost constant as time-window size increased from 10 min to 1 month.,,,,,,,,,,
+R725713__performance_005,wind-speed standard deviation,wind-speed statistical summary,,,The standard deviation increased five times when the time-window size increased from 10 min to 1 month.,,,,,,,,,,
+R725713__performance_006,Turbulence intensity,wind-speed turbulence measure,,,"Intermittency, defined as the quotient of standard deviation and mean wind speed, increased monotonically with time-window size and appeared to scale linearly with wind-speed standard deviation.",,,,,,,,,,
+R726125__performance_001,Wind power density,error,19.8,April,"The highest error value occurs in April, with 19.8% for the Finsler geometry model.",,,Reported for the Finsler geometry model.,,,,,,,
+R726125__performance_002,Wind power density,error,1.1,December,The wind power is estimated by the Finsler model with a very small error value of 1.1% in December.,,,Reported for the Finsler geometry model.,,,,,,,
+R727428__performance_001,Turbulence intensity,,0.5366,,,,,,,,,,,,
+R727428__performance_002,Turbulence intensity,,0.9204,,,,,,,,,,,,
+R727428__performance_003,Turbulence intensity,,0.7124,,,,,,,,,,,,
+R727428__performance_004,Wind power density,,228,2.96 years,,,,,,,,,,,
+R727428__performance_005,Most probable wind speed,,6.404,2.96 years,,,,,,,,,,,
+R727428__performance_006,Wind power density,,123,2.49 years,,,,,,,,,,,
+R727428__performance_007,Most probable wind speed,,4.719,2.49 years,,,,,,,,,,,
+R727428__performance_008,Wind power density,,143,2.10 years,,,,,,,,,,,
+R727428__performance_009,Most probable wind speed,,4.25,2.10 years,,,,,,,,,,,
+R727428__performance_010,Wind power density,,67,1.94 years,,,,,,,,,,,
+R727428__performance_011,Most probable wind speed,,3.057,1.94 years,,,,,,,,,,,
+R727440__performance_001,RMSE,RMSE,,,Used as a statistical error and as the objective function minimized by the Aquila Optimizer.,,,,,,,,,,
+R727440__performance_002,R2,R2,,,Used as a statistical error for comparing probability distribution functions.,,,,,,,,,,
+R727440__performance_003,Chi-square error (X2),ChiSquareStatistic,,,Used as a statistical error for comparing probability distribution functions.,,,,,,,,,,
+R727445__performance_001,Annual mean wind speed,wind resource,,annual variation over the stated 10-year study period,,10,,,4.79,3.9,,,,,
+R727445__performance_002,Wind power density,wind resource,,January 2005 to December 2015,,,,,132,100,,,,,
+R727445__performance_003,Annual energy production (AEP),annual energy production,,single-row configuration,,,Power Wind,,,,3.452,,,,
+R727445__performance_004,Annual energy production (AEP),annual energy production,41.423,single-row configuration,,,Power Wind,The Power Wind wind farm had a 35% higher rate than other technologies for the same power.,,,,,,,
+R727445__performance_005,Annual energy production (AEP),annual energy production,,two-row configuration,,,,,,,3.41,,,,
+R727445__performance_006,Annual energy production (AEP),annual energy production,40.925,two-row configuration,,,,,,,,,,,
+R727542__performance_001,Annual energy production (AEP),annual rated energy output,70080,,"Rated annual energy output of the Vestas V164–8 MW turbine, calculated by multiplying rated power by the number of hours in a year.",,,,,,,,,,
+R727587__performance_001,Mean power output,average power output,331,study period,Average mean active power for the wind park.,,,,,,,,,,
+R727587__performance_002,Annual energy production (AEP),actual annual energy production,19.51,one-year study period,,,,,,,,,,,
+R727587__performance_003,Capacity factor,actual capacity factor,21.84,one-year study period,,,,,,,,,,,
+R727587__performance_004,Capacity factor,actual full-load hours,1913,one-year study period,,,,,,,,,,,
+R727587__performance_005,Mean power output,actual average power output,341,one-year study period,,,WT06 wind turbine,,,,,,,,
+R727587__performance_006,Annual energy production (AEP),actual annual energy production,2112,one-year study period,,,WT06 wind turbine,,,,,,,,
+R727587__performance_007,Capacity factor,actual capacity factor,28.4,one-year study period,,,WT06 wind turbine,,,,,,,,
+R727592__performance_001,Mean power output,power output,331.594,2017; based on the standard deviation method,,,R727592__energysystem_004,,,,,2017,,,
+R727592__performance_002,Mean power output,power output,359.1664,2018; based on the standard deviation method,,,R727592__energysystem_004,,,,,2018,,,
+R727592__performance_003,Mean power output,power output,352.7686,2019; based on the standard deviation method,,,R727592__energysystem_004,,,,,2019,,,
+R727592__performance_004,Capacity factor,capacity factor,41.14,2017; based on the standard deviation method,,,R727592__energysystem_003,,,,,2017,,,
+R727592__performance_005,Capacity factor,capacity factor,43.84,2018; based on the standard deviation method,,,R727592__energysystem_003,,,,,2018,,,
+R727592__performance_006,Capacity factor,capacity factor,43.25,2019; based on the standard deviation method,,,R727592__energysystem_003,,,,,2019,,,
+R727592__performance_007,Energy production,energy output,362.808,October; based on the standard deviation method,Highest average monthly energy output reported for the Bonus 1 MW/54 commercial wind turbine.,,,,,,,,,,
+R727592__performance_008,Energy production,energy output,296.459,May; based on the standard deviation method,Lowest average monthly energy output reported for the Bonus 1 MW/54 commercial wind turbine.,,,,,,,,,,
+R727592__performance_009,Capacity factor,capacity factor,44.25,October; based on the standard deviation method,Highest average monthly capacity factor reported for the Polaris P50-500 commercial wind turbine.,,,,,,,,,,
+R727592__performance_010,Capacity factor,capacity factor,37.63,May; based on the standard deviation method,Lowest average monthly capacity factor reported for the Polaris P50-500 commercial wind turbine.,,,,,,,,,,
+R727673__performance_001,Energy production,energy production,1644.75,Annual,,,,,,,,,,,
+R727673__performance_002,Energy production,energy production,344.96,Autumn,,,,,,,,,,,
+R727673__performance_003,Energy production,energy production,425.39,Winter,,,,,,,,,,,
+R727673__performance_004,Energy production,energy production,494.88,Spring,,,Spring,,,,,,,,
+R727673__performance_005,Energy production,energy production,379.52,Summer,,,,,,,,,,,
+R727673__performance_006,Energy production,energy production,185.95,May,The Gamesa G52 wind turbine was more productive in May.,,May,,,,,,,,
+R727673__performance_007,Energy production,energy production,115.34,September,,,,,,,,,,,
+R727673__performance_008,Energy production,energy production,164.82,April,,,,,,,,,,,
+R727673__performance_009,Wind turbine operating time,operating time,5944,Annual; Case 4,Annual operating time in the active non-rated-power case.,,,,,,,,,,
+R727673__performance_010,Wind turbine rated-power operating time,rated-power operating time,38,Annual; Case 5,,,,,,,,,,,
+R727673__performance_011,Total average production hours,operating time,5982,Annual,Wind turbines operate most of the year but rarely reach rated power.,,,,,,,,,,
+R727673__performance_012,Maximum monthly production time,operating time,584,May; Case 4,,,May,,,,,,,,
+R727714__performance_001,Capacity factor,capacity factor,0.076,,The capacity factor varies from 0.076 in Ilorin to 0.11 in Maiduguri.,,,,,,,,,,
+R727714__performance_002,Capacity factor,capacity factor,0.11,,The capacity factor varies from 0.076 in Ilorin to 0.11 in Maiduguri.,,,,,,,,,,
+R727714__performance_003,Energy production,energy output,2.891,annual,Annual energy output of the turbine is 2.891 MWh in Ilorin with WT1.,,,,,,,,,,
+R727714__performance_004,Energy production,energy output,193.596,annual,Annual energy output of the turbine is 193.596 MWh in Maiduguri with WT7.,,,,,,,,,,
+R727799__performance_001,Mean power output,average power,0.96,annual,,,,,,,,,,,
+R727799__performance_002,Mean power output,average power,0.51,annual,,,,,,,,,,,
+R727799__performance_003,Annual energy production (AEP),annual energy production,8409.6,annual,,,,,,,,,,,
+R727799__performance_004,Annual energy production (AEP),annual energy production,7796.4,annual,,,,,,,,,,,
+R727799__performance_005,Annual energy production (AEP),annual energy production,4467.6,annual,,,,,,,,,,,
+R727799__performance_006,Annual energy production (AEP),annual energy production,4905.6,annual,,,,,,,,,,,
+R727799__performance_007,Annual energy production (AEP),energy equivalent,0.72,annual,,,,,,,,,,,
+R727799__performance_008,Annual energy production (AEP),energy equivalent,0.67,annual,,,,,,,,,,,
+R727799__performance_009,Annual energy production (AEP),energy equivalent,0.38,annual,,,,,,,,,,,
+R727799__performance_010,Annual energy production (AEP),energy equivalent,0.42,annual,,,,,,,,,,,
+R727821__performance_001,Capacity factor,capacity factor,,1981–2018 across the observation network,"Estimated capacity factor for the Siemens SWT-2.3-93 ranged from 7% to 56%, with a network average of 25.7%.",,,,,,25.7,,,,
+R727821__performance_002,Availability factor,operating probability,,1981–2018 across the observation network,Operation probability for the Siemens SWT-2.3-93 varied between 57% and 95%.,,,,,,,,,,
+R727821__performance_003,Capacity factor,capacity factor,,1981–2018 across the observation network,"Estimated capacity factor for the Vestas V80-2.0 ranged from 4% to 46%, with a network average of 18.3%.",,,,,,18.3,,,,
+R727821__performance_004,Availability factor,operating probability,,1981–2018 across the observation network,Operation probability for the Vestas V80-2.0 ranged from 49% to 93%.,,,,,,,,,,
+R728960__performance_001,Model ranking,average rank,,,"IMoG-II and IMoG-I ranked first and second, respectively, among all compared models.",,IMoG-II,The two proposed models performed better than the other homogeneous models and outperformed the single models and heterogeneous mixture distributions.,,,,,,,
+R728960__performance_002,Lowest reported Kolmogorov-Smirnov statistic,KolmogorovSmirnovStatistic,0.0019,,The proposed models fit the wind-speed distributions under different conditions more precisely than both single and other mixture distributions with the lowest KS of 0.0019.,,,,,,,,,,
+R728960__performance_003,Lowest RMSE-based indicator,RMSE,0.0006,,The proposed models had a lowest RMSE-based indicator of 0.0006 m/s.,,,,,,,,,,
+R728960__performance_004,Lowest MAE-based indicator,MAE,0.0004,,The proposed models had a lowest MAE-based indicator of 0.0004 m/s.,,,,,,,,,,
+R728960__performance_005,Highest R2-based criterion,R2,1.0000,,The proposed models had a highest R2-based criterion of 1.0000.,,,,,,,,,,
+R1557933__performance_001,proposed sunshine-hour model RMSE,error,0.0338,,,,,Lowest error,,,,,,,Lowest reported RMSE among sunshine-hour models.
+R1557933__performance_002,proposed air-temperature model RMSE,error,0.9859,,,,,Lowest error,,,,,,,Lowest reported RMSE among air-temperature models.
+R1557946__performance_001,optimal BNN hidden neurons,architecture,16,,,,,,,,,,,,Evidence-framework optimum.
+R1557946__performance_002,annual mean daily GSR,resource level,5656,,,,,,,,,,,,Reported Ghardaia annual mean daily GSR.
+R1557954__performance_001,missing-or-deleted data share,data quality,2.3,,,,,,,,,,,,Database data replaced by interpolation or removed.
+R1560231__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1560231__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1560231__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563305__performance_001,omitted database share,data quality,1.6,,,,,,,,,,,,Data omitted for missing or invalid records.
+R1563305__performance_002,mean annual precipitation,climate statistic,1323,,,,,,,,,,,,Humid-region mean annual precipitation.
+R1563330__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563330__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563330__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563353__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563353__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563353__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563357__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563357__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563357__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563360__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563360__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563360__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563363__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563363__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563363__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563366__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563366__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563366__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563369__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563369__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563369__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563372__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563372__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563372__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563524__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563524__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563524__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563613__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563613__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563613__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563618__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563618__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563618__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563621__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563621__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563621__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563639__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563639__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563639__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563642__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563642__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563642__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563654__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563654__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563654__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563658__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563658__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563658__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563661__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563661__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563661__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563678__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563678__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563678__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563682__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563682__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563682__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563685__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563685__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563685__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563694__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563694__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563694__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563699__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563699__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563699__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563704__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563704__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563704__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563707__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563707__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563707__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563717__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563717__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563717__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563720__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563720__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563720__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563723__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563723__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563723__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563728__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563728__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563728__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563732__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563732__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563732__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563736__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563736__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563736__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563330__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563330__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563330__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563742__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563742__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563742__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563745__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563745__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563745__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563748__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563748__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563748__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563751__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563751__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563751__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563754__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563754__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563754__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563757__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563757__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563757__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563832__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563832__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563832__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563835__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563835__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563835__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563839__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563839__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563839__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563842__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563842__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563842__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563845__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563845__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563845__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563848__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563848__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563848__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563851__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563851__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563851__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563854__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563854__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563854__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563857__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563857__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563857__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563860__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563860__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563860__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563863__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563863__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563863__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563866__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563866__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563866__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563869__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563869__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563869__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563872__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563872__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563872__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563875__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563875__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563875__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563878__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563878__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563878__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563881__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563881__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563881__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563884__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563884__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563884__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563887__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563887__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563887__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563890__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563890__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563890__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563893__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563893__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563893__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563896__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563896__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563896__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563899__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563899__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563899__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563902__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563902__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563902__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563911__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563911__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563911__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563914__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563914__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563914__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563917__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563917__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563917__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563920__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563920__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563920__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563923__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563923__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563923__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563927__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563927__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563927__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563930__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563930__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563930__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563933__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563933__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563933__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563937__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563937__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563937__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563974__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563974__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563974__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563977__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563977__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563977__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563980__performance_001,Efficiency,efficiency,,,,,,,89.12,77.00,,,,,Global exergy efficiency across stations.
+R1563980__performance_002,Efficiency,efficiency,,,,,,,93.65,92.86,,,,,Beam exergy efficiency across stations.
+R1563980__performance_003,Efficiency,efficiency,,,,,,,74.99,71.89,,,,,Diffuse exergy efficiency across stations.
+R1563984__performance_001,Solar irradiance estimation MAPE,accuracy,4.9355,,ESHAML experimental solar irradiance estimation error.,,ESHAML,Experimental MAPE was 4.9355%.,,,,,Mean Absolute Percentage Error,,Experimental solar irradiance estimation error.
+R1563984__performance_002,MPPT convergence time,latency,20,,Fast MPPT convergence under dynamic conditions.,,fractional-area MPPT,Convergence was reported below 20 ms.,,,,,,,MPPT convergence time.
+R1563987__performance_001,Peak direct solar irradiance,resource magnitude,800,2015,Extreme irradiance value reported around midday.,,,,,,,,,,Direct solar irradiance maximum in the assessment.
+R1563991__performance_001,Six-hour forecast correlation coefficient,forecast accuracy,0.961,360 minutes,Six-hour forecast achieved R=0.961.,,,,,,,,,,Correlation at the longest reported horizon.
+R1563991__performance_002,Six-hour forecast RMSE,forecast error,0.075,360 minutes,Six-hour forecast RMSE was 0.075.,,,,,,,,,,RMSE at the longest reported horizon.
+R1563995__performance_001,PV prediction hourly error,forecast error,15,,,,,Hourly error was usually below 15 Wh.,,,,,,,Error based on actual weather conditions.
+R1563995__performance_002,Best normalized mean absolute error,forecast error,1,,,,,NMAE was below 1% in the best reported cases.,,,,,,,Physical-model accuracy excluding weather-forecast error.
+R1563998__performance_001,Post-processed 4DVAR relative RMSE,forecast error,37,next-day,,,WRF 4DVAR with random forest,4DVAR remained the best post-processed model.,,,,,,,2016 Singapore hourly GHI result.
+R1564001__performance_001,Energy production,energy yield improvement,8.5,,,,state-based MPPT controller,State-based MPPT improved daily energy relative to incremental conductance.,,,,,,,Maximum reported improvement among the three weather cases.
+R1564008__performance_001,Hybrid nowcasting performance,comparative forecast accuracy,,10–20 minutes,,,,Fusion alternative 2 had the most stable and best overall MAE/RMSE.,,,,,,,Qualitative performance conclusion reported from cross-validated experiments.
+R1564076__performance_001,Best 48-hour forecast accuracy,forecast accuracy,91.67,48 hours,,,spikeslab,Spikeslab performed stably across tested horizons.,,,,,,,30 August 2016 result.
+R1564084__performance_001,Overall daily GSR RMSE,estimation error,0.78,,,,C16 deep neural network,All-input deep learning achieved accurate daily GSR estimates.,,,,,,,Overall result across 34 Turkey stations.
+R1564088__performance_001,Best hourly solar forecast nRMSE,forecast error,1.51,hourly,,,ConvLSTM,ConvLSTM trained with ten years of data was best.,,,,,,,Best reported experimental result.
+R1564093__performance_001,Best overall daily GSR RMSE,estimation error,2.157,,,,Artificial neural network,ANN was the best-fitting model overall.,,,,,,,Best overall result reported in comparison table.
+R1564100__performance_001,Model 1 testing correlation coefficient,forecast correlation,0.9340,,,,12-neuron LM ANN,Model 1 with LM provided the most stable best-fit performance.,,,,,,,Testing linear correlation for the selected ANN.
+R1564524__performance_001,ANFIS-PSO testing relative RMSE,estimation error,1.7933,,,,ANFIS-PSO,ANFIS-PSO was the best model.,,,,,,,Kuala Terengganu test result.
+R1565340__performance_001,Energy production,energy yield,5.25,,,,amorphous silicon PV in Mora,a-Si had the highest output across all locations.,,,,,,,Mora Far North result.
+R1565340__performance_002,Capacity factor,capacity factor,21.9,,,,amorphous silicon PV in Mora,,,,,,,,Highest reported capacity factor.
+R1565343__performance_001,Wide neural network test RMSE,forecast error,9.377,,,,Wide Neural Network,Selected as most accurate model with R²=0.999.,,,,,,,Hold-out test result.
+R1565347__performance_001,Proposed diffuse-fraction coefficient of determination,model fit,,,,,,Proposed local models had close agreement with observed diffuse fraction.,0.989,0.983,,,,,R² range across four study locations.
+R1565351__performance_001,Annual energy production (AEP),estimated annual energy,,annual,Annual energy-output range across the evaluated modules and methods.,,,Estimated annual output ranged from 193.29 to 345.87 kWh.,345.87,193.29,,,,,
+R1565354__performance_001,Mean annual global solar radiation,solar resource,3.8414,annual mean,Yaounde mean annual radiation.,,,,,,,,,,
+R1565354__performance_002,Mean annual global solar radiation,solar resource,3.9869,annual mean,Garoua mean annual radiation.,,,,,,,,,,
+R1565354__performance_003,Mean annual global solar radiation,solar resource,2.2539,annual mean,Dakar mean annual radiation.,,,,,,,,,,
+R1565354__performance_004,Mean annual global solar radiation,solar resource,5.9159,annual mean,Gandon mean annual radiation.,,,,,,,,,,
+R1566035__performance_001,DJF daily global solar radiation,seasonal solar resource,5000,December–January–February,,,,Most illuminated season.,,,,,,,
+R1566035__performance_002,JJAS daily global solar radiation,seasonal solar resource,,June–July–August–September,,,,Least illuminated season; values are below 3500 Wh/m²/day.,3500,,,,,,
+R1566035__performance_003,Bright diurnal-cycle occurrence,diurnal GSR classification,42,2005–2015,,,,C1 illuminated days share of 4017 analysed days.,,,,,,,
+R1566035__performance_004,Obscure diurnal-cycle occurrence,diurnal GSR classification,10,2005–2015,,,,C5 very obscure days share of 4017 analysed days.,,,,,,,
+R1567953__performance_001,clear-sky maximum relative deviation,plan-tracking error,0,clear-sky day,0% versus 5.15% without EH,,,proposed wind-CSP-EH system,5.15,,,,,,The electric heater improved tracing of the generation plan.
+R1567953__performance_002,partial-cloudy maximum relative deviation,plan-tracking error,31.74,partial-cloudy day,31.74% versus 47.49% without EH,,,proposed wind-CSP-EH system,47.49,,,,,,The electric heater reduced but did not eliminate plan deviation under variable irradiation.
+R1567953__performance_003,clear-sky wind curtailment reduction rate,wind curtailment reduction,52.59,clear-sky day,Wind curtailment rate decreased by 52.59%,,,proposed wind-CSP-EH system,,,,,,,Redundant wind power was converted to thermal energy and stored in TES.
+R1567953__performance_004,partial-cloudy wind curtailment reduction rate,wind curtailment reduction,100,partial-cloudy day,Wind curtailment was completely reduced,,,proposed wind-CSP-EH system,,,,,,,The EH provided an effective complement to TES.
+R1567953__performance_005,annual high-curtailment-reduction days,annual robustness,151,annual,More than 90% curtailment reduction for 151 days,,,proposed wind-CSP-EH system,,,,,,,This accounts for about 41.37% of the year.
+R1567953__performance_006,annual low-deviation days,annual plan-tracking distribution,79.18,annual,79.18% of days had deviations less than 20 MW,,,proposed wind-CSP-EH system,,,,,,,The proposed system had smaller daily cumulative deviations than the reference system.
+R1567974__performance_001,Annual energy production (AEP),annual yield deviation,3.6,annual,-3.9% to 6.9%,,,SAM closest positive error,6.9,-3.9,,,,,Four tool validation results.
+R1568004__performance_001,Avoided emissions,avoided emissions,15470,annual,15470 tCO2/year,,,optimal configuration,,,,,,,Relative to conventional coal plant.
+R1568024__performance_001,Mean power output,power output,2,11 m/s wind speed,2 MW at rated wind speed,,,rated output,,,,,,,DFIG simulation result.
+R1568778__performance_001,Energy potential,resource potential,10000,national,Estimated exploitable wind generation potential.,,,substantial wind resource,,,,2011,,,National estimate reported by ESMAD.
+R1568778__performance_002,Energy potential,resource potential,45000,national,Estimated exploitable hydroelectric potential.,,,dominant resource,,,,2011,,,National estimate reported by ESMAD.
+R1568778__performance_003,Energy production,generation share,92.7,annual,Hydropower supplied 92.7% of national electricity.,,,extreme hydropower dependence,,,,,,,Reported electricity-generation share.
+R1568778__performance_004,Installed capacity,project pipeline capacity,1116,2011–2015 plan,1116 MW across eight wind projects.,,,eight planned wind farms,,,,2011,,,Growth and Transformation Plan pipeline.
+R1568778__performance_005,Installed capacity,gross resource capacity,101450,national,Good-to-excellent grid-favorable areas represented 101450 MW gross capacity.,,,screening estimate,,,,2007,,,SWERA screening after infrastructure and land exclusions.
+R1582661__performance_001,Energy potential,theoretical hydropower potential,132.67,,"Potential at 107 sites, as summarized by site category.",,,,,,,,,,
+R1582661__performance_002,Energy potential,theoretical hydropower potential,18.18,,,,,,,,,,,,
+R1582661__performance_003,Energy potential,theoretical hydropower potential,9.91,,,,,,,,,,,,
+R1582661__performance_004,micro-hydropower site count,site count,68,,Sites below 0.5 MW; together 14.33 MW or 10.8% of the assessed 50%-dependability potential.,,,,,,,,,,
+R1582661__performance_005,Avoided emissions,avoided emissions,125000,,Estimated if 50% of theoretical potential is implemented.,,,,,,,,,,
+R1637917__performance_001,respondents intending near-term renewable project development,survey proportion,49.5,,50 of 101 respondents expressed intention.,,,,,,,2019,,,
+R1637917__performance_002,solar-project interest,survey count,49,,Solar was the most preferred technology among respondents interested in development.,,,,,,,2019,,,
+R1637917__performance_003,hydro-project interest,survey count,7,,Hydro was the least preferred listed technology.,,,,,,,2019,,,
+R1638041__performance_001,Renewables Obligation generation target,policy target,10,,,,,,,,,2010,,,Initially specified renewable-generation proportion under the UK Renewables Obligation.
+R1638041__performance_002,Renewables Obligation generation target,policy target,15,,,,,,,,,2015,,,UK Renewables Obligation target described in the study.
+R1638041__performance_003,aspirational renewable-generation target,policy target,20,,,,,,,,,2020,,,Energy White Paper aspirational target described in the study.
+R1638049__performance_001,renewable electricity share,historical share,13,,,,,,,,,1990,,,EU share of gross electricity consumption generated from renewable energy sources.
+R1638049__performance_002,renewable electricity share,historical share,18,,,,,,,,,2008,,,EU share of gross electricity consumption generated from renewable energy sources.
+R1638049__performance_003,renewable electricity share,policy target,37,,,,,,,,,2020,,,Renewable-electricity share implied by the EU target of at least 20% renewable final energy consumption.
+R1638054__performance_001,Installed capacity,installed capacity,2050,,,,,,,,,2014,,,Total renewable installed capacity in Chile.
+R1638054__performance_002,Installed capacity,capacity,1282,,,,,,,,,2014,,,Capacity of renewable projects under construction.
+R1638054__performance_003,Installed capacity,capacity,14555,,,,,,,,,2014,,,Renewable capacity approved through SEIA.
+R1639011__performance_001,urban electrification rate,electricity-access rate,81.0,,Reported for Sub-Saharan Africa in the cited World Bank comparison table.,,,,,,,,,,
+R1639011__performance_002,rural electrification rate,electricity-access rate,29.0,,Reported for Sub-Saharan Africa in the cited World Bank comparison table.,,,,,,,,,,
+R1639011__performance_003,Rwanda generation-capacity increase from Gigawatt Global solar plant,generation-capacity increase,6,,8.5 MW project reported to increase Rwanda’s generation capacity by 6%.,,,,,,,2015,,,
+R1567645__performance_001,ensemble size,configuration,1000,,,,,,,,,,,,Ensemble size used in data assimilation.
+R1567645__performance_002,forecast lead-time range,forecast horizon,1,,,,,,90,,,,,,"Lead times evaluated: 1, 2, 7, 14, 30, 60, and 90 days."
+R1567665__performance_001,ensemble size,configuration,90,,,,,,,,,,,,EPFM ensemble size.
+R1567665__performance_002,DA runtime per day,computational runtime,6,,,,,,,,,,,,Approximate runtime on a Linux cluster node.
+R1567665__performance_003,WRF-Hydro runtime share,computational share,97,,,,,,,,,,,,Approximate share of each assimilation step spent running WRF-Hydro.
+R1567682__performance_001,Selected proportional gain,PID tuning parameter,10,,,,,Kp selected before integral-gain tuning.,,,,,,,
+R1567682__performance_002,Selected integral gain,PID tuning parameter,10,,,,,Ki=10 gave the best reported multi-metric PI performance.,,,,,,,
+R1567682__performance_003,Assimilation error threshold,assimilation quality threshold,0.05,,,,,Threshold used to compute assimilation time ratio.,,,,,,,
+R1567698__performance_001,Informative assimilation combinations,KGE-gain screening,13,,,,,13 of 63 experiments improved both stream-discharge and reservoir-inflow median KGE relative to open loop.,,,,,,,
+R1567698__performance_002,Ensemble size,EnKF configuration,100,,,,,Used for combined assimilation investigations; reservoir inflow required 100 members.,,,,,,,
+R1567729__performance_001,Forecast seasons improved by SWE assimilation,inflow forecast comparison,7,15 snowmelt seasons,,,,Assimilation had lower absolute bias than the base case in 7 years.,,,,,,,
+R1567729__performance_002,Forecast seasons slightly degraded by SWE assimilation,inflow forecast comparison,3,15 snowmelt seasons,,,,"Base case was slightly better in 2005, 2009, and 2012.",,,,,,,
+R1567729__performance_003,SWE observation uncertainty,EnKF observation uncertainty,50,,,,,Standard deviation used for SWE observations.,,,,,,,
+R1567735__performance_001,Babaohe model grid cells,spatial model configuration,9707,daily simulation,,,,SWAT-HDAS used 500 m × 500 m grid cells.,,,,,,,
+R1567735__performance_002,Best discharge assimilation configuration,observation-design comparison,18,,,,,The greatest outlet-streamflow accuracy was obtained with 18 discharge observation sites.,,,,,,,
+R1567757__performance_001,Best Murray–Darling groundwater RMSE reduction,joint assimilation performance,41.27,,,,,SQRA joint GRACE-plus-soil-moisture Case 3.,,,,,,,
+R1567757__performance_002,Best Mississippi groundwater RMSE reduction,joint assimilation performance,40.47,,,,,Kalman–Takens joint GRACE-plus-soil-moisture Case 6.,,,,,,,
+R1567757__performance_003,Kalman–Takens computational speed,computational performance,6,,,,,Approximately six times faster than SQRA for the study period.,,,,,,,
+R1567776__performance_001,Kainji mean monthly energy generation,historical reservoir statistic,178570.26,1970–2011,,,,,378612.85,81553.53,178570.26,,,,
+R1567776__performance_002,Jebba mean monthly energy generation,historical reservoir statistic,175134.17,1984–2011,,,,,282039.95,103542.36,175134.17,,,,
+R1567836__performance_001,Projects evaluated,DEA-ANN sample size,53,,,,,44 SHPs and 9 LHPs were evaluated.,,,,,,,
+R1567836__performance_002,LHPs among 10 worst impact ranks,Hydropower IPAT Index ranking,7,,,,,Seven of the 10 worst-ranked projects were LHPs.,,,,,,,
+R1567836__performance_003,Selected ANN prediction-model MAD,ANN impact prediction,0.026,,,,,Model 5 mean absolute deviation.,,,,,,,
+R1567855__performance_001,Sombriero mean river velocity,field flow measurement,0.48,,Surface velocity 0.80 m/s adjusted with a 0.6 tolerance factor.,,,,,,,,,,
+R1567855__performance_002,Sombriero river discharge,field flow measurement,1.99,,Calculated from 4.15 m² cross-sectional area and 0.48 m/s mean velocity.,,,,,,,,,,
+R1567855__performance_003,Energy potential,power potential,51.25,,Calculated at 3.5 m net head and 0.75 overall efficiency.,,,,,,,,,,
+R1567877__performance_001,Very high SHP dam suitability area,suitability map class,11111.2,,,,,Very high suitability area equals 7.5% of watershed.,7.5,7.5,7.5,,,,
+R1567877__performance_002,Potential SHP dam sites identified,semi-automatic site selection,18,,,,,Selected through narrow-valley spatial query.,,,,,,,
+R1567877__performance_003,Narrow valleys identified,semi-automatic site selection,636,,,,,Narrow widths identified before SQL selection.,,,,,,,
+R1567889__performance_001,Study-domain area,study coverage,5000000,,The assessment covers about 5 million km² across the 15 ECOWAS countries.,,,,,,,,,,
+R1567889__performance_002,River reaches assessed,study coverage,500000,,"The annual water-balance and theoretical-potential calculations were applied to more than 500,000 reaches.",,,,,,,,,,
+R1567889__performance_003,Discharge gauges used for calibration,model calibration data coverage,410,,Observed discharge data at 410 gauges were used for regional calibration.,,,,,,,,,,
+R1567889__performance_004,Climate-model runs,climate ensemble coverage,30,,Fifteen RCMs under two RCPs supplied 30 climate projections for each future period.,,,,,,,,,,
+R1567909__performance_001,high groundwater-potential zone area,area,3818.57,,High-potential area covers 21% of the basin.,,High,,,,,,,,High groundwater-potential zone.
+R1567909__performance_002,moderate groundwater-potential zone area,area,5530.63,,Moderate-potential area covers 31% of the basin.,,Moderate,,,,,,,,Moderate groundwater-potential zone.
+R1567909__performance_003,low groundwater-potential zone area,area,1022.5,,Low-potential area covers 6% of the basin.,,Low,,,,,,,,Low groundwater-potential zone.
+R1567909__performance_004,very-low groundwater-potential zone area,area,7725.37,,Very low-potential area covers 42% of the basin.,,Very low,,,,,,,,Very low groundwater-potential zone.
+R1568509__performance_001,Mean power output,power output,393.849,92% exceedance,393.849–16038.194 kW,,,11 feasible points,16038.194,,,,,,Theoretical potential range.
+R1568565__performance_001,Installed capacity,rated power,8774,average potential power,,46.5,Kaplan turbine,,,,,,,single Kaplan turbine,
+R1568565__performance_002,Kaplan average-flow annual output reduction,output reduction,8774,annual,,46.5,Kaplan turbine,requires standby capacity,,,,,,single Kaplan turbine,
+R1568565__performance_003,Energy production,energy production,50018,annual,,46.5,Kaplan turbine,,,,,,,single Kaplan turbine,
+R1568565__performance_004,Capacity factor,capacity factor,65.1,annual,,46.5,Kaplan turbine,,,,,,,single Kaplan turbine,
+R1568565__performance_005,Kaplan average-flow optimum operation period,operation period,148,annual,,46.5,Kaplan turbine,,,,,,,single Kaplan turbine,
+R1568565__performance_006,Kaplan average-flow energy deficit,energy deficit,23305,annual,,46.5,Kaplan turbine,,,,,,,single Kaplan turbine,
+R1568565__performance_007,Installed capacity,standby capacity,8.8,dry season,,46.5,Kaplan turbine,,,,,,,single Kaplan turbine,
+R1568565__performance_008,Efficiency,turbine efficiency,,annual range,,46.5,Kaplan turbine,,91.8,0,,,,single Kaplan turbine,
+R1568565__performance_009,Installed capacity,rated power,8463,average potential power,,46.5,Francis turbine,,,,,,,single Francis turbine,
+R1568565__performance_010,Francis average-flow annual output reduction,output reduction,8238,annual,,46.5,Francis turbine,requires standby capacity,,,,,,single Francis turbine,
+R1568565__performance_011,Energy production,energy production,46607,annual,,46.5,Francis turbine,,,,,,,single Francis turbine,
+R1568565__performance_012,Capacity factor,capacity factor,62.9,annual,,46.5,Francis turbine,,,,,,,single Francis turbine,
+R1568565__performance_013,Francis average-flow optimum operation period,operation period,148,annual,,46.5,Francis turbine,,,,,,,single Francis turbine,
+R1568565__performance_014,Francis average-flow energy deficit,energy deficit,25557,annual,,46.5,Francis turbine,,,,,,,single Francis turbine,
+R1568565__performance_015,Installed capacity,standby capacity,8.3,dry season,,46.5,Francis turbine,,,,,,,single Francis turbine,
+R1568565__performance_016,Efficiency,turbine efficiency,,annual range,,46.5,Francis turbine,,88.5,16.3,,,,single Francis turbine,
+R1568565__performance_017,Installed capacity,rated power,1160,minimum potential power,,46.5,Francis turbine,,,,,,,single Francis turbine,
+R1568565__performance_018,Francis minimum-flow annual output reduction,output reduction,0,annual,,46.5,Francis turbine,no standby reduction,,,,,,single Francis turbine,
+R1568565__performance_019,Energy production,energy production,9948,annual,,46.5,Francis turbine,,,,,,,single Francis turbine,
+R1568565__performance_020,Capacity factor,capacity factor,97.8,annual,,46.5,Francis turbine,,,,,,,single Francis turbine,
+R1568565__performance_021,Francis minimum-flow optimum operation period,operation period,365,annual,,46.5,Francis turbine,rated flow available year-round,,,,,,single Francis turbine,
+R1568565__performance_022,Francis minimum-flow energy deficit,energy deficit,214,annual,,46.5,Francis turbine,deficit due mainly to plant availability,,,,,,single Francis turbine,
+R1568565__performance_023,Efficiency,turbine efficiency,87.3,annual,,46.5,Francis turbine,maintained efficiency,,,,,,single Francis turbine,
+R1568565__performance_024,Installed capacity,rated power,1208,minimum potential power,,46.5,Propeller turbine,,,,,,,single propeller turbine,
+R1568565__performance_025,Propeller minimum-flow annual output reduction,output reduction,0,annual,,46.5,Propeller turbine,no standby reduction,,,,,,single propeller turbine,
+R1568565__performance_026,Energy production,energy production,10350,annual,,46.5,Propeller turbine,,,,,,,single propeller turbine,
+R1568565__performance_027,Capacity factor,capacity factor,97.8,annual,,46.5,Propeller turbine,,,,,,,single propeller turbine,
+R1568565__performance_028,Propeller minimum-flow optimum operation period,operation period,365,annual,,46.5,Propeller turbine,rated flow available year-round,,,,,,single propeller turbine,
+R1568565__performance_029,Propeller minimum-flow energy deficit,energy deficit,188,annual,,46.5,Propeller turbine,deficit due mainly to plant availability,,,,,,single propeller turbine,
+R1568565__performance_030,Efficiency,turbine efficiency,90.9,annual,,46.5,Propeller turbine,maintained efficiency,,,,,,single propeller turbine,
+R1568577__performance_001,North-East potential small-dam sites,site count,151,cross-sectional,151 potential sites,,,highest reported zone,,,,,,,Spatial screening count.
+R1568577__performance_002,Yobe inland-water large-dam sites,site count,55,cross-sectional,55 inland water sites,,,Yobe reported potential,,,,,,,Spatial screening count.
+R1568577__performance_003,North-West potential small-dam sites,site count,95,cross-sectional,95 potential sites,,,second-highest reported zone,,,,,,,Spatial screening count.
+R1568594__performance_001,Mean power output,power output,677.485,92% flow exceedance,677.485–7622.877 kW,,,18 viable sites,7622.877,,,,,,Power range across 18 of 148 points.
+R1568594__performance_002,Avoided emissions,avoided emissions,555.8,annual,555.8–6543.0 tCO2/year,,,18 viable sites,6543,,,,,,Estimated avoided GHG emissions.
+R1568609__performance_001,Energy potential,hydropower potential,2320.26,90% dependable flow,,36,site 1,,,,,,,Q90=7.3 m3/s; hydraulic efficiency=90%,
+R1568609__performance_002,Energy potential,hydropower potential,1804.65,90% dependable flow,,28,site 2,,,,,,,Q90=7.3 m3/s; hydraulic efficiency=90%,
+R1568609__performance_003,Energy potential,hydropower potential,1629.83,90% dependable flow,,26,site 3,,,,,,,Q90=7.1 m3/s; hydraulic efficiency=90%,
+R1568609__performance_004,Energy potential,hydropower potential,1359.67,90% dependable flow,,28,site 4,,,,,,,Q90=5.5 m3/s; hydraulic efficiency=90%,
+R1568609__performance_005,Energy potential,hydropower potential,1395.86,90% dependable flow,,31,site 5,,,,,,,Q90=5.1 m3/s; hydraulic efficiency=90%,
+R1568609__performance_006,Energy potential,hydropower potential,378.76,90% dependable flow,,33,site 6,,,,,,,Q90=1.3 m3/s; hydraulic efficiency=90%,
+R1568609__performance_007,Energy potential,hydropower potential,529.74,90% dependable flow,,50,site 7,,,,,,,Q90=1.2 m3/s; hydraulic efficiency=90%,
+R1568609__performance_008,Energy potential,hydropower potential,407.105,90% dependable flow,,53,site 8,,,,,,,Q90=0.87 m3/s; hydraulic efficiency=90%,
+R1568609__performance_009,Energy potential,hydropower potential,40.26,90% dependable flow,,38,site 9,,,,,,,Q90=0.12 m3/s; hydraulic efficiency=90%,
+R1568609__performance_010,Energy potential,hydropower potential,8899.63,75% dependable flow,,36,site 1,,,,,,,Q75=28 m3/s; hydraulic efficiency=90%,
+R1568609__performance_011,Energy potential,hydropower potential,6904.63,75% dependable flow,,28,site 2,,,,,,,Q75=27.93 m3/s; hydraulic efficiency=90%,
+R1568609__performance_012,Energy potential,hydropower potential,6018.9,75% dependable flow,,26,site 3,,,,,,,Q75=26.22 m3/s; hydraulic efficiency=90%,
+R1568609__performance_013,Energy potential,hydropower potential,5369.44,75% dependable flow,,28,site 4,,,,,,,Q75=21.72 m3/s; hydraulic efficiency=90%,
+R1568609__performance_014,Energy potential,hydropower potential,5014.16,75% dependable flow,,31,site 5,,,,,,,Q75=18.32 m3/s; hydraulic efficiency=90%,
+R1568609__performance_015,Energy potential,hydropower potential,1427.64,75% dependable flow,,33,site 6,,,,,,,Q75=4.9 m3/s; hydraulic efficiency=90%,
+R1568609__performance_016,Energy potential,hydropower potential,2074.81,75% dependable flow,,50,site 7,,,,,,,Q75=4.7 m3/s; hydraulic efficiency=90%,
+R1568609__performance_017,Energy potential,hydropower potential,1431.88,75% dependable flow,,53,site 8,,,,,,,Q75=3.06 m3/s; hydraulic efficiency=90%,
+R1568609__performance_018,Energy potential,hydropower potential,620.67,75% dependable flow,,38,site 9,,,,,,,Q75=1.85 m3/s; hydraulic efficiency=90%,
+R1568609__performance_019,Energy potential,hydropower potential,42750.01,50% dependable flow,,36,site 1,,,,,,,Q50=134.5 m3/s; hydraulic efficiency=90%,
+R1568609__performance_020,Energy potential,hydropower potential,33200.57,50% dependable flow,,28,site 2,,,,,,,Q50=134.3 m3/s; hydraulic efficiency=90%,
+R1568609__performance_021,Energy potential,hydropower potential,28946.75,50% dependable flow,,26,site 3,,,,,,,Q50=126.1 m3/s; hydraulic efficiency=90%,
+R1568609__performance_022,Energy potential,hydropower potential,21561.83,50% dependable flow,,28,site 4,,,,,,,Q50=87.22 m3/s; hydraulic efficiency=90%,
+R1568609__performance_023,Energy potential,hydropower potential,19438.1,50% dependable flow,,31,site 5,,,,,,,Q50=71.02 m3/s; hydraulic efficiency=90%,
+R1568609__performance_024,Energy potential,hydropower potential,9337.99,50% dependable flow,,33,site 6,,,,,,,Q50=32.05 m3/s; hydraulic efficiency=90%,
+R1568609__performance_025,Energy potential,hydropower potential,12757.9,50% dependable flow,,50,site 7,,,,,,,Q50=28.9 m3/s; hydraulic efficiency=90%,
+R1568609__performance_026,Energy potential,hydropower potential,10528.58,50% dependable flow,,53,site 8,,,,,,,Q50=22.5 m3/s; hydraulic efficiency=90%,
+R1568609__performance_027,Energy potential,hydropower potential,5576.04,50% dependable flow,,38,site 9,,,,,,,Q50=16.62 m3/s; hydraulic efficiency=90%,
+R1568609__performance_028,Energy potential,total hydropower potential,9866.135,90% dependable flow,,,,,,,,,,nine candidate sites,
+R1568609__performance_029,Energy potential,total hydropower potential,37764.76,75% dependable flow,,,,,,,,,,nine candidate sites,
+R1568609__performance_030,Energy potential,total hydropower potential,184097.77,50% dependable flow,,,,,,,,,,nine candidate sites,
+R1568654__performance_001,Annual energy production (AEP),annual generation,13629,37-year simulation,13629 GWh/year at capacity factor 0.30,,,current design supported,,,,,,,Hydrologically sustainable estimated mean production.
+R1568654__performance_002,Capacity factor,capacity factor,0.30,37-year simulation,Capacity factor of 0.30,,,current design supported,,,,,,,Annual production relative to 5150 MW capacity.
+R1568654__performance_003,idle GERD turbines,annual turbine utilization,8,annual,Eight turbines likely idle each year,,,eight of fourteen turbines idle,,,,,,,Current design configuration result.
+R1568665__performance_001,Wind power density,maximum power density,1.4,annual,Maximum extractable PD,,,HKT suitable over 24.5% of reach,,,,,,,Hydro-kinetic resource result.
+R1568665__performance_002,Wind power density,maximum power density,3.4,annual,Maximum extractable PD,,,HKT suitable over 31.7% of reach,,,,,,,Hydro-kinetic resource result.
+R1568665__performance_003,Wind power density,maximum power density,2.6,annual,Maximum extractable PD,,,HKT suitable over 29% of reach,,,,,,,Hydro-kinetic resource result.
+R1568768__performance_001,very-high PHES suitability area,area,2.6,cross-sectional,2.6 km2 or 0.17% of study area,,,very-high suitability,,,,,,,Most suitable PHES class.
+R1568768__performance_002,high PHES suitability area,area,54.89,cross-sectional,54.89 km2 or 3.57% of study area,,,high suitability,,,,,,,High suitability class.
+R1568768__performance_003,medium PHES suitability area,area,546.19,cross-sectional,546.19 km2 or 35.53% of study area,,,medium suitability,,,,,,,Medium suitability class.
+R1568768__performance_004,low PHES suitability area,area,932.93,cross-sectional,932.93 km2 or 60.69% of study area,,,low suitability,,,,,,,Low suitability class.
+R1568773__performance_001,aggregate potential at 90% dependability,reported theoretical power,3039,,Results report 3039 kW,,,Results-section total,,,,,,,Internally inconsistent reported result.
+R1568773__performance_002,aggregate potential at 75% dependability,reported theoretical power,1127,,Results report 1127 kW,,,Results-section total,,,,,,,Internally inconsistent reported result.
+R1568773__performance_003,aggregate potential at 50% dependability,reported theoretical power,805,,Results report 805 kW,,,Results-section total,,,,,,,Internally inconsistent reported result.
+R1568773__performance_004,aggregate potential at 50% dependable flow,reported theoretical power,12744,,Conclusion reports 12744 kW,,,Conclusion total,,,,,,,Internally inconsistent reported result.
+R1568773__performance_005,aggregate potential at 75% dependable flow,reported theoretical power,2538,,Conclusion reports 2538 kW,,,Conclusion total,,,,,,,Internally inconsistent reported result.
+R1568773__performance_006,aggregate potential at 90% dependable flow,reported theoretical power,603.1,,Conclusion reports 603.1 kW,,,Conclusion total,,,,,,,Internally inconsistent reported result.
+R1568785__performance_001,Energy production,energy production,15.7,annual,,,GERD,,,,,,,,Reported design production
+R1568785__performance_002,Energy production,energy production,6.5,annual,,,GIBE III,,,,,,,,Reported design production of 6500 GWh
+R1568785__performance_003,Energy production,energy production,19.26,2010–2019,,,GERD,,,,,,,,Simulated control-run production
+R1568785__performance_004,Energy production,energy production,2.83,2010–2019,,,GIBE III,,,,,,,,Simulated control-run production
+R1568785__performance_005,Energy production,projected energy production,,2050–2059,,,GERD,increased relative to control run,,,23.5,,,CMIP5; no-release scenario; mid-century,Mean annual production across scenarios
+R1568785__performance_006,Energy production,projected energy production,,2090–2099,,,GERD,increased relative to control run,,,24.6,,,CMIP5; no-release scenario; end-century,Mean annual production across scenarios
+R1568785__performance_007,Energy production,projected energy production,,2050–2059,,,GERD,increased relative to control run,,,27.1,,,CMIP6; no-release scenario; mid-century,Mean annual production across scenarios
+R1568785__performance_008,Energy production,projected energy production,,2090–2099,,,GERD,increased relative to control run,,,25.8,,,CMIP6; no-release scenario; end-century,Mean annual production across scenarios
+R1568785__performance_009,Energy production,projected energy production,,2050–2059,,,GIBE III,increased relative to control run,,,3.7,,,CMIP5; no-release scenario; mid-century,Mean annual production across scenarios
+R1568785__performance_010,Energy production,projected energy production,,2090–2099,,,GIBE III,increased relative to control run,,,4.1,,,CMIP5; no-release scenario; end-century,Mean annual production across scenarios
+R1568785__performance_011,Energy production,projected energy production,,2050–2059,,,GIBE III,increased relative to control run,,,3.0,,,CMIP6; no-release scenario; mid-century,Mean annual production across scenarios
+R1568785__performance_012,Energy production,projected energy production,,2090–2099,,,GIBE III,increased relative to control run,,,3.4,,,CMIP6; no-release scenario; end-century,Mean annual production across scenarios
+R1568785__performance_013,Energy production,projected energy production,,2050–2059,,,GIBE III,increased relative to control run,,,3.5,,,CMIP5; environmental-release scenario; mid-century,Mean annual production across scenarios
+R1568785__performance_014,Energy production,projected energy production,,2090–2099,,,GIBE III,increased relative to control run,,,3.4,,,CMIP5; environmental-release scenario; end-century,Mean annual production across scenarios
+R1568785__performance_015,Energy production,projected energy production,,2050–2059,,,GIBE III,similar to control run,,,2.8,,,CMIP6; environmental-release scenario; mid-century,Mean annual production across scenarios
+R1568785__performance_016,Energy production,projected energy production,,2090–2099,,,GIBE III,slightly increased relative to control run,,,2.9,,,CMIP6; environmental-release scenario; end-century,Mean annual production across scenarios
+R1568790__performance_001,Mean power output,power output,183.16,50% flow exceedance,183.16 MW across 103 sites,,,highest aggregate estimate,,,,,P = eta gamma Q h,103 sites; eta=1; Q50,Total theoretical run-of-river potential.
+R1568790__performance_002,Mean power output,power output,125.96,75% flow exceedance,125.96 MW across 103 sites,,,,,,,,P = eta gamma Q h,103 sites; eta=1; Q75,Total theoretical run-of-river potential.
+R1568790__performance_003,Mean power output,power output,33.03,90% flow exceedance,33.03 MW across 103 sites,,,,,,,,P = eta gamma Q h,103 sites; eta=1; Q90,Total theoretical run-of-river potential.
+R1568806__performance_001,Energy potential,theoretical power potential,54.45,,Theoretical gross-head potential at site 1.,,,Lower of the three candidate-site theoretical outputs.,,,,,,Q90=0.37 m³/s; gross head=15 m,
+R1568806__performance_002,Energy potential,theoretical power potential,110.36,,Highest theoretical potential and selected best site.,,candidate site 2,Best-ranked MCDM alternative.,,,,,,Q90=0.45 m³/s; gross head=25 m,
+R1568806__performance_003,Energy potential,theoretical power potential,94.18,,Theoretical gross-head potential at site 3.,,,,,,,,,Q90=0.48 m³/s; gross head=20 m,
+R1568806__performance_004,Energy potential,surface-water potential,308.65,,"ArcSWAT-simulated annual runoff from the 1,176 km² watershed.",,,,,,,,,262.46 mm annual runoff; 20.66% of annual rainfall,
+R1568816__performance_001,Potential hydropower sites identified,geospatial site screening,4,,Four potential Furfuro River hydropower sites were identified.,,,,,,,,,"Fourth- and fifth-order streams; gross head ≥8 m; consecutive site spacing ≥1,000 m.",
+R1568816__performance_002,Google Earth–GPS gross-head NSE,elevation head validation,0.997,,Nash-Sutcliffe efficiency for Google Earth Pro versus handheld-GPS head-drop values.,,,,,,,,,Four accessible locations.,
+R1568816__performance_003,Google Earth–GPS gross-head R²,elevation head validation,0.994,,Coefficient of determination for Google Earth Pro versus handheld-GPS head-drop values.,,,,,,,,,Four accessible locations.,
+R1568828__performance_001,Energy potential,technical run-of-river potential,40.88,,Technical potential based on gross theoretical power 72.38 kW and reported system efficiency.,,,,,,,,,Q90 design flow=0.53 m³/s; gross head=14 m; system efficiency=0.56; turbine=cross-flow.,
+R1568828__performance_002,Annual energy production (AEP),annual energy generation,347.39,annual,Annual energy calculated from technical power potential.,,,,,,,,,97% annual operating time.,
+R1568828__performance_003,Energy potential,technical run-of-river potential,19.90,,Technical potential based on gross theoretical power 35.24 kW and reported system efficiency.,,,,,,,,,Q90 design flow=0.34 m³/s; gross head=10.47 m; system efficiency=0.56; turbine=cross-flow.,
+R1568828__performance_004,Annual energy production (AEP),annual energy generation,169.12,annual,Annual energy calculated from technical power potential.,,,,,,,,,97% annual operating time.,
+R1568828__performance_005,Energy potential,technical run-of-river potential,31.88,,Technical potential based on gross theoretical power 54.05 kW and reported system efficiency.,,,,,,,,,Q90 design flow=0.35 m³/s; gross head=15.67 m; system efficiency=0.59; turbine=cross-flow.,
+R1568828__performance_006,Annual energy production (AEP),annual energy generation,270.93,annual,Annual energy calculated from technical power potential.,,,,,,,,,97% annual operating time.,
+R1568828__performance_007,Energy potential,technical run-of-river potential,30.32,,Technical potential based on gross theoretical power 51.40 kW and reported system efficiency.,,,,,,,,,Q90 design flow=0.36 m³/s; gross head=14.67 m; system efficiency=0.59; turbine=cross-flow.,
+R1568828__performance_008,Annual energy production (AEP),annual energy generation,257.62,annual,Annual energy calculated from technical power potential.,,,,,,,,,97% annual operating time.,
+R1568828__performance_009,Energy potential,technical run-of-river potential,78.99,,Technical potential based on gross theoretical power 133.90 kW and reported system efficiency.,,,,,,,,,Q90 design flow=0.32 m³/s; gross head=42.17 m; system efficiency=0.59; turbine=cross-flow.,
+R1568828__performance_010,Annual energy production (AEP),annual energy generation,671.21,annual,Annual energy calculated from technical power potential.,,,,,,,,,97% annual operating time.,
+R1568828__performance_011,Energy potential,technical run-of-river potential,61.23,,Technical potential based on gross theoretical power 103.80 kW and reported system efficiency.,,,,,,,,,Q90 design flow=0.46 m³/s; gross head=23.17 m; system efficiency=0.59; turbine=cross-flow.,
+R1568828__performance_012,Annual energy production (AEP),annual energy generation,520.32,annual,Annual energy calculated from technical power potential.,,,,,,,,,97% annual operating time.,
+R1568828__performance_013,Energy potential,technical run-of-river potential,59.68,,Technical potential based on gross theoretical power 105.66 kW and reported system efficiency.,,,,,,,,,Q90 design flow=0.48 m³/s; gross head=22.67 m; system efficiency=0.56; turbine=cross-flow.,
+R1568828__performance_014,Annual energy production (AEP),annual energy generation,507.08,annual,Annual energy calculated from technical power potential.,,,,,,,,,97% annual operating time.,
+R1568828__performance_015,Energy potential,technical run-of-river potential,305.87,,Technical potential based on gross theoretical power 486.88 kW and reported system efficiency.,,Gilgel-Beles site8,Highest technical potential and first-ranked site.,,,,,,Q90 design flow=0.30 m³/s; gross head=151.00 m; system efficiency=0.63; turbine=Pelton.,
+R1568828__performance_016,Annual energy production (AEP),annual energy generation,2599.04,annual,Annual energy calculated from technical power potential.,,,,,,,,,97% annual operating time.,
+R1568828__performance_017,Energy potential,technical run-of-river potential,31.25,,Technical potential based on gross theoretical power 55.32 kW and reported system efficiency.,,,,,,,,,Q90 design flow=0.48 m³/s; gross head=11.80 m; system efficiency=0.56; turbine=cross-flow.,
+R1568828__performance_018,Annual energy production (AEP),annual energy generation,265.50,annual,Annual energy calculated from technical power potential.,,,,,,,,,97% annual operating time.,
+R1568828__performance_019,Energy potential,total technical run-of-river potential,660.01,,Total reported technical potential of all nine sites.,,,One mini-hydropower site and eight micro-hydropower sites.,,,,,,Nine candidate sites at 90% dependable flow.,
+R1568828__performance_020,Annual energy production (AEP),annual energy generation,5608.222,annual,Total reported annual energy of all nine sites.,,,,,,,,,,
+R1568828__performance_021,hp site 8 HOMER excess electricity,microgrid surplus generation,3535821,annual,Reported HOMER simulated surplus after Alefa Kacha demand.,,,88% excess electricity available to serve other villages.,,,,,,"HOMER hp-site-8 production=4,018,758 kWh/year; primary and deferrable load=483,123 kWh/year.",
+R1568843__performance_001,Chemoga theoretical power — high-flow conditions,FDC-based theoretical turbine output,4729.20,0%–10% flow exceedance,Reported theoretical high-flow conditions output.,,Chemoga,Chemoga > Wabe > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_002,Chemoga theoretical power — moist conditions,FDC-based theoretical turbine output,3495.49,10%–40% flow exceedance,Reported theoretical moist conditions output.,,Chemoga,Chemoga > Wabe > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_003,Chemoga theoretical power — mid-range flow conditions,FDC-based theoretical turbine output,2133.08,40%–60% flow exceedance,Reported theoretical mid-range flow conditions output.,,Chemoga,Chemoga ≈ Wabe > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_004,Chemoga theoretical power — dry conditions,FDC-based theoretical turbine output,1104.99,60%–80% flow exceedance,Reported theoretical dry conditions output.,,,Wabe ≈ Chemoga > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_005,Chemoga theoretical power — low-flow conditions,FDC-based theoretical turbine output,494.42,80%–100% flow exceedance,Reported theoretical low-flow conditions output.,,,Wabe > Chemoga > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_006,Huluka theoretical power — high-flow conditions,FDC-based theoretical turbine output,1013.96,0%–10% flow exceedance,Reported theoretical high-flow conditions output.,,,Chemoga > Wabe > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_007,Huluka theoretical power — moist conditions,FDC-based theoretical turbine output,362.57,10%–40% flow exceedance,Reported theoretical moist conditions output.,,,Chemoga > Wabe > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_008,Huluka theoretical power — mid-range flow conditions,FDC-based theoretical turbine output,116.15,40%–60% flow exceedance,Reported theoretical mid-range flow conditions output.,,,Chemoga ≈ Wabe > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_009,Huluka theoretical power — dry conditions,FDC-based theoretical turbine output,50.22,60%–80% flow exceedance,Reported theoretical dry conditions output.,,,Wabe ≈ Chemoga > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_010,Huluka theoretical power — low-flow conditions,FDC-based theoretical turbine output,37.67,80%–100% flow exceedance,Reported theoretical low-flow conditions output.,,,Wabe > Chemoga > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_011,Wabe theoretical power — high-flow conditions,FDC-based theoretical turbine output,3591.24,0%–10% flow exceedance,Reported theoretical high-flow conditions output.,,,Chemoga > Wabe > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_012,Wabe theoretical power — moist conditions,FDC-based theoretical turbine output,2790.74,10%–40% flow exceedance,Reported theoretical moist conditions output.,,,Chemoga > Wabe > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_013,Wabe theoretical power — mid-range flow conditions,FDC-based theoretical turbine output,1861.54,40%–60% flow exceedance,Reported theoretical mid-range flow conditions output.,,,Chemoga ≈ Wabe > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_014,Wabe theoretical power — dry conditions,FDC-based theoretical turbine output,1023.37,60%–80% flow exceedance,Reported theoretical dry conditions output.,,Wabe,Wabe ≈ Chemoga > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_015,Wabe theoretical power — low-flow conditions,FDC-based theoretical turbine output,673.35,80%–100% flow exceedance,Reported theoretical low-flow conditions output.,,Wabe,Wabe > Chemoga > Huluka,,,,,,Cross-flow turbine efficiency=80%; assumed net head=20 m.,
+R1568843__performance_016,Chemoga elevation change per 11.1 km,topographic head indicator,321.74,11.1 km reach,,,,,,,,,,,
+R1568843__performance_017,Huluka elevation change per 11.1 km,topographic head indicator,227.00,11.1 km reach,,,,,,,,,,,
+R1568843__performance_018,Wabe elevation change per 11.1 km,topographic head indicator,333.34,11.1 km reach,,,Wabe River,Largest reported elevation change over the common distance.,,,,,,,
+R1569160__performance_001,"Annual water yield, 2000",water-yield model result,3.25,,InVEST water yield; observed 3.247 MCM.,,,,,,,,,,
+R1569160__performance_002,"Annual water yield, 2010",water-yield model result,4.45,,InVEST water yield; observed 4.635 MCM.,,,,,,,,,,
+R1569160__performance_003,"Annual water yield, 2020",water-yield model result,4.75,,InVEST water yield; observed 4.870 MCM.,,,,,,,,,,
+R1569160__performance_004,"Net water-yield increase, 2000–2020",water-yield change,1.50,,Modelled increase over study period.,,,,,,,,,,
+R1569160__performance_005,"Forested land coverage, 2000",land-cover result,81.42,,"187,010.82 ha.",,,,,,,,,,
+R1569160__performance_006,"Forested land coverage, 2020",land-cover result,35.80,,"82,243 ha.",,,,,,,,,,
+R1569160__performance_007,"Urban land coverage, 2000",land-cover result,10.76,,"24,713.48 ha.",,,,,,,,,,
+R1569160__performance_008,"Urban land coverage, 2020",land-cover result,41.45,,"95,207 ha.",,,,,,,,,,
+R1569160__performance_009,Dry-condition timing extension,IHA timing alteration,92.43,,Post-dam extension of dry conditions.,,,,,,,,,,
+R1569160__performance_010,Peak-flow timing shift,IHA timing alteration,10,,Wet-season peaks occur at least ten days earlier post-dam.,,,,,,,,,,
+R1569160__performance_011,Low-pulse duration change,IHA pulse alteration,2.33,,Post-dam versus 44.98 days pre-dam; 80.95% reduction.,,,,,,,,,,
+R1569160__performance_012,High-pulse duration change,IHA pulse alteration,36.36,,Post-dam versus 32.88 days pre-dam; 10.6% increase.,,,,,,,,,,
+R1569160__performance_013,Group 2 IHA deviation,IHA alteration,43,,Average deviation of Group 2 parameters from natural RVA ranges.,,,,,,,,,,
+R1569361__performance_001,Firm power,90% dependable power,1698.7,,,,,,,,,,,He=14.4 m; Q=13.4 m³/s; η=90%.,
+R1569361__performance_002,Annual energy production (AEP),annual energy,28.68,annual,Firm energy=13.39 GWh/year.,,,,,,,,,,
+R1569361__performance_003,Firm power,90% dependable power,832.8,,,,,,,,,,,He=14.4 m; Q=6.6 m³/s; η=90%.,
+R1569361__performance_004,Annual energy production (AEP),annual energy,12.51,annual,Firm energy=6.57 GWh/year.,,,,,,,,,,
+R1569361__performance_005,Firm power,90% dependable power,588.2,,,,,,,,,,,He=10.8 m; Q=6.2 m³/s; η=90%.,
+R1569361__performance_006,Annual energy production (AEP),annual energy,9.38,annual,Firm energy=4.64 GWh/year.,,,,,,,,,,
+R1569361__performance_007,Firm power,90% dependable power,866.6,,,,,,,,,,,He=10.8 m; Q=9.1 m³/s; η=90%.,
+R1569361__performance_008,Annual energy production (AEP),annual energy,12.68,annual,Firm energy=6.83 GWh/year.,,,,,,,,,,
+R1569361__performance_009,Firm power,90% dependable power,863.8,,,,,,,,,,,He=10.8 m; Q=9.1 m³/s; η=90%.,
+R1569361__performance_010,Annual energy production (AEP),annual energy,12.10,annual,Firm energy=6.81 GWh/year.,,,,,,,,,,
+R1569361__performance_011,Firm power,90% dependable power,755.4,,,,,,,,,,,He=10.8 m; Q=7.9 m³/s; η=90%.,
+R1569361__performance_012,Annual energy production (AEP),annual energy,11.70,annual,Firm energy=5.96 GWh/year.,,,,,,,,,,
+R1569361__performance_013,Firm power,90% dependable power,1007.1,,,,,,,,,,,He=14.4 m; Q=7.9 m³/s; η=90%.,
+R1569361__performance_014,Annual energy production (AEP),annual energy,14.36,annual,Firm energy=7.94 GWh/year.,,,,,,,,,,
+R1569361__performance_015,Firm power,90% dependable power,702.9,,,,,,,,,,,He=12.6 m; Q=6.3 m³/s; η=90%.,
+R1569361__performance_016,Annual energy production (AEP),annual energy,8.48,annual,Firm energy=5.54 GWh/year.,,,,,,,,,,
+R1569361__performance_017,Firm power,90% dependable power,570.4,,,,,,,,,,,He=10.8 m; Q=6.0 m³/s; η=90%.,
+R1569361__performance_018,Annual energy production (AEP),annual energy,7.43,annual,Firm energy=4.50 GWh/year.,,,,,,,,,,
+R1569504__performance_001,Firm power,firm power,2356.2,90% dependability,,15,dam site 1,highest firm power,,,,,,Q90=21.34 m3/s; efficiency=75%,
+R1569504__performance_002,Firm energy,firm energy,12.07,annual dry-year,,15,dam site 1,highest firm energy,,,,,,328 operating days,
+R1569504__performance_003,Firm power,firm power,1253.7,90% dependability,,12,dam site 2,,,,,,,Q90=14.20 m3/s; efficiency=75%,
+R1569504__performance_004,Firm energy,firm energy,6.42,annual dry-year,,12,dam site 2,,,,,,,328 operating days,
+R1569504__performance_005,Firm power,firm power,135.7,90% dependability,,15,dam site 3,,,,,,,Q90=1.23 m3/s; efficiency=75%,
+R1569504__performance_006,Firm energy,firm energy,0.69,annual dry-year,,15,dam site 3,,,,,,,328 operating days,
+R1569504__performance_007,Firm power,firm power,761,90% dependability,,15,dam site 4,,,,,,,Q90=6.9 m3/s; efficiency=75%,
+R1569504__performance_008,Firm energy,firm energy,3.90,annual dry-year,,15,dam site 4,,,,,,,328 operating days,
+R1569504__performance_009,Firm power,firm power,458,90% dependability,,15,dam site 5,,,,,,,Q90=4.15 m3/s; efficiency=75%,
+R1569504__performance_010,Firm energy,firm energy,2.34,annual dry-year,,15,dam site 5,,,,,,,328 operating days,
+R1569504__performance_011,Firm power,firm power,264,90% dependability,,10,dam site 6,,,,,,,Q90=3.6 m3/s; efficiency=75%,
+R1569504__performance_012,Firm energy,firm energy,1.35,annual dry-year,,10,dam site 6,,,,,,,328 operating days,
+R1569504__performance_013,Firm power,firm power,1567,90% dependability,,15,run-of-river site 1,,,,,,,Q90=14.20 m3/s; efficiency=75%,
+R1569504__performance_014,Firm energy,firm energy,8.03,annual dry-year,,15,run-of-river site 1,,,,,,,328 operating days,
+R1569504__performance_015,Firm power,firm power,681,90% dependability,,13,run-of-river site 2,,,,,,,Q90=7.12 m3/s; efficiency=75%,
+R1569504__performance_016,Firm energy,firm energy,3.50,annual dry-year,,13,run-of-river site 2,,,,,,,328 operating days,
+R1569504__performance_017,Firm power,firm power,117.72,90% dependability,,10,run-of-river site 3,lowest firm power,,,,,,Q90=1.6 m3/s; efficiency=75%,
+R1569504__performance_018,Firm energy,firm energy,0.60,annual dry-year,,10,run-of-river site 3,lowest firm energy,,,,,,328 operating days,
+R1569504__performance_019,Firm energy,firm energy,38.9,annual dry-year,at least 38.9 GWh,,,,,,,,,nine proposed sites,
+R1569504__performance_020,Energy production,energy production,21.65,annual,,,three-site cascade,recommended,,,,,,dam site 1; run-of-river site 1; dam site 6,
+R1569514__performance_001,Firm power,90% dependable power,12.22,,Firm energy 77.10 GWh/year.,,,,,,,,,,
+R1569514__performance_002,Annual energy production (AEP),annual energy,183.77,,,,,,,,,,,,
+R1569514__performance_003,Firm power,90% dependable power,10.00,,Firm energy 47.01 GWh/year.,,,,,,,,,,
+R1569514__performance_004,Annual energy production (AEP),annual energy,157.67,,,,,,,,,,,,
+R1569514__performance_005,Firm power,90% dependable power,9.00,,Firm energy 40.77 GWh/year.,,,,,,,,,,
+R1569514__performance_006,Annual energy production (AEP),annual energy,141.91,,,,,,,,,,,,
+R1569514__performance_007,Firm power,aggregate firm power,7.89,,,,,,,,,,,,
+R1569514__performance_008,Annual energy production (AEP),annual energy,483.4,,,,,"HP1, HP3, and HP7 cascade.",,,,,,,
+R1580088__performance_001,Liwonde random-forest validation accuracy,predictive accuracy,99,2000–2018,Validation accuracy at Liwonde.,,,,,,,,,,
+R1580088__performance_002,Matope random-forest validation accuracy,predictive accuracy,94.5,2000–2018,Validation accuracy at Matope.,,,,,,,,,,
+R1580088__performance_003,Chikwawa random-forest validation accuracy,predictive accuracy,89,2000–2018,Validation accuracy at Chikwawa.,,,,,,,,,,
+R1580088__performance_004,dry-extreme hydropower capacity-factor effect,regression effect,-9.4,2012–2018,Dry extremes reduced total hydropower capacity factor relative to normal conditions in the same month.,,,,,,,,,,
+R1580088__performance_005,dry-extreme nighttime-light effect,regression effect,-31,2012–2018,Dry extremes reduced monthly urban nighttime-light radiance.,,,,,,,,,,
+R1580088__performance_006,daily hydropower capacity-factor sensitivity,regression effect,-0.2,2012–2018,One-standard-deviation decline in discharge was associated with lower total daily capacity factor.,,,,,,,,,,
+R1581270__performance_001,2015 ANN one-step RMSE,forecast error,4.11,,Lower than ARIMA and ARIMAX benchmark RMSE.,,MLP-D-uni,,,,,2015,,,
+R1581270__performance_002,2015 ANN one-step MAE,forecast error,3.39,,,,MLP-D-uni,,,,,2015,,,
+R1581270__performance_003,2015 ANN one-step MAPE,forecast error,0.32,,,,MLP-D-uni,,,,,2015,,,
+R1581270__performance_004,2015 ANN multi-step RMSE,forecast error,110.08,,,,MLP-D-uni,,,,,2015,,,
+R1581270__performance_005,2015 ARIMAX RMSE,benchmark forecast error,111.54,,Prior statistical-model benchmark.,,,,,,,2015,,,
+R1581274__performance_001,LightGBM computation time,runtime,1.240,,"Runtime at 1,000 trees and learning rate 0.10.",,LightGBM,,,,,,,,
+R1581274__performance_002,CatBoost computation time,runtime,4.832,,"Runtime at 1,000 trees and learning rate 0.15.",,,,,,,,,,
+R1581274__performance_003,XGBoost computation time,runtime,2.007,,Runtime at 900 trees and learning rate 0.15.,,,,,,,,,,
+R1581536__performance_001,2025 thermal generation share,standard-scenario forecast,60.46,,,,,,,,,2025,,,
+R1581536__performance_002,Energy production,standard-scenario forecast,20.43,,,,,,,,,2025,,,
+R1581536__performance_003,2025 nuclear generation share,standard-scenario forecast,6.43,,,,,,,,,2025,,,
+R1581536__performance_004,2025 non-hydropower renewable generation share,standard-scenario forecast,12.68,,,,,,,,,2025,,,
+R1581536__performance_005,2025 non-hydropower renewable share range,multi-scenario forecast range,,,,,,,16.5,8.5,,2025,,,
+R1582754__performance_001,Energy potential,capacity potential,10270,,,,,,,,,2007,,,
+R1582754__performance_002,Energy production,generation potential,31.49,,At 35% plant load factor.,,,,,,,,,,
+R1582754__performance_003,Avoided emissions,emission-reduction potential,23.65,,Estimated using regional grid baselines.,,,,,,,,,,
+R1582754__performance_004,Installed capacity,diffusion projection,4,,,,,,,,,2012,,,
+R1582754__performance_005,Installed capacity,diffusion projection,8,,,,,,,,,2012,,,
+R1582754__performance_006,standard-scenario annual CER generation,diffusion projection,13,,,,,,,,,2020,,,
+R1582754__performance_007,optimistic-scenario annual CER generation,diffusion projection,24,,,,,,,,,2020,,,
+R1582764__performance_001,Energy potential,resource potential,20000,,,,,,,,,,,,
+R1582764__performance_002,capacity needed to meet state demand,capacity requirement estimate,4000,,,,,,,,,2014,,,
+R1582764__performance_003,aggregate technical and commercial losses,electricity-system loss,54,,,,,,,,,2014,,,
+R1582764__performance_004,Lower Kalnai land acquisition,project impact,73.4,,,,,,,,,,,,
+R1582764__performance_005,Lower Kalnai construction workforce,project impact,1200,,,,,,,,,,,,
+R1583336__performance_001,Energy potential,regional hydropower potential indicator,,annual,,,,High hydropower potential,5000,3500,,,,,
+R1583336__performance_002,Energy potential,regional hydropower potential indicator,,annual,,,,High hydropower potential,4500,2500,,,,,
+R1583336__performance_003,Energy potential,regional hydropower potential indicator,,annual,,,,High hydropower potential,3500,1500,,,,,
+R1583336__performance_004,Energy potential,regional hydropower potential indicator,,annual,,,,Moderate hydropower potential,2500,1000,,,,,
+R1583336__performance_005,Energy potential,regional hydropower potential indicator,,annual,,,,Moderate hydropower potential,1500,800,,,,,
+R1583336__performance_006,Energy potential,regional hydropower potential indicator,,annual,,,,Low hydropower potential,1200,500,,,,,
+R1583336__performance_007,Energy potential,regional hydropower potential indicator,,annual,,,,Low hydropower potential,800,300,,,,,
+R1583336__performance_008,Energy potential,regional hydropower potential indicator,,annual,,,,Low hydropower potential,300,,,,,,
+R1583336__performance_009,Installed capacity,installed capacity,12552,,,,,,,,,2021,,,
+R1583336__performance_010,Installed capacity,installed capacity,46911.5,,,,,,,,,2021,,,
+R1586335__performance_001,Bagisli design flow,hydrological characteristic,31.24,,,,,,,,,,,,
+R1586335__performance_002,Bagisli mean flow,hydrological characteristic,15.16,,,,,,,,,,,,
+R1586335__performance_003,Annual energy production (AEP),plant characteristic,100,,,,,,,,,,,,
+R1586400__performance_001,CatBoost-HGS runtime,runtime,291.0,,,,CatBoost-HGS,,,,,,,,
+R1586400__performance_002,HGBoost-HGS runtime,runtime,42958.3,,,,,,,,,,,,
+R1586400__performance_003,CatBoost standalone test R²,testing accuracy,0.82197664,,,,CatBoost,,,,,,,,
+R1586400__performance_004,HGBoost standalone test R²,testing accuracy,0.83073186,,,,HGBoost,,,,,,,,
+R1586415__performance_001,best quarterly climatic-model correlation coefficient,correlation coefficient,0.92,quarterly Option 1,,,Gaussian process regression,Highest reported Option 1 correlation coefficient.,,,,,,,
+R1586415__performance_002,best quarterly climatic-model MAPE,mean absolute percentage error,4.5,quarterly Option 1,,,Gaussian process regression,Lowest reported Option 1 error.,,,,,,,
+R1586415__performance_003,monthly-model correlation coefficient range,correlation coefficient,,monthly rainfall,,,,Monthly rainfall models were not accurate enough for forecasting.,0.39,0.25,,,,,
+R1563350__performance_001,proposed-model RMSE reduction versus empirical-model average,error reduction,73,,Highest reported reduction at San Ramon.,,,,,,,,,,
+R1563350__performance_002,proposed-model RMSE reduction versus poorest empirical model,error reduction,93,,Highest reported reduction at San Ramon.,,,,,,,,,,

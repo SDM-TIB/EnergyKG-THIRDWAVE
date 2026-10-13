@@ -1,0 +1,4 @@
+model_id,derivedFromModel
+model__btps6500_wind_turbine_power_output_simulation,model__weibull_distribution
+model__linear_regression,model__weibull_distribution
+model__polynomial_regression,model__weibull_distribution

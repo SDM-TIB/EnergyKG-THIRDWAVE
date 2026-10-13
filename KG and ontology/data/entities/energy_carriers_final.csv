@@ -1,0 +1,2 @@
+energy_carrier_id,label,definition,comment
+energy_carrier__electricity,electricity,Energy carried by the flow of electric charge.,"Electricity is the main carrier produced by wind, solar PV and hydropower systems. It can be transmitted over long distances but must be converted into another form, such as chemical energy in batteries or potential energy in pumped storage, to be stored."

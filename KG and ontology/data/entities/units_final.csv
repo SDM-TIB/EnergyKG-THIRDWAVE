@@ -1,0 +1,82 @@
+unit_id,label,unitSymbol,definition,comment
+unit__metre_per_second,metre per second,m/s,An SI derived unit of speed equal to a distance of one metre travelled in one second.,The metre per second is the standard unit for wind speed and flow velocity in the corpus.
+unit__kilometre_per_hour,kilometre per hour,km/h,A unit of speed equal to a distance of one kilometre travelled in one hour.,One kilometre per hour equals 1/3.6 metre per second. It appears in some meteorological reports of wind speed.
+unit__mile_per_hour,mile per hour,mph,An imperial unit of speed equal to a distance of one statute mile travelled in one hour.,One mile per hour equals 0.44704 metre per second. It is used for wind speed in studies that follow US or UK conventions.
+unit__cubic_metre_per_second,cubic metre per second,m³/s,An SI derived unit of volumetric flow rate equal to one cubic metre passing a section in one second.,The cubic metre per second is the standard unit for river discharge and design flow in hydropower studies.
+unit__cubic_metre,cubic metre,m³,An SI derived unit of volume equal to the volume of a cube one metre on each side.,The cubic metre is used for reservoir volumes and for volumes of water over a period.
+unit__million_cubic_metres,million cubic metres,million m³,A unit of volume equal to one million cubic metres.,One million cubic metres equals one cubic hectometre (hm³) and is often abbreviated MCM. It is used for reservoir storage and annual runoff volumes.
+unit__metre,metre,m,The SI base unit of length.,"The metre is used for measurement heights, hydraulic heads, depths and wave heights."
+unit__millimetre,millimetre,mm,A unit of length equal to one thousandth of a metre.,"The millimetre is used for precipitation depth, where 1 mm corresponds to one litre of water per square metre."
+unit__millimetre_per_year,millimetre per year,mm/year,A unit of rate equal to a depth of one millimetre accumulated over one year.,"It is used for annual precipitation, runoff and evaporation."
+unit__inch_per_year,inch per year,in/year,An imperial unit of rate equal to a depth of one inch accumulated over one year.,One inch equals 25.4 mm. It is used for annual precipitation in studies that follow US conventions.
+unit__kilometre_per_square_kilometre,kilometre per square kilometre,km/km²,A unit of length per unit area equal to one kilometre per square kilometre.,"It is used for drainage density, the total length of streams per unit area of a catchment."
+unit__watt_per_square_metre,watt per square metre,W/m²,An SI derived unit of power per unit area equal to one watt per square metre.,The watt per square metre is used for wind power density and for solar irradiance.
+unit__kilowatt_hour_per_square_metre,kilowatt-hour per square metre,kWh/m²,A unit of energy per unit area equal to one kilowatt-hour per square metre.,"It is used for solar irradiation accumulated over a period, such as a month or a year."
+unit__megajoule_per_square_metre,megajoule per square metre,MJ/m²,A unit of energy per unit area equal to one megajoule per square metre.,It is used for solar irradiation accumulated over a period; 3.6 MJ/m² equal 1 kWh/m².
+unit__watt_hour_per_square_metre_per_day,watt-hour per square metre per day,Wh/m²/day,A unit of energy per unit area per day equal to one watt-hour per square metre in one day.,It is used for daily solar irradiation; 1000 Wh/m²/day equal 1 kWh/m²/day.
+unit__kilowatt_hour_per_square_metre_per_day,kilowatt-hour per square metre per day,kWh/m²/day,A unit of energy per unit area per day equal to one kilowatt-hour per square metre in one day.,It is the usual unit for daily solar irradiation. A value of 1 kWh/m²/day also equals one peak sun hour per day.
+unit__megajoule_per_square_metre_per_day,megajoule per square metre per day,MJ/m²/day,A unit of energy per unit area per day equal to one megajoule per square metre in one day.,It is used for daily solar irradiation; 3.6 MJ/m²/day equal 1 kWh/m²/day.
+unit__kilowatt_hour_per_square_metre_per_year,kilowatt-hour per square metre per year,kWh/m²/year,A unit of energy per unit area per year equal to one kilowatt-hour per square metre in one year.,It is used for annual solar irradiation and for annual energy yield per unit area.
+unit__megawatt_hour_per_square_metre_per_year,megawatt-hour per square metre per year,MWh/m²/year,A unit of energy per unit area per year equal to one megawatt-hour per square metre in one year.,It is used for annual solar energy potential per unit area.
+unit__terawatt_hour_per_year,terawatt-hour per year,TWh/year,A unit of energy per year equal to one terawatt-hour produced or available in one year.,One terawatt-hour equals 10¹² watt-hours. It is used for national or regional energy potentials.
+unit__gigawatt,gigawatt,GW,A unit of power equal to one billion watts.,The gigawatt is used for national installed capacities and capacity targets.
+unit__gigawatt_hour,gigawatt-hour,GWh,A unit of energy equal to one gigawatt delivered for one hour.,The gigawatt-hour is used for national or regional energy production and targets.
+unit__kilogram_per_year,kilogram per year,kg/year,A unit of mass rate equal to one kilogram per year.,It is used for annual emissions or avoided emissions.
+unit__tonne_per_year,tonne per year,t/year,A unit of mass rate equal to one tonne (1000 kg) per year.,It is used for annual emissions or avoided emissions.
+unit__tonne_of_co2_equivalent,tonne of CO2 equivalent,tCO2e,A unit of greenhouse gas emissions equal to the warming effect of one tonne of carbon dioxide.,Emissions of different greenhouse gases are converted into CO2 equivalent with their global warming potential so that they can be added and compared.
+unit__person,person,person,A counting unit equal to one person.,"It is used for the number of people served or affected, such as inhabitants supplied with water."
+unit__household,household,household,A counting unit equal to one household.,It is used for the number of homes that could be supplied with electricity.
+unit__watt,watt,W,"The SI derived unit of power, equal to one joule per second.","The watt is used for the power of very small systems, such as single PV panels or micro wind turbines."
+unit__kilowatt,kilowatt,kW,A unit of power equal to one thousand watts.,The kilowatt is used for the power of small turbines and small systems.
+unit__megawatt,megawatt,MW,A unit of power equal to one million watts.,The megawatt is used for the installed capacity and power potential of plants.
+unit__degree,degree,°,A unit of plane angle equal to 1/360 of a full rotation.,"The degree is used for wind direction, measured clockwise from north, and for slope and orientation angles."
+unit__radian,radian,rad,"The SI unit of plane angle, equal to the angle subtended at the centre of a circle by an arc as long as the radius.",A full rotation measures 2π radians. The radian appears for angles such as wind direction in some statistical analyses.
+unit__degree_celsius,degree Celsius,°C,"A unit of temperature on the Celsius scale, equal in size to one kelvin.",The degree Celsius is used for air and water temperature.
+unit__percent,percent,%,A dimensionless unit equal to one hundredth.,"The percent is used for probabilities, frequencies, efficiencies and capacity factors."
+unit__dimensionless,dimensionless,dimensionless,"The unit of a quantity that has no physical dimension, such as the ratio of two quantities of the same kind.","It is used for shape parameters, coefficients and indices, such as the Weibull shape parameter k."
+unit__watt_hour,watt hour,Wh,A unit of energy equal to one watt of power sustained for one hour.,One watt hour equals 3600 joules.
+unit__kilowatt_hour,kilowatt hour,kWh,A unit of energy equal to one kilowatt of power sustained for one hour.,The kilowatt hour is the usual unit of electricity consumption and billing.
+unit__megawatt_hour,megawatt hour,MWh,A unit of energy equal to one megawatt of power sustained for one hour.,It is used for the output of power plants over a period.
+unit__terawatt_hour,terawatt hour,TWh,A unit of energy equal to one terawatt of power sustained for one hour.,It is used for national or regional electricity production and potentials.
+unit__kilowatt_hour_per_year,kilowatt hour per year,kWh/year,A unit of annual energy equal to one kilowatt hour produced or consumed per year.,It is used for the annual energy production of small systems.
+unit__megawatt_hour_per_year,megawatt hour per year,MWh/year,A unit of annual energy equal to one megawatt hour produced or consumed per year.,It is used for the annual energy production of turbines and plants.
+unit__gigawatt_hour_per_year,gigawatt hour per year,GWh/year,A unit of annual energy equal to one gigawatt hour produced or consumed per year.,It is used for the annual energy production of large plants and regions.
+unit__kilowatt_hour_per_square_metre_per_month,kilowatt hour per square metre per month,kWh/m²/month,A unit of monthly irradiation equal to one kilowatt hour received per square metre in a month.,It is used for monthly solar irradiation.
+unit__kilowatt_per_square_metre,kilowatt per square metre,kW/m²,A unit of power flux density equal to one kilowatt per square metre.,It is used for solar irradiance and wind power density.
+unit__joule_per_square_centimetre_per_day,joule per square centimetre per day,J/cm²/day,A unit of daily irradiation equal to one joule received per square centimetre in a day.,One joule per square centimetre equals 0.01 megajoule per square metre.
+unit__square_metre,square metre,m²,The SI derived unit of area.,"It is used for rotor swept areas, module areas and small land areas."
+unit__square_kilometre,square kilometre,km²,A unit of area equal to one million square metres.,It is used for catchment areas and land areas of plants.
+unit__hectare,hectare,ha,A unit of area equal to ten thousand square metres.,It is used for land areas of solar plants and farms.
+unit__kilogram_per_cubic_metre,kilogram per cubic metre,kg/m³,The SI derived unit of density.,"It is used for air density, about 1.225 kg/m³ at sea level in standard conditions."
+unit__kelvin,kelvin,K,The SI base unit of thermodynamic temperature.,A temperature difference of one kelvin equals one degree Celsius.
+unit__pascal,pascal,Pa,"The SI derived unit of pressure, equal to one newton per square metre.","It is used for atmospheric pressure, often in hectopascals."
+unit__revolution_per_minute,revolution per minute,rpm,A unit of rotational speed equal to one full turn per minute.,It is used for the rotor speed of turbines and generators.
+unit__watt_peak,watt peak,Wp,A unit of the nominal power of a photovoltaic module under standard test conditions.,Standard test conditions are 1000 W/m² irradiance and 25 °C cell temperature.
+unit__kilowatt_peak,kilowatt peak,kWp,A unit of the nominal power of a photovoltaic system equal to one thousand watt peak.,It is used for the size of photovoltaic installations.
+unit__second,second,s,The SI base unit of time.,It is used for computation times and short time steps.
+unit__minute,minute,min,A unit of time equal to sixty seconds.,It is used for durations and time steps.
+unit__hour,hour,h,A unit of time equal to sixty minutes.,"It is used for durations, operating hours and sunshine duration."
+unit__day,day,day,A unit of time equal to twenty-four hours.,It is used for durations and periods.
+unit__year,year,year,A calendar unit of time of about 365 days.,"It is used for lifetimes, payback periods and record lengths."
+unit__tonne,tonne,t,A unit of mass equal to one thousand kilograms.,It is used for masses of materials and of emissions.
+unit__tonne_of_carbon_dioxide_per_year,tonne of carbon dioxide per year,tCO2/year,A unit of annual emissions equal to one tonne of carbon dioxide emitted or avoided per year.,It is used for avoided or emitted greenhouse gases.
+unit__tonne_of_oil_equivalent,tonne of oil equivalent,toe,A unit of energy equal to the energy released by burning one tonne of crude oil.,One tonne of oil equivalent is about 41.868 gigajoules; it is abbreviated TEP in French.
+unit__cubic_metre_per_day,cubic metre per day,m³/day,A unit of volumetric flow equal to one cubic metre per day.,It is used for water demand and pumped volumes.
+unit__cubic_metre_per_month,cubic metre per month,m³/month,A unit of volumetric flow equal to one cubic metre per month.,It is used for monthly water volumes.
+unit__millimetre_per_day,millimetre per day,mm/day,A unit of rate equal to a depth of one millimetre accumulated over one day.,It is used for daily precipitation and evaporation.
+unit__million_cubic_metres_per_year,million cubic metres per year,million m³/year,A unit of annual volume equal to one million cubic metres per year.,It is used for annual runoff and water yield.
+unit__megawatt_per_square_kilometre,megawatt per square kilometre,MW/km²,A unit of power density over land equal to one megawatt per square kilometre.,It is used for the installed capacity density of wind and solar plants.
+unit__united_states_dollar,United States dollar,USD,The currency of the United States.,Amounts are given in nominal dollars of the year stated by each study.
+unit__euro,euro,EUR,The currency of the euro area.,Amounts are given in nominal euros of the year stated by each study.
+unit__south_african_rand,South African rand,ZAR,The currency of South Africa.,Amounts are given in nominal rand of the year stated by each study.
+unit__pound_sterling,pound sterling,GBP,The currency of the United Kingdom.,Amounts are given in nominal pounds of the year stated by each study.
+unit__united_states_dollar_per_kilowatt_hour,United States dollar per kilowatt hour,USD/kWh,A unit of the cost or price of energy in dollars per kilowatt hour.,It is used for levelised costs and tariffs of electricity.
+unit__united_states_dollar_per_megawatt_hour,United States dollar per megawatt hour,USD/MWh,A unit of the cost or price of energy in dollars per megawatt hour.,One dollar per megawatt hour equals 0.001 dollar per kilowatt hour.
+unit__united_states_dollar_per_kilowatt,United States dollar per kilowatt,USD/kW,A unit of capital cost per unit of installed capacity.,It is used for investment costs of power plants.
+unit__euro_per_kilowatt_hour,euro per kilowatt hour,EUR/kWh,A unit of the cost or price of energy in euros per kilowatt hour.,It is used for levelised costs and tariffs of electricity.
+unit__euro_cent_per_kilowatt_hour,euro cent per kilowatt hour,EUR cent/kWh,A unit of the cost or price of energy in euro cents per kilowatt hour.,One euro cent per kilowatt hour equals 0.01 euro per kilowatt hour.
+unit__south_african_rand_per_kilowatt_hour,South African rand per kilowatt hour,ZAR/kWh,A unit of the cost or price of energy in rand per kilowatt hour.,It is used for tariffs of electricity in South Africa.
+unit__ghana_cedi_per_kilowatt_hour,Ghana cedi per kilowatt hour,GHS/kWh,A unit of the cost or price of energy in Ghana cedis per kilowatt hour.,It is used for tariffs of electricity in Ghana.
+unit__central_african_cfa_franc_per_kilowatt_hour,Central African CFA franc per kilowatt hour,XAF/kWh,A unit of the cost or price of energy in CFA francs per kilowatt hour.,It is used for tariffs of electricity in Central African countries such as Cameroon.
+unit__central_african_cfa_franc_per_cubic_metre,Central African CFA franc per cubic metre,XAF/m³,A unit of the cost or price of water in CFA francs per cubic metre.,It is used for water tariffs in Central African countries.
+unit__indian_rupee_per_kilowatt_hour,Indian rupee per kilowatt hour,INR/kWh,A unit of the cost or price of energy in Indian rupees per kilowatt hour.,It is used for tariffs of electricity in India.

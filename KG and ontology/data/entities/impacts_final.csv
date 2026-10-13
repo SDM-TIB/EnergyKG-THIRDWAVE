@@ -1,0 +1,36 @@
+impact_id,impactStatement,impactDirection,impactValue,impactTimeHorizon
+R1378024__impact_001,The projected decreasing trend in hub-height wind speed is expected to reduce wind-energy resources and induce a further reduction of wind-power production in Europe under RCP8.5.,negative,,21st century
+R703009__impact_001,"The average monthly water produced in Enugu can serve about 2,290 habitants based on the minimum recommended water usage of 50 L/capita/day.",,2290,monthly
+R703009__impact_002,"The average monthly water produced in Owerri can serve about 1,690 habitants based on water usage of 50 L/capita/day.",,1690,monthly
+R703009__impact_003,"The average monthly water produced in Onitsha can serve about 1,820 habitants based on water usage of 50 L/capita/day.",,1820,monthly
+R703029__impact_001,The wind resource appears to be suitable for power production in the south of the country and it could provide a viable substitute to diesel oil for electricity generation.,,,
+R703046__impact_001,The modeled wind-resource energy could provide affordable electric power for off-grid electrification of rural communities at the study sites.,positive,,
+R703046__impact_002,The authors stated that electricity generation could improve access to potable water and water for sanitation purposes because water could be pumped from boreholes.,positive,,
+R703061__impact_001,"At 0.8% curtailment, use of 120.6 MWh per year for pumping in the WF1 case could have saved 105.6 tonnes of CO2.",,105.6,annual
+R703061__impact_002,"At 4.3% load shedding, use of 500.6 MWh for pumping in the WF1 case could have saved 438.5 tonnes of CO2 yearly.",,438.5,annual
+R703061__impact_003,"For WF4, 55.1 tonnes of CO2 could have been saved in the lower curtailment case and 296 tonnes of CO2 could have been saved at the 4.3% load-shedding rate.",,,annual
+R703084__impact_001,The community in N’Djamena would benefit from wind energy in household applications.,,,
+R703087__impact_001,The wind speed gives a wind energy potential which can be used to generate a small-scale electrical energy.,,,
+R703095__impact_001,"If the wind farm was constructed cleverly, they can be a positive addition to the landscape.",positive,,
+R703105__impact_001,The proposed low-wind-energy utilisation model constitutes a potential cheaper alternative energy source than fossil-fuel sources.,,,
+R707682__impact_001,The station of Gisenyi possesses suitable wind energy potential for electricity generation.,,,
+R707682__impact_002,"The stations of Kigali, Butare and Kamembe have sufficient energy potential for windmills or water pumping.",,,
+R711154__impact_001,"For a rotor diameter above 5 meters, the daily water production could be sufficient for a community of approximately 500 persons.",,500,
+R711159__impact_001,"For a height of 10 m, the reported wind-energy potential is not negligible in the Cameroonian context where domestic energy is not yet available for most villages located far from the national power grid.",,,
+R712633__impact_001,"Small-scale wind turbines are best suited for rural and suburban parts of Zambia where obstructions are few, making them ideal for complementing the Government of the Republic of Zambia's rural electrification efforts.",,,
+R712637__impact_001,The production of such wind farms could enable the reduction of CO2 emissions by 1200 tons per year.,reduction,1200,
+R713448__impact_001,The identified potential energy resource can constitute a strong tool motivating politics to consider wind power generation as an alternative to reduce the country's energetic dependency on nearby countries.,reduction,,
+R722053__impact_001,Part of the energy requirements can potentially be obtained from the wind throughout the year.,,,
+R723171__impact_001,"Carbon dioxide emissions assumed to be avoided by wind energy systems in Kano instead of diesel generating systems range from 66,473 to 152,137 kg/yr at hub heights from 10 to 50 m.",,,annual
+R723171__impact_002,"Carbon dioxide emissions assumed to be avoided by wind energy systems in Maiduguri instead of diesel generating systems range from 10,374 to 25,226 kg/yr at hub heights from 10 to 50 m.",,,annual
+R723171__impact_003,"Carbon dioxide emissions assumed to be avoided by wind energy systems in Jos instead of diesel generating systems range from 124,324 to 214,160 kg/yr at hub heights from 10 to 50 m.",,,annual
+R723171__impact_004,"Carbon dioxide emissions assumed to be avoided by wind energy systems in Abuja instead of diesel generating systems range from 4,450 to 11,348 kg/yr at hub heights from 10 to 50 m.",,,annual
+R723171__impact_005,"Carbon dioxide emissions assumed to be avoided by wind energy systems in Akure instead of diesel generating systems range from 3,504 to 8,817 kg/yr at hub heights from 10 to 50 m.",,,annual
+R723300__impact_001,"Small stand-alone wind systems can fulfill the energy needs of many households, especially in rural areas where the energy demand is low; they can also replace existing small petrol/diesel generators in Nigeria and consequently contribute to a more pollution free environment.",,,
+R723318__impact_001,"Twenty such turbines in a mini-grid wind farm can generate electricity amounting to 1.57 MW, sufficient to power a village with 1000 homes.",,1000,
+R727445__impact_001,"The Power Wind wind farm had a minimum reported value of 3,892,065 kg/year of CO2.",,3892065,
+R727542__impact_001,The estimated annual energy production for Scenario 1 could theoretically meet 14.9% of South Africa’s annual electricity demand.,,14.9,
+R727542__impact_002,The estimated annual energy production available in Scenario 2 could theoretically satisfy South Africa’s annual electricity demand eight times over.,,,
+R727676__impact_001,The installation of small wind turbines can meet the energy demand of a few households in some environments in South Africa.,,,
+R727799__impact_001,The amount of carbon dioxide (CO2) that can be avoided is 0.90 TE-CO2 for a natural-gas power plant in Illizi.,reduction,0.90,
+R727799__impact_002,The amount of carbon dioxide (CO2) that can be avoided is 2.24 TE-CO2 for a gasoil power plant in Adrar.,reduction,2.24,

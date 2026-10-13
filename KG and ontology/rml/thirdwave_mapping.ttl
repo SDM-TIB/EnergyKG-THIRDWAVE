@@ -1,0 +1,1330 @@
+# THIRDWAVE KG -- RML rules for SDM-RDFizer (2026-10-13)
+# Each TriplesMap reads one CSV of data/ and produces:
+#   entities/*.csv   -> rdf:type + datatype and object properties of the ontology (one row = one instance)
+#   relations/*.csv  -> one object property between two instances (columns: subject id, target id)
+#   alignments/*.csv -> skos links from shared nodes to external ontologies (QUDT, STATO, OEO, ENVO, SWO)
+# Subjects: https://w3id.org/thirdwave/data/{id}   Ontology: https://w3id.org/thirdwave/ontology#
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@base <https://w3id.org/thirdwave/mapping/> .
+
+<#analyses_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/analyses_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Analysis> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#analysisName> ; rr:objectMap [ rml:reference "analysisName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "analysisName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#analysisPurpose> ; rr:objectMap [ rml:reference "analysisPurpose" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#analysisTechnique> ; rr:objectMap [ rml:reference "analysisTechnique" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#analysisMethodDescription> ; rr:objectMap [ rml:reference "analysisMethodDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#analysisKeyOutcome> ; rr:objectMap [ rml:reference "analysisKeyOutcome" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#analysis_node_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/analysis_node_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{analysisType}" ; rr:termType rr:IRI ] ] .
+
+<#analysis_nodes_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/analysis_nodes_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Analysis> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#analysisName> ; rr:objectMap [ rml:reference "analysisName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "analysisName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#analysis_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/analysis_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{analysisType}" ; rr:termType rr:IRI ] ] .
+
+<#conditional_findings_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/conditional_findings_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{finding_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#ConditionalFinding> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#findingStatement> ; rr:objectMap [ rml:reference "findingStatement" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#findingScope> ; rr:objectMap [ rml:reference "findingScope" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#findingOutcome> ; rr:objectMap [ rml:reference "findingOutcome" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#conditions_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/conditions_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{condition_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Condition> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#conditionType> ; rr:objectMap [ rml:reference "conditionType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#conditionStatement> ; rr:objectMap [ rml:reference "conditionStatement" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#conditionScope> ; rr:objectMap [ rml:reference "conditionScope" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#conditionVariable> ; rr:objectMap [ rml:reference "conditionVariable" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#conditionOperator> ; rr:objectMap [ rml:reference "conditionOperator" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#conditionValue> ; rr:objectMap [ rml:reference "conditionValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#dataset_heights_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/dataset_heights_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{dataset_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Dataset> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#datasetMeasurementHeight> ; rr:objectMap [ rml:reference "datasetMeasurementHeight" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] .
+
+<#datasets_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/datasets_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{dataset_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Dataset> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#datasetName> ; rr:objectMap [ rml:reference "datasetName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "datasetName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#datasetDescription> ; rr:objectMap [ rml:reference "datasetDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#datasetSource> ; rr:objectMap [ rml:reference "datasetSource" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#datasetDuration> ; rr:objectMap [ rml:reference "datasetDuration" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#datasetSpatialResolution> ; rr:objectMap [ rml:reference "datasetSpatialResolution" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#datasetPeriodStart> ; rr:objectMap [ rml:reference "datasetPeriodStart" ; rr:datatype <http://www.w3.org/2001/XMLSchema#gYear> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#datasetPeriodEnd> ; rr:objectMap [ rml:reference "datasetPeriodEnd" ; rr:datatype <http://www.w3.org/2001/XMLSchema#gYear> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#datasetNumberOfTimeSeries> ; rr:objectMap [ rml:reference "datasetNumberOfTimeSeries" ; rr:datatype <http://www.w3.org/2001/XMLSchema#integer> ] ] .
+
+<#decision_criteria_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/decision_criteria_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{criterion_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#DecisionCriterion> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#criterionName> ; rr:objectMap [ rml:reference "criterionName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "criterionName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#criterionRationale> ; rr:objectMap [ rml:reference "criterionRationale" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#criterionDirection> ; rr:objectMap [ rml:reference "criterionDirection" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#criterionThreshold> ; rr:objectMap [ rml:reference "criterionThreshold" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#criterionWeight> ; rr:objectMap [ rml:reference "criterionWeight" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] .
+
+<#derived_values_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/derived_values_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{derived_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#DerivedValue> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#derivedValueMagnitude> ; rr:objectMap [ rml:reference "derivedValueMagnitude" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#derivedValueType> ; rr:objectMap [ rml:reference "derivedValueType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#derivedValueTemporalScope> ; rr:objectMap [ rml:reference "derivedValueTemporalScope" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#design_characteristics_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/design_characteristics_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{design_characteristics_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#DesignCharacteristics> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#powerCurveDescription> ; rr:objectMap [ rml:reference "powerCurveDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#turbineAxisType> ; rr:objectMap [ rml:reference "turbineAxisType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#numberOfBlades> ; rr:objectMap [ rml:reference "numberOfBlades" ; rr:datatype <http://www.w3.org/2001/XMLSchema#integer> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#turbineType> ; rr:objectMap [ rml:reference "turbineType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#plantType> ; rr:objectMap [ rml:reference "plantType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#cellTechnology> ; rr:objectMap [ rml:reference "cellTechnology" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#trackingType> ; rr:objectMap [ rml:reference "trackingType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#storageTechnology> ; rr:objectMap [ rml:reference "storageTechnology" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#design_characteristics_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/design_characteristics_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{design_characteristics_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{designClass}" ; rr:termType rr:IRI ] ] .
+
+<#design_parameter_values_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/design_parameter_values_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{design_parameter_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#DesignParameterValue> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#designParameterName> ; rr:objectMap [ rml:reference "designParameterName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#designParameterValue> ; rr:objectMap [ rml:reference "designParameterValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#designParameterTemporalScope> ; rr:objectMap [ rml:reference "designParameterTemporalScope" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#energy_system_component_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/energy_system_component_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{componentClass}" ; rr:termType rr:IRI ] ] .
+
+<#energy_system_components_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/energy_system_components_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#EnergySystemComponent> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#componentName> ; rr:objectMap [ rml:reference "componentName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "componentName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#componentDescription> ; rr:objectMap [ rml:reference "componentDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#componentCategory> ; rr:objectMap [ rml:reference "componentCategory" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#economic_metric_instances_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/economic_metric_instances_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{economic_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#EconomicMetric> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricName> ; rr:objectMap [ rml:reference "economicMetricName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "economicMetricName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricType> ; rr:objectMap [ rml:reference "economicMetricType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricValue> ; rr:objectMap [ rml:reference "economicMetricValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricCurrency> ; rr:objectMap [ rml:reference "economicMetricCurrency" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricResultSummary> ; rr:objectMap [ rml:reference "economicMetricResultSummary" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricEvaluationPeriod> ; rr:objectMap [ rml:reference "economicMetricEvaluationPeriod" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricCostAssumption> ; rr:objectMap [ rml:reference "economicMetricCostAssumption" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricPriceAssumption> ; rr:objectMap [ rml:reference "economicMetricPriceAssumption" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricFormula> ; rr:objectMap [ rml:reference "economicMetricFormula" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricParameters> ; rr:objectMap [ rml:reference "economicMetricParameters" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricMinimumValue> ; rr:objectMap [ rml:reference "economicMetricMinimumValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricMaximumValue> ; rr:objectMap [ rml:reference "economicMetricMaximumValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#economicMetricDescription> ; rr:objectMap [ rml:reference "economicMetricDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#economic_metric_nodes_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/economic_metric_nodes_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{metric_type_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#EconomicMetric> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#energy_carriers_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/energy_carriers_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_carrier_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#EnergyCarrier> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#energy_system_node_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/energy_system_node_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{energySystemType}" ; rr:termType rr:IRI ] ] .
+
+<#energy_system_nodes_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/energy_system_nodes_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#EnergySystem> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#energySystemName> ; rr:objectMap [ rml:reference "energySystemName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "energySystemName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#energy_system_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/energy_system_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{energySystemType}" ; rr:termType rr:IRI ] ] .
+
+<#energy_systems_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/energy_systems_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#EnergySystem> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#energySystemName> ; rr:objectMap [ rml:reference "energySystemName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "energySystemName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#energySystemDescription> ; rr:objectMap [ rml:reference "energySystemDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#energySystemConfiguration> ; rr:objectMap [ rml:reference "energySystemConfiguration" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#energySystemInstalledCapacity> ; rr:objectMap [ rml:reference "energySystemInstalledCapacity" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] .
+
+<#evaluation_metric_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/evaluation_metric_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{metricClass}" ; rr:termType rr:IRI ] ] .
+
+<#evaluation_metrics_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/evaluation_metrics_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#EvaluationMetric> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#evaluationMetricName> ; rr:objectMap [ rml:reference "evaluationMetricName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "evaluationMetricName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#evaluationMetricFormula> ; rr:objectMap [ rml:reference "evaluationMetricFormula" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#evaluation_results_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/evaluation_results_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluation_result_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#EvaluationResult> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#evaluationResultValue> ; rr:objectMap [ rml:reference "evaluationResultValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#evaluationResultTemporalScope> ; rr:objectMap [ rml:reference "evaluationResultTemporalScope" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#decisionRuleAsReported> ; rr:objectMap [ rml:reference "decisionRuleAsReported" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#impact_type_node_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/impact_type_node_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{impact_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{impactType}" ; rr:termType rr:IRI ] ] .
+
+<#impact_type_nodes_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/impact_type_nodes_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{impact_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Impact> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#impact_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/impact_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{impact_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{impactType}" ; rr:termType rr:IRI ] ] .
+
+<#impacts_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/impacts_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{impact_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Impact> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#impactStatement> ; rr:objectMap [ rml:reference "impactStatement" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#impactDirection> ; rr:objectMap [ rml:reference "impactDirection" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#impactValue> ; rr:objectMap [ rml:reference "impactValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#impactTimeHorizon> ; rr:objectMap [ rml:reference "impactTimeHorizon" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#policies_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/policies_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Policy> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyName> ; rr:objectMap [ rml:reference "policyName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "policyName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyDescription> ; rr:objectMap [ rml:reference "policyDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyJurisdiction> ; rr:objectMap [ rml:reference "policyJurisdiction" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyStatus> ; rr:objectMap [ rml:reference "policyStatus" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyImplementationStage> ; rr:objectMap [ rml:reference "policyImplementationStage" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyBindingness> ; rr:objectMap [ rml:reference "policyBindingness" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyStartYear> ; rr:objectMap [ rml:reference "policyStartYear" ; rr:datatype <http://www.w3.org/2001/XMLSchema#gYear> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyEndYear> ; rr:objectMap [ rml:reference "policyEndYear" ; rr:datatype <http://www.w3.org/2001/XMLSchema#gYear> ] ] .
+
+<#policy_targets_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/policy_targets_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_target_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#PolicyTarget> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyTargetName> ; rr:objectMap [ rml:reference "policyTargetName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "policyTargetName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyTargetValue> ; rr:objectMap [ rml:reference "policyTargetValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyTargetYear> ; rr:objectMap [ rml:reference "policyTargetYear" ; rr:datatype <http://www.w3.org/2001/XMLSchema#gYear> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyTargetBasis> ; rr:objectMap [ rml:reference "policyTargetBasis" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyTargetStatus> ; rr:objectMap [ rml:reference "policyTargetStatus" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#policy_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/policy_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{policyType}" ; rr:termType rr:IRI ] ] .
+
+<#factor_type_node_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/factor_type_node_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{factor_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{factorType}" ; rr:termType rr:IRI ] ] .
+
+<#factor_type_nodes_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/factor_type_nodes_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{factor_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#InfluencingFactor> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#influencing_factor_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/influencing_factor_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{factor_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{factorType}" ; rr:termType rr:IRI ] ] .
+
+<#influencing_factors_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/influencing_factors_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{factor_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#InfluencingFactor> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#factorStatement> ; rr:objectMap [ rml:reference "factorStatement" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#factorScope> ; rr:objectMap [ rml:reference "factorScope" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#factorCause> ; rr:objectMap [ rml:reference "factorCause" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#factorSolution> ; rr:objectMap [ rml:reference "factorSolution" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#instrument_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/instrument_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{instrument_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{instrumentType}" ; rr:termType rr:IRI ] ] .
+
+<#instruments_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/instruments_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{instrument_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#MeasuringInstrument> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#instrumentName> ; rr:objectMap [ rml:reference "instrumentName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "instrumentName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#instrumentCategory> ; rr:objectMap [ rml:reference "instrumentCategory" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#climate_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/climate_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{climateType}" ; rr:termType rr:IRI ] ] .
+
+<#climates_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/climates_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Climate> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#climateName> ; rr:objectMap [ rml:reference "climateName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "climateName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#countries_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/countries_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{country_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Country> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#countryName> ; rr:objectMap [ rml:reference "countryName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "countryName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#countryIsoCode> ; rr:objectMap [ rml:reference "countryIsoCode" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#locations_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/locations_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{canonical_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Location> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#locationName> ; rr:objectMap [ rml:reference "locationName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "locationName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#locationDescription> ; rr:objectMap [ rml:reference "locationDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#locationLatitude> ; rr:objectMap [ rml:reference "locationLatitude" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#locationLongitude> ; rr:objectMap [ rml:reference "locationLongitude" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#locationAltitude> ; rr:objectMap [ rml:reference "locationAltitude" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#locationGranularity> ; rr:objectMap [ rml:reference "locationGranularity" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#locationFeatureType> ; rr:objectMap [ rml:reference "locationFeatureType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#locationSettlementType> ; rr:objectMap [ rml:reference "locationSettlementType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#terrain_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/terrain_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{terrainType}" ; rr:termType rr:IRI ] ] .
+
+<#terrains_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/terrains_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Terrain> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#terrainName> ; rr:objectMap [ rml:reference "terrainName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "terrainName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#model_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/model_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{model_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{modelClass}" ; rr:termType rr:IRI ] ] .
+
+<#models_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/models_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{model_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Model> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#modelName> ; rr:objectMap [ rml:reference "modelName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "modelName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#distributionFormula> ; rr:objectMap [ rml:reference "distributionFormula" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#distributionParameters> ; rr:objectMap [ rml:reference "distributionParameters" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#distributionNumberOfParameters> ; rr:objectMap [ rml:reference "distributionNumberOfParameters" ; rr:datatype <http://www.w3.org/2001/XMLSchema#integer> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#empiricalModelFormula> ; rr:objectMap [ rml:reference "empiricalModelFormula" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#empiricalModelParameters> ; rr:objectMap [ rml:reference "empiricalModelParameters" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#empiricalModelApplicabilityConditions> ; rr:objectMap [ rml:reference "empiricalModelApplicabilityConditions" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#physicalModelFormula> ; rr:objectMap [ rml:reference "physicalModelFormula" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#physicalModelParameters> ; rr:objectMap [ rml:reference "physicalModelParameters" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#physicalModelGoverningPrinciple> ; rr:objectMap [ rml:reference "physicalModelGoverningPrinciple" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#timeSeriesModelFormula> ; rr:objectMap [ rml:reference "timeSeriesModelFormula" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#timeSeriesModelParameters> ; rr:objectMap [ rml:reference "timeSeriesModelParameters" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#learningParadigm> ; rr:objectMap [ rml:reference "learningParadigm" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#learningTask> ; rr:objectMap [ rml:reference "learningTask" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#estimation_methods_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/estimation_methods_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{estimation_method_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#ParameterEstimationMethod> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#estimationMethodName> ; rr:objectMap [ rml:reference "estimationMethodName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "estimationMethodName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#estimationMethodCategory> ; rr:objectMap [ rml:reference "estimationMethodCategory" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#model_application_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/model_application_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{applicationType}" ; rr:termType rr:IRI ] ] .
+
+<#model_applications_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/model_applications_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#ModelApplication> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#applicationPurpose> ; rr:objectMap [ rml:reference "applicationPurpose" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#applicationTemporalScope> ; rr:objectMap [ rml:reference "applicationTemporalScope" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#applicationHyperparameters> ; rr:objectMap [ rml:reference "applicationHyperparameters" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#applicationArchitecture> ; rr:objectMap [ rml:reference "applicationArchitecture" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#applicationForecastHorizon> ; rr:objectMap [ rml:reference "applicationForecastHorizon" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#applicationFormulaAsReported> ; rr:objectMap [ rml:reference "applicationFormulaAsReported" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedModelName> ; rr:objectMap [ rml:reference "reportedModelName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#modelPurpose> ; rr:objectMap [ rml:reference "modelPurpose" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#modelAssumptions> ; rr:objectMap [ rml:reference "modelAssumptions" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#optimization_algorithms_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/optimization_algorithms_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{optimization_algorithm_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#OptimizationAlgorithm> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#observations_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/observations_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{observation_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Observation> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#observationValue> ; rr:objectMap [ rml:reference "observationValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#observationMeasurementHeight> ; rr:objectMap [ rml:reference "observationMeasurementHeight" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] .
+
+<#mixture_components_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/mixture_components_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#MixtureComponent> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#componentIndex> ; rr:objectMap [ rml:reference "componentIndex" ; rr:datatype <http://www.w3.org/2001/XMLSchema#integer> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#componentWeight> ; rr:objectMap [ rml:reference "componentWeight" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] .
+
+<#parameter_values_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/parameter_values_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{parameter_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#ParameterValue> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#parameterValue> ; rr:objectMap [ rml:reference "parameterValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#parameterSymbol> ; rr:objectMap [ rml:reference "parameterSymbol" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#parameterKind> ; rr:objectMap [ rml:reference "parameterKind" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#parameterTemporalScope> ; rr:objectMap [ rml:reference "parameterTemporalScope" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#performance_metric_nodes_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/performance_metric_nodes_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{metric_type_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#PerformanceMetric> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#performance_metrics_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/performance_metrics_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{performance_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#PerformanceMetric> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricName> ; rr:objectMap [ rml:reference "performanceMetricName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "performanceMetricName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricType> ; rr:objectMap [ rml:reference "performanceMetricType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricValue> ; rr:objectMap [ rml:reference "performanceMetricValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricTemporalScope> ; rr:objectMap [ rml:reference "performanceMetricTemporalScope" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricResultSummary> ; rr:objectMap [ rml:reference "performanceMetricResultSummary" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricHeight> ; rr:objectMap [ rml:reference "performanceMetricHeight" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricBestPerformer> ; rr:objectMap [ rml:reference "performanceMetricBestPerformer" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricConclusion> ; rr:objectMap [ rml:reference "performanceMetricConclusion" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricMaximumValue> ; rr:objectMap [ rml:reference "performanceMetricMaximumValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricMinimumValue> ; rr:objectMap [ rml:reference "performanceMetricMinimumValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricMeanValue> ; rr:objectMap [ rml:reference "performanceMetricMeanValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricReferenceYear> ; rr:objectMap [ rml:reference "performanceMetricReferenceYear" ; rr:datatype <http://www.w3.org/2001/XMLSchema#gYear> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricFormula> ; rr:objectMap [ rml:reference "performanceMetricFormula" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricParameters> ; rr:objectMap [ rml:reference "performanceMetricParameters" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricDescription> ; rr:objectMap [ rml:reference "performanceMetricDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#resource_characterizations_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/resource_characterizations_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{characterization_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#ResourceCharacterization> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizationMeanValue> ; rr:objectMap [ rml:reference "characterizationMeanValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizationStandardDeviation> ; rr:objectMap [ rml:reference "characterizationStandardDeviation" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizationMaximumValue> ; rr:objectMap [ rml:reference "characterizationMaximumValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizationMinimumValue> ; rr:objectMap [ rml:reference "characterizationMinimumValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizationSkewness> ; rr:objectMap [ rml:reference "characterizationSkewness" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizationKurtosis> ; rr:objectMap [ rml:reference "characterizationKurtosis" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizationExceedanceProbability> ; rr:objectMap [ rml:reference "characterizationExceedanceProbability" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizationMeasurementHeight> ; rr:objectMap [ rml:reference "characterizationMeasurementHeight" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizationPeriodStart> ; rr:objectMap [ rml:reference "characterizationPeriodStart" ; rr:datatype <http://www.w3.org/2001/XMLSchema#gYear> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizationPeriodEnd> ; rr:objectMap [ rml:reference "characterizationPeriodEnd" ; rr:datatype <http://www.w3.org/2001/XMLSchema#gYear> ] ] .
+
+<#wind_power_classes_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/wind_power_classes_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{wind_power_class_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#WindPowerClass> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#scenarios_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/scenarios_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{scenario_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Scenario> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#scenarioName> ; rr:objectMap [ rml:reference "scenarioName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "scenarioName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#scenarioDescription> ; rr:objectMap [ rml:reference "scenarioDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#scenarioStartYear> ; rr:objectMap [ rml:reference "scenarioStartYear" ; rr:datatype <http://www.w3.org/2001/XMLSchema#gYear> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#scenarioEndYear> ; rr:objectMap [ rml:reference "scenarioEndYear" ; rr:datatype <http://www.w3.org/2001/XMLSchema#gYear> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#scenarioProbability> ; rr:objectMap [ rml:reference "scenarioProbability" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] .
+
+<#reference_planes_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/reference_planes_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{reference_plane_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#ReferencePlane> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#temporal_resolutions_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/temporal_resolutions_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{temporal_resolution_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#TemporalResolution> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#units_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/units_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{unit_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#UnitOfMeasurement> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#unitSymbol> ; rr:objectMap [ rml:reference "unitSymbol" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#software_tool_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/software_tool_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{tool_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{toolClass}" ; rr:termType rr:IRI ] ] .
+
+<#software_tools_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/software_tools_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{tool_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#SoftwareTool> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#toolName> ; rr:objectMap [ rml:reference "toolName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "toolName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#toolCategory> ; rr:objectMap [ rml:reference "toolCategory" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#energy_resource_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/energy_resource_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{energyResourceType}" ; rr:termType rr:IRI ] ] .
+
+<#energy_resources_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/energy_resources_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#EnergyResource> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#objective_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/objective_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{objective_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{objectiveType}" ; rr:termType rr:IRI ] ] .
+
+<#objectives_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/objectives_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{objective_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#StudyObjective> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#objectiveStatement> ; rr:objectMap [ rml:reference "objectiveStatement" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#papers_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/papers_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{paper_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Paper> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#paperTitle> ; rr:objectMap [ rml:reference "paperTitle" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "paperTitle" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#paperAuthor> ; rr:objectMap [ rml:reference "paperAuthor" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#paperDoi> ; rr:objectMap [ rml:reference "paperDoi" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#publicationType> ; rr:objectMap [ rml:reference "publicationType" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#research_problem_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/research_problem_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{problem_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{problemType}" ; rr:termType rr:IRI ] ] .
+
+<#research_problems_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/research_problems_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{problem_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#ResearchProblem> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "label" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#studies_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/studies_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Study> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#studyDomain> ; rr:objectMap [ rml:reference "studyDomain" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#studyMethodsSummary> ; rr:objectMap [ rml:reference "studyMethodsSummary" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#studyKeyFindings> ; rr:objectMap [ rml:reference "studyKeyFindings" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#studyFutureWorks> ; rr:objectMap [ rml:reference "studyFutureWorks" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#studyLimits> ; rr:objectMap [ rml:reference "studyLimits" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#studyResearchGapAddressed> ; rr:objectMap [ rml:reference "studyResearchGapAddressed" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#studyResearchGapIdentified> ; rr:objectMap [ rml:reference "studyResearchGapIdentified" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#study_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/study_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{studyType}" ; rr:termType rr:IRI ] ] .
+
+<#uncertainty_components_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/uncertainty_components_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{uncertainty_component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#UncertaintyComponent> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#uncertaintyComponentName> ; rr:objectMap [ rml:reference "uncertaintyComponentName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "uncertaintyComponentName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#uncertaintyComponentDescription> ; rr:objectMap [ rml:reference "uncertaintyComponentDescription" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#uncertaintyComponentValue> ; rr:objectMap [ rml:reference "uncertaintyComponentValue" ; rr:datatype <http://www.w3.org/2001/XMLSchema#decimal> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#uncertaintyComponentDistribution> ; rr:objectMap [ rml:reference "uncertaintyComponentDistribution" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#variable_types_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/variable_types_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{variable_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/ontology#{variableType}" ; rr:termType rr:IRI ] ] .
+
+<#variables_final> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/entities/variables_final.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{variable_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate rdf:type ; rr:objectMap [ rr:constant <https://w3id.org/thirdwave/ontology#Variable> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#variableName> ; rr:objectMap [ rml:reference "variableName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> ; rr:objectMap [ rml:reference "variableName" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#definition> ; rr:objectMap [ rml:reference "definition" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> ; rr:objectMap [ rml:reference "comment" ; rr:datatype <http://www.w3.org/2001/XMLSchema#string> ] ] .
+
+<#analysis_analysisConsidersScenario> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/analysis_analysisConsidersScenario.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#analysisConsidersScenario> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{analysisConsidersScenario}" ; rr:termType rr:IRI ] ] .
+
+<#analysis_analysisUsesCriterion> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/analysis_analysisUsesCriterion.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#analysisUsesCriterion> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{analysisUsesCriterion}" ; rr:termType rr:IRI ] ] .
+
+<#analysis_analysisUsesVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/analysis_analysisUsesVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#analysisUsesVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{analysisUsesVariable}" ; rr:termType rr:IRI ] ] .
+
+<#analysis_evaluatedAtLocation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/analysis_evaluatedAtLocation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#evaluatedAtLocation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluatedAtLocation}" ; rr:termType rr:IRI ] ] .
+
+<#analysis_hasAnalysisType> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/analysis_hasAnalysisType.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasAnalysisType> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasAnalysisType}" ; rr:termType rr:IRI ] ] .
+
+<#analysis_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/analysis_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#analysis_usesDataset> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/analysis_usesDataset.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{analysis_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#usesDataset> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{usesDataset}" ; rr:termType rr:IRI ] ] .
+
+<#study_employsAnalysis> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_employsAnalysis.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#employsAnalysis> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{employsAnalysis}" ; rr:termType rr:IRI ] ] .
+
+<#condition_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/condition_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{condition_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#conditionalFinding_aboutApplication> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/conditionalFinding_aboutApplication.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{finding_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#aboutApplication> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{aboutApplication}" ; rr:termType rr:IRI ] ] .
+
+<#conditionalFinding_aboutModel> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/conditionalFinding_aboutModel.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{finding_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#aboutModel> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{aboutModel}" ; rr:termType rr:IRI ] ] .
+
+<#conditionalFinding_comparedWithModel> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/conditionalFinding_comparedWithModel.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{finding_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#comparedWithModel> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{comparedWithModel}" ; rr:termType rr:IRI ] ] .
+
+<#conditionalFinding_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/conditionalFinding_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{finding_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#conditionalFinding_underCondition> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/conditionalFinding_underCondition.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{finding_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#underCondition> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{underCondition}" ; rr:termType rr:IRI ] ] .
+
+<#dataset_collectedAt> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/dataset_collectedAt.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{dataset_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#collectedAt> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{collectedAt}" ; rr:termType rr:IRI ] ] .
+
+<#dataset_datasetContainsObservation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/dataset_datasetContainsObservation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{dataset_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#datasetContainsObservation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{datasetContainsObservation}" ; rr:termType rr:IRI ] ] .
+
+<#dataset_hasMeasurementHeightUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/dataset_hasMeasurementHeightUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{dataset_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasMeasurementHeightUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasMeasurementHeightUnit}" ; rr:termType rr:IRI ] ] .
+
+<#dataset_hasTemporalResolution> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/dataset_hasTemporalResolution.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{dataset_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasTemporalResolution> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasTemporalResolution}" ; rr:termType rr:IRI ] ] .
+
+<#dataset_hasVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/dataset_hasVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{dataset_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasVariable}" ; rr:termType rr:IRI ] ] .
+
+<#study_usesDataset> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_usesDataset.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#usesDataset> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{usesDataset}" ; rr:termType rr:IRI ] ] .
+
+<#decisionCriterion_criterionEvaluatesVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/decisionCriterion_criterionEvaluatesVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{criterion_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#criterionEvaluatesVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{criterionEvaluatesVariable}" ; rr:termType rr:IRI ] ] .
+
+<#decisionCriterion_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/decisionCriterion_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{criterion_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#decisionCriterion_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/decisionCriterion_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{criterion_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#derivedValue_atLocation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/derivedValue_atLocation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{derived_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#atLocation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{atLocation}" ; rr:termType rr:IRI ] ] .
+
+<#derivedValue_derivedFromDataset> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/derivedValue_derivedFromDataset.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{derived_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#derivedFromDataset> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{derivedFromDataset}" ; rr:termType rr:IRI ] ] .
+
+<#derivedValue_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/derivedValue_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{derived_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#derivedValue_ofVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/derivedValue_ofVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{derived_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#ofVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{ofVariable}" ; rr:termType rr:IRI ] ] .
+
+<#derivedValue_producedByApplication> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/derivedValue_producedByApplication.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{derived_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#producedByApplication> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{producedByApplication}" ; rr:termType rr:IRI ] ] .
+
+<#designCharacteristics_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/designCharacteristics_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{design_characteristics_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#designParameterValue_belongsToDesignCharacteristics> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/designParameterValue_belongsToDesignCharacteristics.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{design_parameter_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#belongsToDesignCharacteristics> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{belongsToDesignCharacteristics}" ; rr:termType rr:IRI ] ] .
+
+<#designParameterValue_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/designParameterValue_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{design_parameter_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#energySystemComponent_hasDesignCharacteristics> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystemComponent_hasDesignCharacteristics.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasDesignCharacteristics> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasDesignCharacteristics}" ; rr:termType rr:IRI ] ] .
+
+<#energySystemComponent_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystemComponent_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#energySystem_hasComponent> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystem_hasComponent.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasComponent> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasComponent}" ; rr:termType rr:IRI ] ] .
+
+<#energySystem_hasDesignCharacteristics> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystem_hasDesignCharacteristics.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasDesignCharacteristics> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasDesignCharacteristics}" ; rr:termType rr:IRI ] ] .
+
+<#economicMetric_evaluatedAt> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/economicMetric_evaluatedAt.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{economic_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#evaluatedAt> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluatedAt}" ; rr:termType rr:IRI ] ] .
+
+<#economicMetric_hasEconomicMetricType> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/economicMetric_hasEconomicMetricType.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{economic_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasEconomicMetricType> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasEconomicMetricType}" ; rr:termType rr:IRI ] ] .
+
+<#economicMetric_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/economicMetric_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{economic_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#economicMetric_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/economicMetric_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{economic_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#energySystem_hasEconomicMetric> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystem_hasEconomicMetric.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasEconomicMetric> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasEconomicMetric}" ; rr:termType rr:IRI ] ] .
+
+<#energySystem_hasEnergySystemType> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystem_hasEnergySystemType.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasEnergySystemType> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasEnergySystemType}" ; rr:termType rr:IRI ] ] .
+
+<#energySystem_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystem_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#energySystem_installedAt> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystem_installedAt.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#installedAt> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{installedAt}" ; rr:termType rr:IRI ] ] .
+
+<#energySystem_producesEnergyCarrier> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystem_producesEnergyCarrier.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#producesEnergyCarrier> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{producesEnergyCarrier}" ; rr:termType rr:IRI ] ] .
+
+<#energySystem_usesEnergyResource> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystem_usesEnergyResource.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#usesEnergyResource> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{usesEnergyResource}" ; rr:termType rr:IRI ] ] .
+
+<#study_assessesEnergySystem> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_assessesEnergySystem.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#assessesEnergySystem> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{assessesEnergySystem}" ; rr:termType rr:IRI ] ] .
+
+<#evaluationResult_atLocation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/evaluationResult_atLocation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluation_result_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#atLocation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{atLocation}" ; rr:termType rr:IRI ] ] .
+
+<#evaluationResult_evaluationResultForCriterion> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/evaluationResult_evaluationResultForCriterion.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluation_result_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#evaluationResultForCriterion> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluationResultForCriterion}" ; rr:termType rr:IRI ] ] .
+
+<#evaluationResult_evaluationResultForScenario> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/evaluationResult_evaluationResultForScenario.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluation_result_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#evaluationResultForScenario> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluationResultForScenario}" ; rr:termType rr:IRI ] ] .
+
+<#evaluationResult_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/evaluationResult_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluation_result_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#evaluationResult_resultOfMetric> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/evaluationResult_resultOfMetric.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluation_result_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#resultOfMetric> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{resultOfMetric}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_hasEvaluationResult> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_hasEvaluationResult.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasEvaluationResult> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasEvaluationResult}" ; rr:termType rr:IRI ] ] .
+
+<#study_usesEvaluationMetric> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_usesEvaluationMetric.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#usesEvaluationMetric> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{usesEvaluationMetric}" ; rr:termType rr:IRI ] ] .
+
+<#impact_hasImpactType> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/impact_hasImpactType.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{impact_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasImpactType> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasImpactType}" ; rr:termType rr:IRI ] ] .
+
+<#impact_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/impact_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{impact_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#impact_impactOfEnergySystem> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/impact_impactOfEnergySystem.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{impact_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#impactOfEnergySystem> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{impactOfEnergySystem}" ; rr:termType rr:IRI ] ] .
+
+<#impact_impactOnLocation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/impact_impactOnLocation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{impact_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#impactOnLocation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{impactOnLocation}" ; rr:termType rr:IRI ] ] .
+
+<#impact_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/impact_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{impact_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#policyTarget_appliesToCountry> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/policyTarget_appliesToCountry.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_target_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#appliesToCountry> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{appliesToCountry}" ; rr:termType rr:IRI ] ] .
+
+<#policyTarget_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/policyTarget_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_target_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#policyTarget_policyTargetResource> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/policyTarget_policyTargetResource.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_target_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#policyTargetResource> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{policyTargetResource}" ; rr:termType rr:IRI ] ] .
+
+<#policy_appliesToCountry> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/policy_appliesToCountry.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#appliesToCountry> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{appliesToCountry}" ; rr:termType rr:IRI ] ] .
+
+<#policy_appliesToLocation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/policy_appliesToLocation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#appliesToLocation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{appliesToLocation}" ; rr:termType rr:IRI ] ] .
+
+<#policy_assessedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/policy_assessedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#assessedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{assessedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#policy_setsPolicyTarget> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/policy_setsPolicyTarget.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#setsPolicyTarget> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{setsPolicyTarget}" ; rr:termType rr:IRI ] ] .
+
+<#policy_targetsEnergyResource> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/policy_targetsEnergyResource.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{policy_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#targetsEnergyResource> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{targetsEnergyResource}" ; rr:termType rr:IRI ] ] .
+
+<#influencingFactor_affectsEnergyResource> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/influencingFactor_affectsEnergyResource.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{factor_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#affectsEnergyResource> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{affectsEnergyResource}" ; rr:termType rr:IRI ] ] .
+
+<#influencingFactor_affectsEnergySystem> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/influencingFactor_affectsEnergySystem.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{factor_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#affectsEnergySystem> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{affectsEnergySystem}" ; rr:termType rr:IRI ] ] .
+
+<#influencingFactor_affectsLocation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/influencingFactor_affectsLocation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{factor_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#affectsLocation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{affectsLocation}" ; rr:termType rr:IRI ] ] .
+
+<#influencingFactor_hasFactorType> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/influencingFactor_hasFactorType.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{factor_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasFactorType> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasFactorType}" ; rr:termType rr:IRI ] ] .
+
+<#influencingFactor_identifiedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/influencingFactor_identifiedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{factor_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#identifiedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{identifiedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#dataset_collectedWithInstrument> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/dataset_collectedWithInstrument.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{dataset_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#collectedWithInstrument> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{collectedWithInstrument}" ; rr:termType rr:IRI ] ] .
+
+<#instrument_measuresVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/instrument_measuresVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{instrument_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#measuresVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{measuresVariable}" ; rr:termType rr:IRI ] ] .
+
+<#location_hasClimate> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/location_hasClimate.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{canonical_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasClimate> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasClimate}" ; rr:termType rr:IRI ] ] .
+
+<#location_hasTerrain> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/location_hasTerrain.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{canonical_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasTerrain> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasTerrain}" ; rr:termType rr:IRI ] ] .
+
+<#location_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/location_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{canonical_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#location_locatedInCountry> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/location_locatedInCountry.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{canonical_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#locatedInCountry> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{locatedInCountry}" ; rr:termType rr:IRI ] ] .
+
+<#model_combinesModel> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/model_combinesModel.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{model_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#combinesModel> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{combinesModel}" ; rr:termType rr:IRI ] ] .
+
+<#model_derivedFromModel> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/model_derivedFromModel.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{model_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#derivedFromModel> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{derivedFromModel}" ; rr:termType rr:IRI ] ] .
+
+<#study_employsModel> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_employsModel.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#employsModel> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{employsModel}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_applicationUsesScenario> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_applicationUsesScenario.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#applicationUsesScenario> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{applicationUsesScenario}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_appliedAtLocation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_appliedAtLocation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#appliedAtLocation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{appliedAtLocation}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_appliedToVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_appliedToVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#appliedToVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{appliedToVariable}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_appliesModel> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_appliesModel.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#appliesModel> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{appliesModel}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_hasInputVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_hasInputVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasInputVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasInputVariable}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_hasOutputVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_hasOutputVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasOutputVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasOutputVariable}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_usesDataset> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_usesDataset.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#usesDataset> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{usesDataset}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_usesEstimationMethod> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_usesEstimationMethod.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#usesEstimationMethod> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{usesEstimationMethod}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_usesOptimizationAlgorithm> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_usesOptimizationAlgorithm.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#usesOptimizationAlgorithm> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{usesOptimizationAlgorithm}" ; rr:termType rr:IRI ] ] .
+
+<#observation_hasMeasurementHeightUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/observation_hasMeasurementHeightUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{observation_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasMeasurementHeightUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasMeasurementHeightUnit}" ; rr:termType rr:IRI ] ] .
+
+<#observation_hasReferencePlane> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/observation_hasReferencePlane.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{observation_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasReferencePlane> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasReferencePlane}" ; rr:termType rr:IRI ] ] .
+
+<#observation_hasTemporalResolution> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/observation_hasTemporalResolution.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{observation_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasTemporalResolution> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasTemporalResolution}" ; rr:termType rr:IRI ] ] .
+
+<#observation_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/observation_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{observation_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#observation_observationAtLocation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/observation_observationAtLocation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{observation_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#observationAtLocation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{observationAtLocation}" ; rr:termType rr:IRI ] ] .
+
+<#observation_observationOfVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/observation_observationOfVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{observation_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#observationOfVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{observationOfVariable}" ; rr:termType rr:IRI ] ] .
+
+<#mixtureComponent_componentModelType> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/mixtureComponent_componentModelType.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#componentModelType> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{componentModelType}" ; rr:termType rr:IRI ] ] .
+
+<#mixtureComponent_hasParameterValue> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/mixtureComponent_hasParameterValue.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasParameterValue> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasParameterValue}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_hasMixtureComponent> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_hasMixtureComponent.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasMixtureComponent> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasMixtureComponent}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_hasParameterValue> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_hasParameterValue.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasParameterValue> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasParameterValue}" ; rr:termType rr:IRI ] ] .
+
+<#parameterValue_atLocation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/parameterValue_atLocation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{parameter_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#atLocation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{atLocation}" ; rr:termType rr:IRI ] ] .
+
+<#parameterValue_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/parameterValue_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{parameter_value_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#energySystem_hasPerformanceMetric> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/energySystem_hasPerformanceMetric.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{energy_system_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasPerformanceMetric> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasPerformanceMetric}" ; rr:termType rr:IRI ] ] .
+
+<#performanceMetric_evaluatedAt> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/performanceMetric_evaluatedAt.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{performance_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#evaluatedAt> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{evaluatedAt}" ; rr:termType rr:IRI ] ] .
+
+<#performanceMetric_hasMeasurementHeightUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/performanceMetric_hasMeasurementHeightUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{performance_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasMeasurementHeightUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasMeasurementHeightUnit}" ; rr:termType rr:IRI ] ] .
+
+<#performanceMetric_hasPerformanceMetricType> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/performanceMetric_hasPerformanceMetricType.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{performance_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasPerformanceMetricType> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasPerformanceMetricType}" ; rr:termType rr:IRI ] ] .
+
+<#performanceMetric_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/performanceMetric_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{performance_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#performanceMetric_performanceMetricUsesVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/performanceMetric_performanceMetricUsesVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{performance_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#performanceMetricUsesVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{performanceMetricUsesVariable}" ; rr:termType rr:IRI ] ] .
+
+<#performanceMetric_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/performanceMetric_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{performance_metric_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#characterization_characterizesLocation> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/characterization_characterizesLocation.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{characterization_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizesLocation> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{characterizesLocation}" ; rr:termType rr:IRI ] ] .
+
+<#characterization_characterizesVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/characterization_characterizesVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{characterization_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizesVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{characterizesVariable}" ; rr:termType rr:IRI ] ] .
+
+<#characterization_derivedFromDataset> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/characterization_derivedFromDataset.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{characterization_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#derivedFromDataset> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{derivedFromDataset}" ; rr:termType rr:IRI ] ] .
+
+<#characterization_hasMeasurementHeightUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/characterization_hasMeasurementHeightUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{characterization_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasMeasurementHeightUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasMeasurementHeightUnit}" ; rr:termType rr:IRI ] ] .
+
+<#characterization_hasReferencePlane> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/characterization_hasReferencePlane.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{characterization_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasReferencePlane> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasReferencePlane}" ; rr:termType rr:IRI ] ] .
+
+<#characterization_hasTemporalResolution> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/characterization_hasTemporalResolution.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{characterization_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasTemporalResolution> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasTemporalResolution}" ; rr:termType rr:IRI ] ] .
+
+<#characterization_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/characterization_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{characterization_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#characterization_hasWindPowerClass> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/characterization_hasWindPowerClass.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{characterization_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasWindPowerClass> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasWindPowerClass}" ; rr:termType rr:IRI ] ] .
+
+<#study_reportsCharacterization> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_reportsCharacterization.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportsCharacterization> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportsCharacterization}" ; rr:termType rr:IRI ] ] .
+
+<#scenario_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/scenario_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{scenario_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#scenario_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/scenario_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{scenario_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#modelApplication_usesTool> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/modelApplication_usesTool.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{application_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#usesTool> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{usesTool}" ; rr:termType rr:IRI ] ] .
+
+<#study_usesTool> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_usesTool.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#usesTool> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{usesTool}" ; rr:termType rr:IRI ] ] .
+
+<#paper_reports_study> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/paper_reports_study.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{paper_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reports> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reports}" ; rr:termType rr:IRI ] ] .
+
+<#study_analyzesEnergyResource> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_analyzesEnergyResource.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#analyzesEnergyResource> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{analyzesEnergyResource}" ; rr:termType rr:IRI ] ] .
+
+<#study_conductedAt> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_conductedAt.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#conductedAt> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{conductedAt}" ; rr:termType rr:IRI ] ] .
+
+<#study_hasObjective> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_hasObjective.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasObjective> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasObjective}" ; rr:termType rr:IRI ] ] .
+
+<#study_investigatesResearchProblem> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/study_investigatesResearchProblem.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{study_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#investigatesResearchProblem> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{investigatesResearchProblem}" ; rr:termType rr:IRI ] ] .
+
+<#uncertaintyComponent_hasUnit> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/uncertaintyComponent_hasUnit.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{uncertainty_component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#hasUnit> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{hasUnit}" ; rr:termType rr:IRI ] ] .
+
+<#uncertaintyComponent_reportedInStudy> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/uncertaintyComponent_reportedInStudy.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{uncertainty_component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#reportedInStudy> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{reportedInStudy}" ; rr:termType rr:IRI ] ] .
+
+<#uncertaintyComponent_uncertaintyComponentForApplication> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/uncertaintyComponent_uncertaintyComponentForApplication.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{uncertainty_component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#uncertaintyComponentForApplication> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{uncertaintyComponentForApplication}" ; rr:termType rr:IRI ] ] .
+
+<#uncertaintyComponent_uncertaintyComponentForVariable> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/uncertaintyComponent_uncertaintyComponentForVariable.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{uncertainty_component_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#uncertaintyComponentForVariable> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{uncertaintyComponentForVariable}" ; rr:termType rr:IRI ] ] .
+
+<#variable_characterizesEnergyResource> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/relations/variable_characterizesEnergyResource.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{variable_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <https://w3id.org/thirdwave/ontology#characterizesEnergyResource> ; rr:objectMap [ rr:template "https://w3id.org/thirdwave/data/{characterizesEnergyResource}" ; rr:termType rr:IRI ] ] .
+
+<#align_broadMatch> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/alignments/kg_skos_broadMatch.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{node_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#broadMatch> ; rr:objectMap [ rml:reference "external_iri" ; rr:termType rr:IRI ] ] .
+
+<#align_closeMatch> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/alignments/kg_skos_closeMatch.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{node_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#closeMatch> ; rr:objectMap [ rml:reference "external_iri" ; rr:termType rr:IRI ] ] .
+
+<#align_exactMatch> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/alignments/kg_skos_exactMatch.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{node_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#exactMatch> ; rr:objectMap [ rml:reference "external_iri" ; rr:termType rr:IRI ] ] .
+
+<#align_narrowMatch> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/alignments/kg_skos_narrowMatch.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{node_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#narrowMatch> ; rr:objectMap [ rml:reference "external_iri" ; rr:termType rr:IRI ] ] .
+
+<#align_relatedMatch> a rr:TriplesMap ;
+  rml:logicalSource [ rml:source "data/alignments/kg_skos_relatedMatch.csv" ; rml:referenceFormulation ql:CSV ] ;
+  rr:subjectMap [ rr:template "https://w3id.org/thirdwave/data/{node_id}" ] ;
+  rr:predicateObjectMap [ rr:predicate <http://www.w3.org/2004/02/skos/core#relatedMatch> ; rr:objectMap [ rml:reference "external_iri" ; rr:termType rr:IRI ] ] .

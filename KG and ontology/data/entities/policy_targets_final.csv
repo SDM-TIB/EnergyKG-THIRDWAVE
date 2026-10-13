@@ -1,0 +1,6 @@
+policy_target_id,policyTargetName,policyTargetValue,policyTargetYear,policyTargetBasis,policyTargetStatus
+R713416__policytarget_001,Renewable-energy supply target,13,2015,Total Power Generation,
+R713416__policytarget_002,Renewable-energy supply target,23,2025,Total Power Generation,
+R713416__policytarget_003,Renewable-energy supply target,36,2030,Total Power Generation,
+R713440__policytarget_001,White paper renewable-energy target,10000,,,
+R727676__policytarget_001,New-build installed wind capacity by 2030,8.4,2030,,proposed

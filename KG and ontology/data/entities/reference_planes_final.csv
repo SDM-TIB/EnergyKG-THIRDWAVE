@@ -1,0 +1,4 @@
+reference_plane_id,label,definition,comment
+reference_plane__above_ground_level,above ground level,"A reference level at the local ground surface, from which heights are measured vertically.",Abbreviated AGL. It is the standard reference for anemometer heights and turbine hub heights in wind studies.
+reference_plane__above_sea_level,above sea level,"A reference level at mean sea level, from which heights and elevations are measured vertically.",Abbreviated ASL or AMSL. It is used for terrain elevation and for heights given relative to a common vertical datum.
+reference_plane__above_hilltop_level,above hilltop level,"A reference level at the top of a hill, from which heights are measured vertically.","It is used in studies of wind over hills, where the speed-up over the crest is described relative to the hilltop rather than to the surrounding ground."

@@ -1,0 +1,1151 @@
+canonical_id,locationName,locationDescription,locationLatitude,locationLongitude,locationAltitude,locationGranularity,locationFeatureType,locationSettlementType
+R1378024__location_001,European Region,"The research domain extends from 22°W, 33°N to 45.5°E, 72.5°N and covers most European countries and adjacent sea areas.",,,,region,,
+R1378024__location_002,Hegyhatsal,Long-term wind mast station used to test the trained transfer model.,,,,site,wind_measurement_site,
+R1378024__location_003,SAC,Long-term wind mast station used to test the trained transfer model.,,,,site,wind_measurement_site,
+R1378028__location_001,Dhahran,,,,,city,settlement,urban
+R689577__location_001,Mato Grosso do Sul,"A state in the middle-west Brazilian region, located in the central region of South America and influenced by the Subtropical Atlantic Anticyclone.",,,,subnational_region,administrative_region,
+R689577__location_002,Costa Rica,,-18.492665,-53.171261,727,city,settlement,urban
+R689577__location_003,Coxim,,-18.512146,-54.736116,251,city,settlement,urban
+R689577__location_004,Três Lagoas,,-20.79,-51.7122,329,city,settlement,urban
+R689577__location_005,Ivinhema,,-22.300421,-53.822895,377,city,settlement,urban
+R689577__location_006,Ponta Porã,,-22.552448,-55.716317,668,city,settlement,urban
+R689577__location_007,Bela Vista,,-22.101536,-56.540763,206,city,settlement,urban
+R689577__location_008,Corumbá,,-18.99667,-57.6375,112,city,settlement,urban
+R689577__location_009,Miranda,,-20.39553,-56.431736,132,city,settlement,urban
+R689596__location_001,Site 1,Slightly windy study site.,,,507,site,,
+R689596__location_002,Site 2,Moderately windy study site.,,,1146,site,,
+R689596__location_003,Site 3,Very windy study site.,,,79,site,,
+R689600__location_001,Nigeria,,,,,country,country,
+R689600__location_002,Bauchi,,,,616.0,site,,
+R689600__location_003,Maiduguri,,,,353.8,site,,
+R689600__location_004,Kano,,,,484.0,site,,
+R689600__location_005,Sokoto,,,,350.8,site,,
+R689600__location_006,Jos,,,,1280,site,,
+R689600__location_007,Minna,,,,243.0,site,,
+R689600__location_008,Ikeja,,,,40.0,site,,
+R689600__location_009,Oshogbo,,,,336.0,site,,
+R689600__location_010,Benin,,,,88.0,site,,
+R689600__location_011,Ogoja,,,,128.0,site,,
+R689600__location_012,Enugu,,,,141.8,site,,
+R689600__location_013,Owerri,,,,91.0,site,,
+R689605__location_001,Catalca,"Catalca site in the Marmara region in Istanbul, Republic of Turkey.",41.14324,28.46154,88,subnational_region,study_site,
+R702336__location_001,Tehran,"The study concerns Tehran, the capital of Iran. The northern and southern parts of Tehran were reported to have approximate maximum and minimum elevations of 1700 m and 1100 m above sea level, respectively.",,,,city,settlement,urban
+R702336__location_002,Mehrabad International Airport meteorological station,"The station is located in western Tehran. One passage reports Tehran as longitude 51°20′ E and latitude 51°25′ N, whereas the site-description section reports the station at 35°20′ N and 51°25′ E.",,,1208,site,meteorological_station,
+R702341__location_001,Koronos village wind measurement site,Remote location in the northeastern part of Naxos Island. The surrounding topography is characterised by hills and mountains covered with bushes and very limited flat fields.,,,700,site,study_site,rural
+R702341__location_002,Naxos Island,Located toward the middle of the Cyclades in the southern part of the Central Aegean Sea.,,,,area,island,
+R703000__location_001,Semnan province,"Located in the northeast of Iran's central plateau, extending along the Alborz mountain range and bordering the Dasht-e Kavir desert.",,,,subnational_region,administrative_region,
+R703000__location_002,Biarjmand,Located in the eastern part of Semnan province.,,,,site,meteorological_station,
+R703000__location_003,Damghan,Located in the center of Semnan province.,,,1170,town,meteorological_station,
+R703000__location_004,Garmsar,Located in western Semnan province.,,,,town,meteorological_station,
+R703000__location_005,Semnan,Capital city of Semnan province.,,,1138,city,meteorological_station,urban
+R703000__location_006,Shahrood,Located in eastern Semnan province.,,,,town,meteorological_station,
+R703000__location_007,Moalleman,Located 128 km south of Damghan and north of the Kavir desert.,,,,site,meteorological_station,rural
+R703000__location_008,Haddadeh,A studied village site associated with Damghan.,,,,site,meteorological_station,rural
+R703000__location_009,Kahak of Garmsar,A studied village site associated with Garmsar.,,,,site,meteorological_station,rural
+R703003__location_001,Zahedan,"Located in the central part of Sistan-Baloochestan province. The paper describes Zahedan as being in the southeast of Iran in the abstract and elsewhere, but describes it as being in the southwest of Iran in the location description.",29.466667,60.883333,1370,city,settlement,urban
+R703006__location_001,Hengchun (station A),Located at the southern peninsula of Taiwan and experiencing more stable weather conditions throughout the year.,,,,site,,
+R703006__location_002,Chungtun (station B),Located on a small island in the Taiwan Strait and having the highest wind in winter and spring months.,,,,site,,
+R703006__location_003,Dayuan (station C),Located on the northwestern plain of Taiwan and having strong wind in winter.,,,,site,,
+R703009__location_001,Enugu,Selected meteorological station in south-east Nigeria.,6.433333,7.483333,304.7,site,,
+R703009__location_002,Owerri,Selected meteorological station in south-east Nigeria.,5.483333,7.033333,186.05,site,,
+R703009__location_003,Onitsha,Selected meteorological station in south-east Nigeria.,6.166667,6.783333,63.14,site,,
+R703013__location_001,Waglan Island meteorological station,"The station is sited on Waglan Island, an outlying island in the southeastern waters of Hong Kong. Exposure is good, with open waters in all directions.",,,82.7,site,island,
+R703013__location_002,Cheung Chau Island meteorological station,"The station is located on the southern part of Cheung Chau Island, and its anemometer is placed at the peak of the island.",,,98.6,site,island,
+R703013__location_003,Sha Chau Island meteorological station,The station is positioned in the western waters of Hong Kong.,,,31,site,island,
+R703013__location_004,Southeastern water near Waglan Island,Potential offshore wind-farm location near Waglan Island.,,,,area,offshore_area,offshore
+R703013__location_005,Southwestern Lamma Island,Potential offshore wind-farm location evaluated using wind data obtained from Cheung Chau Island in lieu of wind data from Lamma Island.,,,,area,offshore_area,offshore
+R703013__location_006,Western water near Sha Chau,Potential offshore wind-farm location near Sha Chau.,,,,area,offshore_area,offshore
+R703026__location_001,Kwangyang Bay,Located in Chonnam Province on the southern coast of the Korean Peninsula and surrounded by small hills.,,,,area,offshore_area,offshore
+R703026__location_002,Yeosu Weather Station,"At the southern entrance of Kwangyang Bay, on top of a hill in front of the sea.",,,67,site,meteorological_station,
+R703026__location_003,Tjare,,,,,site,wind_measurement_site,
+R703026__location_004,Hangwon Windfarm,"Located in Jeju, Korea.",,,,site,wind_farm,
+R703029__location_001,Adrar,Selected station in the southern region of Algeria.,,,263,site,meteorological_station,
+R703029__location_002,Bechar,Selected station in the southern region of Algeria.,,,811,site,meteorological_station,
+R703029__location_003,Ghardaia,Selected station in the southern region of Algeria.,,,468,site,meteorological_station,
+R703029__location_004,In Amenas,Selected station in the southern region of Algeria.,,,561,site,meteorological_station,
+R703029__location_005,Tamanrasset,Selected station in the southern region of Algeria.,,,1377,site,meteorological_station,
+R703032__location_001,Abuja,,,,536.0,site,meteorological_station,
+R703032__location_002,Bida,,,,144.3,site,meteorological_station,
+R703032__location_003,Ilorin,,,,307.4,site,meteorological_station,
+R703032__location_004,Lokoja,,,,62.5,site,meteorological_station,
+R703032__location_005,Makurdi,,,,112.9,site,meteorological_station,
+R703032__location_006,Minna,,,,256.4,site,meteorological_station,
+R703035__location_001,Zwara,Zwara is located at the northwestern coast of Libya.,,,,city,coastal_area,urban
+R703043__location_001,Bojnourd,Site in North Khorasan province.,,,,site,meteorological_station,
+R703043__location_002,Esfarayen,Site in North Khorasan province.,,,,site,meteorological_station,
+R703043__location_003,Nehbandan,Site in South Khorasan province.,,,,site,meteorological_station,
+R703043__location_004,Fadashk,Site in South Khorasan province. Coordinates are preserved exactly as printed in the paper.,,,,site,meteorological_station,
+R703046__location_001,Katsina,Selected site in Katsina State in northern Nigeria; described as a high-altitude location relative to Warri.,,,517.6,city,settlement,urban
+R703046__location_002,Warri,Selected site in Delta State in southwestern Nigeria; described as a low-altitude site.,,,6.1,city,settlement,urban
+R703046__location_003,Calabar,Selected site in Cross River State in southeastern Nigeria; its altitude was stated to lie between that of Katsina and Warri.,,,61.9,city,settlement,urban
+R703046__location_004,Kaduna,"Kaduna is named in the paper conclusion as the location associated with a cost/kWh value of C0.0507, although the methods, results, and earlier discussion identify Katsina rather than Kaduna as the northern study site.",,,,,,
+R703049__location_001,Waglan weather station,"Situated on an outlying island in the southeast waters of Hong Kong, surrounded by open waters with no significant obstruction in surrounding areas. The anemometer is at an altitude of 82.7 m above mean sea level and 55.8 m above ground.",22.181944,114.303056,,site,meteorological_station,offshore
+R703049__location_002,Tai Mo Shan weather station,"Located on the highest peak in Hong Kong, approximately at the geographic center of the New Territory Peninsula. It has moderate gradients in all directions, and the anemometer is 11.2 m above ground.",22.410556,114.124444,955.2,site,meteorological_station,
+R703049__location_003,Hong Kong Observatory station,"Located in a flat urban area of Hong Kong where high-rise buildings are densely distributed. The harbour is less than 1 km to its west, south, and east. The anemometer is 42.3 m above ground.",22.301944,114.174167,,site,meteorological_station,urban
+R703049__location_004,Cheung Chau weather station,Built on the southern part of Cheung Chau Island. The anemometer is at 98.6 m above mean sea level. Wind measurements may be strongly affected by mountains in the north and east and can provide good information of winds originating from the south and west.,22.201111,114.026667,71.9,site,meteorological_station,offshore
+R703049__location_005,Tate’s Cairn weather station,Located at the main peak of Tate’s Cairn. The southwest slope is relatively sharp and a significant speed-up effect of southwesterly winds may be observed. The anemometer is 12.4 m above ground.,22.357778,114.217778,575,site,meteorological_station,
+R703052__location_001,Kudat,,6.916667,116.916667,3.5,site,,
+R703052__location_002,Labuan,,5.333333,115.233333,29.3,site,,
+R703055__location_001,Jhampir-FFC,Jhampir mast site has a hard and rocky surface with roughness class of 1.5 and surface roughness length of 0.055 m.,25.075889,67.972833,,site,wind_measurement_site,
+R703058__location_001,"Bayan Lepas, Penang Island","Bayan Lepas meteorological station on Penang Island, situated about 15 km off the west coast of Peninsular Malaysia.",5.3,100.266667,,site,island,
+R703061__location_001,GS wind mast,The mast is located in a mountainous area a few kilometres from the under-study agricultural area. It is identified as the first measuring mast in the study area.,,,,,,
+R703061__location_002,under-study agricultural area,An intensively exploited agricultural area near the GS wind mast. Irrigation is reported as the major part of local agricultural energy demand.,,,,area,,
+R703064__location_001,Ankara,One of the regions around Ankara for which hourly wind data were analyzed.,,,,city,settlement,urban
+R703064__location_002,Polatlı,The second analyzed station/region in the study.,,,,site,meteorological_station,
+R703068__location_001,Chercher,,,,1767,site,,
+R703068__location_002,Maychew,,12.783333,39.533333,2479,site,,
+R703068__location_003,Mekele,,13.483333,39.466667,2084,site,,
+R703068__location_004,Senkata,,14.216667,39.566667,2480,site,,
+R703072__location_001,Bushehr province,Bushehr province is located in the south of Iran with a long coastline on the Persian Gulf. It includes plains along the Persian Gulf coast and mountainous regions including the Gach Torsh and Nokand mountain ranges.,,,,subnational_region,administrative_region,
+R703072__location_002,Asaluyeh,Meteorological site in Bushehr province.,,,,site,,
+R703072__location_003,Bordkhun,Meteorological site in Bushehr province.,,,,site,,
+R703072__location_004,Delvar,Meteorological site in Bushehr province.,,,,site,,
+R703072__location_005,Haft-Chah,Meteorological site in Bushehr province.,,,,site,,
+R703075__location_001,Al Hoceima,,,,,site,,
+R703075__location_002,Assila,,,,,site,,
+R703075__location_003,Dakhla,,,,,site,,
+R703075__location_004,Essouira,,,,,site,,
+R703075__location_005,Laayoune,,,,,site,,
+R703075__location_006,Tetouane,,,,,site,,
+R703078__location_001,Kribi,Key industrial town in the South region of Cameroon.,,,10,city,settlement,urban
+R703078__location_002,Douala,Chief capital city of the Littoral region and the economic capital of Cameroon.,,,19,city,settlement,urban
+R703078__location_003,Limbe,"The Limbe data were taken at Debouncha, on the western coast of Limbe.",,,69,city,settlement,urban
+R703081__location_001,Bohai Bay,"The measuring location was around a single-point mooring system of an FPSO unit in the western part of Bohai Bay, approximately 90 km west of Tianjin Xingang Port.",,,,area,offshore_area,offshore
+R703084__location_001,N’Djamena,"N’Djamena is the capital city of Chad, located at the edge of the western part of the country near neighbouring Cameroon.",,,295,city,settlement,urban
+R703084__location_002,Hassan Djamous International Airport,The recent wind-speed data used in the study were collected from this airport in N’Djamena.,,,,site,airport,
+R703087__location_001,Medan,"Medan is the capital of North Sumatra province and is bordered to the north, south, east and west by Deli Serdang Regency.",,,,city,settlement,urban
+R703087__location_002,Station Polonia,"Government Meteorological Agencies Station Polonia, cited as the source of the wind-speed and air-humidity data.",,,,site,,
+R703091__location_001,Amdjarass,Capital of the East-Ennedi province in northeast Chad; described as the largest city in the province and the fourth largest in Saharan northern Chad.,16.1964,22.2774,752.23,city,settlement,urban
+R703091__location_002,Fada,Capital of the West-Ennedi province in northeast Chad.,17.189,21.5847,742.36,town,settlement,
+R703095__location_001,Ain Salah,Site of the wind-resource assessment and proposed wind-farm planning.,27.25,2.51,269,site,meteorological_station,
+R703102__location_001,Eritrea,,,,,country,country,
+R703102__location_002,Aligedir,Western lowland wind-measurement site.,15.122,36.578833,758,site,,
+R703102__location_003,Kerkebet,Western lowland wind-measurement site.,16.058833,37.4315,450,site,,
+R703102__location_004,Agordet,Western lowland wind-measurement site.,15.552,37.875833,633,site,,
+R703102__location_005,Keren,Western lowland wind-measurement site on the border to the central highlands.,15.777333,38.471167,1400,site,,
+R703102__location_006,Adobha,Central highland wind-measurement site.,17.123667,38.233833,1870,site,,
+R703102__location_007,Nakfa,Central highland wind-measurement site in hilly landscape.,16.65,38.4,2690,site,,
+R703102__location_008,Gizgiza,Central highland wind-measurement site.,16.004,38.511833,1180,site,,
+R703102__location_009,Debresina,Central highland wind-measurement site.,15.754667,38.704833,2210,site,,
+R703102__location_010,Embatkala,Central highland wind-measurement site.,15.397167,39.072833,1361,site,,
+R703102__location_011,Asmara ERTC,Urban central-highland wind-measurement site.,15.358,38.891,2230,site,,
+R703102__location_012,Asmara Airport,Urban central-highland wind-measurement site.,15.292,38.903833,2325,site,airport,
+R703102__location_013,Dekemhare,Central highland wind-measurement site.,15.080333,39.052,2000,site,,
+R703102__location_014,Halay,High-altitude central-highland site with open and regular surface.,15.019833,39.319667,2700,site,,
+R703102__location_015,Kohiato,High-altitude central-highland site with open and regular surface.,14.8995,39.409667,2600,site,,
+R703102__location_016,Areza,Central-highland site surrounded by low-vegetated agricultural landscape.,14.913167,38.563833,2029,site,,
+R703102__location_017,Maileham,Central-highland site surrounded by low-vegetated agricultural landscape.,14.697667,38.723667,1980,site,,
+R703102__location_018,Hashmet,Coastal-region wind-measurement site.,17.735833,38.735667,10,site,,
+R703102__location_019,Dahlak,Coastal-region wind-measurement site.,15.745,39.9925,3,site,,
+R703102__location_020,Massawa,Coastal-region wind-measurement site.,15.655,39.4725,5,site,,
+R703102__location_021,Ingel,Coastal-region wind-measurement site.,15.135833,39.864333,60,site,,
+R703102__location_022,Tio,Coastal-region wind-measurement site.,14.679167,40.961667,0,site,,
+R703102__location_023,Bada,Coastal-region deep-depression site located 45 km from the sea shore.,14.554167,40.132,-90,site,,
+R703102__location_024,Idi,Coastal-region wind-measurement site with some surrounding obstacles.,13.929667,41.687833,10,site,,
+R703102__location_025,Assab Airport,Coastal-region wind-measurement site in the far southern part of Eritrea near the mouth of the Red Sea.,13.026667,42.649,0,site,airport,
+R703102__location_026,Gahro,Coastal-region wind-measurement site in the far southern part of Eritrea near the mouth of the Red Sea.,12.791167,43.070667,30,site,,
+R703105__location_001,Akure,"Akure metropolis is the capital of Ondo State in South West Nigeria. The meteorological station was situated in Akure. For height extrapolation, the authors described Akure as a densely populated urban area within the thick forested South West Nigeria.",7.283333,5.3,375.0,city,settlement,urban
+R704955__location_001,Florya,Station A; located in the Marmara region.,40.966667,28.783333,10,site,wind_measurement_site,
+R704955__location_002,Yalova,Station B; located in the Marmara region.,40.65,29.283333,10,site,wind_measurement_site,
+R704955__location_003,Gebze,Station C; located in the Marmara region.,40.8,29.433333,10,site,wind_measurement_site,
+R704955__location_004,Biga,Station D; located in the Marmara region.,40.216667,27.25,10,site,wind_measurement_site,
+R704973__location_001,Zuwara,Study location where wind-speed data were collected during 2007.,,,,city,settlement,urban
+R704994__location_001,Lomé (Tokoin),The measuring point of the weather data was in an airport area.,6.17,1.25,25,site,airport,
+R704994__location_002,Accra (Kotoka),The measuring point of the weather data was in an airport area.,5.6,-0.17,69,site,airport,
+R704994__location_003,Cotonou (Cadjehoun),The measuring point of the weather data was in an airport area.,6.35,2.38,9,site,airport,
+R705081__location_001,İzmir–Aliağa,"Aliağa is a district of İzmir city in the Aegean Region of Turkey, located in the western extremity of Anatolia toward the Aegean Sea. It is surrounded by Dumanlı Mountain on the coast of the Aegean Sea and Yunt Mountain on the northeast.",,,,subnational_region,administrative_region,
+R705188__location_001,Agadir Al Massira,Agadir Al Massira Airport meteorological station.,,,74,site,,
+R705198__location_001,Cide,A district of Kastamonu located in the western part of Turkey's Black Sea region.,41.866667,32.933333,36,subnational_region,administrative_region,
+R705198__location_002,Keban,A district of the Elazıg province located in Turkey's Eastern Anatolia region.,38.783333,38.733333,808,subnational_region,administrative_region,
+R705211__location_001,Pakistan,The study used wind data at sixty locations in Pakistan.,,,,country,country,
+R705211__location_002,Chaghi,Investigated location in Balochistan.,,,,site,,
+R705211__location_003,DI Khan,Investigated location in KPK.,,,,site,,
+R705211__location_004,Rahim Yar Khan,Investigated location in Punjab.,,,,site,,
+R705211__location_005,Thatta,Investigated location in Sindh.,,,,site,,
+R705221__location_001,Imphal,Selected station in Northeast India.,24.75,93.9,774,city,settlement,urban
+R705221__location_002,Guwahati,Selected station in Northeast India.,26.1,91.583333,54,city,settlement,urban
+R705221__location_003,Shillong,Selected station in Northeast India.,25.566667,91.883333,1600,city,settlement,urban
+R705221__location_004,Kolkata,"The biggest city in East India and the capital of West Bengal, selected for wind power analysis.",22.533333,88.333333,6.4,city,settlement,urban
+R705236__location_001,Jeddah,"Jeddah is the biggest port and second largest city in Saudi Arabia after Riyadh. It is 75 Km west of Makkah and borders hills parallel to the Al-Srawat mountains from the east. The climate is described as having high humidity most of the year, being very hot in summer and tending to be cold in winter.",21.5,41.944,,city,settlement,urban
+R705236__location_002,King Abdulaziz International Airport,The airport is located in the north of Jeddah.,,,,site,airport,
+R705566__location_001,Athos buoy station,Marine experimental weather station in the Aegean Sea.,39.966667,24.716667,3,site,,
+R705566__location_002,Crete buoy station,Marine experimental weather station in the Aegean Sea.,35.766667,24.9,3,site,,
+R705566__location_003,Kalamata buoy station,Marine experimental weather station in the Ionian Sea.,36.966667,22.1,3,site,,
+R705566__location_004,Lesvos buoy station,Marine experimental weather station in the Aegean Sea.,39.15,25.8,3,site,,
+R705566__location_005,Mykonos buoy station,Marine experimental weather station in the Aegean Sea.,37.516667,25.45,3,site,,
+R705566__location_006,Saronikos buoy station,Marine experimental weather station in the Aegean Sea.,37.6,23.55,3,site,,
+R705566__location_007,Pylos buoy station,Marine experimental weather station in the Ionian Sea.,36.816667,21.583333,3,site,,
+R705566__location_008,Santorini buoy station,Marine experimental weather station in the Aegean Sea.,36.25,25.5,3,site,,
+R705566__location_009,Zakynthos buoy station,Marine experimental weather station in the Ionian Sea.,37.95,20.6,3,site,,
+R705585__location_001,Bursa,,,,100,site,,
+R705585__location_002,Sakarya,,,,30,site,,
+R705610__location_001,Chabahar,Selected station in east and southeast Iran.,,,7,site,meteorological_station,
+R705610__location_002,Khaf,Selected station in east and southeast Iran; situated in a region under the direct influence of the strong persistent northwesterly to northeasterly winds known as the wind of 120 days.,,,810,site,meteorological_station,
+R705610__location_003,Lutak,Selected station in east and southeast Iran; situated in a region under the direct influence of the strong persistent northwesterly to northeasterly winds known as the wind of 120 days.,,,485,site,meteorological_station,
+R705610__location_004,Rafsanjan,Selected station in east and southeast Iran.,,,1581,site,meteorological_station,
+R705610__location_005,Zabol,Selected station in east and southeast Iran; situated in a region under the direct influence of the strong persistent northwesterly to northeasterly winds known as the wind of 120 days.,,,489,site,meteorological_station,
+R706033__location_001,District of Maroua,Located in the Far North Region of Cameroon.,12.582222,14.3275,395,subnational_region,administrative_region,
+R706049__location_001,Maroua,"Located in the Far North Region of Cameroon and surrounded by highlands, hilltops and inselbergs that are part of the Mandara Mountains.",10.597222,14.315833,384,subnational_region,administrative_region,
+R706049__location_002,Kousseri,"Located in the Far North Region of Cameroon, approximately 184 km by air from Maroua, and surrounded by highlands, hilltops and inselbergs that are part of the Mandara Mountains.",12.078333,15.030833,271,subnational_region,administrative_region,
+R707161__location_001,Garoua,"The meteorological station was located at the International Airport of Garoua, described as the main meteorological station.",9.333333,13.383333,242,subnational_region,meteorological_station,
+R707402__location_001,Florya,Denoted by Station A in the study.,,,,region,,
+R707402__location_002,Yunak,Denoted by Station B in the study.,,,,region,,
+R707402__location_003,Ulukışla,Denoted by Station C in the study.,,,,region,,
+R707412__location_001,Palermo,Urban area of Palermo in southern Italy.,,,,city,settlement,urban
+R707412__location_002,Merlino station,Weather station located in the urban area of Palermo.,38.104006,13.346181,,site,,urban
+R707412__location_003,Morgana station,Weather station located in the urban area of Palermo.,38.131097,13.355556,,site,,urban
+R707412__location_004,Cassandra station,Weather station located in the urban area of Palermo.,38.121078,13.371067,,site,,urban
+R707412__location_005,Pizia station,Weather station located in the urban area of Palermo.,38.128233,13.330442,,site,,urban
+R707435__location_001,France,"The study used 89 weather stations across France, including flat northern and western regions and complex southern and eastern terrain influenced by the Pyrénées, Alps, Massif Central, Rhône valley, and Aude valley.",,,,country,country,
+R707435__location_002,Nantes,"Example station in flat terrain, representative of many stations in north-western France.",,,,site,,urban
+R707435__location_003,Pau,Example station in a complex topographic region close to the Pyrénées mountains.,,,,site,,urban
+R707435__location_004,Orange,Example station in the Rhône valley influenced by mistral channelled flow.,,,,site,,urban
+R707456__location_001,Alfred,Selected North Dakota wind-energy-development-potential site.,,,631,site,,
+R707456__location_002,Green R,Selected North Dakota wind-energy-development-potential site.,,,818,site,,
+R707456__location_003,Olga,Selected North Dakota wind-energy-development-potential site.,,,475,site,,
+R707456__location_004,Ray W,Selected North Dakota wind-energy-development-potential site.,,,750,site,,
+R707478__location_001,Malaysia,A maritime equatorial country in Southeast Asia. The paper describes wet and humid conditions and wind regimes influenced by southwest and northeast monsoons and inter-monsoons.,2.216667,112.216667,,country,country,
+R707478__location_002,Peninsular Malaysia,"The northeast, northwest, and southeast regions were identified on the interpolated maps as having higher wind-power potential than other Peninsular Malaysian regions.",,,,region,,
+R707478__location_003,East Malaysia,The study separately assessed East Malaysia using semivariogram and inverse-distance-weighting analyses.,,,,region,,
+R707478__location_004,Southern region of Sabah,Identified from the East Malaysia wind-power interpolation map as having the highest wind power compared with other East Malaysian regions.,,,,region,,
+R707507__location_001,Mersing,Selected wind station in Malaysia.,2.45,105.833333,,site,wind_measurement_site,
+R707507__location_002,Cameron Highlands,Selected wind station in Malaysia.,4.466667,101.366667,,site,wind_measurement_site,
+R707507__location_003,Malacca,Selected wind station in Malaysia.,2.266667,102.25,,site,wind_measurement_site,
+R707507__location_004,Kudat,Selected wind station in Malaysia.,6.916667,116.833333,,site,wind_measurement_site,
+R707507__location_005,Putrajaya,Selected wind station in Malaysia.,2.916667,101.666667,,site,wind_measurement_site,
+R707507__location_006,Sandakan,Selected wind station in Malaysia.,5.9,118.066667,,site,wind_measurement_site,
+R707519__location_001,Kuantan,Kuantan station (B07) in Peninsular Malaysia.,,,,site,meteorological_station,
+R707519__location_002,Balok Baru,Balok Baru station (B08) in Peninsular Malaysia.,,,,site,meteorological_station,
+R707531__location_001,Ancona,Italian meteorological station located along the coast.,,,16,,,
+R707531__location_002,Cagliari,Italian meteorological station located along the coast.,,,23,,,
+R707531__location_003,Naples,Italian meteorological station located along the coast.,,,17,,,
+R707531__location_004,Reggio Calabria,Italian meteorological station located along the coast.,,,10,,,
+R707531__location_005,Venice,Italian meteorological station located along the coast.,,,10,,,
+R707531__location_006,National Renewable Energy Laboratory station,"NREL station located at the western edge of the National Wind Technology Center Site and approximately 8 km south of Boulder, Colorado.",,,1855,,research_facility,
+R707542__location_001,Berthold,NDAWN wind site designated WF1.,,,,site,wind_measurement_site,
+R707542__location_002,Lisbon,NDAWN wind site designated WF2.,,,,site,wind_measurement_site,
+R707542__location_003,Marion,NDAWN wind site designated WF3.,,,,site,wind_measurement_site,
+R707542__location_004,Perley,NDAWN wind site designated WF4.,,,,site,wind_measurement_site,
+R707542__location_005,Baker,NDAWN wind site designated WF5.,,,,site,wind_measurement_site,
+R707542__location_006,Beach,NDAWN wind site designated WF6.,,,,site,wind_measurement_site,
+R707542__location_007,Bowbells,NDAWN wind site designated WF7.,,,,site,wind_measurement_site,
+R707542__location_008,Cavalier,NDAWN wind site designated WF8.,,,,site,wind_measurement_site,
+R707550__location_001,Barrie-Oro,"Station A, Ontario province; longitude reported as W.",,,289,,,
+R707550__location_002,Fort Severn A,"Station B, Ontario province; longitude reported as W.",,,15.8,,,
+R707550__location_003,Hamilton A,"Station C, Ontario province; longitude reported as W.",,,237.7,,,
+R707550__location_004,Peawanuck,"Station D, Ontario province; longitude reported as W.",,,52.7,,,
+R707550__location_005,Peterborough,"Station E, Ontario province; longitude reported as W.",,,191.4,,,
+R707550__location_006,Sandy Lake A,"Station F, Ontario province; longitude reported as W.",,,289.9,,,
+R707550__location_007,Sault Ste Marie A,"Station G, Ontario province; longitude reported as W.",,,192,,,
+R707550__location_008,Thunder Bay A,"Station H, Ontario province; longitude reported as W.",,,199,,,
+R707550__location_009,Toronto City Center,"Station I, Ontario province; longitude reported as W.",,,76.8,,,
+R707550__location_010,Wiarton,"Station J, Ontario province; longitude reported as W.",,,222.2,,,
+R707558__location_001,North America,The dataset contains observations from 178 ocean buoy stations around North America.,,,,,offshore_area,offshore
+R707568__location_001,Shurje,"Shurje is approximately 200 km west of Tehran in Qazvin Province, Iran, where access to electricity is limited.",,,1200,site,,rural
+R707578__location_001,Al Aradh,,23.903,55.499,178,,,
+R707578__location_002,Al Mirfa,,24.122,53.443,6,,,
+R707578__location_003,Al Wagan,,23.579,55.419,142,,,
+R707578__location_004,East of Jebel Haffet,,24.168,55.864,341,,,
+R707578__location_005,Madinat Zayed,,23.561,53.709,137,,,
+R707578__location_006,Masdar City,,24.42,54.613,7,,,
+R707578__location_007,Sir Bani Yas Island,,24.322,52.566,7,,island,
+R707578__location_008,Al Hala,,25.497,56.143,,,,
+R707578__location_009,Masdar Wind Station,,24.42,54.613,0.6,,,
+R707587__location_001,Al Aradh,Station located in the foothills in the United Arab Emirates.,23.903,55.499,178,site,mountain_area,
+R707587__location_002,Al Mirfa,Station located near the coastline in the United Arab Emirates.,24.122,53.443,6,site,coastal_area,
+R707587__location_003,Al Wagan,Station located inland in the United Arab Emirates.,23.579,55.419,142,site,study_site,
+R707587__location_004,East of Jebel Haffet,Station located in the mountainous north-eastern region of the United Arab Emirates.,24.168,55.864,341,site,mountain_area,
+R707587__location_005,Madinat Zayed,Station located inland in the United Arab Emirates.,23.561,53.709,137,site,study_site,
+R707587__location_006,Masdar City,Station located near the coastline in the United Arab Emirates.,24.42,54.613,7,site,coastal_area,urban
+R707587__location_007,Sir Bani Yas Island,Station located near the coastline in the United Arab Emirates.,24.322,52.566,7,site,island,
+R707596__location_001,Province of Québec,A northern Canadian region covering a territory of over 1.5 million km2. Most selected meteorological stations were located in the southern part of the province on both sides of the Saint-Lawrence River.,,,,subnational_region,administrative_region,
+R707661__location_001,Greater area of Chania,"North-oriented coastal area in northwestern Crete including the Chania valley and the Akrotiri Peninsula; defined by the White Mountains to the south, the Aegean Sea coastline to the north and east, and the Akrotiri peninsula to the northeast.",,,,region,,
+R707661__location_002,Souda station,,35.508333,-23.911111,118,site,,urban
+R707661__location_003,Platanias station,,35.496111,-24.05,23,site,,rural
+R707661__location_004,Malaxa station,,35.465833,-24.0425,556,site,,rural
+R707661__location_005,TEI station,,35.519167,-24.0425,38,site,,urban
+R707661__location_006,Pedio Volis station,,35.569722,-24.172222,422,site,,rural
+R707661__location_007,Airport station,,35.55,-24.116667,140,site,,rural
+R707672__location_001,Tulihe,Tulihe (TLH) in Neimenggu province.,,,1063,site,,
+R707672__location_002,Wulumuqi,Wulumuqi (WLMQ) in Xinjiang province.,,,654,site,,
+R707672__location_003,Shenyang,Shenyang (SY) in Liaoning province.,,,42,site,,
+R707672__location_004,Qingdao,Qingdao (QD) in Shandong province.,,,0,site,,
+R707672__location_005,Guangzhou,Guangzhou (GZ) in Guangdong province.,,,6,site,,
+R707672__location_006,Hangzhou,Hangzhou (HZ) in Zhejiang province.,,,7,site,,
+R707672__location_007,Fuzhou,Fuzhou (FZ) in Fujian province.,,,88,site,,
+R707672__location_008,Nanjing,Nanjing (NJ) in Jiangsu province.,,,9,site,,
+R707672__location_009,Guiyang,Guiyang (GY) in Guizhou province.,,,1071,site,,
+R707672__location_010,Dalian,Dalian (DL) in Liaoning province.,,,18,site,,
+R707682__location_001,GISENYI,Located at a local airport.,-1.666667,29.25,1554,site,meteorological_station,
+R707682__location_002,KIGALI,Located at a local airport.,-1.966667,30.133333,1490,site,meteorological_station,
+R707682__location_003,BUTARE,Located at a local airport.,-2.6,29.733333,1760,site,meteorological_station,
+R707682__location_004,conflicting_values,"Table 1 and the results identify this observatory as KAMEMBE, whereas the Data section once lists ""Kanombe"" among the four selected stations.",,,1487,site,meteorological_station,
+R707692__location_001,Al Aradh,The Al Aradh station is located in the foothills.,,,178,site,,
+R707692__location_002,Sir Bani Yas Island,The Sir Bani Yas Island station is located near the coastline.,,,7,site,island,
+R707692__location_003,East of Jebel Haffet,The East of Jebel Haffet station is located in the mountainous north-eastern mountainous region.,,,341,site,,
+R707692__location_004,Madinat Zayed,The Madinat Zayed station is located inland.,,,137,site,,
+R707692__location_005,Masdar Wind Station,The Masdar Wind Station is located near the coastline.,,,0.6,site,,
+R707692__location_006,Al Mirfa,The Al Mirfa station is located near the coastline.,,,6,site,,
+R707692__location_007,Al Wagan,The Al Wagan station is located inland.,,,142,site,,
+R707701__location_001,Andros,Onshore location at Andros Island; wind measurements were obtained from a CRES meteorological mast.,,,,site,,
+R707701__location_002,Crete,Greek Mediterranean offshore location measured by a POSEIDON oceanographic buoy.,,,,site,,
+R707701__location_003,Pylos,Greek Mediterranean offshore location measured by a POSEIDON oceanographic buoy.,,,,site,,
+R707701__location_004,Zakynthos,Greek Mediterranean offshore location measured by a POSEIDON oceanographic buoy.,,,,site,,
+R707701__location_005,Cabo de Gata,Spanish Mediterranean offshore location measured by a Spanish Port Authority oceanographic buoy.,,,,site,,
+R707701__location_006,Mar de Alboran,Spanish Mediterranean offshore location measured by a Spanish Port Authority oceanographic buoy.,,,,site,,
+R707709__location_001,Athos,Greek waters,39.96,24.72,,site,,
+R707709__location_002,Avgo,Greek waters,35.62,25.64,,site,,
+R707709__location_003,E1M3A,Greek waters,35.79,24.92,,site,,
+R707709__location_004,Kalamata,Greek waters,36.97,22.11,,site,,
+R707709__location_005,Lesvos,Greek waters,39.15,25.81,,site,,
+R707709__location_006,Mykonos,Greek waters,37.51,25.46,,site,,
+R707709__location_007,Petrokaravo,Greek waters,37.61,23.57,,site,,
+R707709__location_008,Pylos,Greek waters,36.83,21.61,,site,,
+R707709__location_009,Santorini,Greek waters,36.25,25.49,,site,,
+R707709__location_010,Skyros,Greek waters,39.11,24.47,,site,,
+R707709__location_011,Zakynthos,Greek waters,37.95,20.61,,site,,
+R707709__location_012,Mar de Alboran,Spanish coastal waters,36.27,-5.03,,site,,
+R707709__location_013,Cabo de Gata,Spanish coastal waters,36.57,-2.32,,site,,
+R707709__location_014,Cabo de Palos,Spanish coastal waters,37.65,-0.33,,site,,
+R707709__location_015,Valencia,Spanish coastal waters,39.52,0.21,,site,,
+R707709__location_016,Tarragona,Spanish coastal waters,40.68,1.47,,site,,
+R707709__location_017,Cabo Begur,Spanish coastal waters,41.92,3.65,,site,,
+R707709__location_018,Mahon,Spanish coastal waters,39.72,4.44,,site,,
+R707709__location_019,Dragonera,Spanish coastal waters,39.56,2.1,,site,,
+R707902__location_001,Baden-Wuerttemberg,German federal state in Southwest Germany; the study area has complex topography and a mosaic-like land-cover pattern.,,,,subnational_region,administrative_region,
+R707902__location_002,Feldberg,"The top of the Feldberg, at 1493 m, is the highest elevation in the study area.",,,,site,,
+R707902__location_003,Triberg,,,,,site,,
+R707902__location_004,Black Forest,A low mountain range and one of the most complex topographical features affecting the wind resource in the study area.,,,,area,,
+R708241__location_001,Amasra,"Amasra, a district of Bartın, is located in the west part of the Black Sea region of Turkey.",,,12,subnational_region,administrative_region,
+R708241__location_002,Bandırma,"Bandırma, a district of Balıkesir province, is located in the north-western part of the Aegean region of Turkey.",,,63,subnational_region,administrative_region,
+R708241__location_003,Susehri,"Susehri, a district of Sivas province, is located at the eastern part of the Central Anatolia region of Turkey.",,,1050,subnational_region,administrative_region,
+R708241__location_004,Yunak,Yunak is a district of Konya province in the Central Anatolia region of Turkey.,,,1460,subnational_region,administrative_region,
+R708252__location_001,Bohai Rim Economic Circle,"Study area on the east coast of China that includes the Liaoning coastal Economic Zone, Beijing–Tianjin–Tangshan Economic Zone and Shandong peninsula blue Economic Zone.",,,,,,
+R708252__location_002,Site A,Specific examined site marked A in the Bohai Rim Economic Circle.,,,,site,,
+R708252__location_003,Site B,Specific examined site marked B in the Bohai Rim Economic Circle.,,,,site,,
+R708252__location_004,Site C,Specific examined site marked C in the Bohai Rim Economic Circle.,,,,site,,
+R708252__location_005,Site D,Specific examined site marked D in the Bohai Rim Economic Circle.,,,,site,,
+R708260__location_001,Station 1,One of four selected sites in central China.,30,115,,site,,
+R708260__location_002,Station 2,One of four selected sites in central China.,25,115,,site,,
+R708260__location_003,Station 3,One of four selected sites in central China.,25,112.5,,site,,
+R708260__location_004,Station 4,One of four selected sites in central China.,27.5,110,,site,,
+R708270__location_001,Site A,"The main text reports Site A at 37.7° N and 120° E, whereas Appendix Table 1 reports east longitude 120° and north latitude 37.5°.",,,,site,,
+R708270__location_002,Site B,"Site B in Bohaiwan, China.",,,,site,,
+R708270__location_003,Site C,"Site C in Bohaiwan, China.",,,,site,,
+R708294__location_001,Ganhekou,,40.51,95.44,,site,wind_measurement_site,
+R708294__location_002,Changma,,39.85,96.78,,site,wind_measurement_site,
+R708294__location_003,Deelen,,52.06,5.89,,site,wind_measurement_site,
+R708294__location_004,Huibertgat,,53.57,6.4,,site,wind_measurement_site,
+R708294__location_005,Abilene,,32.41,-99.68,,site,wind_measurement_site,
+R708294__location_006,Bakersfield,,35.43,-119.05,,site,wind_measurement_site,
+R708307__location_001,Baker station,"Onshore station at Baker, ND.",48.167,-99.648,512,site,,
+R708307__location_002,"Station 44013-BOSTON, 16 NM East of Boston","Offshore station 16 NM east of Boston, MA; water depth was reported as 61 m.",42.346,-70.651,,site,,
+R708327__location_001,Alfred,Wind-resource observation site in North Dakota.,,,631,site,,
+R708327__location_002,Benedict,Wind-resource observation site in North Dakota.,,,671,site,,
+R708327__location_003,Green River,Wind-resource observation site in North Dakota.,,,818,site,,
+R708327__location_004,Olga,Wind-resource observation site in North Dakota.,,,475,site,,
+R708327__location_005,Ray/Wheelock,Wind-resource observation site in North Dakota.,,,750,site,,
+R708887__location_001,Global Earth surface,"The ERA-Interim reanalysis data cover the entire surface of the Earth, including onshore and offshore grid cells.",,,,global,,
+R708887__location_002,Exclusive economic zones,Offshore empirical probability density functions were analyzed for grid cells located within the exclusive economic zones of coastal countries.,,,,global,,
+R708887__location_003,Roaring forties,A zone in the southern hemisphere between latitude 40°S and 50°S where strong westerly winds occur.,,,,,,
+R708887__location_004,Venezuela grid cell,,8,-67,,area,,
+R708911__location_001,Worldwide,Globally distributed wind speed measuring stations.,,,,global,modelled_area,
+R708911__location_002,Altdorf,A small town in the Swiss Alps.,,,451,settlement,settlement,
+R708911__location_003,Senj,A Croatian town at the upper Adriatic coast.,,,28,settlement,settlement,
+R708911__location_004,Ridder,A city near the Altai Mountains.,,,811,settlement,settlement,urban
+R708911__location_005,Mokha,A port city on the Red Sea coast.,,,3,settlement,settlement,urban
+R708911__location_006,San Francisco Bay Reserve,San Francisco Bay Reserve in the USA.,,,3,site,study_site,
+R708940__location_001,Cendere,Station A.,,,,site,wind_measurement_site,
+R708940__location_002,Gesi,Station B.,,,,site,wind_measurement_site,
+R708940__location_003,Muratlı,Station C.,,,,site,wind_measurement_site,
+R708940__location_004,Goztepe,Station D.,,,,site,wind_measurement_site,
+R709006__location_001,Bouzaréah,One of three stations in a coastal area open to the Mediterranean Sea.,,,330,site,coastal_area,
+R709006__location_002,El-Hamdania,One of three stations in a coastal area open to the Mediterranean Sea.,,,12,site,coastal_area,
+R709006__location_003,Bousmaïl,One of three stations in a coastal area open to the Mediterranean Sea.,,,13,site,coastal_area,
+R709006__location_004,Adrar,Station located in a desertic zone in the south of Algeria.,,,262,site,desert,
+R709022__location_001,Bam,"Station east of Kerman Province, about 200 km from the city of Kerman; the paper describes warm climate in plains and moderate climate in mountainous areas.",,,1071,site,,
+R709022__location_002,Bardsir,"The narrative text states that Bardsir sits at an altitude of 2044 m above sea level, whereas Table 1 reports an elevation of 1763 m.",,,,site,,
+R709022__location_003,Arzuiyeh,Station about 250 km southwest of Kerman; the paper describes desert and semi-desert conditions and predominantly dry weather.,,,1054,site,,
+R709022__location_004,Rafsanjan,Main township of Kerman Province; the paper describes a desert climate and an approximate average annual temperature of 17.6 °C.,,,1550,site,,
+R709022__location_005,Shahrbabak,Station in the western part of Kerman Province; the paper describes the climate as semi-desert and slightly dry.,,,1856,site,,
+R709039__location_001,Bilecik,,,,539,city,meteorological_station,urban
+R709039__location_002,Bursa,,,,100,city,meteorological_station,urban
+R709039__location_003,Eskisehir,,,,801,city,meteorological_station,urban
+R709039__location_004,Sakarya,,,,30,city,meteorological_station,urban
+R709075__location_001,WM01 (Alexander Bay),Wind-measurement site in the study's ten-site South African dataset.,,,,site,,
+R709075__location_002,WM02 (Calvinia),Wind-measurement site in the study's ten-site South African dataset.,,,,site,,
+R709075__location_003,WM03 (Vredendal),Wind-measurement site in the study's ten-site South African dataset.,,,,site,,
+R709075__location_004,WM04 (Vredenburg),Wind-measurement site in the study's ten-site South African dataset.,,,,site,,
+R709075__location_005,WM05 (Napier),Wind-measurement site in the study's ten-site South African dataset.,,,,site,,
+R709075__location_006,WM06 (Sutherland),Wind-measurement site in the study's ten-site South African dataset.,,,,site,,
+R709075__location_007,WM07 (Prince Albert),Wind-measurement site in the study's ten-site South African dataset.,,,,site,,
+R709075__location_008,WM08 (Humansdorp),Wind-measurement site in the study's ten-site South African dataset.,,,,site,,
+R709075__location_009,WM09 (Noupoort),Wind-measurement site in the study's ten-site South African dataset.,,,,site,,
+R709075__location_010,WM10 (Butterworth),Wind-measurement site in the study's ten-site South African dataset.,,,,site,,
+R709086__location_001,Shanghai,Study site in the Yangtze River Delta City Group.,,,,city,settlement,urban
+R709086__location_002,Hangzhou,Study site in the Yangtze River Delta City Group.,,,,city,settlement,urban
+R709086__location_003,Taizhou,Study site in the Yangtze River Delta City Group.,,,,city,settlement,urban
+R709086__location_004,Chuzhou,Study site in the Yangtze River Delta City Group.,,,,city,settlement,urban
+R709096__location_001,Jilin,One of the four Chinese wind-farm regions considered in the study.,,,196,region,wind_farm,
+R709096__location_002,Ningxia,One of the four Chinese wind-farm regions considered in the study.,,,1000,region,wind_farm,
+R709096__location_003,Gansu,One of the four Chinese wind-farm regions considered in the study.,,,1000,region,wind_farm,
+R709096__location_004,Dongshan Island,One of the four Chinese wind-farm regions considered in the study.,23.7,117.416667,274,area,wind_farm,
+R709107__location_001,India,The analysed measurement sites were spread across India.,,,,country,country,
+R709107__location_002,Channavadayanpura,A site in coastal Karnataka used for R2 computations.,,,,site,,
+R709107__location_003,Amberi,A site in Maharashtra selected as a uni-modal wind-speed distribution illustration.,,,,site,,
+R709107__location_004,Ulindakonda,A site in Andhra Pradesh selected as a uni-modal wind-speed distribution illustration.,,,,site,,
+R709107__location_005,Pushpathur,A site in Tamil Nadu selected as a bi-modal wind-speed distribution illustration.,,,,site,,
+R709107__location_006,Mylampati,A site in Tamil Nadu selected as a bi-modal wind-speed distribution illustration.,,,,site,,
+R709107__location_007,Aundhewadi,A site in Maharashtra selected as a multi-modal wind-speed distribution illustration.,,,,site,,
+R710275__location_001,Far North Region,Far North Region of Cameroon,,,,region,administrative_region,
+R710637__location_001,Abong Mbang meteorological station,Situated in the East Region and the equatorial zone of the Republic of Cameroon.,3.083333,13.183333,700.13,site,meteorological_station,
+R710647__location_001,Maroua,"Capital of the Far North Region of Cameroon, located within the Diamaré plain and surrounded by inselbergs that are part of the Mandara Mountains.",10.597222,14.315833,384,city,settlement,urban
+R710647__location_002,Hilltops and exposed ridge tops surrounding the district of Maroua,"Modelled hilltops and exposed ridge tops in the direct surroundings of Maroua, ranging from 50 to 350 m AGL.",,,,area,mountain_area,
+R710647__location_003,Hilltop level 50 m AGL surrounding Maroua,Modelled hilltop level at 50 m above ground level in the surroundings of Maroua.,,,,,,
+R710647__location_004,Hilltop level 100 m AGL surrounding Maroua,Modelled hilltop level at 100 m above ground level in the surroundings of Maroua.,,,,,,
+R710647__location_005,Hilltop level 150 m AGL surrounding Maroua,Modelled hilltop level at 150 m above ground level in the surroundings of Maroua.,,,,,,
+R710647__location_006,Hilltop level 200 m AGL surrounding Maroua,Modelled hilltop level at 200 m above ground level in the surroundings of Maroua.,,,,,,
+R710647__location_007,Hilltop level 250 m AGL surrounding Maroua,Modelled hilltop level at 250 m above ground level in the surroundings of Maroua.,,,,,,
+R710647__location_008,Hilltop level 300 m AGL surrounding Maroua,Modelled hilltop level at 300 m above ground level in the surroundings of Maroua.,,,,,,
+R710647__location_009,Hilltop level 350 m AGL surrounding Maroua,Modelled hilltop level at 350 m above ground level in the surroundings of Maroua.,,,,,,
+R711154__location_001,Garoua International Airport,The main meteorological station is located at Garoua International Airport.,9.333333,13.383333,242,site,meteorological_station,
+R711159__location_001,Ambam,"Ambam is located in the Vallée-du-Ntem Division, South Region of Cameroon.",2.316667,11.266667,347,town,settlement,
+R711419__location_001,Debuncha,"A small Cameroonian village on the western coast of the city of Limbe, at the windward side of Mount Cameroon. The paper describes Debuncha as the rainiest place in central and west Africa.",,,36,village,settlement,rural
+R711460__location_001,Cameroon,The Republic of Cameroon has ten regions and two main seasons: the dry season from November to March and the rainy season from April to October.,,,,country,country,
+R711460__location_002,Study-area rectangular grid,"A rectangular grid enclosing the whole of Cameroon and some neighbouring territories, comprising 45 longitudes by 61 latitudes and 2745 collection points.",,,,area,,
+R711460__location_003,Lake Chad Basin,"Northern part of the study area; among the locations with the highest wind speeds and power densities, especially during the dry season.",,,,region,river_basin,
+R711460__location_004,Gulf of Guinea,"Southwestern part of the study area; among the locations with the highest wind speeds and power densities, especially during the rainy season.",,,,region,,
+R711507__location_001,Bafoussam,"Bafoussam is in the West Region of Cameroon, about 80 km from Bamenda. The airport is northwest of the town.",,,1438,city,settlement,urban
+R711568__location_001,Ngaoundere,Representative town of the Adamawa region of Cameroon.,,,,town,settlement,
+R711568__location_002,Garoua,Representative town of the North Cameroon region.,,,,town,settlement,
+R711568__location_003,Maroua,Representative town of the Far North Cameroon region.,,,,town,settlement,
+R711568__location_004,Bamenda,Representative town of the Northwest Cameroon region.,,,,town,settlement,
+R711568__location_005,Ebolowa,Representative town of the South Cameroon region.,,,,town,settlement,
+R711568__location_006,Douala,Representative town of the Littoral Cameroon region.,,,,town,settlement,
+R711568__location_007,Buea,Representative town of the Southwest Cameroon region.,,,,town,settlement,
+R711568__location_008,Bafoussam,Representative town of the West Cameroon region.,,,,town,settlement,
+R711568__location_009,Yaounde,Representative town of the Central Cameroon region.,,,,town,settlement,
+R711568__location_010,Bertoua,Representative town of the East Cameroon region.,,,,town,settlement,
+R712261__location_001,North Region,One of the ten regions of Cameroon; one of the driest regions of Cameroon under the influence of harmattan winds in the dry season. The Benoue depression constitutes the primary land feature.,,,1000,region,administrative_region,
+R712261__location_002,Bashéo,,,,403.8,settlement,settlement,
+R712261__location_003,Beka,,,,296.16,settlement,settlement,
+R712261__location_004,Figuil,,,,407.05,settlement,settlement,
+R712261__location_005,Garoua,Ground measurements were collected at the Garoua main meteorological station.,,,291.79,city,settlement,urban
+R712261__location_006,Pitoa,,,,,settlement,settlement,
+R712261__location_007,Poli,,,,512.62,settlement,settlement,
+R712261__location_008,Rey-Bouba,,,,344.08,settlement,settlement,
+R712261__location_009,Touboro,,,,651.63,settlement,settlement,
+R712275__location_001,Kousseri,District of Kousseri in the Far North Region of Cameroon.,,,302,subnational_region,administrative_region,
+R712288__location_001,District of Maroua,Located in the Far North Region of Cameroon.,12.582222,14.3275,395,subnational_region,administrative_region,
+R712532__location_001,Alasaba,A highland city in Libya's northwest.,,,796,city,settlement,urban
+R712549__location_001,Kırklareli University Kayalı Campus,University campus selected to assess campus wind-energy potential and provide an indication for other locations on the same line in Kırklareli province.,41.783333,27.166667,,site,research_facility,
+R712552__location_001,Bingöl,,,,1151,site,meteorological_station,
+R712552__location_002,Elazıg˘,,,,1067,site,meteorological_station,
+R712552__location_003,Erzurum,,,,1950,site,meteorological_station,
+R712552__location_004,Kars,,,,1768,site,meteorological_station,
+R712552__location_005,Manisa,,,,2020,site,meteorological_station,
+R712552__location_006,Nig˘de,,,,1300,site,meteorological_station,
+R712555__location_001,Djibouti-city,"Djibouti-city is situated in East Africa, in the coastal Djibouti region on the Gulf of Tadjoura.",11.5658,43.15435,7,city,settlement,urban
+R712559__location_001,Djibouti,Djibouti is situated in the Horn of Africa and has hot and cold seasons.,,,,country,country,
+R712559__location_002,University of Djibouti,Urban station in the south-east of Djibouti.,,,7,site,research_facility,urban
+R712559__location_003,International Airport of Djibouti,Urban station in the south-east of Djibouti.,,,8,site,airport,urban
+R712559__location_004,Ghoubet,Rural station in the south-west of Djibouti.,,,160,site,,rural
+R712559__location_005,Bara Wein / Bada Wein,"Rural station in the south-west of Djibouti. The station is named ""Bara Wein"" in the coordinates table and ""Bada Wein"" elsewhere in the paper.",,,539,site,,rural
+R712626__location_001,Illizi,"Located in southeast Algeria, north of Tassili n'Ajjer, about a hundred kilometers from Libya.",,,0541.9,region,administrative_region,
+R712626__location_002,Es senia,"The paper describes the second region as Oran, a harbor city of the Mediterranean Sea in northwest Algeria, while Table 1 labels the reported region/station as Es senia.",,,0089.9,region,administrative_region,
+R712630__location_001,Laayoune,"Laayoune is the most important city in Western Sahara. It is located on the Atlantic coast, 500 km south of Agadir and 400 km west of Tindouf, on the road to Dakhla. Its climate is characterized by an arid and temperate aspect.",27.153611,-13.203333,,city,settlement,urban
+R712633__location_001,Zambia,Southern African country within longitudes 21°–34°E and latitudes 17.4°S and 7.6°S.,,,,country,country,
+R712633__location_002,Eastern Province bordering Malawi,Lowland terrain in the Eastern Province bordering Malawi.,,,,subnational_region,administrative_region,
+R712633__location_003,Luangwa Valley,Valley of the Luangwa River; parts of this area lie below 500 m above sea level.,,,,area,,
+R712633__location_004,Central Zambia,,,,,region,,
+R712633__location_005,Northern Zambia,,,,,region,,
+R712637__location_001,Ngaoundere locality,Study locality in northern Cameroon.,,,,settlement,settlement,
+R712637__location_002,Ngaoundere meteorological airport station,Meteorological airport station of Ngaoundere where wind data used in the work were obtained.,,,,site,meteorological_station,
+R712637__location_003,Selected high wind resource area east of the data collection site,"Hill east of the data collection site, reported with UTM 33 coordinates of 387,000 m to 391,680 m E and 810,500 m to 815,180 m N.",,,,site,,
+R712641__location_001,Taïba Ndiaye wind farm,"Located in a coastal area approximately 85 km northeast of Dakar, Senegal, in the Thies region.",,,,site,wind_farm,
+R712644__location_001,Senegal,The westernmost country in West Africa.,,,,country,country,
+R712644__location_002,Basse Casamance,South-western part of Senegal.,,,,region,,
+R712644__location_003,Ziguinchor,Longitude is reported as 16.2354° W in Table 1.,,,30,city,settlement,urban
+R712644__location_004,Diembering,Longitude is reported as 16.7809° W in Table 1.,,,07,site,,
+R712644__location_005,Kabrousse,Longitude is reported as 16.7172° W in Table 1.,,,04,site,,
+R712644__location_006,Kafountine,Longitude is reported as 16.7333° W in Table 1.,,,09,site,,
+R712644__location_007,Bignona,Longitude is reported as 16.2354° W in Table 1.,,,09,site,,
+R712644__location_008,Oussouye,Longitude is reported as 16.5470° W in Table 1.,,,14,site,,
+R712648__location_001,Kano,"NIMET meteorological station in Kano, Nigeria.",12.05,8.2,472.5,subnational_region,administrative_region,
+R713394__location_001,Accra,Weather station number 654720 (DGAA).,,,68,city,settlement,urban
+R713398__location_001,Northern coast of Senegal,Northern coastal plain known as Niayes; described as a narrow strip of arable land approximately 200 km long and 50 km deep.,,,,region,coastal_area,
+R713398__location_002,Mboro,One of the five investigated northern Senegalese sites.,,,,site,,
+R713398__location_003,Makhana,One of the five investigated northern Senegalese sites.,,,,site,,
+R713398__location_004,conflicting_values,"The site is reported as ""Ndandekhou"" in the wind-data section and as ""Ndiandekhou"" in later text and Table 2.",,,,site,,
+R713398__location_005,Pékesse,One of the five investigated northern Senegalese sites.,,,,site,,
+R713398__location_006,Pôtou,One of the five investigated northern Senegalese sites.,,,,site,,
+R713401__location_001,Abeche,,,,545,city,settlement,urban
+R713401__location_002,Mongo,,,,430,city,settlement,urban
+R713401__location_003,N'Djamena,,,,432,city,settlement,urban
+R713405__location_001,Kano,,,,,,,
+R713405__location_002,Maiduguri,,,,,,,
+R713405__location_003,Jos,,,,,,,
+R713405__location_004,Abuja,,,,,,,
+R713405__location_005,Akure,,,,,,,
+R713411__location_001,Koluama,"Koluama is situated in Bayelsa State within the eastern region of the Niger Delta, Nigeria. The paper reports coordinates inconsistently as “4.47°N; 5.77°E” and “latitude 04°47`N and longitude 5°77`E”. Vegetation is mainly mangrove and salt-water swamps.",,,6.1,settlement,settlement,rural
+R713416__location_001,Lagos Marine (Victoria Island),Offshore Lagos (VI) location in south-west Nigeria.,,,2.0,area,,
+R713416__location_002,Rivers (Abonemma),Offshore Rivers (Abonemma) location in south-south Nigeria. Some result tables label this location as Port Harcourt.,,,19.5,area,,
+R713416__location_003,Warri (Koko),Offshore Warri (Koko) location in south-south Nigeria.,,,6.1,area,,
+R713420__location_001,Skikda,Coastal zone,36.866667,6.95,9,site,meteorological_station,
+R713420__location_002,Algiers,Coastal zone,36.716667,3.25,25,site,meteorological_station,
+R713420__location_003,Oran,Coastal zone,35.633333,-0.616667,99,site,meteorological_station,
+R713420__location_004,Tebassa,North of the Tellien mountains,35.433333,8.133333,816,site,meteorological_station,
+R713420__location_005,Chlef,North of the Tellien mountains,36.166667,1.35,112,site,meteorological_station,
+R713420__location_006,Tlemcen,North of the Tellien mountains,34.933333,-1.316667,810,site,meteorological_station,
+R713420__location_007,Djelfa,Highlands,34.683333,3.25,1144,site,meteorological_station,
+R713420__location_008,Tiaret,Highlands,35.383333,1.333333,1023,site,meteorological_station,
+R713420__location_009,El Bayadh,Highlands,33.683333,1.016667,1305,site,meteorological_station,
+R713420__location_010,In Amenas,Sahara,28.633333,9.633333,562,site,meteorological_station,
+R713420__location_011,InSalah,Sahara,27.2,2.466667,243,site,meteorological_station,
+R713420__location_012,Tindouf,Sahara,27.666667,-8.133333,402,site,meteorological_station,
+R713420__location_013,Adrar,Sahara,27.883333,-0.283333,264,site,meteorological_station,
+R713420__location_014,Béchar,Sahara,31.633333,-2.25,806,site,meteorological_station,
+R713420__location_015,Ghardaia,Sahara,32.383333,3.816667,450,site,meteorological_station,
+R713420__location_016,Tamanrasset,Sahara,22.783333,5.516667,1378,site,meteorological_station,
+R713424__location_001,Adafoah,Selected location along the coast of Ghana.,5.78,0.63,2.0,site,,
+R713424__location_002,Anloga,Selected location along the coast of Ghana.,5.8,0.9,5.0,site,,
+R713424__location_003,Aplaku,Selected location along the coast of Ghana.,5.51,-0.32,0.5,site,,
+R713424__location_004,Mankoadze,Selected location along the coast of Ghana.,5.32,-0.67,7.0,site,,
+R713424__location_005,Oshiyie,Selected location along the coast of Ghana.,5.5,-0.35,1.0,site,,
+R713424__location_006,Warabeba,Selected location along the coast of Ghana.,5.33,-0.62,5.0,site,,
+R713430__location_001,Lagos coastal region,"Southern coastal region of Lagos State, Nigeria, adjacent to the Atlantic Ocean.",,,,region,,
+R713430__location_002,Ikeja,"Ikeja, Lagos, identified in the paper as the location where maximum wind power density was observed.",,,,city,settlement,urban
+R713440__location_001,Johannesburg,"Meteorological station in Johannesburg, climate number 04763990.",,,,city,settlement,urban
+R713445__location_001,Abuja,Federal Capital Territory; North Central geopolitical zone.,,,346.58,city,settlement,urban
+R713445__location_002,Jos,Plateau State; North Central geopolitical zone.,,,1286.88,city,settlement,urban
+R713445__location_003,Kano,Kano State; North-West geopolitical zone.,,,477.62,city,settlement,urban
+R713445__location_004,Ondo,Ondo State; South-West geopolitical zone.,,,355.64,city,settlement,urban
+R713445__location_005,Akure,Ondo State; South-West geopolitical zone.,,,350.35,city,settlement,urban
+R713445__location_006,Abeokuta,Ogun State; South-West geopolitical zone.,,,62.38,city,settlement,urban
+R713445__location_007,Ibadan,Oyo State; South-West geopolitical zone.,,,232.53,city,settlement,urban
+R713445__location_008,Iseyin,Oyo State; South-West geopolitical zone.,,,309.81,city,settlement,urban
+R713445__location_009,Saki,Oyo State; South-West geopolitical zone.,,,328.26,city,settlement,urban
+R713445__location_010,Uyo,Akwa Ibom State; South-South geopolitical zone.,,,64.12,city,settlement,urban
+R713445__location_011,Calabar,Cross River State; South-South geopolitical zone.,,,64.51,city,settlement,urban
+R713445__location_012,Warri,Delta State; South-South geopolitical zone.,,,48.96,city,settlement,urban
+R713445__location_013,Onitsha,Anambra State; South-East geopolitical zone.,,,67.02,city,settlement,urban
+R713445__location_014,Awka,Anambra State; South-East geopolitical zone.,,,93.78,city,settlement,urban
+R713445__location_015,Maiduguri,Borno State; North-East geopolitical zone.,,,333.66,city,settlement,urban
+R713448__location_001,Benin Republic's Exclusive Economic Zone,"The total area of Benin's EEZ is roughly 35,528.369 km2. The study focuses only on data contained within the reported EEZ boundaries.",,,,area,offshore_area,offshore
+R713451__location_001,Kayar,Site located along the northwestern coast of Senegal.,,,6.0,site,,
+R713451__location_002,Potou,Site located along the northwestern coast of Senegal.,,,21.0,site,,
+R713451__location_003,Gandon,Site located along the northwestern coast of Senegal.,,,5.0,site,,
+R713451__location_004,Sakhor,"The site is far from the sea, but the presence of a hallway coming from the sea can promote acceleration of wind speed and increase regular wind speed.",,,3.0,site,,
+R713451__location_005,Sine Moussa Abdou,Site located along the northwestern coast of Senegal.,,,54.0,site,,
+R713451__location_006,Botla,Site located along the northwestern coast of Senegal.,,,28.0,site,,
+R713451__location_007,Dara Andal,Site located along the northwestern coast of Senegal.,,,43.0,site,,
+R713451__location_008,Nguebeul,Site located along the northwestern coast of Senegal.,,,51.0,site,,
+R716871__location_001,Msallata,Msallata is in the northwest of Libya.,,,198,site,,
+R716871__location_002,Espiaa,Espiaa is in the northwest of Libya.,,,156,site,,
+R716871__location_003,Alqatrun,Alqatrun is in the southwest of Libya.,,,518,site,,
+R716871__location_004,Adirsiyah,Adirsiyah is in the northeast of Libya.,,,332,site,,
+R717690__location_001,Gran Canaria,"Island in the Canarian Archipelago, Spain. Four selected weather stations were located on this island.",,,,area,island,
+R717690__location_002,R. Prieto weather station,Weather station 1 on Gran Canaria; one of two selected stations in the north of the island. The area was flat and had no obstacles between it and the sea.,,,,site,meteorological_station,
+R717690__location_003,F. Sardina weather station,Weather station 2 on Gran Canaria; one of two selected stations in the north of the island. The area was flat and had no obstacles between it and the sea.,,,,site,meteorological_station,
+R717690__location_004,P. Vargas weather station,Weather station 3 on Gran Canaria; one of two selected stations in the south-east of the island. The area was flat and had no obstacles between it and the sea.,,,,site,meteorological_station,
+R717690__location_005,P. Izquierdo weather station,Weather station 4 on Gran Canaria; one of two selected stations in the south-east of the island. The area was flat and had no obstacles between it and the sea.,,,,site,meteorological_station,
+R717710__location_001,Gnassingbé Eyadema International Airport (LFW),Wind-data collection site for Lomé.,,,25,site,airport,
+R717710__location_002,International Airport of Cotonou (COO),Wind-data collection site for Cotonou.,,,9,site,airport,
+R717717__location_001,Borj-Cedria,"Center of Research and Technology of Energy (CRTEn) in the Borj-Cedria area, 25 km at the southern suburbs of Tunis City.",,,,site,,
+R717721__location_001,Yenagoa,Capital of Bayelsa State; one of the states covered by the study.,,,206,city,settlement,urban
+R717721__location_002,Calabar,Capital of Cross River State; one of the states covered by the study.,,,13.0,city,settlement,urban
+R717721__location_003,Port Harcourt,Capital of Rivers State; one of the states covered by the study.,,,19.5,city,settlement,urban
+R718237__location_001,Al Hoceima,Studied Moroccan coastal site.,,,,site,coastal_area,
+R718237__location_002,Boujdour,Studied Moroccan coastal site.,,,,site,coastal_area,
+R718237__location_003,Essaouira,Studied Moroccan coastal site.,,,,site,coastal_area,
+R718237__location_004,Laayoune,Studied Moroccan coastal site.,,,,site,coastal_area,
+R718237__location_005,Tantan,Studied Moroccan coastal site.,,,,site,coastal_area,
+R719349__location_001,Ikeja,Nigeria Meteorological (NIMET) station in Lagos State.,,,39.4,site,,
+R719349__location_002,Lagos Marine,Nigeria Meteorological (NIMET) station in Lagos State.,,,2,site,,
+R719349__location_003,Lagos Island,Nigeria Meteorological (NIMET) station in Lagos State.,,,2,site,island,
+R719349__location_004,Ibadan,Nigeria Meteorological (NIMET) station in Oyo State.,,,227.2,site,,
+R719349__location_005,Oshogbo,Nigeria Meteorological (NIMET) station in Osun State.,,,302,site,,
+R719349__location_006,Abeokuta,Nigeria Meteorological (NIMET) station in Ogun State.,,,104,site,,
+R719349__location_007,Ijebu-Ode,Nigeria Meteorological (NIMET) station in Ogun State.,,,77,site,,
+R719349__location_008,Akure,Nigeria Meteorological (NIMET) station in Ondo State.,,,375,site,,
+R719349__location_009,Ondo,Nigeria Meteorological (NIMET) station in Ondo State.,,,287.3,site,,
+R719349__location_010,Ado Ekiti,Nigeria Meteorological (NIMET) station in Ekiti State.,,,455,site,,
+R719358__location_001,Batna,Selected meteorological-station site in the north of Algeria.,35.633333,4.833333,1036,city,settlement,
+R719358__location_002,Guelma,Selected meteorological-station site in the north of Algeria.,36.466667,7.466667,290,city,settlement,
+R719358__location_003,Medea,Selected meteorological-station site in the north of Algeria.,36.266667,2.75,881,city,settlement,
+R719358__location_004,Meliana,Selected meteorological-station site in the north of Algeria.,36.3,2.233333,715,city,settlement,
+R719358__location_005,Chlef,Selected meteorological-station site in the north of Algeria.,36.2,1.333333,143,city,settlement,
+R719358__location_006,Tiaret,Selected meteorological-station site in the north of Algeria.,35.383333,19.366667,995,city,settlement,
+R719358__location_007,Tlemcen,Selected meteorological-station site in the north of Algeria.,34.883333,19.2,842,city,settlement,
+R719366__location_001,Naama,"Naama is located in southwest Algeria on an elevated plateau. The landscape is predominantly flat and includes sparse grasslands, desert regions, occasional low hills, and rocky outcrops.",,,800,region,,
+R719366__location_002,Salhi Ahmed Naama University Center,University Center in the Naama region where meteorological instruments collected the wind dataset.,,,,site,research_facility,
+R719520__location_001,Tobruk,"The study text, figures, abstract, and conclusions identify Tobruk, Libya, as the selected area. Table 1 is instead labelled Nalut, Libya, creating an internal source conflict.",,,,city,coastal_area,urban
+R719520__location_002,Nalut,"Table 1 is labelled ""Nalut, Libya information"", although the study otherwise identifies Tobruk as the selected area.",,,568,,,
+R720066__location_001,Medan,,,,,,,
+R720167__location_001,University of Djibouti (UD),,11.5946,43.15,7,site,research_facility,urban
+R720167__location_002,International Airport of Djibouti (IAD),,11.5504,43.1537,8,site,airport,urban
+R720167__location_003,Ghoubet,,11.5615,42.6036,160,site,,rural
+R720167__location_004,Bada Wein / Bara Wein,The paper uses both the names “Bada Wein” and “Bara Wein” for the station.,11.2439,42.6017,539,site,,rural
+R720167__location_005,Djibouti,Djibouti is situated in the Horn of Africa. The paper reports a hot season from May to September and a cold season from October to April.,,,,country,country,
+R720348__location_001,Tobruk,"The abstract, objectives, figures, statistical-analysis section, and conclusions identify the study area as Tobruk, Libya. However, Table 1 is headed ""Nalut, Libya information"" and provides coordinates and elevation for Nalut.",,,,area,coastal_area,
+R720348__location_002,Nalut,"Location reported in Table 1, which conflicts with the paper's repeated identification of Tobruk as the study area.",,,568,settlement,settlement,
+R720760__location_001,Bangui,"Bangui is the capital and largest city of the Central African Republic, located on the right bank of the Ubangui River. The reported geographical delimitation is 18.3°–18.7° E and 4.3°–4.7° N and covers approximately 2000 km2.",,,36.820,city,settlement,urban
+R720760__location_002,Bangui M’Poko Airport,"The study area is at Bangui M’Poko Airport, on the west side of Bangui City.",,,,site,airport,
+R720760__location_003,Hill east of the data collection site,"A particular higher-wind-resource area east of the data-collection site, located at UTM 34 233769 m–239789 m E and 485550 m–491010 m N.",,,,site,,
+R720773__location_001,Enugu,Location in south-eastern Nigeria.,6.4,7.5,,,,
+R720773__location_002,Onitsha,Location in south-eastern Nigeria.,6.8,6.1,,,,
+R720773__location_003,Owerri,Location in south-eastern Nigeria.,5.5,7,,,,
+R722053__location_001,Federal University of Kashere,"Located in Akko Local Government Area of Gombe State, North-Eastern Nigeria.",,,431,site,research_facility,
+R723171__location_001,Kano,Case-study location in the northern part of Nigeria.,,,,city,settlement,urban
+R723171__location_002,Maiduguri,Case-study location in the northern part of Nigeria.,,,,city,settlement,urban
+R723171__location_003,Jos,Case-study location in the northern part of Nigeria.,,,,city,settlement,urban
+R723171__location_004,Abuja,Case-study location in the northern part of Nigeria.,,,,city,settlement,urban
+R723171__location_005,Akure,Case-study location in the southern part of Nigeria.,,,,city,settlement,urban
+R723300__location_001,Ikeja,,6.596389,3.341944,40,city,settlement,urban
+R723300__location_002,Port Harcourt,,4.777222,7.013333,16,city,settlement,urban
+R723300__location_003,Calabar,,4.958889,8.326944,37,city,settlement,urban
+R723300__location_004,Ibadan,,7.3775,3.905833,181,city,settlement,urban
+R723300__location_005,Benin City,,6.338056,5.625556,88,city,settlement,urban
+R723300__location_006,Owerri,,5.483611,7.033056,73,city,settlement,urban
+R723300__location_007,Lokoja,,7.796667,6.740278,53,city,settlement,urban
+R723300__location_008,Abuja,,9.057778,7.495,476,city,settlement,urban
+R723300__location_009,Makurdi,,7.733611,8.521389,92,city,settlement,urban
+R723300__location_010,Jos,,9.913333,8.8975,1217,city,settlement,urban
+R723300__location_011,Sokoto,,13.0625,5.243056,296,city,settlement,urban
+R723300__location_012,Kano,,12,8.516667,486,city,settlement,urban
+R723300__location_013,Maiduguri,,11.846667,13.156944,325,city,settlement,urban
+R723318__location_001,Yola Airport,Airport in Yola from where the wind-speed data were collected.,,,,site,airport,
+R723373__location_001,Ikeja,South-West zone; identified in the study as a coastal region.,,,,city,settlement,urban
+R723373__location_002,P/H,South-South zone; identified in the study as a coastal region.,,,465,,,
+R723373__location_003,Jos,North-West zone according to Table 1; identified in the study as a high-altitude region.,,,1217,city,settlement,urban
+R723373__location_004,Kano,North-West zone according to Table 1; identified in the study as a high-altitude region.,,,478,city,settlement,urban
+R724371__location_001,"Station A wind farm, Wenling city","Located on the East China Sea coast in Wenling city, Zhejiang Province.",,,,site,wind_farm,urban
+R724371__location_002,"Station B wind farm, Linhai city",Situated in Central and Southern Zhejiang.,,,,site,wind_farm,urban
+R724404__location_001,Arxan,"Station A, one of ten wind observation stations in Inner Mongolia Autonomous Region.",,,997.2,,,
+R724404__location_002,Baotou,"Station B, one of ten wind observation stations in Inner Mongolia Autonomous Region.",,,1067.2,,,
+R724404__location_003,Dongsheng,"Station C, one of ten wind observation stations in Inner Mongolia Autonomous Region.",,,1461.9,,,
+R724404__location_004,Erenhot,"Station D, one of ten wind observation stations in Inner Mongolia Autonomous Region.",,,964.7,,,
+R724404__location_005,Hailar,"Station E, one of ten wind observation stations in Inner Mongolia Autonomous Region.",,,649.6,,,
+R724404__location_006,Jining,"Station F, one of ten wind observation stations in Inner Mongolia Autonomous Region.",,,1419.3,,,
+R724404__location_007,Siziwang Banner,"Station G, one of ten wind observation stations in Inner Mongolia Autonomous Region.",,,1490.1,,,
+R724404__location_008,Tongliao,"Station H, one of ten wind observation stations in Inner Mongolia Autonomous Region.",,,178.7,,,
+R724404__location_009,Xilinhot,"Station I, one of ten wind observation stations in Inner Mongolia Autonomous Region.",,,1003.0,,,
+R724404__location_010,Zhalantun,"Station J, one of ten wind observation stations in Inner Mongolia Autonomous Region.",,,306.5,,,
+R724501__location_001,Amagro weather station,"Weather station installed in the northern region of the island of Gran Canaria, Canarian Archipelago, Spain.",,,,site,meteorological_station,
+R724505__location_001,Central West region,"The region comprises Goiás, Mato Grosso, Mato Grosso do Sul, and the Federal District. Its relief includes the central plateau, southern plateau, and wetland plain.",,,,region,,
+R724505__location_002,Brasília,,,,,city,settlement,urban
+R724505__location_003,Campo Grande,,,,,city,settlement,urban
+R724505__location_004,Cuiabá,,,,,city,settlement,urban
+R724505__location_005,Goiânia,,,,,city,settlement,urban
+R725713__location_001,Offshore Research Platform FINO-1,"Located in the North Sea, approximately 45 km north of the German island of Borkum, in the immediate vicinity of the Alpha Ventus wind farm.",54.014861,6.587542,,site,research_facility,
+R725792__location_001,Dori,,14.033333,-0.033333,282,site,,
+R725792__location_002,Ouahigouya,,13.516667,-2.316667,328,site,,
+R725792__location_003,Bogandé,,12.983333,-0.133333,295,site,,
+R725792__location_004,Fada N’goura,,12.066667,0.416667,298,site,,
+R725792__location_005,Po,,11.166667,-1.15,305,site,,
+R725792__location_006,Ouagadougou,,12.316667,-1.666667,299,site,,
+R725792__location_007,Dédougou,,12.466667,-3.466667,302,site,,
+R725792__location_008,Boromo,,11.75,-2.933333,325,site,,
+R725792__location_009,Bobo Dioulasso,,11.166667,-4.3,423,site,,
+R725792__location_010,Gaoua,,10.3,-3.2,329,site,,
+R725875__location_001,Medan City,Medan City is located at 2.5–37.5 meters above sea level and has significant wind potential.,,,,city,settlement,urban
+R725964__location_001,Ambur,"Selected wind-speed study station in Tamil Nadu, India.",12.79,78.71,323,city,settlement,urban
+R725964__location_002,Chennai,"Selected wind-speed study station in Tamil Nadu, India; Chennai is identified as the capital of Tamil Nadu and is located in the coastal zone.",13.08,80.27,13,city,settlement,urban
+R725964__location_003,Coimbatore,"Selected wind-speed study station in Tamil Nadu, India.",11.01,76.95,420,city,settlement,urban
+R725964__location_004,Cuddalore,"Selected wind-speed study station in Tamil Nadu, India.",11.74,79.77,,city,settlement,urban
+R725964__location_005,Dindigul,"Selected wind-speed study station in Tamil Nadu, India.",10.36,77.98,281,city,settlement,urban
+R725964__location_006,Erode,"Selected wind-speed study station in Tamil Nadu, India.",11.34,77.71,169,city,settlement,urban
+R725964__location_007,Hosur,"Selected wind-speed study station in Tamil Nadu, India.",12.74,77.82,,city,settlement,urban
+R725964__location_008,Kanchipuram,"Selected wind-speed study station in Tamil Nadu, India.",12.83,79.7,89,city,settlement,urban
+R725964__location_009,Karaikudi,"Selected wind-speed study station in Tamil Nadu, India.",10.07,78.78,103,city,settlement,urban
+R725964__location_010,Karur,"Selected wind-speed study station in Tamil Nadu, India.",10.96,78.07,127,city,settlement,urban
+R726086__location_001,Meteorological station Poprad,"The station lies in close proximity to the airport in the Poprad basin, Northern Slovakia.",,,694,site,meteorological_station,
+R726086__location_002,Poprad-Tatry airport,"The airport is situated on the outskirts of Poprad in the Prešov region of Northern Slovakia, at the foothills of the High Tatras.",,,718,site,airport,
+R726125__location_001,Bozcaada,An island in the Aegean Sea and one of the regions selected for comparison of low- and high-wind-speed regimes.,,,20,site,island,
+R726125__location_002,Gökçeada,Turkey's biggest island in the Northern Aegean Sea; reported as having a high wind-speed regime compared with Bilecik.,,,48,site,island,
+R726125__location_003,Bilecik,A small area reported as having a low wind-speed regime compared with Gökçeada and Bozcaada.,,,850,site,,
+R727032__location_001,Rwanda,"A small hilly and mountainous, landlocked country in the Great Lakes region of Africa.",-2,30,,,,
+R727032__location_002,Butare,,-2.6,29.733333,1760,,meteorological_station,
+R727032__location_003,Kigali,,-1.966667,30.133333,1490,,meteorological_station,
+R727032__location_004,Ruhengeri,,-1.5,29.6,1878,,meteorological_station,
+R727032__location_005,Gisenyi,,-1.666667,29.25,1554,,meteorological_station,
+R727032__location_006,Kamembe,,,,,,meteorological_station,
+R727428__location_001,Dataset 1 site,,32.21,-105.27,852.7,site,,
+R727428__location_002,Dataset 2 site,,34.88,-121.65,150.7,site,,
+R727428__location_003,Dataset 3 site,,32.21,-120.99,675,site,,
+R727428__location_004,Aralvaimozhi,,,,,site,,
+R727428__location_005,Palghat,,,,,site,,
+R727428__location_006,Jhimpir,,,,,site,,
+R727428__location_007,Sakarya,,,,,site,,
+R727440__location_001,Texas,The study used data collected from a wind farm in Texas.,,,,subnational_region,wind_farm,
+R727445__location_001,Arzew industrial region,Site located near the city of Arzew in northwest Algeria.,,,,region,,
+R727542__location_001,South African exclusive economic zone,Study area for offshore-wind energy resource assessment and site selection.,,,,area,offshore_area,offshore
+R727542__location_002,Richards Bay,Identified as the most suitable region for offshore-wind development within the South African EEZ.,,,,region,,
+R727542__location_003,Kwa Dukuza,Identified as a suitable offshore-wind development region.,,,,region,,
+R727542__location_004,Durban,Identified as a suitable offshore-wind development region.,,,,region,,
+R727542__location_005,Struis Bay,Identified as a suitable offshore-wind development region.,,,,region,,
+R727583__location_001,Van,Station around Lake Van.,,,1687,site,,
+R727583__location_002,Gevas,District of Van province; station around Lake Van.,,,1685,site,,
+R727583__location_003,Tatvan,District of Bitlis province; station around Lake Van.,,,1667,site,,
+R727583__location_004,Ahlat,District of Bitlis province; station around Lake Van.,,,1718,site,,
+R727583__location_005,Ercis,District of Van province; station around Lake Van.,,,1690,site,,
+R727583__location_006,Muradiye,District of Van province; station around Lake Van.,,,1707,site,,
+R727587__location_001,Adrar Weather station,The measuring station is located 10 m above ground level.,,,280,site,meteorological_station,
+R727587__location_002,Kaberten wind farm,Located in the south-west part of Algeria in the province of Adrar.,,,,site,wind_farm,
+R727592__location_001,Dar es Salaam,"Coastline region in the east of Tanzania; it covers 1,590 km2, of which 450 km2 is coastline.",-6.8,39.283333,55,region,,
+R727661__location_001,N'Djamena,"Capital of the Republic of Chad, located in the center-west of the country at the confluence of the Chari and Logone rivers. The meteorological station is located at N'Djamena Airport.",,,297,city,settlement,urban
+R727661__location_002,Faya Airport,"The introduction describes Faya as being in Borkou, in the hyper-arid Saharan zone. The abstract, however, assigns Faya to the Chadian Sahel.",,,,site,airport,
+R727673__location_001,Adrar region,"Located in southwest Algeria, more than 1200 km from Algiers, between the meridians 2°E and 6°W and the parallels 20°N and 32°N.",,,,region,,
+R727673__location_002,Kaberten wind farm,Located about 72 km north of the city of Adrar near a Sonelgaz substation; the site has a total area of 33 hectares.,,,,site,wind_farm,
+R727676__location_001,Cape Town,Cape Peninsula region,,,42,city,settlement,urban
+R727676__location_002,Oudtshoorn,Cape Peninsula region,,,328,city,settlement,urban
+R727676__location_003,Worcester,Cape Peninsula region,,,204,city,settlement,urban
+R727676__location_004,Port Elizabeth,South Eastern region,,,60,city,settlement,urban
+R727676__location_005,Grahamstown,South Eastern region,,,642,city,settlement,urban
+R727676__location_006,Richards Bay,South Eastern region,,,36,city,settlement,urban
+R727676__location_007,De Aar,Central region,,,1286,city,settlement,urban
+R727676__location_008,Bethlehem,Central region,,,1689,city,settlement,urban
+R727676__location_009,Potchefstroom,Central region,,,1351,city,settlement,urban
+R727676__location_010,Johannesburg,Northern region,,,1695,city,settlement,urban
+R727676__location_011,Nelspruit,Northern region,,,883,city,settlement,urban
+R727676__location_012,Polokwane,Northern region,,,1226,city,settlement,urban
+R727714__location_001,Ilorin,North-central Nigeria,8.29,4.35,307,city,settlement,urban
+R727714__location_002,Makurdi,North-central Nigeria,7.44,8.32,113,city,settlement,urban
+R727714__location_003,Gombe,North-Eastern Nigeria,10.54,11.15,152,city,settlement,urban
+R727714__location_004,Maiduguri,North-Eastern Nigeria,11.51,13.05,354,city,settlement,urban
+R727799__location_001,Adrar,Southern Algerian Sahara study location.,,,,,,
+R727799__location_002,In Salah,Southern Algerian Sahara study location.,,,,,,
+R727799__location_003,Illizi,Southern Algerian Sahara study location.,,,,,,
+R727799__location_004,Tamanrasset,Southern Algerian Sahara study location.,,,,,,
+R727821__location_001,United Kingdom,National observation network comprising 38 surface observation stations distributed across 11 UK geographical regions.,,,,country,country,
+R727821__location_002,Bala,,,,,site,,
+R727821__location_003,Lerwick,,,,,site,,
+R727821__location_004,Nottingham Watnall,,,,,site,,
+R727821__location_005,Northern Scotland,,,,,region,,
+R727821__location_006,South-East England,,,,,region,,
+R727821__location_007,Wales,,,,,region,,
+R728960__location_001,Puerto Rico,Coastal and offshore areas of Puerto Rico studied using National Data Buoy Center stations.,,,,region,,
+R728960__location_002,AROP4 station,West-region station in Puerto Rico.,,,,site,,
+R728960__location_003,PTRP4 station,West-region station in Puerto Rico.,,,,site,,
+R728960__location_004,MGZP4 station,West-region station in Puerto Rico.,,,,site,,
+R728960__location_005,MGIP4 station,West-region station in Puerto Rico.,,,,site,,
+R728960__location_006,LPRP4 station,West-region station in Puerto Rico.,,,,site,,
+R728960__location_007,PLSP4 station,West-region station in Puerto Rico.,,,,site,,
+R728960__location_008,42085 station,West-region offshore station in Puerto Rico.,,,,site,,
+R728960__location_009,YABP4 station,East-region station in Puerto Rico.,,,,site,,
+R728960__location_010,ESPP4 station,East-region station in Puerto Rico.,,,,site,,
+R728960__location_011,VQSP4 station,East-region station in Puerto Rico.,,,,site,,
+R728960__location_012,41056 station,East-region offshore station in Puerto Rico.,,,,site,,
+R728960__location_013,FRDP4 station,East-region station in Puerto Rico.,,,,site,,
+R728960__location_014,SJNP4 station,East-region station in Puerto Rico.,,,,site,,
+R728960__location_015,41053 station,East-region offshore station in Puerto Rico.,,,,site,,
+R732443__location_001,Abéché,Located in the Sahelian zone.,14.666667,20.833333,545,site,,
+R732443__location_002,Am Timan,Located in the Sudanian zone.,11.033333,20.266667,433,site,,
+R732443__location_003,Ati,Located in the Sahelian zone.,13.233333,18.3,332,site,,
+R732443__location_004,Bokoro,Located in the Sahelian zone.,12.383333,17.066667,300,site,,
+R732443__location_005,Bousso,Located in the Sudanian zone.,10.483333,16.716667,335,site,,
+R732443__location_006,Doba,Located in the Sudanian zone.,8.7,16.833333,387,site,,
+R732443__location_007,Faya-Largeau,Located in the Saharan zone.,17.916667,19.1,235,site,,
+R732443__location_008,Mao,Located in the Sahelian zone.,14.133333,15.3,327,site,,
+R732443__location_009,Mongo,Located in the Sahelian zone.,12.166667,18.666667,431,site,,
+R732443__location_010,Moundou,Located in the Sudanian zone.,8.616667,16.066667,429,site,,
+R732443__location_011,N'Djamena,Located in the Sahelian zone.,12.133333,15.033333,295,site,,
+R732443__location_012,Pala,Located in the Sudanian zone.,9.366667,14.916667,467,site,,
+R732443__location_013,Sarh,Located in the Sudanian zone.,9.15,18.366667,365,site,,
+R1557933__location_001,Owabi,Ashanti-region study site near Owabi Dam and forest.,6.75,-1.716,77,,settlement,
+R1557933__location_002,Ashanti region,Study region.,,,,region,administrative_region,
+R1557933__location_003,Kumasi airport,Source of sunshine-duration data.,,,,,airport,
+R1557946__location_001,Ghardaia,Semi-arid southern Algerian study location.,32.37,3.77,450,,settlement,urban
+R1557954__location_001,Yucatan Peninsula,Warm subhumid east-Mexico study region; area 142210 km2.,,,50,region,coastal_area,
+R1557954__location_002,Calakmul,Agrometeorological station 2003-2014.,18.365,-89.8925,28,,meteorological_station,
+R1557954__location_003,Campeche,Agrometeorological station 2001-2014.,19.8361,-90.5072,11,,meteorological_station,
+R1557954__location_004,Celestun,Agrometeorological station 2000-2014.,20.858,-90.3831,10,,meteorological_station,
+R1560231__location_001,India,Study covered 23 selected stations.,,,,country,country,
+R1563305__location_001,humid subtropical and tropical regions of China,Study region containing 20 radiation stations.,,,,region,administrative_region,
+R1563330__location_001,China,Solar-radiation zoning and model development across China.,,,,country,country,
+R1563353__location_001,India,Study covered 23 selected stations.,,,,country,country,
+R1563357__location_001,India,Study covered 23 selected stations.,,,,country,country,
+R1563360__location_001,India,Study covered 23 selected stations.,,,,country,country,
+R1563363__location_001,India,Study covered 23 selected stations.,,,,country,country,
+R1563366__location_001,Fiji Islands,Six meteorological stations including Nadi and Laucala.,,,,country,country,
+R1563369__location_001,"Ahvaz, BandarAbbas and Kermanshah",Three synoptic stations.,,,,site,meteorological_station,
+R1563372__location_001,Multiple study sites,Six datasets; site names vary by dataset.,,,,site,measurement_network,
+R1563524__location_001,Global renewable-energy power plants,Review spans global case studies.,,,,global,study_site,
+R1563613__location_001,Top of atmosphere and surface climate record,,,,,global,measurement_network,
+R1563618__location_001,Jeddah,,,,,city,meteorological_station,urban
+R1563621__location_001,Miami and Orlando,,,,,site,meteorological_station,
+R1563639__location_001,"Isa Town, Bahrain",,,,,site,hybrid_energy_site,
+R1563642__location_001,Five Mediterranean sites,,,,,site,meteorological_station,
+R1563654__location_001,Corsica case study,,,,,site,solar_plant,
+R1563658__location_001,Corsica PV plant,,,,,site,solar_plant,
+R1563661__location_001,Seoul,,,,,city,meteorological_station,urban
+R1563678__location_001,Ghardaia,,,,,city,solar_measurement_site,urban
+R1563682__location_001,Delhi region,,,,,region,administrative_region,
+R1563685__location_001,Morocco solar-radiation region,,,,,region,,
+R1563694__location_001,Algiers and Algerian sites,,,,,region,solar_measurement_site,
+R1563699__location_001,Ghardaia Saharan site,,,,,city,solar_measurement_site,urban
+R1563704__location_001,Two Algerian climate sites,,,,,site,solar_measurement_site,
+R1563707__location_001,Cairo,,,,,city,solar_measurement_site,urban
+R1563717__location_001,Beijing and Zhengzhou,North China Plain stations.,,,,site,meteorological_station,
+R1563720__location_001,Humid subtropical China,Three radiation stations.,,,,region,solar_measurement_site,
+R1563723__location_001,Abu Musa Island,,,,,area,solar_measurement_site,
+R1563728__location_001,Ghardaia,URAER monitoring site.,,,,city,solar_measurement_site,urban
+R1563732__location_001,Gurugram,NISE site.,,,,city,solar_measurement_site,urban
+R1563736__location_001,Pohang study site,,,,,city,solar_measurement_site,urban
+R1563739__location_001,Odeillo,High meteorological variability.,,,,site,solar_measurement_site,
+R1563742__location_001,Gorakhpur,,,,,city,solar_measurement_site,urban
+R1563745__location_001,Five cities in Turkey,,,,,city,meteorological_station,urban
+R1563748__location_001,Toledo,,,,,city,solar_measurement_site,urban
+R1563751__location_001,Isparta,Station 17240.,,,,city,meteorological_station,urban
+R1563754__location_001,Alabama weather station,,,,,subnational_region,meteorological_station,
+R1563757__location_001,Fifteen weather stations across China,Multiple climatic regions.,,,,country,meteorological_station,
+R1563832__location_001,Ghardaia,URAER site in semi-arid Saharan climate.,,,,city,solar_measurement_site,urban
+R1563835__location_001,Four locations in Nigeria including Yobe,,,,,region,meteorological_station,
+R1563839__location_001,Five cities in Bangladesh including Satkhira,,,,,region,meteorological_station,
+R1563842__location_001,Ghardaia,Semi-arid climate.,,,,city,solar_measurement_site,urban
+R1563845__location_001,Gurgaon Solar Energy Centre,,,,,city,meteorological_station,urban
+R1563848__location_001,Murcia,Southern Spain.,,,,city,solar_measurement_site,urban
+R1563851__location_001,Nanyang Technological University observation station,,,,,site,solar_measurement_site,
+R1563854__location_001,United States solar-radiation sites,,,,,,solar_measurement_site,
+R1563857__location_001,Four sites in the United States,,,,,,meteorological_station,
+R1563860__location_001,Colorado and Singapore,,,,,,solar_measurement_site,
+R1563863__location_001,"Iseyin, Maiduguri and Jos",,,,,,meteorological_station,
+R1563866__location_001,Four sites in the United States,,,,,,meteorological_station,
+R1563869__location_001,Klang Valley,Subang Meteorological Station.,,,,region,meteorological_station,
+R1563872__location_001,Four locations in India,,,,,,meteorological_station,
+R1563875__location_001,Turkey,Complex climatic and terrestrial characteristics.,,,,country,country,
+R1563878__location_001,Six locations in the United States,,,,,,meteorological_station,
+R1563881__location_001,Mashhad,,,,,city,,urban
+R1563884__location_001,Eight Iranian synoptic stations including Isfahan,,,,,country,meteorological_station,
+R1563887__location_001,North Dakota,,,,,subnational_region,measurement_network,
+R1563890__location_001,Saudi Arabian study sites,,,,,,solar_measurement_site,
+R1563893__location_001,Study solar-radiation dataset location,Location not stated in provided abstract.,,,,unspecified,study_site,
+R1563896__location_001,Six solar farms in Queensland,,,,,,solar_plant,
+R1563899__location_001,"Boromo, Dori, Gaoua and Po",Sub-Saharan Africa.,,,,,meteorological_station,
+R1563902__location_001,"Ankara, Karaman, Kilis and Şırnak",,,,,,administrative_region,
+R1563911__location_001,Douala,IUT Douala station.,,,,city,meteorological_station,urban
+R1563914__location_001,Italy,Solar Cloud project study area.,,,,country,country,
+R1563917__location_001,Maizuru and Qinghai,,,,,,solar_plant,
+R1563920__location_001,Maizuru and Qinghai,,,,,,solar_plant,
+R1563923__location_001,0.6 AU to near-Earth space,Observation at 0.6 AU with forecasts advected toward Earth.,,,,,outer_space,
+R1563927__location_001,Paris area,,,,,region,,
+R1563930__location_001,DKASC simulation case,,,,,unspecified,modelled_area,
+R1563933__location_001,Northern Cameroon,20 locations including Makary and Banyo.,,,,region,administrative_region,
+R1563933__location_002,Makary,Highest highlighted solar-energy potential.,,,,settlement,settlement,
+R1563933__location_003,Banyo,Lowest highlighted solar-energy potential.,,,,settlement,settlement,
+R1563937__location_001,N’Djamena,,,,,city,settlement,urban
+R1563974__location_001,Cameroon,Focus on Far North suitable areas.,,,,country,country,
+R1563977__location_001,Seoul,Near Jongro-gu KMA observation station.,,,,city,,urban
+R1563980__location_001,Abeche,Province of Ouaddaï.,,,,city,meteorological_station,urban
+location__dschang,Dschang,West Region of Cameroon; experimental ESHAML validation site with reported solar potential of 4.8–5.2 kWh/m²/day.,,,,city,study_site,urban
+location__abeche,Abeche,Chad solar-radiation assessment site.,,,545,city,settlement,urban
+location__aozou,Aozou,Chad solar-radiation assessment site.,,,1046,city,settlement,urban
+location__faya_largeau,Faya-Largeau,Chad solar-radiation assessment site.,,,242,city,settlement,urban
+location__moundou,Moundou,Chad solar-radiation assessment site.,,,401,city,settlement,urban
+location__ndjamena,N’Djamena,Chad solar-radiation assessment site.,,,295,city,settlement,urban
+R1563991__location_gandon,Gandon,North-west Senegal site with reported solar potential of 3756–6420 Wh/m²/day.,15.447222,-16.446944,,site,study_site,rural
+location__solartechlab_milan,"SolarTechLab, Politecnico di Milano",Photovoltaic test facility in Milan.,,,,site,research_facility,urban
+location__singapore,Singapore,Tropical next-day solar-irradiance forecasting study area.,,,,country,,urban
+R1564001__location_boulder_colorado,"Boulder, Colorado",National Wind Technology Center M2 tower simulation-data location.,,,,city,settlement,urban
+location__national_central_university_taiwan,National Central University,Marine-climate solar irradiance nowcasting site.,,,,site,research_facility,urban
+R1564076__location_nrel_srrl_boulder,"NREL Solar Radiation Research Laboratory, Boulder",NREL Baseline Measurement System station; GMT−7.,,,1828.8,site,research_facility,urban
+location__turkey_34_meteorological_stations,34 meteorological stations in Turkey,Stations distributed across Turkey’s seven climate regions.,,,,,measurement_network,
+location__kirikkale,Kirikkale,Best-performing deep-learning station result.,,,,city,settlement,urban
+location__johannesburg,Johannesburg,Hourly solar irradiance forecasting study location.,,,,city,settlement,urban
+location__kirklareli,Kırklareli,Daily GSR prediction study site.,41.733333,27.216667,231,subnational_region,administrative_region,
+location__tokat,Tokat,Daily GSR prediction study site.,40.316667,36.55,630,subnational_region,administrative_region,
+location__nevsehir,Nevşehir,Daily GSR prediction study site.,38.6,34.7,1197,subnational_region,administrative_region,
+location__karaman,Karaman,Daily GSR prediction study site.,37.183333,33.216667,1063,subnational_region,administrative_region,
+location__chennai,Chennai,Tamil Nadu hourly solar-radiation modelling location.,,,,subnational_region,settlement,
+location__kancheepuram,Kancheepuram,Tamil Nadu hourly solar-radiation modelling location.,,,,subnational_region,settlement,
+location__chengalpattu,Chengalpattu,Tamil Nadu hourly solar-radiation modelling location.,,,,subnational_region,settlement,
+location__ranipet,Ranipet,Tamil Nadu hourly solar-radiation modelling location.,,,,subnational_region,settlement,
+location__thiruvallur,Thiruvallur,Tamil Nadu hourly solar-radiation modelling location.,,,,subnational_region,settlement,
+location__vellore,Vellore,Tamil Nadu hourly solar-radiation modelling location.,,,,subnational_region,settlement,
+location__kuala_terengganu,Kuala Terengganu,Tropical wet Malaysian primary model-training/test site.,5.383333,103.1,15,city,settlement,urban
+location__penang_island,Penang Island,Second Malaysian model-validation site.,,,,area,island,
+location__cameroon_33_pv_sites,33 Cameroon PV assessment locations,Locations across Cameroon’s ten regions.,,,,,measurement_network,
+location__buea,Buea,South West Region; lowest reported solar output.,,,,city,settlement,urban
+location__mora_cameroon,Mora,Far North Region; highest reported PV output.,,,,city,settlement,urban
+location__banyo_cameroon,Banyo,Adamawa Region; highest a-Si performance ratio.,,,,city,settlement,urban
+location__mokolo_cameroon,Mokolo,Far North Region; lowest reported c-Si performance ratio.,,,,city,settlement,urban
+location__bamenda,Bamenda,"North West Region, Cameroon; PVGIS solar-PV forecasting study area.",,,,city,settlement,urban
+location__ngaoundere,Ngaoundéré,Diffuse solar-radiation model study location between 5°N and 10°N.,,,,city,settlement,urban
+location__garoua_boulai,Garoua-Boulai,Diffuse solar-radiation model study location between 5°N and 10°N.,,,,city,settlement,urban
+location__bafoussam,Bafoussam,Diffuse solar-radiation model study location between 5°N and 10°N.,,,,city,settlement,urban
+location__nkambe,Nkambé,Diffuse solar-radiation model study location between 5°N and 10°N.,,,,city,settlement,urban
+location__bambili,Bambili,Study location in Cameroon.,,,1474,settlement,settlement,
+location__yaounde,Yaounde,Study location.,,,539,settlement,settlement,urban
+location__garoua,Garoua,Study location.,,,424,settlement,settlement,urban
+location__dakar,Dakar,Study location.,,,11,settlement,settlement,urban
+R1565354__location_gandon,Gandon,Study location.,,,7,settlement,settlement,urban
+location__douala,Douala,Study city on the Atlantic coast of Cameroon.,,,,city,settlement,urban
+R1567953__location_001,Bonneville Power Administration power system,Historical wind-operation data source for the scaled 100 MWe wind-farm case.,,,,region,,
+R1567953__location_002,National Solar Radiation Data Base,Irradiation data source for the clear-sky and partial-cloudy case inputs.,,,,country,,
+R1567974__location_001,Chaiyaphum,High solar-irradiance case location.,,,,,settlement,
+R1567974__location_002,Sa Kaeo,High wind and average solar-irradiance case location.,,,,,settlement,
+R1567974__location_003,Chanthaburi,Thai location with 7.7 m/s average wind speed and viable PV-wind hybrid.,,,,,settlement,
+R1568004__location_001,Zhangbei,80 MWe hybrid-system case study.,,,,,study_site,
+R1568004__location_002,Kramer Junction,CSP submodel validation site in California.,,,,,study_site,
+R1568024__location_001,simulation environment,MATLAB Simulink grid-connected hybrid-system simulation.,,,,unspecified,modelled_area,
+R1568778__location_001,Ethiopia,National scope of the energy-sector and wind-resource review.,,,,country,country,
+R1568778__location_002,Ashegoda,Northern project site with reported 40 m long-term mean wind speed.,,,,,wind_measurement_site,
+R1568778__location_003,Maymekden,Site with reported 40 m long-term mean wind speed.,,,,,wind_measurement_site,
+R1568778__location_004,Mesobo-Harena,Northern project site with reported 40 m long-term mean wind speed.,,,,,wind_measurement_site,
+R1568778__location_005,Nazreth,Adama-area site with reported 40 m long-term mean wind speed.,,,,,wind_measurement_site,
+R1568778__location_006,Gonder plateau,Plateau site with reported 40 m long-term mean wind speed.,,,,,wind_measurement_site,
+R1568778__location_007,Aysha,Eastern site near the Djibouti and Somaliland borders.,,,,,wind_farm,
+R1568778__location_008,Debre Birhan,Planned wind-farm site north of Addis Ababa.,,,,,wind_farm,
+R1568778__location_009,Assela,Planned wind-farm site southeast of Addis Ababa.,,,,,wind_farm,
+R1568778__location_010,Galema,Planned Galema I wind-farm site.,,,,,wind_farm,
+location__umkhen_watershed,Umkhen watershed,"Kopili catchment watershed considered to the 102 km outlet; assessed area 1,204 km².",,,,,river_basin,
+location__kopili_river_basin,Kopili River Basin,Brahmaputra tributary basin containing the Umkhen watershed.,,,,,river_basin,
+R1594719__location_001,Iran,Case-study context,,,,,country,
+R1637917__location_001,Alberta,Canadian province in which municipal decision-makers were surveyed.,,,,subnational_region,administrative_region,
+R1638041__location_001,United Kingdom,National scope of the renewable-energy innovation-system analysis.,,,,country,country,
+R1638049__location_001,European Union,Scope of the renewable-electricity policy review and proposed coordinated planning.,,,,region,supranational_union,
+R1638054__location_001,Chile,Country scope of renewable-project developer and investor survey.,,,,country,country,
+R1638054__location_002,Atacama Desert,Northern Chilean area with excellent solar-energy conditions.,,,,region,desert,
+R1639011__location_001,Sub-Saharan Africa,Regional scope of the stakeholder analysis.,,,,region,administrative_region,
+R1639011__location_002,South Africa,REIPPPP case-study country.,,,,country,country,
+R1639011__location_003,Kenya,Olkaria geothermal-project case-study country.,,,,country,country,
+R1639011__location_004,Rwanda,Gigawatt Global solar-project case-study country.,,,,country,country,
+R1639011__location_005,Tanzania,Solar mini-grid case-study country.,,,,country,country,
+R1567645__location_001,Spencer Creek watershed,Southern Ontario watershed of approximately 291 km2 flowing to Lake Ontario.,,,,region,river_basin,
+R1567645__location_002,Westover sub-basin,Spencer Creek sub-basin; area 53.2 km2.,,,,,river_basin,
+R1567645__location_003,Highway-5 sub-basin,Spencer Creek sub-basin; area 132 km2.,,,,,river_basin,
+R1567645__location_004,Dundas sub-basin,Spencer Creek sub-basin; area 170 km2.,,,,,river_basin,
+R1567665__location_001,eastern San Jacinto basin,Southeast Texas study region near Houston; area 995.16 square miles.,,,,region,river_basin,
+R1567665__location_002,Houston,Nearby major city in Southeast Texas.,,,,region,settlement,urban
+R1567665__location_003,Lake Livingston,Water-body region affecting SMAP retrieval quality.,,,,,lake,
+location__iron_gate_1_hydropower_system,Iron Gate 1 hydropower system,Transboundary Danube hydropower system with a 170 km upstream river section used as the test case.,,,,site,hydropower_site,
+location__umealven_river_catchment,Umeälven River catchment,"Northern Sweden catchment of 26,000 km², snowmelt-dominated and extensively used for hydropower production.",,,510,area,river_basin,
+location__refsdal_catchment,Refsdal catchment,"Mountain catchment south of Sognefjord; 74 km², elevations 530–1276 m, with hydropower reservoirs covering about 8% of area.",,,1062,area,river_basin,
+location__katledalane_snow_measurement_site,Katledalane,SWE observation site in the Refsdal catchment.,,,1280,site,hydrological_station,
+location__gronebotn_snow_measurement_site,Grønebotn,SWE observation site in the Refsdal catchment.,,,1060,site,hydrological_station,
+location__ovridsfjell_snow_measurement_site,Ovridsfjell,SWE observation site in the Refsdal catchment.,,,1060,site,hydrological_station,
+location__babaohe_river_basin,Babaohe River Basin,Qilian Mountains tributary basin of the Heihe River; area 2455 km² and snow- and ice-melt dominated spring water supply.,,,,area,river_basin,
+location__murray_darling_basin,Murray–Darling Basin,Evaluation domain for satellite assimilation using independent groundwater and soil-moisture measurements.,,,,area,river_basin,
+location__mississippi_basin,Mississippi Basin,Evaluation domain for satellite assimilation using independent groundwater and soil-moisture measurements.,,,,area,river_basin,
+location__kainji_hydropower_reservoir,Kainji hydropower reservoir,Lower Niger Basin hydropower reservoir.,,,,site,reservoir_or_dam,
+location__jebba_hydropower_reservoir,Jebba hydropower reservoir,Lower Niger Basin hydropower reservoir about 100 km downstream of Kainji.,,,,site,reservoir_or_dam,
+R1567813__location_001,Edo State,,,,,,administrative_region,
+R1567813__location_002,Nigeria,,,,,,country,
+R1567813__location_003,Ovia River,Selected river in Edo State,,,,,river,
+R1567813__location_004,Ikpoba River,Selected river in Edo State,,,,,river,
+R1567813__location_005,Orlie River,Selected river in Edo State,,,,,river,
+R1567813__location_006,Edion River,Selected river in Edo State,,,,,river,
+location__brazil,Brazil,Country of the 53 hydroelectric power-generation projects evaluated by ANEEL.,,,,country,country,
+location__sombriero_river,Sombriero River at Ahoada,"River reach at Ahoada East, Rivers State, measured near the old East–West Road Bridge.",,,,site,river,
+location__upper_benue_river_watershed,Upper Benue River watershed,"154,328.9 km² watershed in Nigeria, drained by the Benue River and tributaries.",,,,area,river_basin,
+location__west_africa,West Africa,"All river basins in the 15 ECOWAS countries; approximately 5 million km², including the Niger, Volta, and Senegal basins.",,,,region,administrative_region,
+R1567909__location_001,Ogun drainage basin,Study basin of about 23000 km2; the Ogun River flows about 480 km to Lagos Lagoon.,,,,region,river_basin,
+R1567909__location_002,Abeokuta,One of two VES validation areas.,7.19,3.44,,,settlement,urban
+R1567909__location_003,Ewekoro,One of two VES validation areas.,6.89,3.2,,,settlement,
+R1568509__location_001,Oyanmi Sub-basin,529.04 km2 sub-basin in the Benin-Owena drainage basin.,,,,region,river_basin,
+R1568509__location_002,Lokoja synoptic station,NIMET station used to validate PERSIANN-CDR rainfall.,,,,,meteorological_station,
+R1568509__location_003,Oyanmi gauging station,Temporary 2018 gauge used to validate estimated discharge.,,,,,hydrological_station,
+R1568509__location_004,Oyanmi feasible-site set,Eleven of 58 screened hydrometric points met feasibility criteria.,,,,region,hydropower_site,
+R1568525__location_001,Asa watershed,Study watershed in Kwara State.,,,,,river_basin,
+R1568525__location_002,Kwara State,,,,,,administrative_region,
+R1568525__location_003,Nigeria,,,,,,country,
+R1568525__location_004,Asa River,Selected river in Asa watershed,,,,,river,
+R1568525__location_005,Oyun River,Selected river in Asa watershed,,,,,river,
+R1568525__location_006,Awun River,Selected river in Asa watershed,,,,,river,
+R1568565__location_001,Opeki River,Tributary of the Ogun River,,,,,river,
+R1568565__location_002,Abidogun Village,Proposed plant and gauging site,7.653056,3.961667,294,settlement,settlement,rural
+R1568565__location_003,Iseyin Local Government Area,,,,,,administrative_region,
+R1568565__location_004,Oyo State,,,,,,administrative_region,
+R1568565__location_005,Nigeria,,,,,,country,
+R1568565__location_006,Ogun River,,,,,,river,
+R1568577__location_001,Nigeria,National small-hydropower screening scope.,,,,country,country,
+R1568577__location_002,North-East Nigeria,Zone with the highest reported number of potential small-dam sites.,,,,region,administrative_region,
+R1568577__location_003,Yobe State,Reported to have 55 inland-water sites for large dam schemes.,,,,region,administrative_region,
+R1568577__location_004,North-West Nigeria,Zone with 95 potential small-dam sites.,,,,region,administrative_region,
+R1568594__location_001,Osse Sub-basin,2248.94 km2 sub-basin in the Benin-Owena River Basin.,,,,region,river_basin,
+R1568594__location_002,Iguoriakhi gauging station,Gauge with archival discharge data used in model validation.,,,,,hydrological_station,
+R1568594__location_003,Isewe gauging station,Temporary 2018 flow-duration-curve gauge.,,,,,hydrological_station,
+R1568594__location_004,Osse candidate-site set,148 generated points screened for run-of-river small hydropower.,,,,region,hydropower_site,
+R1568609__location_001,Beshilo River catchment,13242.5 km2 tributary catchment of the Abay River.,,,,region,river_basin,
+R1568609__location_002,Gumera watershed,Gauged donor catchment selected for similarity to Beshilo.,,,,region,river_basin,
+R1568609__location_003,Beshilo site 1,Downstream site in sub-basin 28.,,,,,hydropower_site,
+R1568609__location_004,Beshilo site 2,Downstream site in sub-basin 35.,,,,,hydropower_site,
+R1568609__location_005,Beshilo site 3,Downstream site in sub-basin 37.,,,,,hydropower_site,
+R1568609__location_006,Beshilo site 4,Midstream site in sub-basin 20.,,,,,hydropower_site,
+R1568609__location_007,Beshilo site 5,Midstream site in sub-basin 16.,,,,,hydropower_site,
+R1568609__location_008,Beshilo site 6,Midstream site in sub-basin 11.,,,,,hydropower_site,
+R1568609__location_009,Beshilo site 7,Upstream site in sub-basin 9.,,,,,hydropower_site,
+R1568609__location_010,Beshilo site 8,Upstream site in sub-basin 13.,,,,,hydropower_site,
+R1568609__location_011,Beshilo site 9,Upstream site in sub-basin 17.,,,,,hydropower_site,
+R1568654__location_001,Grand Ethiopian Renaissance Dam,GERD at the Upper Blue Nile outlet near the Ethiopian-Sudanese border.,,,,site,hydropower_site,
+R1568654__location_002,Upper Blue Nile Basin,176000 km2 basin from Lake Tana to Eldiem.,,,,region,river_basin,
+R1568654__location_003,Eldiem gauging station,Observed discharge station used to assess VIC monthly performance.,,,,,hydrological_station,
+R1568665__location_001,Gumara River,Upper Blue Nile Basin river assessed over 27.4 km.,,,,region,river,
+R1568665__location_002,Gilgel-Abay River,Upper Blue Nile Basin river assessed for HKT resource.,,,,region,river,
+R1568665__location_003,Bahirdar-Abay River,Upper Blue Nile Basin river assessed for HKT resource.,,,,region,river,
+R1568665__location_004,Koga irrigation main canal,11.95 km main canal assessed for HKT resource.,,,,region,river,
+R1568768__location_001,Ethiopia,National PHES screening area.,,,,country,country,
+R1568768__location_002,GERD reservoir,Existing lower-reservoir candidate.,,,,site,reservoir_or_dam,
+R1568768__location_003,Gibe I and III reservoirs,Existing lower-reservoir candidates.,,,,site,reservoir_or_dam,
+R1568768__location_004,Koka reservoir,Existing lower-reservoir candidate.,,,,site,reservoir_or_dam,
+R1568768__location_005,Fincha reservoir,Existing lower-reservoir candidate.,,,,site,reservoir_or_dam,
+R1568768__location_006,Melkawakena reservoir,Existing lower-reservoir candidate.,,,,site,reservoir_or_dam,
+R1568768__location_007,Tekeze reservoir,Existing lower-reservoir candidate.,,,,site,reservoir_or_dam,
+R1568773__location_001,Temcha watershed,Perennial tributary watershed in the upper Blue Nile Basin near Dembecha town in Amhara.,,,,region,river_basin,
+R1568773__location_002,Upper Blue Nile Basin,Parent basin of the Temcha watershed.,,,,region,river_basin,
+R1568773__location_003,Temcha watershed outlet,Main outlet used to identify the 90% dependable year.,,,,,,
+R1568773__location_004,Temcha candidate-site set,Candidate run-of-river sites selected along fourth- and higher-order streams.,,,,region,hydropower_site,
+R1568785__location_001,Ethiopia,,,,,,country,
+R1568785__location_002,Blue Nile River,,,,,,river,
+R1568785__location_003,Omo River,,,,,,river,
+R1568785__location_004,Lake Turkana,,,,,,lake,
+R1568785__location_005,Sudan,,,,,,country,
+R1568785__location_006,Egypt,,,,,,country,
+R1568785__location_007,Kenya,,,,,,country,
+R1568785__location_008,Blue Nile catchment,"Upstream catchment closed at GERD; area 168,000 km2.",,,,,river_basin,
+R1568785__location_009,Omo catchment,"Upstream catchment closed at GIBE III; area 32,500 km2.",,,,,river_basin,
+R1568790__location_001,Winike River watershed,1190 km2 watershed in the Omo-Gibe Basin.,,,,region,river_basin,
+R1568790__location_002,Omo-Gibe Basin,Parent basin of the Winike River watershed.,,,,region,river_basin,
+R1568790__location_003,Megecha gauging station,Gauge used for SWAT calibration and validation.,,,,,hydrological_station,
+R1568790__location_004,Gogob gauging station,Gauge used for SWAT calibration and validation.,,,,,hydrological_station,
+R1568790__location_005,Walga gauging station,Nearby gauge used to verify regionalized parameters.,,,,,hydrological_station,
+R1568790__location_006,Wabe gauging station,Nearby gauge used to verify regionalized parameters.,,,,,hydrological_station,
+R1568790__location_007,Winike potential site 1,Example candidate at subbasin 28 with 25.4 m hydraulic head.,,,,,hydropower_site,
+R1568790__location_008,Winike candidate-site set,Set of 103 GIS-screened run-of-river sites with at least 20 m head.,,,,region,hydropower_site,
+location__megecha_watershed,Megecha watershed,"1,176 km² tributary watershed in the north-east of the Omo-Gibe basin, Gurage Zone, south-central Ethiopia.",,,,area,river_basin,
+R1568806__location_002,Megecha candidate hydropower site 1,Candidate site near the Gubrie gauging station in the Megecha watershed.,,,,site,river,
+R1568806__location_003,Megecha candidate hydropower site 2,Highest-ranked candidate hydropower site in the Megecha watershed.,,,,site,river,
+R1568806__location_004,Megecha candidate hydropower site 3,Third candidate hydropower site in the Megecha watershed.,,,,site,river,
+location__furfuro_watershed,Furfuro watershed,"Approximately 202.04 km² watershed in Wulbareg Woreda, Silte Zone, Rift Valley Basin.",,,,area,river_basin,
+location__furfuro_river,Furfuro River,River originating on the Silte Plateau and joining the Dijo River before Lake Shala; extends about 30 km in the Furfuro catchment.,,,,site,river,
+location__gilgel_beles_watershed,Gilgel-Beles watershed,Abay/Upper Blue Nile Basin catchment extending from Dangila highlands in Amhara to Pawi lowlands in Benishangul-Gumuz; longest flow path 50.5 km.,,,,area,river_basin,
+location__gilgel_beles_river,Gilgel-Beles River,River in the Upper Blue Nile/Abay Basin assessed for micro-hydropower potential.,,,,site,river,
+location__alefa_kacha_village,Alefa Kacha Village,"Village near hp site 8, used as the HOMER microgrid load case; reported population 7,002.",,,,settlement,settlement,rural
+R1568828__location_004,Gilgel-Beles hp site1,Candidate micro-hydropower site; demand centre: Gilgel Beles town; AHP-style composite rank 2.,11.158831,36.358767,,site,hydropower_site,
+R1568828__location_005,Gilgel-Beles hp site2,Candidate micro-hydropower site; demand centre: Gisa Kansen; AHP-style composite rank 9.,11.141361,36.548792,,site,hydropower_site,
+R1568828__location_006,Gilgel-Beles hp site3,Candidate micro-hydropower site; demand centre: Gumade; AHP-style composite rank 7.,11.139347,36.518175,,site,hydropower_site,
+R1568828__location_007,Gilgel-Beles hp site4,Candidate micro-hydropower site; demand centre: Dek town; AHP-style composite rank 8.,11.139939,36.503356,,site,hydropower_site,
+R1568828__location_008,Gilgel-Beles hp site5,Candidate micro-hydropower site; demand centre: Gisa Kansen; AHP-style composite rank 6.,11.130344,36.556433,,site,hydropower_site,
+R1568828__location_009,Gilgel-Beles hp site6,Candidate micro-hydropower site; demand centre: Kutir Hulet and Dek Werkager; AHP-style composite rank 4.,11.162144,36.408239,,site,hydropower_site,
+R1568828__location_010,Gilgel-Beles hp site7,Candidate micro-hydropower site; demand centre: Genet Maryam town; AHP-style composite rank 5.,11.150967,36.432219,,site,hydropower_site,
+R1568828__location_011,Gilgel-Beles hp site8,"Candidate micro-hydropower site; demand centre: Tiru Birhan, Tirgi Sima and Alefa Kacha; AHP-style composite rank 1.",11.116267,36.596975,,site,hydropower_site,
+R1568828__location_012,Gilgel-Beles hp site9,Candidate micro-hydropower site; demand centre: Menjare; AHP-style composite rank 3.,11.175619,36.381536,,site,hydropower_site,
+location__chemoga_river,Chemoga River,"Upper Blue Nile tributary originating in the Choke Mountains; 364 km² catchment and approximately 45 km long, near Debre Markos.",,,,area,river_basin,
+location__huluka_river,Huluka River,Perennial river originating near Dendi Lake/Wonchi and flowing near Ambo; 812 km² catchment and 39 km long.,,,1977,area,river_basin,
+location__wabe_river,Wabe River,Perennial Gibe River tributary near Welkite; 866 km² catchment and 30 km long.,,,1930,area,river_basin,
+location__bui_basin,Bui Basin,"Bui enclave/Banda District in Bono Region, around the Bui Hydroelectric Project.",,,,area,river_basin,
+location__black_volta_river,Black Volta River,Volta River-system sub-basin dammed by the Bui Hydroelectric Project.,,,,area,river,
+location__upper_densu_river_basin,Upper Densu River Basin,"Upper reach of the 2,490 km² Densu River Basin.",,,,area,river_basin,
+location__densu_river,Densu River,116 km river from the Atiwa-Atwiredu range to the sea near Bortianor.,5.516667,-0.316667,,area,river,
+R1569361__location_001,Upper Densu HP1,,,,,site,hydropower_site,
+R1569361__location_002,Upper Densu HP2,,,,,site,hydropower_site,
+R1569361__location_003,Upper Densu HP3,,,,,site,hydropower_site,
+R1569361__location_004,Upper Densu HP4,,,,,site,hydropower_site,
+R1569361__location_005,Upper Densu HP5,,,,,site,hydropower_site,
+R1569361__location_006,Upper Densu HP6,,,,,site,hydropower_site,
+R1569361__location_007,Upper Densu HP7,,,,,site,hydropower_site,
+R1569361__location_008,Upper Densu HP8,,,,,site,hydropower_site,
+R1569361__location_009,Upper Densu HP9,,,,,site,hydropower_site,
+R1569504__location_001,Pumpum River Basin,Tributary basin of the Black Volta containing Kintampo Waterfalls.,,,,region,river_basin,
+R1569504__location_002,Bamboi gauge station,Donor-catchment discharge point on the Black Volta used for calibration and validation.,,,,,hydrological_station,
+R1569504__location_003,Pumpum dam site 1,Fourth-order stream site.,,,,,hydropower_site,
+R1569504__location_004,Pumpum dam site 2,Fourth-order stream site.,,,,,hydropower_site,
+R1569504__location_005,Pumpum dam site 3,Fourth-order stream site.,,,,,hydropower_site,
+R1569504__location_006,Pumpum dam site 4,Fourth-order stream site.,,,,,hydropower_site,
+R1569504__location_007,Pumpum dam site 5,Third-order stream site.,,,,,hydropower_site,
+R1569504__location_008,Pumpum dam site 6,Third-order stream site.,,,,,hydropower_site,
+R1569504__location_009,Pumpum run-of-river site 1,Fourth-order stream site.,,,,,hydropower_site,
+R1569504__location_010,Pumpum run-of-river site 2,Fourth-order stream site.,,,,,hydropower_site,
+R1569504__location_011,Pumpum run-of-river site 3,Third-order stream site.,,,,,hydropower_site,
+location__lower_pra_river_basin,Lower Pra River Basin,Lower section of the Pra River Basin in south-central Ghana.,,,,area,river_basin,
+location__pra_river,Pra River,"240 km river system with a 22,106 km² basin, flowing to the Gulf of Guinea near Shama.",,,,area,river,
+location__malawi,Malawi,Country containing the study hydropower system.,,,,,country,
+location__shire_river_basin,Shire River Basin,Basin supplying the studied hydropower plants.,,,,,river_basin,
+location__lake_malawi,Lake Malawi,Lake whose water level was reconstructed and used as a discharge predictor.,,,,,lake,
+R1580088__location_001,Liwonde gauge,Daily Shire River discharge observation site.,,,,,hydrological_station,
+R1580088__location_002,Matope gauge,Daily Shire River discharge observation site.,,,,,hydrological_station,
+R1580088__location_003,Chikwawa gauge,Daily Shire River discharge observation site.,,,,,hydrological_station,
+location__ecuador,Ecuador,National study area; data aggregate the three main hydrographic basins.,,,,,country,
+location__ceyhan_river_basin,Ceyhan River Basin,Eastern Mediterranean basin containing the studied cascade of hydropower plants.,,,,,river_basin,
+location__aslantas_hydropower_plant,Aslantaş Hydropower Plant,Target plant on the Ceyhan River; installed capacity 138 MW.,,,145,,hydropower_site,
+R1581530__location_001,Guangxi,Location of the hydropower stations supplying operational data.,,,,region,administrative_region,
+R707672__location_020,China,National power-generation structure study area.,,,,,country,
+R1581542__location_001,Karun-III Dam,Hydropower dam on the Karun River in southwestern Iran.,,,,,reservoir_or_dam,
+R1581542__location_002,Karun Basin,Southwestern Iranian basin with annual precipitation ranging from 153 to over 2000 mm.,,,,region,river_basin,
+R1582665__location_001,Mat River basin,Study basin in southern Mizoram; area 147 km2.,,,,,river_basin,
+R1582665__location_002,Mat River,Perennial river flowing from near Baktawng to the Tuipui River.,,,,,river,
+R1582665__location_003,Mizoram,,,,,,administrative_region,
+R1582665__location_004,India,,,,,,country,
+R1582665__location_005,Baktawng,Near the Mat River source,,,,settlement,settlement,
+R1582665__location_006,Tuipui River,Also known as the Kolodyne River,,,,,river,
+R1582683__location_001,Hamp River catchment,2185.65 km2 rainfall-dependent inland catchment in the upper Mahanadi basin.,,,,region,river_basin,
+R1582683__location_002,Mahanadi River Basin,East-central Indian basin spanning Chhattisgarh and Odisha.,,,,region,river_basin,
+R1582683__location_003,Hamp candidate SHP site 1,Tentative upper-catchment site.,,,,,hydropower_site,
+R1582683__location_004,Hamp candidate SHP site 2,Tentative upper-catchment site.,,,,,hydropower_site,
+R1582683__location_005,Hamp candidate SHP site 3,Tentative upper-catchment site.,,,,,hydropower_site,
+R1582683__location_006,Hamp candidate SHP site 4,Tentative upper-catchment site.,,,,,hydropower_site,
+R1582683__location_007,Hamp candidate SHP site 5,Tentative upper-catchment site.,,,,,hydropower_site,
+R1582683__location_008,Hamp candidate SHP site 6,Tentative upper-catchment site.,,,,,hydropower_site,
+R1582683__location_009,Hamp candidate SHP site 7,Tentative upper-catchment site.,,,,,hydropower_site,
+R1582683__location_010,Hamp candidate SHP site 8,Tentative outlet-area site in the optimum-suitability zone.,,,,,hydropower_site,
+R1582683__location_011,Hamp candidate SHP site 9,Tentative outlet-area site in the optimum-suitability zone.,,,,,hydropower_site,
+R1582683__location_012,Hamp candidate SHP site 10,Tentative outlet-area site in the optimum-suitability zone.,,,,,hydropower_site,
+location__india,India,Country context for small-hydropower development. | National small-hydropower CDM potential assessment.,,,,,country,
+location__ganga_river,Ganga River,Plain-area remote-sensing demonstration.,,,,,river,
+location__alaknanda_river,Alaknanda River,Hilly and mountainous remote-sensing demonstration in Tehri Garhwal district.,,,,,river,
+location__jammu_and_kashmir,Jammu and Kashmir,"Western Himalayan state with an assessed 20,000 MW hydropower potential.",,,,,administrative_region,
+location__chenab_river_basin,Chenab River Basin,Major Jammu and Kashmir basin governed by the Indus Waters Treaty.,,,,,river_basin,
+location__lower_kalnai_hydel_project,Lower Kalnai Hydel Project,"48 MW run-of-river project near Dunadi in Doda district, Jammu and Kashmir.",33.135,75.758333,,,hydropower_site,
+R1583336__location_001,India,Study extent.,,,,,country,
+R1583336__location_002,Arunachal Pradesh,High-rainfall northeastern state.,,,,region,administrative_region,
+R1583336__location_003,Coastal Karnataka,High-rainfall coastal subdivision.,,,,region,,
+R1583336__location_004,Lakshadweep,High-rainfall island territory.,,,,region,administrative_region,
+R1583336__location_005,Kerala,High-rainfall southwestern state.,,,,region,administrative_region,
+R1583336__location_006,Konkan and Goa,High-rainfall western coastal subdivision.,,,,region,,
+R1583336__location_007,Western Ghats,Region classified with high hydropower potential.,,,,region,administrative_region,
+R1583336__location_008,Northeast India,Region classified with high hydropower potential.,,,,region,administrative_region,
+R1583336__location_009,Himalayan Region,Region classified with high hydropower potential.,,,,region,administrative_region,
+R1583336__location_010,Central India,Region classified with moderate hydropower potential.,,,,region,administrative_region,
+R1583336__location_011,Coastal Regions of India,Regions classified with moderate hydropower potential.,,,,region,administrative_region,
+R1583336__location_012,Deccan Plateau,Region classified with low hydropower potential.,,,,region,administrative_region,
+R1583336__location_013,Northwestern India,Region classified with low hydropower potential.,,,,region,administrative_region,
+R1583336__location_014,Thar Desert,Region classified with low hydropower potential.,,,,region,desert,
+R1586317__location_001,Hawaii,Candidate hydropower reservoirs occur mainly on the Island of Hawaii with additional systems on Maui Molokai Lanai and Kauai.,,,,region,administrative_region,
+location__bagisli_hydropower_plant,Bagisli Hydropower Plant,30 MW plant on the Zap River in Hakkari Province; operation began in 2009.,,,,,hydropower_site,
+location__zap_river,Zap River,Transboundary river supplying Bagisli HPP; about 35% of watershed is in southeastern Türkiye.,,,,,river,
+location__dicle_firat_basin,Dicle-Firat Basin,Hydrological basin containing the Zap River.,,,,,river_basin,
+R1586415__location_001,Samanalawewa Hydropower Plant,"Samanalawewa plant in Balangoda, Ratnapura District, based on the Walawe River.",,,,site,hydropower_site,
+R1586415__location_002,Alupola,RF1 rainfall station in the Samanalawewa catchment.,,,,site,hydrological_station,
+R1586415__location_003,Detanagalla,RF2 rainfall station in the Samanalawewa catchment.,,,,site,hydrological_station,
+R1586415__location_004,Balangoda,RF3 rainfall station in the Samanalawewa catchment.,,,,site,hydrological_station,
+R1586415__location_005,Nagarak Estate,RF4 rainfall station in the Samanalawewa catchment.,,,,site,hydrological_station,
+R1586415__location_006,Belihuloya,RF5 rainfall station in the Samanalawewa catchment.,,,,site,hydrological_station,
+R1586415__location_007,Nanperial,RF6 rainfall station in the Samanalawewa catchment.,,,,site,hydrological_station,
+R1563316__location_001,Muğla,Muğla Sıtkı Koçman University campus and Muğla Province.,,,,city,settlement,urban
+R1563319__location_001,Northwest China (NWC),Arid-desert climatic region.,,,,region,administrative_region,
+R1563319__location_002,Qinghai-Tibetan Plateau (QTP),Qinghai-Tibetan Plateau climatic region.,,,,region,mountain_area,
+R1563319__location_003,Northeast China (NEC),Semi-humid cold-temperate climatic region.,,,,region,administrative_region,
+R1563319__location_004,North China (NC),Semi-humid warm-temperate climatic region.,,,,region,administrative_region,
+R1563319__location_005,Central and South China (CSC),Humid subtropical/tropical climatic region.,,,,region,administrative_region,
+R1563322__location_001,India,Twenty Indian locations split equally into training and validation sets.,,,,country,country,
+R1563322__location_002,Mumbai,Validation location; tropical wet-and-dry climate.,,,,city,settlement,urban
+R1563322__location_003,Chennai,Validation location; tropical wet-and-dry climate.,,,,city,settlement,urban
+R1563322__location_004,Nagpur,Validation location; tropical wet-and-dry climate.,,,,city,settlement,urban
+R1563322__location_005,Kolkata,Validation location; tropical wet-and-dry climate.,,,,city,settlement,urban
+R1563322__location_006,Goa,Validation location; tropical wet climate.,,,,subnational_region,administrative_region,
+R1563322__location_007,Minicoy,Validation location; tropical wet climate.,,,,area,island,
+R1563322__location_008,Port Blair,Validation location; tropical wet climate.,,,,city,settlement,urban
+R1563322__location_009,New Delhi,Validation location; semi-arid climate.,,,,city,settlement,urban
+R1563322__location_010,Jodhpur,Validation location; arid climate.,,,,city,settlement,urban
+R1563325__location_001,Morocco,Study country covering six climatic zones.,,,,country,country,
+R1563325__location_002,Moroccan climatic zone 1,One of the six climatic zones used for model evaluation (Zone 1).,,,,area,administrative_region,
+R1563325__location_003,Moroccan climatic zone 2,One of the six climatic zones used for model evaluation (Zone 2).,,,,area,administrative_region,
+R1563325__location_004,Moroccan climatic zone 3,One of the six climatic zones used for model evaluation (Zone 3).,,,,area,administrative_region,
+R1563325__location_005,Moroccan climatic zone 4,One of the six climatic zones used for model evaluation (Zone 4).,,,,area,administrative_region,
+R1563325__location_006,Moroccan climatic zone 5,One of the six climatic zones used for model evaluation (Zone 5).,,,,area,administrative_region,
+R1563325__location_007,Moroccan climatic zone 6,One of the six climatic zones used for model evaluation (Zone 6).,,,,area,administrative_region,
+R1563333__location_001,Iran,51 weather stations in several Iranian climate zones.,,,,country,country,
+R1563340__location_001,Adrar,"Saharan desert city; 27.88°N, 0.27°W, altitude 262 m.",,,,city,settlement,urban
+R1563343__location_001,Jubail Industrial City,Industrial city in the Kingdom of Saudi Arabia.,,,,city,settlement,urban
+R1563346__location_001,Eskişehir,"Measuring station at approximately 39°44′49″N, 30°28′49″E, elevation 853 m.",,,,city,settlement,urban
+R1563350__location_001,Peru,13 meteorological stations across Peru.,,,,country,country,

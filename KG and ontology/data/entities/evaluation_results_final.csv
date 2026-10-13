@@ -1,0 +1,2271 @@
+evaluation_result_id,evaluationResultValue,evaluationResultTemporalScope,decisionRuleAsReported
+R1378020__evalresult_001,1.269,,
+R1378020__evalresult_002,2.819,,
+R1378020__evalresult_003,1.679,,
+R1378020__evalresult_004,0.633,,
+R1378020__evalresult_005,1.555,,
+R1378020__evalresult_006,4.118,,
+R1378020__evalresult_007,2.029,,
+R1378020__evalresult_008,0.446,,
+R1378020__evalresult_009,0.259943,,
+R1378020__evalresult_010,0.283292,,
+R1378020__evalresult_011,0.532251,,
+R1378020__evalresult_012,0.97642,,
+R1378020__evalresult_013,0.24582,,
+R1378020__evalresult_014,0.284564,,
+R1378020__evalresult_015,0.533445,,
+R1378020__evalresult_016,0.977656,,
+R1378020__evalresult_017,0.236336,,
+R1378020__evalresult_018,0.278178,,
+R1378020__evalresult_019,0.527425,,
+R1378020__evalresult_020,0.97876,,
+R1378020__evalresult_021,0.25359,,
+R1378020__evalresult_022,0.303019,,
+R1378020__evalresult_023,0.55063,,
+R1378020__evalresult_024,0.95922,,
+R1378020__evalresult_025,0.255516,,
+R1378020__evalresult_026,0.280674,,
+R1378020__evalresult_027,0.529786,,
+R1378020__evalresult_028,0.976485,,
+R1378020__evalresult_029,0.245733,,
+R1378020__evalresult_030,0.283928,,
+R1378020__evalresult_031,0.532849,,
+R1378020__evalresult_032,0.977686,,
+R1378020__evalresult_033,0.240971,,
+R1378020__evalresult_034,0.281742,,
+R1378020__evalresult_035,0.530794,,
+R1378020__evalresult_036,0.978178,,
+R1378024__evalresult_001,2.133,test dataset during 2004–2005,
+R1378024__evalresult_002,1.461,test dataset during 2004–2005,
+R1378024__evalresult_003,0.817,test dataset during 2004–2005,
+R1378024__evalresult_004,0.525,test dataset during 2004–2005,
+R1378024__evalresult_005,0.556,test dataset during 2004–2005,
+R1378024__evalresult_006,2.34,1995–2005,
+R1378024__evalresult_007,2.84,2005–2019,
+R1378028__evalresult_001,0.20,testing dataset,
+R1378028__evalresult_002,1.04,testing dataset,
+R1378028__evalresult_003,0.29,testing dataset,
+R1378028__evalresult_004,1.14,testing dataset,
+R1378028__evalresult_005,0.33,testing dataset,
+R1378028__evalresult_006,2.35,testing dataset,
+R1378028__evalresult_007,2.71,,
+R1378028__evalresult_008,9.51,,
+R1378028__evalresult_009,3.01,,
+R1378028__evalresult_010,10.02,,
+R1378028__evalresult_011,3.90,,
+R1378028__evalresult_012,10.37,,
+R1378028__evalresult_013,4.94,,
+R1378028__evalresult_014,23.40,,
+R1378028__evalresult_015,96.35,,
+R1378028__evalresult_016,88.12,,
+R1378028__evalresult_017,78.26,,
+R1378028__evalresult_018,87.5,,
+R1378028__evalresult_019,83.74,,
+R689577__evalresult_001,0.0545,annual,
+R689577__evalresult_002,0.6095,annual,
+R689577__evalresult_003,0.2283,annual,
+R689577__evalresult_004,0.0286,annual,
+R689577__evalresult_005,0.8928,annual,
+R689577__evalresult_006,0.1206,annual,
+R689577__evalresult_007,0.0293,annual,
+R689577__evalresult_008,0.8875,annual,
+R689577__evalresult_009,0.1192,annual,
+R689577__evalresult_010,0.0328,annual,
+R689577__evalresult_011,0.8583,annual,
+R689577__evalresult_012,0.1348,annual,
+R689577__evalresult_013,0.0321,annual,
+R689577__evalresult_014,0.8642,annual,
+R689577__evalresult_015,0.1332,annual,
+R689577__evalresult_016,0.0318,annual,
+R689577__evalresult_017,0.8672,annual,
+R689577__evalresult_018,0.1324,annual,
+R689596__evalresult_001,0.40727226124,,
+R689596__evalresult_002,0.98957815290,,
+R689596__evalresult_003,0.11304240782,,
+R689596__evalresult_004,0.99820879117,,
+R689596__evalresult_005,0.09932790997,,
+R689596__evalresult_006,0.99878914435,,
+R689596__evalresult_007,13.87,,
+R689596__evalresult_008,0.24,,
+R689596__evalresult_009,0.57,,
+R689596__evalresult_010,0.44753812176,,
+R689596__evalresult_011,0.45405322041,,
+R689596__evalresult_012,0.47376110573,,
+R689596__evalresult_013,0.52500147481,,
+R689596__evalresult_014,0.57839860830,,
+R689596__evalresult_015,0.63972799830,,
+R689600__evalresult_001,1,overall ranking across the twelve stations,1 is the best or most efficient model and 5 is the least efficient
+R689600__evalresult_002,2,overall ranking across the twelve stations,
+R689600__evalresult_003,3,overall ranking across the twelve stations,
+R689600__evalresult_004,4,overall ranking across the twelve stations,
+R689600__evalresult_005,5,overall ranking across the twelve stations,
+R689600__evalresult_006,1,overall ranking across the twelve stations,1 is the best or most efficient model and 5 is the least efficient
+R689600__evalresult_007,2,overall ranking across the twelve stations,
+R689600__evalresult_008,3,overall ranking across the twelve stations,
+R689600__evalresult_009,4,overall ranking across the twelve stations,
+R689600__evalresult_010,5,overall ranking across the twelve stations,
+R689600__evalresult_011,1,overall ranking across the twelve stations,1 is the best or most efficient model and 5 is the least efficient
+R689600__evalresult_012,2,overall ranking across the twelve stations,
+R689600__evalresult_013,3,overall ranking across the twelve stations,
+R689600__evalresult_014,4,overall ranking across the twelve stations,
+R689600__evalresult_015,5,overall ranking across the twelve stations,
+R689605__evalresult_001,1,aggregate over all datasets and evaluated heights,"Methods were ranked by maximum R2 and minimum MAE, RMSE, NMAE, and χ2."
+R689605__evalresult_002,2,aggregate over all datasets and evaluated heights,"Methods were ranked by maximum R2 and minimum MAE, RMSE, NMAE, and χ2."
+R689605__evalresult_003,3,aggregate over all datasets and evaluated heights,"Methods were ranked by maximum R2 and minimum MAE, RMSE, NMAE, and χ2."
+R689605__evalresult_004,4,aggregate over all datasets and evaluated heights,"Methods were ranked by maximum R2 and minimum MAE, RMSE, NMAE, and χ2."
+R689605__evalresult_005,5,aggregate over all datasets and evaluated heights,"Methods were ranked by maximum R2 and minimum MAE, RMSE, NMAE, and χ2."
+R689605__evalresult_006,6,aggregate over all datasets and evaluated heights,"Methods were ranked by maximum R2 and minimum MAE, RMSE, NMAE, and χ2."
+R702336__evalresult_001,13,2005,Maximum percentage error between Weibull wind speed frequencies and observed frequencies
+R702341__evalresult_001,,"annual, August 2006–July 2007",
+R702341__evalresult_002,,"annual, August 2006–July 2007",
+R702341__evalresult_003,0.936,"annual, August 2006–July 2007",The values of EF should approach unity for a better approximation.
+R702341__evalresult_004,,"annual, August 2006–July 2007",
+R702341__evalresult_005,,"annual, August 2006–July 2007",
+R702341__evalresult_006,0.880,"annual, August 2006–July 2007",The values of EF should approach unity for a better approximation.
+R703006__evalresult_001,5.4,annual analysis,
+R703006__evalresult_002,5.2,annual analysis,
+R703006__evalresult_003,,annual analysis,
+R703006__evalresult_004,,annual analysis,
+R703006__evalresult_005,,annual analysis,
+R703026__evalresult_001,,Generated normalized annual energy production at Kwangyang Bay,The generated data passes the Kolmogorov–Smirnov goodness-of-fit test of 1% significance level.
+R703046__evalresult_001,93.27,all-year period,
+R703046__evalresult_002,88.67,all-year period,
+R703046__evalresult_003,89.50,all-year period,
+R703052__evalresult_001,25,2008 at Kudat and Labuan,
+R703052__evalresult_002,5,2008 at Kudat and Labuan; wind speed greater than 2 m/s,
+R703055__evalresult_001,0.994,yearly; May 2007 to April 2010,
+R703055__evalresult_002,3.58E-04,yearly; May 2007 to April 2010,
+R703055__evalresult_003,1.28E-07,yearly; alpha = 0.05,
+R703055__evalresult_004,0.994,yearly; May 2007 to April 2010,
+R703055__evalresult_005,2.29E-04,yearly; May 2007 to April 2010,
+R703055__evalresult_006,5.22E-08,yearly; alpha = 0.05,
+R703055__evalresult_007,0.994,yearly; May 2007 to April 2010,
+R703055__evalresult_008,2.26E-04,yearly; May 2007 to April 2010,
+R703055__evalresult_009,5.09E-08,yearly; alpha = 0.05,
+R703058__evalresult_001,,monthly mean WPD estimates,
+R703058__evalresult_002,11.36,annual mean WPD estimate,
+R703068__evalresult_001,4.227,,
+R703068__evalresult_002,0.972,,
+R703068__evalresult_003,5.496,,
+R703068__evalresult_004,0.952,,
+R703068__evalresult_005,7.027,,
+R703068__evalresult_006,0.853,,
+R703068__evalresult_007,5.072,,
+R703068__evalresult_008,0.960,,
+R703075__evalresult_001,0.996,"annual, 2011–2015",
+R703075__evalresult_002,0.987,"annual, 2011–2015",
+R703075__evalresult_003,0.996,"annual, 2011–2015",
+R703078__evalresult_001,0.14,,
+R703078__evalresult_002,0.118,,
+R703078__evalresult_003,0.18,,
+R703081__evalresult_001,0.9921,annual,
+R703081__evalresult_002,4.44,annual,
+R703081__evalresult_003,0.9922,annual,
+R703081__evalresult_004,4.409,annual,
+R703081__evalresult_005,0.9916,annual,
+R703081__evalresult_006,4.58,annual,
+R703081__evalresult_007,0.9906,annual,
+R703081__evalresult_008,4.845,annual,
+R703081__evalresult_009,10.2,annual wind power density,
+R703105__evalresult_001,0.03,December 2000,hypothetical α = 0.05 level of significance
+R703105__evalresult_002,0.03,November 2007,hypothetical α = 0.05 level of significance
+R703105__evalresult_003,0.9962,July 1999,
+R703105__evalresult_004,9e-05,May 2006,hypothetical α = 0.05 level of significance
+R703105__evalresult_005,0.99,May 1999,
+R704973__evalresult_001,0.034128,2007; 10 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_002,0.013889,2007; 10 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_003,0.013501,2007; 10 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_004,0.013493,2007; 10 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_005,0.013708,2007; 10 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_006,0.012852,2007; 10 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_007,0.013656,2007; 10 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_008,0.022624,2007; 30 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_009,0.008867,2007; 30 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_010,0.008617,2007; 30 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_011,0.008627,2007; 30 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_012,0.009584,2007; 30 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_013,0.009350,2007; 30 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_014,0.009422,2007; 30 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_015,0.026448,2007; 50 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_016,0.006259,2007; 50 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_017,0.005995,2007; 50 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_018,0.005998,2007; 50 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_019,0.006866,2007; 50 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_020,0.006959,2007; 50 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704973__evalresult_021,0.007064,2007; 50 m hub height; bin width = 1 m/s,Small RMSE indicates that the distribution is well fitted to data.
+R704994__evalresult_001,0.0407,global analysis; 2004-2015,
+R704994__evalresult_002,0.9061,global analysis; 2004-2015,
+R704994__evalresult_003,0.0388,global analysis,
+R704994__evalresult_004,0.8305,global analysis,
+R704994__evalresult_005,0.0487,global analysis,
+R704994__evalresult_006,0.8219,global analysis,
+R704994__evalresult_007,0.0198,global analysis; 2004-2015,
+R704994__evalresult_008,0.9663,global analysis; 2004-2015,
+R704994__evalresult_009,0.0245,global analysis,
+R704994__evalresult_010,0.9266,global analysis,
+R704994__evalresult_011,0.0225,global analysis,
+R704994__evalresult_012,0.9571,global analysis,
+R704994__evalresult_013,0.0213,global analysis; 2004-2015,
+R704994__evalresult_014,0.9621,global analysis; 2004-2015,
+R704994__evalresult_015,0.0207,global analysis,
+R704994__evalresult_016,0.9527,global analysis,
+R704994__evalresult_017,0.0206,global analysis,
+R704994__evalresult_018,0.9670,global analysis,
+R705188__evalresult_001,-0.51,"annual, 2016",
+R705188__evalresult_002,-4.56,"annual, 2016",
+R705198__evalresult_001,0.99764,yearly 2006,
+R705198__evalresult_002,0.00373,yearly 2006,
+R705198__evalresult_003,0.0348,yearly 2006,
+R705198__evalresult_004,0.0001,yearly 2006,
+R705198__evalresult_005,0.99799,yearly 2007,
+R705198__evalresult_006,0.00580,yearly 2007,
+R705198__evalresult_007,0.0537,yearly 2007,
+R705198__evalresult_008,0.0001,yearly 2007,
+R705211__evalresult_001,0.13161,,
+R705211__evalresult_002,0.00083,,
+R705211__evalresult_003,0.93286,,
+R705211__evalresult_004,0.00003,,
+R705211__evalresult_005,0.00650,,
+R705211__evalresult_006,0.96018,,
+R705211__evalresult_007,0.00161,,
+R705211__evalresult_008,0.00344,,
+R705211__evalresult_009,0.96119,,
+R705566__evalresult_001,0.990538,,
+R705566__evalresult_002,0.004429,,
+R705566__evalresult_003,0.990202,,
+R705566__evalresult_004,0.004661,,
+R705566__evalresult_005,0.990444,,
+R705566__evalresult_006,0.006516,,
+R705566__evalresult_007,0.978212,,
+R705566__evalresult_008,0.006195,,
+R705566__evalresult_009,0.97365,,
+R705566__evalresult_010,0.005985,,
+R705566__evalresult_011,0.976249,,
+R705566__evalresult_012,0.008081,,
+R705566__evalresult_013,0.980062,,
+R705566__evalresult_014,0.007483,,
+R705566__evalresult_015,0.963213,,
+R705566__evalresult_016,0.009932,,
+R705566__evalresult_017,0.974935,,
+R705566__evalresult_018,0.008389,,
+R705566__evalresult_019,0.990538,,
+R705566__evalresult_020,0.004429,,
+R705566__evalresult_021,0.979156,,
+R705566__evalresult_022,0.006799,,
+R705566__evalresult_023,0.990444,,
+R705566__evalresult_024,0.006516,,
+R705566__evalresult_025,0.972508,,
+R705566__evalresult_026,0.006958,,
+R705566__evalresult_027,0.796978,,
+R705566__evalresult_028,0.016614,,
+R705566__evalresult_029,0.958786,,
+R705566__evalresult_030,0.010645,,
+R705566__evalresult_031,0.979757,,
+R705566__evalresult_032,0.007545,,
+R705566__evalresult_033,0.963218,,
+R705566__evalresult_034,0.009932,,
+R705566__evalresult_035,0.974436,,
+R705566__evalresult_036,0.008472,,
+R705585__evalresult_001,0.0290,Winter,
+R705585__evalresult_002,0.9892,Winter,
+R705585__evalresult_003,0.0274,Winter,
+R705585__evalresult_004,0.9903,Winter,
+R705585__evalresult_005,0.0453,Winter,
+R705585__evalresult_006,0.9724,Winter,
+R705585__evalresult_007,0.0427,Winter,
+R705585__evalresult_008,0.9755,Winter,
+R705585__evalresult_009,0.0306,Winter,
+R705585__evalresult_010,0.9881,Winter,
+R705585__evalresult_011,0.0292,Winter,
+R705585__evalresult_012,0.9893,Winter,
+R705585__evalresult_013,0.0430,Winter,
+R705585__evalresult_014,0.9773,Winter,
+R705585__evalresult_015,0.0410,Winter,
+R705585__evalresult_016,0.9793,Winter,
+R705585__evalresult_017,0.0438,Spring,
+R705585__evalresult_018,0.9758,Spring,
+R705585__evalresult_019,0.0417,Spring,
+R705585__evalresult_020,0.9780,Spring,
+R705585__evalresult_021,0.0306,Spring,
+R705585__evalresult_022,0.9889,Spring,
+R705585__evalresult_023,0.0294,Spring,
+R705585__evalresult_024,0.9897,Spring,
+R705585__evalresult_025,0.0367,Spring,
+R705585__evalresult_026,0.9824,Spring,
+R705585__evalresult_027,0.0348,Spring,
+R705585__evalresult_028,0.9843,Spring,
+R705585__evalresult_029,0.0375,Spring,
+R705585__evalresult_030,0.9826,Spring,
+R705585__evalresult_031,0.0358,Spring,
+R705585__evalresult_032,0.9841,Spring,
+R705585__evalresult_033,0.0546,Summer,
+R705585__evalresult_034,0.9607,Summer,
+R705585__evalresult_035,0.0517,Summer,
+R705585__evalresult_036,0.9646,Summer,
+R705585__evalresult_037,0.0230,Summer,
+R705585__evalresult_038,0.9938,Summer,
+R705585__evalresult_039,0.0224,Summer,
+R705585__evalresult_040,0.9941,Summer,
+R705585__evalresult_041,0.0347,Summer,
+R705585__evalresult_042,0.9859,Summer,
+R705585__evalresult_043,0.0333,Summer,
+R705585__evalresult_044,0.9870,Summer,
+R705585__evalresult_045,0.0513,Summer,
+R705585__evalresult_046,0.9701,Summer,
+R705585__evalresult_047,0.0488,Summer,
+R705585__evalresult_048,0.9728,Summer,
+R705585__evalresult_049,0.0287,Autumn,
+R705585__evalresult_050,0.9891,Autumn,
+R705585__evalresult_051,0.0267,Autumn,
+R705585__evalresult_052,0.9907,Autumn,
+R705585__evalresult_053,0.0501,Autumn,
+R705585__evalresult_054,0.9652,Autumn,
+R705585__evalresult_055,0.0474,Autumn,
+R705585__evalresult_056,0.9690,Autumn,
+R705585__evalresult_057,0.0229,Autumn,
+R705585__evalresult_058,0.9936,Autumn,
+R705585__evalresult_059,0.0222,Autumn,
+R705585__evalresult_060,0.9940,Autumn,
+R705585__evalresult_061,0.0607,Autumn,
+R705585__evalresult_062,0.9496,Autumn,
+R705585__evalresult_063,0.0572,Autumn,
+R705585__evalresult_064,0.9550,Autumn,
+R705610__evalresult_001,0.9999,Jul 2008 – Dec 2009,
+R705610__evalresult_002,0.0048,Jul 2008 – Dec 2009,
+R705610__evalresult_003,315018,Jul 2008 – Dec 2009,
+R705610__evalresult_004,315036,Jul 2008 – Dec 2009,
+R705610__evalresult_005,0.9961,Jul 2007 – Jan 2009,
+R705610__evalresult_006,0.0294,Jul 2007 – Jan 2009,
+R705610__evalresult_007,471790,Jul 2007 – Jan 2009,
+R705610__evalresult_008,471810,Jul 2007 – Jan 2009,
+R705610__evalresult_009,0.9967,Jun 2006 – Oct 2009,
+R705610__evalresult_010,0.0253,Jun 2006 – Oct 2009,
+R705610__evalresult_011,795140,Jun 2006 – Oct 2009,
+R705610__evalresult_012,795160,Jun 2006 – Oct 2009,
+R705610__evalresult_013,0.9997,Sep 2006 – Jul 2008,
+R705610__evalresult_014,0.0066,Sep 2006 – Jul 2008,
+R705610__evalresult_015,416320,Sep 2006 – Jul 2008,
+R705610__evalresult_016,416350,Sep 2006 – Jul 2008,
+R705610__evalresult_017,0.9927,Jan 2010 – Jan 2015,
+R705610__evalresult_018,0.0357,Jan 2010 – Jan 2015,
+R705610__evalresult_019,173310,Jan 2010 – Jan 2015,
+R705610__evalresult_020,173330,Jan 2010 – Jan 2015,
+R706033__evalresult_001,0.178758,yearly average across 1985–2013,
+R706033__evalresult_002,0.995540,yearly average across 1985–2013,
+R706033__evalresult_003,-3.33,yearly average comparison of predicted and measured wind-speed standard deviation,
+R706033__evalresult_004,0.203103,yearly average across 1985–2013,
+R706033__evalresult_005,0.994242,yearly average across 1985–2013,
+R706033__evalresult_006,-3.17,yearly average comparison of predicted and measured wind-speed standard deviation,
+R706033__evalresult_007,0.200267,yearly average across 1985–2013,
+R706033__evalresult_008,0.994402,yearly average across 1985–2013,
+R706033__evalresult_009,-8.86,yearly average comparison of predicted and measured wind-speed standard deviation,
+R706033__evalresult_010,0.209996,yearly average across 1985–2013,
+R706033__evalresult_011,0.993844,yearly average across 1985–2013,
+R706033__evalresult_012,0.00,yearly average comparison of predicted and measured wind-speed standard deviation,
+R706033__evalresult_013,0.199513,yearly average across 1985–2013,
+R706033__evalresult_014,0.994444,yearly average across 1985–2013,
+R706033__evalresult_015,-11.67,yearly average comparison of predicted and measured wind-speed standard deviation,
+R707402__evalresult_001,28379.58,whole year 2006,
+R707402__evalresult_002,0.01107,whole year 2006,
+R707402__evalresult_003,0.03972,whole year 2006,
+R707402__evalresult_004,0.98940,whole year 2006,
+R707402__evalresult_005,28370.54,whole year 2006,
+R707402__evalresult_006,0.01097,whole year 2006,
+R707402__evalresult_007,0.03884,whole year 2006,
+R707402__evalresult_008,0.98941,whole year 2006,
+R707402__evalresult_009,37267.36,whole year 2006,
+R707402__evalresult_010,0.00514,whole year 2006,
+R707402__evalresult_011,0.02891,whole year 2006,
+R707402__evalresult_012,0.99412,whole year 2006,
+R707402__evalresult_013,37268.48,whole year 2006,
+R707402__evalresult_014,0.00514,whole year 2006,
+R707402__evalresult_015,0.02879,whole year 2006,
+R707402__evalresult_016,0.99411,whole year 2006,
+R707402__evalresult_017,32504.77,whole year 2006,
+R707402__evalresult_018,0.02089,whole year 2006,
+R707402__evalresult_019,0.07799,whole year 2006,
+R707402__evalresult_020,0.94167,whole year 2006,
+R707402__evalresult_021,32506.62,whole year 2006,
+R707402__evalresult_022,0.02089,whole year 2006,
+R707402__evalresult_023,0.07797,whole year 2006,
+R707402__evalresult_024,0.94169,whole year 2006,
+R707412__evalresult_001,0.10538,total period,"The hypothesis regarding the distributional form is rejected if D is greater than the critical value; for the analysed data, D was always greater than the corresponding critical value."
+R707412__evalresult_002,0.07448,total period,"The hypothesis regarding the distributional form is rejected if D is greater than the critical value; for the analysed data, D was always greater than the corresponding critical value."
+R707412__evalresult_003,0.11447,total period,"The hypothesis regarding the distributional form is rejected if D is greater than the critical value; for the analysed data, D was always greater than the corresponding critical value."
+R707412__evalresult_004,0.11938,total period,"The hypothesis regarding the distributional form is rejected if D is greater than the critical value; for the analysed data, D was always greater than the corresponding critical value."
+R707412__evalresult_005,1,total period,
+R707412__evalresult_006,1,total period,
+R707412__evalresult_007,1,total period,
+R707412__evalresult_008,1,total period,
+R707412__evalresult_009,7,total period,
+R707412__evalresult_010,7,total period,
+R707412__evalresult_011,6,total period,
+R707412__evalresult_012,7,total period,
+R707435__evalresult_001,2.0,2010–2013,
+R707435__evalresult_002,839,2010–2013,
+R707435__evalresult_003,1.0,2010–2013,
+R707435__evalresult_004,392,2010–2013,
+R707435__evalresult_005,0.9,2010–2013,
+R707435__evalresult_006,82,2010–2013,
+R707435__evalresult_007,0.9,2010–2013,
+R707435__evalresult_008,57,2010–2013,
+R707435__evalresult_009,43.9,2010–2013,
+R707435__evalresult_010,1563,2010–2013,
+R707435__evalresult_011,21.9,2010–2013,
+R707435__evalresult_012,4067,2010–2013,
+R707435__evalresult_013,11.5,2010–2013,
+R707435__evalresult_014,292,2010–2013,
+R707435__evalresult_015,7.4,2010–2013,
+R707435__evalresult_016,89,2010–2013,
+R707435__evalresult_017,24.2,2010–2013,
+R707435__evalresult_018,1458,2010–2013,
+R707435__evalresult_019,43.6,2010–2013,
+R707435__evalresult_020,486,2010–2013,
+R707435__evalresult_021,91.0,2010–2013,
+R707435__evalresult_022,3076,2010–2013,
+R707435__evalresult_023,1.1,2010–2013,
+R707435__evalresult_024,61,2010–2013,
+R707435__evalresult_025,,average across stations,
+R707456__evalresult_001,0.868,,
+R707456__evalresult_002,8.198,,
+R707456__evalresult_003,0.881,,
+R707456__evalresult_004,7.952,,
+R707456__evalresult_005,0.874,,
+R707456__evalresult_006,8.154,,
+R707456__evalresult_007,0.887,,
+R707456__evalresult_008,7.730,,
+R707456__evalresult_009,0.798,,
+R707456__evalresult_010,9.451,,
+R707456__evalresult_011,0.782,,
+R707456__evalresult_012,9.762,,
+R707456__evalresult_013,0.748,,
+R707456__evalresult_014,10.729,,
+R707456__evalresult_015,0.811,,
+R707456__evalresult_016,12.017,,
+R707456__evalresult_017,0.810,,
+R707456__evalresult_018,12.167,,
+R707456__evalresult_019,0.815,,
+R707456__evalresult_020,11.994,,
+R707456__evalresult_021,0.815,,
+R707456__evalresult_022,11.971,,
+R707456__evalresult_023,0.820,,
+R707456__evalresult_024,11.823,,
+R707456__evalresult_025,0.812,,
+R707456__evalresult_026,12.069,,
+R707456__evalresult_027,0.773,,
+R707456__evalresult_028,19.016,,
+R707456__evalresult_029,0.863,,
+R707456__evalresult_030,10.523,,
+R707456__evalresult_031,0.860,,
+R707456__evalresult_032,10.438,,
+R707456__evalresult_033,0.865,,
+R707456__evalresult_034,10.225,,
+R707456__evalresult_035,0.862,,
+R707456__evalresult_036,10.328,,
+R707456__evalresult_037,0.862,,
+R707456__evalresult_038,10.327,,
+R707456__evalresult_039,0.860,,
+R707456__evalresult_040,10.377,,
+R707456__evalresult_041,0.841,,
+R707456__evalresult_042,11.295,,
+R707456__evalresult_043,0.852,,
+R707456__evalresult_044,4.976,,
+R707456__evalresult_045,0.853,,
+R707456__evalresult_046,5.033,,
+R707456__evalresult_047,0.870,,
+R707456__evalresult_048,4.265,,
+R707456__evalresult_049,0.871,,
+R707456__evalresult_050,4.266,,
+R707456__evalresult_051,0.859,,
+R707456__evalresult_052,4.261,,
+R707456__evalresult_053,0.860,,
+R707456__evalresult_054,4.262,,
+R707456__evalresult_055,0.794,,
+R707456__evalresult_056,12.316,,
+R707507__evalresult_001,0.0867,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_002,0.0722,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_003,0.0899,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_004,0.0568,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_005,0.0663,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_006,0.0513,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_007,0.0582,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_008,0.0761,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_009,0.0866,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_010,0.0619,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_011,0.248,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_012,0.0343,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_013,0.0822,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_014,0.098,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_015,0.0945,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_016,0.0938,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_017,0.0844,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707507__evalresult_018,0.0824,2007-01-01 to 2009-11-30,A distribution with a minimum value of KS will be selected to be the best model for the wind speed distribution at each station.
+R707519__evalresult_001,0.06880,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_002,0.00484,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_003,0.01081,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_004,0.23612,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_005,0.00392,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_006,0.00261,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_007,0.68274,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_008,0.01513,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_009,0.11944,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_010,0.00510,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_011,0.00676,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_012,0.24375,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_013,0.00483,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_014,0.00385,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_015,0.35025,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707519__evalresult_016,0.01859,,The distribution with the lowest overall score is determined as the best selected distribution.
+R707542__evalresult_001,0.460596,"annual; mean across WF1, WF2, WF3, and WF4",
+R707542__evalresult_002,0.003891,"annual; mean across WF1, WF2, WF3, and WF4",
+R707542__evalresult_003,3.973784,"annual; mean across WF1, WF2, WF3, and WF4",
+R707542__evalresult_004,0.009399,"annual; mean across WF1, WF2, WF3, and WF4",
+R707542__evalresult_005,1.04781,"annual; mean across WF1, WF2, WF3, and WF4",
+R707542__evalresult_006,0.005843,"annual; mean across WF1, WF2, WF3, and WF4",
+R707542__evalresult_007,1.017607,"annual; mean across WF1, WF2, WF3, and WF4",
+R707542__evalresult_008,0.005805,"annual; mean across WF1, WF2, WF3, and WF4",
+R707542__evalresult_009,0.47048,"annual; mean across WF5, WF6, WF7, and WF8",
+R707542__evalresult_010,0.002677,"annual; mean across WF5, WF6, WF7, and WF8",
+R707542__evalresult_011,2527.79825,"annual; mean across WF5, WF6, WF7, and WF8",
+R707542__evalresult_012,0.051231,"annual; mean across WF5, WF6, WF7, and WF8",
+R707542__evalresult_013,405.51575,"annual; mean across WF5, WF6, WF7, and WF8",
+R707542__evalresult_014,0.023388,"annual; mean across WF5, WF6, WF7, and WF8",
+R707542__evalresult_015,300.8035,"annual; mean across WF5, WF6, WF7, and WF8",
+R707542__evalresult_016,0.028533,"annual; mean across WF5, WF6, WF7, and WF8",
+R707550__evalresult_001,0.99558,,
+R707550__evalresult_002,0.05666,,
+R707550__evalresult_003,0.99815,,
+R707550__evalresult_004,0.0187,,
+R707550__evalresult_005,0.99879,,
+R707550__evalresult_006,0.01461,,
+R707550__evalresult_007,0.99715,,
+R707550__evalresult_008,0.04883,,
+R707550__evalresult_009,0.99754,,
+R707550__evalresult_010,0.04356,,
+R707550__evalresult_011,0.994,,
+R707550__evalresult_012,0.03169,,
+R707550__evalresult_013,0.99728,,
+R707550__evalresult_014,0.03767,,
+R707550__evalresult_015,0.99797,,
+R707550__evalresult_016,0.01895,,
+R707550__evalresult_017,0.99863,,
+R707550__evalresult_018,0.01549,,
+R707550__evalresult_019,0.99646,,
+R707550__evalresult_020,0.02647,,
+R707558__evalresult_001,34.8,Average turbine-power estimates across 178 buoy samples,
+R707558__evalresult_002,16.8,Average turbine-power estimates across 178 buoy samples,
+R707558__evalresult_003,-1.8,Average turbine-power estimates across 178 buoy samples,
+R707558__evalresult_004,-3.6,Average turbine-power estimates across 178 buoy samples,
+R707558__evalresult_005,0.3,Average turbine-power estimates across 178 buoy samples,
+R707558__evalresult_006,0.1,Average turbine-power estimates across 178 buoy samples,
+R707558__evalresult_007,0.4,Average turbine-power estimates across 178 buoy samples,
+R707558__evalresult_008,0.2,Average turbine-power estimates across 178 buoy samples,
+R707558__evalresult_009,1148,Extreme-wind-speed exceedance analysis at p = 1.9 × 10^-5; expected exceedances E[x] = 1375.,
+R707558__evalresult_010,78,Extreme-wind-speed exceedance analysis at p = 1.9 × 10^-6; expected exceedances E[x] = 137.,
+R707558__evalresult_011,15,Extreme-wind-speed exceedance analysis at p = 1.9 × 10^-7; expected exceedances E[x] = 13.,
+R707568__evalresult_001,0.00995,wind-speed distribution fitting at the studied site,
+R707568__evalresult_002,0.9812,wind-speed distribution fitting at the studied site,
+R707661__evalresult_001,,overall period,The null hypothesis of the chi-square test is rejected at the 5% significance level for the overall period in all cases.
+R707661__evalresult_002,,overall period,The null hypothesis of the chi-square test is rejected at the 5% significance level for the overall period in all cases.
+R707661__evalresult_003,,overall period,The null hypothesis of the chi-square test is rejected at the 5% significance level for the overall period in all cases.
+R707661__evalresult_004,,overall period,The null hypothesis of the chi-square test is rejected at the 5% significance level for the overall period in all cases.
+R707661__evalresult_005,,overall period,The null hypothesis of the chi-square test is rejected at the 5% significance level for the overall period in all cases.
+R707682__evalresult_001,0.021,,
+R707682__evalresult_002,-0.14,,
+R707682__evalresult_003,0.016,,
+R707682__evalresult_004,-0.0043,,
+R707682__evalresult_005,0.028,,
+R707682__evalresult_006,-0.23,,
+R707682__evalresult_007,0.023,,
+R707682__evalresult_008,0.0053,,
+R707682__evalresult_009,0.044,,
+R707682__evalresult_010,0.026,,
+R707682__evalresult_011,0.012,,
+R707682__evalresult_012,-0.054,,
+R707682__evalresult_013,0.034,,
+R707682__evalresult_014,-0.16,,
+R707682__evalresult_015,0.037,,
+R707682__evalresult_016,-0.17,,
+R707682__evalresult_017,0.034,,
+R707682__evalresult_018,0.090,,
+R707682__evalresult_019,0.040,,
+R707682__evalresult_020,-0.27,,
+R707682__evalresult_021,0.039,,
+R707682__evalresult_022,0.041,,
+R707701__evalresult_001,0.821,Andros study period,
+R707701__evalresult_002,0.835,Crete study period,
+R707701__evalresult_003,0.795,Pylos study period,
+R707701__evalresult_004,0.784,Zakynthos study period,
+R707701__evalresult_005,0.739,Cabo de Gata study period,
+R707701__evalresult_006,0.811,Mar de Alboran study period,
+R707709__evalresult_001,4,Greek waters; 11 examined locations,best fit
+R707709__evalresult_002,6,Greek waters; 11 examined locations,best fit
+R707709__evalresult_003,1,Greek waters; 11 examined locations,best fit
+R707709__evalresult_004,6,Spanish waters; 8 examined locations,best fit
+R707709__evalresult_005,1,Spanish waters; 8 examined locations,best fit
+R707902__evalresult_001,0.02,Average over all meteorological stations for Wakeby distribution fitting.,
+R707902__evalresult_002,0.9992,Average over all meteorological stations for Wakeby distribution fitting.,
+R707902__evalresult_003,0.94,Validation dataset DS2.,
+R707902__evalresult_004,-0.3,Validation dataset DS2; reported as mean error (ME).,
+R707902__evalresult_005,0.46,Validation dataset DS2.,
+R707902__evalresult_006,4.0,Validation dataset DS2.,
+R707902__evalresult_007,0.98,AEY empirical-versus-modeled comparison for parameterization dataset DS1.,
+R707902__evalresult_008,-0.16,AEY empirical-versus-modeled comparison for parameterization dataset DS1; reported as mean error (ME).,
+R707902__evalresult_009,0.32,AEY empirical-versus-modeled comparison for parameterization dataset DS1.,
+R707902__evalresult_010,10.0,AEY empirical-versus-modeled comparison for parameterization dataset DS1.,
+R707902__evalresult_011,0.97,AEY empirical-versus-modeled comparison for validation dataset DS2.,
+R707902__evalresult_012,-0.23,AEY empirical-versus-modeled comparison for validation dataset DS2; reported as mean error (ME).,
+R707902__evalresult_013,0.31,AEY empirical-versus-modeled comparison for validation dataset DS2.,
+R707902__evalresult_014,17.1,AEY empirical-versus-modeled comparison for validation dataset DS2.,
+R708241__evalresult_001,0.8640,whole year (5 year period 2002–2006),
+R708241__evalresult_002,0.0278,whole year (5 year period 2002–2006),
+R708241__evalresult_003,0.1120,whole year (5 year period 2002–2006),
+R708241__evalresult_004,86311.23,whole year (5 year period 2002–2006),
+R708241__evalresult_005,172626.47,whole year (5 year period 2002–2006),
+R708241__evalresult_006,0.8703,whole year (5 year period 2002–2006),
+R708241__evalresult_007,0.0270,whole year (5 year period 2002–2006),
+R708241__evalresult_008,0.1005,whole year (5 year period 2002–2006),
+R708241__evalresult_009,85822.05,whole year (5 year period 2002–2006),
+R708241__evalresult_010,171650.10,whole year (5 year period 2002–2006),
+R708241__evalresult_011,0.9559,whole year (5 year period 2002–2006),
+R708241__evalresult_012,0.0158,whole year (5 year period 2002–2006),
+R708241__evalresult_013,0.0624,whole year (5 year period 2002–2006),
+R708241__evalresult_014,84012.55,whole year (5 year period 2002–2006),
+R708241__evalresult_015,168033.11,whole year (5 year period 2002–2006),
+R708241__evalresult_016,0.9064,whole year (5 year period 2002–2006),
+R708241__evalresult_017,0.0230,whole year (5 year period 2002–2006),
+R708241__evalresult_018,0.0943,whole year (5 year period 2002–2006),
+R708241__evalresult_019,84929.44,whole year (5 year period 2002–2006),
+R708241__evalresult_020,169866.88,whole year (5 year period 2002–2006),
+R708252__evalresult_001,0.9995,annual wind-speed distribution at site A,
+R708252__evalresult_002,0.9998,annual wind-speed distribution at site B,
+R708252__evalresult_003,0.9997,annual wind-speed distribution at site C,
+R708252__evalresult_004,0.9996,annual wind-speed distribution at site D,
+R708252__evalresult_005,2.0214,monthly extreme wind speeds at site A,
+R708252__evalresult_006,1.5112,quarterly extreme wind speeds at site A,
+R708252__evalresult_007,1.2323,monthly extreme wind speeds at site B,
+R708252__evalresult_008,2.5491,quarterly extreme wind speeds at site B,
+R708252__evalresult_009,3.7303,monthly extreme wind speeds at site C,
+R708252__evalresult_010,3.7112,quarterly extreme wind speeds at site C,
+R708252__evalresult_011,0.9456,monthly extreme wind speeds at site D,
+R708252__evalresult_012,3.8567,quarterly extreme wind speeds at site D,
+R708260__evalresult_001,0.9968,,
+R708260__evalresult_002,0.0014,,
+R708260__evalresult_003,0.9925,,
+R708260__evalresult_004,0.0022,,
+R708260__evalresult_005,0.9940,,
+R708260__evalresult_006,0.0018,,
+R708260__evalresult_007,0.9915,,
+R708260__evalresult_008,0.0021,,
+R708260__evalresult_009,0.9958,,
+R708260__evalresult_010,0.0013,,
+R708260__evalresult_011,0.9934,,
+R708260__evalresult_012,0.0016,,
+R708260__evalresult_013,0.9962,,
+R708260__evalresult_014,0.0015,,
+R708260__evalresult_015,0.9931,,
+R708260__evalresult_016,0.0021,,
+R708270__evalresult_001,0.9712,2010,
+R708270__evalresult_002,0.0980,2010,
+R708270__evalresult_003,0.9129,2010,
+R708270__evalresult_004,0.9942,2011,
+R708270__evalresult_005,0.0437,2011,
+R708270__evalresult_006,0.9635,2011,
+R708270__evalresult_007,0.9516,2012,
+R708270__evalresult_008,0.1274,2012,
+R708270__evalresult_009,0.8959,2012,
+R708270__evalresult_010,0.9883,2013,
+R708270__evalresult_011,0.0627,2013,
+R708270__evalresult_012,0.9452,2013,
+R708270__evalresult_013,0.9863,2014,
+R708270__evalresult_014,0.0677,2014,
+R708270__evalresult_015,0.9445,2014,
+R708294__evalresult_001,17.54,,
+R708294__evalresult_002,22.43,,
+R708294__evalresult_003,307.94,,
+R708294__evalresult_004,10.54,,
+R708294__evalresult_005,11.26,,
+R708294__evalresult_006,54.39,,
+R708294__evalresult_007,3.46,,
+R708294__evalresult_008,3.22,,
+R708294__evalresult_009,314.74,,
+R708294__evalresult_010,12.57,,
+R708294__evalresult_011,11.29,,
+R708294__evalresult_012,151.17,,
+R708294__evalresult_013,4.15,,
+R708294__evalresult_014,4.22,,
+R708294__evalresult_015,120.36,,
+R708294__evalresult_016,2.80,,
+R708294__evalresult_017,3.01,,
+R708294__evalresult_018,2512.62,,
+R708294__evalresult_019,0.0114,,
+R708294__evalresult_020,0.0132,,
+R708294__evalresult_021,0.0386,,
+R708294__evalresult_022,0.0059,,
+R708294__evalresult_023,0.0062,,
+R708294__evalresult_024,0.0089,,
+R708294__evalresult_025,0.0076,,
+R708294__evalresult_026,0.0075,,
+R708294__evalresult_027,0.0398,,
+R708294__evalresult_028,0.0087,,
+R708294__evalresult_029,0.0082,,
+R708294__evalresult_030,0.0276,,
+R708294__evalresult_031,0.0060,,
+R708294__evalresult_032,0.0062,,
+R708294__evalresult_033,0.0295,,
+R708294__evalresult_034,0.0063,,
+R708294__evalresult_035,0.0067,,
+R708294__evalresult_036,0.0535,,
+R708307__evalresult_001,0.99804,,
+R708307__evalresult_002,0.99978,,
+R708307__evalresult_003,0.98011,,
+R708307__evalresult_004,0.97110,,
+R708307__evalresult_005,0.99796,,
+R708307__evalresult_006,0.99121,,
+R708307__evalresult_007,0.98937,,
+R708307__evalresult_008,0.98687,,
+R708307__evalresult_009,0.95383,,
+R708307__evalresult_010,0.92921,,
+R708307__evalresult_011,0.99511,,
+R708307__evalresult_012,0.98681,,
+R708327__evalresult_001,161.0296,,
+R708327__evalresult_002,0.992606,,
+R708327__evalresult_003,0.001884,,
+R708327__evalresult_004,0.998279,,
+R708327__evalresult_005,-42426.8,,
+R708327__evalresult_006,0.006901,,
+R708327__evalresult_007,1374.35,,
+R708327__evalresult_008,0.896379,,
+R708327__evalresult_009,0.007667,,
+R708327__evalresult_010,0.977779,,
+R708327__evalresult_011,-41348.9,,
+R708327__evalresult_012,0.041687,,
+R708327__evalresult_013,242.7698,,
+R708327__evalresult_014,0.982423,,
+R708327__evalresult_015,0.00346,,
+R708327__evalresult_016,0.996038,,
+R708327__evalresult_017,-40614.3,,
+R708327__evalresult_018,0.017735,,
+R708327__evalresult_019,177.4485,,
+R708327__evalresult_020,0.989201,,
+R708327__evalresult_021,0.002706,,
+R708327__evalresult_022,0.997665,,
+R708327__evalresult_023,-39543.8,,
+R708327__evalresult_024,0.011525,,
+R708327__evalresult_025,93.21897,,
+R708327__evalresult_026,0.995272,,
+R708327__evalresult_027,0.001694,,
+R708327__evalresult_028,0.998899,,
+R708327__evalresult_029,-41475,,
+R708327__evalresult_030,0.006341,,
+R708327__evalresult_031,5.9675,,
+R708327__evalresult_032,6,,
+R708327__evalresult_033,6,,
+R708327__evalresult_034,5.6953,,
+R708327__evalresult_035,5.9928,,
+R708887__evalresult_001,0.0052,Onshore grid cells excluding Antarctica,
+R708887__evalresult_002,0.99996,Onshore grid cells excluding Antarctica,
+R708887__evalresult_003,0.014,Onshore grid cells excluding Antarctica,
+R708887__evalresult_004,0.017,Onshore grid cells excluding Antarctica,
+R708887__evalresult_005,0.10,Median associated with fitting JSBMOM to onshore empirical wind-speed probability density functions,
+R708887__evalresult_006,0.3,Median associated with fitting WakLMOM to onshore empirical wind-speed probability density functions,
+R708887__evalresult_007,0.41,Median resulting from fitting JSBMOM to offshore empirical wind-speed probability density functions,
+R708911__evalresult_001,73.6,all stations,Correctly predicted the probability density function with the highest M0 value.
+R708911__evalresult_002,0.82,all stations,ROC evaluation for B-GEV.
+R708911__evalresult_003,0.89,all stations,ROC evaluation for Kap.
+R708911__evalresult_004,0.90,all stations,ROC evaluation for Wak.
+R708911__evalresult_005,10.5,all stations,M0 is a comprehensive goodness-of-fit metric integrating eleven normalized goodness-of-fit metrics.
+R708911__evalresult_006,73.3,all stations,M0 values related to Swd exceed 10.0.
+R708911__evalresult_007,0.21,1667 stations where cf >= 0.20,Mean absolute percentage power output estimation error for Swd.
+R708911__evalresult_008,2,1667 stations where cf >= 0.20,Mean absolute power output estimation error for Swd.
+R709006__evalresult_001,0.0038,,
+R709006__evalresult_002,0.9963,,
+R709006__evalresult_003,0.0139,,
+R709006__evalresult_004,0.9809,,
+R709006__evalresult_005,0.0072,,
+R709006__evalresult_006,0.9930,,
+R709006__evalresult_007,0.0098,,
+R709006__evalresult_008,0.9868,,
+R709022__evalresult_001,,truncated data,Weibull-MLE was selected as the better distribution function to fit both the actual and truncated wind data.
+R709039__evalresult_001,0.0193,"Annual, 2009",
+R709039__evalresult_002,0.9958,"Annual, 2009",
+R709039__evalresult_003,27388.6659,"Annual, 2009",
+R709039__evalresult_004,-13692.3329,"Annual, 2009",
+R709039__evalresult_005,0.0328,"Annual, 2009",
+R709039__evalresult_006,0.988,"Annual, 2009",
+R709039__evalresult_007,26055.5994,"Annual, 2009",
+R709039__evalresult_008,-13025.7997,"Annual, 2009",
+R709039__evalresult_009,0.014,"Annual, 2009",
+R709039__evalresult_010,0.9977,"Annual, 2009",
+R709039__evalresult_011,19349.0387,"Annual, 2009",
+R709039__evalresult_012,-9672.5193,"Annual, 2009",
+R709039__evalresult_013,0.0402,"Annual, 2009",
+R709039__evalresult_014,0.9823,"Annual, 2009",
+R709039__evalresult_015,22289.2835,"Annual, 2009",
+R709039__evalresult_016,-11142.6418,"Annual, 2009",
+R709096__evalresult_001,1.0000,,
+R709096__evalresult_002,0.0001,,
+R709096__evalresult_003,0.0016,,
+R709096__evalresult_004,0.1863,,
+R709096__evalresult_005,0.0006,,
+R709096__evalresult_006,1.0000,,
+R709096__evalresult_007,0.0001,,
+R709096__evalresult_008,0.0016,,
+R709096__evalresult_009,0.5919,,
+R709096__evalresult_010,0.0006,,
+R709096__evalresult_011,1.0000,,
+R709096__evalresult_012,0.0004,,
+R709096__evalresult_013,0.0039,,
+R709096__evalresult_014,0.4499,,
+R709096__evalresult_015,0.0017,,
+R709096__evalresult_016,1.0000,,
+R709096__evalresult_017,0.0005,,
+R709096__evalresult_018,0.0049,,
+R709096__evalresult_019,0.6595,,
+R709096__evalresult_020,0.0019,,
+R709107__evalresult_001,0.9450,,
+R709107__evalresult_002,0.906775,,
+R711159__evalresult_001,0.8814,2012,
+R711159__evalresult_002,0.0051,2012,
+R711159__evalresult_003,0.0946,2012,
+R711159__evalresult_004,0.9054,2012,
+R711159__evalresult_005,0.0042,2012,
+R711159__evalresult_006,0.0863,2012,
+R711159__evalresult_007,0.9798,2013,
+R711159__evalresult_008,0.0007,2013,
+R711159__evalresult_009,0.0251,2013,
+R711159__evalresult_010,0.9619,2014,
+R711159__evalresult_011,0.0005,2014,
+R711159__evalresult_012,0.0216,2014,
+R711419__evalresult_001,0.182,monthly minimum wind-speed data,
+R711419__evalresult_002,0.175,monthly average wind-speed data,
+R711419__evalresult_003,0.172,monthly maximum wind-speed data,
+R711419__evalresult_004,0.108,monthly minimum wind-speed data,
+R711419__evalresult_005,0.149,monthly average wind-speed data,
+R711419__evalresult_006,0.121,monthly maximum wind-speed data,
+R711419__evalresult_007,0.083,monthly minimum wind-speed data,
+R711419__evalresult_008,0.109,monthly average wind-speed data,
+R711419__evalresult_009,0.074,monthly maximum wind-speed data,
+R711460__evalresult_001,,Monthly and annual averages for the entire study area,
+R711460__evalresult_002,,Monthly and annual averages for the entire study area,
+R711460__evalresult_003,,Monthly and annual averages for the entire study area,
+R711460__evalresult_004,,Monthly and annual averages for the entire study area,
+R711460__evalresult_005,,Monthly and annual averages for the entire study area,
+R711460__evalresult_006,,Monthly and annual averages for the entire study area,
+R711460__evalresult_007,,Monthly and annual averages for the entire study area,
+R711460__evalresult_008,,Monthly and annual averages for the entire study area,
+R711460__evalresult_009,,Monthly and annual averages for the entire study area,
+R711507__evalresult_001,0.0370,2007-2013,
+R711507__evalresult_002,0.9971,2007-2013,
+R711507__evalresult_003,0.0024,2007-2013,
+R711568__evalresult_001,0.0000,1982–2019,
+R711568__evalresult_002,0.0000,1982–2019,
+R711568__evalresult_003,0.0000,1982–2019,
+R711568__evalresult_004,0.0000,1982–2019,
+R711568__evalresult_005,0.0000,1982–2019,
+R711568__evalresult_006,0.0000,1982–2019,
+R711568__evalresult_007,0.0000,1982–2019,
+R711568__evalresult_008,0.0000,1982–2019,
+R711568__evalresult_009,0.0000,1982–2019,
+R711568__evalresult_010,0.0000,1982–2019,
+R711568__evalresult_011,0.9633,,
+R711568__evalresult_012,0.9728,,
+R711568__evalresult_013,0.9646,,
+R711568__evalresult_014,0.9082,,
+R711568__evalresult_015,0.9964,,
+R711568__evalresult_016,0.9967,,
+R711568__evalresult_018,0.0246,,
+R711568__evalresult_019,0.9987,,
+R711568__evalresult_021,0.0135,,
+R711568__evalresult_022,0.9846,,
+R711568__evalresult_024,0.0327,,
+R711568__evalresult_025,0.7534,,
+R712261__evalresult_001,0.021,yearly average for Garoua,MBE values close to zero demonstrate a good match between locally measured and long-term satellite-derived data.
+R712261__evalresult_002,0.056,yearly average for Garoua,RMSE should be as close to zero as possible.
+R712261__evalresult_003,6.1,yearly average for Garoua,"Overall, the accuracy of satellite-derived data for yearly average is excellent, with a RRMSE value of 6.1%."
+R712261__evalresult_004,0.809,yearly average for Garoua,R2 value of the yearly average is 0.809.
+R712261__evalresult_005,0.998,yearly average for Garoua,IOA values range between 0.993 and 1.000 and imply efficiency in using satellite-derived data.
+R712275__evalresult_001,0.16907,yearly average,
+R712275__evalresult_002,0.99773,yearly average,
+R712275__evalresult_003,0.17467,yearly average,
+R712275__evalresult_004,0.99758,yearly average,
+R712275__evalresult_005,0.16988,yearly average,
+R712275__evalresult_006,0.99771,yearly average,
+R712275__evalresult_007,0.1775,yearly average,
+R712275__evalresult_008,0.9975,yearly average,
+R712275__evalresult_009,0.16548,yearly average,
+R712275__evalresult_010,0.99782,yearly average,
+R712275__evalresult_011,-8.44,average across months,
+R712275__evalresult_012,-8.66,average across months,
+R712275__evalresult_013,-11.95,average across months,
+R712275__evalresult_014,0.0,average across months,
+R712275__evalresult_015,-13.42,average across months,
+R712288__evalresult_001,0.009999,Whole year,
+R712288__evalresult_002,0.999822,Whole year,
+R712288__evalresult_003,0.000316,Whole year,
+R712288__evalresult_004,0.010522,Whole year,
+R712288__evalresult_005,0.999813,Whole year,
+R712288__evalresult_006,0.000332,Whole year,
+R712288__evalresult_007,0.009918,Whole year,
+R712288__evalresult_008,0.999823,Whole year,
+R712288__evalresult_009,0.000313,Whole year,
+R712288__evalresult_010,0.010230,Whole year,
+R712288__evalresult_011,0.999818,Whole year,
+R712288__evalresult_012,0.000323,Whole year,
+R712288__evalresult_013,0.009233,Whole year,
+R712288__evalresult_014,0.999836,Whole year,
+R712288__evalresult_015,0.000291,Whole year,
+R712532__evalresult_001,98.2,July 2007,
+R712532__evalresult_002,97.7,September 2007,
+R712532__evalresult_003,96.8,December 2007,
+R712532__evalresult_004,72,November 2007,
+R712532__evalresult_005,85.1,May 2007,
+R712552__evalresult_001,10,annual variation of observed and Weibull wind-speed frequencies,
+R712559__evalresult_001,0.0023,yearly analysis,
+R712559__evalresult_002,0.9999,yearly analysis,
+R712559__evalresult_003,0.9738,yearly analysis,
+R712559__evalresult_004,0.0221,yearly analysis,
+R712559__evalresult_005,0.9916,yearly analysis,
+R712559__evalresult_006,0.8122,yearly analysis,
+R712559__evalresult_007,0.0165,cold season,
+R712559__evalresult_008,0.9953,cold season,
+R712559__evalresult_009,0.8411,cold season,
+R712633__evalresult_001,0.68,1981–2000,The ensemble improved significantly relative to the individual selected models.
+R712633__evalresult_002,,1981–2000,"RCA4_HadGEM2-ES, RCA4_IPSL-CM5A-MR, and RCA4_GFDL-ESM2M performed better than all other models."
+R712633__evalresult_003,,1981–2000,The selected models had the strongest positive relationship with ERA5.
+R713394__evalresult_001,99.3,relationship between monthly mean wind speed and monthly mean wind power density during the study period,
+R713416__evalresult_001,0.9939,2002–2011,
+R713416__evalresult_002,0.0068,2002–2011,
+R713416__evalresult_003,0.0061,2002–2011,
+R713416__evalresult_004,0.4228,2002–2011,
+R713416__evalresult_005,0.0664,2002–2011,
+R713416__evalresult_006,0.5772,2002–2011,
+R713416__evalresult_007,-0.5773,2002–2011,
+R713416__evalresult_008,0.1098,2002–2011,
+R713416__evalresult_009,1.5773,2002–2011,
+R713416__evalresult_010,0.979,2002–2011,
+R713416__evalresult_011,0.0153,2002–2011,
+R713416__evalresult_012,0.021,2002–2011,
+R713416__evalresult_013,0.2138,2002–2011,
+R713416__evalresult_014,0.0937,2002–2011,
+R713416__evalresult_015,0.7862,2002–2011,
+R713416__evalresult_016,-0.4202,2002–2011,
+R713416__evalresult_017,0.1259,2002–2011,
+R713416__evalresult_018,1.4202,2002–2011,
+R713416__evalresult_019,0.9758,2002–2011,
+R713416__evalresult_020,0.0176,2002–2011,
+R713416__evalresult_021,0.0242,2002–2011,
+R713416__evalresult_022,0.1939,2002–2011,
+R713416__evalresult_023,0.1016,2002–2011,
+R713416__evalresult_024,0.8061,2002–2011,
+R713416__evalresult_025,-0.3678,2002–2011,
+R713416__evalresult_026,0.1324,2002–2011,
+R713416__evalresult_027,1.3678,2002–2011,
+R713440__evalresult_001,,2005–2009,
+R713440__evalresult_002,,2005–2009,
+R716871__evalresult_001,0.9948,,
+R716871__evalresult_002,0.0245,,
+R716871__evalresult_003,4.31e-05,,
+R716871__evalresult_004,0.00037,,
+R716871__evalresult_005,0.9899,,
+R716871__evalresult_006,0.0335,,
+R716871__evalresult_007,1.73e-05,,
+R716871__evalresult_008,0.00049,,
+R716871__evalresult_009,0.9984,,
+R716871__evalresult_010,0.0186,,
+R716871__evalresult_011,2.26e-06,,
+R716871__evalresult_012,1.23e-06,,
+R716871__evalresult_013,0.00033,,
+R716871__evalresult_014,0.9985,,
+R716871__evalresult_015,0.0146,,
+R716871__evalresult_016,2.4e-07,,
+R716871__evalresult_017,0.00022,,
+R716871__evalresult_018,0.9957,,
+R716871__evalresult_019,0.0221,,
+R716871__evalresult_020,5.25e-05,,
+R716871__evalresult_021,0.00027,,
+R716871__evalresult_022,0.9979,,
+R716871__evalresult_023,0.0151,,
+R716871__evalresult_024,2.63e-06,,
+R716871__evalresult_025,0.00024,,
+R716871__evalresult_026,0.9988,,
+R716871__evalresult_027,0.0163,,
+R716871__evalresult_028,1.21e-06,,
+R716871__evalresult_029,0.00029,,
+R716871__evalresult_030,0.9986,,
+R716871__evalresult_031,0.0142,,
+R716871__evalresult_032,0.0163,,
+R716871__evalresult_033,5.88e-07,,
+R716871__evalresult_034,1.83e-07,,
+R716871__evalresult_035,0.00019,,
+R717690__evalresult_001,0.99978,annual wind speed distribution,
+R717690__evalresult_002,0.99989,annual wind speed distribution,
+R717690__evalresult_003,0.99976,annual wind speed distribution,
+R717690__evalresult_004,0.99982,annual wind speed distribution,
+R717690__evalresult_005,0.99977,annual wind speed distribution,
+R717690__evalresult_006,0.99988,annual wind speed distribution,
+R717690__evalresult_007,0.99965,annual wind speed distribution,
+R717690__evalresult_008,0.99935,annual wind speed distribution,
+R717690__evalresult_009,0.99972,annual wind speed distribution,
+R717690__evalresult_010,0.99943,annual wind speed distribution,
+R717690__evalresult_011,0.999781,annual wind power density distribution,
+R717690__evalresult_012,0.999937,annual wind power density distribution,
+R717690__evalresult_013,0.999866,annual wind power density distribution,
+R717690__evalresult_014,0.999828,annual wind power density distribution,
+R717690__evalresult_015,0.999773,annual wind power density distribution,
+R717690__evalresult_016,0.999142,annual wind power density distribution,
+R717690__evalresult_017,0.999538,annual wind power density distribution,
+R717690__evalresult_018,0.999705,annual wind power density distribution,
+R717690__evalresult_019,0.997891,annual wind power density distribution,
+R717690__evalresult_020,0.998690,annual wind power density distribution,
+R717710__evalresult_001,0.9687,wind speed characterization,
+R717710__evalresult_002,0.0187,wind speed characterization,
+R717710__evalresult_003,0.957,wind speed characterization,
+R717710__evalresult_004,0.022,wind speed characterization,
+R717710__evalresult_005,0.9649,wind speed characterization,
+R717710__evalresult_006,0.02,wind speed characterization,
+R717710__evalresult_007,0.967,wind speed characterization,
+R717710__evalresult_008,0.021,wind speed characterization,
+R717710__evalresult_009,1.0,wind speed characterization,
+R717710__evalresult_010,0.0,wind speed characterization,
+R717710__evalresult_011,1.0,wind speed characterization,
+R717710__evalresult_012,0.0,wind speed characterization,
+R717710__evalresult_013,1.0,wind speed characterization,
+R717710__evalresult_014,0.0,wind speed characterization,
+R717710__evalresult_015,1.0,wind speed characterization,
+R717710__evalresult_016,0.0,wind speed characterization,
+R717710__evalresult_017,0.9841,wind speed characterization,
+R717710__evalresult_018,0.009,wind speed characterization,
+R717710__evalresult_019,0.9989,wind speed characterization,
+R717710__evalresult_020,0.005,wind speed characterization,
+R717710__evalresult_021,,recoverable energy estimation at Lomé,
+R717710__evalresult_022,,recoverable energy estimation at Cotonou,
+R718237__evalresult_001,0.9753,2015–2018,Higher R2 indicates better compatibility of calculated results and observed data.
+R718237__evalresult_002,0.0093,2015–2018,Smaller RMSE values provide a better description of Weibull parameters.
+R718237__evalresult_003,0.00011,2015–2018,
+R718237__evalresult_004,0.9686,2015–2018,Higher R2 indicates better compatibility of calculated results and observed data.
+R718237__evalresult_005,0.0098,2015–2018,Smaller RMSE values provide a better description of Weibull parameters.
+R718237__evalresult_006,0.00012,2015–2018,
+R718237__evalresult_007,0.9657,2015–2018,Higher R2 indicates better compatibility of calculated results and observed data.
+R718237__evalresult_008,0.0083,2015–2018,Smaller RMSE values provide a better description of Weibull parameters.
+R718237__evalresult_009,0.00009,2015–2018,
+R718237__evalresult_010,0.9203,2015–2018,Higher R2 indicates better compatibility of calculated results and observed data.
+R718237__evalresult_011,0.0118,2015–2018,Smaller RMSE values provide a better description of Weibull parameters.
+R718237__evalresult_012,0.00018,2015–2018,
+R718237__evalresult_013,0.9730,2015–2018,Higher R2 indicates better compatibility of calculated results and observed data.
+R718237__evalresult_014,0.00978,2015–2018,Smaller RMSE values provide a better description of Weibull parameters.
+R718237__evalresult_015,0.00012,2015–2018,
+R719349__evalresult_001,,all stations' data,
+R719349__evalresult_002,,all stations' data,
+R719366__evalresult_001,0.92,,
+R719366__evalresult_002,1.25,,
+R719366__evalresult_003,5.87,,
+R719366__evalresult_004,0.88,,
+R719366__evalresult_005,1.45,,
+R719366__evalresult_006,7.93,,
+R719366__evalresult_007,-0.713,January,
+R719366__evalresult_008,-0.567,February,
+R719366__evalresult_009,-0.645,March,
+R719366__evalresult_010,-0.524,April,
+R719366__evalresult_011,-0.456,May,
+R719366__evalresult_012,-0.158,June,
+R719366__evalresult_013,-0.183,July,
+R719366__evalresult_014,-0.236,August,
+R719366__evalresult_015,-0.663,September,
+R719366__evalresult_016,-0.388,October,
+R719366__evalresult_017,-0.521,November,
+R719366__evalresult_018,-0.55,December,
+R719366__evalresult_019,-0.802,January,
+R719366__evalresult_020,-0.278,May,
+R719366__evalresult_021,-0.889,September,
+R719366__evalresult_022,-0.844,November,
+R719366__evalresult_023,-0.859,December,
+R719366__evalresult_024,-0.911,January,
+R719366__evalresult_025,-0.609,May,
+R719366__evalresult_026,-0.41,June,Not Significant
+R719366__evalresult_027,-0.36,July,Not Significant
+R719366__evalresult_028,-0.291,August,Not Significant
+R719366__evalresult_029,-0.89,September,
+R719366__evalresult_030,-0.91,December,
+R720167__evalresult_001,0.0023,yearly analysis,
+R720167__evalresult_002,0.9999,yearly analysis,
+R720167__evalresult_003,0.9738,yearly analysis,
+R720167__evalresult_004,0.0221,yearly analysis,
+R720167__evalresult_005,0.9916,yearly analysis,
+R720167__evalresult_006,0.8122,yearly analysis,
+R720167__evalresult_007,0.0165,cold season,
+R720167__evalresult_008,0.9953,cold season,
+R720167__evalresult_009,0.8411,cold season,
+R720760__evalresult_001,0.758,PDF fitted to Bangui weather-station wind-speed data,
+R720760__evalresult_002,0.977,CDF fitted to Bangui weather-station wind-speed data,
+R720773__evalresult_001,0.64,,
+R720773__evalresult_002,1.4,,
+R720773__evalresult_003,0.67,,
+R720773__evalresult_004,1.17,,
+R720773__evalresult_005,0.93,,
+R720773__evalresult_006,1.55,,
+R723171__evalresult_001,0.015769237,2002-2012,Rank 1; best method for Kano.
+R723171__evalresult_002,0.999997059,2002-2012,Rank 1; best method for Kano.
+R723171__evalresult_003,0.035938398,2002-2012,Rank 5; worst method for Kano.
+R723171__evalresult_004,0.999984726,2002-2012,Rank 5; worst method for Kano.
+R723171__evalresult_005,0.029456943,2002-2012,Rank 1; best method for Maiduguri.
+R723171__evalresult_006,0.999969628,2002-2012,Rank 1; best method for Maiduguri.
+R723171__evalresult_007,0.040316395,2002-2012,Rank 5; worst method for Maiduguri.
+R723171__evalresult_008,0.999943106,2002-2012,Rank 5; worst method for Maiduguri.
+R723171__evalresult_009,0.024726277,2002-2012,Rank 1; best method for Jos.
+R723171__evalresult_010,0.999995401,2002-2012,Rank 1; best method for Jos.
+R723171__evalresult_011,0.052023787,2002-2012,Rank 5; worst method for Jos.
+R723171__evalresult_012,0.999979641,2002-2012,Rank 5; worst method for Jos.
+R723171__evalresult_013,0.071065282,2002-2012,Rank 1; best method for Abuja.
+R723171__evalresult_014,0.999771122,2002-2012,Rank 1; best method for Abuja.
+R723171__evalresult_015,0.097370552,2002-2012,Rank 5; worst method for Abuja.
+R723171__evalresult_016,0.999570320,2002-2012,Rank 5; worst method for Abuja.
+R723171__evalresult_017,0.017679962,2002-2012,Rank 1; jointly best method for Akure.
+R723171__evalresult_018,0.999971235,2002-2012,Rank 1; jointly best method for Akure.
+R723171__evalresult_019,0.017679962,2002-2012,Rank 1; jointly best method for Akure.
+R723171__evalresult_020,0.999971235,2002-2012,Rank 1; jointly best method for Akure.
+R723171__evalresult_021,0.019662755,2002-2012,Rank 4; power density method was not the best method for Akure.
+R723171__evalresult_022,0.999964422,2002-2012,Rank 4; power density method was not the best method for Akure.
+R723318__evalresult_001,5.25,At each of the selected heights,A positive gain implies a distribution performed better in providing a good fit to the data.
+R723318__evalresult_002,5.38,At each of the selected heights,A positive gain implies a distribution performed better in providing a good fit to the data.
+R723318__evalresult_003,5.50,At each of the selected heights,A positive gain implies a distribution performed better in providing a good fit to the data.
+R724371__evalresult_001,0.982118,,
+R724371__evalresult_002,0.001078,,
+R724371__evalresult_003,0.006701,,
+R724371__evalresult_004,0.027243,,
+R724371__evalresult_005,0.980231,,
+R724371__evalresult_006,0.001461,,
+R724371__evalresult_007,0.009869,,
+R724371__evalresult_008,0.015817,,
+R724371__evalresult_009,0.995489,,
+R724371__evalresult_010,0.000259,,
+R724371__evalresult_011,0.003513,,
+R724371__evalresult_012,0.005741,,
+R724371__evalresult_013,0.996494,,
+R724371__evalresult_014,0.000227,,
+R724371__evalresult_015,0.003288,,
+R724371__evalresult_016,0.002891,,
+R724404__evalresult_001,0.01892,,
+R724404__evalresult_002,0.9956,,
+R724404__evalresult_003,0.054,,
+R724404__evalresult_004,7212,,
+R724404__evalresult_005,7224,,
+R724404__evalresult_006,0.0751,,
+R724404__evalresult_007,0.01103,,
+R724404__evalresult_008,0.9986,,
+R724404__evalresult_009,0.029,,
+R724404__evalresult_010,8324,,
+R724404__evalresult_011,8335,,
+R724404__evalresult_012,0.0603,,
+R724404__evalresult_013,0.01612,,
+R724404__evalresult_014,0.9968,,
+R724404__evalresult_015,0.047,,
+R724404__evalresult_016,6369,,
+R724404__evalresult_017,6380,,
+R724404__evalresult_018,0.0724,,
+R724404__evalresult_019,0.01140,,
+R724404__evalresult_020,0.9985,,
+R724404__evalresult_021,0.029,,
+R724404__evalresult_022,10077,,
+R724404__evalresult_023,10088,,
+R724404__evalresult_024,0.0323,,
+R724404__evalresult_025,0.01209,,
+R724404__evalresult_026,0.9983,,
+R724404__evalresult_027,0.035,,
+R724404__evalresult_028,9997,,
+R724404__evalresult_029,10008,,
+R724404__evalresult_030,0.0288,,
+R724404__evalresult_031,0.02026,,
+R724404__evalresult_032,0.995,,
+R724404__evalresult_033,0.051,,
+R724404__evalresult_034,7571,,
+R724404__evalresult_035,7583,,
+R724404__evalresult_036,0.0885,,
+R724404__evalresult_037,0.01017,,
+R724404__evalresult_038,0.9988,,
+R724404__evalresult_039,0.031,,
+R724404__evalresult_040,7524,,
+R724404__evalresult_041,7535,,
+R724404__evalresult_042,0.0025,,
+R724404__evalresult_043,0.01336,,
+R724404__evalresult_044,0.9979,,
+R724404__evalresult_045,0.039,,
+R724404__evalresult_046,6777,,
+R724404__evalresult_047,6789,,
+R724404__evalresult_048,0.0161,,
+R724404__evalresult_049,0.00962,,
+R724404__evalresult_050,0.9989,,
+R724404__evalresult_051,0.030,,
+R724404__evalresult_052,8179,,
+R724404__evalresult_053,8191,,
+R724404__evalresult_054,0.0063,,
+R724404__evalresult_055,0.01378,,
+R724404__evalresult_056,0.9976,,
+R724404__evalresult_057,0.041,,
+R724404__evalresult_058,6757,,
+R724404__evalresult_059,6768,,
+R724404__evalresult_060,0.0617,,
+R724501__evalresult_001,0.029,Comparison with the experimental histogram constructed using the dependent wind-speed sample,
+R724501__evalresult_002,0.029,Comparison with the experimental histogram constructed using the dependent wind-speed sample,
+R724505__evalresult_001,0.0202,January; average across 1960–2020,
+R724505__evalresult_002,0.9953,January; average across 1960–2020,
+R724505__evalresult_003,0.0220,January; average across 1960–2020,
+R724505__evalresult_004,0.9945,January; average across 1960–2020,
+R724505__evalresult_005,73.0933,January; average across 1960–2020,
+R724505__evalresult_006,73.2933,January; average across 1960–2020,
+R724505__evalresult_007,77.3150,January; average across 1960–2020,
+R725792__evalresult_001,0.8214,,
+R725792__evalresult_002,0.9012,,
+R725792__evalresult_003,0.7760,,
+R725792__evalresult_004,0.9281,,
+R725792__evalresult_005,0.7416,,
+R725792__evalresult_006,0.9550,,
+R725792__evalresult_007,0.6993,,
+R725792__evalresult_008,0.9394,,
+R725792__evalresult_009,0.8629,,
+R725792__evalresult_010,0.8200,,
+R725792__evalresult_011,1.38,annual,
+R725792__evalresult_012,6.16,annual,
+R725792__evalresult_013,4.70,annual,
+R725792__evalresult_014,6.74,annual,
+R725792__evalresult_015,9.85,annual,
+R725792__evalresult_016,11.29,annual,
+R725792__evalresult_017,11.29,annual,
+R725792__evalresult_018,0.57,annual,
+R725792__evalresult_019,7.50,annual,
+R725792__evalresult_020,12.50,annual,
+R726086__evalresult_001,0.059,Entire period 2005–2021,Smaller KS values indicate a better fit.
+R726086__evalresult_002,662.6,Entire period 2005–2021,Smaller AD values indicate a better fit.
+R726086__evalresult_003,0.9909,Entire period 2005–2021,Higher R2 values indicate a better fit.
+R726086__evalresult_004,0.028,Entire period 2005–2021,Lower RMSE values indicate a better fit.
+R726086__evalresult_005,0.050,Entire period 2005–2021,Smaller KS values indicate a better fit.
+R726086__evalresult_006,470.5,Entire period 2005–2021,Smaller AD values indicate a better fit.
+R726086__evalresult_007,0.9936,Entire period 2005–2021,Higher R2 values indicate a better fit.
+R726086__evalresult_008,0.023,Entire period 2005–2021,Lower RMSE values indicate a better fit.
+R726086__evalresult_009,0.034,Entire period 2005–2021,Smaller KS values indicate a better fit.
+R726086__evalresult_010,243.3,Entire period 2005–2021,Smaller AD values indicate a better fit.
+R726086__evalresult_011,0.9970,Entire period 2005–2021,Higher R2 values indicate a better fit.
+R726086__evalresult_012,0.016,Entire period 2005–2021,Lower RMSE values indicate a better fit.
+R727032__evalresult_001,0.04,,
+R727032__evalresult_002,0.43,,
+R727032__evalresult_003,0.05,,
+R727032__evalresult_004,1.0,,
+R727032__evalresult_005,0.04,,
+R727032__evalresult_006,1.2,,
+R727032__evalresult_007,0.04,,
+R727032__evalresult_008,1.22,,
+R727032__evalresult_009,0.07,,
+R727032__evalresult_010,1.21,,
+R727032__evalresult_011,0.1,,
+R727032__evalresult_012,-2.74,,
+R727032__evalresult_013,0.02,,
+R727032__evalresult_014,-0.1,,
+R727032__evalresult_015,0.03,,
+R727032__evalresult_016,-0.06,,
+R727032__evalresult_017,0.04,,
+R727032__evalresult_018,-0.09,,
+R727032__evalresult_019,0.05,,
+R727032__evalresult_020,-0.34,,
+R727428__evalresult_001,0.071,,
+R727428__evalresult_002,0.9725,,
+R727428__evalresult_003,0.0752,,
+R727428__evalresult_004,0.9947,,
+R727428__evalresult_005,0.0002,,
+R727428__evalresult_006,0.9999,,
+R727428__evalresult_007,0.2778,,
+R727428__evalresult_008,0.2778,,
+R727428__evalresult_009,0.2778,,
+R727440__evalresult_001,0.0062,,
+R727440__evalresult_002,0.9928,,
+R727440__evalresult_003,0.00021,,
+R727440__evalresult_004,0.0038,,
+R727440__evalresult_005,0.9972,,
+R727440__evalresult_006,8e-05,,
+R727440__evalresult_007,0.007,,
+R727440__evalresult_008,0.9902,,
+R727440__evalresult_009,0.00027,,
+R727440__evalresult_010,0.0021,,
+R727440__evalresult_011,0.9991,,
+R727440__evalresult_012,2.45e-05,,
+R727440__evalresult_013,0.0034,,
+R727440__evalresult_014,0.9977,,
+R727440__evalresult_015,6.44e-05,,
+R727440__evalresult_016,0.00296,,
+R727440__evalresult_017,0.9983,,
+R727440__evalresult_018,4.76e-05,,
+R727440__evalresult_019,0.0028,,
+R727440__evalresult_020,0.9985,,
+R727440__evalresult_021,4.26e-05,,
+R727440__evalresult_022,0.0039,,
+R727440__evalresult_023,0.9969,,
+R727440__evalresult_024,8.53e-05,,
+R727440__evalresult_025,0.0036,,
+R727440__evalresult_026,0.9975,,
+R727440__evalresult_027,7e-05,,
+R727440__evalresult_028,0.0014,,
+R727440__evalresult_029,0.9996,,
+R727440__evalresult_030,1e-06,,
+R727542__evalresult_001,2.4,,The current-study AEP estimate was higher than Elsner’s actual AEP estimation.
+R727542__evalresult_002,6.8,,The current-study AEP output was lower than that calculated by Bosch et al. (2018).
+R727583__evalresult_001,0.0327,,
+R727583__evalresult_002,0.9861,,
+R727583__evalresult_003,0.0704,,
+R727583__evalresult_004,0.1124,,
+R727583__evalresult_005,0.0155,,
+R727583__evalresult_006,0.9972,,
+R727583__evalresult_007,0.0425,,
+R727583__evalresult_008,0.0473,,
+R727583__evalresult_009,0.0260,,
+R727583__evalresult_010,0.9907,,
+R727583__evalresult_011,0.0582,,
+R727583__evalresult_012,0.4432,,
+R727583__evalresult_013,0.0189,,
+R727583__evalresult_014,0.9957,,
+R727583__evalresult_015,0.0481,,
+R727583__evalresult_016,0.0847,,
+R727583__evalresult_017,0.0324,,
+R727583__evalresult_018,0.9885,,
+R727583__evalresult_019,0.0664,,
+R727583__evalresult_020,0.1192,,
+R727583__evalresult_021,0.0754,,
+R727583__evalresult_022,0.9510,,
+R727583__evalresult_023,0.1505,,
+R727583__evalresult_024,0.4274,,
+R727583__evalresult_025,0.0291,,
+R727583__evalresult_026,0.9888,,
+R727583__evalresult_027,0.0581,,
+R727583__evalresult_028,0.0357,,
+R727583__evalresult_029,0.0162,,
+R727583__evalresult_030,0.9970,,
+R727583__evalresult_031,0.0415,,
+R727583__evalresult_032,0.0074,,
+R727583__evalresult_033,0.0528,,
+R727583__evalresult_034,0.9582,,
+R727583__evalresult_035,0.1049,,
+R727583__evalresult_036,0.1390,,
+R727583__evalresult_037,0.0231,,
+R727583__evalresult_038,0.9931,,
+R727583__evalresult_039,0.0548,,
+R727583__evalresult_040,0.0253,,
+R727583__evalresult_041,0.0121,,
+R727583__evalresult_042,0.9982,,
+R727583__evalresult_043,0.0319,,
+R727583__evalresult_044,0.0336,,
+R727583__evalresult_045,0.0507,,
+R727583__evalresult_046,0.9749,,
+R727583__evalresult_047,0.0918,,
+R727583__evalresult_048,0.0284,,
+R727587__evalresult_001,2.55,mean wind power density; wind speed at 10 m,
+R727587__evalresult_002,5.92,mean wind power density; wind speed at 10 m,
+R727587__evalresult_003,20.92,mean wind power density; wind speed at 10 m,
+R727587__evalresult_004,23.58,annual energy production of WT06,
+R727587__evalresult_005,26.09,annual energy production of WT06,
+R727587__evalresult_006,7.77,annual energy production of WT06,
+R727587__evalresult_007,16.16,annual energy production after including 6% maintenance losses,
+R727587__evalresult_008,18.52,annual energy production after including 6% maintenance losses,
+R727587__evalresult_009,1.66,annual energy production after including 6% maintenance losses,
+R727592__evalresult_001,0.0322,2017,
+R727592__evalresult_002,0.0105,2017,
+R727592__evalresult_003,0.9999,2017,
+R727592__evalresult_004,0.0009,2017,
+R727592__evalresult_005,0.0098,2017,
+R727592__evalresult_006,0.9995,2017,
+R727592__evalresult_007,0.0271,2018,
+R727592__evalresult_008,0.0075,2018,
+R727592__evalresult_009,0.9999,2018,
+R727592__evalresult_010,0.0026,2018,
+R727592__evalresult_011,0.0279,2018,
+R727592__evalresult_012,0.9987,2018,
+R727592__evalresult_013,0.0313,2019,
+R727592__evalresult_014,0.0099,2019,
+R727592__evalresult_015,0.9999,2019,
+R727592__evalresult_016,0.0012,2019,
+R727592__evalresult_017,0.0125,2019,
+R727592__evalresult_018,0.9994,2019,
+R727821__evalresult_001,,across the observation network,
+R728960__evalresult_001,0.0027,whole region,
+R728960__evalresult_002,1.0000,CDF; whole region,
+R728960__evalresult_003,1.0000,PDF; whole region,
+R728960__evalresult_004,0.0004,CDF; whole region,
+R728960__evalresult_005,0.0029,PDF; whole region,
+R728960__evalresult_006,0.0002,CDF; whole region,
+R728960__evalresult_007,0.0010,PDF; whole region,
+R728960__evalresult_008,0.0023,whole region,
+R728960__evalresult_009,1.0000,CDF; whole region,
+R728960__evalresult_010,1.0000,PDF; whole region,
+R728960__evalresult_011,0.0006,CDF; whole region,
+R728960__evalresult_012,0.0026,PDF; whole region,
+R728960__evalresult_013,0.0003,CDF; whole region,
+R728960__evalresult_014,0.0009,PDF; whole region,
+R1557933__evalresult_001,0.9098,,Proposed sunshine-hour model
+R1557933__evalresult_002,-0.0102,,Proposed sunshine-hour model
+R1557933__evalresult_003,0.0585,,Proposed sunshine-hour model
+R1557933__evalresult_004,0.0338,,Proposed sunshine-hour model
+R1557933__evalresult_005,0.8328,,Proposed air-temperature model
+R1557933__evalresult_006,0.9859,,Proposed air-temperature model
+R1557946__evalresult_001,1.1431,,Proposed model 5 in February-July 2012
+R1557946__evalresult_002,0.0255,,Proposed model 5 in February-July 2012
+R1557946__evalresult_003,0.8254,,Proposed model 5 in February-July 2012
+R1557946__evalresult_004,1.1006,,Proposed model 5 in February-July 2012
+R1557954__evalresult_001,,,M5 range across six stations
+R1557954__evalresult_002,,,M5 range across six stations
+R1557954__evalresult_003,,,M5 range across six stations
+R1560231__evalresult_001,0.2216,,Model 23 overall rank 1
+R1563305__evalresult_001,,,P2 top-ranked single-temperature model
+R1563305__evalresult_002,0.16,,P6 minimum reported NRMSE among models
+R1563353__evalresult_001,0.2216,,Model 23 overall rank 1
+R1563357__evalresult_001,0.2216,,Model 23 overall rank 1
+R1563360__evalresult_001,0.2216,,Model 23 overall rank 1
+R1563363__evalresult_001,0.2216,,Model 23 overall rank 1
+R1563366__evalresult_001,0.988,,Highest reported calibration R2
+R1563366__evalresult_002,5,,Best models reported RMSE <=5 MJ m-2
+R1563369__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563369__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563372__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563372__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563613__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563613__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563618__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563618__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563621__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563621__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563639__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563639__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563642__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563642__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563654__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563654__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563658__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563658__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563661__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563661__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563678__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563678__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563682__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563682__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563685__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563685__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563694__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563694__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563699__evalresult_001,249,,Calibration RMSE at Ahvaz
+R1563699__evalresult_002,315,,Validation RMSE of best comparator at Kermanshah
+R1563704__evalresult_001,18.1,,Improvement over ARMA at first site
+R1563704__evalresult_002,17.1,,RMSE decrease versus ARMA
+R1563707__evalresult_001,,,MLP RMSE lower than best corresponding regression models
+R1563717__evalresult_001,,,MLP RMSE lower than best corresponding regression models
+R1563720__evalresult_001,,,Testing RMSE improvement when precipitation was included
+R1563720__evalresult_002,0.05,,XGBoost testing time
+R1563723__evalresult_001,0.9999,,N1 SVR testing performance
+R1563728__evalresult_001,1.59,,Testing result
+R1563728__evalresult_002,8.46,,Testing result
+R1563728__evalresult_003,97.4,,Testing result
+R1563732__evalresult_001,1.59,,Testing result
+R1563732__evalresult_002,8.46,,Testing result
+R1563732__evalresult_003,97.4,,Testing result
+R1563736__evalresult_001,2.73,,Eight-month test result
+R1563330__evalresult_001,,,GHI h+1 to h+6
+R1563742__evalresult_001,,,GHI h+1 to h+6
+R1563745__evalresult_001,,,Average ensemble RMSE improvement over base models
+R1563748__evalresult_001,,,Average ensemble RMSE improvement over base models
+R1563751__evalresult_001,1.371,,SMGRT Model 1
+R1563751__evalresult_002,0.960,,SMGRT Model 1
+R1563754__evalresult_001,26,,RNN improvement versus ANN
+R1563754__evalresult_002,7.64,,RNN at 10-minute sampling
+R1563757__evalresult_001,42.4,,Average increase when global radiation unavailable
+R1563757__evalresult_002,3.5,,CatBoost Scenario 1/2 single-sample computation time
+R1563832__evalresult_001,42.4,,Average increase when global radiation unavailable
+R1563832__evalresult_002,3.5,,CatBoost Scenario 1/2 single-sample computation time
+R1563835__evalresult_001,0.9546,,RNN GSR performance in Yobe
+R1563835__evalresult_002,82.22,,RNN GSR performance in Yobe
+R1563839__evalresult_001,19.28,,GRU best result
+R1563842__evalresult_001,2.286,,Corrected-SVM
+R1563842__evalresult_002,94.20,,Corrected-SVM
+R1563845__evalresult_001,7.9124,,Best input combination
+R1563845__evalresult_002,3.0083,,Best input combination
+R1563845__evalresult_003,0.9921,,Best input combination
+R1563848__evalresult_001,7.9124,,Best input combination
+R1563848__evalresult_002,3.0083,,Best input combination
+R1563848__evalresult_003,0.9921,,Best input combination
+R1563851__evalresult_001,7.9124,,Best input combination
+R1563851__evalresult_002,3.0083,,Best input combination
+R1563851__evalresult_003,0.9921,,Best input combination
+R1563854__evalresult_001,7.9124,,Best input combination
+R1563854__evalresult_002,3.0083,,Best input combination
+R1563854__evalresult_003,0.9921,,Best input combination
+R1563857__evalresult_001,7.9124,,Best input combination
+R1563857__evalresult_002,3.0083,,Best input combination
+R1563857__evalresult_003,0.9921,,Best input combination
+R1563860__evalresult_001,7.9124,,Best input combination
+R1563860__evalresult_002,3.0083,,Best input combination
+R1563860__evalresult_003,0.9921,,Best input combination
+R1563863__evalresult_001,1.8661,,Testing phase
+R1563863__evalresult_002,0.7280,,Testing phase
+R1563863__evalresult_003,11.5192,,Testing phase
+R1563866__evalresult_001,1.8661,,Testing phase
+R1563866__evalresult_002,0.7280,,Testing phase
+R1563866__evalresult_003,11.5192,,Testing phase
+R1563869__evalresult_001,18.98,,Proposed model
+R1563869__evalresult_002,6.38,,Proposed model
+R1563869__evalresult_003,2.86,,Proposed model
+R1563872__evalresult_001,18.98,,Proposed model
+R1563872__evalresult_002,6.38,,Proposed model
+R1563872__evalresult_003,2.86,,Proposed model
+R1563875__evalresult_001,18.98,,Proposed model
+R1563875__evalresult_002,6.38,,Proposed model
+R1563875__evalresult_003,2.86,,Proposed model
+R1563878__evalresult_001,18.98,,Proposed model
+R1563878__evalresult_002,6.38,,Proposed model
+R1563878__evalresult_003,2.86,,Proposed model
+R1563881__evalresult_001,18.98,,Proposed model
+R1563881__evalresult_002,6.38,,Proposed model
+R1563881__evalresult_003,2.86,,Proposed model
+R1563884__evalresult_001,1.98,,SVR-KHA3 at Isfahan
+R1563884__evalresult_002,7.4,,SVR-KHA3 at Isfahan
+R1563884__evalresult_003,0.93,,SVR-KHA3 at Isfahan
+R1563887__evalresult_001,,,Accuracy improvement over other models
+R1563890__evalresult_001,,,Improvement over standalone SVR
+R1563893__evalresult_001,,,Improvement over standalone SVR
+R1563896__evalresult_001,,,Improvement over standalone SVR
+R1563899__evalresult_001,,,Testing-phase accuracy improvement across four stations
+R1563902__evalresult_001,0.9911,,ANN average
+R1563902__evalresult_002,0.78,,ANN average
+R1563902__evalresult_003,4.9263,,ANN average
+R1563911__evalresult_001,98.883,,Logistic sigmoid with 50 hidden neurons
+R1563914__evalresult_001,0.995,,Clear-sky irradiance
+R1563914__evalresult_002,20.29,,Cloud-cover MBE one hour after assimilation
+R1563917__evalresult_001,,,Clear-sky accuracy improvement across two sites
+R1563917__evalresult_002,,,Clear-sky accuracy improvement across two sites
+R1563920__evalresult_001,,,Clear-sky accuracy improvement across two sites
+R1563920__evalresult_002,,,Clear-sky accuracy improvement across two sites
+R1563923__evalresult_001,,,Clear-sky accuracy improvement across two sites
+R1563923__evalresult_002,,,Clear-sky accuracy improvement across two sites
+R1563927__evalresult_001,15,,Improvement versus persistence
+R1563927__evalresult_002,,,Improvement versus numerical weather prediction
+R1563930__evalresult_001,15,,Improvement versus persistence
+R1563930__evalresult_002,,,Improvement versus numerical weather prediction
+R1563933__evalresult_001,92.45,,LSTM validation
+R1563933__evalresult_002,20.9,,LSTM validation
+R1563937__evalresult_001,92.45,,LSTM validation
+R1563937__evalresult_002,20.9,,LSTM validation
+R1563974__evalresult_001,92.45,,LSTM validation
+R1563974__evalresult_002,20.9,,LSTM validation
+R1563977__evalresult_001,0.96,,Machine-learning GHI estimation
+R1563977__evalresult_002,0.03,,Machine-learning PV-power estimation
+R1563980__evalresult_001,6.354,,Sabbagh model
+R1563980__evalresult_002,-3.704,,Sabbagh model
+R1563984__evalresult_001,2.668,,Simulation result.
+R1563984__evalresult_002,3.561,,Simulation result under reported conditions.
+R1563984__evalresult_003,4.9355,,Experimental ESHAML result.
+R1563984__evalresult_004,34.96,,Moshksar and Ghanbari benchmark.
+R1563984__evalresult_005,7,,Abe et al. benchmark.
+R1563984__evalresult_006,20,,Reported as under 20 ms.
+R1563984__evalresult_007,1.9499,,Mean difference between experimental power and theoretical MPP.
+R1563987__evalresult_001,800,,Extreme irradiance value reported for the five-site assessment.
+R1563987__evalresult_002,1800,,Estimated minimum yearly average direct solar radiation.
+R1563991__evalresult_001,0.984,,30-minute forecast horizon.
+R1563991__evalresult_002,0.048,,30-minute forecast horizon.
+R1563991__evalresult_003,0.21,,30-minute forecast horizon.
+R1563991__evalresult_004,16.19,,30-minute forecast horizon.
+R1563991__evalresult_005,0.961,,360-minute forecast horizon.
+R1563991__evalresult_006,0.075,,360-minute forecast horizon.
+R1563991__evalresult_007,0.33,,360-minute forecast horizon.
+R1563991__evalresult_008,46.21,,360-minute forecast horizon.
+R1563995__evalresult_001,15,,Hourly error was usually lower than 15 Wh.
+R1563995__evalresult_002,1,,NMAE could be lower than 1%.
+R1563995__evalresult_003,2,,WMAE could be lower than 2%.
+R1563998__evalresult_001,263,,WRF-only; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_002,56,,WRF-only; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_003,38,,WRF-only; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_004,0.64,,WRF-only; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_005,237,,3DVAR; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_006,50,,3DVAR; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_007,23,,3DVAR; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_008,0.59,,3DVAR; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_009,216,,4DVAR; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_010,46,,4DVAR; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_011,17,,4DVAR; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_012,0.63,,4DVAR; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_013,174,,WRF-only RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_014,37,,WRF-only RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_015,0.9,,WRF-only RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_016,0.68,,WRF-only RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_017,178,,3DVAR RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_018,38,,3DVAR RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_019,-1.1,,3DVAR RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_020,0.67,,3DVAR RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_021,173,,4DVAR RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_022,37,,4DVAR RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_023,-1.2,,4DVAR RF; 2016 hourly 09:00–17:00 evaluation.
+R1563998__evalresult_024,0.69,,4DVAR RF; 2016 hourly 09:00–17:00 evaluation.
+R1564001__evalresult_001,2,,Generally within 2 K of true temperature.
+R1564001__evalresult_002,10,,Generally within 10 W/m² of true irradiation.
+R1564001__evalresult_003,8.5,,Severely cloudy case versus incremental conductance MPPT.
+R1564008__evalresult_001,6,,Fusion alternative 2 used a six-minute local-error window.
+R1564008__evalresult_002,7,,Fusion alternative 2 selected Kalman output below the 7% threshold.
+R1564076__evalresult_001,0.99,,11 March 2016 1-hour bagEarthGCV forecast.
+R1564076__evalresult_002,8.52,,11 March 2016 1-hour bagEarthGCV forecast.
+R1564076__evalresult_003,90.2,,11 March 2016 1-hour bagEarthGCV forecast.
+R1564076__evalresult_004,0.92,,30 August 2016 48-hour spikeslab forecast.
+R1564076__evalresult_005,22.73,,30 August 2016 48-hour spikeslab forecast.
+R1564076__evalresult_006,91.67,,30 August 2016 48-hour spikeslab forecast.
+R1564076__evalresult_007,0.92,,31 December 2016 1-hour Cubist forecast.
+R1564076__evalresult_008,10.3,,31 December 2016 1-hour Cubist forecast.
+R1564076__evalresult_009,93.86,,31 December 2016 1-hour Cubist forecast.
+R1564084__evalresult_001,0.980,,Overall C16 result.
+R1564084__evalresult_002,0.78,,Overall C16 result.
+R1564084__evalresult_003,0.61,,Overall C16 result.
+R1564084__evalresult_004,0.992,,Kirikkale C16 result.
+R1564088__evalresult_001,1.51,,"ConvLSTM, 10-year dataset"
+R1564088__evalresult_002,4.05,,"ConvLSTM, 1-year dataset"
+R1564088__evalresult_003,4.72,,"LSTM, 1-year dataset"
+R1564088__evalresult_004,6.63,,"XGBoost, 1-year dataset"
+R1564088__evalresult_005,7.8,,"SVR, 1-year dataset"
+R1564088__evalresult_006,12.61,,"CNN, 1-year dataset"
+R1564088__evalresult_007,19.8,,"RF, 1-year dataset"
+R1564093__evalresult_001,0.932,,Best overall ANN result reported in Table 4.
+R1564093__evalresult_002,2.157,,Best overall ANN result reported in Table 4.
+R1564093__evalresult_003,14.10,,Best overall ANN result reported in Table 4.
+R1564093__evalresult_004,0.195,,Best overall ANN result reported in Table 4.
+R1564093__evalresult_005,1.597,,Best overall ANN result reported in Table 4.
+R1564093__evalresult_006,1.280,,Best overall ANN result reported in Table 4.
+R1564093__evalresult_007,15.92,,Best overall ANN result reported in Table 4.
+R1564100__evalresult_001,0.9340,,Model 1 Levenberg–Marquardt testing result.
+R1564100__evalresult_002,0.045632,,Model 1 Levenberg–Marquardt testing result.
+R1564100__evalresult_003,0.005781,,Model 1 Levenberg–Marquardt testing result.
+R1564100__evalresult_004,0.076342,,Model 1 Levenberg–Marquardt testing result.
+R1564100__evalresult_005,0.484634,,Model 1 Levenberg–Marquardt testing result.
+R1564524__evalresult_001,0.3065,,Kuala Terengganu ANFIS-PSO test result.
+R1564524__evalresult_002,1.7933,,Kuala Terengganu ANFIS-PSO test result.
+R1564524__evalresult_003,0.9963,,Kuala Terengganu ANFIS-PSO test result.
+R1564524__evalresult_004,0.9921,,Kuala Terengganu ANFIS-PSO test result.
+R1564524__evalresult_005,0.2482,,Kuala Terengganu ANFIS-PSO test result.
+R1564524__evalresult_006,1.4097,,Kuala Terengganu ANFIS-PSO test result.
+R1565340__evalresult_001,7.9,,SolarGIS GHI validation.
+R1565340__evalresult_002,5.6,,"1500 €/kWp, 5%, 1764 kWh/kWp/year."
+R1565340__evalresult_003,6.79,,"1500 €/kWp, 5%, 1764 kWh/kWp/year."
+R1565343__evalresult_001,9.377,,"Wide Neural Network, hold-out testing."
+R1565343__evalresult_002,0.999,,"Wide Neural Network, hold-out testing."
+R1565343__evalresult_003,458.97,,"Fine Gaussian SVM, hold-out testing."
+R1565347__evalresult_001,0.983,,Lower bound of proposed model R² range.
+R1565347__evalresult_002,0.989,,Upper bound of proposed model R² range.
+R1565347__evalresult_003,0.115,,Ngaoundéré proposed-model t-statistic.
+R1565347__evalresult_004,0.556,,Garoua-Boulai proposed-model t-statistic.
+R1565351__evalresult_001,7.30,,Compared with NASA irradiance data.
+R1565351__evalresult_002,14.58,,Compared with NASA irradiance data.
+R1565351__evalresult_003,6.71,,Lowest reported irradiance-model RMSE against NASA data.
+R1565351__evalresult_004,7.86,,Compared with NASA temperature data.
+R1565351__evalresult_005,7.17,,Best temperature performance from 6 a.m. to noon.
+R1565351__evalresult_006,9.86,,Preferred temperature model from 1 to 6 p.m.
+R1565351__evalresult_007,1.95,,"BP3125 annual-energy estimate compared with PVGIS, as reported in the abstract."
+R1565351__evalresult_008,4.40,,"BP3180 annual-energy estimate compared with PVGIS, as reported in the abstract."
+R1565351__evalresult_009,2.14,,"BP3125 annual-energy estimate compared with PVsyst, as reported in the abstract."
+R1565351__evalresult_010,4.22,,"BP3180 annual-energy estimate compared with PVsyst, as reported in the abstract."
+R1565354__evalresult_001,0.9555,,
+R1565354__evalresult_002,-0.8887,,
+R1565354__evalresult_003,48.2832,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_004,0.9588,,
+R1565354__evalresult_005,0.5748,,
+R1565354__evalresult_006,0.5566,,
+R1565354__evalresult_007,-0.0148,,
+R1565354__evalresult_008,0.5088,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_009,0.9860,,
+R1565354__evalresult_010,0.8636,,
+R1565354__evalresult_011,1.6676,,
+R1565354__evalresult_012,-1.6391,,
+R1565354__evalresult_013,101.7849,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_014,0.8746,,
+R1565354__evalresult_015,0.4476,,
+R1565354__evalresult_016,1.7267,,
+R1565354__evalresult_017,1.3689,,
+R1565354__evalresult_018,24.8193,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_019,0.8655,,
+R1565354__evalresult_020,0.4890,,
+R1565354__evalresult_021,1.9883,,
+R1565354__evalresult_022,-1.9159,,
+R1565354__evalresult_023,68.7231,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_024,0.8819,,
+R1565354__evalresult_025,0.3654,,
+R1565354__evalresult_026,1.2163,,
+R1565354__evalresult_027,-1.0438,,
+R1565354__evalresult_028,31.8884,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_029,0.9558,,
+R1565354__evalresult_030,0.6066,,
+R1565354__evalresult_031,2.7501,,
+R1565354__evalresult_032,-2.7204,,
+R1565354__evalresult_033,128.7988,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_034,0.7741,,
+R1565354__evalresult_035,0.3121,,
+R1565354__evalresult_036,1.0899,,
+R1565354__evalresult_037,0.2878,,
+R1565354__evalresult_038,5.2237,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_039,0.9645,,
+R1565354__evalresult_040,0.6933,,
+R1565354__evalresult_041,3.1639,,
+R1565354__evalresult_042,-2.8484,,
+R1565354__evalresult_043,39.4578,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_044,0.7368,,
+R1565354__evalresult_045,0.2194,,
+R1565354__evalresult_046,2.2298,,
+R1565354__evalresult_047,-0.8395,,
+R1565354__evalresult_048,7.7538,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_049,0.8693,,
+R1565354__evalresult_050,0.1383,,
+R1565354__evalresult_051,5.4360,,
+R1565354__evalresult_052,-5.3638,,
+R1565354__evalresult_053,115.9188,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_054,0.2230,,
+R1565354__evalresult_055,0.1791,,
+R1565354__evalresult_056,1.5366,,
+R1565354__evalresult_057,0.0102,,
+R1565354__evalresult_058,0.1262,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_059,0.9379,,
+R1565354__evalresult_060,0.4860,,
+R1565354__evalresult_061,4.5783,,
+R1565354__evalresult_062,-4.4664,,
+R1565354__evalresult_063,84.7052,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_064,0.3686,,
+R1565354__evalresult_065,0.1945,,
+R1565354__evalresult_066,3.5761,,
+R1565354__evalresult_067,-1.7462,,
+R1565354__evalresult_068,10.6756,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_069,0.6148,,
+R1565354__evalresult_070,0.0431,,
+R1565354__evalresult_071,5.5443,,
+R1565354__evalresult_072,-5.4900,,
+R1565354__evalresult_073,135.2631,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_074,0.0741,,
+R1565354__evalresult_075,0.1773,,
+R1565354__evalresult_076,2.4289,,
+R1565354__evalresult_077,0.1945,,
+R1565354__evalresult_078,1.5326,,Statistically significant at 99% confidence when t < 2.5758.
+R1565354__evalresult_079,0.8223,,
+R1565354__evalresult_080,0.4014,,
+R1566035__evalresult_001,0.964,,Seasonal GSR estimated from in-situ temperature agreed well with HelioClim3-v5 GSR.
+R1567953__evalresult_001,0,,Lower is better; reference system reported 5.15%.
+R1567953__evalresult_002,52.59,,Higher reduction is better.
+R1567953__evalresult_003,31.74,,Lower is better; reference system reported 47.49%.
+R1567953__evalresult_004,100,,Higher reduction is better.
+R1582661__evalresult_001,0.70,,Validation over entire period.
+R1582661__evalresult_002,0.64,,Validation over entire period.
+R1582661__evalresult_003,0.91,,Validation over entire period.
+R1582661__evalresult_004,0.93,,Validation over non-rainy period.
+R1582661__evalresult_005,0.86,,Validation over non-rainy period.
+R1582661__evalresult_006,0.96,,Validation over non-rainy period.
+R1594719__evalresult_001,77.61,,Increase Financial Support and Mechanisms (S1)
+R1594719__evalresult_002,78.55,,Promote Public-Private Partnerships (S2)
+R1594719__evalresult_003,43.67,,Simplify Access to Grants and Incentives (S3)
+R1594719__evalresult_004,65.83,,Financial Incentives and Subsidies (S4)
+R1594719__evalresult_005,34.46,,Risk Mitigation Mechanisms (S5)
+R1594719__evalresult_006,156.89,,Introduce Flexible Financing Models (S6)
+R1594719__evalresult_007,159.05,,Facilitate International Financing and Grants (S7)
+R1594719__evalresult_008,160.67,,Remove Fossil Fuel Subsidies Gradually (S8)
+R1594719__evalresult_009,54.78,,Implement Carbon Pricing or Tax Incentives (S9)
+R1594719__evalresult_010,74.49,,Regulatory Simplification and Streamlining (S10)
+R1594719__evalresult_011,145.08,,Policy Stability and Long-Term Commitment (S11)
+R1594719__evalresult_012,198.48,,Policy and Regulatory Reforms (S12)
+R1594719__evalresult_013,102.52,,Establish Clear Renewable Energy Targets (S13)
+R1594719__evalresult_014,141.04,,Create Renewable Energy Zones (S14)
+R1594719__evalresult_015,51.46,,Investment in Research and Development (S15)
+R1594719__evalresult_016,75.83,,Technological Innovation and Research and Development (S16)
+R1594719__evalresult_017,25.14,,Standardize Technology and Safety Measures (S17)
+R1594719__evalresult_018,160.8,,Support Smart Grid and Internet of Things Integration (S18)
+R1594719__evalresult_019,74.26,,Foster Local Manufacturing and Innovation (S19)
+R1594719__evalresult_020,84.52,,Enhance Grid Infrastructure and Flexibility (S20)
+R1594719__evalresult_021,51.05,,Encourage Decentralized and Distributed Energy Systems (S21)
+R1594719__evalresult_022,12.81,,Awareness and Education Campaigns (S22)
+R1594719__evalresult_023,103.85,,Build Institutional Capacity and Expertise (S23)
+R1594719__evalresult_024,157.28,,Develop Training and Certification Programs (S24)
+R1594719__evalresult_025,80.92,,Collaboration and Knowledge Sharing (S25)
+R1594719__evalresult_026,128.34,,Establish Renewable Energy Incubators and Accelerators (S26)
+R1594719__evalresult_027,9.5,,Strengthen Waste Management and Recycling Systems (S27)
+R1594719__evalresult_028,189.55,,Strengthen Environmental and Social Governance Policies (S28)
+R1594719__evalresult_029,112.72,,Promote Green Job Creation (S29)
+R1594719__evalresult_030,215.65,,Promote Renewable Energy as a Climate Solution (S30)
+R1594719__evalresult_031,83.09,,Planning and Monitoring Frameworks (S31)
+R1594719__evalresult_032,54.79,,Strengthen International Collaboration (S32)
+R1594719__evalresult_033,39.34,,Encourage Community Participation and Ownership (S33)
+R1594719__evalresult_034,77.13,,Develop Comprehensive Lifecycle Management Strategies (S34)
+R1594719__evalresult_035,56.74,,Incentivize Storage and Backup Systems (S35)
+R1594719__evalresult_036,163.72,,Market Development Strategies (S36)
+R1594719__evalresult_037,99.55,,Improve Data Availability and Transparency (S37)
+R1594719__evalresult_038,63.01,,Implement Localized Energy Solutions (S38)
+R1594719__evalresult_039,20,,Increase Financial Support and Mechanisms (S1)
+R1594719__evalresult_040,22,,Promote Public-Private Partnerships (S2)
+R1594719__evalresult_041,21,,Simplify Access to Grants and Incentives (S3)
+R1594719__evalresult_042,28,,Financial Incentives and Subsidies (S4)
+R1594719__evalresult_043,36,,Risk Mitigation Mechanisms (S5)
+R1594719__evalresult_044,11,,Introduce Flexible Financing Models (S6)
+R1594719__evalresult_045,17,,Facilitate International Financing and Grants (S7)
+R1594719__evalresult_046,15,,Remove Fossil Fuel Subsidies Gradually (S8)
+R1594719__evalresult_047,35,,Implement Carbon Pricing or Tax Incentives (S9)
+R1594719__evalresult_048,13,,Regulatory Simplification and Streamlining (S10)
+R1594719__evalresult_049,1,,Policy Stability and Long-Term Commitment (S11)
+R1594719__evalresult_050,12,,Policy and Regulatory Reforms (S12)
+R1594719__evalresult_051,5,,Establish Clear Renewable Energy Targets (S13)
+R1594719__evalresult_052,18,,Create Renewable Energy Zones (S14)
+R1594719__evalresult_053,37,,Investment in Research and Development (S15)
+R1594719__evalresult_054,33,,Technological Innovation and Research and Development (S16)
+R1594719__evalresult_055,32,,Standardize Technology and Safety Measures (S17)
+R1594719__evalresult_056,16,,Support Smart Grid and Internet of Things Integration (S18)
+R1594719__evalresult_057,25,,Foster Local Manufacturing and Innovation (S19)
+R1594719__evalresult_058,27,,Enhance Grid Infrastructure and Flexibility (S20)
+R1594719__evalresult_059,31,,Encourage Decentralized and Distributed Energy Systems (S21)
+R1594719__evalresult_060,30,,Awareness and Education Campaigns (S22)
+R1594719__evalresult_061,19,,Build Institutional Capacity and Expertise (S23)
+R1594719__evalresult_062,3,,Develop Training and Certification Programs (S24)
+R1594719__evalresult_063,8,,Collaboration and Knowledge Sharing (S25)
+R1594719__evalresult_064,10,,Establish Renewable Energy Incubators and Accelerators (S26)
+R1594719__evalresult_065,38,,Strengthen Waste Management and Recycling Systems (S27)
+R1594719__evalresult_066,4,,Strengthen Environmental and Social Governance Policies (S28)
+R1594719__evalresult_067,7,,Promote Green Job Creation (S29)
+R1594719__evalresult_068,2,,Promote Renewable Energy as a Climate Solution (S30)
+R1594719__evalresult_069,14,,Planning and Monitoring Frameworks (S31)
+R1594719__evalresult_070,26,,Strengthen International Collaboration (S32)
+R1594719__evalresult_071,23,,Encourage Community Participation and Ownership (S33)
+R1594719__evalresult_072,29,,Develop Comprehensive Lifecycle Management Strategies (S34)
+R1594719__evalresult_073,34,,Incentivize Storage and Backup Systems (S35)
+R1594719__evalresult_074,9,,Market Development Strategies (S36)
+R1594719__evalresult_075,6,,Improve Data Availability and Transparency (S37)
+R1594719__evalresult_076,24,,Implement Localized Energy Solutions (S38)
+R1594719__evalresult_077,188,,F-ARAS comparison
+R1594719__evalresult_078,40,,F-VIKOR comparison
+R1594719__evalresult_079,362,,F-TOPSIS comparison
+R1594719__evalresult_080,88,,F-PROMETHEE comparison
+R1594719__evalresult_081,182,,F-WASPAS comparison
+R1594719__evalresult_082,210,,F-WSM comparison
+R1594719__evalresult_083,136,,F-WPM comparison
+R1594719__evalresult_084,77,,F-RVIKOR comparison
+R1594719__evalresult_085,162,,F-PROMSIS comparison
+R1594719__evalresult_086,0.91,,barrier importance questionnaire
+R1594719__evalresult_087,0.89,,relationship matrix questionnaire
+R1594719__evalresult_088,0.01,,criteria weighting questionnaire
+R1594719__evalresult_089,0.93,,strategy evaluation questionnaire
+R1637917__evalresult_001,1.81,,"Natural-vistas barrier; statistically significant, p = 0.01."
+R1637917__evalresult_002,0.63,,"External challenges from grants/loans and provincial support; statistically significant, p = 0.03."
+R1637917__evalresult_003,0.45,,Model n = 93.
+R1638054__evalresult_001,4.35,,grid connection constraints and lack of grid capacity; variance 0.91; standard deviation 0.96.
+R1638054__evalresult_002,4.16,,longer processing times for permits; variance 0.93; standard deviation 0.97.
+R1638054__evalresult_003,3.90,,land and/or water lease securement; variance 1.36; standard deviation 1.16.
+R1638054__evalresult_004,3.71,,limited access to financing; variance 1.15; standard deviation 1.07.
+R1638054__evalresult_005,3.67,,difficulty in power-purchase-agreement negotiations; variance 1.16; standard deviation 1.08.
+R1567645__evalresult_001,0.56,,Combined assimilation streamflow RMSE at Westover
+R1567645__evalresult_002,14.98,,Combined assimilation soil-moisture RMSE at Westover
+R1567665__evalresult_001,0.94,,Joint assimilation at gauge 08071000 during Hurricane Harvey
+R1567665__evalresult_002,4.4,,Joint assimilation at gauge 08071000 during Hurricane Harvey
+R1567682__evalresult_001,0.02,,Selected PI configuration at assimilation points: Kp=10 and Ki=10.
+R1567682__evalresult_002,0.07,,Selected PI configuration at the Orsova validation point.
+R1567682__evalresult_003,0.074,,Selected PI configuration at assimilation points.
+R1567682__evalresult_004,0.187,,Selected PI configuration at the validation point.
+R1567682__evalresult_005,0.075,,"At assimilation points, error exceeded the 0.05 m threshold for 7.5% of simulation time."
+R1567682__evalresult_006,0.48,,Selected PI configuration at the validation point.
+R1567682__evalresult_007,132100000,,Correction volume at Nera assimilation point for the selected PI configuration.
+R1567698__evalresult_001,0.25,,Highest reported stream-discharge KGE gain among the listed beneficial combined assimilations (Table 2; reported as 25 × 10⁻²).
+R1567729__evalresult_001,0.72,,Calibrated model performance over the whole study period.
+R1567729__evalresult_002,6,,"Lowest forecast MAE, achieved by assimilating Grønebotn and Katledalane observations."
+R1567729__evalresult_003,15,,"Worst forecast MAE, from assimilating Ovridsfjell observations alone."
+R1567757__evalresult_001,26.90,,Groundwater in-situ validation; RMSE reduction versus open loop: 36.42%
+R1567757__evalresult_002,0.78,,Groundwater in-situ validation correlation.
+R1567757__evalresult_003,40.72,,Groundwater in-situ validation; RMSE reduction versus open loop: 3.76%
+R1567757__evalresult_004,0.75,,Groundwater in-situ validation correlation.
+R1567757__evalresult_005,24.85,,Groundwater in-situ validation; RMSE reduction versus open loop: 41.27%
+R1567757__evalresult_006,0.80,,Groundwater in-situ validation correlation.
+R1567757__evalresult_007,28.68,,Groundwater in-situ validation; RMSE reduction versus open loop: 32.21%
+R1567757__evalresult_008,0.76,,Groundwater in-situ validation correlation.
+R1567757__evalresult_009,40.09,,Groundwater in-situ validation; RMSE reduction versus open loop: 5.25%
+R1567757__evalresult_010,0.74,,Groundwater in-situ validation correlation.
+R1567757__evalresult_011,25.78,,Groundwater in-situ validation; RMSE reduction versus open loop: 39.07%
+R1567757__evalresult_012,0.82,,Groundwater in-situ validation correlation.
+R1567757__evalresult_013,33.54,,Groundwater in-situ validation; RMSE reduction versus open loop: 27.59%
+R1567757__evalresult_014,0.73,,Groundwater in-situ validation correlation.
+R1567757__evalresult_015,42.08,,Groundwater in-situ validation; RMSE reduction versus open loop: 9.15%
+R1567757__evalresult_016,0.65,,Groundwater in-situ validation correlation.
+R1567757__evalresult_017,29.51,,Groundwater in-situ validation; RMSE reduction versus open loop: 36.29%
+R1567757__evalresult_018,0.82,,Groundwater in-situ validation correlation.
+R1567757__evalresult_019,31.72,,Groundwater in-situ validation; RMSE reduction versus open loop: 31.52%
+R1567757__evalresult_020,0.77,,Groundwater in-situ validation correlation.
+R1567757__evalresult_021,44.29,,Groundwater in-situ validation; RMSE reduction versus open loop: 4.38%
+R1567757__evalresult_022,0.68,,Groundwater in-situ validation correlation.
+R1567757__evalresult_023,27.11,,Groundwater in-situ validation; RMSE reduction versus open loop: 40.47%
+R1567757__evalresult_024,0.84,,Groundwater in-situ validation correlation.
+R1567776__evalresult_001,0.89,,Test-set correlation between predicted and observed Kainji energy generation.
+R1567776__evalresult_002,0.77,,Test-set correlation between predicted and observed Jebba energy generation.
+R1567813__evalresult_001,0.96,,Ovia River
+R1567813__evalresult_002,0.94,,Ikpoba River
+R1567813__evalresult_003,0.98,,Orlie River
+R1567813__evalresult_004,0.97,,Edion River
+R1567836__evalresult_001,0.963,,Selected ANN impact-prediction model 5.
+R1567836__evalresult_002,0.0001,,Selected ANN impact-prediction model 5 test MSE.
+R1567836__evalresult_003,99.0,,"Selected ANN classification model performance, as reported in the abstract."
+R1567877__evalresult_001,79.67,,ROC validation against historical surveyed potential sites; reported as good performance.
+R1567877__evalresult_002,0.71,,Pearson correlation between field survey and semi-automatic valley-width output.
+R1567877__evalresult_003,0.051,,"Below 0.10, therefore acceptable pairwise-comparison consistency."
+R1567909__evalresult_001,0.04,,CR below 0.10 consistency threshold
+R1568509__evalresult_001,0.63,,good correlation for discharge
+R1568525__evalresult_001,0.76,,Calibration period (2008–2010)
+R1568525__evalresult_002,0.85,,Calibration period (2008–2010)
+R1568525__evalresult_003,0.70,,Validation period (2011–2014)
+R1568525__evalresult_004,0.74,,Validation period (2011–2014)
+R1568654__evalresult_001,0.79,,monthly Eldiem comparison
+R1568654__evalresult_002,0.90,,monthly Eldiem comparison
+R1568773__evalresult_001,0.84,,calibration
+R1568773__evalresult_002,0.76,,calibration
+R1568773__evalresult_003,0.78,,validation
+R1568773__evalresult_004,0.73,,validation
+R1568785__evalresult_001,0.77,,Sudan Border station
+R1568785__evalresult_002,13.7,,Sudan Border station
+R1568785__evalresult_003,0.59,,Tana Lake station
+R1568785__evalresult_004,9.5,,Tana Lake station
+R1568785__evalresult_005,0.53,,Wenz station
+R1568785__evalresult_006,24.8,,Wenz station
+R1568785__evalresult_007,0.30,,Wolkite station
+R1568785__evalresult_008,-7.6,,Wolkite station
+R1568790__evalresult_001,0.9,,satisfactory
+R1568790__evalresult_002,0.89,,satisfactory
+R1568790__evalresult_003,0.84,,satisfactory
+R1568790__evalresult_004,0.86,,satisfactory
+R1568790__evalresult_005,0.69,,satisfactory
+R1568790__evalresult_006,0.55,,satisfactory
+R1568790__evalresult_007,0.62,,satisfactory
+R1568790__evalresult_008,0.47,,satisfactory
+R1568806__evalresult_001,0.84,,Calibration; acceptable threshold > 0.6.
+R1568806__evalresult_002,0.78,,Calibration; acceptable threshold > 0.5.
+R1568806__evalresult_003,-4.6,,Calibration; acceptable range ±15%.
+R1568806__evalresult_004,0.81,,Validation; acceptable threshold > 0.6.
+R1568806__evalresult_005,0.72,,Validation; acceptable threshold > 0.5.
+R1568806__evalresult_006,-4.8,,Validation; acceptable range ±15%.
+R1568816__evalresult_001,0.997,,Google Earth Pro head drops compared with handheld GPS measurements at four accessible locations.
+R1568816__evalresult_002,0.994,,Google Earth Pro head drops compared with handheld GPS measurements at four accessible locations.
+R1569160__evalresult_001,0.92,,2000 water yield: observed=3.247 MCM; modelled=3.25 MCM.
+R1569160__evalresult_002,0.12,,2000 water yield: observed=3.247 MCM; modelled=3.25 MCM.
+R1569160__evalresult_003,0.89,,2000 water yield: observed=3.247 MCM; modelled=3.25 MCM.
+R1569160__evalresult_004,0.88,,2010 water yield: observed=4.635 MCM; modelled=4.45 MCM.
+R1569160__evalresult_005,0.21,,2010 water yield: observed=4.635 MCM; modelled=4.45 MCM.
+R1569160__evalresult_006,0.83,,2010 water yield: observed=4.635 MCM; modelled=4.45 MCM.
+R1569160__evalresult_007,0.85,,2020 water yield: observed=4.870 MCM; modelled=4.75 MCM.
+R1569160__evalresult_008,0.18,,2020 water yield: observed=4.870 MCM; modelled=4.75 MCM.
+R1569160__evalresult_009,0.80,,2020 water yield: observed=4.870 MCM; modelled=4.75 MCM.
+R1569361__evalresult_001,0.73,,Calibration
+R1569361__evalresult_002,0.75,,Calibration
+R1569361__evalresult_003,4.5,,Calibration
+R1569361__evalresult_004,0.52,,Calibration
+R1569361__evalresult_005,0.50,,Calibration
+R1569361__evalresult_006,0.17,,Calibration
+R1569361__evalresult_007,0.62,,Validation
+R1569361__evalresult_008,0.73,,Validation
+R1569361__evalresult_009,5.9,,Validation
+R1569361__evalresult_010,0.62,,Validation
+R1569361__evalresult_011,0.44,,Validation
+R1569361__evalresult_012,0.24,,Validation
+R1569504__evalresult_001,0.67,,Good
+R1569504__evalresult_002,0.90,,Very good
+R1569504__evalresult_003,4.7,,Very good
+R1569504__evalresult_004,0.57,,Good
+R1569504__evalresult_005,0.92,,Good
+R1569504__evalresult_006,0.18,,Good
+R1569504__evalresult_007,0.72,,Good
+R1569504__evalresult_008,0.86,,Very good
+R1569504__evalresult_009,5.8,,Very good
+R1569504__evalresult_010,0.55,,Good
+R1569504__evalresult_011,0.89,,Good
+R1569504__evalresult_012,0.22,,Good
+R1569514__evalresult_001,0.73,,Calibration
+R1569514__evalresult_002,0.73,,Calibration
+R1569514__evalresult_003,6.76,,Calibration
+R1569514__evalresult_004,0.55,,Calibration
+R1569514__evalresult_005,0.37,,Calibration
+R1569514__evalresult_006,0.70,,Validation
+R1569514__evalresult_007,0.70,,Validation
+R1569514__evalresult_008,13.14,,Validation
+R1569514__evalresult_009,0.57,,Validation
+R1569514__evalresult_010,0.37,,Validation
+R1580088__evalresult_001,0.99,,Liwonde gauge.
+R1580088__evalresult_002,0.99,,Liwonde gauge.
+R1580088__evalresult_003,0.98,,Matope gauge.
+R1580088__evalresult_004,0.97,,Matope gauge.
+R1580088__evalresult_005,0.96,,Chikwawa gauge.
+R1580088__evalresult_006,0.94,,Chikwawa gauge.
+R1581270__evalresult_001,4.09,,Best one-step configuration in grid search and walk-forward validation.
+R1581270__evalresult_002,123.84,,Best multi-step configuration; average of twelve forecast steps.
+R1581270__evalresult_003,11.23,,Best one-step differentiated bivariate LSTM.
+R1581270__evalresult_004,136.04,,Best multi-step differentiated univariate LSTM.
+R1581274__evalresult_001,97.07,,Best LightGBM configuration.
+R1581274__evalresult_002,0.1217,,Best LightGBM configuration.
+R1581274__evalresult_003,96.94,,Best CatBoost configuration.
+R1581274__evalresult_004,0.1242,,Best CatBoost configuration.
+R1581274__evalresult_005,96.79,,Best XGBoost configuration.
+R1581274__evalresult_006,0.1273,,Best XGBoost configuration.
+R1581530__evalresult_001,3.12,,
+R1581530__evalresult_002,6.43,,
+R1581530__evalresult_003,5.18,,
+R1581530__evalresult_004,3.07,,
+R1581530__evalresult_005,6.41,,
+R1581530__evalresult_006,5.14,,
+R1581530__evalresult_007,3.06,,
+R1581530__evalresult_008,6.38,,
+R1581530__evalresult_009,5.13,,
+R1581530__evalresult_010,3.16,,
+R1581530__evalresult_011,3.21,,
+R1581530__evalresult_012,2.67,,
+R1581530__evalresult_013,1.78,,
+R1581530__evalresult_014,1.93,,
+R1581530__evalresult_015,1.51,,
+R1581530__evalresult_016,1.62,,
+R1581530__evalresult_017,1.72,,
+R1581530__evalresult_018,1.37,,
+R1581530__evalresult_019,1.61,,
+R1581530__evalresult_020,1.71,,
+R1581530__evalresult_021,1.35,,
+R1581530__evalresult_022,3.11,,
+R1581530__evalresult_023,20.95,,
+R1581530__evalresult_024,17.85,,
+R1581530__evalresult_025,1.75,,
+R1581530__evalresult_026,14.75,,
+R1581530__evalresult_027,10.08,,
+R1581530__evalresult_028,1.73,,
+R1581530__evalresult_029,14.77,,
+R1581530__evalresult_030,9.97,,
+R1581530__evalresult_031,2.13,,
+R1581530__evalresult_032,19.96,,
+R1581530__evalresult_033,12.24,,
+R1581530__evalresult_034,0.53,,
+R1581530__evalresult_035,3.83,,
+R1581530__evalresult_036,3.06,,
+R1581530__evalresult_037,0.42,,
+R1581530__evalresult_038,3.01,,
+R1581530__evalresult_039,2.41,,
+R1581530__evalresult_040,0.41,,
+R1581530__evalresult_041,2.97,,
+R1581530__evalresult_042,2.38,,
+R1581536__evalresult_001,0.0181,,Thermal-power testing fit.
+R1581536__evalresult_002,0.0137,,Thermal-power testing fit.
+R1581536__evalresult_003,0.0117,,Hydropower testing fit.
+R1581536__evalresult_004,0.0085,,Hydropower testing fit.
+R1581536__evalresult_005,0.0019,,Nuclear-power testing fit.
+R1581536__evalresult_006,0.0028,,Non-hydropower renewable testing fit.
+R1581542__evalresult_001,595,,
+R1581542__evalresult_002,0.93,,
+R1581542__evalresult_003,0.95,,
+R1581542__evalresult_004,0.97,,
+R1581542__evalresult_005,723,,
+R1581542__evalresult_006,0.89,,
+R1581542__evalresult_007,0.92,,
+R1581542__evalresult_008,0.93,,
+R1581542__evalresult_009,836,,
+R1581542__evalresult_010,0.85,,
+R1581542__evalresult_011,0.86,,
+R1581542__evalresult_012,0.91,,
+R1581542__evalresult_013,897,,
+R1581542__evalresult_014,0.78,,
+R1581542__evalresult_015,0.84,,
+R1581542__evalresult_016,0.9,,
+R1581542__evalresult_017,916,,
+R1581542__evalresult_018,0.74,,
+R1581542__evalresult_019,0.82,,
+R1581542__evalresult_020,0.86,,
+R1581542__evalresult_021,1200,,
+R1581542__evalresult_022,0.69,,
+R1581542__evalresult_023,0.8,,
+R1581542__evalresult_024,0.83,,
+R1581542__evalresult_025,1500,,
+R1581542__evalresult_026,0.67,,
+R1581542__evalresult_027,0.76,,
+R1581542__evalresult_028,0.78,,
+R1581542__evalresult_029,1800,,
+R1581542__evalresult_030,0.65,,
+R1581542__evalresult_031,0.72,,
+R1581542__evalresult_032,0.77,,
+R1581542__evalresult_033,2000,,
+R1581542__evalresult_034,0.6,,
+R1581542__evalresult_035,0.66,,
+R1581542__evalresult_036,0.76,,
+R1581542__evalresult_037,0.94,,
+R1581542__evalresult_038,0.9,,
+R1581542__evalresult_039,0.82,,
+R1581542__evalresult_040,0.78,,
+R1581542__evalresult_041,0.74,,
+R1581542__evalresult_042,0.7,,
+R1581542__evalresult_043,0.67,,
+R1581542__evalresult_044,0.64,,
+R1581542__evalresult_045,0.62,,
+R1581542__evalresult_046,600,,
+R1581542__evalresult_047,0.91,,
+R1581542__evalresult_048,0.96,,
+R1581542__evalresult_049,612,,
+R1581542__evalresult_050,0.9,,
+R1581542__evalresult_051,0.91,,
+R1581542__evalresult_052,731,,
+R1581542__evalresult_053,0.86,,
+R1581542__evalresult_054,0.88,,
+R1581542__evalresult_055,855,,
+R1581542__evalresult_056,0.81,,
+R1581542__evalresult_057,0.81,,
+R1581542__evalresult_058,923,,
+R1581542__evalresult_059,0.72,,
+R1581542__evalresult_060,0.77,,
+R1581542__evalresult_061,935,,
+R1581542__evalresult_062,0.7,,
+R1581542__evalresult_063,0.72,,
+R1581542__evalresult_064,1267,,
+R1581542__evalresult_065,0.64,,
+R1581542__evalresult_066,0.69,,
+R1581542__evalresult_067,1672,,
+R1581542__evalresult_068,0.6,,
+R1581542__evalresult_069,0.65,,
+R1581542__evalresult_070,1815,,
+R1581542__evalresult_071,0.55,,
+R1581542__evalresult_072,0.6,,
+R1581542__evalresult_073,2045,,
+R1581542__evalresult_074,0.63,,
+R1581542__evalresult_075,0.57,,
+R1581542__evalresult_076,0.94,,
+R1581542__evalresult_077,0.99,,
+R1581542__evalresult_078,0.05,,
+R1581542__evalresult_079,0.98,,
+R1581542__evalresult_080,0.1,,
+R1581542__evalresult_081,0.96,,
+R1581542__evalresult_082,0.12,,
+R1581542__evalresult_083,0.95,,
+R1581542__evalresult_084,0.14,,
+R1581542__evalresult_085,0.95,,
+R1581542__evalresult_086,0.1,,
+R1581542__evalresult_087,0.94,,
+R1581542__evalresult_088,0.16,,
+R1581542__evalresult_089,0.92,,
+R1581542__evalresult_090,0.21,,
+R1581542__evalresult_091,0.92,,
+R1581542__evalresult_092,0.24,,
+R1581542__evalresult_093,0.94,,
+R1581542__evalresult_094,0.11,,
+R1581542__evalresult_095,0.9,,
+R1581542__evalresult_096,0.18,,
+R1581542__evalresult_097,0.87,,
+R1581542__evalresult_098,0.22,,
+R1581542__evalresult_099,0.87,,
+R1581542__evalresult_100,0.25,,
+R1582665__evalresult_001,0.907,,calibration 1988
+R1582665__evalresult_002,0.903,,calibration 1988
+R1582665__evalresult_003,-0.081,,calibration 1988
+R1582665__evalresult_004,0.973,,calibration 1988
+R1582665__evalresult_005,-8.089,,calibration 1988
+R1582665__evalresult_006,0.734,,validation 1991
+R1582665__evalresult_007,0.720,,validation 1991
+R1582665__evalresult_008,-0.173,,validation 1991
+R1582665__evalresult_009,0.919,,validation 1991
+R1582665__evalresult_010,-17.311,,validation 1991
+R1582665__evalresult_011,0.876,,validation 1994
+R1582665__evalresult_012,0.892,,validation 1994
+R1582665__evalresult_013,-0.096,,validation 1994
+R1582665__evalresult_014,0.973,,validation 1994
+R1582665__evalresult_015,-9.551,,validation 1994
+R1582665__evalresult_016,0.846,,combined years
+R1582665__evalresult_017,0.836,,combined years
+R1582665__evalresult_018,-0.099,,combined years
+R1582665__evalresult_019,-9.926,,combined years
+R1582665__evalresult_020,0.877,,dry period
+R1582665__evalresult_021,0.897,,dry period
+R1582665__evalresult_022,-0.106,,dry period
+R1582665__evalresult_023,-10.631,,dry period
+R1582665__evalresult_024,0.726,,monsoon period
+R1582665__evalresult_025,0.769,,monsoon period
+R1582665__evalresult_026,-0.096,,monsoon period
+R1582665__evalresult_027,-9.569,,monsoon period
+R1582683__evalresult_001,0.71,,satisfactory
+R1586317__evalresult_001,-20.79277809,,
+R1586317__evalresult_002,53.95582412,,
+R1586317__evalresult_003,102.4276368,,
+R1586317__evalresult_004,0.14199745,,
+R1586317__evalresult_005,0.90436762,,
+R1586317__evalresult_006,0.31746032,,
+R1586317__evalresult_007,-11.797,,
+R1586317__evalresult_008,14.4936,,
+R1586317__evalresult_009,40.9032,,
+R1586317__evalresult_010,0.86317,,
+R1586317__evalresult_011,0.94574,,
+R1586317__evalresult_012,0.89286,,
+R1586317__evalresult_013,0.289222,,
+R1586317__evalresult_014,14.36013,,
+R1586317__evalresult_015,40.30475,,
+R1586317__evalresult_016,0.867148,,
+R1586317__evalresult_017,1.00133,,
+R1586317__evalresult_018,0.888889,,
+R1586317__evalresult_019,-7.0208,,
+R1586317__evalresult_020,11.97018,,
+R1586317__evalresult_021,30.08921,,
+R1586317__evalresult_022,0.925958,,
+R1586317__evalresult_023,0.967709,,
+R1586317__evalresult_024,0.896825,,
+R1586317__evalresult_025,0.576112,,
+R1586317__evalresult_026,14.2013,,
+R1586317__evalresult_027,42.71388,,
+R1586317__evalresult_028,0.850792,,
+R1586317__evalresult_029,1.00265,,
+R1586317__evalresult_030,0.884921,,
+R1586317__evalresult_031,1.36423184,,
+R1586317__evalresult_032,11.49694462,,
+R1586317__evalresult_033,22.26194985,,
+R1586317__evalresult_034,0.95946962,,
+R1586317__evalresult_035,1.00627452,,
+R1586317__evalresult_036,0.91666667,,
+R1586317__evalresult_037,-2.1226139,,
+R1586317__evalresult_038,6.18592276,,
+R1586317__evalresult_039,18.72612019,,
+R1586317__evalresult_040,0.97132193,,
+R1586317__evalresult_041,0.99023745,,
+R1586317__evalresult_042,0.97619048,,
+R1586317__evalresult_043,-4.45703691,,
+R1586317__evalresult_044,9.77016551,,
+R1586317__evalresult_045,30.33942213,,
+R1586317__evalresult_046,0.92472186,,
+R1586317__evalresult_047,0.97950072,,
+R1586317__evalresult_048,0.9484127,,
+R1586335__evalresult_001,98.27,,Testing result for best-performing LightGBM model.
+R1586335__evalresult_002,73.93,,Testing result for best-performing LightGBM model.
+R1586335__evalresult_003,17100,,Testing result for best-performing LightGBM model.
+R1586335__evalresult_004,0.69,,Testing result for best-performing LightGBM model.
+R1586335__evalresult_005,0.77,,Testing result for best-performing LightGBM model.
+R1586335__evalresult_006,0.69,,Testing result for best-performing LightGBM model.
+R1586335__evalresult_007,-5.23,,Testing result for best-performing LightGBM model.
+R1586335__evalresult_008,1.02,,Testing result for best-performing LightGBM model.
+R1586335__evalresult_009,1.51,,Testing result for best-performing LightGBM model.
+R1586400__evalresult_001,-2.16463953,,"Testing result for CatBoost-HGS, the best hybrid model."
+R1586400__evalresult_002,8.89683593,,"Testing result for CatBoost-HGS, the best hybrid model."
+R1586400__evalresult_003,45.21301314,,"Testing result for CatBoost-HGS, the best hybrid model."
+R1586400__evalresult_004,0.97262189,,"Testing result for CatBoost-HGS, the best hybrid model."
+R1586400__evalresult_005,0.90751273,,"Testing result for CatBoost-HGS, the best hybrid model."
+R1586400__evalresult_006,105.508137,,"Testing result for CatBoost-HGS, the best hybrid model."
+R1586415__evalresult_001,0.92,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_002,4.5,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_003,-0.4,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_004,0.9,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_005,0.3,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_006,0.87,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_007,9.7,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_008,-2.5,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_009,0.9,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_010,0.4,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_011,0.60,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_012,46.1,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_013,-0.01,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_014,0.4,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_015,0.8,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_016,0.67,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_017,35.7,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_018,-7.1,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_019,0.3,,Quarterly climatic-data Option 1 result.
+R1586415__evalresult_020,0.8,,Quarterly climatic-data Option 1 result.
+R1563316__evalresult_001,0.9290,January-June,Cubic model selected for January-June.
+R1563316__evalresult_002,0.9545,July-December,Quadratic model selected for July-December.
+R1563319__evalresult_001,1.794,daily; NWC,Model VIII-3 top ranked.
+R1563319__evalresult_002,1.647,monthly mean daily; NWC,Model IV-3 top ranked.
+R1563322__evalresult_001,-11.8935,maximum across validation locations,M-03 maximum reported MPE.
+R1563322__evalresult_002,3.5654,training dataset,M-03 ranked first by GPI.
+R1563325__evalresult_001,,all-sky conditions,Range of R² for optimized models.
+R1563325__evalresult_002,,clear-sky conditions,Range of R² for optimized models.
+R1563340__evalresult_001,0.8753,2009-2012,M4 selected as best-performing model.
+R1563340__evalresult_002,1.9968,2009-2012,Reported M4 RMSE.
+R1563343__evalresult_001,0.925,five-year data,Quadratic model.
+R1563343__evalresult_002,6.17,five-year data,Quadratic model.
+R1563346__evalresult_001,0.77312,2011-2014,Model 3.
+R1563346__evalresult_002,0.99457,2011-2014,Model 3.
+R1563350__evalresult_001,223.2,Tacna; validation,Best reported proposed-model RMSE.
+R1563350__evalresult_002,508.8,San Martin; validation,Worst reported proposed-model RMSE.

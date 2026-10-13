@@ -1,0 +1,16 @@
+temporal_resolution_id,label,definition,comment
+temporal_resolution__1_second,1-second,A temporal resolution of one value per second.,It is typical of raw anemometer sampling and is used to study turbulence and gusts.
+temporal_resolution__1_minute,1-minute,A temporal resolution of one value per minute.,It is common for automatic weather stations and for solar radiation measurements that resolve passing clouds.
+temporal_resolution__2_minute,2-minute,A temporal resolution of one value per two-minute interval.,"It is used by some automatic weather stations, notably for wind averages at airports."
+temporal_resolution__5_minute,5-minute,A temporal resolution of one value per five-minute interval.,It is common in power system operation and in high-frequency solar and wind records.
+temporal_resolution__10_minute,10-minute,A temporal resolution of one value per ten-minute interval.,Ten-minute averages are the standard for wind measurements at met masts and in the IEC 61400 wind turbine standards.
+temporal_resolution__15_minute,15-minute,A temporal resolution of one value per fifteen-minute interval.,"It is common for electricity metering, power output records and some satellite irradiance products."
+temporal_resolution__30_minute,30-minute,A temporal resolution of one value per thirty-minute interval.,It is common in some meteorological networks and satellite radiation products.
+temporal_resolution__hourly,hourly,A temporal resolution of one value per hour.,Hourly values resolve the daily cycle and are common in station records and reanalysis data such as ERA5.
+temporal_resolution__3_hourly,3-hourly,A temporal resolution of one value every three hours.,It is common for synoptic weather observations and for some reanalysis and satellite products.
+temporal_resolution__6_hourly,6-hourly,A temporal resolution of one value every six hours.,"It is typical of older reanalysis products and of the main synoptic hours (00, 06, 12 and 18 UTC)."
+temporal_resolution__daily,daily,A temporal resolution of one value per day.,"Daily values are common for precipitation, river discharge and solar irradiation. They smooth out the daily cycle."
+temporal_resolution__monthly,monthly,A temporal resolution of one value per month.,"Monthly values describe the seasonal variation of a resource, such as monthly mean wind speeds or discharges."
+temporal_resolution__seasonal,seasonal,A temporal resolution of one value per season.,"Seasons may be meteorological, such as December–February (DJF), or regional, such as rainy and dry seasons."
+temporal_resolution__annual,annual,A temporal resolution of one value per year.,"Annual values, such as the annual mean wind speed or annual energy production, hide seasonal variation."
+temporal_resolution__long_term,long-term,A single value aggregated over the whole period of record.,A long-term mean summarizes a resource over several years and is the usual reference for estimating the expected energy yield of a site.

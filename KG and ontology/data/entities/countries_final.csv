@@ -1,0 +1,82 @@
+country_id,countryName,countryIsoCode
+country__algeria,Algeria,DZA
+country__australia,Australia,AUS
+country__bahrain,Bahrain,BHR
+country__bangladesh,Bangladesh,BGD
+country__benin,Benin,BEN
+country__botswana,Botswana,BWA
+country__brazil,Brazil,BRA
+country__burkina_faso,Burkina Faso,BFA
+country__c_te_d_ivoire,Côte d'Ivoire,CIV
+country__cameroon,Cameroon,CMR
+country__canada,Canada,CAN
+country__cape_verde,Cape Verde,CPV
+country__central_african_republic,Central African Republic,CAF
+country__chad,Chad,TCD
+country__chile,Chile,CHL
+country__china,China,CHN
+country__croatia,Croatia,HRV
+country__democratic_republic_of_the_congo,Democratic Republic of the Congo,COD
+country__denmark,Denmark,DNK
+country__djibouti,Djibouti,DJI
+country__ecuador,Ecuador,ECU
+country__egypt,Egypt,EGY
+country__eritrea,Eritrea,ERI
+country__ethiopia,Ethiopia,ETH
+country__fiji,Fiji,FJI
+country__france,France,FRA
+country__gambia,Gambia,GMB
+country__germany,Germany,DEU
+country__ghana,Ghana,GHA
+country__greece,Greece,GRC
+country__guinea,Guinea,GIN
+country__guinea_bissau,Guinea-Bissau,GNB
+country__hungary,Hungary,HUN
+country__india,India,IND
+country__indonesia,Indonesia,IDN
+country__iran,Iran,IRN
+country__iraq,Iraq,IRQ
+country__italy,Italy,ITA
+country__japan,Japan,JPN
+country__kazakhstan,Kazakhstan,KAZ
+country__kenya,Kenya,KEN
+country__liberia,Liberia,LBR
+country__libya,Libya,LBY
+country__malawi,Malawi,MWI
+country__malaysia,Malaysia,MYS
+country__mali,Mali,MLI
+country__mauritania,Mauritania,MRT
+country__mexico,Mexico,MEX
+country__morocco,Morocco,MAR
+country__niger,Niger,NER
+country__nigeria,Nigeria,NGA
+country__norway,Norway,NOR
+country__pakistan,Pakistan,PAK
+country__peru,Peru,PER
+country__romania,Romania,ROU
+country__rwanda,Rwanda,RWA
+country__saudi_arabia,Saudi Arabia,SAU
+country__senegal,Senegal,SEN
+country__serbia,Serbia,SRB
+country__sierra_leone,Sierra Leone,SLE
+country__singapore,Singapore,SGP
+country__slovakia,Slovakia,SVK
+country__south_africa,South Africa,ZAF
+country__south_korea,South Korea,KOR
+country__spain,Spain,ESP
+country__sri_lanka,Sri Lanka,LKA
+country__sudan,Sudan,SDN
+country__sweden,Sweden,SWE
+country__switzerland,Switzerland,CHE
+country__taiwan,Taiwan,TWN
+country__tanzania,Tanzania,TZA
+country__thailand,Thailand,THA
+country__togo,Togo,TGO
+country__tunisia,Tunisia,TUN
+country__turkey,Turkey,TUR
+country__united_arab_emirates,United Arab Emirates,ARE
+country__united_kingdom,United Kingdom,GBR
+country__united_states,United States,USA
+country__venezuela,Venezuela,VEN
+country__yemen,Yemen,YEM
+country__zambia,Zambia,ZMB

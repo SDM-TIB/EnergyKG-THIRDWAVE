@@ -1,0 +1,144 @@
+component_id,componentName,componentDescription,componentCategory
+R703009__component_001,commercial wind turbines simulated at Enugu,,wind turbine
+R703009__component_002,commercial wind turbines simulated at Owerri,,wind turbine
+R703009__component_003,commercial wind turbines simulated at Onitsha,,wind turbine
+R703009__component_004,0.36-kW wind turbine,,wind turbine
+R703009__component_005,rotodynamic pump,,water pump
+R703009__component_006,0.36-kW wind turbine,,wind turbine
+R703009__component_007,rotodynamic pump,,water pump
+R703009__component_008,0.36-kW wind turbine,,wind turbine
+R703009__component_009,rotodynamic pump,,water pump
+R703055__component_001,Nordex N100/2500 wind turbine,Selected turbine used for assessment of wind-energy yield.,wind turbine
+R703078__component_001,Savonius turbine,Recommended for stand alone low energy needs.,low cut-in speed wind turbine
+R703095__component_001,WGT 850 kW wind turbine,The wind farm consists of twelve WGT 850 kW wind turbines.,wind turbine
+R703105__component_001,Honeywell BTPS6500® wind turbine,Selected low-wind-speed wind turbine used for the power-output simulations.,wind turbine
+R703105__component_002,smart box inverter/controller system,The inverter/controller system included in the assumed combined manufacturer suggested retail price.,inverter/controller
+R705081__component_001,Enercon E-48,,wind turbine
+R705081__component_002,Enercon E-82 E2,,wind turbine
+R705081__component_003,Enercon E-70 E4,,wind turbine
+R705081__component_004,Enercon E-82 E4,,wind turbine
+R705081__component_005,Enercon E-101 E2,,wind turbine
+R705081__component_006,Enercon E-126 EP4,,wind turbine
+R708307__component_001,GE-1.5-MW-XLE turbine,Wind turbine used in the nine-turbine rectangular wind-farm case study.,wind turbine
+R709096__component_001,Nordex N131/3000 Delta wind turbine generator,,wind turbine generator
+R709096__component_002,eno e.n.o. 126 wind turbine generator,,wind turbine generator
+R709120__component_001,Motor generator,,motor generator
+R709120__component_002,Ultracapacitor,The selected regenerative-braking energy-storage medium.,electrical energy storage
+R709120__component_003,AC-DC converter,,power converter
+R709120__component_004,Programmable logic controller,,controller
+R709120__component_005,Sensors,,sensor
+R712261__component_001,wind turbine,A pitch-regulated 20 kW wind turbine installed on a 30 m tower.,wind turbine
+R712261__component_002,submersible electric pump,Submersible electric pump model with a reported pump efficiency of 62%.,electric water pump
+R712555__component_001,AEOLOS-1,"Turbine A; cut-in wind speed 1.5 m/s, cut-off wind speed 50 m/s, rated wind speed 10 m/s, hub height 2.8 m, and rated electrical power 1 kW.",horizontal wind turbine
+R712555__component_002,AEOLOS V-5,"Turbine B; cut-in wind speed 2.5 m/s, cut-off wind speed 52 m/s, rated wind speed 10 m/s, hub height 5.3 m, and rated electrical power 5 kW.",horizontal wind turbine
+R712555__component_003,HAWT-5,"Turbine C; cut-in wind speed 3 m/s, cut-off wind speed 60 m/s, rated wind speed 11 m/s, hub height 12 m, and rated electrical power 5 kW.",horizontal wind turbine
+R712555__component_004,HAWT-11,"Turbine D; cut-in wind speed 3 m/s, cut-off wind speed 25 m/s, rated wind speed 10 m/s, hub height 18 m, and rated electrical power 11 kW.",horizontal wind turbine
+R712555__component_005,POLARIS P12-25,"Turbine E; cut-in wind speed 2.7 m/s, cut-off wind speed 25 m/s, rated wind speed 10 m/s, hub height 30.5 m, and rated electrical power 25 kW.",horizontal wind turbine
+R712630__component_001,WES 18-100KW wind turbine,,wind turbine
+R712630__component_002,XANT M-21 100KW wind turbine,,wind turbine
+R712630__component_003,Northem Power NPS 21-100KW wind turbine,,wind turbine
+R712637__component_001,Vestas V82 wind turbines,"Four turbines, each rated at 1.65 MW, simulated as the hypothetical wind farm.",wind turbine
+R712641__component_001,Wind turbines,"The wind farm is equipped with 46 wind turbines, each with a capacity of 3.45 MW.",wind turbine
+R713430__component_001,Aerodyn SCD deep float 8.0/168 wind turbine,Reference turbine used in the study; it allows for a single mount including the tower and foundation and has a two-blade system.,wind turbine
+R713430__component_002,Jacket foundation with floating structure,Proposed foundation intended to allow for depths beyond 60 m.,foundation
+R719366__component_001,Small three-bladed wind turbine rotor,Small turbine rotor designed for low wind speeds of 10 mph and simulated using ASHES.,wind turbine
+R719366__component_002,Photovoltaic solar subsystem,Crystalline-silicon photovoltaic subsystem simulated with PVGIS-SARAH data.,photovoltaic system
+R720760__component_001,VESTAS V82 wind turbines,Ten VESTAS V82 wind turbines used in the hypothetical wind-farm assessment.,wind turbine array
+R723318__component_001,Wind turbine,"Wind turbine with a reported rotor diameter of 128 m and swept area of 12,868 m2.",wind turbine
+R727445__component_001,Power Wind 56 wind turbine,Wind-turbine model evaluated as one of four technologies and reported as having a nominal capacity of 900 kW.,wind turbine
+R727587__component_001,Twelve GAMESA G52-850 kW wind turbines,The Kaberten wind farm consists of twelve GAMESA G52-850 kW turbines.,wind turbine
+R727587__component_002,WT06 wind turbine,WT06 was designated as the most productive wind turbine.,wind turbine
+R727673__component_001,Gamesa G52 wind turbines,The Kaberten wind farm is made up of 12 Gamesa G52 type wind turbines.,wind turbine
+R1563920__energy_component_001,photovoltaic panel,,solar energy converter
+R1563920__energy_component_002,boost converter,,power electronic converter
+R1563923__energy_component_001,photovoltaic panel,,solar energy converter
+R1563923__energy_component_002,boost converter,,power electronic converter
+R1563927__energy_component_001,photovoltaic panel,,solar energy converter
+R1563927__energy_component_002,boost converter,,power electronic converter
+R1563930__energy_component_001,photovoltaic panel,,solar energy converter
+R1563930__energy_component_002,boost converter,,power electronic converter
+R1563933__energy_component_001,photovoltaic panel,,solar energy converter
+R1563933__energy_component_002,boost converter,,power electronic converter
+R1563937__energy_component_001,photovoltaic panel,,solar energy converter
+R1563937__energy_component_002,boost converter,,power electronic converter
+R1563974__energy_component_001,photovoltaic panel,,solar energy converter
+R1563974__energy_component_002,boost converter,,power electronic converter
+R1563977__energy_component_001,photovoltaic panel,,solar energy converter
+R1563977__energy_component_002,boost converter,,power electronic converter
+R1563980__energy_component_001,photovoltaic panel,,solar energy converter
+R1563980__energy_component_002,boost converter,,power electronic converter
+R1563984__component_001,photovoltaic module,,photovoltaic generator
+R1563987__component_001,thermo-solar power plant,,concentrating solar power plant
+R1563991__component_001,photovoltaic solar power plant,,photovoltaic generator
+R1563995__component_001,245 Wp monocrystalline PV module,,photovoltaic module
+R1563995__component_002,245 Wp polycrystalline PV module,,photovoltaic module
+R1564001__component_001,250 W photovoltaic module,,photovoltaic module
+R1565340__component_001,crystalline silicon PV module,,photovoltaic module
+R1565340__component_002,amorphous silicon PV module,,photovoltaic module
+R1565340__component_003,copper indium selenide PV module,,photovoltaic module
+R1565343__component_001,20 kW solar photovoltaic system,,photovoltaic system
+R1565351__energy_component_001,BP3125 PV module,,photovoltaic module
+R1565351__energy_component_002,BP3180 PV module,,photovoltaic module
+R1567953__component_001,wind farm,,renewable generation
+R1567953__component_002,concentrated solar power plant,,renewable generation
+R1567953__component_003,thermal energy storage,,thermal storage
+R1567953__component_004,electric heater,,power-to-heat conversion
+R1567953__component_005,power block,,thermal-to-electric conversion
+R1639011__energy_component_001,solar photovoltaic panels,,solar-generation component
+R1639011__energy_component_002,battery storage system,,energy-storage component
+R1639011__energy_component_003,smart metering technology,,electricity-metering component
+R1567776__energy_component_001,Kainji hydropower plant,,hydropower plant
+R1567776__energy_component_002,Jebba hydropower plant,,hydropower plant
+R1568565__energy_component_001,Kaplan turbine,,hydro turbine
+R1568565__energy_component_002,Francis turbine,,hydro turbine
+R1568565__energy_component_003,Francis turbine,,hydro turbine
+R1568565__energy_component_004,Propeller turbine,,hydro turbine
+R1568609__energy_component_001,site 1 hydro turbine,,hydro turbine
+R1568609__energy_component_002,site 2 hydro turbine,,hydro turbine
+R1568609__energy_component_003,site 3 hydro turbine,,hydro turbine
+R1568609__energy_component_004,site 4 hydro turbine,,hydro turbine
+R1568609__energy_component_005,site 5 hydro turbine,,hydro turbine
+R1568609__energy_component_006,site 6 hydro turbine,,hydro turbine
+R1568609__energy_component_007,site 7 hydro turbine,,hydro turbine
+R1568609__energy_component_008,site 8 hydro turbine,,hydro turbine
+R1568609__energy_component_009,site 9 hydro turbine,,hydro turbine
+R1568785__energy_component_001,GERD Francis turbines,,hydro turbine
+R1568785__energy_component_002,GERD reservoir,,reservoir
+R1568785__energy_component_003,GIBE I Francis turbines,,hydro turbine
+R1568785__energy_component_004,GIBE I reservoir,,reservoir
+R1568785__energy_component_005,GIBE II Pelton turbines,,hydro turbine
+R1568785__energy_component_006,GIBE II reservoir,,reservoir
+R1568785__energy_component_007,GIBE III Francis turbines,,hydro turbine
+R1568785__energy_component_008,GIBE III reservoir,,reservoir
+R1568790__energy_component_001,Winike site 1 scheme,,hydropower scheme
+R1568806__energy_component_001,Megecha candidate site 1 hydro configuration,,hydropower site configuration
+R1568806__energy_component_002,Megecha candidate site 2 hydro configuration,,hydropower site configuration
+R1568806__energy_component_003,Megecha candidate site 3 hydro configuration,,hydropower site configuration
+R1568828__energy_component_001,Gilgel-Beles site1 cross-flow turbine configuration,,hydraulic turbine configuration
+R1568828__energy_component_002,Gilgel-Beles site2 cross-flow turbine configuration,,hydraulic turbine configuration
+R1568828__energy_component_003,Gilgel-Beles site3 cross-flow turbine configuration,,hydraulic turbine configuration
+R1568828__energy_component_004,Gilgel-Beles site4 cross-flow turbine configuration,,hydraulic turbine configuration
+R1568828__energy_component_005,Gilgel-Beles site5 cross-flow turbine configuration,,hydraulic turbine configuration
+R1568828__energy_component_006,Gilgel-Beles site6 cross-flow turbine configuration,,hydraulic turbine configuration
+R1568828__energy_component_007,Gilgel-Beles site7 cross-flow turbine configuration,,hydraulic turbine configuration
+R1568828__energy_component_008,Gilgel-Beles site8 Pelton turbine configuration,,hydraulic turbine configuration
+R1568828__energy_component_009,Gilgel-Beles site9 cross-flow turbine configuration,,hydraulic turbine configuration
+R1568843__energy_component_001,Chemoga assumed cross-flow turbine,,hydraulic turbine
+R1568843__energy_component_002,Huluka assumed cross-flow turbine,,hydraulic turbine
+R1568843__energy_component_003,Wabe assumed cross-flow turbine,,hydraulic turbine
+R1569361__energy_component_001,Upper Densu cascade Francis turbines,,hydraulic turbines
+R1569504__energy_component_001,dam site 1 Francis turbine,,hydro turbine
+R1569504__energy_component_002,dam site 2 Francis turbine,,hydro turbine
+R1569504__energy_component_003,dam site 3 Francis turbine,,hydro turbine
+R1569504__energy_component_004,dam site 4 Francis turbine,,hydro turbine
+R1569504__energy_component_005,dam site 5 Francis turbine,,hydro turbine
+R1569504__energy_component_006,dam site 6 Francis turbine,,hydro turbine
+R1569504__energy_component_007,run-of-river site 1 Francis turbine,,hydro turbine
+R1569504__energy_component_008,run-of-river site 2 Francis turbine,,hydro turbine
+R1569504__energy_component_009,run-of-river site 3 Francis turbine,,hydro turbine
+R1581530__energy_component_001,axial-flow propeller turbine,,hydro turbine
+R1581530__energy_component_002,HLA678-LJ-625.7 Francis turbine,,hydro turbine
+R1581542__energy_component_001,Karun-III reservoir,,reservoir
+R1586415__energy_component_001,Samanalawewa reservoir,,hydropower reservoir
+R1586415__energy_component_002,Samanalawewa dam,,rock-filled dam
+R1586415__energy_component_003,hydropower turbines,,turbine set

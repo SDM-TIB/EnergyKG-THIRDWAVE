@@ -1,0 +1,14 @@
+metric_type_id,label,definition,comment
+economic_metric__annual_revenue,Annual revenue,The income produced by a system in one year.,It is usually the energy sold times the tariff.
+economic_metric__benefit_cost_ratio,Benefit-cost ratio,The ratio of the discounted benefits to the discounted costs of a project.,A value above 1 indicates a profitable project.
+economic_metric__capital_cost,Capital cost,The initial investment needed to build a system.,"It is often given per unit of installed capacity, for example in USD/kW."
+economic_metric__certified_emission_reductions,Certified emission reductions,The emission reductions of a project certified for carbon markets.,They are counted in tonnes of CO2-equivalent per year.
+economic_metric__cost_of_energy,Cost of energy (COE),"The cost of producing one unit of energy, usually computed from the present value of costs divided by the energy produced.","In many wind studies it is computed with the present value of costs method; it is close to, but not always discounted like, the LCOE."
+economic_metric__cost_of_water,Cost of water,The cost of supplying one cubic metre of water.,It is used for water-pumping and desalination systems.
+economic_metric__electricity_tariff,Electricity tariff,The price paid per unit of electricity sold or bought.,It includes feed-in tariffs and retail prices.
+economic_metric__internal_rate_of_return,Internal rate of return (IRR),The discount rate at which the net present value of a project is zero.,It is given in percent and compared with the cost of capital.
+economic_metric__levelised_cost_of_electricity,Levelised cost of electricity (LCOE),The ratio of the discounted lifetime costs of a power plant to the discounted lifetime electricity it produces.,It is given in currency per kWh or MWh and allows plants of different sizes and lifetimes to be compared.
+economic_metric__net_present_cost,Net present cost (NPC),The sum of the discounted costs of a system over its lifetime minus the discounted revenues.,It is the main output of HOMER optimisations.
+economic_metric__net_present_value,Net present value (NPV),The sum of the discounted cash flows of a project over its lifetime.,A positive value indicates a profitable project at the chosen discount rate.
+economic_metric__operation_and_maintenance_cost,Operation and maintenance cost,The recurring cost of operating and maintaining a system.,It is often given per year or as a percentage of the capital cost.
+economic_metric__payback_period,Payback period,The time needed for the cumulative revenues or savings of a project to equal its investment.,It is given in years; the simple payback period ignores discounting.

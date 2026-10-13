@@ -1,0 +1,1845 @@
+parameter_value_id,parameterValue,parameterSymbol,parameterKind,parameterTemporalScope
+R1378020__paramvalue_001,0.01,alpha,hyperparameter,Scenario C
+R1378028__paramvalue_001,0.333333,z0,surface roughness length,
+R689577__paramvalue_001,1.4386,k,shape parameter,annual; Group 1
+R689577__paramvalue_002,2.5306,c,scale parameter,annual; Group 1
+R689577__paramvalue_003,1.8347,k,shape parameter,annual; Group 1
+R689577__paramvalue_004,3.2813,c,scale parameter,annual; Group 1
+R689577__paramvalue_005,1.7843,k,shape parameter,annual; Group 1
+R689577__paramvalue_006,3.3163,c,scale parameter,annual; Group 1
+R689577__paramvalue_007,1.7173,k,shape parameter,annual; Group 1
+R689577__paramvalue_008,3.2232,c,scale parameter,annual; Group 1
+R689577__paramvalue_009,1.7418,k,shape parameter,annual; Group 1
+R689577__paramvalue_010,3.2260,c,scale parameter,annual; Group 1
+R689577__paramvalue_011,1.7544,k,shape parameter,annual; Group 1
+R689577__paramvalue_012,3.2274,c,scale parameter,annual; Group 1
+R689596__paramvalue_001,2.60211185660,k,shape parameter,
+R689596__paramvalue_002,1.28952772304,c,scale parameter,
+R689596__paramvalue_003,2.34876804012,k,shape parameter,
+R689596__paramvalue_004,4.47225957099,c,scale parameter,
+R689596__paramvalue_005,2.97369137323,k,shape parameter,
+R689596__paramvalue_006,6.637320271178,c,scale parameter,
+R689596__paramvalue_007,1.38750174580,k,shape parameter,
+R689596__paramvalue_008,1.73355595343,k,shape parameter,
+R689596__paramvalue_009,1.79349036388,k,shape parameter,
+R689596__paramvalue_010,1.16855711319,k,shape parameter,
+R689596__paramvalue_011,1.57323659342,k,shape parameter,
+R689596__paramvalue_012,1.38565464750,k,shape parameter,
+R689605__paramvalue_001,0.0095,z_o,surface roughness length,study-wide
+R689605__paramvalue_002,10,h1,reference height,study-wide
+R689605__paramvalue_003,0.143,α,wind shear exponent,study-wide
+R689605__paramvalue_004,1.225,ρ,air density,study-wide
+R702336__paramvalue_001,2.02,k,shape parameter,average over 1995–2005
+R702336__paramvalue_002,4.81,c,scale parameter,average over 1995–2005
+R702336__paramvalue_003,1.91,k,shape parameter,1999
+R702336__paramvalue_004,2.26,k,shape parameter,1996
+R702336__paramvalue_005,4.38,c,scale parameter,1998
+R702336__paramvalue_006,5.10,c,scale parameter,2004
+R702341__paramvalue_001,2.17,k,shape parameter,"annual, August 2006–July 2007"
+R702341__paramvalue_002,8.58,c,scale parameter,"annual, August 2006–July 2007"
+R702341__paramvalue_003,2,k,shape parameter,all applications of the Rayleigh simplification
+R703000__paramvalue_001,1.64,k,shape parameter,2007
+R703000__paramvalue_002,5.51,c,scale parameter,2007
+R703000__paramvalue_003,1.697,k,shape parameter,2007
+R703000__paramvalue_004,6.52,c,scale parameter,2007
+R703000__paramvalue_005,1.7,k,shape parameter,2007
+R703000__paramvalue_006,6.91,c,scale parameter,2007
+R703000__paramvalue_007,1.52,k,shape parameter,2007
+R703000__paramvalue_008,5.19,c,scale parameter,2007
+R703000__paramvalue_009,1.58,k,shape parameter,2007
+R703000__paramvalue_010,6.09,c,scale parameter,2007
+R703000__paramvalue_011,1.57,k,shape parameter,2007
+R703000__paramvalue_012,6.52,c,scale parameter,2007
+R703000__paramvalue_013,1.78,k,shape parameter,2007
+R703000__paramvalue_014,4.28,c,scale parameter,2007
+R703000__paramvalue_015,1.72,k,shape parameter,2007
+R703000__paramvalue_016,5.50,c,scale parameter,2007
+R703000__paramvalue_017,1.69,k,shape parameter,2007
+R703000__paramvalue_018,5.80,c,scale parameter,2007
+R703003__paramvalue_001,1.152,k,shape parameter,2003
+R703003__paramvalue_002,3.599,c,scale parameter,2003
+R703003__paramvalue_003,1.119,k,shape parameter,2004
+R703003__paramvalue_004,3.375,c,scale parameter,2004
+R703003__paramvalue_005,1.111,k,shape parameter,2005
+R703003__paramvalue_006,3.227,c,scale parameter,2005
+R703003__paramvalue_007,1.203,k,shape parameter,2006
+R703003__paramvalue_008,3.302,c,scale parameter,2006
+R703003__paramvalue_009,1.211,k,shape parameter,2007
+R703003__paramvalue_010,3.506,c,scale parameter,2007
+R703003__paramvalue_011,1.155,k,shape parameter,average across 2003–2007
+R703003__paramvalue_012,3.401,c,scale parameter,average across 2003–2007
+R703009__paramvalue_001,4.05,k,shape parameter,annual
+R703009__paramvalue_002,5.87,c,scale parameter,annual
+R703009__paramvalue_003,5.1,k,shape parameter,annual
+R703009__paramvalue_004,3.65,c,scale parameter,annual
+R703009__paramvalue_005,4.27,k,shape parameter,annual
+R703009__paramvalue_006,3.96,c,scale parameter,annual
+R703013__paramvalue_001,1.94,k,shape parameter,whole period from 2005 to 2010
+R703013__paramvalue_002,6.89,c,scale parameter,whole period from 2005 to 2010
+R703013__paramvalue_003,2.0,k,shape parameter,whole period from 2005 to 2010
+R703013__paramvalue_004,5.35,c,scale parameter,whole period from 2005 to 2010
+R703013__paramvalue_005,2.11,k,shape parameter,whole period from 2005 to 2010
+R703013__paramvalue_006,6.33,c,scale parameter,whole period from 2005 to 2010
+R703026__paramvalue_001,1.0526,a,slope of mcp correlation equation,
+R703026__paramvalue_002,0.2018,b,intercept,
+R703026__paramvalue_003,0,e mean,mean residual for mcp method,
+R703026__paramvalue_004,2.01,e standard deviation,standard deviation,
+R703026__paramvalue_005,1.698,k,shape parameter,12 months (1–12)
+R703026__paramvalue_006,5.209,c,scale parameter,12 months (1–12)
+R703026__paramvalue_007,1.698,k,shape parameter,12 months (1–12)
+R703026__paramvalue_008,6.271,c,scale parameter,12 months (1–12)
+R703029__paramvalue_001,2.15,k,shape parameter,data collection period
+R703029__paramvalue_002,7.2,c,scale parameter,data collection period
+R703029__paramvalue_003,1.35,k,shape parameter,data collection period
+R703029__paramvalue_004,4.8,c,scale parameter,data collection period
+R703029__paramvalue_005,1.65,k,shape parameter,data collection period
+R703029__paramvalue_006,5.6,c,scale parameter,data collection period
+R703029__paramvalue_007,1.86,k,shape parameter,data collection period
+R703029__paramvalue_008,5.6,c,scale parameter,data collection period
+R703029__paramvalue_009,1.46,k,shape parameter,data collection period
+R703029__paramvalue_010,4.0,c,scale parameter,data collection period
+R703029__paramvalue_011,2.6,k,shape parameter,
+R703029__paramvalue_012,10.55,c,scale parameter,
+R703029__paramvalue_013,1.6,k,shape parameter,
+R703029__paramvalue_014,7.54,c,scale parameter,
+R703029__paramvalue_015,2.0,k,shape parameter,
+R703029__paramvalue_016,8.57,c,scale parameter,
+R703029__paramvalue_017,2.2,k,shape parameter,
+R703029__paramvalue_018,8.57,c,scale parameter,
+R703029__paramvalue_019,1.8,k,shape parameter,
+R703029__paramvalue_020,6.48,c,scale parameter,
+R703032__paramvalue_001,3.094,k,shape parameter,annual
+R703032__paramvalue_002,4.044,c,scale parameter,annual
+R703032__paramvalue_003,3.444,k,shape parameter,annual
+R703032__paramvalue_004,3.06,c,scale parameter,annual
+R703032__paramvalue_005,3.049,k,shape parameter,annual
+R703032__paramvalue_006,4.913,c,scale parameter,annual
+R703032__paramvalue_007,3.27,k,shape parameter,annual
+R703032__paramvalue_008,3.526,c,scale parameter,annual
+R703032__paramvalue_009,3.494,k,shape parameter,annual
+R703032__paramvalue_010,5.086,c,scale parameter,annual
+R703032__paramvalue_011,2.024,k,shape parameter,annual
+R703032__paramvalue_012,4.841,c,scale parameter,annual
+R703035__paramvalue_001,1.89,k,shape parameter,"annual, 2007"
+R703035__paramvalue_002,5.08,c,scale parameter,"annual, 2007, 10 m"
+R703035__paramvalue_003,2.34,k,shape parameter,"annual, 2007, 30 m"
+R703035__paramvalue_004,6.61,c,scale parameter,"annual, 2007, 30 m"
+R703035__paramvalue_005,2.41,k,shape parameter,"annual, 2007, 50 m"
+R703035__paramvalue_006,7.06,c,scale parameter,"annual, 2007, 50 m"
+R703035__paramvalue_007,0.12,α,surface roughness length,
+R703043__paramvalue_001,1.69,k,shape parameter,year 2007
+R703043__paramvalue_002,5.57,c,scale parameter,year 2007
+R703043__paramvalue_003,1.73,k,shape parameter,year 2007
+R703043__paramvalue_004,6.02,c,scale parameter,year 2007
+R703043__paramvalue_005,1.75,k,shape parameter,year 2007
+R703043__paramvalue_006,6.25,c,scale parameter,year 2007
+R703043__paramvalue_007,1.93,k,shape parameter,year 2007
+R703043__paramvalue_008,5.94,c,scale parameter,year 2007
+R703043__paramvalue_009,2.02,k,shape parameter,year 2007
+R703043__paramvalue_010,7,c,scale parameter,year 2007
+R703043__paramvalue_011,2.01,k,shape parameter,year 2007
+R703043__paramvalue_012,7.14,c,scale parameter,year 2007
+R703043__paramvalue_013,1.34,k,shape parameter,year 2007
+R703043__paramvalue_014,5.51,c,scale parameter,year 2007
+R703043__paramvalue_015,1.33,k,shape parameter,year 2007
+R703043__paramvalue_016,6.19,c,scale parameter,year 2007
+R703043__paramvalue_017,1.32,k,shape parameter,year 2007
+R703043__paramvalue_018,6.37,c,scale parameter,year 2007
+R703043__paramvalue_019,1.93,k,shape parameter,year 2007
+R703043__paramvalue_020,5.95,c,scale parameter,year 2007
+R703043__paramvalue_021,2.02,k,shape parameter,year 2007
+R703043__paramvalue_022,7.01,c,scale parameter,year 2007
+R703043__paramvalue_023,2.02,k,shape parameter,year 2007
+R703043__paramvalue_024,7.15,c,scale parameter,year 2007
+R703043__paramvalue_025,0.044,z0,surface roughness length,
+R703043__paramvalue_026,80.68,z0,surface roughness length,
+R703043__paramvalue_027,4.75,z0,surface roughness length,
+R703043__paramvalue_028,83.34,z0,surface roughness length,
+R703043__paramvalue_029,0.07721,alpha,wind shear exponent,
+R703043__paramvalue_030,0.1837,alpha,wind shear exponent,
+R703043__paramvalue_031,0.1208,alpha,wind shear exponent,
+R703043__paramvalue_032,0.1848,alpha,wind shear exponent,
+R703049__paramvalue_001,0.14,a,wind shear exponent,unless otherwise specified
+R703049__paramvalue_002,1.91,k,shape parameter,whole period
+R703049__paramvalue_003,8.05,c,scale parameter,whole period
+R703049__paramvalue_004,1.89,k,shape parameter,whole period
+R703049__paramvalue_005,10.19,c,scale parameter,whole period
+R703049__paramvalue_006,1.65,k,shape parameter,whole period
+R703049__paramvalue_007,2.85,c,scale parameter,whole period
+R703049__paramvalue_008,1.99,k,shape parameter,whole period
+R703049__paramvalue_009,6.40,c,scale parameter,whole period
+R703049__paramvalue_010,1.80,k,shape parameter,whole period
+R703049__paramvalue_011,8.51,c,scale parameter,whole period
+R703052__paramvalue_001,1.71,k,shape parameter,2006
+R703052__paramvalue_002,3.79,c,scale parameter,2006
+R703052__paramvalue_003,1.67,k,shape parameter,2007
+R703052__paramvalue_004,3.76,c,scale parameter,2007
+R703052__paramvalue_005,1.60,k,shape parameter,2008
+R703052__paramvalue_006,3.37,c,scale parameter,2008
+R703052__paramvalue_007,1.86,k,shape parameter,2006
+R703052__paramvalue_008,3.50,c,scale parameter,2006
+R703052__paramvalue_009,1.81,k,shape parameter,2007
+R703052__paramvalue_010,3.81,c,scale parameter,2007
+R703052__paramvalue_011,1.44,k,shape parameter,2008
+R703052__paramvalue_012,2.97,c,scale parameter,2008
+R703052__paramvalue_013,0.143,a,wind shear exponent,
+R703055__paramvalue_001,3.3,k,shape parameter,yearly; May 2007 to April 2010
+R703055__paramvalue_002,8.75,c,scale parameter,yearly; May 2007 to April 2010
+R703055__paramvalue_003,3.73,k,shape parameter,yearly; May 2007 to April 2010
+R703055__paramvalue_004,8.61,c,scale parameter,yearly; May 2007 to April 2010
+R703055__paramvalue_005,3.72,k,shape parameter,yearly; May 2007 to April 2010
+R703055__paramvalue_006,8.71,c,scale parameter,yearly; May 2007 to April 2010
+R703058__paramvalue_001,3.19,c,scale parameter,January
+R703058__paramvalue_002,2.26,Vf,most frequent wind speed,January
+R703058__paramvalue_003,3.34,c,scale parameter,February
+R703058__paramvalue_004,2.36,Vf,most frequent wind speed,February
+R703058__paramvalue_005,2.94,c,scale parameter,March
+R703058__paramvalue_006,2.08,Vf,most frequent wind speed,March
+R703058__paramvalue_007,2.83,c,scale parameter,April
+R703058__paramvalue_008,2.0,Vf,most frequent wind speed,April
+R703058__paramvalue_009,2.54,c,scale parameter,May
+R703058__paramvalue_010,1.79,Vf,most frequent wind speed,May
+R703058__paramvalue_011,2.66,c,scale parameter,June
+R703058__paramvalue_012,1.88,Vf,most frequent wind speed,June
+R703058__paramvalue_013,3.19,c,scale parameter,July
+R703058__paramvalue_014,2.26,Vf,most frequent wind speed,July
+R703058__paramvalue_015,3.09,c,scale parameter,August
+R703058__paramvalue_016,2.19,Vf,most frequent wind speed,August
+R703058__paramvalue_017,2.66,c,scale parameter,September
+R703058__paramvalue_018,1.88,Vf,most frequent wind speed,September
+R703058__paramvalue_019,2.49,c,scale parameter,October
+R703058__paramvalue_020,1.76,Vf,most frequent wind speed,October
+R703058__paramvalue_021,2.7,c,scale parameter,November
+R703058__paramvalue_022,1.91,Vf,most frequent wind speed,November
+R703058__paramvalue_023,3.71,c,scale parameter,December
+R703058__paramvalue_024,2.63,Vf,most frequent wind speed,December
+R703058__paramvalue_025,2.97,c,scale parameter,annual mean wind-speed distribution
+R703058__paramvalue_026,2.1,Vf,most frequent wind speed,annual mean wind-speed distribution
+R703061__paramvalue_001,1.28,k,shape parameter,overall average reported in Table 2
+R703061__paramvalue_002,4.14,c,scale parameter,overall average reported in Table 2
+R703064__paramvalue_001,1.77,k,shape parameter,2000–2006
+R703064__paramvalue_002,6.68,c,scale parameter,2000–2006
+R703064__paramvalue_003,1.83,k,shape parameter,2000–2006
+R703064__paramvalue_004,5.9,c,scale parameter,2000–2006
+R703068__paramvalue_001,3.900,k,shape parameter,
+R703068__paramvalue_002,2.858,c,scale parameter,
+R703068__paramvalue_003,1.346,k,shape parameter,
+R703068__paramvalue_004,2.424,c,scale parameter,
+R703068__paramvalue_005,6.077,k,shape parameter,
+R703068__paramvalue_006,2.783,c,scale parameter,
+R703068__paramvalue_007,6.036,k,shape parameter,
+R703068__paramvalue_008,2.784,c,scale parameter,
+R703068__paramvalue_009,4.087,k,shape parameter,
+R703068__paramvalue_010,2.221,c,scale parameter,
+R703068__paramvalue_011,1.356,k,shape parameter,
+R703068__paramvalue_012,2.428,c,scale parameter,
+R703068__paramvalue_013,9.036,k,shape parameter,
+R703068__paramvalue_014,2.140,c,scale parameter,
+R703068__paramvalue_015,8.929,k,shape parameter,
+R703068__paramvalue_016,2.141,c,scale parameter,
+R703068__paramvalue_017,4.326,k,shape parameter,
+R703068__paramvalue_018,1.615,c,scale parameter,
+R703068__paramvalue_019,1.352,k,shape parameter,
+R703068__paramvalue_020,2.420,c,scale parameter,
+R703068__paramvalue_021,10.611,k,shape parameter,
+R703068__paramvalue_022,1.528,c,scale parameter,
+R703068__paramvalue_023,10.470,k,shape parameter,
+R703068__paramvalue_024,1.529,c,scale parameter,
+R703068__paramvalue_025,3.740,k,shape parameter,
+R703068__paramvalue_026,2.440,c,scale parameter,
+R703068__paramvalue_027,1.340,k,shape parameter,
+R703068__paramvalue_028,2.417,c,scale parameter,
+R703068__paramvalue_029,5.599,k,shape parameter,
+R703068__paramvalue_030,2.390,c,scale parameter,
+R703068__paramvalue_031,5.599,k,shape parameter,
+R703068__paramvalue_032,2.390,c,scale parameter,
+R703072__paramvalue_001,1.74,k,shape parameter,2011
+R703072__paramvalue_002,4.67,c,scale parameter,2011
+R703072__paramvalue_003,1.90,k,shape parameter,2011; 30 m
+R703072__paramvalue_004,5.51,c,scale parameter,2011; 30 m
+R703072__paramvalue_005,1.88,k,shape parameter,2011; 40 m
+R703072__paramvalue_006,5.70,c,scale parameter,2011; 40 m
+R703072__paramvalue_007,1.75,k,shape parameter,2011; 10 m
+R703072__paramvalue_008,5.11,c,scale parameter,2011; 10 m
+R703072__paramvalue_009,1.89,k,shape parameter,2011; 30 m
+R703072__paramvalue_010,6.13,c,scale parameter,2011; 30 m
+R703072__paramvalue_011,1.90,k,shape parameter,2011; 40 m
+R703072__paramvalue_012,6.67,c,scale parameter,2011; 40 m
+R703072__paramvalue_013,1.57,k,shape parameter,2011; 10 m
+R703072__paramvalue_014,3.71,c,scale parameter,2011; 10 m
+R703072__paramvalue_015,1.71,k,shape parameter,2011; 30 m
+R703072__paramvalue_016,4.51,c,scale parameter,2011; 30 m
+R703072__paramvalue_017,1.74,k,shape parameter,2011; 40 m
+R703072__paramvalue_018,4.77,c,scale parameter,2011; 40 m
+R703072__paramvalue_019,1.76,k,shape parameter,2011; 10 m
+R703072__paramvalue_020,4.75,c,scale parameter,2011; 10 m
+R703072__paramvalue_021,1.88,k,shape parameter,2011; 30 m
+R703072__paramvalue_022,5.47,c,scale parameter,2011; 30 m
+R703072__paramvalue_023,1.91,k,shape parameter,2011; 40 m
+R703072__paramvalue_024,5.81,c,scale parameter,2011; 40 m
+R703072__paramvalue_025,0.144,α,wind shear exponent,2011
+R703072__paramvalue_026,17.8,z0,surface roughness length,2011
+R703072__paramvalue_027,0.184,α,wind shear exponent,2011
+R703072__paramvalue_028,84.6,z0,surface roughness length,2011
+R703072__paramvalue_029,0.174,α,wind shear exponent,2011
+R703072__paramvalue_030,59.9,z0,surface roughness length,2011
+R703072__paramvalue_031,0.139,α,wind shear exponent,2011
+R703072__paramvalue_032,14.5,z0,surface roughness length,2011
+R703075__paramvalue_001,4.357,k,shape parameter,"annual, 2011–2015"
+R703075__paramvalue_002,8.626,c,scale parameter,"annual, 2011–2015"
+R703075__paramvalue_003,2.454,k,shape parameter,"annual, 2011–2015"
+R703075__paramvalue_004,4.319,c,scale parameter,"annual, 2011–2015"
+R703078__paramvalue_001,2.9,k,shape parameter,
+R703078__paramvalue_002,2.8,c,scale parameter,
+R703078__paramvalue_003,3.9,k,shape parameter,
+R703078__paramvalue_004,1.8,c,scale parameter,
+R703078__paramvalue_005,3.0,k,shape parameter,
+R703078__paramvalue_006,3.08,k,shape parameter,
+R703078__paramvalue_007,2.58,c,scale parameter,
+R703081__paramvalue_001,2.086,k,shape parameter,annual
+R703081__paramvalue_002,5.851,c,scale parameter,annual
+R703081__paramvalue_003,1.068,µ,shape parameter,annual
+R703081__paramvalue_004,33.96,ω,scale parameter,annual
+R703081__paramvalue_005,3.375,a,scale parameter,annual
+R703081__paramvalue_006,3.225,b,location parameter,annual
+R703081__paramvalue_007,5.864,σ,scale parameter,annual
+R703084__paramvalue_001,1.70,k,shape parameter,2012 annual value
+R703084__paramvalue_002,1.59,k,shape parameter,
+R703084__paramvalue_003,4.12,c,scale parameter,2011 annual value
+R703084__paramvalue_004,1.52,k,shape parameter,all years under investigation
+R703084__paramvalue_005,3.74,c,scale parameter,all years under investigation
+R703087__paramvalue_001,0.881,k,shape parameter,
+R703087__paramvalue_002,0.679,c,scale parameter,
+R703091__paramvalue_001,2.47,k,shape parameter,"September, 1990–2019 average"
+R703091__paramvalue_002,2.74,k,shape parameter,"December, 1990–2019 average"
+R703091__paramvalue_003,2.54,k,shape parameter,"September, 1990–2019 average"
+R703091__paramvalue_004,2.74,k,shape parameter,"July, 1990–2019 average"
+R703095__paramvalue_001,2.48,k,shape parameter,2003 to 2013
+R703095__paramvalue_002,6.0,C,scale parameter,2003 to 2013
+R703102__paramvalue_001,2.18,k,shape parameter,year 2000
+R703102__paramvalue_002,3.46,c,scale parameter,year 2000
+R703102__paramvalue_003,1.7,k,shape parameter,year 2000
+R703102__paramvalue_004,5.81,c,scale parameter,year 2000
+R703102__paramvalue_005,1.71,k,shape parameter,year 2000
+R703102__paramvalue_006,2.76,c,scale parameter,year 2000
+R703102__paramvalue_007,2.1,k,shape parameter,year 2000
+R703102__paramvalue_008,5.2,c,scale parameter,year 2000
+R703102__paramvalue_009,2.02,k,shape parameter,year 2000
+R703102__paramvalue_010,4.62,c,scale parameter,year 2000
+R703102__paramvalue_011,1.51,k,shape parameter,year 2000
+R703102__paramvalue_012,5.45,c,scale parameter,year 2000
+R703102__paramvalue_013,2.58,k,shape parameter,year 2000
+R703102__paramvalue_014,6.85,c,scale parameter,year 2000
+R703102__paramvalue_015,1.88,k,shape parameter,year 2000
+R703102__paramvalue_016,4.38,c,scale parameter,year 2000
+R703102__paramvalue_017,1.26,k,shape parameter,year 2000
+R703102__paramvalue_018,4.11,c,scale parameter,year 2000
+R703102__paramvalue_019,1.95,k,shape parameter,year 2000
+R703102__paramvalue_020,3.67,c,scale parameter,year 2000
+R703102__paramvalue_021,1.91,k,shape parameter,year 2000
+R703102__paramvalue_022,3.72,c,scale parameter,year 2000
+R703102__paramvalue_023,2.46,k,shape parameter,year 2000
+R703102__paramvalue_024,6.74,c,scale parameter,year 2000
+R703102__paramvalue_025,2.85,k,shape parameter,year 2000
+R703102__paramvalue_026,4.86,c,scale parameter,year 2000
+R703102__paramvalue_027,2.53,k,shape parameter,year 2000
+R703102__paramvalue_028,5.73,c,scale parameter,year 2000
+R703102__paramvalue_029,2.21,k,shape parameter,year 2000
+R703102__paramvalue_030,5.8,c,scale parameter,year 2000
+R703102__paramvalue_031,1.94,k,shape parameter,year 2000
+R703102__paramvalue_032,5.74,c,scale parameter,year 2000
+R703102__paramvalue_033,1.98,k,shape parameter,year 2000
+R703102__paramvalue_034,5.34,c,scale parameter,year 2000
+R703102__paramvalue_035,1.97,k,shape parameter,year 2000
+R703102__paramvalue_036,4.85,c,scale parameter,year 2000
+R703102__paramvalue_037,2.05,k,shape parameter,year 2000
+R703102__paramvalue_038,4.11,c,scale parameter,year 2000
+R703102__paramvalue_039,1.92,k,shape parameter,year 2000
+R703102__paramvalue_040,4.32,c,scale parameter,year 2000
+R703102__paramvalue_041,1.99,k,shape parameter,year 2000
+R703102__paramvalue_042,5.02,c,scale parameter,year 2000
+R703102__paramvalue_043,1.71,k,shape parameter,year 2000
+R703102__paramvalue_044,4.7,c,scale parameter,year 2000
+R703102__paramvalue_045,1.6,k,shape parameter,year 2000
+R703102__paramvalue_046,5.13,c,scale parameter,year 2000
+R703102__paramvalue_047,2.17,k,shape parameter,year 2000
+R703102__paramvalue_048,7.53,c,scale parameter,year 2000
+R703102__paramvalue_049,2.5,k,shape parameter,year 2000
+R703102__paramvalue_050,7.8,c,scale parameter,year 2000
+R703102__paramvalue_051,1.3,k,shape parameter,night periods showing a mean speed below 3 m/s; year 2000
+R703102__paramvalue_052,2.1,c,scale parameter,night periods showing a mean speed below 3 m/s; year 2000
+R703102__paramvalue_053,3.4,k,shape parameter,rest of Gizgiza data; year 2000
+R703102__paramvalue_054,7.3,c,scale parameter,rest of Gizgiza data; year 2000
+R703105__paramvalue_001,2.49,k,shape parameter,January–December 1999–2009
+R703105__paramvalue_002,3.05,c,scale parameter,January–December 1999–2009
+R703105__paramvalue_003,2,k,shape parameter,January–December 1999–2009
+R703105__paramvalue_004,2.16,c,scale parameter,January–December 1999–2009
+R703105__paramvalue_005,0.33,α,surface roughness length,
+R704955__paramvalue_001,0.333333,λ1,objective-function weight,
+R704955__paramvalue_002,0.333333,λ2,objective-function weight,
+R704955__paramvalue_003,0.333333,λ3,objective-function weight,
+R704973__paramvalue_001,1.306002,k,shape parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_002,4.797690,c,scale parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_003,1.889300,k,shape parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_004,5.083062,c,scale parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_005,1.913469,k,shape parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_006,5.085118,c,scale parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_007,1.913469,k,shape parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_008,5.088377,c,scale parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_009,1.900250,k,shape parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_010,5.084026,c,scale parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_011,1.957467,k,shape parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_012,5.124355,c,scale parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_013,1.900969,k,shape parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_014,5.099839,c,scale parameter,2007; 10 m hub height; bin width = 1 m/s
+R704973__paramvalue_015,1.773362,k,shape parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_016,6.303179,c,scale parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_017,2.348100,k,shape parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_018,6.611961,c,scale parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_019,2.365873,k,shape parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_020,6.611183,c,scale parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_021,2.365873,k,shape parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_022,6.613031,c,scale parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_023,2.302156,k,shape parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_024,6.613700,c,scale parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_025,2.313203,k,shape parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_026,6.601771,c,scale parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_027,2.310443,k,shape parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_028,6.607931,c,scale parameter,2007; 30 m hub height; bin width = 1 m/s
+R704973__paramvalue_029,1.586677,k,shape parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_030,7.798979,c,scale parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_031,2.422900,k,shape parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_032,7.063578,c,scale parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_033,2.439193,k,shape parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_034,7.062608,c,scale parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_035,2.439193,k,shape parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_036,7.064196,c,scale parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_037,2.387673,k,shape parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_038,7.065528,c,scale parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_039,2.381632,k,shape parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_040,7.047607,c,scale parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_041,2.375927,k,shape parameter,2007; 50 m hub height; bin width = 1 m/s
+R704973__paramvalue_042,7.050253,c,scale parameter,2007; 50 m hub height; bin width = 1 m/s
+R704994__paramvalue_001,1.8961,K,shape parameter,global analysis; 2004-2015
+R704994__paramvalue_002,3.2471,C,scale parameter,global analysis; 2004-2015
+R704994__paramvalue_003,1.7332,K,shape parameter,global analysis
+R704994__paramvalue_004,3.9821,C,scale parameter,global analysis
+R704994__paramvalue_005,2.0705,K,shape parameter,global analysis
+R704994__paramvalue_006,3.7028,C,scale parameter,global analysis
+R704994__paramvalue_007,1.8233,K,shape parameter,global analysis; 2004-2015
+R704994__paramvalue_008,3.9732,C,scale parameter,global analysis; 2004-2015
+R704994__paramvalue_009,1.9820,K,shape parameter,global analysis
+R704994__paramvalue_010,4.6963,C,scale parameter,global analysis
+R704994__paramvalue_011,2.3671,K,shape parameter,global analysis
+R704994__paramvalue_012,4.5276,C,scale parameter,global analysis
+R704994__paramvalue_013,2.0310,K,shape parameter,global analysis; 2004-2015
+R704994__paramvalue_014,4.1788,C,scale parameter,global analysis; 2004-2015
+R704994__paramvalue_015,2.3825,K,shape parameter,global analysis
+R704994__paramvalue_016,5.0172,C,scale parameter,global analysis
+R704994__paramvalue_017,2.5722,K,shape parameter,global analysis
+R704994__paramvalue_018,4.6173,C,scale parameter,global analysis
+R705081__paramvalue_001,2.13,k,shape parameter,year 2018
+R705081__paramvalue_002,8.80,c,scale parameter,year 2018
+R705198__paramvalue_001,3.0656,c,scale parameter,yearly 2006
+R705198__paramvalue_002,1.1998,k,shape parameter,yearly 2006
+R705198__paramvalue_003,2.1556,c,scale parameter,yearly 2007
+R705198__paramvalue_004,1.5504,k,shape parameter,yearly 2007
+R705211__paramvalue_001,2.83048,K,shape parameter,
+R705211__paramvalue_002,7.01918,C,scale parameter,
+R705211__paramvalue_003,2.47417,K,shape parameter,
+R705211__paramvalue_004,7.16991,C,scale parameter,
+R705211__paramvalue_005,2.46001,K,shape parameter,
+R705211__paramvalue_006,7.16459,C,scale parameter,
+R705236__paramvalue_001,1.59,k,shape parameter,"Whole Year, 2002–2012"
+R705236__paramvalue_002,3.95,c,scale parameter,"Whole Year, 2002–2012"
+R705566__paramvalue_001,0,p,mixture weight,annual wind speed distribution
+R705566__paramvalue_002,1.57086,k2,shape parameter,annual wind speed distribution
+R705566__paramvalue_003,5.59424,c2,scale parameter,annual wind speed distribution
+R705566__paramvalue_004,0.972824,p,mixture weight,annual wind speed distribution
+R705566__paramvalue_005,1.94195,k1,shape parameter,annual wind speed distribution
+R705566__paramvalue_006,6.26879,c1,scale parameter,annual wind speed distribution
+R705566__paramvalue_007,1.57677,k2,shape parameter,annual wind speed distribution
+R705566__paramvalue_008,0.744944,c2,scale parameter,annual wind speed distribution
+R705566__paramvalue_009,0,p,mixture weight,annual wind speed distribution
+R705566__paramvalue_010,1.68324,k2,shape parameter,annual wind speed distribution
+R705566__paramvalue_011,4.12542,c2,scale parameter,annual wind speed distribution
+R705566__paramvalue_012,0.462723,p,mixture weight,annual wind speed distribution
+R705566__paramvalue_013,3.09546,k1,shape parameter,annual wind speed distribution
+R705566__paramvalue_014,8.23248,c1,scale parameter,annual wind speed distribution
+R705566__paramvalue_015,1.67283,k2,shape parameter,annual wind speed distribution
+R705566__paramvalue_016,6.89318,c2,scale parameter,annual wind speed distribution
+R705566__paramvalue_017,0.397868,p,mixture weight,annual wind speed distribution
+R705566__paramvalue_018,4.64219,k1,shape parameter,annual wind speed distribution
+R705566__paramvalue_019,9.8499,c1,scale parameter,annual wind speed distribution
+R705566__paramvalue_020,1.65262,k2,shape parameter,annual wind speed distribution
+R705566__paramvalue_021,5.82296,c2,scale parameter,annual wind speed distribution
+R705566__paramvalue_022,0.164355,p,mixture weight,annual wind speed distribution
+R705566__paramvalue_023,3.74375,k1,shape parameter,annual wind speed distribution
+R705566__paramvalue_024,7.21461,c1,scale parameter,annual wind speed distribution
+R705566__paramvalue_025,1.55281,k2,shape parameter,annual wind speed distribution
+R705566__paramvalue_026,4.70117,c2,scale parameter,annual wind speed distribution
+R705566__paramvalue_027,0.904878,p,mixture weight,annual wind speed distribution
+R705566__paramvalue_028,1.89906,k1,shape parameter,annual wind speed distribution
+R705566__paramvalue_029,5.73376,c1,scale parameter,annual wind speed distribution
+R705566__paramvalue_030,2.18917,k2,shape parameter,annual wind speed distribution
+R705566__paramvalue_031,2.33254,c2,scale parameter,annual wind speed distribution
+R705566__paramvalue_032,0,p,mixture weight,annual wind speed distribution
+R705566__paramvalue_033,1.98288,k2,shape parameter,annual wind speed distribution
+R705566__paramvalue_034,6.06605,c2,scale parameter,annual wind speed distribution
+R705566__paramvalue_035,0.222413,p,mixture weight,annual wind speed distribution
+R705566__paramvalue_036,2.27415,k1,shape parameter,annual wind speed distribution
+R705566__paramvalue_037,7.3134,c1,scale parameter,annual wind speed distribution
+R705566__paramvalue_038,1.66572,k2,shape parameter,annual wind speed distribution
+R705566__paramvalue_039,4.67543,c2,scale parameter,annual wind speed distribution
+R705566__paramvalue_040,1.57086,kW,shape parameter,annual wind speed distribution
+R705566__paramvalue_041,5.59424,cW,scale parameter,annual wind speed distribution
+R705566__paramvalue_042,1.81528,kW,shape parameter,annual wind speed distribution
+R705566__paramvalue_043,6.08811,cW,scale parameter,annual wind speed distribution
+R705566__paramvalue_044,1.68324,kW,shape parameter,annual wind speed distribution
+R705566__paramvalue_045,4.12542,cW,scale parameter,annual wind speed distribution
+R705566__paramvalue_046,2.08503,kW,shape parameter,annual wind speed distribution
+R705566__paramvalue_047,7.56219,cW,scale parameter,annual wind speed distribution
+R705566__paramvalue_048,2.0131,kW,shape parameter,annual wind speed distribution
+R705566__paramvalue_049,7.54629,cW,scale parameter,annual wind speed distribution
+R705566__paramvalue_050,1.66964,kW,shape parameter,annual wind speed distribution
+R705566__paramvalue_051,5.14315,cW,scale parameter,annual wind speed distribution
+R705566__paramvalue_052,1.7691,kW,shape parameter,annual wind speed distribution
+R705566__paramvalue_053,5.39727,cW,scale parameter,annual wind speed distribution
+R705566__paramvalue_054,1.98288,kW,shape parameter,annual wind speed distribution
+R705566__paramvalue_055,6.06605,cW,scale parameter,annual wind speed distribution
+R705566__paramvalue_056,1.69136,kW,shape parameter,annual wind speed distribution
+R705566__paramvalue_057,5.2529,cW,scale parameter,annual wind speed distribution
+R705585__paramvalue_001,1.6066,a,shape parameter,Winter
+R705585__paramvalue_002,1.2527,b,scale parameter,Winter
+R705585__paramvalue_003,1.6108,a,shape parameter,Winter
+R705585__paramvalue_004,1.2602,b,scale parameter,Winter
+R705585__paramvalue_005,1.5357,a,shape parameter,Winter
+R705585__paramvalue_006,2.4231,b,scale parameter,Winter
+R705585__paramvalue_007,1.5314,a,shape parameter,Winter
+R705585__paramvalue_008,2.3978,b,scale parameter,Winter
+R705585__paramvalue_009,1.6933,a,shape parameter,Winter
+R705585__paramvalue_010,1.1907,b,scale parameter,Winter
+R705585__paramvalue_011,1.6995,a,shape parameter,Winter
+R705585__paramvalue_012,1.1982,b,scale parameter,Winter
+R705585__paramvalue_013,1.7141,a,shape parameter,Winter
+R705585__paramvalue_014,2.2069,b,scale parameter,Winter
+R705585__paramvalue_015,1.7049,a,shape parameter,Winter
+R705585__paramvalue_016,2.1921,b,scale parameter,Winter
+R705585__paramvalue_017,1.4765,a,shape parameter,Spring
+R705585__paramvalue_018,1.1798,b,scale parameter,Spring
+R705585__paramvalue_019,1.4734,a,shape parameter,Spring
+R705585__paramvalue_020,1.1912,b,scale parameter,Spring
+R705585__paramvalue_021,1.5804,a,shape parameter,Spring
+R705585__paramvalue_022,2.3597,b,scale parameter,Spring
+R705585__paramvalue_023,1.5744,a,shape parameter,Spring
+R705585__paramvalue_024,2.3503,b,scale parameter,Spring
+R705585__paramvalue_025,1.5683,a,shape parameter,Summer
+R705585__paramvalue_026,1.3796,b,scale parameter,Summer
+R705585__paramvalue_027,1.5599,a,shape parameter,Summer
+R705585__paramvalue_028,1.3971,b,scale parameter,Summer
+R705585__paramvalue_029,1.7892,a,shape parameter,Summer
+R705585__paramvalue_030,2.5948,b,scale parameter,Summer
+R705585__paramvalue_031,1.7854,a,shape parameter,Summer
+R705585__paramvalue_032,2.5888,b,scale parameter,Summer
+R705585__paramvalue_033,1.5585,a,shape parameter,Autumn
+R705585__paramvalue_034,0.8107,b,scale parameter,Autumn
+R705585__paramvalue_035,1.5742,a,shape parameter,Autumn
+R705585__paramvalue_036,0.8170,b,scale parameter,Autumn
+R705585__paramvalue_037,1.4616,a,shape parameter,Autumn
+R705585__paramvalue_038,1.5917,b,scale parameter,Autumn
+R705585__paramvalue_039,1.4633,a,shape parameter,Autumn
+R705585__paramvalue_040,1.5705,b,scale parameter,Autumn
+R705610__paramvalue_001,1.3559,m,shape parameter,Jul 2008 – Dec 2009
+R705610__paramvalue_002,27.8337,X,scale parameter,Jul 2008 – Dec 2009
+R705610__paramvalue_003,0.7603,m,shape parameter,Jul 2007 – Jan 2009
+R705610__paramvalue_004,104.3654,X,scale parameter,Jul 2007 – Jan 2009
+R705610__paramvalue_005,1.9833,a,shape parameter,Jun 2006 – Oct 2009
+R705610__paramvalue_006,2.4595,b,scale parameter,Jun 2006 – Oct 2009
+R705610__paramvalue_007,-0.0050,f,parameter,Sep 2006 – Jul 2008
+R705610__paramvalue_008,1.9130,l,parameter,Sep 2006 – Jul 2008
+R705610__paramvalue_009,3.4698,r,parameter,Sep 2006 – Jul 2008
+R705610__paramvalue_010,6.4752,k,shape parameter,Jan 2010 – Jan 2015
+R705610__paramvalue_011,11.0024,l,scale parameter,Jan 2010 – Jan 2015
+R706033__paramvalue_001,3.130,C,scale parameter,yearly average across 1985–2013
+R706033__paramvalue_002,2.223,k,shape parameter,yearly average across 1985–2013
+R706033__paramvalue_003,2.222,k,shape parameter,yearly average across 1985–2013
+R706033__paramvalue_004,3.994,C,scale parameter,yearly average across 1985–2013
+R706033__paramvalue_005,3.174,k,shape parameter,yearly average across 1985–2013
+R706033__paramvalue_006,3.960,C,scale parameter,yearly average across 1985–2013
+R706033__paramvalue_007,3.022,k,shape parameter,yearly average across 1985–2013
+R706033__paramvalue_008,3.867,C,scale parameter,yearly average across 1985–2013
+R706033__paramvalue_009,3.548,k,shape parameter,yearly average across 1985–2013
+R706033__paramvalue_010,3.900,C,scale parameter,yearly average across 1985–2013
+R706033__paramvalue_011,2.981,k,shape parameter,yearly average across 1985–2013
+R707402__paramvalue_001,2.5501,k,scale parameter,whole year 2006
+R707402__paramvalue_002,1.6612,p,shape parameter,whole year 2006
+R707402__paramvalue_003,2.5547,k,scale parameter,whole year 2006
+R707402__paramvalue_004,1.6528,p,shape parameter,whole year 2006
+R707402__paramvalue_005,8.5,T,truncation point,whole year 2006
+R707402__paramvalue_006,3.7645,k,scale parameter,whole year 2006
+R707402__paramvalue_007,1.4497,p,shape parameter,whole year 2006
+R707402__paramvalue_008,3.7651,k,scale parameter,whole year 2006
+R707402__paramvalue_009,1.4489,p,shape parameter,whole year 2006
+R707402__paramvalue_010,18.3,T,truncation point,whole year 2006
+R707402__paramvalue_011,3.0157,k,scale parameter,whole year 2006
+R707402__paramvalue_012,1.5719,p,shape parameter,whole year 2006
+R707402__paramvalue_013,3.0158,k,scale parameter,whole year 2006
+R707402__paramvalue_014,1.5717,p,shape parameter,whole year 2006
+R707402__paramvalue_015,14.4,T,truncation point,whole year 2006
+R707412__paramvalue_001,2.7336,k,scale parameter,total period
+R707412__paramvalue_002,1.8461,a,shape parameter,total period
+R707412__paramvalue_003,2.9322,b,scale parameter,total period
+R707412__paramvalue_004,4.3612,k,scale parameter,total period
+R707412__paramvalue_005,1.7207,a,shape parameter,total period
+R707412__paramvalue_006,6.219,b,scale parameter,total period
+R707412__paramvalue_007,2.3248,k,scale parameter,total period
+R707412__paramvalue_008,1.7243,a,shape parameter,total period
+R707412__paramvalue_009,2.6958,b,scale parameter,total period
+R707412__paramvalue_010,4.7534,k,scale parameter,total period
+R707412__paramvalue_011,1.5184,a,shape parameter,total period
+R707412__paramvalue_012,5.3102,b,scale parameter,total period
+R707507__paramvalue_001,3.166,a,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_002,2.187,b,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_003,2.285,a,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_004,1.746,b,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_005,2.367,a,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_006,1.69,b,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_007,2.874,a,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_008,1.673,b,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_009,1.399,a,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_010,1.72,b,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_011,2.668,a,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_012,1.958,b,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_013,4.317,a,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_014,0.648,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_015,2.763,a,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_016,0.734,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_017,2.511,a,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_018,0.838,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_019,2.473,a,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_020,1.033,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_021,1.399,a,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_022,0.581,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_023,3.418,a,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_024,0.69,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_025,3.578,p,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_026,7.667,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_027,2.331,p,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_028,3.1,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_029,2.129,p,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_030,2.815,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_031,2.154,p,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_032,3.458,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_033,2.468,p,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_034,2.018,b,scale parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_035,2.868,p,shape parameter,2007-01-01 to 2009-11-30
+R707507__paramvalue_036,4.826,b,scale parameter,2007-01-01 to 2009-11-30
+R707542__paramvalue_001,4,M,number of mixture components,
+R707542__paramvalue_002,0.2,k,bandwidth,
+R707542__paramvalue_003,0.15,φ,wind shear exponent,
+R707568__paramvalue_001,3.7,b,scale parameter,
+R707568__paramvalue_002,29.7,m,location parameter,
+R707568__paramvalue_003,0.00424,surface roughness,surface roughness length,
+R707661__paramvalue_001,1.519,k,shape parameter,overall period
+R707661__paramvalue_002,2.042,k,shape parameter,overall period
+R707661__paramvalue_003,2.142,k,shape parameter,overall period
+R707682__paramvalue_001,3.44,p,parameter,
+R707682__paramvalue_002,0.85,β,parameter,
+R707682__paramvalue_003,1.27,μ,mean,
+R707682__paramvalue_004,0.50,σ,standard deviation,
+R707682__paramvalue_005,1.99,k,shape parameter,
+R707682__paramvalue_006,4.58,c,scale parameter,
+R707682__paramvalue_007,13.29,p,parameter,
+R707682__paramvalue_008,4.64,β,parameter,
+R707682__paramvalue_009,2.86,μ,mean,
+R707682__paramvalue_010,0.78,σ,standard deviation,
+R707682__paramvalue_011,1.02,μ,mean,
+R707682__paramvalue_012,0.26,σ,standard deviation,
+R707682__paramvalue_013,4.93,k,shape parameter,
+R707682__paramvalue_014,2.86,c,scale parameter,
+R707682__paramvalue_015,2.62,μ,mean,
+R707682__paramvalue_016,0.64,σ,standard deviation,
+R707682__paramvalue_017,16.60,p,parameter,
+R707682__paramvalue_018,6.33,β,parameter,
+R707682__paramvalue_019,0.93,p,parameter,
+R707682__paramvalue_020,0.30,β,parameter,
+R707682__paramvalue_021,2.99,p,parameter,
+R707682__paramvalue_022,1.33,β,parameter,
+R707682__paramvalue_023,0.66,μ,mean,
+R707682__paramvalue_024,0.54,σ,standard deviation,
+R707682__paramvalue_025,2.38,k,shape parameter,
+R707682__paramvalue_026,2.74,c,scale parameter,
+R707701__paramvalue_001,0.214,rUH,statistical association parameter,
+R707701__paramvalue_002,0.106,rUH,statistical association parameter,
+R707701__paramvalue_003,0.092,rUH,statistical association parameter,
+R707701__paramvalue_004,0.176,rUH,statistical association parameter,
+R707701__paramvalue_005,0.141,rUH,statistical association parameter,
+R707701__paramvalue_006,0.263,rUH,statistical association parameter,
+R707701__paramvalue_007,1.735,ωP,correlation-type parameter,
+R707701__paramvalue_008,1.15,ωP,correlation-type parameter,
+R707701__paramvalue_009,0.984,ωP,correlation-type parameter,
+R707701__paramvalue_010,1.645,ωP,correlation-type parameter,
+R707701__paramvalue_011,0.329,ωP,correlation-type parameter,
+R707701__paramvalue_012,1.208,ωP,correlation-type parameter,
+R707709__paramvalue_001,1.533,c,shape parameter,
+R707709__paramvalue_002,1.221,d,shape parameter,
+R707709__paramvalue_003,24.386,k,range,
+R707709__paramvalue_004,-1.282,n,location parameter,
+R707709__paramvalue_005,2.543,c,shape parameter,
+R707709__paramvalue_006,2.582,d,shape parameter,
+R707709__paramvalue_007,24.14,k,range,
+R707709__paramvalue_008,-6.238,n,location parameter,
+R707709__paramvalue_009,3.463,c,shape parameter,
+R707709__paramvalue_010,2.741,d,shape parameter,
+R707709__paramvalue_011,44.363,k,range,
+R707709__paramvalue_012,-4.818,n,location parameter,
+R707709__paramvalue_013,2.12,c,shape parameter,
+R707709__paramvalue_014,1.751,d,shape parameter,
+R707709__paramvalue_015,23.006,k,range,
+R707709__paramvalue_016,-1.973,n,location parameter,
+R707709__paramvalue_017,11.088,c,shape parameter,
+R707709__paramvalue_018,4.842,d,shape parameter,
+R707709__paramvalue_019,192.25,k,range,
+R707709__paramvalue_020,-12.2,n,location parameter,
+R707709__paramvalue_021,0.153,c,shape parameter,
+R707709__paramvalue_022,1.565,d,shape parameter,
+R707709__paramvalue_023,24.647,k,range,
+R707709__paramvalue_024,-5.052,n,location parameter,
+R707709__paramvalue_025,1.055,c,shape parameter,
+R707709__paramvalue_026,1.419,d,shape parameter,
+R707709__paramvalue_027,19.487,k,range,
+R707709__paramvalue_028,-1.952,n,location parameter,
+R707709__paramvalue_029,1.421,c,shape parameter,
+R707709__paramvalue_030,1.407,d,shape parameter,
+R707709__paramvalue_031,21.187,k,range,
+R707709__paramvalue_032,-1.164,n,location parameter,
+R707709__paramvalue_033,2.011,c,shape parameter,
+R707709__paramvalue_034,2.314,d,shape parameter,
+R707709__paramvalue_035,34.79,k,range,
+R707709__paramvalue_036,-5.051,n,location parameter,
+R707709__paramvalue_037,1.403,c,shape parameter,
+R707709__paramvalue_038,1.447,d,shape parameter,
+R707709__paramvalue_039,24.348,k,range,
+R707709__paramvalue_040,-2.295,n,location parameter,
+R707709__paramvalue_041,1.299,c,shape parameter,
+R707709__paramvalue_042,1.363,d,shape parameter,
+R707709__paramvalue_043,21.141,k,range,
+R707709__paramvalue_044,-1.425,n,location parameter,
+R707709__paramvalue_045,0.533,c,shape parameter,
+R707709__paramvalue_046,1.151,d,shape parameter,
+R707709__paramvalue_047,16.114,k,range,
+R707709__paramvalue_048,-1.18,n,location parameter,
+R707709__paramvalue_049,1.052,c,shape parameter,
+R707709__paramvalue_050,1.192,d,shape parameter,
+R707709__paramvalue_051,20.355,k,range,
+R707709__paramvalue_052,-1.072,n,location parameter,
+R707709__paramvalue_053,1.262,c,shape parameter,
+R707709__paramvalue_054,1.365,d,shape parameter,
+R707709__paramvalue_055,20.095,k,range,
+R707709__paramvalue_056,-1.07,n,location parameter,
+R707709__paramvalue_057,1.424,c,shape parameter,
+R707709__paramvalue_058,1.242,d,shape parameter,
+R707709__paramvalue_059,19.84,k,range,
+R707709__paramvalue_060,-0.622,n,location parameter,
+R707709__paramvalue_061,1.637,c,shape parameter,
+R707709__paramvalue_062,1.565,d,shape parameter,
+R707709__paramvalue_063,22.164,k,range,
+R707709__paramvalue_064,-0.661,n,location parameter,
+R707709__paramvalue_065,0.967,c,shape parameter,
+R707709__paramvalue_066,0.839,d,shape parameter,
+R707709__paramvalue_067,21.996,k,range,
+R707709__paramvalue_068,0.172,n,location parameter,
+R707709__paramvalue_069,1.996,c,shape parameter,
+R707709__paramvalue_070,1.661,d,shape parameter,
+R707709__paramvalue_071,30.241,k,range,
+R707709__paramvalue_072,-1.841,n,location parameter,
+R707709__paramvalue_073,2.551,c,shape parameter,
+R707709__paramvalue_074,1.765,d,shape parameter,
+R707709__paramvalue_075,32.603,k,range,
+R707709__paramvalue_076,-1.773,n,location parameter,
+R707902__paramvalue_001,10,α,fixed parameter,Set to this value after L-moment-based estimation showed α = 10 at nearly all stations.
+R708241__paramvalue_001,3.3976,h1,scale parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_002,1.3800,h2,shape parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_003,0.0811,h0,location parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_004,3.2852,h1,scale parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_005,1.3332,h2,shape parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_006,0.8000,h0,location parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_007,1.4458,h1,scale parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_008,1.0507,h2,shape parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_009,0.8450,h3,shape parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_010,0.7004,h0,location parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_011,2.0086,h1,scale parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_012,2.1310,h2,shape parameter,whole year (5 year period 2002–2006)
+R708241__paramvalue_013,0.8773,h3,shape parameter,whole year (5 year period 2002–2006)
+R708270__paramvalue_001,2.8037,k,shape parameter,2010
+R708270__paramvalue_002,8.3399,c,scale parameter,2010
+R708270__paramvalue_003,2.8014,k,shape parameter,2011
+R708270__paramvalue_004,8.3393,c,scale parameter,2011
+R708270__paramvalue_005,2.8208,k,shape parameter,2012
+R708270__paramvalue_006,8.3337,c,scale parameter,2012
+R708270__paramvalue_007,2.7913,k,shape parameter,2013
+R708270__paramvalue_008,8.3384,c,scale parameter,2013
+R708270__paramvalue_009,2.8015,k,shape parameter,2014
+R708270__paramvalue_010,8.3379,c,scale parameter,2014
+R708270__paramvalue_011,1.177,ρ,air density,for the study area
+R708307__paramvalue_001,0.6649,h,bandwidth,2000–2009
+R708307__paramvalue_002,0.3241,h,bandwidth,2000–2009
+R708327__paramvalue_001,4,m,shape parameter,
+R708327__paramvalue_002,1.6955,b,scale parameter,
+R708327__paramvalue_003,-0.5322,c,location parameter,
+R708327__paramvalue_004,-1.1601093,k0,Lagrangian multiplier,
+R708327__paramvalue_005,-1.1826788,k1,Lagrangian multiplier,
+R708327__paramvalue_006,0.1708179,k2,Lagrangian multiplier,
+R708327__paramvalue_007,0.0424948,k3,Lagrangian multiplier,
+R708327__paramvalue_008,-0.0114823,k4,Lagrangian multiplier,
+R708327__paramvalue_009,0.0008469,k5,Lagrangian multiplier,
+R708327__paramvalue_010,-0.0000202,k6,Lagrangian multiplier,
+R708327__paramvalue_011,12.015,a,shape parameter,
+R708327__paramvalue_012,104.81,b,scale parameter,
+R708327__paramvalue_013,-4.0786,c,location parameter,
+R708327__paramvalue_014,7.7993,l,shape parameter,
+R708327__paramvalue_015,59.4109,k,scale parameter,
+R708327__paramvalue_016,-2.8476,c,location parameter,
+R708327__paramvalue_017,8.9474,l,shape parameter,
+R708327__paramvalue_018,76.1472,k,scale parameter,
+R708327__paramvalue_019,-3.0787,c,location parameter,
+R708911__paramvalue_001,235.16,a,scale parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_002,260.51,b,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_003,0.91,c,scale parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_004,0.33,d,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_005,0.00,e,location parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_006,-1.61,n,location parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_007,6.06,h,scale parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_008,0.26,k,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_009,1.57,h,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_010,128.04,a,scale parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_011,112.89,b,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_012,0.93,c,scale parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_013,0.29,d,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_014,0.00,e,location parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_015,0.553,x,mixture weight,2011-01-01 to 2015-12-31
+R708911__paramvalue_016,2.606,r,scale parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_017,2.792,o,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_018,1.089,v,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_019,-0.215,i,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_020,1.469,g,scale parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_021,6.337,l,location parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_022,0.509,x,mixture weight,2011-01-01 to 2015-12-31
+R708911__paramvalue_023,2.154,r,scale parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_024,3.777,o,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_025,0.862,v,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_026,-0.449,i,shape parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_027,1.343,g,scale parameter,2011-01-01 to 2015-12-31
+R708911__paramvalue_028,4.366,l,location parameter,2011-01-01 to 2015-12-31
+R709022__paramvalue_001,5.908,c,scale parameter,actual data
+R709022__paramvalue_002,1.777,k,shape parameter,actual data
+R709022__paramvalue_003,3.508,c,scale parameter,actual data
+R709022__paramvalue_004,1.212,k,shape parameter,actual data
+R709022__paramvalue_005,4.004,c,scale parameter,actual data
+R709022__paramvalue_006,1.690,k,shape parameter,actual data
+R709022__paramvalue_007,6.146,c,scale parameter,actual data
+R709022__paramvalue_008,1.959,k,shape parameter,actual data
+R709022__paramvalue_009,4.826,c,scale parameter,actual data
+R709022__paramvalue_010,1.604,k,shape parameter,actual data
+R709022__paramvalue_011,5.553,c,scale parameter,truncated data
+R709022__paramvalue_012,1.713,k,shape parameter,truncated data
+R709022__paramvalue_013,3.866,c,scale parameter,truncated data
+R709022__paramvalue_014,1.385,k,shape parameter,truncated data
+R709022__paramvalue_015,3.774,c,scale parameter,truncated data
+R709022__paramvalue_016,1.675,k,shape parameter,truncated data
+R709022__paramvalue_017,5.727,c,scale parameter,truncated data
+R709022__paramvalue_018,1.850,k,shape parameter,truncated data
+R709022__paramvalue_019,4.553,c,scale parameter,truncated data
+R709022__paramvalue_020,1.567,k,shape parameter,truncated data
+R709022__paramvalue_021,1.465,l,shape parameter,actual data
+R709022__paramvalue_022,0.674,r,scale parameter,actual data
+R709022__paramvalue_023,0.796,l,shape parameter,actual data
+R709022__paramvalue_024,0.965,r,scale parameter,actual data
+R709022__paramvalue_025,1.060,l,shape parameter,actual data
+R709022__paramvalue_026,0.700,r,scale parameter,actual data
+R709022__paramvalue_027,1.533,l,shape parameter,actual data
+R709022__paramvalue_028,0.610,r,scale parameter,actual data
+R709022__paramvalue_029,1.230,l,shape parameter,actual data
+R709022__paramvalue_030,0.735,r,scale parameter,actual data
+R709022__paramvalue_031,1.396,l,shape parameter,truncated data
+R709022__paramvalue_032,0.664,r,scale parameter,truncated data
+R709022__paramvalue_033,0.972,l,shape parameter,truncated data
+R709022__paramvalue_034,0.756,r,scale parameter,truncated data
+R709022__paramvalue_035,1.009,l,shape parameter,truncated data
+R709022__paramvalue_036,0.652,r,scale parameter,truncated data
+R709022__paramvalue_037,1.446,l,shape parameter,truncated data
+R709022__paramvalue_038,0.636,r,scale parameter,truncated data
+R709022__paramvalue_039,1.172,l,shape parameter,truncated data
+R709022__paramvalue_040,0.700,r,scale parameter,truncated data
+R709107__paramvalue_001,2.4,k,shape parameter,
+R711154__paramvalue_001,2.76,k,shape parameter,October
+R711154__paramvalue_002,6.4,k,shape parameter,March
+R711154__paramvalue_003,1.39,C,scale parameter,December
+R711154__paramvalue_004,2.97,C,scale parameter,April
+R711159__paramvalue_001,6.5566,k,shape parameter,2012
+R711159__paramvalue_002,1.6428,C,scale parameter,2012
+R711159__paramvalue_003,5.7042,k,shape parameter,2012
+R711159__paramvalue_004,1.6535,C,scale parameter,2012
+R711159__paramvalue_005,4.0440,k,shape parameter,2012
+R711159__paramvalue_006,1.7098,C,scale parameter,2012
+R711159__paramvalue_007,5.9657,k,shape parameter,2012
+R711159__paramvalue_008,1.6541,C,scale parameter,2012
+R711159__paramvalue_009,5.2206,k,shape parameter,2013
+R711159__paramvalue_010,2.7125,C,scale parameter,2013
+R711159__paramvalue_011,4.9774,k,shape parameter,2013
+R711159__paramvalue_012,1.9182,C,scale parameter,2013
+R711159__paramvalue_013,3.5819,k,shape parameter,2013
+R711159__paramvalue_014,1.9998,C,scale parameter,2013
+R711159__paramvalue_015,5.1347,k,shape parameter,2013
+R711159__paramvalue_016,1.9273,C,scale parameter,2013
+R711159__paramvalue_017,2.5876,k,shape parameter,2014
+R711159__paramvalue_018,1.9833,C,scale parameter,2014
+R711159__paramvalue_019,5.2817,k,shape parameter,2014
+R711159__paramvalue_020,1.9078,C,scale parameter,2014
+R711159__paramvalue_021,2.9139,k,shape parameter,2014
+R711159__paramvalue_022,1.9419,C,scale parameter,2014
+R711159__paramvalue_023,2.3967,k,shape parameter,2014
+R711159__paramvalue_024,2.0140,C,scale parameter,2014
+R711159__paramvalue_025,4.7883,k,shape parameter,3 years of analysis
+R711159__paramvalue_026,2.1129,C,scale parameter,3 years of analysis
+R711419__paramvalue_001,3.13,k,shape parameter,monthly minimum wind-speed data
+R711419__paramvalue_002,2.56,c,scale parameter,monthly minimum wind-speed data
+R711419__paramvalue_003,2.76,k,shape parameter,monthly average wind-speed data
+R711419__paramvalue_004,1.62,c,scale parameter,monthly average wind-speed data
+R711419__paramvalue_005,3.29,k,shape parameter,monthly maximum wind-speed data
+R711419__paramvalue_006,3.63,c,scale parameter,monthly maximum wind-speed data
+R711419__paramvalue_007,1.98,k,shape parameter,monthly minimum wind-speed data
+R711419__paramvalue_008,0.47,c,scale parameter,monthly minimum wind-speed data
+R711419__paramvalue_009,1.22,k,shape parameter,monthly average wind-speed data
+R711419__paramvalue_010,0.35,c,scale parameter,monthly average wind-speed data
+R711419__paramvalue_011,2.833,k,shape parameter,monthly maximum wind-speed data
+R711419__paramvalue_012,0.665,c,scale parameter,monthly maximum wind-speed data
+R711419__paramvalue_013,4.88,k,shape parameter,monthly minimum wind-speed data
+R711419__paramvalue_014,1.93,c,scale parameter,monthly minimum wind-speed data
+R711419__paramvalue_015,4.88,k,shape parameter,monthly average wind-speed data
+R711419__paramvalue_016,1.93,c,scale parameter,monthly average wind-speed data
+R711419__paramvalue_017,4.73,k,shape parameter,monthly maximum wind-speed data
+R711419__paramvalue_018,2.76,c,scale parameter,monthly maximum wind-speed data
+R711460__paramvalue_001,1.225,ρ,air density,
+R711460__paramvalue_002,0.142857,α,wind shear exponent,
+R711460__paramvalue_003,10,h_ref,reference height,
+R711507__paramvalue_001,3.8,k,shape parameter,2007-2013
+R711507__paramvalue_002,2.7,c,scale parameter,2007-2013
+R711568__paramvalue_001,2.9141,K,shape parameter,1982–2019
+R711568__paramvalue_002,3.8143,C,scale parameter,1982–2019
+R711568__paramvalue_003,2.6006,K,shape parameter,1982–2019
+R711568__paramvalue_004,2.9026,C,scale parameter,1982–2019
+R711568__paramvalue_005,3.0459,K,shape parameter,1982–2019
+R711568__paramvalue_006,2.8211,C,scale parameter,1982–2019
+R711568__paramvalue_007,2.8080,K,shape parameter,1982–2019
+R711568__paramvalue_008,1.9920,C,scale parameter,1982–2019
+R711568__paramvalue_009,2.7906,K,shape parameter,1982–2019
+R711568__paramvalue_010,1.9569,C,scale parameter,1982–2019
+R711568__paramvalue_011,3.5904,K,shape parameter,1982–2019
+R711568__paramvalue_012,1.7427,C,scale parameter,1982–2019
+R711568__paramvalue_013,3.0424,K,shape parameter,1982–2019
+R711568__paramvalue_014,1.6843,C,scale parameter,1982–2019
+R711568__paramvalue_015,3.9841,K,shape parameter,1982–2019
+R711568__paramvalue_016,1.8235,C,scale parameter,1982–2019
+R711568__paramvalue_017,2.3582,K,shape parameter,1982–2019
+R711568__paramvalue_018,1.0912,C,scale parameter,1982–2019
+R711568__paramvalue_019,1.8432,K,shape parameter,1982–2019
+R711568__paramvalue_020,0.5832,C,scale parameter,1982–2019
+R712275__paramvalue_001,4.07,C,scale parameter,yearly average
+R712275__paramvalue_002,2.843,k,shape parameter,yearly average
+R712275__paramvalue_003,4.207,C,scale parameter,yearly average
+R712275__paramvalue_004,2.949,k,shape parameter,yearly average
+R712275__paramvalue_005,4.165,C,scale parameter,yearly average
+R712275__paramvalue_006,2.814,k,shape parameter,yearly average
+R712275__paramvalue_007,4.07,C,scale parameter,yearly average
+R712275__paramvalue_008,3.126,k,shape parameter,yearly average
+R712275__paramvalue_009,4.093,C,scale parameter,yearly average
+R712275__paramvalue_010,2.716,k,shape parameter,yearly average
+R712288__paramvalue_001,3.130414,C,scale parameter,Whole year
+R712288__paramvalue_002,2.222700,k,shape parameter,Whole year
+R712288__paramvalue_003,3.280283,C,scale parameter,Whole year
+R712288__paramvalue_004,2.347260,k,shape parameter,Whole year
+R712288__paramvalue_005,3.250418,C,scale parameter,Whole year
+R712288__paramvalue_006,2.187000,k,shape parameter,Whole year
+R712288__paramvalue_007,3.125597,C,scale parameter,Whole year
+R712288__paramvalue_008,2.283603,k,shape parameter,Whole year
+R712288__paramvalue_009,3.122590,C,scale parameter,Whole year
+R712288__paramvalue_010,2.033948,k,shape parameter,Whole year
+R712549__paramvalue_001,7.15,c,scale parameter,annual mean results at 100 m
+R712552__paramvalue_001,1.73,k,shape parameter,yearly; study period 2000–2006
+R712552__paramvalue_002,9.71,c,scale parameter,yearly; study period 2000–2006
+R712552__paramvalue_003,1.65,k,shape parameter,yearly; study period 2000–2006
+R712552__paramvalue_004,9.58,c,scale parameter,yearly; study period 2000–2006
+R712552__paramvalue_005,1.96,k,shape parameter,yearly; study period 2000–2006
+R712552__paramvalue_006,6.81,c,scale parameter,yearly; study period 2000–2006
+R712552__paramvalue_007,1.77,k,shape parameter,yearly; study period 2000–2006
+R712552__paramvalue_008,8.47,c,scale parameter,yearly; study period 2000–2006
+R712552__paramvalue_009,1.71,k,shape parameter,yearly; study period 2000–2006
+R712552__paramvalue_010,7.62,c,scale parameter,yearly; study period 2000–2006
+R712552__paramvalue_011,1.74,k,shape parameter,yearly; study period 2000–2006
+R712552__paramvalue_012,8.97,c,scale parameter,yearly; study period 2000–2006
+R712555__paramvalue_001,2.135,c,scale parameter,Jan average across 2014–2018
+R712555__paramvalue_002,1.802,k,shape parameter,Jan average across 2014–2018
+R712555__paramvalue_003,2.830,c,scale parameter,Feb average across 2014–2018
+R712555__paramvalue_004,2.410,k,shape parameter,Feb average across 2014–2018
+R712555__paramvalue_005,2.180,c,scale parameter,Mar average across 2014–2018
+R712555__paramvalue_006,2.290,k,shape parameter,Mar average across 2014–2018
+R712555__paramvalue_007,1.877,c,scale parameter,Apr average across 2014–2018
+R712555__paramvalue_008,2.095,k,shape parameter,Apr average across 2014–2018
+R712555__paramvalue_009,1.612,c,scale parameter,May average across 2014–2018
+R712555__paramvalue_010,1.710,k,shape parameter,May average across 2014–2018
+R712555__paramvalue_011,1.462,c,scale parameter,Jun average across 2014–2018
+R712555__paramvalue_012,1.410,k,shape parameter,Jun average across 2014–2018
+R712555__paramvalue_013,1.598,c,scale parameter,Jul average across 2014–2018
+R712555__paramvalue_014,1.966,k,shape parameter,Jul average across 2014–2018
+R712555__paramvalue_015,2.348,c,scale parameter,Aug average across 2014–2018
+R712555__paramvalue_016,1.47,k,shape parameter,Aug average across 2014–2018
+R712555__paramvalue_017,1.716,c,scale parameter,Sep average across 2014–2018
+R712555__paramvalue_018,1.668,k,shape parameter,Sep average across 2014–2018
+R712555__paramvalue_019,1.660,c,scale parameter,Oct average across 2014–2018
+R712555__paramvalue_020,2.207,k,shape parameter,Oct average across 2014–2018
+R712555__paramvalue_021,2.297,c,scale parameter,Nov average across 2014–2018
+R712555__paramvalue_022,2.060,k,shape parameter,Nov average across 2014–2018
+R712555__paramvalue_023,1.840,c,scale parameter,Dec average across 2014–2018
+R712555__paramvalue_024,1.527,k,shape parameter,Dec average across 2014–2018
+R712555__paramvalue_025,1.963,c,scale parameter,"annual, 2014–2018"
+R712555__paramvalue_026,1.885,k,shape parameter,"annual, 2014–2018"
+R712626__paramvalue_001,4.7357,K,shape parameter,June
+R712626__paramvalue_002,4.6180,K,shape parameter,summer season
+R712626__paramvalue_003,2.6438,K,shape parameter,January
+R712626__paramvalue_004,2.8128,K,shape parameter,winter season
+R712626__paramvalue_005,10.8272,A,scale parameter,June
+R712626__paramvalue_006,3.0976,K,shape parameter,June
+R712626__paramvalue_007,3.1008,K,shape parameter,spring season
+R712626__paramvalue_008,2.2465,K,shape parameter,December
+R712626__paramvalue_009,2.4566,K,shape parameter,autumn season
+R712626__paramvalue_010,4.9014,A,scale parameter,June
+R712630__paramvalue_001,2.95,k,shape parameter,
+R712630__paramvalue_002,6.93,c,scale parameter,
+R712630__paramvalue_003,2.9,k,shape parameter,
+R712630__paramvalue_004,6.86,c,scale parameter,
+R712630__paramvalue_005,2.419,k,shape parameter,
+R712630__paramvalue_006,6.89,c,scale parameter,
+R712630__paramvalue_007,6.8,k,parameter,
+R712630__paramvalue_008,2.56,c,parameter,
+R712633__paramvalue_001,0.14,α,wind shear exponent,
+R712637__paramvalue_001,1.236274,k,shape parameter,12-month data collection period
+R712637__paramvalue_002,1.690723,C,scale parameter,12-month data collection period
+R712637__paramvalue_003,1.0,Z0,surface roughness length,
+R712644__paramvalue_001,2.86,k,shape parameter,2016-2018
+R712644__paramvalue_002,4.55,c,scale parameter,2016-2018
+R712644__paramvalue_003,1.92,k,shape parameter,2016-2018
+R712644__paramvalue_004,3.99,c,scale parameter,2016-2018
+R712648__paramvalue_001,6.643,k,shape parameter,whole year; 2000–2014
+R712648__paramvalue_002,9.815,c,scale parameter,whole year; 2000–2014
+R712648__paramvalue_003,0.143,α,wind shear exponent,neutral stable conditions
+R713398__paramvalue_001,2.027,k,shape parameter,annual
+R713398__paramvalue_002,3.987,c,scale parameter,annual
+R713398__paramvalue_003,1.926,k,shape parameter,annual
+R713398__paramvalue_004,3.817,c,scale parameter,annual
+R713398__paramvalue_005,2.838,k,shape parameter,annual
+R713398__paramvalue_006,5.811,c,scale parameter,annual
+R713398__paramvalue_007,2.662,k,shape parameter,annual
+R713398__paramvalue_008,5.031,c,scale parameter,annual
+R713398__paramvalue_009,2.249,k,shape parameter,annual
+R713398__paramvalue_010,2.974,c,scale parameter,annual
+R713398__paramvalue_011,1.697,k,shape parameter,annual
+R713398__paramvalue_012,2.342,c,scale parameter,annual
+R713401__paramvalue_001,3.647,k,shape parameter,
+R713401__paramvalue_002,1.653,c,scale parameter,
+R713401__paramvalue_003,3.735,k,shape parameter,
+R713401__paramvalue_004,1.585,c,scale parameter,
+R713401__paramvalue_005,8.162,k,shape parameter,
+R713401__paramvalue_006,1.537,c,scale parameter,
+R713401__paramvalue_007,3.711,k,shape parameter,at 105 m altitude
+R713401__paramvalue_008,3.186,c,scale parameter,at 105 m altitude
+R713401__paramvalue_009,3.800,k,shape parameter,at 105 m altitude
+R713401__paramvalue_010,3.005,c,scale parameter,at 105 m altitude
+R713401__paramvalue_011,8.304,k,shape parameter,at 105 m altitude
+R713401__paramvalue_012,2.930,c,scale parameter,at 105 m altitude
+R713405__paramvalue_001,4.93,k,shape parameter,2002–2012
+R713405__paramvalue_002,10.19,c,scale parameter,2002–2012
+R713405__paramvalue_003,4.37,k,shape parameter,2002–2012
+R713405__paramvalue_004,4.39,k,shape parameter,2002–2012
+R713405__paramvalue_005,6.02,c,scale parameter,2002–2012
+R713405__paramvalue_006,7.08,k,shape parameter,2002–2012
+R713405__paramvalue_007,12.16,c,scale parameter,2002–2012
+R713405__paramvalue_008,5.97,k,shape parameter,2002–2012
+R713405__paramvalue_009,5.03,c,scale parameter,2002–2012
+R713405__paramvalue_010,3.04,k,shape parameter,2002–2012
+R713405__paramvalue_011,3.88,c,scale parameter,2002–2012
+R713405__paramvalue_012,3.04,k,shape parameter,2002–2012
+R713405__paramvalue_013,3.88,c,scale parameter,2002–2012
+R713405__paramvalue_014,3.04,k,shape parameter,2002–2012
+R713405__paramvalue_015,3.88,c,scale parameter,2002–2012
+R713411__paramvalue_001,4.529,c,scale parameter,"Jan, monthly climatology for 1984–2013"
+R713411__paramvalue_002,3.328,k,shape parameter,"Jan, monthly climatology for 1984–2013"
+R713411__paramvalue_003,4.820,c,scale parameter,"Feb, monthly climatology for 1984–2013"
+R713411__paramvalue_004,3.576,k,shape parameter,"Feb, monthly climatology for 1984–2013"
+R713411__paramvalue_005,4.827,c,scale parameter,"Mar, monthly climatology for 1984–2013"
+R713411__paramvalue_006,3.581,k,shape parameter,"Mar, monthly climatology for 1984–2013"
+R713411__paramvalue_007,5.009,c,scale parameter,"Apr, monthly climatology for 1984–2013"
+R713411__paramvalue_008,3.738,k,shape parameter,"Apr, monthly climatology for 1984–2013"
+R713411__paramvalue_009,4.623,c,scale parameter,"May, monthly climatology for 1984–2013"
+R713411__paramvalue_010,3.407,k,shape parameter,"May, monthly climatology for 1984–2013"
+R713411__paramvalue_011,4.539,c,scale parameter,"Jun, monthly climatology for 1984–2013"
+R713411__paramvalue_012,3.336,k,shape parameter,"Jun, monthly climatology for 1984–2013"
+R713411__paramvalue_013,4.856,c,scale parameter,"Jul, monthly climatology for 1984–2013"
+R713411__paramvalue_014,3.606,k,shape parameter,"Jul, monthly climatology for 1984–2013"
+R713411__paramvalue_015,5.105,c,scale parameter,"Aug, monthly climatology for 1984–2013"
+R713411__paramvalue_016,3.821,k,shape parameter,"Aug, monthly climatology for 1984–2013"
+R713411__paramvalue_017,4.708,c,scale parameter,"Sep, monthly climatology for 1984–2013"
+R713411__paramvalue_018,3.480,k,shape parameter,"Sep, monthly climatology for 1984–2013"
+R713411__paramvalue_019,4.309,c,scale parameter,"Oct, monthly climatology for 1984–2013"
+R713411__paramvalue_020,3.143,k,shape parameter,"Oct, monthly climatology for 1984–2013"
+R713411__paramvalue_021,4.041,c,scale parameter,"Nov, monthly climatology for 1984–2013"
+R713411__paramvalue_022,2.921,k,shape parameter,"Nov, monthly climatology for 1984–2013"
+R713411__paramvalue_023,4.199,c,scale parameter,"Dec, monthly climatology for 1984–2013"
+R713411__paramvalue_024,3.051,k,shape parameter,"Dec, monthly climatology for 1984–2013"
+R713411__paramvalue_025,4.517,c,scale parameter,"Dry (DJF), 1984–2013"
+R713411__paramvalue_026,3.318,k,shape parameter,"Dry (DJF), 1984–2013"
+R713411__paramvalue_027,4.802,c,scale parameter,"Wet (JJAS), 1984–2013"
+R713411__paramvalue_028,3.560,k,shape parameter,"Wet (JJAS), 1984–2013"
+R713411__paramvalue_029,4.632,c,scale parameter,"Whole year, 1984–2013"
+R713411__paramvalue_030,3.415,k,shape parameter,"Whole year, 1984–2013"
+R713411__paramvalue_031,1.225,ρ,air density,
+R713411__paramvalue_032,0.147,α,wind shear exponent,
+R713416__paramvalue_001,4.49,k,shape parameter,"annual, 2002–2011"
+R713416__paramvalue_002,6.84,c,scale parameter,"annual, 2002–2011"
+R713416__paramvalue_003,6.31,k,shape parameter,"annual, 2002–2011"
+R713416__paramvalue_004,8.01,c,scale parameter,"annual, 2002–2011"
+R713416__paramvalue_005,6.82,k,shape parameter,"annual, 2002–2011"
+R713416__paramvalue_006,8.10,c,scale parameter,"annual, 2002–2011"
+R713420__paramvalue_001,1.26,k,shape parameter,yearly
+R713420__paramvalue_002,1.47,k,shape parameter,yearly
+R713420__paramvalue_003,2.15,k,shape parameter,yearly
+R713420__paramvalue_004,2.50,k,shape parameter,yearly
+R713420__paramvalue_005,3.30,c,scale parameter,yearly
+R713420__paramvalue_007,7.20,c,scale parameter,yearly
+R713420__paramvalue_008,9.86,c,scale parameter,yearly
+R713424__paramvalue_001,2.00,k,shape parameter,annual
+R713424__paramvalue_002,5.98,c,scale parameter,annual
+R713424__paramvalue_003,2.00,k,shape parameter,annual
+R713424__paramvalue_004,5.08,c,scale parameter,annual
+R713424__paramvalue_005,2.47,k,shape parameter,annual
+R713424__paramvalue_006,5.36,c,scale parameter,annual
+R713424__paramvalue_007,2.21,k,shape parameter,annual
+R713424__paramvalue_008,5.09,c,scale parameter,annual
+R713424__paramvalue_009,2.27,k,shape parameter,annual
+R713424__paramvalue_010,4.38,c,scale parameter,annual
+R713424__paramvalue_011,1.92,k,shape parameter,annual
+R713424__paramvalue_012,4.51,c,scale parameter,annual
+R713440__paramvalue_001,2.21,k,shape parameter,"annual, whole year, 2005–2009"
+R713440__paramvalue_002,4.69,c,scale parameter,"annual, whole year, 2005–2009"
+R713440__paramvalue_003,0.14,m,wind shear exponent,application configuration
+R713445__paramvalue_001,5.93,k,shape parameter,entire period of observations
+R713445__paramvalue_002,5.25,c,scale parameter,entire period of observations
+R713445__paramvalue_003,6.49,k,shape parameter,entire period of observations
+R713445__paramvalue_004,12.49,c,scale parameter,entire period of observations
+R713445__paramvalue_005,5.32,k,shape parameter,entire period of observations
+R713445__paramvalue_006,10.19,c,scale parameter,entire period of observations
+R713445__paramvalue_007,1.68,k,shape parameter,entire period of observations
+R713445__paramvalue_008,1.70,c,scale parameter,entire period of observations
+R713445__paramvalue_009,3.03,k,shape parameter,entire period of observations
+R713445__paramvalue_010,3.88,c,scale parameter,entire period of observations
+R713445__paramvalue_011,3.56,k,shape parameter,entire period of observations
+R713445__paramvalue_012,3.64,c,scale parameter,entire period of observations
+R713445__paramvalue_013,6.84,k,shape parameter,entire period of observations
+R713445__paramvalue_014,5.73,c,scale parameter,entire period of observations
+R713445__paramvalue_015,6.87,k,shape parameter,entire period of observations
+R713445__paramvalue_016,6.72,c,scale parameter,entire period of observations
+R713445__paramvalue_017,9.87,k,shape parameter,entire period of observations
+R713445__paramvalue_018,5.80,c,scale parameter,entire period of observations
+R713445__paramvalue_019,5.61,k,shape parameter,entire period of observations
+R713445__paramvalue_020,4.39,c,scale parameter,entire period of observations
+R713445__paramvalue_021,8.67,k,shape parameter,entire period of observations
+R713445__paramvalue_022,5.01,c,scale parameter,entire period of observations
+R713445__paramvalue_023,4.47,k,shape parameter,entire period of observations
+R713445__paramvalue_024,4.13,c,scale parameter,entire period of observations
+R713445__paramvalue_025,5.14,k,shape parameter,entire period of observations
+R713445__paramvalue_026,4.21,c,scale parameter,entire period of observations
+R713445__paramvalue_027,3.11,k,shape parameter,entire period of observations
+R713445__paramvalue_028,3.09,c,scale parameter,entire period of observations
+R713445__paramvalue_029,4.44,k,shape parameter,entire period of observations
+R713445__paramvalue_030,6.02,c,scale parameter,entire period of observations
+R713451__paramvalue_001,5.35,A,scale parameter,all data
+R713451__paramvalue_002,3.15,k,shape parameter,all data
+R713451__paramvalue_003,4.84,A,scale parameter,all data
+R713451__paramvalue_004,2.9,k,shape parameter,all data
+R713451__paramvalue_005,4.84,A,scale parameter,all data
+R713451__paramvalue_006,3.12,k,shape parameter,all data
+R713451__paramvalue_007,5.01,A,scale parameter,all data
+R713451__paramvalue_008,2.44,k,shape parameter,all data
+R716871__paramvalue_001,1.5849,k,shape parameter,
+R716871__paramvalue_002,4.9481,c,scale parameter,
+R716871__paramvalue_003,1.721,k,shape parameter,
+R716871__paramvalue_004,6.763,c,scale parameter,
+R716871__paramvalue_005,1.7987,k,shape parameter,
+R716871__paramvalue_006,7.0664,c,scale parameter,
+R716871__paramvalue_007,2.341,k,shape parameter,
+R716871__paramvalue_008,8.172,c,scale parameter,
+R716871__paramvalue_009,1.435,k,shape parameter,
+R716871__paramvalue_010,5.750,c,scale parameter,
+R716871__paramvalue_011,2.214,k,shape parameter,
+R716871__paramvalue_012,7.491,c,scale parameter,
+R716871__paramvalue_013,2.290,k,shape parameter,
+R716871__paramvalue_014,9.185,c,scale parameter,
+R716871__paramvalue_015,2.423,k,shape parameter,
+R716871__paramvalue_016,9.814,c,scale parameter,
+R717690__paramvalue_001,1.368,a1,shape parameter,annual wind speed distribution
+R717690__paramvalue_002,4.064,b1,scale parameter,annual wind speed distribution
+R717690__paramvalue_003,3.116,a2,shape parameter,annual wind speed distribution
+R717690__paramvalue_004,7.833,b2,scale parameter,annual wind speed distribution
+R717690__paramvalue_005,0.323,ω,mixture weight,annual wind speed distribution
+R717690__paramvalue_006,1.826,a1,shape parameter,annual wind speed distribution
+R717690__paramvalue_007,4.322,b1,scale parameter,annual wind speed distribution
+R717690__paramvalue_008,4.312,a2,shape parameter,annual wind speed distribution
+R717690__paramvalue_009,11.488,b2,scale parameter,annual wind speed distribution
+R717690__paramvalue_010,0.464,ω,mixture weight,annual wind speed distribution
+R717690__paramvalue_011,1.349,a1,shape parameter,annual wind speed distribution
+R717690__paramvalue_012,4.073,b1,scale parameter,annual wind speed distribution
+R717690__paramvalue_013,3.159,a2,shape parameter,annual wind speed distribution
+R717690__paramvalue_014,7.817,b2,scale parameter,annual wind speed distribution
+R717690__paramvalue_015,0.337,ω,mixture weight,annual wind speed distribution
+R717690__paramvalue_016,3.795,a1,shape parameter,annual wind speed distribution
+R717690__paramvalue_017,10.564,b1,scale parameter,annual wind speed distribution
+R717690__paramvalue_018,0.971,a2,shape parameter,annual wind speed distribution
+R717690__paramvalue_019,5.077,b2,scale parameter,annual wind speed distribution
+R717690__paramvalue_020,0.818,ω,mixture weight,annual wind speed distribution
+R717690__paramvalue_021,4.138,a1,shape parameter,annual wind speed distribution
+R717690__paramvalue_022,9.289,b1,scale parameter,annual wind speed distribution
+R717690__paramvalue_023,1.566,a2,shape parameter,annual wind speed distribution
+R717690__paramvalue_024,4.48,b2,scale parameter,annual wind speed distribution
+R717690__paramvalue_025,0.512,ω,mixture weight,annual wind speed distribution
+R717690__paramvalue_026,1.842,a1,shape parameter,annual wind speed distribution
+R717690__paramvalue_027,3.529,b1,scale parameter,annual wind speed distribution
+R717690__paramvalue_028,3.532,a2,shape parameter,annual wind speed distribution
+R717690__paramvalue_029,10.888,b2,scale parameter,annual wind speed distribution
+R717690__paramvalue_030,0.369,ω,mixture weight,annual wind speed distribution
+R717690__paramvalue_031,1.477,a1,shape parameter,annual wind speed distribution
+R717690__paramvalue_032,4.622,b1,scale parameter,annual wind speed distribution
+R717690__paramvalue_033,3.392,a2,shape parameter,annual wind speed distribution
+R717690__paramvalue_034,8.017,b2,scale parameter,annual wind speed distribution
+R717690__paramvalue_035,0.415,ω,mixture weight,annual wind speed distribution
+R717690__paramvalue_036,3.814,a1,shape parameter,annual wind speed distribution
+R717690__paramvalue_037,10.639,b1,scale parameter,annual wind speed distribution
+R717690__paramvalue_038,1.09,a2,shape parameter,annual wind speed distribution
+R717690__paramvalue_039,5.506,b2,scale parameter,annual wind speed distribution
+R717690__paramvalue_040,0.804,ω,mixture weight,annual wind speed distribution
+R717690__paramvalue_041,4.238,a1,shape parameter,annual wind speed distribution
+R717690__paramvalue_042,9.333,b1,scale parameter,annual wind speed distribution
+R717690__paramvalue_043,1.605,a2,shape parameter,annual wind speed distribution
+R717690__paramvalue_044,4.398,b2,scale parameter,annual wind speed distribution
+R717690__paramvalue_045,0.528,ω,mixture weight,annual wind speed distribution
+R717690__paramvalue_046,2.073,a1,shape parameter,annual wind speed distribution
+R717690__paramvalue_047,3.295,b1,scale parameter,annual wind speed distribution
+R717690__paramvalue_048,3.515,a2,shape parameter,annual wind speed distribution
+R717690__paramvalue_049,10.733,b2,scale parameter,annual wind speed distribution
+R717690__paramvalue_050,0.336,ω,mixture weight,annual wind speed distribution
+R717710__paramvalue_001,1.8233,k,shape parameter,
+R717710__paramvalue_002,3.9704,c,scale parameter,
+R717710__paramvalue_003,2.3671,k,shape parameter,
+R717710__paramvalue_004,4.5264,c,scale parameter,
+R717710__paramvalue_005,2.031,k,shape parameter,
+R717710__paramvalue_006,4.1788,c,scale parameter,
+R717710__paramvalue_007,2.5722,k,shape parameter,
+R717710__paramvalue_008,4.6173,c,scale parameter,
+R717710__paramvalue_009,0.1,α,wind shear exponent,
+R717710__paramvalue_010,0.1,α,wind shear exponent,
+R717717__paramvalue_001,1.736,k,shape parameter,Winter at 30 m
+R717717__paramvalue_002,6.723,c,scale parameter,Winter at 30 m
+R717717__paramvalue_003,1.936,k,shape parameter,Spring at 30 m
+R717717__paramvalue_004,7.460,c,scale parameter,Spring at 30 m
+R717717__paramvalue_005,1.964,k,shape parameter,Summer at 30 m
+R717717__paramvalue_006,6.208,c,scale parameter,Summer at 30 m
+R717717__paramvalue_007,1.841,k,shape parameter,Autumn at 30 m
+R717717__paramvalue_008,5.960,c,scale parameter,Autumn at 30 m
+R717717__paramvalue_009,1.695,k,shape parameter,Winter at 20 m
+R717717__paramvalue_010,6.286,c,scale parameter,Winter at 20 m
+R717717__paramvalue_011,1.962,k,shape parameter,Spring at 20 m
+R717717__paramvalue_012,6.921,c,scale parameter,Spring at 20 m
+R717717__paramvalue_013,1.963,k,shape parameter,Summer at 20 m
+R717717__paramvalue_014,5.837,c,scale parameter,Summer at 20 m
+R717717__paramvalue_015,1.807,k,shape parameter,Autumn at 20 m
+R717717__paramvalue_016,5.565,c,scale parameter,Autumn at 20 m
+R717717__paramvalue_017,1.688,k,shape parameter,Winter at 10 m
+R717717__paramvalue_018,5.600,c,scale parameter,Winter at 10 m
+R717717__paramvalue_019,1.961,k,shape parameter,Spring at 10 m
+R717717__paramvalue_020,6.074,c,scale parameter,Spring at 10 m
+R717717__paramvalue_021,1.963,k,shape parameter,Summer at 10 m
+R717717__paramvalue_022,5.246,c,scale parameter,Summer at 10 m
+R717717__paramvalue_023,1.799,k,shape parameter,Autumn at 10 m
+R717717__paramvalue_024,4.943,c,scale parameter,Autumn at 10 m
+R717721__paramvalue_001,4.2,k,shape parameter,2013-2017
+R717721__paramvalue_002,2.2,C,scale parameter,2013-2017
+R717721__paramvalue_003,6.42,k,shape parameter,2013-2017
+R717721__paramvalue_004,3.28,C,scale parameter,2013-2017
+R717721__paramvalue_005,2.79,k,shape parameter,2013-2017
+R717721__paramvalue_006,1.42,C,scale parameter,2013-2017
+R718237__paramvalue_001,3.43,k,shape parameter,2015–2018
+R718237__paramvalue_002,7.95,c,scale parameter,2015–2018
+R718237__paramvalue_003,2.812,k,shape parameter,2015–2018
+R718237__paramvalue_004,7.424,c,scale parameter,2015–2018
+R718237__paramvalue_005,2.0,k,shape parameter,2015–2018
+R718237__paramvalue_006,6.964,c,scale parameter,2015–2018
+R718237__paramvalue_007,2.33,k,shape parameter,2015–2018
+R718237__paramvalue_008,8.22,c,scale parameter,2015–2018
+R718237__paramvalue_009,3.63,k,shape parameter,2015–2018
+R718237__paramvalue_010,8.42,c,scale parameter,2015–2018
+R719349__paramvalue_003,0.143,α,surface roughness length,most sites
+R719358__paramvalue_001,1.61,k,shape parameter,annual
+R719358__paramvalue_002,4.91,c,scale parameter,annual
+R719358__paramvalue_003,2.10,k,shape parameter,annual
+R719358__paramvalue_004,4.80,c,scale parameter,annual
+R719358__paramvalue_005,1.90,k,shape parameter,annual
+R719358__paramvalue_006,3.32,c,scale parameter,annual
+R719358__paramvalue_007,2.43,k,shape parameter,annual
+R719358__paramvalue_008,5.11,c,scale parameter,annual
+R719358__paramvalue_009,1.95,k,shape parameter,annual
+R719358__paramvalue_010,3.37,c,scale parameter,annual
+R719358__paramvalue_011,1.72,k,shape parameter,annual
+R719358__paramvalue_012,6.20,c,scale parameter,annual
+R719358__paramvalue_013,2.02,k,shape parameter,annual
+R719358__paramvalue_014,4.29,c,scale parameter,annual
+R719358__paramvalue_015,1.25,ρ,air density,
+R719358__paramvalue_016,0.01,Z0,surface roughness length,
+R719358__paramvalue_017,0.23,α,wind shear exponent,
+R719366__paramvalue_001,2.5,c,scale parameter,
+R719366__paramvalue_002,1.3,k,shape parameter,
+R719366__paramvalue_003,1.8,,scale parameter,
+R719520__paramvalue_001,8,r,interest rate,
+R719520__paramvalue_002,6,i,inflation rate,
+R719520__paramvalue_003,20,n,machine life,
+R719520__paramvalue_004,7,Comr,operation and maintenance cost as a percentage of initial capital cost,
+R719520__paramvalue_005,10,S,scrap value of turbine price and civil work,
+R720066__paramvalue_001,4.914,k,shape parameter,2017-2019
+R720066__paramvalue_002,5.405,c,scale parameter,2017-2019
+R720348__paramvalue_003,0.218,α,surface roughness length,
+R720760__paramvalue_001,1.1257,k,shape parameter,
+R720760__paramvalue_002,2.8841,C,scale parameter,
+R720773__paramvalue_001,2.0,k,shape parameter,1978 to 2003
+R720773__paramvalue_002,6.4,c,scale parameter,1978 to 2003
+R720773__paramvalue_003,1.5,k,shape parameter,1978 to 2003
+R720773__paramvalue_004,5.6,c,scale parameter,1978 to 2003
+R720773__paramvalue_005,1.9,k,shape parameter,1978 to 2003
+R720773__paramvalue_006,5.1,c,scale parameter,1978 to 2003
+R722053__paramvalue_001,2.08,K,shape parameter,dry season
+R723171__paramvalue_001,4.62,k,shape parameter,2002-2012
+R723171__paramvalue_002,10.12,c,scale parameter,2002-2012
+R723171__paramvalue_003,5.37,k,shape parameter,2002-2012
+R723171__paramvalue_004,10.19,c,scale parameter,2002-2012
+R723171__paramvalue_005,3.83,k,shape parameter,2002-2012
+R723171__paramvalue_006,10.39,c,scale parameter,2002-2012
+R723171__paramvalue_007,5.34,k,shape parameter,2002-2012
+R723171__paramvalue_008,10.19,c,scale parameter,2002-2012
+R723171__paramvalue_009,5.95,k,shape parameter,2002-2012
+R723171__paramvalue_010,10.12,c,scale parameter,2002-2012
+R723171__paramvalue_011,4.12,k,shape parameter,2002-2012
+R723171__paramvalue_012,6.01,c,scale parameter,2002-2012
+R723171__paramvalue_013,4.47,k,shape parameter,2002-2012
+R723171__paramvalue_014,6.02,c,scale parameter,2002-2012
+R723171__paramvalue_015,3.57,k,shape parameter,2002-2012
+R723171__paramvalue_016,6.10,c,scale parameter,2002-2012
+R723171__paramvalue_017,4.46,k,shape parameter,2002-2012
+R723171__paramvalue_018,6.02,c,scale parameter,2002-2012
+R723171__paramvalue_019,5.05,k,shape parameter,2002-2012
+R723171__paramvalue_020,5.97,c,scale parameter,2002-2012
+R723171__paramvalue_021,5.63,k,shape parameter,2002-2012
+R723171__paramvalue_022,12.41,c,scale parameter,2002-2012
+R723171__paramvalue_023,6.57,k,shape parameter,2002-2012
+R723171__paramvalue_024,12.47,c,scale parameter,2002-2012
+R723171__paramvalue_025,4.08,k,shape parameter,2002-2012
+R723171__paramvalue_026,12.82,c,scale parameter,2002-2012
+R723171__paramvalue_027,6.52,k,shape parameter,2002-2012
+R723171__paramvalue_028,12.48,c,scale parameter,2002-2012
+R723171__paramvalue_029,6.42,k,shape parameter,2002-2012
+R723171__paramvalue_030,12.50,c,scale parameter,2002-2012
+R723171__paramvalue_031,4.76,k,shape parameter,2002-2012
+R723171__paramvalue_032,5.23,c,scale parameter,2002-2012
+R723171__paramvalue_033,5.99,k,shape parameter,2002-2012
+R723171__paramvalue_034,5.25,c,scale parameter,2002-2012
+R723171__paramvalue_035,3.94,k,shape parameter,2002-2012
+R723171__paramvalue_036,5.38,c,scale parameter,2002-2012
+R723171__paramvalue_037,5.95,k,shape parameter,2002-2012
+R723171__paramvalue_038,5.25,c,scale parameter,2002-2012
+R723171__paramvalue_039,7.01,k,shape parameter,2002-2012
+R723171__paramvalue_040,5.20,c,scale parameter,2002-2012
+R723171__paramvalue_041,3.01,k,shape parameter,2002-2012
+R723171__paramvalue_042,3.86,c,scale parameter,2002-2012
+R723171__paramvalue_043,3.04,k,shape parameter,2002-2012
+R723171__paramvalue_044,3.88,c,scale parameter,2002-2012
+R723171__paramvalue_045,2.90,k,shape parameter,2002-2012
+R723171__paramvalue_046,3.89,c,scale parameter,2002-2012
+R723171__paramvalue_047,3.04,k,shape parameter,2002-2012
+R723171__paramvalue_048,3.88,c,scale parameter,2002-2012
+R723171__paramvalue_049,3.17,k,shape parameter,2002-2012
+R723171__paramvalue_050,3.87,c,scale parameter,2002-2012
+R723171__paramvalue_051,0.143,α,surface roughness length,
+R723318__paramvalue_001,0.3,N,wind shear exponent,Adopted for Yola Airport as the reported value for small towns with trees and shrubs.
+R723318__paramvalue_002,20,C_p,power coefficient,
+R723373__paramvalue_001,6.89,k,shape parameter,2000-2010 at 10 m
+R723373__paramvalue_002,11.38,c,scale parameter,2000-2010 at 10 m
+R723373__paramvalue_003,1.92,k,shape parameter,2000-2010 at 10 m
+R723373__paramvalue_004,6.17,c,scale parameter,2000-2010 at 10 m
+R723373__paramvalue_005,3.35,k,shape parameter,2000-2010 at 10 m
+R723373__paramvalue_006,14.93,c,scale parameter,2000-2010 at 10 m
+R723373__paramvalue_007,3.49,k,shape parameter,2000-2010 at 10 m
+R723373__paramvalue_008,12.31,c,scale parameter,2000-2010 at 10 m
+R724404__paramvalue_001,2.972,a,,
+R724404__paramvalue_002,0.745,l,,
+R724404__paramvalue_003,2.562,a,,
+R724404__paramvalue_004,0.595,l,,
+R724404__paramvalue_005,8.823,a,,
+R724404__paramvalue_006,0.873,l,,
+R724404__paramvalue_007,3.784,a,,
+R724404__paramvalue_008,0.445,l,,
+R724404__paramvalue_009,4.992,a,,
+R724404__paramvalue_010,0.454,l,,
+R724404__paramvalue_011,3.030,a,,
+R724404__paramvalue_012,0.701,l,,
+R724404__paramvalue_013,6.025,a,,
+R724404__paramvalue_014,0.716,l,,
+R724404__paramvalue_015,8.466,a,,
+R724404__paramvalue_016,0.827,l,,
+R724404__paramvalue_017,6.488,a,,
+R724404__paramvalue_018,0.634,l,,
+R724404__paramvalue_019,4.847,a,,
+R724404__paramvalue_020,0.812,l,,
+R724501__paramvalue_001,2.158,a,shape parameter,1997–2002
+R724501__paramvalue_002,2.150,a_u,shape parameter,1997–2002
+R724501__paramvalue_003,8.631,b,scale parameter,1997–2002
+R724501__paramvalue_004,1.986,a,shape parameter,1997–2002
+R724501__paramvalue_005,1.986,a_u,shape parameter,1997–2002
+R724501__paramvalue_006,8.627,b,scale parameter,1997–2002
+R724501__paramvalue_007,1.986,a,shape parameter,1997–2002
+R724501__paramvalue_008,1.986,a_u,shape parameter,1997–2002
+R724501__paramvalue_009,8.627,b,scale parameter,1997–2002
+R725875__paramvalue_001,5.373,c,scale parameter,2017
+R725875__paramvalue_002,4.560,k,shape parameter,2017
+R725875__paramvalue_003,4.356,c,scale parameter,2017
+R725875__paramvalue_004,21.618,k,shape parameter,2017
+R725875__paramvalue_005,0.202,c,scale parameter,2017
+R725875__paramvalue_006,5.347,c,scale parameter,2018
+R725875__paramvalue_007,4.916,k,shape parameter,2018
+R725875__paramvalue_008,3.556,c,scale parameter,2018
+R725875__paramvalue_009,17.448,k,shape parameter,2018
+R725875__paramvalue_010,0.204,c,scale parameter,2018
+R725875__paramvalue_011,5.496,c,scale parameter,2019
+R725875__paramvalue_012,5.266,k,shape parameter,2019
+R725875__paramvalue_013,3.902,c,scale parameter,2019
+R725875__paramvalue_014,19.752,k,shape parameter,2019
+R725875__paramvalue_015,0.198,c,scale parameter,2019
+R726086__paramvalue_001,1.3893,a,shape parameter,Entire period 2005–2021
+R726086__paramvalue_002,3.5133,b,scale parameter,Entire period 2005–2021
+R726086__paramvalue_003,1.3263,a,shape parameter,Entire period 2005–2021
+R726086__paramvalue_004,3.3802,b,scale parameter,Entire period 2005–2021
+R726086__paramvalue_005,0.0894,c,location parameter,Entire period 2005–2021
+R726086__paramvalue_006,0.8726,a,shape parameter,Entire period 2005–2021
+R726086__paramvalue_007,1.6847,b,scale parameter,Entire period 2005–2021
+R726086__paramvalue_008,2.5451,γ,shape parameter,Entire period 2005–2021
+R727428__paramvalue_001,2.0082,d,,
+R727428__paramvalue_002,6.1962,z,,
+R727428__paramvalue_003,2.7542,d,,
+R727428__paramvalue_004,4.8264,z,,
+R727428__paramvalue_005,1.6282,d,,
+R727428__paramvalue_006,8.4088,z,,
+R727428__paramvalue_007,0.9,Z0,surface roughness length,
+R727440__paramvalue_001,1.7199,k,shape parameter,
+R727440__paramvalue_002,3.3941,c,scale parameter,
+R727440__paramvalue_003,2.5955,a,shape parameter,
+R727440__paramvalue_004,1.2426,b,scale parameter,
+R727440__paramvalue_005,3.6726,l,scale parameter,
+R727440__paramvalue_006,6.8717,k,shape parameter,
+R727440__paramvalue_011,2.099,a1,shape parameter,
+R727440__paramvalue_012,2.45,b1,scale parameter,
+R727440__paramvalue_013,2.75,a2,shape parameter,
+R727440__paramvalue_014,1.12,b2,scale parameter,
+R727440__paramvalue_015,3.7,l1,scale parameter,
+R727440__paramvalue_016,10,k1,shape parameter,
+R727440__paramvalue_017,1,l2,scale parameter,
+R727440__paramvalue_018,9.97,k2,shape parameter,
+R727440__paramvalue_019,2.15,k1,shape parameter,
+R727440__paramvalue_020,2.77,c1,scale parameter,
+R727440__paramvalue_021,2.3,a2,shape parameter,
+R727440__paramvalue_022,1.6,b2,scale parameter,
+R727440__paramvalue_023,5.36,k1,shape parameter,
+R727440__paramvalue_024,3.36,c1,scale parameter,
+R727440__paramvalue_025,3.756,l2,scale parameter,
+R727440__paramvalue_026,6.033,k2,shape parameter,
+R727440__paramvalue_027,2.652,a1,shape parameter,
+R727440__paramvalue_028,1.179,b1,scale parameter,
+R727440__paramvalue_029,4.456,l2,scale parameter,
+R727440__paramvalue_030,7.18,k2,shape parameter,
+R727542__paramvalue_002,2,k,shape parameter,
+R727542__paramvalue_003,19.41,L_Total,loss factor,
+R727542__paramvalue_004,12.6,L_w,loss factor,
+R727542__paramvalue_005,3,L_e,loss factor,
+R727542__paramvalue_006,2,L_o,loss factor,
+R727542__paramvalue_007,97,L_a,o&m/availability factor,
+R727583__paramvalue_001,1.5933,α,shape parameter,
+R727583__paramvalue_002,0.3816,σ,scale parameter,
+R727583__paramvalue_003,16.0630,α,shape parameter,
+R727583__paramvalue_004,3.1791,β,shape parameter,
+R727583__paramvalue_005,0.0781,σ,scale parameter,
+R727583__paramvalue_006,1.2668,α,shape parameter,
+R727583__paramvalue_007,0.7100,σ,scale parameter,
+R727583__paramvalue_008,6.0752,α,shape parameter,
+R727583__paramvalue_009,2.2799,β,shape parameter,
+R727583__paramvalue_010,0.2687,σ,scale parameter,
+R727583__paramvalue_011,1.4177,α,shape parameter,
+R727583__paramvalue_012,0.5645,σ,scale parameter,
+R727583__paramvalue_013,5.9003,α,shape parameter,
+R727583__paramvalue_014,5.0989,β,shape parameter,
+R727583__paramvalue_015,0.3737,σ,scale parameter,
+R727583__paramvalue_016,2.0419,α,shape parameter,
+R727583__paramvalue_017,0.2902,σ,scale parameter,
+R727583__paramvalue_018,44.5000,α,shape parameter,
+R727583__paramvalue_019,6.1000,β,shape parameter,
+R727583__paramvalue_020,0.0356,σ,scale parameter,
+R727583__paramvalue_021,1.7278,α,shape parameter,
+R727583__paramvalue_022,0.3511,σ,scale parameter,
+R727583__paramvalue_023,13.1781,α,shape parameter,
+R727583__paramvalue_024,4.6416,β,shape parameter,
+R727583__paramvalue_025,0.1160,σ,scale parameter,
+R727583__paramvalue_026,1.6883,α,shape parameter,
+R727583__paramvalue_027,0.3155,σ,scale parameter,
+R727583__paramvalue_028,10.7004,α,shape parameter,
+R727583__paramvalue_029,5.0991,β,shape parameter,
+R727583__paramvalue_030,0.1438,σ,scale parameter,
+R727587__paramvalue_001,2.386,k,shape parameter,one-year study period; wind speed at 10 m
+R727587__paramvalue_002,6.490,c,scale parameter,one-year study period; wind speed at 10 m
+R727587__paramvalue_003,2.546,σ,standard deviation,one-year study period; wind speed at 10 m
+R727587__paramvalue_004,5.736,µ,mean,one-year study period; wind speed at 10 m
+R727587__paramvalue_005,1.723,kG,shape parameter,one-year study period; wind speed at 10 m
+R727587__paramvalue_006,4.462,µG,scale parameter,one-year study period; wind speed at 10 m
+R727587__paramvalue_007,0.151,σG,location parameter,one-year study period; reported not to vary with height
+R727592__paramvalue_001,3.25,k,shape parameter,"January, average across 2017–2019"
+R727592__paramvalue_002,6.81,c,scale parameter,"January, average across 2017–2019"
+R727592__paramvalue_003,3.02,k,shape parameter,"February, average across 2017–2019"
+R727592__paramvalue_004,6.42,c,scale parameter,"February, average across 2017–2019"
+R727592__paramvalue_005,2.76,k,shape parameter,"March, average across 2017–2019"
+R727592__paramvalue_006,5.75,c,scale parameter,"March, average across 2017–2019"
+R727592__paramvalue_007,2.85,k,shape parameter,"April, average across 2017–2019"
+R727592__paramvalue_008,5.85,c,scale parameter,"April, average across 2017–2019"
+R727592__paramvalue_009,2.96,k,shape parameter,"May, average across 2017–2019"
+R727592__paramvalue_010,5.66,c,scale parameter,"May, average across 2017–2019"
+R727592__paramvalue_011,2.82,k,shape parameter,"June, average across 2017–2019"
+R727592__paramvalue_012,6.18,c,scale parameter,"June, average across 2017–2019"
+R727592__paramvalue_013,2.61,k,shape parameter,"July, average across 2017–2019"
+R727592__paramvalue_014,5.69,c,scale parameter,"July, average across 2017–2019"
+R727592__paramvalue_015,2.62,k,shape parameter,"August, average across 2017–2019"
+R727592__paramvalue_016,5.67,c,scale parameter,"August, average across 2017–2019"
+R727592__paramvalue_017,2.72,k,shape parameter,"September, average across 2017–2019"
+R727592__paramvalue_018,5.64,c,scale parameter,"September, average across 2017–2019"
+R727592__paramvalue_019,2.49,k,shape parameter,"October, average across 2017–2019"
+R727592__paramvalue_020,5.72,c,scale parameter,"October, average across 2017–2019"
+R727592__paramvalue_021,2.62,k,shape parameter,"November, average across 2017–2019"
+R727592__paramvalue_022,5.23,c,scale parameter,"November, average across 2017–2019"
+R727592__paramvalue_023,2.65,k,shape parameter,"December, average across 2017–2019"
+R727592__paramvalue_024,6.11,c,scale parameter,"December, average across 2017–2019"
+R727592__paramvalue_025,2.21,k,shape parameter,"January, average across 2017–2019"
+R727592__paramvalue_026,3.63,c,scale parameter,"January, average across 2017–2019"
+R727592__paramvalue_027,1.91,k,shape parameter,"February, average across 2017–2019"
+R727592__paramvalue_028,5.46,c,scale parameter,"February, average across 2017–2019"
+R727592__paramvalue_029,1.71,k,shape parameter,"March, average across 2017–2019"
+R727592__paramvalue_030,4.53,c,scale parameter,"March, average across 2017–2019"
+R727592__paramvalue_031,2.08,k,shape parameter,"April, average across 2017–2019"
+R727592__paramvalue_032,4.24,c,scale parameter,"April, average across 2017–2019"
+R727592__paramvalue_033,1.89,k,shape parameter,"May, average across 2017–2019"
+R727592__paramvalue_034,4.71,c,scale parameter,"May, average across 2017–2019"
+R727592__paramvalue_035,1.86,k,shape parameter,"June, average across 2017–2019"
+R727592__paramvalue_036,4.82,c,scale parameter,"June, average across 2017–2019"
+R727592__paramvalue_037,1.94,k,shape parameter,"July, average across 2017–2019"
+R727592__paramvalue_038,3.95,c,scale parameter,"July, average across 2017–2019"
+R727592__paramvalue_039,1.72,k,shape parameter,"August, average across 2017–2019"
+R727592__paramvalue_040,4.62,c,scale parameter,"August, average across 2017–2019"
+R727592__paramvalue_041,1.89,k,shape parameter,"September, average across 2017–2019"
+R727592__paramvalue_042,4.47,c,scale parameter,"September, average across 2017–2019"
+R727592__paramvalue_043,2.34,k,shape parameter,"October, average across 2017–2019"
+R727592__paramvalue_044,4.06,c,scale parameter,"October, average across 2017–2019"
+R727592__paramvalue_045,1.68,k,shape parameter,"November, average across 2017–2019"
+R727592__paramvalue_046,3.79,c,scale parameter,"November, average across 2017–2019"
+R727592__paramvalue_047,1.91,k,shape parameter,"December, average across 2017–2019"
+R727592__paramvalue_048,4.29,c,scale parameter,"December, average across 2017–2019"
+R727661__paramvalue_001,4.2,C,scale parameter,
+R727661__paramvalue_002,1.44,k,shape parameter,
+R727661__paramvalue_003,1.69,C,scale parameter,
+R727661__paramvalue_004,6.2,k,shape parameter,
+R727673__paramvalue_001,6.9,C,scale parameter,Annual
+R727673__paramvalue_002,2.16,k,shape parameter,Annual
+R727673__paramvalue_003,6.7,C,scale parameter,Autumn
+R727673__paramvalue_004,7.1,C,scale parameter,Winter
+R727673__paramvalue_005,7.4,C,scale parameter,Spring
+R727673__paramvalue_006,6.9,C,scale parameter,Summer
+R727673__paramvalue_007,2.18,k,shape parameter,Autumn
+R727673__paramvalue_008,2.22,k,shape parameter,Winter
+R727673__paramvalue_009,2.22,k,shape parameter,Spring
+R727673__paramvalue_010,2.16,k,shape parameter,Summer
+R727676__paramvalue_001,1.89,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_002,5.86,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_003,1.25,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_004,2.47,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_005,1.74,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_006,4.94,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_007,1.92,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_008,6.09,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_009,1.74,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_010,4.94,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_011,1.61,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_012,4.24,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_013,1.78,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_014,5.17,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_015,1.46,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_016,3.42,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_017,1.25,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_018,2.47,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_019,1.70,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_020,4.71,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_021,1.25,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_022,2.47,c,scale parameter,whole year (2010–2014)
+R727676__paramvalue_023,1.38,k,shape parameter,whole year (2010–2014)
+R727676__paramvalue_024,3.07,c,scale parameter,whole year (2010–2014)
+R727714__paramvalue_001,4.201,k,shape parameter,whole year
+R727714__paramvalue_002,4.951,c,scale parameter,whole year
+R727714__paramvalue_003,4.396,k,shape parameter,whole year
+R727714__paramvalue_004,5.234,c,scale parameter,whole year
+R727714__paramvalue_005,3.240,k,shape parameter,whole year
+R727714__paramvalue_006,4.151,c,scale parameter,whole year
+R727714__paramvalue_007,4.926,k,shape parameter,whole year
+R727714__paramvalue_008,5.821,c,scale parameter,whole year
+R727799__paramvalue_001,6.3,C,scale parameter,5 years
+R727799__paramvalue_002,2.12,k,shape parameter,5 years
+R727799__paramvalue_003,6,C,scale parameter,5 years
+R727799__paramvalue_004,2.48,k,shape parameter,5 years
+R727799__paramvalue_005,4.6,C,scale parameter,5 years
+R727799__paramvalue_006,2.00,k,shape parameter,5 years
+R727799__paramvalue_007,5.1,C,scale parameter,5 years
+R727799__paramvalue_008,2.00,k,shape parameter,5 years
+R728960__paramvalue_001,10,M,number of mixture components,
+R728960__paramvalue_002,10,M,number of mixture components,
+R728960__paramvalue_003,100,miter,maximum number of iterations,
+R728960__paramvalue_004,100,miter,maximum number of iterations,
+R732443__paramvalue_001,1.56,k,shape parameter,yearly
+R732443__paramvalue_002,3.91,c,scale parameter,yearly
+R732443__paramvalue_003,0.90,k,shape parameter,yearly
+R732443__paramvalue_004,1.13,c,scale parameter,yearly
+R732443__paramvalue_005,1.00,k,shape parameter,yearly
+R732443__paramvalue_006,1.34,c,scale parameter,yearly
+R732443__paramvalue_007,1.02,k,shape parameter,yearly
+R732443__paramvalue_008,1.52,c,scale parameter,yearly
+R732443__paramvalue_009,0.85,k,shape parameter,yearly
+R732443__paramvalue_010,0.96,c,scale parameter,yearly
+R732443__paramvalue_011,1.24,k,shape parameter,yearly
+R732443__paramvalue_012,2.40,c,scale parameter,yearly
+R732443__paramvalue_013,1.41,k,shape parameter,yearly
+R732443__paramvalue_014,3.19,c,scale parameter,yearly
+R732443__paramvalue_015,1.22,k,shape parameter,yearly
+R732443__paramvalue_016,2.32,c,scale parameter,yearly
+R732443__paramvalue_017,1.45,k,shape parameter,yearly
+R732443__paramvalue_018,3.36,c,scale parameter,yearly
+R732443__paramvalue_019,1.29,k,shape parameter,yearly
+R732443__paramvalue_020,2.62,c,scale parameter,yearly
+R732443__paramvalue_021,1.53,k,shape parameter,yearly
+R732443__paramvalue_022,3.79,c,scale parameter,yearly
+R732443__paramvalue_023,1.48,k,shape parameter,yearly
+R732443__paramvalue_024,3.51,c,scale parameter,yearly
+R732443__paramvalue_025,1.11,k,shape parameter,yearly
+R732443__paramvalue_026,1.86,c,scale parameter,yearly
+R1378024__application_002__hyperparam_01,0.143,E,E,
+R1378024__application_003__hyperparam_01,50,n_estimators,n estimators,
+R1378024__application_003__hyperparam_02,50,max_depth,max depth,
+R1378024__application_004__hyperparam_01,50,n_estimators,n estimators,
+R1378024__application_004__hyperparam_02,8,max_depth,max depth,
+R1378024__application_005__hyperparam_01,50,n_estimators,n estimators,
+R1378024__application_005__hyperparam_02,50,max_depth,max depth,
+R1378024__application_006__hyperparam_01,50,n_estimators,n estimators,
+R1378024__application_006__hyperparam_02,50,max_depth,max depth,
+R1378024__application_007__hyperparam_01,50,n_estimators,n estimators,
+R1378024__application_007__hyperparam_02,50,max_depth,max depth,
+R1378028__application_001__hyperparam_01,5,hiddenUnits,hiddenUnits,
+R1378028__application_001__hyperparam_02,200,LMMaximumIterations,LMMaximumIterations,
+R1378028__application_001__hyperparam_03,10,PSOParticles,PSOParticles,
+R1378028__application_001__hyperparam_04,10,PSOIterations,PSOIterations,
+R1378028__application_001__hyperparam_05,1.49,c1,c1,
+R1378028__application_001__hyperparam_06,1.49,c2,c2,
+R1378028__application_001__hyperparam_07,70,trainingSplit,trainingSplit,
+R1378028__application_001__hyperparam_08,10,validationSplit,validationSplit,
+R1378028__application_001__hyperparam_09,20,testingSplit,testingSplit,
+R1378028__application_002__hyperparam_01,200,LMMaximumIterations,LMMaximumIterations,
+R1378028__application_003__hyperparam_01,20,hiddenUnits,hiddenUnits,
+R1378028__application_003__hyperparam_02,1200,maximumIterations,maximumIterations,
+R1378028__application_003__hyperparam_03,1.05,learningRateIncreaseFactor,learningRateIncreaseFactor,
+R1378028__application_003__hyperparam_04,0.7,learningRateDropFactor,learningRateDropFactor,
+R1378028__application_003__hyperparam_05,1.04,performanceFactor,performanceFactor,
+R689605__application_006__hyperparam_01,2,numberOfVariables,numberOfVariables,
+R689605__application_006__hyperparam_02,1,lowerBound,lowerBound,
+R689605__application_006__hyperparam_03,10,upperBound,upperBound,
+R689605__application_006__hyperparam_04,50,populationSize,populationSize,
+R689605__application_006__hyperparam_05,200,maximumNumberOfIterations,maximumNumberOfIterations,
+R689605__application_006__hyperparam_06,1,stoppingThreshold,stoppingThreshold,
+R689605__application_006__hyperparam_07,0.1,crossoverRate,crossoverRate,
+R689605__application_006__hyperparam_08,0.01,mutationRate,mutationRate,
+R703058__application_001__hyperparam_01,1,α,α,
+R707542__application_001__hyperparam_01,4,Initial M,Initial M,
+R707542__application_001__hyperparam_02,1,convergence threshold ε,convergence threshold ε,
+R707542__application_008__hyperparam_01,0.15,Power law exponent φ,Power law exponent φ,
+R707558__application_014__hyperparam_01,1,with b2,with b2,
+R707558__application_014__hyperparam_02,1,a2,a2,
+R707558__application_014__hyperparam_03,0.5,and x,and x,
+R709096__application_001__hyperparam_01,4,M,M,
+R709096__application_001__hyperparam_02,2,G,G,
+R709096__application_002__hyperparam_01,4,M,M,
+R709096__application_002__hyperparam_02,2,G,G,
+R709096__application_003__hyperparam_01,4,M,M,
+R709096__application_003__hyperparam_02,2,G,G,
+R709096__application_004__hyperparam_01,4,M,M,
+R709096__application_004__hyperparam_02,2,G,G,
+R712633__application_001__hyperparam_01,0.14,power exponent α,power exponent α,
+R720760__application_001__hyperparam_01,2,Initial assumption k,Initial assumption k,
+R1557933__application_001__hyperparam_01,0.22,a,a,
+R1557933__application_001__hyperparam_02,0.43,b,b,
+R1557933__application_002__hyperparam_01,0.311,a,a,
+R1557933__application_002__hyperparam_02,-0.293,b,b,
+R1567953__application_001__hyperparam_01,1.2,omega,omega,
+R1567953__application_001__hyperparam_02,0,epsilon,epsilon,
+R1594719__application_001__hyperparam_01,3,moderate,moderate,
+R1594719__application_001__hyperparam_02,9,strong,strong,
+R1594719__application_002__hyperparam_01,0.2350,Impact,Impact,
+R1594719__application_002__hyperparam_02,0.1818,cost,cost,
+R1594719__application_002__hyperparam_03,0.1520,capability,capability,
+R1594719__application_002__hyperparam_04,0.1213,complexity,complexity,
+R1594719__application_002__hyperparam_05,0.1160,duration,duration,
+R1594719__application_002__hyperparam_06,0.1034,acceptability,acceptability,
+R1594719__application_002__hyperparam_07,0.0906,risk,risk,
+R1567682__application_002__hyperparam_01,10,Kp,Kp,
+R1567682__application_002__hyperparam_02,10,Ki,Ki,
+R1567682__application_002__hyperparam_03,0,Kd,Kd,
+R1567813__application_005__hyperparam_01,0.9,e,e,
+R1567813__application_005__hyperparam_02,1000,ρ,ρ,
+R1567813__application_005__hyperparam_03,9.81,g,g,
+R1567813__application_006__hyperparam_01,0.9,e,e,
+R1567813__application_006__hyperparam_02,1000,ρ,ρ,
+R1567813__application_006__hyperparam_03,9.81,g,g,
+R1567813__application_007__hyperparam_01,0.9,e,e,
+R1567813__application_007__hyperparam_02,1000,ρ,ρ,
+R1567813__application_007__hyperparam_03,9.81,g,g,
+R1567813__application_008__hyperparam_01,0.9,e,e,
+R1567813__application_008__hyperparam_02,1000,ρ,ρ,
+R1567813__application_008__hyperparam_03,9.81,g,g,
+R1568565__application_001__hyperparam_01,50,Hg,Hg,
+R1568565__application_001__hyperparam_02,5,conduit head loss,conduit head loss,
+R1568565__application_001__hyperparam_03,1,maximum tailwater level,maximum tailwater level,
+R1568565__application_002__hyperparam_01,1000,ρ,ρ,
+R1568565__application_002__hyperparam_02,9.8,g,g,
+R1568565__application_002__hyperparam_03,98,generator efficiency,generator efficiency,
+R1568565__application_002__hyperparam_04,1,transformer loss,transformer loss,
+R1568565__application_002__hyperparam_05,1,parasitic loss,parasitic loss,
+R1568565__application_002__hyperparam_06,98,plant availability,plant availability,
+R1568565__application_003__hyperparam_01,1000,ρ,ρ,
+R1568565__application_003__hyperparam_02,9.8,g,g,
+R1568565__application_003__hyperparam_03,98,generator efficiency,generator efficiency,
+R1568565__application_003__hyperparam_04,1,transformer loss,transformer loss,
+R1568565__application_003__hyperparam_05,1,parasitic loss,parasitic loss,
+R1568565__application_003__hyperparam_06,98,plant availability,plant availability,
+R1568565__application_004__hyperparam_01,98,plant availability,plant availability,
+R1568609__application_005__hyperparam_01,1000,rho,rho,
+R1568609__application_005__hyperparam_02,9.81,g,g,
+R1568609__application_005__hyperparam_03,90,eta,eta,
+R1568609__application_006__hyperparam_01,1000,rho,rho,
+R1568609__application_006__hyperparam_02,9.81,g,g,
+R1568609__application_006__hyperparam_03,90,eta,eta,
+R1568609__application_007__hyperparam_01,1000,rho,rho,
+R1568609__application_007__hyperparam_02,9.81,g,g,
+R1568609__application_007__hyperparam_03,90,eta,eta,
+R1568768__application_004__hyperparam_01,1000,rho,rho,
+R1568768__application_004__hyperparam_02,9.81,g,g,
+R1568768__application_004__hyperparam_03,80,eta,eta,
+R1568768__application_004__hyperparam_04,60000,volume,volume,
+R1568785__application_001__hyperparam_01,0.1,K,K,
+R1568785__application_001__hyperparam_02,4,k,k,
+R1568785__application_001__hyperparam_03,270,Wmax,Wmax,
+R1568785__application_001__hyperparam_04,20,vegetation cover,vegetation cover,
+R1568785__application_002__hyperparam_01,0.2,K,K,
+R1568785__application_002__hyperparam_02,0.1,k,k,
+R1568785__application_002__hyperparam_03,270,Wmax,Wmax,
+R1568785__application_002__hyperparam_04,20,vegetation cover,vegetation cover,
+R1568790__application_006__hyperparam_01,25.4,h,h,
+R1568790__application_006__hyperparam_02,1,eta,eta,
+R1568790__application_006__hyperparam_03,28.3,Q50,Q50,
+R1568790__application_006__hyperparam_04,19.49,Q75,Q75,
+R1568790__application_006__hyperparam_05,4.905,Q90,Q90,
+R1568790__application_007__hyperparam_01,1,eta,eta,
+R1568806__application_007__hyperparam_01,15,gross head,gross head,
+R1568806__application_008__hyperparam_01,25,gross head,gross head,
+R1568806__application_009__hyperparam_01,20,gross head,gross head,
+R1568828__application_004__hyperparam_01,9.81,g,g,
+R1568828__application_004__hyperparam_02,1000,water density,water density,
+R1568828__application_004__hyperparam_03,90,Q,Q,
+R1568843__application_003__hyperparam_01,80,ηt,ηt,
+R1568843__application_003__hyperparam_02,20,Hnet,Hnet,
+R1568843__application_003__hyperparam_03,1000,ρ,ρ,
+R1569160__application_001__hyperparam_01,2.6,Z,Z,
+R1569361__application_003__hyperparam_01,1000,ρ,ρ,
+R1569361__application_003__hyperparam_02,9.81,g,g,
+R1569361__application_003__hyperparam_03,90,η,η,
+R1569504__application_003__hyperparam_01,21.34,Q90,Q90,
+R1569504__application_003__hyperparam_02,15,H,H,
+R1569504__application_003__hyperparam_03,0.75,eta,eta,
+R1569504__application_004__hyperparam_01,14.20,Q90,Q90,
+R1569504__application_004__hyperparam_02,12,H,H,
+R1569504__application_004__hyperparam_03,0.75,eta,eta,
+R1569504__application_005__hyperparam_01,1.23,Q90,Q90,
+R1569504__application_005__hyperparam_02,15,H,H,
+R1569504__application_005__hyperparam_03,0.75,eta,eta,
+R1569504__application_006__hyperparam_01,6.9,Q90,Q90,
+R1569504__application_006__hyperparam_02,15,H,H,
+R1569504__application_006__hyperparam_03,0.75,eta,eta,
+R1569504__application_007__hyperparam_01,4.15,Q90,Q90,
+R1569504__application_007__hyperparam_02,15,H,H,
+R1569504__application_007__hyperparam_03,0.75,eta,eta,
+R1569504__application_008__hyperparam_01,3.6,Q90,Q90,
+R1569504__application_008__hyperparam_02,10,H,H,
+R1569504__application_008__hyperparam_03,0.75,eta,eta,
+R1569504__application_009__hyperparam_01,14.20,Q90,Q90,
+R1569504__application_009__hyperparam_02,15,H,H,
+R1569504__application_009__hyperparam_03,0.75,eta,eta,
+R1569504__application_010__hyperparam_01,7.12,Q90,Q90,
+R1569504__application_010__hyperparam_02,13,H,H,
+R1569504__application_010__hyperparam_03,0.75,eta,eta,
+R1569504__application_011__hyperparam_01,1.6,Q90,Q90,
+R1569504__application_011__hyperparam_02,10,H,H,
+R1569504__application_011__hyperparam_03,0.75,eta,eta,
+R1581270__application_001__hyperparam_01,1,n_input,n input,
+R1581270__application_001__hyperparam_02,64,n_nodes,n nodes,
+R1581270__application_001__hyperparam_03,25,n_epochs,n epochs,
+R1581270__application_001__hyperparam_04,1,n_batch,n batch,
+R1581270__application_002__hyperparam_01,5,n_input,n input,
+R1581270__application_002__hyperparam_02,84,n_nodes,n nodes,
+R1581270__application_002__hyperparam_03,100,n_epochs,n epochs,
+R1581270__application_002__hyperparam_04,16,n_batch,n batch,
+R1581274__application_001__hyperparam_01,0.10,learning rate,learning rate,
+R1581274__application_002__hyperparam_01,0.15,learning rate,learning rate,
+R1581274__application_003__hyperparam_01,0.15,learning rate,learning rate,
+R1581530__application_001__hyperparam_01,0.95,normalization alpha,normalization alpha,
+R1581530__application_001__hyperparam_02,0.05,beta,beta,
+R1581530__application_002__hyperparam_01,0.95,normalization alpha,normalization alpha,
+R1581530__application_002__hyperparam_02,0.05,beta,beta,
+R1581530__application_003__hyperparam_01,0.95,normalization alpha,normalization alpha,
+R1581530__application_003__hyperparam_02,0.05,beta,beta,
+R1581530__application_008__hyperparam_01,0.95,normalization alpha,normalization alpha,
+R1581530__application_008__hyperparam_02,0.05,beta,beta,
+R1581530__application_009__hyperparam_01,0.95,normalization alpha,normalization alpha,
+R1581530__application_009__hyperparam_02,0.05,beta,beta,
+R1581530__application_010__hyperparam_01,0.95,normalization alpha,normalization alpha,
+R1581530__application_010__hyperparam_02,0.05,beta,beta,
+R1582665__application_001__hyperparam_01,0.56,Alpha_Bf,Alpha Bf,
+R1582665__application_001__hyperparam_02,2,Gwqmn,Gwqmn,
+R1582665__application_001__hyperparam_03,1,Revapmn,Revapmn,
+R1582665__application_001__hyperparam_04,0.8,Esco,Esco,
+R1582665__application_001__hyperparam_05,0.25,Sol_Awc,Sol Awc,
+R1582665__application_001__hyperparam_06,0.1,Ch_N2,Ch N2,
+R1582665__application_009__hyperparam_01,1000,ρ,ρ,
+R1582665__application_009__hyperparam_02,9.81,g,g,
+R1582665__application_009__hyperparam_03,20,minimum head,minimum head,
+R1582665__application_009__hyperparam_04,500,minimum site spacing,minimum site spacing,
+R1582754__application_001__hyperparam_01,0.35,PLF,PLF,

@@ -1,0 +1,266 @@
+energy_system_id,energySystemName,energySystemDescription,energySystemConfiguration,energySystemInstalledCapacity
+R703000__energysystem_001,Evaluated wind-turbine systems at Moalleman,"AWE54-900, AWE52-900, AWE52-750, Vestas V39, and Nordtank-300 turbines were evaluated for annual energy capture.",,
+R703003__energysystem_001,Bergey XL.1 wind turbine,A 1.0 kW small wind-turbine model considered in the Zahedan performance and economic assessments.,,
+R703003__energysystem_002,Proven 2.5 wind turbine,A 2.5 kW small wind-turbine model that was the most economical model among the four assessed turbines.,,
+R703003__energysystem_003,Southwest Whisper 500 wind turbine,A 3.0 kW small wind-turbine model considered in the Zahedan performance and economic assessments.,,
+R703003__energysystem_004,Bergey Excel-R wind turbine,A 7.5 kW small wind-turbine model that produced the highest annual electricity output among the assessed turbine models.,,
+R703009__energysystem_001,Simulated electricity-generation wind turbine system at Enugu,Selected commercial wind-turbine models simulated at Enugu.,,
+R703009__energysystem_002,Simulated electricity-generation wind turbine system at Owerri,Selected commercial wind-turbine models simulated at Owerri.,,
+R703009__energysystem_003,Simulated electricity-generation wind turbine system at Onitsha,Selected commercial wind-turbine models simulated at Onitsha.,,
+R703009__energysystem_004,Simulated rotodynamic wind-powered pumping system at Enugu,A wind turbine with rated power of about 0.36 kW driving a rotodynamic pump.,,
+R703009__energysystem_005,Simulated rotodynamic wind-powered pumping system at Owerri,A wind turbine with rated power of about 0.36 kW driving a rotodynamic pump.,,
+R703009__energysystem_006,Simulated rotodynamic wind-powered pumping system at Onitsha,A wind turbine with rated power of about 0.36 kW driving a rotodynamic pump.,,
+R703026__energysystem_001,3 MW wind turbine case at Kwangyang Bay,Wind-turbine case used for conventional and uncertainty-based annual energy production assessment at Kwangyang Bay.,,3
+R703029__energysystem_001,Vergnet GEV HP1MW wind turbine,Commercial wind machine model selected for performance and cost analysis.,,1000
+R703029__energysystem_002,Suzlon S82/1.5MW wind turbine,Commercial wind machine model selected for performance and cost analysis.,,1500
+R703029__energysystem_003,Vestas V90/2MW wind turbine,Commercial wind machine model selected for performance and cost analysis.,,2000
+R703029__energysystem_004,Fuhrlander FL 2500/90 wind turbine,Commercial wind machine model selected for performance and cost analysis.,,2500
+R703032__energysystem_001,Polaris P10-20 wind turbine system,,,20
+R703032__energysystem_002,Polaris P15-50 wind turbine system,,,50
+R703032__energysystem_003,Polaris P17-50 wind turbine system,,,50
+R703032__energysystem_004,Polaris P19-100 wind turbine system,,,100
+R703032__energysystem_005,Polaris P50-500 wind turbine system,,,500
+R703035__energysystem_001,ENERCON E-33 330 kW wind turbine,,,
+R703035__energysystem_002,ENERCON E-53 800 kW wind turbine,,,
+R703035__energysystem_003,LEITWIND LTW80 1000 kW wind turbine,,,
+R703035__energysystem_004,LEITWIND LTW80 1500 kW wind turbine,,,
+R703046__energysystem_001,Honeywell BTPS6500 wind turbine system,"A low-cost, low-cut-in-wind-speed turbine system idealized for electricity generation from wind power at the three study sites.",,1500
+R703055__energysystem_001,Nordex N100/2500 wind turbine system,,,
+R703058__energysystem_001,Grid-network-connected wind turbine-generator system,"A wind turbine-generator system connected to the grid network, discussed as a potential proposal for Penang Island.",grid-connected,
+R703058__energysystem_002,Small-scale wind turbine system,A small-scale wind turbine generation application discussed as more suitable for Penang Island.,,
+R703061__energysystem_001,Proposed wind farm WF1,The initially proposed wind-farm scenario assessed with curtailment-based use of otherwise curtailed energy for agricultural irrigation pumping.,,9.9
+R703064__energysystem_001,V52-850 kW,,,850
+R703064__energysystem_002,V82-1.65 MW,,,1650
+R703064__energysystem_003,V80-2.0 MW,,,2000
+R703064__energysystem_004,V90-3.0 MW,,,3000
+R703075__energysystem_001,Grid-connected wind power system,Application category assessed in the preliminary wind-resource evaluation; no installed system was reported.,,
+R703075__energysystem_002,Stand-alone wind power application,"Application category discussed for Assila and Essouira; examples given were battery-bank charging, water pumping, and domestic applications.",,
+R703078__energysystem_001,Recommended wind farm,A wind farm composed of low cut-in speed wind turbines such as Savonius turbines was recommended for stand alone low energy needs because average wind speeds at all three sites were relatively low compared with cut-in wind speeds of most modern wind turbines.,,
+R703087__energysystem_001,Wind power plant in Medan,A potential wind power plant considered for conversion of Medan wind energy into electrical energy.,,
+R703091__energysystem_001,BONUS 300kW/33,,,300
+R703091__energysystem_002,Hyosung (HS50-750kW),,,750
+R703091__energysystem_003,Vergnet GEV MP 275/32,,,275
+R703091__energysystem_004,Vergnet GEV HP 1000/62,,,1000
+R703095__energysystem_001,Ain Salah wind farm,"Planned wind farm evaluated using wind characteristics, geographical position, and variation of air density depending on temperature.",,10
+R703105__energysystem_001,BTPS6500® wind turbine system,The low-wind-speed turbine system was selected for simulated electric-power output and econometric analysis because Akure was identified as a low wind-speed site.,,
+R705081__energysystem_001,Wind energy plant at İzmir–Aliağa,A prospective wind energy plant evaluated using site wind-speed data and selected Enercon wind turbines ranging from 800 to 4200 kW.,,
+R705198__energysystem_001,Wind turbine used for Cide wind data,A wind turbine used for calculation of actual wind energy output from Cide wind data.,,
+R705198__energysystem_002,Wind turbine used for Keban wind data,A wind turbine used for calculation of actual wind energy output from Keban wind data.,,
+R706049__energysystem_001,P-15-50,A selected commercial wind turbine assessed for electricity generation.,,
+R706049__energysystem_002,Enercon E33,A selected commercial wind turbine assessed for electricity generation.,,
+R706049__energysystem_003,Enercon E53,A selected commercial wind turbine assessed for electricity generation.,,
+R706049__energysystem_004,YDF-1500-87,A 1500 kW commercial wind turbine assessed for electricity generation.,,
+R706049__energysystem_005,Enercon E820,A 2000 kW commercial wind turbine assessed for electricity generation.,,
+R707558__energysystem_001,Vestas V47-666 KW turbine,The turbine power curve was used to estimate average turbine power output from empirical and fitted wind-speed distributions.,,
+R708260__energysystem_001,Wind farm at Station 1,Wind-farm site assessed in the study.,,
+R708260__energysystem_002,Wind farm at Station 2,Wind-farm site assessed in the study.,,
+R708260__energysystem_003,Wind farm at Station 3,Wind-farm site assessed in the study.,,
+R708260__energysystem_004,Wind farm at Station 4,Wind-farm site assessed in the study.,,
+R708307__energysystem_001,Nine-turbine rectangular wind farm,A wind farm considered for comparing annual averaged farm power generation estimated from MMWD and Weibull wind distributions.,,
+R708911__energysystem_001,2.75 MW wind turbine power curve,A 2.75 MW power curve used to calculate empirical and distribution-based average wind turbine power output.,,2.75
+R709096__energysystem_001,WECS with Nordex N131/3000 Delta,,,3000
+R709096__energysystem_002,WECS with eno e.n.o. 126,,,3500
+R710647__energysystem_001,P-15-50 wind-turbine system,Modelled P-15-50 wind-turbine system evaluated at hilltops surrounding Maroua.,,50
+R710647__energysystem_002,P-25-100 wind-turbine system,Modelled P-25-100 wind-turbine system evaluated at hilltops surrounding Maroua.,,90
+R710647__energysystem_003,GEV MP C 275 wind-turbine system,Modelled GEV MP C 275 wind-turbine system evaluated at hilltops surrounding Maroua.,,275
+R710647__energysystem_004,Enercon E53-800 wind-turbine system,Modelled Enercon E53-800 wind-turbine system evaluated at hilltops surrounding Maroua.,,800
+R710647__energysystem_005,YDF-1500-87 wind-turbine system,Modelled YDF-1500-87 wind-turbine system evaluated at hilltops surrounding Maroua.,,1500
+R710647__energysystem_006,Enercon E82-2000 wind-turbine system,Modelled Enercon E82-2000 wind-turbine system evaluated at hilltops surrounding Maroua.,,2000
+R711154__energysystem_001,Hypothetic water-pumping windmill,A hypothetical windmill assessed for using wind energy to pump water in the north region of Cameroon.,,
+R712261__energysystem_001,Wind electric pumping system (WEPS),"Four wind electric pumping system configurations, represented by WT1, WT2, WT3 and WT4, were evaluated at eight sites.",,20
+R712549__energysystem_001,GE 103 model,The GE 103 turbine model was determined as the most suitable turbine for the selected location by evaluating WAsP-program and statistical-analysis results. Its reported nominal power is 2.85 MW.,,
+R712555__energysystem_001,Selected commercial micro wind turbines for Djibouti-city performance assessment,,,
+R712630__energysystem_001,50 MW Laayoune wind farm,,,50
+R712633__energysystem_001,Small-scale wind turbine system,The study concluded that small-scale wind turbines accommodating cut-in wind speeds of 3.8 m/s are the most suitable for power generation in Zambia.,,
+R712637__energysystem_001,Hypothetical wind farm east of Ngaoundere,Hypothetical wind farm simulated in a selected zone of higher wind resource east of the data collection site.,,
+R712641__energysystem_001,Taïba Ndiaye wind farm,A wind farm developed by Lekela Power that started producing electricity in 2020.,,158.7
+R713401__energysystem_001,Enercon-70,,,2300
+R713401__energysystem_002,Enercon-82,,,2000
+R713401__energysystem_003,Nordex N90,,,2300
+R713401__energysystem_004,Nordex S77,,,1500
+R713401__energysystem_005,Vestas V90-2,,,2000
+R713411__energysystem_001,Small-scale wind-to-electricity power generation at Koluama,A prospective wind-energy generation application assessed using six practical wind turbines; the paper does not report an installed wind-energy system.,,
+R713424__energysystem_001,WES30 wind turbine model,Selected small commercial wind turbine model assessed for performance and electricity cost.,,250.0
+R713424__energysystem_002,CF-100 wind turbine model,Selected small commercial wind turbine model assessed for performance and electricity cost.,,100.0
+R713424__energysystem_003,Polaris 15-50 wind turbine model,Selected small commercial wind turbine model assessed for performance and electricity cost.,,50.0
+R713424__energysystem_004,Garbi-150/28 wind turbine model,Selected small commercial wind turbine model assessed for performance and electricity cost.,,150.0
+R713430__energysystem_001,Proposed offshore wind farm,"A proposed offshore wind-energy system for supplying electricity to Lagos, assessed at the shore and offshore water-depth areas.",,
+R713448__energysystem_001,Offshore wind power generation in Benin Republic's EEZ,Prospective offshore wind power generation assessed using wind-resource and bathymetric data in Benin Republic's EEZ.,,
+R713451__energysystem_001,Ecotècnia 62 wind turbine,,,1250
+R713451__energysystem_002,Ecotècnia 80 wind turbine,,,1670
+R713451__energysystem_003,Repower wind turbine,,,2000
+R713451__energysystem_004,Eol Senegal 500 wind turbine,,,0.5
+R713451__energysystem_005,Inclin 600 wind turbine,,,0.6
+R713451__energysystem_006,Yellow-Sand wind turbine,,,0.3
+R717710__energysystem_001,E-44 wind turbine,,,
+R717710__energysystem_002,E-48 wind turbine,,,
+R717710__energysystem_003,E-53 wind turbine,,,
+R717717__energysystem_001,Borj-Cedria wind park project,A wind park project whose feasibility was evaluated for Borj-Cedria using seven commercialized 1.5 MW wind turbines assumed to be installed at 80 m above ground level.,,
+R718237__energysystem_001,Selected commercial wind-turbine systems,"The study evaluated Aeronautica 29-255, Enercon E-33/330 kW, EWT DW52-500, Unison U50, and Mitsubishi MWT62/1.0 turbine models.",,
+R719358__energysystem_001,Bergey Excel-S wind turbine,Selected wind generator evaluated for Medea wind conditions and water pumping.,,
+R719358__energysystem_002,Bergey XL1 wind turbine,Selected wind generator evaluated for Medea wind conditions and water pumping.,,
+R719358__energysystem_003,Fuhrlander FL wind turbine,Selected wind generator evaluated for Medea wind conditions.,,
+R719358__energysystem_004,Enercon E33 wind turbine,Selected wind generator evaluated for Medea wind conditions.,,
+R719366__energysystem_001,Naama hybrid wind-solar energy system,Hybrid system evaluated to combine complementary wind and solar generation profiles for a more stable and consistent energy supply.,,
+R719520__energysystem_001,Bonus -33,Bonus -33 wind turbine model evaluated in Table 6.,,300
+R719520__energysystem_002,Bonus -54,Bonus -54 wind turbine model evaluated in Table 6.,,1000
+R719520__energysystem_003,Vestas -80,Vestas -80 wind turbine model evaluated in Table 6.,,2000
+R719520__energysystem_004,YDF-1500-87,YDF-1500-87 wind turbine model evaluated in Table 6.,,1500
+R719520__energysystem_005,EWT DW52,EWT DW52 wind turbine model evaluated in Table 6.,,500
+R719520__energysystem_006,Suzlon- S52,Suzlon- S52 wind turbine model evaluated in Table 6.,,600
+R719520__energysystem_007,Vestas -V47,Vestas -V47 wind turbine model evaluated in Table 6.,,660
+R720348__energysystem_001,Bonus-33 wind turbine,"Wind turbine evaluated for energy production, capacity factor, and electricity-generated cost at the selected area.",,300
+R720348__energysystem_002,Bonus-54 wind turbine,"Wind turbine evaluated for energy production, capacity factor, and electricity-generated cost at the selected area.",,1000
+R720348__energysystem_003,Vestas-80 wind turbine,"Wind turbine evaluated for energy production, capacity factor, and electricity-generated cost at the selected area.",,2000
+R720348__energysystem_004,YDF-1500-87 wind turbine,"Wind turbine evaluated for energy production, capacity factor, and electricity-generated cost at the selected area.",,1500
+R720348__energysystem_005,EWT DW52 wind turbine,"Wind turbine evaluated for energy production, capacity factor, and electricity-generated cost at the selected area.",,500
+R720348__energysystem_006,Suzlon-S52 wind turbine,"Wind turbine evaluated for energy production, capacity factor, and electricity-generated cost at the selected area.",,600
+R720348__energysystem_007,Vestas-V47 wind turbine,"Wind turbine evaluated for energy production, capacity factor, and electricity-generated cost at the selected area.",,660
+R720760__energysystem_001,Hypothetical Bangui wind farm,A hypothetical wind farm located in the selected higher-wind-resource area east of the data-collection site.,,
+R722053__energysystem_001,Potential wind farm for Federal University of Kashere,A wind-farm option evaluated as a potential source for part of the energy requirements of Federal University of Kashere.,,
+R723171__energysystem_001,WT1 wind energy conversion system,Selected wind turbine system designated WT1.,,25
+R723171__energysystem_002,WT2 wind energy conversion system,Selected wind turbine system designated WT2.,,25
+R723171__energysystem_003,WT3 wind energy conversion system,Selected wind turbine system designated WT3.,,25
+R723171__energysystem_004,WT4 wind energy conversion system,Selected wind turbine system designated WT4.,,25
+R723171__energysystem_005,WT5 wind energy conversion system,Selected wind turbine system designated WT5.,,25
+R723300__energysystem_001,Atlantis wind turbine ASWT 9.0-20 kW,Selected wind turbine used to assess the potential of wind energy for electricity generation.,,
+R723318__energysystem_001,Proposed mini-grid wind farm,A reported small-scale or mini-grid wind-power configuration assessed for Yola.,,
+R723373__energysystem_001,Wind energy conversion system,Wind-energy conversion system assessed for grid integration and standalone applications at selected Nigerian sites.,,
+R727445__energysystem_001,Power Wind 56 single-row wind farm,A wind farm comprising 14 Power Wind 56 wind turbines in the single-row configuration evaluated by the study.,single-row,10.3
+R727445__energysystem_002,Power Wind 56 two-row wind farm,A two-row Power Wind 56 wind-farm configuration evaluated in the comparative simulation.,two-row,
+R727542__energysystem_001,Offshore wind energy development in the South African EEZ,Conceptual offshore-wind development system assessed through four development scenarios.,offshore,
+R727587__energysystem_001,Kaberten wind farm,The turbines are connected to a 30 kV voltage grid and each turbine has its own control system connected by fibre optic cable to a centralized SCADA control system.,,10.2
+R727592__energysystem_001,Polaris P15-50,Commercial wind turbine model selected and simulated to determine performance at the study location.,,
+R727592__energysystem_002,Bonus 300 kW/33,Commercial wind turbine model selected and simulated to determine performance at the study location.,,
+R727592__energysystem_003,Polaris P50-500,Commercial wind turbine model selected and simulated to determine performance at the study location; it was recommended as suitable for the study area.,,
+R727592__energysystem_004,Bonus 1 MW/54,Commercial wind turbine model selected and simulated to determine performance at the study location.,,
+R727592__energysystem_005,WWD-1-60,Commercial wind turbine model selected and simulated to determine performance at the study location.,,
+R727673__energysystem_001,Kaberten wind farm,A wind farm near a Sonelgaz substation with a total site area of 33 hectares.,,
+R727673__energysystem_002,Gamesa G52 wind turbine,"One Gamesa G52 wind turbine evaluated for hourly, monthly, seasonal, and annual energy production.",,850
+R727676__energysystem_001,Kestrel e300i small wind turbine system,Commercially available e300i small wind turbine manufactured by Kestrel Renewable Energy.,,1
+R727676__energysystem_002,Kestrel e400n small wind turbine system,Commercially available e400n small wind turbine manufactured by Kestrel Renewable Energy.,,3.5
+R727799__energysystem_001,CALORIUS 37 wind turbine,Wind turbine model evaluated for annual power and energy production at four southern Algerian locations.,,5
+R727821__energysystem_001,Siemens SWT-2.3-93 wind turbine,Representative commercial wind turbine used to calculate capacity factor and operation probability from the estimated Weibull parameters.,,
+R727821__energysystem_002,Vestas V80-2.0 wind turbine,Representative commercial wind turbine used to calculate capacity factor and operation probability from the estimated Weibull parameters.,,
+R1563920__energysystem_001,photovoltaic system,PV system evaluated in PSIM.,,
+R1563923__energysystem_001,photovoltaic system,PV system evaluated in PSIM.,,
+R1563927__energysystem_001,photovoltaic system,PV system evaluated in PSIM.,,
+R1563930__energysystem_001,PV energy-storage power station,Target operational system.,,
+R1563933__energysystem_001,PV energy-storage power station,Target operational system.,,
+R1563937__energysystem_001,PV energy-storage power station,Target operational system.,,
+R1563974__energysystem_001,wet-cooled grid-connected concentrated solar power plant,Target technology for suitability assessment.,,
+R1563977__energysystem_001,photovoltaic power system,PV power estimation chain.,,
+R1563980__energysystem_001,photovoltaic power system,PV power estimation chain.,,
+R1563984__energysystem_001,ESHAML-monitored photovoltaic system,Experimental solar PV system used for real-time irradiance estimation.,,
+R1563987__energysystem_001,Potential Chad thermo-solar power plant,Candidate system motivating the direct solar-radiation assessment.,,
+R1563995__energysystem_001,SolarTechLab grid-connected PV system,Experimental PV modules monitored with weather station and energy meter.,,
+R1564001__energysystem_001,250 W simulated PV system,Simulation system for PV state estimation and control.,,250
+R1565340__energysystem_001,Cameroon grid-connected photovoltaic system,PV technology performance and financial assessment model.,,
+R1565343__energysystem_001,Bamenda 20 kW solar PV system,PVGIS modelled solar PV generation potential.,,20
+R1565351__energysystem_001,Bambili PV module energy-estimation system,PV-module energy-output estimation at Bambili.,,
+R1567953__energysystem_001,wind-CSP-EH hybrid power generation system,The electric heater converts redundant wind power into heat stored in CSP thermal energy storage for later power generation.,,150
+R1567974__energysystem_001,Chaiyaphum residential PV system,Most economical Chaiyaphum system.,grid-connected,6.6
+R1567974__energysystem_002,Sa Kaeo residential PV-wind hybrid,6.05 kW PV plus 1 kW wind configuration.,grid-connected,7.05
+R1567974__energysystem_003,Chanthaburi residential PV-wind hybrid,Only viable hybrid among seven regional comparisons.,grid-connected,
+R1568004__energysystem_001,Zhangbei thermal-storage wind-CSP hybrid,Curtailed wind converted to heat stored in TES.,,80
+R1568024__energysystem_001,hybrid solar-wind energy system,Grid-connected hybrid system with PV connected to DFIG DC link.,,2.05
+R1568778__energysystem_001,Ashegoda wind farm,Under construction with initial 30 MW production reported in 2011.,onshore,120
+R1568778__energysystem_002,Aysha wind farm,Planned eastern wind farm intended to support grid supply and export.,onshore,300
+R1568778__energysystem_003,Adama I wind farm,Completed in December 2012; narrative text rounds capacity to 52 MW.,onshore,51
+R1568778__energysystem_004,Adama II wind farm,Planned wind-power project south of Addis Ababa.,onshore,153
+R1568778__energysystem_005,Debre Birhan wind farm,Planned wind farm north of Addis Ababa.,onshore,100
+R1568778__energysystem_006,Assela wind farm,Planned wind farm southeast of Addis Ababa.,onshore,100
+R1568778__energysystem_007,Galema I wind farm,Planned wind-power project.,onshore,250
+R1568778__energysystem_008,Mesobo-Harena wind farm,Planned northern wind farm.,onshore,42
+R1582661__energysystem_001,Umkhen run-of-river hydropower portfolio,Distributed potential estimated at 50% flow dependability.,,132.67
+R1639011__energysystem_002,Olkaria geothermal project,Kenyan geothermal plants in the Rift Valley with installed capacity reported as over 700 MW.,,700
+R1639011__energysystem_003,Gigawatt Global solar power plant,"Grid-integrated solar farm at Agahozo-Shalom Youth Village, Rwanda, inaugurated in 2015.",,8.5
+R1639011__energysystem_004,Tanzania solar mini-grid projects,"Rural solar mini-grid systems incorporating solar panels, battery storage, and smart meters; over 200 installed by 2018.",,231.7
+R1567682__energysystem_001,Iron Gate 1 hydropower system,System used to test near-real-time hydraulic-model updating for hydropower production control.,,
+R1567698__energysystem_001,Umeälven hydropower system,Snowmelt-season water storage and reservoir-inflow forecasts support winter hydropower production decisions.,,
+R1567729__energysystem_001,Refsdal hydropower system,Reservoir inflow forecasts support planning of hydropower production in the Refsdal catchment.,,
+R1567776__energysystem_001,Kainji hydropower system,Niger River hydropower system represented by Kainji reservoir variables.,,760
+R1567776__energysystem_002,Jebba hydropower system,Niger River hydropower system represented by Jebba reservoir variables.,,540
+R1567836__energysystem_001,Brazilian proposed hydropower projects portfolio,"53 projects in ANEEL evaluation, assessed for local environmental impact.",,
+R1567855__energysystem_001,Sombriero run-of-river micro-hydropower scheme,Proposed scheme based on Sombriero River discharge and 3.5 m head.,run-of-river,51.25
+R1567877__energysystem_001,Upper Benue potential small-hydropower dams,Proposed dam sites in high-suitability narrow valleys for rural renewable-energy supply.,,
+R1568509__energysystem_001,Oyanmi feasible SHP portfolio,Eleven screened feasible small-hydropower sites.,run-of-river,
+R1568565__energysystem_001,Opeki average-flow Kaplan plant,Proposed average-potential configuration with a single Kaplan turbine.,run-of-river,8.774
+R1568565__energysystem_002,Opeki average-flow Francis plant,Proposed average-potential alternative with a single Francis turbine.,run-of-river,8.463
+R1568565__energysystem_003,Opeki minimum-flow Francis plant,Proposed minimum-potential configuration with a single Francis turbine.,run-of-river,1.160
+R1568565__energysystem_004,Opeki minimum-flow Propeller plant,Proposed minimum-potential alternative with a single propeller turbine.,run-of-river,1.208
+R1568594__energysystem_001,Osse candidate small-hydropower portfolio,Eighteen promising sites selected from 148 screened points.,run-of-river,
+R1568609__energysystem_001,Beshilo run-of-river plant 1,,run-of-river,
+R1568609__energysystem_002,Beshilo run-of-river plant 2,,run-of-river,
+R1568609__energysystem_003,Beshilo run-of-river plant 3,,run-of-river,
+R1568609__energysystem_004,Beshilo run-of-river plant 4,,run-of-river,
+R1568609__energysystem_005,Beshilo run-of-river plant 5,,run-of-river,
+R1568609__energysystem_006,Beshilo run-of-river plant 6,,run-of-river,
+R1568609__energysystem_007,Beshilo run-of-river plant 7,,run-of-river,
+R1568609__energysystem_008,Beshilo run-of-river plant 8,,run-of-river,
+R1568609__energysystem_009,Beshilo run-of-river plant 9,,run-of-river,
+R1568654__energysystem_001,Grand Ethiopian Renaissance Dam,GERD current design with 14 turbines.,reservoir,5150
+R1568768__energysystem_001,Ethiopian candidate PHES network,Screened potential pumped-storage sites around existing hydropower reservoirs.,reservoir,
+R1568773__energysystem_001,Temcha candidate run-of-river portfolio,Conclusion-reported aggregate potential at 50% dependable flow.,run-of-river,12744
+R1568785__energysystem_001,Grand Ethiopian Renaissance Dam,GERD plant on the Blue Nile River.,reservoir,6000
+R1568785__energysystem_002,GIBE I,First GIBE hydropower plant on an Omo River tributary.,reservoir,210
+R1568785__energysystem_003,GIBE II,Uses GIBE I turbine water and additional intake water.,run-of-river,420
+R1568785__energysystem_004,GIBE III,Large hydropower plant in the Omo basin.,reservoir,1870
+R1568790__energysystem_001,Winike potential run-of-river site 1,Example theoretical site capacity at 50% flow exceedance.,run-of-river,7.053
+R1568790__energysystem_002,Winike 103-site run-of-river portfolio,Aggregate theoretical capacity at 50% flow exceedance.,run-of-river,183.16
+R1568806__energysystem_001,Megecha candidate small-hydropower system 1,Candidate-site theoretical hydropower potential estimated from Q90 and 15 m gross head.,,54.45
+R1568806__energysystem_002,Megecha candidate small-hydropower system 2,Highest-ranked candidate-site theoretical hydropower potential estimated from Q90 and 25 m gross head.,,110.36
+R1568806__energysystem_003,Megecha candidate small-hydropower system 3,Candidate-site theoretical hydropower potential estimated from Q90 and 20 m gross head.,,94.18
+R1568828__energysystem_001,Gilgel-Beles site1 run-of-river micro-hydropower system,Technical power potential using Q90 design flow and overall system efficiency 0.56.,run-of-river,40.88
+R1568828__energysystem_002,Gilgel-Beles site2 run-of-river micro-hydropower system,Technical power potential using Q90 design flow and overall system efficiency 0.56.,run-of-river,19.90
+R1568828__energysystem_003,Gilgel-Beles site3 run-of-river micro-hydropower system,Technical power potential using Q90 design flow and overall system efficiency 0.59.,run-of-river,31.88
+R1568828__energysystem_004,Gilgel-Beles site4 run-of-river micro-hydropower system,Technical power potential using Q90 design flow and overall system efficiency 0.59.,run-of-river,30.32
+R1568828__energysystem_005,Gilgel-Beles site5 run-of-river micro-hydropower system,Technical power potential using Q90 design flow and overall system efficiency 0.59.,run-of-river,78.99
+R1568828__energysystem_006,Gilgel-Beles site6 run-of-river micro-hydropower system,Technical power potential using Q90 design flow and overall system efficiency 0.59.,run-of-river,61.23
+R1568828__energysystem_007,Gilgel-Beles site7 run-of-river micro-hydropower system,Technical power potential using Q90 design flow and overall system efficiency 0.56.,run-of-river,59.68
+R1568828__energysystem_008,Gilgel-Beles site8 run-of-river micro-hydropower system,Technical power potential using Q90 design flow and overall system efficiency 0.63.,run-of-river,305.87
+R1568828__energysystem_009,Gilgel-Beles site9 run-of-river micro-hydropower system,Technical power potential using Q90 design flow and overall system efficiency 0.56.,run-of-river,31.25
+R1568828__energysystem_010,Alefa Kacha hp site 8 stand-alone microgrid,HOMER simulation of hp site 8 supplying Alefa Kacha primary and deferrable load without an additional energy source.,,
+R1568843__energysystem_001,Chemoga cross-flow hydropower assessment case,Theoretical FDC-based output case for the Chemoga River; capacity varies by flow band.,,
+R1568843__energysystem_002,Huluka cross-flow hydropower assessment case,Theoretical FDC-based output case for the Huluka River; capacity varies by flow band.,,
+R1568843__energysystem_003,Wabe cross-flow hydropower assessment case,Theoretical FDC-based output case for the Wabe River; capacity varies by flow band.,,
+R1569160__energysystem_001,Bui Hydroelectric Project,"Bui Dam on the Black Volta River, commissioned in 2013.",reservoir,400
+R1569361__energysystem_001,Upper Densu HP1 proposed hydropower system,,run-of-river,1698.7
+R1569361__energysystem_002,Upper Densu HP2 proposed hydropower system,,run-of-river,832.8
+R1569361__energysystem_003,Upper Densu HP3 proposed hydropower system,,run-of-river,588.2
+R1569361__energysystem_004,Upper Densu HP4 proposed hydropower system,,run-of-river,866.6
+R1569361__energysystem_005,Upper Densu HP5 proposed hydropower system,,run-of-river,863.8
+R1569361__energysystem_006,Upper Densu HP6 proposed hydropower system,,run-of-river,755.4
+R1569361__energysystem_007,Upper Densu HP7 proposed hydropower system,,run-of-river,1007.1
+R1569361__energysystem_008,Upper Densu HP8 proposed hydropower system,,run-of-river,702.9
+R1569361__energysystem_009,Upper Densu HP9 proposed hydropower system,,run-of-river,570.4
+R1569504__energysystem_001,Pumpum dam plant 1,Proposed dam-based site with the highest firm power.,reservoir,2356.2
+R1569504__energysystem_002,Pumpum dam plant 2,Proposed dam-based plant.,reservoir,1253.7
+R1569504__energysystem_003,Pumpum dam plant 3,Proposed dam-based plant.,reservoir,135.7
+R1569504__energysystem_004,Pumpum dam plant 4,Proposed dam-based plant.,reservoir,761
+R1569504__energysystem_005,Pumpum dam plant 5,Proposed dam-based plant.,reservoir,458
+R1569504__energysystem_006,Pumpum dam plant 6,Proposed dam-based cascade site.,reservoir,264
+R1569504__energysystem_007,Pumpum run-of-river plant 1,Proposed run-of-river cascade site.,run-of-river,1567
+R1569504__energysystem_008,Pumpum run-of-river plant 2,Proposed run-of-river plant.,run-of-river,681
+R1569504__energysystem_009,Pumpum run-of-river plant 3,Proposed run-of-river plant.,run-of-river,117.72
+R1569514__energysystem_001,Lower Pra HP1 proposed small-hydropower system,,cascade,12.22
+R1569514__energysystem_002,Lower Pra HP3 proposed small-hydropower system,,cascade,10.00
+R1569514__energysystem_003,Lower Pra HP7 proposed small-hydropower system,,cascade,9.00
+R1580088__energysystem_001,Malawi hydropower plant fleet,Generation records were used to calculate daily and monthly capacity factors.,,
+R1581274__energysystem_001,Aslantaş HPP,Ceyhan River plant targeted by the hourly forecasting models; annual target generation is 569 GWh.,,138
+R1581530__energysystem_001,Guangxi axial-flow propeller hydropower unit,Operational unit represented by blade angle and guide-vane opening data.,double-regulated,
+R1581530__energysystem_002,Guangxi Francis hydropower unit,HLA678-LJ-625.7 Francis turbine regulated through guide-vane opening.,single-regulated,582
+R1581542__energysystem_001,Karun-III hydropower plant,Plant whose daily production was forecast from reservoir elevation and inflow.,reservoir,
+R1582683__energysystem_001,Hamp candidate SHP 1,,run-of-river,
+R1582683__energysystem_002,Hamp candidate SHP 2,,run-of-river,
+R1582683__energysystem_003,Hamp candidate SHP 3,,run-of-river,
+R1582683__energysystem_004,Hamp candidate SHP 4,,run-of-river,
+R1582683__energysystem_005,Hamp candidate SHP 5,,run-of-river,
+R1582683__energysystem_006,Hamp candidate SHP 6,,run-of-river,
+R1582683__energysystem_007,Hamp candidate SHP 7,,run-of-river,
+R1582683__energysystem_008,Hamp candidate SHP 8,,run-of-river,
+R1582683__energysystem_009,Hamp candidate SHP 9,,run-of-river,
+R1582683__energysystem_010,Hamp candidate SHP 10,,run-of-river,
+R1582764__energysystem_001,Lower Kalnai Hydel Project,Lower Kalnai project in the Chenab basin; project scheme basic cost was Rs 372 crore at July 2010 price level.,,48
+R1586335__energysystem_001,Bagisli HPP,Zap River hydropower facility designed for 100 GWh annual generation.,,30
+R1586415__energysystem_001,Samanalawewa hydropower plant,Major storage hydropower scheme with two turbines on the Walawe River.,,124

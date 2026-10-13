@@ -1,0 +1,9 @@
+policy_id,policyType
+R703003__policy_001,EconomicPolicy
+R703061__policy_001,PlanningPolicy
+R703061__policy_002,RegulatoryPolicy
+R713416__policy_001,PlanningPolicy
+R713440__policy_001,EconomicPolicy
+R727542__policy_001,EconomicPolicy
+R727542__policy_002,RegulatoryPolicy
+R727676__policy_001,PlanningPolicy

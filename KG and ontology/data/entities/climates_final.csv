@@ -1,0 +1,23 @@
+id,climateName
+climate__arid,arid
+climate__black_sea_climate,Black sea climate
+climate__continental_mediterranean_climate,Continental (Mediterranean) climate
+climate__desert_climate,desert climate
+climate__hot_desert_climate,hot desert climate
+climate__maritime_desert,maritime desert
+climate__mediterranean_climate,Mediterranean climate
+climate__mid_subtropical_monsoon_climate_zone,mid-subtropical monsoon climate zone
+climate__mild_mediterranean_climate,Mild Mediterranean climate
+climate__sahel_tropical_dry_climate,Sahel (tropical dry) climate
+climate__sahelian_climatic_zone,Sahelian climatic zone
+climate__semi_arid_sudano_sahelian_climate,semi-arid sudano-sahelian climate
+climate__semi_desert_climate,semi-desert climate
+climate__semi_humid_tropical,semi-humid tropical
+climate__sticky_subtropical_zone,sticky subtropical zone
+climate__subtropical_monsoon_climate,subtropical monsoon climate
+climate__sudano_sahelian,Sudano-Sahelian
+climate__temperate_monsoon_climate,temperate monsoon climate
+climate__tropical_climate,tropical climate
+climate__tropical_monsoon_climate,tropical monsoon climate
+climate__tropical_rain_forest_or_equatorial_monsoon,tropical rain forest (or equatorial monsoon)
+climate__tropical_rainforest_climate,tropical rainforest climate

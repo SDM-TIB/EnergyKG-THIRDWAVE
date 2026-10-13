@@ -1,0 +1,514 @@
+objective_id,label,objectiveStatement
+R1378020__objective_001,vertical extrapolation,Create seven supervised learning models to obtain a wind-speed time series at a height of 102 m using recorded and mesoscale data from lower heights of 75 m and 50 m.
+R1378020__objective_002,extrapolation method comparison,Assess the performance of the models and compare their results with the power-law procedure to determine whether machine learning outperforms the traditional approach.
+R1378024__objective_001,vertical extrapolation,Establish a machine-learning transfer model for constructing an hourly gridded 100 m wind-speed dataset in Europe.
+R1378024__objective_002,extrapolation method comparison,"Test and compare LASSO, Random Forest, and XGBoost methods for estimating 100 m wind speed."
+R1378024__objective_003,resource quantification,Apply the trained transfer model to climate projections and quantitatively assess past and future changes in European hub-height wind energy.
+R1378028__objective_001,vertical extrapolation,Investigate the performance of particle swarm optimization for improving LSTM accuracy when extrapolating wind speed at higher heights from measured values at lower heights.
+R1378028__objective_002,extrapolation method comparison,"Compare PSO-LSTM with alternative LSTM optimization methods, standard LSTM, FFNN, and Log Law for vertical wind-speed extrapolation."
+R689577__objective_001,distribution parameter estimation,Estimate two-parameter Weibull distribution parameters for monthly and annual wind-speed data using six numerical methods.
+R689577__objective_002,parameter estimation method comparison,Compare the accuracy of six numerical methods for determining Weibull distribution parameters across monitoring stations in Mato Grosso do Sul.
+R689596__objective_001,parameter estimation method comparison,Analyse the accuracy of methods used to determine the shape parameter k and scale parameter c of the two-parameter Weibull function.
+R689596__objective_002,parameter estimation method comparison,Investigate how a site's wind-speed level affects the choice of Weibull-parameter estimation method.
+R689600__objective_001,parameter estimation method comparison,"Examine the suitability of five commonly used statistical distribution methods for estimating Weibull parameters, compare their accuracy using RMSE, chi-square and Kolmogorov–Smirnov tests, and identify the most accurate method for the study area."
+R689605__objective_001,energy potential estimation,Estimate the wind energy potential at Catalca using a two-parameter Weibull function.
+R689605__objective_002,distribution parameter estimation,"Estimate Weibull parameters using graphical, method of moments, energy pattern factor, mean standard deviation, power density, and genetic algorithm methods."
+R689605__objective_003,parameter estimation method comparison,Compare the performance and accuracy of the six Weibull parameter estimation methods using multiple goodness-of-fit criteria and Net Fitness.
+R702336__objective_001,energy potential estimation,Assess the wind-energy potential of Tehran and determine whether wind could provide an alternative energy source for the region.
+R702341__objective_001,energy potential estimation,Assess the wind potential of the selected location using real wind data.
+R702341__objective_002,probability distribution comparison,Statistically compare the measured wind-speed data with Weibull and Rayleigh distribution functions.
+R702341__objective_003,probability distribution comparison,Determine which of the Weibull and Rayleigh distributions described the actual wind data better.
+R703000__objective_001,energy potential estimation,Determine the wind-power-generation potential at five towns in Semnan province.
+R703000__objective_002,resource characteristics analysis,"Evaluate the important wind-energy characteristics of the selected Moalleman site, including mean wind speed, wind-speed distribution, mean wind power density, and wind rose at 10 m, 30 m, and 40 m."
+R703000__objective_003,energy yield assessment,Calculate the annual energy that selected horizontal-axis wind-turbine models could capture at Moalleman.
+R703003__objective_001,energy potential estimation,Assess wind energy potential for the city of Zahedan in southeast part of Iran.
+R703003__objective_002,cost of energy analysis,Perform economic evaluation and analysis of four different wind turbines for Zahedan.
+R703006__objective_001,probability distribution comparison,"To introduce and compare mixture Gamma–Weibull, mixture truncated normal, mixture Normal–Weibull, mixture Weibull–Weibull, maximum-entropy-principle, and conventional Weibull probability density functions for estimating wind energy potential."
+R703006__objective_002,probability distribution comparison,To test the performance of various probability functions using wind-speed data measured at three wind farms in Taiwan.
+R703009__objective_001,energy potential estimation,"Evaluate the wind energy potential in three selected locations, Enugu, Owerri and Onitsha, in the south-east region of Nigeria."
+R703009__objective_002,energy yield assessment,Assess the performance of selected small- to medium-size commercial wind turbines.
+R703009__objective_003,energy yield assessment,Investigate the performance of selected commercial wind turbine models designed for electricity generation and water pumping at the study sites.
+R703013__objective_001,energy potential estimation,Provide a statistical assessment of wind characteristics and wind energy potential at offshore locations surrounding Hong Kong.
+R703013__objective_002,resource characteristics analysis,"Investigate yearly, seasonal, monthly and diurnal variations of mean wind speed, Weibull parameters and wind power density at three offshore sites in Hong Kong."
+R703026__objective_001,resource uncertainty analysis,To create a framework for an uncertainty analysis of wind energy potential at a specific site based on probability models for each parameter.
+R703029__objective_001,energy potential estimation,Analyse wind characteristics and wind energy potential in five locations of the southern region of Algeria.
+R703029__objective_002,energy yield assessment,Examine the performance of selected commercial wind turbine models designed for electricity generation at the selected sites.
+R703029__objective_003,cost of energy analysis,Perform an economic evaluation of wind energy in the selected sites.
+R703032__objective_001,energy potential estimation,To evaluate the wind energy potential in six selected locations in the north-central region of Nigeria.
+R703032__objective_002,energy yield assessment,To examine the performance of selected small- to medium-size commercial wind turbine models.
+R703032__objective_003,cost of energy analysis,To perform an economic analysis of selected small- to medium-size commercial wind turbines.
+R703035__objective_001,resource quantification,"To estimate the monthly and annual wind power density based on the Weibull distribution using wind speed data collected in Zwara, Libya during 2007."
+R703035__objective_002,resource characteristics analysis,To investigate the effect of height on mean power density and energy density.
+R703035__objective_003,energy yield assessment,To estimate the net energy output from a specified turbine and simulate its capacity factor.
+R703043__objective_001,energy potential estimation,Determine the potential of wind power generation in North and South Khorasan using measured wind-speed data.
+R703043__objective_002,resource characteristics analysis,Evaluate the most important characteristics of wind energy at the studied sites.
+R703046__objective_001,energy potential estimation,To investigate wind-energy potential of selected sites from three geopolitical zones in Nigeria for the purpose of gaining insights into the usage of wind-energy systems for sustainable rural electrification in the selected parts of Nigeria.
+R703049__objective_001,resource characteristics analysis,Explore the wind characteristics at different locations in Hong Kong.
+R703049__objective_002,energy potential estimation,Estimate wind energy potential at different locations in Hong Kong by means of statistical analysis.
+R703052__objective_001,energy potential estimation,Assessment of wind energy potentiality at Kudat and Labuan in 2006–2008 was carried out with the help of a 2-parameter Weibull distribution.
+R703052__objective_002,resource characteristics analysis,"To analyze wind characteristics including mean wind speed, prevailing direction, duration and availability, and resulting power density at the selected sites."
+R703055__objective_001,resource characteristics analysis,"Investigating the wind characteristics of the site under study by fitting monthly, seasonal, and yearly wind speed data to a Weibull function."
+R703055__objective_002,parameter estimation method comparison,Assessing the suitable Weibull parameter estimation method.
+R703055__objective_003,energy potential estimation,"Studying the directional properties of wind and estimating wind power potential as a function of wind direction, followed by estimating wind energy using a suitable wind turbine."
+R703058__objective_001,energy potential estimation,"Assess the wind potential in Bayan Lepas, Penang Island using real-time wind data, including wind-speed, prevailing direction, duration, diurnal variation, Rayleigh fitting, wind power density and wind energy density."
+R703061__objective_001,energy potential estimation,Study the wind potential in a mountainous area of northern Greece close to an intensively exploited agricultural area.
+R703061__objective_002,energy potential estimation,Identify wind-farm development potentials based on wind-energy penetration and integration criteria.
+R703061__objective_003,load management,"Examine ways for wind-farm load shedding to be used for agricultural purposes, meet demand, and offer the grid a less fluctuating electricity-production signal."
+R703064__objective_001,resource quantification,Investigate seasonal wind energy and wind turbine characteristics in the Ankara region of Turkey.
+R703064__objective_002,energy potential estimation,Study the wind energy potential of the Ankara region based on Weibull and Rayleigh distributions.
+R703068__objective_001,parameter estimation method comparison,"To verify the performance of four statistical methods to analyze Weibull parameters for wind energy applications at four selected locations, namely Chercher, Maychew, Mekele and Senkata, in the Northern Tigray region of Ethiopia."
+R703072__objective_001,resource quantification,Evaluate the feasibility of using wind energy in several areas of Bushehr province.
+R703072__objective_002,energy potential estimation,Determine wind power density and wind energy potential for four locations in Bushehr province.
+R703072__objective_003,energy yield assessment,Test the performances of several wind turbines at the considered regions.
+R703075__objective_001,energy potential estimation,Evaluate the potential of wind energy in six coastal locations in the Kingdom of Morocco.
+R703075__objective_002,turbine selection,Identify the turbine that best matches the wind regime at the selected sites.
+R703078__objective_001,resource quantification,To carry out a wind energy assessment of the Cameroon coastal regions for the future installation of a wind farm to meet the energy demand of the ever increasing population in these coastal cities.
+R703081__objective_001,resource characteristics analysis,"Assess wind characteristics using wind data measured in Bohai Bay by Weibull, Nakagami, Rician, and Rayleigh distributions."
+R703081__objective_002,energy potential estimation,Assess the wind energy potential of Bohai Bay and support an efficient plan for installing offshore wind power farms.
+R703084__objective_001,energy potential estimation,To assess the wind power potential in N’Djamena and provide a clear view of seasonal variations and prevailing wind direction of wind speed at the potential site.
+R703087__objective_001,energy potential estimation,To determine the wind energy potential that can be converted into electrical energy.
+R703091__objective_001,energy potential estimation,To define the density of wind speed distribution of the provinces and to estimate from the data acquired from NASA the wind potential available over thirty (30) years.
+R703095__objective_001,resource quantification,"Evaluate the wind resource on the site of Ain Salah, in Algeria."
+R703095__objective_002,cost of energy analysis,Estimate the cost of a wind farm in Ain Salah consisting of twelve WGT 850 kW wind turbines.
+R703102__objective_001,energy potential estimation,Assess the wind energy potential and wind characteristics for 25 wind sites in Eritrea and draw conclusions regarding the potential of the different topographic regions.
+R703105__objective_001,energy potential estimation,Investigate the wind characteristics and energy potential in Akure metropolis using 11 years of daily average wind-speed data.
+R703105__objective_002,probability distribution comparison,Compare Weibull and Rayleigh probability-distribution modelling of wind-speed data for Akure.
+R703105__objective_003,cost of energy analysis,Assess the econometric implications of the modelled wind characteristics and energy potential using a low-wind-speed turbine system.
+R704955__objective_001,distribution parameter estimation,A new estimation approach for Weibull-distribution parameters in estimating wind power is introduced.
+R704955__objective_002,parameter estimation method comparison,To compare the performance of MUOM with five different estimation methods using short- and long-term wind-speed data.
+R704973__objective_001,parameter estimation method comparison,To evaluate the performance of seven numerical methods using selected statistical criteria to find out which is the most accurate for estimating Weibull parameters.
+R704994__objective_001,probability distribution comparison,Identify the most appropriate method for fitting wind speed probability distribution histograms for wind energy applications at different locations of West Africa.
+R704994__objective_002,parameter estimation method comparison,Evaluate the capability of numerical methods in estimating the K and C parameters of the Weibull distribution function.
+R705081__objective_001,parameter estimation method comparison,To analyze and compare four numerical methods for prediction of Weibull distribution parameters for wind speed using yearly wind-speed data recorded in 2018 at İzmir–Aliağa.
+R705081__objective_002,parameter estimation method comparison,To determine the most appropriate technique for Weibull-parameter estimation using different goodness-of-fit tests.
+R705081__objective_003,cost of energy analysis,To investigate the financial analysis of wind energy in İzmir–Aliağa using the present value method for wind turbines ranging from 800 to 4200 kW.
+R705188__objective_001,parameter estimation method comparison,To select the most accurate and the most efficient method in estimating Weibull parameters at Agadir region in Morocco.
+R705198__objective_001,distribution parameter estimation,To develop an innovative method called PWMBP (probability weighted moments based on power density method) to estimate more accurate parameters of Weibull distribution for wind energy applications.
+R705211__objective_001,parameter estimation method comparison,To compare the newly developed Wind Energy Intensification Method (WEIM) with Maximum Likelihood Method (MLM) and Modified Maximum Likelihood Method (MMLM) to calculate Weibull shape and scale parameters.
+R705221__objective_001,energy potential estimation,Analyse the wind characteristics and assess wind energy potential of the four selected cities.
+R705221__objective_002,distribution parameter estimation,Estimate Weibull distribution parameters using four conventional methods and the proposed energy variance method.
+R705221__objective_003,parameter estimation method comparison,Compare the four conventional Weibull-parameter estimation methods with the proposed energy variance method.
+R705236__objective_001,resource quantification,The purpose of this study is to find alternate energy resource for this industrial region especially and the majority of population.
+R705566__objective_001,distribution fitting,"To show that estimation of annual energy production and capacity factor for offshore wind power plants to be installed in the Eastern Mediterranean must be computed using a two-component mixture Weibull distribution instead of the typical Weibull distribution, otherwise AEP will be underestimated."
+R705585__objective_001,distribution fitting,To use the Inverse Weibull distribution to model wind-speed data as an alternative to the Weibull distribution.
+R705585__objective_002,parameter estimation method comparison,"To compare the efficiencies of ML, MML, and LS estimators of Inverse Weibull shape and scale parameters using Monte-Carlo simulation."
+R705585__objective_003,probability distribution comparison,To identify the distribution providing better fit to seasonal wind-speed data from Bursa and Sakarya using RMSE and R2 criteria.
+R705610__objective_001,probability distribution comparison,Evaluate the suitability of different probability functions for estimating wind speed distribution at five stations distributed in the east and southeast of Iran.
+R705610__objective_002,probability distribution comparison,"Introduce the more appropriate distribution function for wind speed data sets at Chabahar, Khaf, Lutak, Rafsanjan and Zabol, including evaluation of the Nakagami distribution for the first time."
+R706033__objective_001,parameter estimation method comparison,To select a method that gives more accurate estimation for the Weibull parameters at this location in order to reduce uncertainties related to the wind energy output calculation from any Wind Energy Conversion Systems (WECS).
+R706049__objective_001,energy potential estimation,Assess the potential for wind energy development and electricity generation at mountain ridges around Kousseri and Maroua.
+R706049__objective_002,energy yield assessment,Assess the performance of wind turbines for electricity generation at hilltops and exposed ridge-tops around Kousseri and Maroua.
+R706049__objective_003,cost of energy analysis,Estimate the costs of wind energy production at hilltops and exposed ridge-tops around Kousseri and Maroua.
+R707161__objective_001,parameter estimation method comparison,To select a method that gives more accurate estimation for the Weibull parameters in order to reduce uncertainties related to predicting the wind energy output of Wind Energy Conversion Systems.
+R707161__objective_002,probability distribution comparison,To assess the performance of six Weibull PDF methods using goodness-of-fit tests and rank the methods adequate for the specific wind data collected for the district of Garoua.
+R707402__objective_001,new distribution development,"To introduce, for the first time, the upper-truncated Weibull distribution for a description of wind speed distribution."
+R707402__objective_002,probability distribution comparison,To evaluate the capability of the upper-truncated Weibull distribution in modeling wind speed.
+R707412__objective_001,statistical analysis method development,"To describe with clarity and simplicity the numerical procedures adopted to perform a preliminary statistical analysis of wind speed data, providing mathematical tools useful to perform this analysis without special software."
+R707412__objective_002,probability distribution comparison,To verify if there are probability distributions able to better represent the original wind-speed data than the traditional ones.
+R707435__objective_001,new distribution development,"Compute alternative wind-speed distributions analytically with different assumptions on wind components, including different normal variances for anisotropy, non-Gaussian super-statistics for wind extremes, and a mixture of normal distributions for multiple wind regimes."
+R707435__objective_002,probability distribution comparison,Perform in-depth verification of the proposed distributions against observations covering various sub-climatic regions in France to identify distributions that perform optimally and the reasons for this.
+R707435__objective_003,probability distribution comparison,Analyze the sensitivity of the proposed distributions to diurnal to seasonal variability.
+R707456__objective_001,probability distribution comparison,"To compare and evaluate the AL, FGM and anisotropic lognormal approaches for obtaining the bivariate distribution of wind speed and direction."
+R707478__objective_001,resource characteristics analysis,Derive and analyse wind-power distributions obtained from various wind-speed probability density functions in Malaysia.
+R707478__objective_002,energy potential estimation,Provide a rough map of wind power in Malaysia to identify regions with potential for generating wind energy before more detailed site-specific investigation.
+R707507__objective_001,statistical model development,"To derive a wind power density model and its statistical properties from well-known wind-speed density functions, namely the Weibull, Gamma and Inverse Gamma probability density functions."
+R707507__objective_002,model validation,To demonstrate the proposed method through a case study involving wind-speed data from several stations in Malaysia.
+R707519__objective_001,energy potential estimation,Determine an accurate distribution model for wind-speed data before detailed analysis of wind-energy potential is conducted.
+R707519__objective_002,probability distribution comparison,Resolve inconclusive wind-speed distribution-model selection results by proposing an integrated approach that combines several goodness-of-fit criteria.
+R707531__objective_001,new distribution development,To propose the use of a mixture of two truncated normal distributions for the representation of the wind speed probability density function.
+R707531__objective_002,probability distribution comparison,"To verify the validity of the MTTND by comparison with Weibull, Rayleigh, lognormal, gamma, inverse Gaussian and Burr wind-speed probability density functions."
+R707542__objective_001,new distribution development,Develop a mixture kernel density model to accurately estimate wind speed probability distributions.
+R707542__objective_002,probability distribution comparison,Compare the goodness-of-fit of the proposed MKD model and six conventional models using Chi-square and Kolmogorov–Smirnov tests.
+R707542__objective_003,resource quantification,Demonstrate applicability of the proposed model using six wind turbine generator types and three major wind-energy assessment indices on eight actual wind sites.
+R707550__objective_001,new distribution development,Introduce and evaluate the Birnbaum-Saunders distribution for determination of wind-speed and wind-power-density distributions.
+R707550__objective_002,model validation,Evaluate the suitability of the two-parameter Birnbaum-Saunders distribution to accurately characterize distributions of wind speed and wind power density.
+R707558__objective_001,distribution fitting,"Evaluate alternative wind-speed distributional hypotheses, including the bimodal Weibull model, using a much larger and geographically diverse offshore dataset than previous studies."
+R707558__objective_002,probability distribution comparison,Illustrate that finding an optimal wind-speed distributional model is contingent upon the application of interest.
+R707568__objective_001,resource quantification,Perform an in-depth analysis of a wind resource through investigating the short term penetration of regional wind power and evaluating a broad range of probability statistical methods.
+R707568__objective_002,probability distribution comparison,Compare the efficiency of a wide range of probability distribution functions and their compatibility with the empirical wind data.
+R707568__objective_003,extreme value analysis,"Conduct an extreme analysis of the wind resource using periodic maxima, the Gumbel distribution function, and the Harris algorithm to determine the 50-year extreme wind speed."
+R707578__objective_001,probability distribution comparison,"Evaluate the suitability of a large number of probability density functions, commonly used to model hydro-climatic variables, to characterize short term wind speeds recorded at meteorological stations located in the United Arab Emirates."
+R707587__objective_001,goodness-of-fit criteria comparison,Review the different criteria used in the field of wind energy to compare the goodness-of-fit of candidate probability density functions to wind-speed records and discuss their advantages and disadvantages.
+R707587__objective_002,model selection method development,Develop and assess the applicability of moment-ratio and L-moment-ratio diagram methods for selecting probability density functions for wind-speed data.
+R707587__objective_003,probability distribution comparison,"Assess the fit of selected probability density functions for wind-speed series in the United Arab Emirates using moment-ratio diagrams, L-moment-ratio diagrams, and goodness-of-fit criteria."
+R707596__objective_001,distribution fitting,Investigate the potential of homogeneous and heterogeneous mixture distributions to model wind speed data in a northern environment.
+R707596__objective_002,probability distribution comparison,Use the L-moment ratio diagram to identify appropriate one-component distributions for the selected stations.
+R707661__objective_001,resource characteristics analysis,Analyze the regional mean wind speed characteristics in a coastal region of northwestern Crete.
+R707661__objective_002,probability distribution comparison,"Examine the performance of the Weibull, Rayleigh, Lognormal, Gamma, and Inverse Gaussian parametric probability distributions to model the experimental wind speed frequency distributions."
+R707672__objective_001,distribution fitting,Estimate wind speed probability distribution using a non-parametric kernel density estimation method.
+R707672__objective_002,probability distribution comparison,Compare the proposed non-parametric kernel density estimation with ten conventional parametric distribution models for wind speed.
+R707682__objective_001,probability distribution comparison,To categorize appropriate theoretical probability density distributions of wind speed at four meteorological observatories in Rwanda.
+R707682__objective_002,probability distribution comparison,"To test and compare Weibull, Rayleigh, lognormal, normal, and Gamma probability density distributions in order to determine the best fitting distributions to the empirical distribution of wind speed."
+R707692__objective_001,distribution fitting,To investigate the applicability of heterogeneous mixture distributions for modeling wind speed data in the UAE.
+R707692__objective_002,probability distribution comparison,To identify the most appropriate probability distribution to model wind speed data in the UAE.
+R707701__objective_001,probability distribution comparison,"To assess and evaluate Johnson-Wehrly, Farlie-Gumbel-Morgenstern, and Plackett bivariate distribution families for modelling joint wind speed and wind direction at geographically diverse Mediterranean locations."
+R707701__objective_002,resource quantification,To apply the most efficient bivariate models to estimate the detailed structure of wind power density at three selected locations.
+R707709__objective_001,probability distribution comparison,Assess and fit multi-parameter distributions to investigate their efficiency and capability in modelling offshore wind-speed data compared with the widely suggested Weibull distribution and other relatively simple distributions.
+R707709__objective_002,probability distribution comparison,Assess the effect and efficiency of selected fitted wind-speed distributions in terms of mean theoretical wind power and average wind turbine power output.
+R707902__objective_001,resource quantification,Quantification of the annual wind energy yield (AEY) on a high spatial resolution grid.
+R707902__objective_002,influencing factor analysis,Identification of the most important factors influencing the local wind resource.
+R708241__objective_001,probability distribution comparison,Examine the suitability of the skewed generalized error distribution and skewed t distribution as wind-speed distributions using wind-speed data measured in various regions of Turkey.
+R708241__objective_002,probability distribution comparison,Compare the performance of SGED and STD relative to the widely used Weibull distribution using five model-selection criteria.
+R708252__objective_001,resource quantification,Assess offshore wind energy resources in the Bohai Rim Economic Circle of China.
+R708252__objective_002,extreme value analysis,Estimate potential risks that offshore wind turbines suffer from severe extreme wind speeds over different return periods.
+R708252__objective_003,distribution fitting,Determine proper wind-speed and extreme-wind-speed distribution functions using CS and CPSO parameter optimization algorithms.
+R708260__objective_001,probability distribution comparison,Review and compare popular parametric and non-parametric models for wind speed probability distribution and estimation methods for their parameters using four sites in central China.
+R708260__objective_002,energy potential estimation,Evaluate the wind energy potential of the selected wind farms.
+R708260__objective_003,turbine selection,Compare and discuss the influence of power curves on wind-turbine selection and consider power loss caused by turbine wakes and mutual effects between turbines.
+R708270__objective_001,probability distribution comparison,"Determine the optimal statistical distribution for wind energy assessment by comparing five probability distributions using wind-speed data from three sites in Bohaiwan, China."
+R708270__objective_002,parameter estimation method comparison,Compare seven methods for estimating Weibull distribution parameters for wind-energy assessment.
+R708294__objective_001,distribution fitting,Estimate wind speed probability distributions using an improved diffusion-based kernel density method.
+R708294__objective_002,probability distribution comparison,Compare the proposed method with other approaches for estimating probability densities of parametric distribution functions and actual wind speed data.
+R708307__objective_001,resource characteristics analysis,Accurately characterize and predict the annual variation of wind conditions.
+R708307__objective_002,probability distribution comparison,Compare the MMWD model with widely used wind-speed fitting methods.
+R708327__objective_001,distribution fitting,Fit eight conventional PDFs and eight MEP-derived PDFs to wind-speed datasets from five representative North Dakota sites.
+R708327__objective_002,probability distribution comparison,Determine the appropriate wind-speed distributions for each site using six goodness-of-fit statistics and a comprehensive metric combining individual statistics.
+R708887__objective_001,probability distribution comparison,"To provide a comprehensive performance assessment of numerous, commonly used probability density functions on a global scale."
+R708887__objective_002,probability distribution comparison,To compare the performance of commonly used probability density functions to newly introduced mixture probability density functions.
+R708911__objective_001,new distribution development,To develop a system of wind speed distributions that is capable to reproduce the large majority of the existing near-surface wind speed regimes.
+R708911__objective_002,probability distribution comparison,To demonstrate the great versatility of the system of wind speed distributions by fitting numerous wind speed regimes existing around the world.
+R708940__objective_001,new distribution development,To introduce the Extended Generalized Lindley Distribution as an alternative wind-speed distribution and evaluate its capability in estimating wind-speed data.
+R708940__objective_002,probability distribution comparison,"To compare EGLD with Weibull, Rayleigh, Lognormal and Gamma distributions on real wind-speed data from different regions of Turkey using model-selection criteria commonly used in wind-energy literature."
+R709006__objective_001,probability distribution comparison,Assess the accuracy of different probability functions for modeling wind speed distribution at four locations distributed over Algeria.
+R709006__objective_002,probability distribution comparison,Minimize the uncertainty in wind resource estimates by determining the parameter-estimation method that gives the best parameters for each distribution.
+R709022__objective_001,probability distribution comparison,"To carry out an evaluation on sensitivity of four wind speed distribution functions to accuracy of anemometer measured wind data at five locations, and to compare their aptness for describing wind speed characteristics."
+R709039__objective_001,new distribution development,To propose use of the Generalized Lindley and Power Lindley distributions as alternatives to the Weibull distribution for modeling actual wind-speed data.
+R709039__objective_002,probability distribution comparison,To compare the modeling performance of Generalized Lindley and Power Lindley distributions with the Weibull distribution.
+R709075__objective_001,probability distribution comparison,Determine the statistical distribution that best fits the local wind regime of ten different sites in the coastal region of South Africa.
+R709075__objective_002,energy yield assessment,Estimate the capacity factor of 20 commercially available wind turbines depending on the local wind regimes of the sites and investigate the impact of turbine operating parameters on capacity factor.
+R709086__objective_001,probability distribution comparison,Evaluate and compare numerical methods and metaheuristic optimization algorithms for estimating parameters of low-speed wind distribution models.
+R709086__objective_002,probability distribution comparison,Select the optimal wind-speed probability density function for assessment of low-speed wind-energy resources in the study area.
+R709096__objective_001,new distribution development,Develop a hierarchical mixture of multiple distributions model to model the frequency distribution of wind speed and introduce nested EM to estimate its parameters.
+R709096__objective_002,probability distribution comparison,"Compare the performance of mixture of Weibull, Gamma, lognormal, and Rayleigh distributions and examine whether mixture of Weibull is always better than other mixture models."
+R709096__objective_003,resource quantification,"Estimate wind power density, wind energy density, most probable wind speed, and maximum energy carrying wind speed under the complex PDF expression of HMMD."
+R709096__objective_004,energy yield assessment,"Evaluate the performance of different wind energy conversion systems using capacity factor, electricity production, cost, and an aggregative indicator."
+R709107__objective_001,probability distribution comparison,To assess the suitability of multi-peak Gaussian functions for wind-speed distributions in place of Weibull distribution functions and to compare the two.
+R710275__objective_001,energy potential estimation,Map and assess wind-energy potential in the Far North Region of Cameroon.
+R710637__objective_001,energy potential estimation,Determine the wind energy potential characteristics for the Abong Mbang weather station and its immediate environ.
+R710637__objective_002,probability distribution comparison,Determine the best representative probability density function for the Abong Mbang weather station and its immediate environ.
+R710647__objective_001,energy yield assessment,Assess the performance of wind turbines for electricity generation at hilltops and exposed ridge tops around the district of Maroua.
+R710647__objective_002,cost of energy analysis,Estimate the cost of wind energy production using six wind turbines ranging from 50 to 2000 kW at hilltops and exposed ridge tops around the district of Maroua.
+R711154__objective_001,energy potential estimation,"To assess wind energy potential for water pumping windmills in the north region of Cameroon using monthly wind data over a six-year period from 2007 to 2012, and to estimate daily water production for a hypothetical windmill under total dynamic heads ranging from 10 to 30 meters."
+R711159__objective_001,energy potential estimation,To model the wind speed using the Weibull distribution at Ambam in order to estimate the wind energy potential.
+R711159__objective_002,parameter estimation method comparison,"To compare the graphical method, empirical method, energy pattern factor method, and moment method for determining Weibull parameters k and C and determine which method gives the parameters better efficiency."
+R711419__objective_001,probability distribution comparison,"To select, within the generalized extreme value family of distributions, the distribution best suited for wind-power assessment and modelling for the future installation of an on-shore wind turbine at Debuncha."
+R711419__objective_002,probability distribution comparison,To study the conditions under which the two-parameter Weibull distribution can best be used for wind-power modelling and assessment.
+R711419__objective_003,resource characteristics analysis,To study wind-power variation over the seasons at Debuncha.
+R711460__objective_001,resource characteristics analysis,"To provide a comprehensive statistical analysis of the mean monthly, annual, and interannual variability of wind speed data in Cameroon."
+R711460__objective_002,probability distribution comparison,"To use Weibull, Normal, and Lognormal probability density functions to specify the best-fitting PDF for wind-speed data in the study area."
+R711460__objective_003,energy potential estimation,To investigate wind speed and wind-energy-potential variability at 2745 locations enclosing Cameroon and some neighbouring territories.
+R711507__objective_001,resource characteristics analysis,Study the wind characteristics of Bafoussam.
+R711507__objective_002,probability distribution comparison,Use Weibull and Rayleigh probability distribution models and goodness-of-fit tests to determine which model best fits the wind regime at the site.
+R711507__objective_003,energy potential estimation,Evaluate the wind energy potential application of windmills and determine wind speed classes and dominant wind directions at Bafoussam.
+R711568__objective_001,energy potential estimation,Evaluate the wind energy potential of Cameroon through the estimation of accurate Weibull parameters using thirteen numerical methods for each of the 10 regions of Cameroon.
+R711568__objective_002,parameter estimation method comparison,Determine the accurate Weibull parameters and compare thirteen numerical methods for wind-energy-potential estimation at ten sites in Cameroon.
+R712261__objective_001,resource quantification,"The objective of this work is to acknowledge the use of satellite-based wind resource as appropriate to provide a reasonable assessment, before higher-accuracy on location measurements are accessible."
+R712261__objective_002,techno-economic analysis,The present paper explores wind energy generation using electric systems for water pumping in the North region of Cameroon.
+R712261__objective_003,energy yield assessment,The study explores wind resource and characteristics of pitch-regulated wind turbines to take full advantage of costs of energy and water produced.
+R712275__objective_001,parameter estimation method comparison,To select a method that gives more accurate estimation for the Weibull parameters at Kousseri in order to reduce uncertainties related to wind energy output calculation from Wind Energy Conversion Systems.
+R712288__objective_001,parameter estimation method comparison,To select a method that gives more accurate estimation for the Weibull parameters in order to reduce uncertainties related to the wind energy output calculation.
+R712532__objective_001,energy potential estimation,Assess the wind energy potentiality in Alasaba by applying statistical analytic tools to investigate wind properties in the area.
+R712549__objective_001,energy potential estimation,Evaluate the wind energy potential of Kırklareli University Kayalı Campus and provide a point of view about evaluating the wind energy potential of locations in Kırklareli province.
+R712552__objective_001,energy potential estimation,"To calculate the wind power potential of six locations, namely Manisa, Nig˘de, Elazıg˘, Bingöl, Erzurum and Kars in Turkey."
+R712555__objective_001,energy potential estimation,To determine the wind energy potential at Djibouti-city using five years of wind-speed data.
+R712555__objective_002,energy yield assessment,To analyse five-year wind-speed data using micro wind turbines in the city center of Djibouti.
+R712555__objective_003,cost of energy analysis,To determine the economic impact of energy produced by micro wind turbines and attract the interest of investors.
+R712559__objective_001,probability distribution comparison,To assess eight different distribution methods employed for modeling the wind probability distribution using wind-speed data collected at urban and rural stations in Djibouti.
+R712626__objective_001,energy potential estimation,"Determine the wind potential in two regions of Algeria according to months, seasons, and entire years."
+R712626__objective_002,resource mapping,Contribute to the update of the wind map in Algeria.
+R712630__objective_001,turbine selection,The general objective of this work is the choice of wind turbine technology to install in Laayoun city.
+R712630__objective_002,energy potential estimation,"To examine the wind power potential of the Laayoune site using wind speed, wind direction, and other meteorological data collected during one year."
+R712633__objective_001,climate projection,To provide the first comprehensive assessment of wind speed projections across Zambia using the latest version of high-resolution CORDEX-Africa models.
+R712633__objective_002,energy potential estimation,To assess wind speed and wind power potential across Zambia and identify implications for wind energy generation.
+R712637__objective_001,resource characteristics analysis,To carry out the wind characteristic of the Ngaoundere locality.
+R712637__objective_002,resource quantification,To provide a wind resource map useful for the selection of suitable areas for wind park installation.
+R712641__objective_001,production dynamics analysis,Analyse the dynamics of wind power production at the Taïba Ndiaye wind farm and its link to meteorological parameters at different time scales.
+R712644__objective_001,resource characteristics analysis,"Characterize wind spatial and temporal distributions at 10 and 100 m in Senegal, with a focus on the Basse Casamance area."
+R712644__objective_002,energy potential estimation,"Assess wind potential by analyzing wind power density in Senegal, with a focus on the Basse Casamance area."
+R712648__objective_001,resource quantification,Study and investigate the wind power and energy density capacity available in Kano.
+R712648__objective_002,resource characteristics analysis,"Group the findings according to month, year and season to understand intermittency of wind energy in Kano so that measures are put in place during investment."
+R713394__objective_001,energy potential estimation,"To investigate the wind power potential for Accra, Ghana by employing two parameter Weibull distribution functions using monthly wind speed meteorological data during the period of fifteen years (2002 – 2016)."
+R713398__objective_001,energy potential estimation,To investigate the wind energy potential of the northern coast of Senegal along the Atlantic Ocean.
+R713398__objective_002,resource characteristics analysis,To further knowledge about the coastal wind resource through statistical analysis of available records from five sites.
+R713398__objective_003,resource mapping,To promote wind energy in Senegal and help create a prospective Senegalese Wind Atlas.
+R713401__objective_001,energy potential estimation,"Analyse the wind potential at the Abeche, Mongo, and N'Djamena sites using wind speed data extracted over a 20-30-year period."
+R713401__objective_002,techno-economic analysis,Evaluate the techno-economic performance of five wind turbines for electricity generation at three selected sites in central Chad.
+R713405__objective_001,distribution parameter estimation,"Estimate the two-parameter Weibull distribution parameters k and c for wind-speed data from Kano, Maiduguri, Jos, Abuja, and Akure using ten numerical methods."
+R713405__objective_002,parameter estimation method comparison,Assess the performance of ten numerical methods for estimating Weibull parameters and determine the most effective method for each studied location.
+R713405__objective_003,energy potential estimation,Evaluate wind-energy potential characteristics of the five Nigerian locations.
+R713411__objective_001,resource characteristics analysis,"Investigate the wind energy resources in Koluama, Bayelsa State, Nigeria using 30 years historical data to establish the trend and variability of wind speed and direction."
+R713411__objective_002,energy potential estimation,Estimate wind power density and wind-energy potential via a range of turbines.
+R713411__objective_003,policy recommendation,Make recommendations based on results for wind energy adoption and use for powering small communities.
+R713416__objective_001,energy potential estimation,Investigate the wind energy potential in three offshore regions of Nigeria.
+R713416__objective_002,probability distribution comparison,"Determine the probability distribution model that best fits the available wind data from Lagos (VI), Rivers (Abonemma) and Warri (Koko)."
+R713416__objective_003,energy yield assessment,Estimate the anticipated performance of four commercial wind turbines within the stipulated regions.
+R713420__objective_001,energy potential estimation,"The objective of this survey is to explore the resources of the Algerian wind by using the meteorological data, the temperature and direction of the wind. An effort was made to evaluate the energy potential of various regions and to conduct a classification of these regions."
+R713424__objective_001,energy potential estimation,To evaluate the wind energy potential in six selected locations along the coast of Ghana.
+R713424__objective_002,cost of energy analysis,To perform an economic analysis on selected small to medium size commercial wind turbines using existing wind data.
+R713430__objective_001,resource quantification,"To ascertain the possibility of using offshore wind energy as an alternative power supply in Lagos, Nigeria."
+R713430__objective_002,energy yield assessment,"To provide information on how much electricity can be generated from offshore wind energy available in the southern coastal region of Lagos State, Nigeria."
+R713440__objective_001,probability distribution comparison,Determine the statistical distribution that best describes the wind regime of Johannesburg.
+R713440__objective_002,energy potential estimation,Calculate statistical parameters and evaluate wind power potential based on the most suited distribution.
+R713440__objective_003,resource characteristics analysis,Investigate wind characteristics and wind power potential of Johannesburg for electric power generation.
+R713440__objective_004,cost of energy analysis,Carry out cost analysis of selected commercially available wind turbines using the levelised energy cost method.
+R713445__objective_001,resource quantification,To investigate the possibility of utilizing wind energy for electricity generation at 15 different sites across the 6 geographical zones of Nigeria.
+R713445__objective_002,cost of energy analysis,To provide scientific information that can lead to optimal investment in wind technology for electricity generation.
+R713445__objective_003,turbine selection,To determine the appropriate wind turbine for viable sites for grid integration from capacity-factor estimation.
+R713448__objective_001,energy potential estimation,Is there any exploitable offshore wind energy potential in Benin Republic for power generation?
+R713451__objective_001,energy potential estimation,To assess the wind power potential in eight sites located in the northern coastal area of Senegal.
+R713451__objective_002,energy yield assessment,To assess wind electricity generation using three large wind turbines with nominal power between 1250 kW and 2000 kW and three small wind turbines with nominal power between 0.3 W and 0.6 kW.
+R716871__objective_001,energy potential estimation,"To determine the wind energy potential for the Msallata, Espiaa, Alqatrun, and Adirsiyah sites in Libya."
+R716871__objective_002,probability distribution comparison,"To compare Weibull-distribution results determined by EMJ, GM, and MLM with real wind data and identify the most appropriate statistical method."
+R717690__objective_001,parameter estimation method comparison,Three of the most commonly used methods to estimate the parameters of the two-component mixture Weibull distribution are revised and compared in this paper.
+R717690__objective_002,probability distribution comparison,To analyse the estimation methods using hourly mean wind speed data recorded at four weather stations located on the island of Gran Canaria.
+R717690__objective_003,probability distribution comparison,To compare the ability of the fitted distributions to describe the experimental wind power density distribution.
+R717710__objective_001,resource quantification,Estimate as accurately as possible the amount of wind energy that can be harnessed on the sites of Cotonou (Benin) and Lomé (Togo).
+R717710__objective_002,probability distribution comparison,"Best fit the wind speed probability density function of the Cotonou and Lomé sites and compare ANFIS, MLP, SVR, EMJ, and MLM."
+R717717__objective_001,resource quantification,The aim of this paper is to evaluate the feasibility of wind park project in Borj-Cedria.
+R717717__objective_002,turbine selection,The aim of this paper is to present the best 1.5 MW wind turbine adapted to the site condition.
+R717721__objective_001,energy potential estimation,The work investigated the wind energy potential of the coastal region of south-south Nigeria and therefore the viability of wind as an alternative and sustainable energy source to conventional energy sources.
+R718237__objective_001,energy potential estimation,"Assess the wind energy potential in Morocco’s coastal regions using wind-speed distributions, Weibull analysis, and wind power and energy density calculations at different heights."
+R718237__objective_002,turbine selection,Determine the most suitable wind turbine to install at each site based on calculated energy output and capacity factor.
+R719349__objective_001,energy potential estimation,Assess the wind energy potential of ten selected sites in the south western region of Nigeria.
+R719349__objective_002,cost of energy analysis,Carry out a cost benefit analysis of wind power generation at the selected sites.
+R719358__objective_001,energy potential estimation,To model and assess the wind potential available in some regions of the north of Algeria using average daily meteorological data collected at a standard height of 10 m.
+R719358__objective_002,feasibility assessment,To investigate wind pumping for possible use to meet the needs of excessive irrigation water in rural areas of these regions.
+R719366__objective_001,resource quantification,To quantify the exploitable wind resources in Naama during periods of reduced solar insolation.
+R719366__objective_002,resource complementarity analysis,To evaluate the potential of wind energy in counterbalancing solar intermittency.
+R719366__objective_003,resource complementarity analysis,To explore the temporal complementarity between solar and wind energy resources in the Naama region.
+R719520__objective_001,energy potential estimation,Analyze wind-speed characteristics and wind potential at Libya's eastern Mediterranean coast area (Tobruk) for a nine-year period from 2008 to 2016.
+R719520__objective_002,cost of energy analysis,Estimate the electricity-generated cost of seven different wind turbine models using the present value of costs method.
+R720066__objective_001,distribution parameter estimation,Analyze the shape and scale factors for wind speed using Weibull and Rayleigh distributions.
+R720066__objective_002,energy potential estimation,"Evaluate Weibull and Rayleigh wind-speed distributions using R2, Chi-square, and RMSE and calculate the wind-energy potential in Medan."
+R720167__objective_001,probability distribution comparison,To assess eight different distribution methods employed for modeling the wind probability distribution using wind-speed data from urban stations of University of Djibouti and International Airport of Djibouti and rural stations of Ghoubet and Bada Wein.
+R720348__objective_001,energy potential estimation,Analyze the wind speed characteristics and wind potential at Libya's eastern Mediterranean coast area (Tobruk) for a nine-year period (2008-2016).
+R720348__objective_002,cost of energy analysis,Estimate the electricity-generated cost of seven different wind-turbine models using the present value of costs method.
+R720760__objective_001,resource quantification,Assess wind energy resources and develop a wind-resource map for the city of Bangui.
+R720760__objective_002,resource characteristics analysis,Model physical parameters useful for evaluation of Bangui’s wind-energy potential and compare the results with those obtained by the WAsP code.
+R720773__objective_001,energy potential estimation,"Model the observed daily average wind-speed data for Enugu, Onitsha, and Owerri in terms of the Weibull distribution to enable accurate prediction of wind potentials for the locations."
+R720773__objective_002,probability distribution comparison,Compare predicted and measured wind-speed probability-density distributions for the three locations.
+R722053__objective_001,resource quantification,"Evaluate the possibility of a wind farm that will meet the energy requirement of Federal University of Kashere, Gombe State."
+R722053__objective_002,resource characteristics analysis,Determine the average wind speed of the geographical ranges of Federal University of Kashere.
+R722053__objective_003,distribution fitting,Obtain the wind distribution all through the year and the seasons.
+R723171__objective_001,probability distribution comparison,Identify the best fit for the probability density function of wind-speed data and ascertain suitable sites for wind-power generation.
+R723171__objective_002,parameter estimation method comparison,"Compare maximum likelihood, method of moment, power density, empirical, and logarithmic moment methods for estimating two-parameter Weibull parameters for five Nigerian locations."
+R723171__objective_003,techno-economic analysis,Examine the techno-economic performance of five 25 kW pitch-controlled wind turbines with dissimilar design characteristics at varying hub heights.
+R723300__objective_001,resource quantification,Investigate the feasibility of wind power generation for thirteen sites across Nigeria’s vegetational zones.
+R723300__objective_002,energy yield assessment,Investigate the wind-energy potential for electricity generation by means of wind turbines for the selected sites.
+R723318__objective_001,probability distribution comparison,To determine a model to best fit the wind-speed dataset and provide efficient estimate of potential power in the wind.
+R723318__objective_002,energy potential estimation,"To assess wind-power potential in Yola, Nigeria using fitted probability distributions and wind-speed estimates at selected hub heights."
+R723373__objective_001,energy potential estimation,Assess wind energy potentials of selected high-altitude and coastal areas in Nigeria for possible utilization for electricity generation.
+R723373__objective_002,techno-economic analysis,"Provide pragmatic insight that will enhance investment in wind energy conversion systems in an optimal manner, including determination of the effect of varying hub height on unit cost of energy."
+R724371__objective_001,probability distribution comparison,To compare the fitting performance of five wind speed probability distribution models and determine the best wind speed distribution model for the studied coastal Zhejiang regions.
+R724371__objective_002,parameter estimation method comparison,To compare six Weibull parameter estimation methods at four places and determine the best parameter estimation method.
+R724404__objective_001,new distribution development,"Construct a new probability distribution to fit the wind speed data in Inner Mongolia, China."
+R724404__objective_002,energy potential estimation,Evaluate wind energy potential based on the wind speed data of each wind power station in Inner Mongolia.
+R724501__objective_001,distribution parameter estimation,"To estimate the parameters of the Weibull wind-speed probability density distribution and their standard errors, and to analyse the influence of autocorrelated wind speeds on parameter estimation and approximate confidence bounds of wind power density and other statistical functions."
+R724505__objective_001,distribution fitting,"To evaluate the fit of average wind speed data for Brasilia, Campo Grande, Cuiaba and Goiania in central western Brazil to the GEV, GUM and LN probability distribution functions."
+R725713__objective_001,probability distribution comparison,Present a systematic investigation of the accuracy of the Weibull distribution for wind-speed measurements in comparison with other possible related distributions.
+R725713__objective_002,probability distribution comparison,Investigate a family of two-parameter distributions of wind speeds measured over different time periods spanning from 10-min to one-month windows.
+R725792__objective_001,distribution fitting,To model the frequency distribution of the three-hourly wind speed at ten sites of Burkina Faso.
+R725792__objective_002,probability distribution comparison,"To identify the most appropriate distribution function for the wind speed dataset at the different study sites by comparing Rayleigh, Weibull, Hybrid Weibull, Gamma, and inverse Gaussian distribution functions."
+R725875__objective_001,probability distribution comparison,"To propose and compare Weibull, gamma, and exponential distribution models in estimating the best distribution functions of wind speed characteristics in Medan City, Indonesia."
+R725964__objective_001,probability distribution comparison,"Investigate the appropriateness of nine popular probability distribution models for assessment of wind-speed distribution at 10 topographically distinct sites in Tamil Nadu, India, based on 39 years of data."
+R726086__objective_001,parameter estimation method comparison,To investigate whether the exponentiated Weibull distribution is sufficiently flexible and adaptable to accommodate different shapes of wind speed data.
+R726086__objective_002,probability distribution comparison,"To model hourly wind-speed data from the Poprad meteorological station using two-parameter Weibull, three-parameter Weibull, and exponentiated Weibull distributions."
+R726125__objective_001,new distribution development,To develop more accurate models for determination of wind speed characteristics using the Finsler geometry method.
+R726125__objective_002,probability distribution comparison,To compare the Finsler geometry method with Weibull and Rayleigh models for modeling wind speed data in different regions.
+R727032__objective_001,energy potential estimation,To evaluate the potential of wind resource in Rwanda and to constitute a database for the users of wind power.
+R727428__objective_001,distribution fitting,Evaluate wind speed using the inverse Weibull distribution.
+R727428__objective_002,resource characteristics analysis,Provide accurate assessments of wind resources for renewable-energy applications and wind-farm design through analysis of wind-speed characteristics.
+R727440__objective_001,distribution fitting,"To model wind speed characteristics using two- and three-component mixture probability distribution functions generated from combinations of Weibull, Gamma, and Inverse Gaussian distribution functions."
+R727445__objective_001,energy potential estimation,Assess the wind potential of the Arzew industrial region in northwest Algeria.
+R727445__objective_002,configuration selection,Determine an optimal wind-farm configuration and compatible wind-turbine technology to improve site efficiency.
+R727445__objective_003,techno-economic analysis,Conduct a techno-economic and environmental study to choose the wind-farm model that produces maximum annual net energy with a competitive cost.
+R727542__objective_001,resource quantification,This study quantifies the offshore wind energy resource available to South Africa under four developmental scenarios.
+R727542__objective_002,site selection,Identify the most suitable wind farm development regions within the South African exclusive economic zone.
+R727583__objective_001,distribution fitting,Use the Inverted Kumaraswamy distribution for the first time to model wind-speed data as an alternative to the well-accepted Weibull distribution.
+R727583__objective_002,probability distribution comparison,"Estimate IKum distribution parameters using maximum likelihood, least squares, and maximum product of spacing methods, and compare the efficiencies of these methods through a Monte-Carlo simulation study."
+R727583__objective_003,probability distribution comparison,Evaluate the modeling performances of Weibull and IKum distributions using goodness-of-fit criteria and power density error values.
+R727587__objective_001,probability distribution comparison,"Verify the adequacy of the Weibull, Normal and GEV distributions in the modeling of wind speed data of the Adrar region."
+R727587__objective_002,energy yield assessment,Evaluate the expected performances of a wind park located in the Adrar area.
+R727592__objective_001,parameter estimation method comparison,"Compare the graphical method and standard deviation method for Weibull parameter estimation in the coastline region of Dar es Salaam, Tanzania."
+R727592__objective_002,energy potential estimation,"Estimate future wind energy potential in the coastline region of Dar es Salaam, Tanzania."
+R727592__objective_003,turbine selection,Determine suitable cost-effective wind turbines for the study location from numerical-method comparisons and simulated turbine performance.
+R727661__objective_001,resource mapping,map the wind resource of two cities of Ndjamena and Faya
+R727661__objective_002,energy yield assessment,evaluation of the annual energy produced at an altitude of 80m or 100m by the simulation of wind data
+R727673__objective_001,resource characteristics analysis,"Determine the wind distribution and calculate the working hours of the wind turbine from temperature, air-density, and wind-speed data at an altitude of 80 meters from the ground."
+R727673__objective_002,energy yield assessment,Estimate the monthly produced energy and determine the seasonal and annual energy produced by the Gamesa G52 wind turbine.
+R727676__objective_001,techno-economic analysis,To examine the energy productivity and economic viability of small-scale wind energy systems in different locations and regions of South Africa.
+R727714__objective_001,energy potential estimation,Investigate wind power potentials and wind-speed characteristics at four selected locations in the North-Central and North-East parts of Nigeria.
+R727714__objective_002,turbine selection,Identify adequate wind turbines for the selected locations and determine the effect of wind-turbine parameters on capacity factor.
+R727799__objective_001,energy potential estimation,Evaluate the wind potential of four locations in southern Algeria.
+R727799__objective_002,energy yield assessment,Evaluate the energy production of the CALORIUS 37 wind turbine using meteorological and geographical data for the studied locations.
+R727799__objective_003,avoided emissions estimation,Estimate the annual energy produced in order to determine preserved fossil energy and quantities of CO2 that can be avoided.
+R727821__objective_001,resource characteristics analysis,"Provide an updated assessment of long-term and seasonal wind speed variation over the UK at local, regional, and national levels, including changes in Weibull distributions and implications for wind power generation."
+R727821__objective_002,energy yield assessment,"Use Weibull parameters to evaluate wind power density and turbine-specific wind-energy assessment parameters, including capacity factor and operation probability."
+R728960__objective_001,probability distribution comparison,Use mixture distributions to fit wind-speed distributions in various wind regimes.
+R728960__objective_002,new distribution development,"Construct two variational-Bayesian infinite mixture distributions, IMoG-I and IMoG-II, extended from finite MoG using stick-breaking construction."
+R728960__objective_003,probability distribution comparison,"Compare the fitting performances of IMoG-I, IMoG-II, finite mixture models, and popular single distributions for wind-speed distributions under various wind regimes."
+R732443__objective_001,energy potential estimation,Reveal for the first time the wind power potentials in Chad.
+R732443__objective_002,resource mapping,Provide a comprehensive wind map of Chad.
+R1557933__objective_001,estimation,Assess sunshine- and air-temperature-dependent empirical models for global solar-radiation estimation in the Ashanti region.
+R1557946__objective_001,machine learning model development,Develop and evaluate combined temperature-based models and a BNN for daily global solar radiation in Ghardaia.
+R1557954__objective_001,empirical model development,Evaluate empirical daily-GSR models and develop a temperature rainfall humidity model for the Yucatan Peninsula.
+R1560231__objective_001,empirical model development,Estimate solar-radiation exergy and develop empirical global-exergy models for India.
+R1563305__objective_001,empirical model development,Evaluate existing and develop new temperature-based empirical models for daily global solar radiation in humid China.
+R1563330__objective_001,empirical model development,Develop optimal solar-radiation zones and accurate daily global-radiation models using surface meteorological data in China.
+R1563353__objective_001,machine learning model comparison,Evaluate empirical and machine-learning models for daily GSR at five Moroccan locations.
+R1563357__objective_001,empirical model development,Review and develop empirical model formats for diffuse solar radiation at monthly daily and hourly scales.
+R1563360__objective_001,resource characteristics analysis,Evaluate solar radiation cloudiness and sky-view indicators across Ghana climatic zones.
+R1563363__objective_001,resource mapping,Generate high-resolution solar-radiation and PV-power data for China.
+R1563366__objective_001,empirical model comparison,Evaluate 20 empirical models and select suitable GSR predictors for six Fiji stations.
+R1563369__objective_001,machine learning model comparison,"Compare ERA-Interim, eight empirical models and SVM for daily solar-radiation estimation."
+R1563372__objective_001,machine learning model comparison,"Compare time-series, transfer-function, neural-network and hybrid models for high-resolution solar forecasts."
+R1563524__objective_001,environmental impact review,Review environmental impacts and SWOT considerations across renewable-energy technologies.
+R1563613__objective_001,resource characteristics analysis,Use ARIMA models to compare temporal variability of total solar irradiance and surface air temperature.
+R1563618__objective_001,empirical model development,"Develop an adaptive model for hourly global, direct and diffuse solar irradiance using meteorological inputs."
+R1563621__objective_001,forecasting,Evaluate ARIMA and cloud-cover methods for next-hour GHI forecasting.
+R1563639__objective_001,forecasting,"Model and forecast wind, solar and temperature variables for Bahrain’s hybrid PV-wind system using Box-Jenkins ARIMA."
+R1563642__objective_001,physics-based model development,Develop a hybrid ARMA/ANN model driven by numerical weather prediction data to forecast global radiation.
+R1563654__objective_001,forecasting,Evaluate multi-layer perceptron architectures for 24-hour-ahead hourly global irradiation forecasting.
+R1563658__objective_001,forecasting,Optimize a multilayer perceptron with multivariate inputs for daily global-radiation forecasting.
+R1563661__objective_001,time-series model development,Develop SARIMA models for daily and monthly average global solar radiation in Seoul.
+R1563678__objective_001,machine learning model comparison,"Compare ARMA, nonlinear autoregressive neural network and hybrid models for hourly solar-radiation forecasting."
+R1563682__objective_001,forecasting,Forecast monthly solar radiation with SARIMA and map spatial contours using remote-sensing data.
+R1563685__objective_001,time-series model development,"Develop ARMA and ARIMA models for one-, two- and three-month-ahead global solar-radiation forecasting."
+R1563694__objective_001,machine learning model comparison,"Benchmark time-series and machine-learning models for 5-minute, hourly and daily irradiance forecasts."
+R1563699__objective_001,machine learning model development,Develop a supervised SVM model combined with time-series principles for hourly global solar forecasting.
+R1563704__objective_001,machine learning model development,Develop and evaluate a combined ARMA–ANN model for daily global solar radiation.
+R1563707__objective_001,machine learning model comparison,Compare four machine-learning algorithms for daily global solar radiation using Cairo measurements.
+R1563717__objective_001,machine learning model comparison,Compare artificial-intelligence and empirical models for daily diffuse solar radiation at two North China Plain stations.
+R1563720__objective_001,machine learning model comparison,Compare SVM and XGBoost for daily global solar radiation using temperature and precipitation in humid subtropical China.
+R1563723__objective_001,machine learning model comparison,Compare machine-learning algorithms for hourly solar irradiance using meteorological and time-series inputs.
+R1563728__objective_001,machine learning model development,Develop and test support vector regression for daily global solar radiation using sunshine ratio.
+R1563732__objective_001,model validation,Evaluate support vector regression for GHSR using combinations of meteorological variables.
+R1563736__objective_001,machine learning model development,Develop a naïve Bayes classifier for two-day-ahead hourly GHI using weather forecasts.
+R1563739__objective_001,machine learning model comparison,"Compare smart persistence, ANN and random forest for hourly solar-component forecasts at Odeillo."
+R1563742__objective_001,machine learning model comparison,"Compare MARS, CART, M5 and random forest for multi-day hourly solar-radiation forecasting."
+R1563745__objective_001,forecasting,"Evaluate boosting and bagging ensembles of SVR, ANN and decision trees for hourly solar irradiance in Turkey."
+R1563748__objective_001,model validation,Evaluate machine-learning regressors and physical-model post-processing for satellite solar-radiation estimation at Toledo.
+R1563751__objective_001,machine learning model comparison,"Compare SMGRT, deep learning and ANFIS for monthly mean daily solar radiation in Isparta."
+R1563754__objective_001,machine learning model comparison,Compare ANN and RNN solar-radiation forecasts under data-granularity and moving-window scenarios.
+R1563757__objective_001,machine learning model comparison,Compare SVM and tree-based soft-computing models for daily diffuse radiation across China using local and extrinsic climate data.
+R1563832__objective_001,machine learning model comparison,Compare MLP and RBF models for multi-step daily global and direct solar-radiation forecasts in Ghardaia.
+R1563835__objective_001,machine learning model comparison,"Compare deep-learning, machine-learning and ensemble models for hourly global and diffuse solar radiation in Nigeria."
+R1563839__objective_001,machine learning model comparison,"Compare RNN, LSTM and GRU models for daily solar-radiation prediction across five Bangladeshi cities."
+R1563842__objective_001,machine learning model development,Develop and evaluate corrected-SVM daily global solar-radiation estimates from air temperature at Ghardaia.
+R1563845__objective_001,machine learning model development,Develop a Hidden Markov Model and Generalized Fuzzy Model combination for solar-radiation estimation at Gurgaon.
+R1563848__objective_001,machine learning model development,Develop and assess a Coral Reefs Optimization–Extreme Learning Machine model for daily global solar radiation at Murcia.
+R1563851__objective_001,machine learning model development,Develop a genetic multi-model framework for daily solar-radiation prediction in Singapore.
+R1563854__objective_001,machine learning model comparison,Develop and compare a Cuckoo Search-optimized pruned ELM model for solar-radiation forecasting.
+R1563857__objective_001,machine learning model development,Develop hard-ridge penalized RBF models optimized with Cuckoo Search and Differential Evolution for monthly global solar radiation.
+R1563860__objective_001,forecasting,Develop a SOM–SVR–PSO hybrid for hourly solar-irradiance forecasting in Colorado and Singapore.
+R1563863__objective_001,machine learning model development,Develop and validate an SVM–Firefly Algorithm model for monthly global solar radiation at three Nigerian sites.
+R1563866__objective_001,machine learning model development,Develop a hard-penalty nonlinear SVM optimized by Glowworm Swarm Optimization for daily global solar radiation at US sites.
+R1563869__objective_001,model optimization,Optimize random forest with Firefly Algorithm for hourly global solar radiation in Klang Valley.
+R1563872__objective_001,forecasting,"Develop a multi-stage ensemble with two-way interactions, LASSO and Glowworm optimization for five-day GHI forecasts in India."
+R1563875__objective_001,model validation,Evaluate fuzzy regression function–SVM approaches for yearly mean daily horizontal global radiation in Turkey.
+R1563878__objective_001,machine learning model development,Develop an NSMOBA-optimized combined ANN model for accurate and stable solar-radiation forecasts.
+R1563881__objective_001,machine learning model development,Develop and validate a simulated-annealing-calibrated ANN model for daily solar radiation in Mashhad.
+R1563884__objective_001,model optimization,Estimate solar radiation at eight Iranian stations using neighboring-station data and Krill-Herd-optimized SVR.
+R1563887__objective_001,forecasting,Develop and compare ANFIS-muSG for temperature-only global solar-radiation prediction in North Dakota.
+R1563890__objective_001,forecasting,Develop SVR-GOA-BAK for automatic feature selection and hyperparameter tuning for GHI forecasting at Saudi sites.
+R1563893__objective_001,machine learning model development,Develop a robust hybrid WT–CEEMDAN–IASO–ORELM model for solar-radiation prediction.
+R1563896__objective_001,machine learning model development,Develop and benchmark CNN-REGST for daily global solar radiation at six Queensland solar farms.
+R1563899__objective_001,machine learning model development,Develop CMA-ES-hybridized XGB and MARS models for daily solar radiation at four Burkina Faso stations.
+R1563902__objective_001,machine learning model comparison,"Compare ANN, Angstrom empirical, Holt-Winters and response surface models for monthly daily global solar radiation in Turkey."
+R1563911__objective_001,model optimization,Optimize ANN prediction of inclined-surface solar irradiance using meteorological variables in Douala.
+R1563914__objective_001,forecasting,Assess SEVIRI 3D-Var radiance assimilation in WRF Solar for irradiance prediction in Italy.
+R1563917__objective_001,physics-based model development,Develop and evaluate a WRF plus clearness-index Kalman filter model for day-ahead solar radiation at Maizuru and Qinghai.
+R1563920__objective_001,control algorithm comparison,Compare Kalman-filter and incremental-conductance MPPT algorithms in a PV boost-converter system.
+R1563923__objective_001,forecasting,Assess Local Ensemble Transform Kalman Filter data assimilation in ENLIL for solar-wind prediction.
+R1563927__objective_001,forecast reliability analysis,Identify predictors of satellite-based intraday solar-irradiance forecast reliability in Paris.
+R1563930__objective_001,physics-based model development,Develop a Kalman-filter PV power model using NWP and forecast experience for ultra-short-term prediction.
+R1563933__objective_001,energy potential estimation,Predict irradiation and temperature with LSTM and estimate solar-energy potential for 20 northern Cameroon locations.
+R1563937__objective_001,estimation,"Model hourly global, direct and diffuse incident solar radiation on horizontal and inclined surfaces in N’Djamena."
+R1563974__objective_001,site selection,Assess wet-cooled grid-connected CSP suitability and theoretical potential in Cameroon with AHP and GIS.
+R1563977__objective_001,physics-based model comparison,"Compare physical and machine-learning models for GHI, DNI, GTI and PV power using Seoul data."
+R1563980__objective_001,empirical model comparison,Evaluate six empirical models and identify the most accurate global solar-radiation estimator for Abeche.
+R1563984__objective_001,machine learning model development,Develop and experimentally validate an ultra-fast sensorless hybrid analytical-machine-learning framework for real-time solar irradiance estimation.
+R1563987__objective_001,resource quantification,Estimate direct solar radiation on horizontal and inclined planes at five Chad locations to inform thermo-solar plant installation.
+R1563991__objective_001,forecasting,Establish and classify ANN short-term solar-irradiation forecasts for 30-minute to six-hour horizons in north-west Senegal.
+R1563995__objective_001,physics-based model comparison,Compare physical PV cell and temperature models for power-output prediction of monocrystalline and polycrystalline modules.
+R1563998__objective_001,forecasting,Compare 3DVAR and 4DVAR data-assimilation initialisations of WRF for hourly next-day solar irradiance forecasts in Singapore.
+R1564001__objective_001,state estimation,Estimate PV module temperature and effective irradiation with an Extended Kalman Filter and use the estimates for maximum power point tracking.
+R1564008__objective_001,time-series model development,Develop and evaluate a hybrid Kalman-filter and regression predictor for 10–20 minute solar irradiance nowcasting.
+R1564076__objective_001,machine learning model comparison,"Evaluate FoBa, leapForward, spikeslab, Cubist, and bagEarthGCV models for daily global solar irradiance forecasts from hours to two days ahead."
+R1564084__objective_001,estimation,Estimate daily global solar radiation across Turkey using a deep learning model and meteorological/astronomical inputs.
+R1564088__objective_001,machine learning model comparison,Compare AI methods for hourly Johannesburg solar irradiance forecasting and identify the most accurate model.
+R1564093__objective_001,machine learning model comparison,"Predict and compare daily global solar radiation at four Turkish provinces using SVM, ANN, k-NN, and deep learning."
+R1564100__objective_001,forecasting,Identify an ANN learning algorithm and hidden-neuron count that accurately predict hourly average solar radiation in Tamil Nadu.
+R1564524__objective_001,machine learning model development,"Develop and evaluate ANFIS, ANFIS-PSO, ANFIS-GA, and ANFIS-DE models for monthly global solar radiation prediction in Malaysia."
+R1565340__objective_001,energy potential estimation,Assess energy generation potential and investment economics of PV systems across Cameroon using satellite-derived solar radiation.
+R1565343__objective_001,machine learning model comparison,Evaluate 24 machine-learning models and select the most accurate model for short-term solar PV power forecasting in Bamenda.
+R1565347__objective_001,empirical model development,Develop and evaluate quadratic clearness-index models for monthly mean daily diffuse solar radiation in four Cameroon cities.
+R1565351__objective_001,energy yield estimation,"Estimate irradiance and temperature using different models and estimate annual PV energy output for Bambili, Cameroon."
+R1565354__objective_001,estimation,Evaluate four conventional regression models for estimating global solar radiation across Cameroon and Senegal tropical locations.
+R1566035__objective_001,resource characteristics analysis,Characterize diurnal-to-seasonal solar-radiation variability in Douala and identify its meteorological and cloudiness drivers.
+R1567953__objective_001,operation scheduling,Optimize day-ahead and annual scheduling of a wind-CSP-electric-heater hybrid system to maximize profit while reducing generation-plan deviation and wind curtailment.
+R1567974__objective_001,energy system selection,Compare validated PV wind-turbine and PV-wind hybrid models to identify suitable Thai residential systems.
+R1568004__objective_001,capacity optimization,Optimize the capacity and performance of a thermal-storage wind-concentrated-solar hybrid system.
+R1568024__objective_001,control optimization,Optimize power tracking and grid integration in a hybrid solar-PV and DFIG wind-energy system.
+R1568778__objective_001,policy review,Review Ethiopia's wind resource utilization policy and project pipeline as an alternative energy future beyond dominant hydropower.
+R1582661__objective_001,energy potential estimation,Assess theoretical hydropower potential by identifying suitable sites with GIS and simulating water availability using hydrological modeling.
+R1594719__objective_001,barrier analysis,"Identify renewable-energy adoption barriers, develop mitigation strategies, and prioritize their implementation."
+R1637917__objective_001,decision factor analysis,"Identify the motivations, opportunities, and barriers that influence Alberta municipal decision-makers’ intention to develop renewable-energy projects."
+R1638041__objective_001,policy evaluation,Analyse UK innovation systems across new and renewable-energy sectors and recommend policies that improve their effectiveness.
+R1638049__objective_001,policy design,"Design an EU renewable-electricity support-policy framework that overcomes technological, economic, and institutional barriers and facilitates sustained carbon lock-out."
+R1638054__objective_001,barrier analysis,Identify and rank renewable-energy project-development barriers in Chile from investors’ and project developers’ perspectives and recommend policies to mitigate them.
+R1639011__objective_001,barrier analysis,"Identify stakeholder roles and actionable, integrated, context-specific strategies to overcome barriers to renewable-energy adoption in Sub-Saharan Africa."
+R1567645__objective_001,forecasting,"Evaluate soil-moisture and streamflow variations and forecasts under streamflow-only, soil-moisture-only, and combined assimilation."
+R1567665__objective_001,forecasting,Assess independent and joint assimilation of SMAP soil moisture and USGS streamflow to improve WRF-Hydro forecasts.
+R1567682__objective_001,data assimilation system development,"Develop and test a sequential, multi-metric procedure for initial tuning of PID controllers used in hydraulic-model data assimilation."
+R1567698__objective_001,model optimization,Optimise EnKF ensemble size and identify product combinations that improve stream-discharge and local reservoir-inflow predictions.
+R1567729__objective_001,forecasting,Assess whether EnKF assimilation of snow-water-equivalent observations improves 120-day hydropower inflow forecasts during snowmelt.
+R1567735__objective_001,data assimilation system development,"Develop SWAT-HDAS by coupling SWATGP and PDAF, then test its multi-source assimilation performance for basin-scale hydrological prediction."
+R1567757__objective_001,data assimilation method comparison,Assess SQRA and Kalman–Takens frameworks for assimilating GRACE TWS and AMSR-E/SMOS soil moisture separately and simultaneously.
+R1567776__objective_001,machine learning model development,Develop multilayer-perceptron models of Kainji and Jebba reservoir variables for hydropower energy-generation prediction.
+R1567813__objective_001,energy potential estimation,Assess selected rivers for small-scale hydropower development.
+R1567836__objective_001,environmental impact assessment,Assess environmental impact of Brazilian hydropower projects and classify them by impact scale using a combined DEA and ANN approach.
+R1567855__objective_001,energy potential estimation,Determine Sombriero River flow rate and hydropower potential and assess financial viability for a micro-hydropower scheme.
+R1567877__objective_001,site selection,"Evaluate and map hydrological and environmental factors, create an AHP weighted suitability index, and identify suitable SHP dam sites in the upper Benue watershed."
+R1567889__objective_001,energy potential estimation,"Assess the theoretical hydropower potential of all rivers in West Africa, including small rivers, and assess possible future discharge changes under climate change."
+R1567909__objective_001,resource mapping,"Delineate groundwater-potential zones in the Ogun drainage basin using integrated hydrogeophysical, remote-sensing, and GIS evidence."
+R1568525__objective_001,energy potential estimation,Estimate the theoretical hydrokinetic energy potential of selected rivers.
+R1568577__objective_001,site selection,Assess prospective small-hydropower sites across Nigeria using ArcGIS spatial analysis.
+R1568594__objective_001,energy potential estimation,Assess and identify sustainable small-hydropower potential sites in Nigeria's Osse Sub-basin.
+R1568654__objective_001,energy potential estimation,Evaluate the hydrological potential of the Upper Blue Nile to meet GERD's declared hydropower-production design.
+R1568665__objective_001,assessment method development,Develop and apply a robust low-cost assessment technique for hydro-kinetic turbines using available discharge data.
+R1568768__objective_001,site selection,Identify and map optimal pumped hydro-energy storage sites around existing Ethiopian hydropower reservoirs using GIS and MCDA.
+R1568773__objective_001,energy potential estimation,Identify and estimate run-of-river hydropower potential sites in the Temcha watershed using GIS and SWAT.
+R1568785__objective_001,climate change impact analysis,Assess prospective climate-change impacts on hydrology and hydropower production.
+R1568785__objective_002,operation optimization,Optimize reservoir operation and hydropower production under constrained and unconstrained releases.
+R1568790__objective_001,energy potential estimation,Assess and prioritize run-of-river hydropower potential at multiple sites in the data-scarce Winike watershed.
+R1568806__objective_001,energy potential estimation,"Assess Megecha watershed surface-water potential, simulate river flow, identify potential hydropower sites, estimate their theoretical power, and select the best alternative."
+R1568816__objective_001,site selection,"Assess potential gross head on the Furfuro River and identify candidate hydropower sites using DEM, GIS, Google Earth, and handheld GPS."
+R1568828__objective_001,site selection,"Identify feasible micro-hydropower locations on the Gilgel-Beles River, estimate technical run-of-river potential and annual energy, assess Alefa Kacha demand with HOMER, and rank sites for development priority."
+R1568843__objective_001,energy potential estimation,"Evaluate theoretical hydropower potential and turbine power production in the Chemoga, Huluka, and Wabe rivers using ten years of daily flow history and topographic analysis."
+R1569160__objective_001,environmental impact assessment,"Quantify Bui Dam-induced changes in Black Volta water yield and hydrological regime using remote sensing, GIS, InVEST, and IHA/RVA analysis."
+R1569361__objective_001,energy potential estimation,"Identify and assess Upper Densu small-hydropower sites using remote sensing, SWAT, FDC/PDC analysis, and turbine screening."
+R1569514__objective_001,site selection,Identify optimal Lower Pra small-hydropower sites and assess their technical feasibility through hydrologic modelling and GIS.
+R1580088__objective_001,reliability analysis,"Monitor hydropower reliability in Malawi using satellite observations, field data, and machine-learning reconstruction of Shire River discharge."
+R1581270__objective_001,machine learning model development,Develop and evaluate artificial-neural-network models for one-month and twelve-month forecasting of Ecuadorian hydropower production.
+R1581274__objective_001,forecasting,"Benchmark CatBoost, XGBoost, and LightGBM for hourly Aslantaş HPP generation forecasting using upstream basin generation, weather, market, and calendar variables."
+R1581530__objective_001,energy yield estimation,Predict hydroturbine output power accurately from turbine test and operational data.
+R1581536__objective_001,forecasting,"Forecast China’s monthly power-generation structure for five years and assess the effects of capacity, urbanization, industrial upgrading, demand, transmission, and environmental scenarios."
+R1582665__objective_001,site selection,Assess temporal and spatial variability of hydropower potential and identify candidate sites.
+R1582734__objective_001,energy potential estimation,"Use remote-sensing imagery to identify water resources, associated land features, and probable sites for small hydropower projects."
+R1582754__objective_001,energy potential estimation,Estimate the theoretical Clean Development Mechanism potential and realistic diffusion of small hydropower projects in India.
+R1582764__objective_001,energy potential estimation,"Assess the potential, sustainability factors, and construction challenges of large run-of-river hydropower in Jammu and Kashmir through a Lower Kalnai case study and stakeholder field survey."
+R1586317__objective_001,model optimization,Predict hydropower generation capacity accurately using standalone and optimized hybrid machine-learning models.
+R1586335__objective_001,machine learning model comparison,Predict daily hydroelectric energy production using hydro-meteorological data and compare modern ensemble and deep-learning models with feature-importance analysis.
+R1586400__objective_001,machine learning model comparison,Compare standalone and metaheuristic-optimized CatBoost and histogram gradient boosting models for hydropower-generation prediction.
+R1586415__objective_001,machine learning model comparison,Develop and compare regression-based machine-learning and statistical models to predict Samanalawewa hydropower generation from rainfall and other weather indices.
+R1594693__objective_001,policy evaluation,Analyze barriers drivers success factors and policies affecting renewable-energy initiatives in rural communities.
+R1563316__objective_001,empirical model development,Compare literature models and develop calibrated empirical models for global solar radiation in Muğla.
+R1563319__objective_001,empirical model development,Evaluate and develop diffuse horizontal radiation models across Chinese climate regions.
+R1563322__objective_001,empirical model development,Develop and validate a single global-solar-radiation model applicable across diversified Indian locations.
+R1563325__objective_001,model optimization,Forecast daily global solar radiation across six Moroccan climatic zones using optimized temperature models.
+R1563333__objective_001,model calibration,Calibrate and evaluate sunshine-based empirical daily radiation models for Iranian climate zones.
+R1563340__objective_001,empirical model comparison,Evaluate temperature-based models and meteorological effects on global solar radiation at Adrar.
+R1563343__objective_001,empirical model development,Develop and test hybrid regression models for monthly global solar radiation in Jubail.
+R1563346__objective_001,empirical model development,Develop and evaluate empirical monthly global solar-radiation models for Eskisehir.
+R1563350__objective_001,empirical model comparison,Evaluate empirical and proposed regression models for daily solar radiation across Peru.
